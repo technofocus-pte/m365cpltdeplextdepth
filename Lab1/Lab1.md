@@ -14,7 +14,7 @@ In this exercise, you direct Copilot in Word to write a speech for you
 based on your company's Income Statement, which is stored as a Word
 document.
 > [!NOTE]
-<span class="mark">**Note**: When you need to reference a file (such as
+<span class="mark">When you need to reference a file (such as
 your company's Income Statement) into a Copilot prompt, the file MUST be
 saved in a OneDrive account. You can't link to a locally stored file on
 your PC.</span>
