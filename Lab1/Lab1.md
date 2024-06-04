@@ -1,4 +1,4 @@
-***Lab 01: Empower your workforce – Copilot - Executives***
+**Lab 01: Empower your workforce – Copilot - Executives**
 
 In this lab, you will
 
@@ -8,7 +8,7 @@ In this lab, you will
 - Use Copilot in PowerPoint to create a PowerPoint presentation based on
   the speech you created.
 
-Exercise 1: Create a speech using Copilot in Word
+***Exercise 1***: Create a speech using Copilot in Word
 
 In this exercise, you direct Copilot in Word to write a speech for you
 based on your company's Income Statement, which is stored as a Word
