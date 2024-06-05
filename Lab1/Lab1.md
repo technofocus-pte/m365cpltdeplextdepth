@@ -38,7 +38,6 @@ it now; otherwise, open a new tab and enter the following
 URL: **https://www.office.com.**
 
 Select the following link to download a copy of Fabrikam's 2023 Income Statement.
-Assets/Fabrikam 2023 Income Statement.docx 
 
 On the Microsoft 365 navigation pane, select OneDrive to open it.
 
