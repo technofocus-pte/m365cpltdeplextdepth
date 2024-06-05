@@ -409,8 +409,7 @@ In this exercise, you will
     - [Tailwind Traders Supplier
       Agreement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Tailwind%20Traders%20Supplier%20Agreement.docx)
   
--     [Wide World Importers Supplier 
-  Agreement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Wide%20World%20Importers%20Supplier%20Agreement.docx)
+    - [Wide World Importers Supplier Agreement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Wide%20World%20Importers%20Supplier%20Agreement.docx)
 
 2.  Select “Download” to download the files to the VM.
 
