@@ -37,6 +37,9 @@ If you have a Microsoft 365 tab open in your Edge browser, then select
 it now; otherwise, open a new tab and enter the following
 URL: **https://www.office.com.**
 
+Select the following link to download a copy of Fabrikam's 2023 Income Statement.
+
+
 On the Microsoft 365 navigation pane, select OneDrive to open it.
 
 <img src="./media/image2.png" style="width:5.88225in;height:5.1461in"
