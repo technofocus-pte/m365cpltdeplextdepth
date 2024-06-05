@@ -38,10 +38,10 @@ application.
 
 - **Lab 07**: Empower your workforce - Copilot-Operations
 
-- **Lab 08**: Creating conversational actions for Microsoft Copilot
+- **Lab 08**: Create conversational actions for Microsoft Copilot
   (preview)
 
-- **Lab 09**: Creating AI plugin actions for Microsoft Copilot (preview)
+- **Lab 09**: Create AI plugin actions for Microsoft Copilot (preview)
 
 During these exercises, you'll use Copilot in various Microsoft 365 apps
 such as Word, PowerPoint, and Outlook to perform common business tasks
