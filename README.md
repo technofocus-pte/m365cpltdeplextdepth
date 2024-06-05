@@ -16,7 +16,7 @@ designed to empower you with the full potential of Copilot for Microsoft
 
 This workshop is designed to provide you with real-world skills to
 harness the power of Copilot for Microsoft 365 in your daily tasks. By
-the end of the day, you will be well-equipped to leverage Copilot to
+the end of this workshop, you will be well-equipped to leverage Copilot to
 boost productivity and efficiency within your organization.
 
 In this workshop, you will execute the following hands-on labs tailored
