@@ -389,7 +389,7 @@ Northwind's top customers. Your predecessor negotiated these agreements,
 so you aren't familiar with the terms and conditions that were
 previously agreed upon with these customers.
 
-In this training exercise, you will
+In this exercise, you will
 
   - Provide Copilot in Word with three supplier agreement documents.
 
