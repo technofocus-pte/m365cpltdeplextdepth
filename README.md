@@ -24,24 +24,24 @@ to specific business roles (Executives, Sales, Marketing, Finance, IT,
 HR, and Operations) that bring the theoretical knowledge into practical
 application.
 
-- Lab 01: Empower your Workforce - Copilot-Executives
+- **Lab 01**: Empower your Workforce - Copilot-Executives
 
-- Lab 02: Empower your workforce - Copilot-Sales
+- **Lab 02**: Empower your workforce - Copilot-Sales
 
-- Lab 03: Empower your workforce - Copilot-IT
+- **Lab 03**: Empower your workforce - Copilot-IT
 
-- Lab 04: Empower your workforce - Copilot-Marketing
+- **Lab 04**: Empower your workforce - Copilot-Marketing
 
-- Lab 05: Empower your workforce -Copilot-Finance
+- **Lab 05**: Empower your workforce -Copilot-Finance
 
-- Lab 06: Empower your workforce - Copilot-HR
+- **Lab 06**: Empower your workforce - Copilot-HR
 
-- Lab 07: Empower your workforce - Copilot-Operations
+- **Lab 07**: Empower your workforce - Copilot-Operations
 
-- Lab 08: Creating conversational actions for Microsoft Copilot
+- **Lab 08**: Creating conversational actions for Microsoft Copilot
   (preview)
 
-- Lab 09: Creating AI plugin actions for Microsoft Copilot (preview)
+- **Lab 09**: Creating AI plugin actions for Microsoft Copilot (preview)
 
 During these exercises, you'll use Copilot in various Microsoft 365 apps
 such as Word, PowerPoint, and Outlook to perform common business tasks
