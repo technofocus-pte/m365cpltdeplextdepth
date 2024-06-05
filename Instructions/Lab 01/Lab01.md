@@ -1,4 +1,4 @@
-Lab 01: Empower your workforce – Copilot - Executives
+# Lab 01: Empower your workforce – Copilot - Executives
 
 In this lab, you will
 
@@ -47,15 +47,15 @@ speech for you based on your company's Income Statement:
     to copy and paste it in the browser window. [Fabrikam's 2023 Income
     Statement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Fabrikam%202023%20Income%20Statement.docx)
 
-> <img src="./media/image2.png" style="width:3.64583in;height:3.1133in" />
+    <img src="./media/image2.png" style="width:3.64583in;height:3.1133in" />
 
 2.  Select “Save a copy to OneDrive” to proceed further.
 
-**Important**: Please do not use **Save a copy to One Drive** option
-since you may encounter sign-in error.
+    **Important**: Please do not use **Save a copy to One Drive** option
+    since you may encounter sign-in error.
 
-> <img src="./media/image3.png" style="width:5.59205in;height:0.82028in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image3.png" style="width:5.59205in;height:0.82028in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 3.  Download the file to the VM.
 
