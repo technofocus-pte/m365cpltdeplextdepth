@@ -1,4 +1,3 @@
-# m365cpltdeplextdepth
 ## Copilot for M365 - Deploy and Extend - Depth Workshop
 
 Welcome to the **Copilot for M365 - Deploy and Extend - Depth Workshop**
