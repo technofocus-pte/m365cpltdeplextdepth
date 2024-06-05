@@ -18,6 +18,7 @@ document.
 your company's Income Statement) into a Copilot prompt, the file MUST be
 saved in a OneDrive account. You can't link to a locally stored file on
 your PC.</span>
+```diff
 <span class="mark">You can reference/link a file into the Copilot prompt
 using one of the following methods:</span>
 - <span class="mark">Select the file from the Most Recently Used (MRU)
@@ -29,6 +30,7 @@ using one of the following methods:</span>
   it into the prompt following the forward slash (/).</span>
 <span class="mark">In this exercise, you select the company's Income
 Statement from the MRU file list.</span>
+```
 
 <img src="./media/image1.png" style="width:6.26806in;height:3.02917in"
 alt="A screenshot of a computer Description automatically generated" />
