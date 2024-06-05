@@ -1,5 +1,6 @@
 # m365cpltdeplextdepth
 Copilot for M365 - Deploy and Extend - Depth Workshop
+
 Welcome to the **Copilot for M365 - Deploy and Extend - Depth Workshop**
 designed to empower you with the full potential of Copilot for Microsoft
 365. This workshop covers:
