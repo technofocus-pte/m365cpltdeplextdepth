@@ -1,6 +1,6 @@
-Lab 03: Empower your workforce – Copilot-IT
+# Lab 03: Empower your workforce – Copilot-IT
 
-Objective:
+## Objective:
 
 Copilot for Microsoft 365 serves as an AI-powered writing assistant
 understands context, suggests phrases, and helps generate content, all
@@ -15,7 +15,7 @@ use:
 
 - Copilot in Word to modify a technical specification report.
 
-Exercise \#1: Create a project plan using Microsoft Copilot
+## Exercise \#1: Create a project plan using Microsoft Copilot
 
 With Microsoft Copilot seamlessly integrates into Microsoft 365 and
 offers a robust platform for IT professionals to enhance teamwork, share
@@ -46,8 +46,8 @@ to your OneDrive account. The next exercise uses this file.
 
 2.  Select “Download” to download the file to the VM.
 
-> Warning: <span class="mark">Please do not use **Save a copy to One
-> Drive** option since you may encounter sign-in error</span>.
+    Warning: <span class="mark">Please do not use **Save a copy to One
+    Drive** option since you may encounter sign-in error</span>.
 
 3.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -55,8 +55,8 @@ to your OneDrive account. The next exercise uses this file.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-> <img src="./media/image1.png" style="width:5.07948in;height:4.44379in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image1.png" style="width:5.07948in;height:4.44379in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** document to OneDrive.
@@ -65,21 +65,21 @@ to your OneDrive account. The next exercise uses this file.
     get the file to appear in the MRU list, open the document and then
     close it.
 
-> <img src="./media/image2.png" style="width:5.24059in;height:1.87558in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image2.png" style="width:5.24059in;height:1.87558in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 7.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
     following URL: **[https://bing.com](https://bing.com/).**
 
-> <img src="./media/image3.png" style="width:4.90148in;height:2.68371in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image3.png" style="width:4.90148in;height:2.68371in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 8.  On the **Microsoft Bing home page**, in the list of tabs that appear
     across the top of the page, select **Copilot**. Doing so
     opens **Microsoft Copilot**.
 
-> <img src="./media/image4.png" style="width:4.90247in;height:3.52667in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image4.png" style="width:4.90247in;height:3.52667in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 9.  On the **Copilot** page, in the **Work/Web** toggle switch at the
     top of the page, select **Work**.
@@ -93,29 +93,29 @@ to your OneDrive account. The next exercise uses this file.
     attach files, and an icon of stacked blocks. This latter icon is the
     Plugins icon. Select this **Plugins** icon.
 
-> <img src="./media/image5.png" style="width:5.28057in;height:3.82674in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <img src="./media/image6.png" style="width:5.02097in;height:3.49231in"
-> alt="A screenshot of a chat Description automatically generated" />
+    <img src="./media/image5.png" style="width:5.28057in;height:3.82674in"
+    alt="A screenshot of a computer Description automatically generated" />
+
+    <img src="./media/image6.png" style="width:5.02097in;height:3.49231in"
+    alt="A screenshot of a chat Description automatically generated" />
 
 11. You're now ready to use Copilot. Enter the following prompt, which
     directs Copilot to access public web data through the **Web
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-> **I'm the Director of IT at Adatum Corporation. Create a project plan
-> for installing a new network security product into a corporate
-> network. Base this plan on IT industry guidelines for installing
-> network security products**.
->
-> <img src="./media/image7.png" style="width:5.53797in;height:1.67808in"
-> alt="A screenshot of a computer Description automatically generated" />
+    **I'm the Director of IT at Adatum Corporation. Create a project plan
+    for installing a new network security product into a corporate
+    network. Base this plan on IT industry guidelines for installing
+    network security products**.
+
+    <img src="./media/image7.png" style="width:5.53797in;height:1.67808in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 12. Review the project plan that Copilot created.
 
-> <img src="./media/image8.png" style="width:5.29691in;height:3.713in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image8.png" style="width:5.29691in;height:3.713in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 13. You aren't satisfied that it encompasses all the areas that it
     should. Enter the following prompt to have it amend its plan by
@@ -124,16 +124,16 @@ to your OneDrive account. The next exercise uses this file.
     then remove them from this prompt so that Copilot doesn't duplicate
     them:
 
-> **While that was a good start, I feel like it's missing important
-> areas. Please add the following items to the existing list: testing
-> and QA, training, communication, document and reporting, stakeholder
-> analysis, project timeline, and risk assessment and mitigation.**
->
-> <img src="./media/image9.png" style="width:5.2923in;height:3.55615in"
-> alt="A screenshot of a chat Description automatically generated" />
->
-> <img src="./media/image10.png" style="width:5.2797in;height:3.7296in"
-> alt="A screenshot of a chat Description automatically generated" />
+    **While that was a good start, I feel like it's missing important
+    areas. Please add the following items to the existing list: testing
+    and QA, training, communication, document and reporting, stakeholder
+    analysis, project timeline, and risk assessment and mitigation.**
+
+    <img src="./media/image9.png" style="width:5.2923in;height:3.55615in"
+    alt="A screenshot of a chat Description automatically generated" />
+
+    <img src="./media/image10.png" style="width:5.2797in;height:3.7296in"
+    alt="A screenshot of a chat Description automatically generated" />
 
 14. Review the amended project plan. You're happy with the breadth of
     topics covered, so now you want Copilot to update the plan with
@@ -142,13 +142,13 @@ to your OneDrive account. The next exercise uses this file.
     submit it yet as you must first link the file to the prompt in the
     next step:
 
-> **This version looks better. Please review the attached file, which is
-> a product specification for the Contoso CipherGuard Sentinel X7
-> security product, and update your project plan with information from
-> this product spec**.
->
-> <img src="./media/image11.png" style="width:4.96736in;height:3.49245in"
-> alt="A screenshot of a computer Description automatically generated" />
+    **This version looks better. Please review the attached file, which is
+    a product specification for the Contoso CipherGuard Sentinel X7
+    security product, and update your project plan with information from
+    this product spec**.
+
+    <img src="./media/image11.png" style="width:4.96736in;height:3.49245in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 15. In the prompt field, enter a space after the prompt and then type a
     forward slash (/). You must enter the space before the forward slash
@@ -170,48 +170,48 @@ to your OneDrive account. The next exercise uses this file.
   prompt field, paste in the link following the forward slash and select
   the **Submit** icon.
 
-> <img src="./media/image12.png" style="width:4.93368in;height:3.4961in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <span class="mark">**Note**: If Copilot is not able to directly access
-> or review documents, Sign-out of the logged in user and sign-in once
-> again</span>.
->
-> <img src="./media/image13.png"
-> style="width:5.07082in;height:2.63098in" />
+    <img src="./media/image12.png" style="width:4.93368in;height:3.4961in"
+    alt="A screenshot of a computer Description automatically generated" />
+    
+    <span class="mark">**Note**: If Copilot is not able to directly access
+    or review documents, Sign-out of the logged in user and sign-in once
+    again</span>.
+
+    <img src="./media/image13.png"
+    style="width:5.07082in;height:2.63098in" />
 
 16. Continue from **step 9** once again.
 
-> <img src="./media/image14.png" style="width:4.9422in;height:3.37182in"
-> alt="A screenshot of a computer Description automatically generated" />
->
-> <span class="mark">**Note**: If you are unable to view and reference
-> **Contoso CipherGuard Product Specification** document, then proceed
-> to the next exercise. The project plan document is made available for
-> you to proceed with the remaining lab activity</span>
->
-> <img src="./media/image15.png" style="width:4.89822in;height:3.27235in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image14.png" style="width:4.9422in;height:3.37182in"
+    alt="A screenshot of a computer Description automatically generated" />
+
+    <span class="mark">**Note**: If you are unable to view and reference
+    **Contoso CipherGuard Product Specification** document, then proceed
+    to the next exercise. The project plan document is made available for
+    you to proceed with the remaining lab activity</span>
+
+    <img src="./media/image15.png" style="width:4.89822in;height:3.27235in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 17. Review how Copilot inserted features from the product spec into the
     project plan.
 
-> <img src="./media/image16.png" style="width:4.60359in;height:3.39225in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image16.png" style="width:4.60359in;height:3.39225in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 18. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
-> **We're almost there. Please break down each item on the report into
-> multiple detailed steps**.
->
-> <img src="./media/image17.png" style="width:4.77223in;height:3.42082in"
-> alt="A screenshot of a computer Description automatically generated" />
+    **We're almost there. Please break down each item on the report into
+    multiple detailed steps**.
+
+    <img src="./media/image17.png" style="width:4.77223in;height:3.42082in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 19. Review the results.
 
-> <img src="./media/image18.png" style="width:4.42017in;height:2.97062in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image18.png" style="width:4.42017in;height:2.97062in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 20. Now that the project plan is created, you MUST save it to a Word
     document. **You'll use this project plan document in the next
@@ -223,26 +223,25 @@ to your OneDrive account. The next exercise uses this file.
     content to a Word document. The **Exporting** window disappears once
     the process is complete.
 
-> <img src="./media/image19.png" style="width:4.71232in;height:3.33559in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image19.png" style="width:4.71232in;height:3.33559in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 21. The file will be exported to **Downloads** folder of the Lab VM
     (file name: Answer.docx). Select this file to open it and verify
     that it contains the project plan that Copilot exported.
 
-> <img src="./media/image20.png" style="width:4.05028in;height:2.56541in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image20.png" style="width:4.05028in;height:2.56541in"
+    alt="A screenshot of a computer Description automatically generated" />
 
 22. Save the file to your OneDrive account that contains the product
     specification document that you used in this exercise. Then rename
     this file from **Answers.docx** to **Contoso CipherGuard project
     plan.docx**. You'll use this file in the next exercise.
 
-> <img src="./media/image21.png" style="width:3.51388in;height:2.42304in"
-> alt="A screenshot of a computer Description automatically generated" />
+    <img src="./media/image21.png" style="width:3.51388in;height:2.42304in"
+    alt="A screenshot of a computer Description automatically generated" />
 
-Exercise \#2: Create a project plan presentation using Copilot in
-PowerPoint
+## Exercise \#2: Create a project plan presentation using Copilot in PowerPoint
 
 Copilot in PowerPoint serves as an intelligent collaborator, offering
 real-time suggestions and enhancements as IT professionals craft their
