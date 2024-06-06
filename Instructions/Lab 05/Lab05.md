@@ -22,8 +22,7 @@ In this lab, as a finance professional you will use:
 - Copilot in Word to summarize a company's financial results for the
   past five years.
 
-## Exercise \#1: Draft an email to your insurance company using Copilot in
-Outlook
+## Exercise \#1: Draft an email to your insurance company using Copilot in Outlook
 
 With Copilot, you can quickly generate email drafts that Copilot tailors
 to your specific needs, without having to spend hours writing and
