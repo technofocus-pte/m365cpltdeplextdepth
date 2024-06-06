@@ -1,6 +1,6 @@
-Lab 04: Empower your workforce – Copilot – Marketing
+# Lab 04: Empower your workforce – Copilot – Marketing
 
-Objective:
+## Objective:
 
 Marketing professionals can utilize Copilot for Microsoft 365 to
 generate content for their campaigns, improve productivity, get insights
@@ -20,7 +20,7 @@ In this lab you will use:
 
 - Copilot in Excel to analyze market trends in a spreadsheet.
 
-## Exercise \#1: Conduct market analysis using Microsoft Copilot
+## Exercise #1: Conduct market analysis using Microsoft Copilot
 
 Microsoft Copilot (within Bing) is a generative AI service grounded in
 data from the public web in the Microsoft Bing search index only. It
@@ -187,7 +187,7 @@ Creative, More Balanced, or More Precise).
     corresponding response that was based on the **More
     Balanced** conversation style.
 
-Export a Copilot response
+## Export a Copilot response
 
 When you use Microsoft Copilot in Bing to research different things or
 answer different questions, you may decide that a response is so good
@@ -250,7 +250,7 @@ that you want to export it just to save it for future reference. 
 > manually copy and paste each response into one document, or you can
 > use Copilot in Word to do it for you.
 
-## Exercise \#2: Brainstorm marketing campaign ideas using Copilot in Loop
+## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
 
 You can use Copilot in Loop to brainstorm new marketing strategies, plan
 campaigns, and develop content. Copilot in Loop can help you generate
@@ -442,7 +442,7 @@ toys**.
     the **Ideas for Outdoor toy campaigns** workspace that Loop
     automatically saved.
 
-Exercise \#3: Consolidate multiple marketing reports using Copilot in
+## Exercise #3: Consolidate multiple marketing reports using Copilot in
 Word
 
 Copilot in Word, an AI-powered writing assistant, can help you rewrite
@@ -601,7 +601,7 @@ Latin America.
 
 16. Close this tab in your Microsoft Edge browser.
 
-Exercise \#4: Analyze a market trend spreadsheet using Copilot in Excel
+## Exercise #4: Analyze a market trend spreadsheet using Copilot in Excel
 
 Copilot in Excel is a powerful tool that can help Marketing
 professionals create, edit, understand, and visualize their data with
@@ -799,7 +799,7 @@ trend spreadsheet that already has an Excel table defined.
 29. Feel free to select any other prompts to see what Copilot does. When
     you're done, close your Microsoft Edge browser tab.
 
-Summary:
+## Summary:
 
 In this lab you used
 
