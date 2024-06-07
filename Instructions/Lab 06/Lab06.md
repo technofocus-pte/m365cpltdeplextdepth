@@ -1,6 +1,6 @@
-Lab 06: Empower your workforce – Copilot – HR
+# Lab 06: Empower your workforce – Copilot – HR
 
-Objective:
+## Objective:
 
 With Copilot for Microsoft 365 HR professionals can streamline their
 workflow and enhance their productivity in their core business processes
@@ -18,7 +18,7 @@ In this lab, you will use:
 - Copilot in Loop to create a set of interview questions for
   interviewing candidates for this role.
 
-Exercise \#1: Create a job description using Copilot in Word
+## Exercise #1: Create a job description using Copilot in Word
 
 As the HR Manager at Graphic Design Institute, you started the hiring
 process for a new Senior Animation Designer. Your staff created a
@@ -151,7 +151,7 @@ based on the role responsibilities in this document.
 > <span class="mark">**Note:** It's important that you save this
 > document since you will be using it in the next exercise.</span>
 
-Exercise \#2: Analyze resumes and make a recommendation using Copilot in
+## Exercise #2: Analyze resumes and make a recommendation using Copilot in
 Word
 
 In the previous exercise, you learned how Copilot in Word can assist HR
@@ -367,7 +367,7 @@ can locate the file in this exercise.
     similar in the real-world using Copilot in Word. You can close this
     tab in your Microsoft Edge browser.
 
-Exercise \#3: Create interview questions using Copilot in Loop
+## Exercise #3: Create interview questions using Copilot in Loop
 
 With Copilot in Loop, you can create workspaces and pages, use
 intelligent search and templates to add relevant content, and share your
@@ -528,7 +528,7 @@ questions based on your direction.
     your HR team can see these questions in real-time on the same Loop
     component, even if they're using different apps and devices.
 
-Summary:
+## Summary:
 
 In this lab, you:
 
