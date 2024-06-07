@@ -1,7 +1,6 @@
-Lab 08: Create conversational actions for Microsoft Copilot (preview) –
-Add on lab
+# Lab 08: Create conversational actions for Microsoft Copilot (preview)–Add on lab
 
-Objective:
+## Objective:
 
 Microsoft Copilot provides out of the box experiences to engage with
 content and resources from across your organization. In some situations,
@@ -15,7 +14,7 @@ the organization has valid license for the same.
 
 In this lab, we will learn how to create a Conversational action.
 
-## Exercise \#1: Create a Conversational plugin
+## Exercise #1: Create a Conversational plugin
 
 1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
     tenant credentials if not already logged in.
@@ -111,7 +110,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <img src="./media/image12.png" style="width:5.20878in;height:3.61698in"
 alt="A screenshot of a chat box Description automatically generated" />
 
-## Exercise \#2: Publishing your conversational action to Microsoft Copilot
+## Exercise #2: Publishing your conversational action to Microsoft Copilot
 
 1.  Publishing your conversational plugin creates a new plugin in the
     Dataverse registry for your Tenant. Once available there, your
@@ -153,7 +152,7 @@ the company will have to hold a valid Copilot license.
     Studio integrated app, it should appear in the user's list of
     plugins in their Microsoft Copilot UI.
 
-Summary:
+## Summary:
 
 In this lab, we have learnt how to create a conversational action and to
 publish it.
