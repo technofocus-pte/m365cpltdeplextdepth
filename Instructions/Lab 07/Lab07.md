@@ -1,6 +1,6 @@
-Lab 07: Empower your workforce – Copilot – Operations
+# Lab 07: Empower your workforce – Copilot – Operations
 
-Objective:
+## Objective:
 
 Operations Managers can use Copilot for Microsoft 365 to streamline
 their workflow and enhance their productivity.
@@ -17,7 +17,7 @@ In this lab you will use:
 - Copilot in PowerPoint to create a presentation based on the report you
   created that analyzes boiler and furnace heating systems.
 
-Exercise \#1: Brainstorm project plan ideas using Copilot in Whiteboard
+## Exercise #1: Brainstorm project plan ideas using Copilot in Whiteboard
 
 Microsoft Whiteboard is a digital canvas that allows users to
 collaborate in real-time, brainstorm ideas, and create content with
@@ -318,7 +318,7 @@ basically an AI-assisted sticky-note exercise.
 > <img src="./media/image19.png" style="width:5.81974in;height:3.69463in"
 > alt="A screenshot of a computer Description automatically generated" />
 
-Exercise \#2: Compare reporting results using Copilot in Word
+## Exercise #2: Compare reporting results using Copilot in Word
 
 As the Operations Manager at Adatum Corporation, you discovered that the
 current boiler system that heats the company's 50-year-old office
@@ -462,8 +462,7 @@ in the Copilot pane or when creating a new document.
 > document. However, doing so may require you to reformat the inserted
 > answers to clean up any formatting issues.
 
-Exercise \#3: Create a presentation comparing heating systems using
-Copilot in PowerPoint
+## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
 
 Proficiency in using Copilot in PowerPoint is a strategic skill for
 professionals aiming to elevate the impact of their presentations.
@@ -671,7 +670,7 @@ formally start this project.
 > You can either discard this presentation or save it if you want to
 > keep it for future reference.
 
-Summary:
+## Summary:
 
 In this lab you used:
 
