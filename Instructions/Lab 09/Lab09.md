@@ -1,6 +1,6 @@
 # Lab 17: Creating AI plugin actions for Microsoft Copilot (preview)
 
-Objective:
+## Objective:
 
 AI Plugins can be used to extend Microsoft Copilot, or used within a
 custom copilot as a plugin action. In this lab, we will learn about
@@ -9,7 +9,7 @@ creating different types of AI Plugins.
 The Plugins will be available in the Microsoft Copilot in production, if
 the organization has valid license for the same.
 
-## Exercise \#1: Generate content or extract insights with AI Builder dynamic prompts
+## Exercise #1: Generate content or extract insights with AI Builder dynamic prompts
 
 1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
     tenant credentials if not already logged in.
@@ -226,6 +226,6 @@ alt="A screenshot of a computer Description automatically generated" />
 19. After you create your action, enable it for use in Microsoft
     Copilot.
 
-Summary:
+## Summary:
 
 In this lab, we have learnt to create **AI actions**.
