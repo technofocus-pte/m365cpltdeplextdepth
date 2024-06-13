@@ -145,32 +145,31 @@ to your OneDrive account. The next exercise uses this file.
     the prompt. Your next step depends on whether Copilot opens a window
     for you to select the file:
 
-- If Copilot opens a window after you entered the forward slash (/),
-  then select the **Files** tab. Doing so displays the list of MRU
-  files. Select the **Contoso CipherGuard Product Specification** file
-  and then select the **Submit** icon.
+    - If Copilot opens a window after you entered the forward slash (/),
+      then select the **Files** tab. Doing so displays the list of MRU
+      files. Select the **Contoso CipherGuard Product Specification** file
+      and then select the **Submit** icon.
 
-- If Copilot didn't do anything after you entered the forward slash (/),
-  then you'll have to copy and paste in the link to the **Contoso
-  CipherGuard Product Specification** file. To do so, locate the file in
-  your OneDrive account, open it in **Word**, select
-  the **Share** button that appears above the Word ribbon, select **Copy
-  link** in the drop-down menu that appears, and then back in this
-  prompt field, paste in the link following the forward slash and select
-  the **Submit** icon.
+    - If Copilot didn't do anything after you entered the forward slash (/),
+      then you'll have to copy and paste in the link to the **Contoso
+      CipherGuard Product Specification** file. To do so, locate the file in
+      your OneDrive account, open it in **Word**, select
+      the **Share** button that appears above the Word ribbon, select **Copy
+      link** in the drop-down menu that appears, and then back in this
+      prompt field, paste in the link following the forward slash and select
+      the **Submit** icon.
 
     ![](./media/image12.png)
     
-    <span class="mark">**Note**: If Copilot is not able to directly access
-    or review documents, Sign-out of the logged in user and sign-in once
-    again</span>.
+      <span class="mark">**Note**: If Copilot is not able to directly access
+      or review documents, Sign-out of the logged in user and sign-in once
+      again</span>.
 
     ![](./media/image13.png)
 
 16. Continue from **step 9** once again.
 
-    <img src="./media/image14.png" style="width:4.9422in;height:3.37182in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image14.png)
 
     <span class="mark">**Note**: If you are unable to view and reference
     **Contoso CipherGuard Product Specification** document, then proceed
