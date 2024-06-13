@@ -367,7 +367,7 @@ was created for you, and save it to your OneDrive account.</span>
     request, then try it again. And if it still doesn't work, then try
     rephrasing your request or splitting it into two.</span>
 
-16. Even if Copilot worked and replaced your image, let's assume for the
+15. Even if Copilot worked and replaced your image, let's assume for the
     sake of this exercise that it didn't. In this case, ask Copilot to
     not just replace the image, but to remove the old slide and replace
     it with an entirely new slide containing a different image. As such,
@@ -377,19 +377,19 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image29.png)
 
-17. What response did you receive? In our testing of this exercise,
+16. What response did you receive? In our testing of this exercise,
     Copilot continuously removed the Q&A slide but it didn't create a
     new one in its place. Instead, it kept returning the following
     message.
 
     ![](./media/image30.png)
->
+
     **Tip**: If Copilot didn't do as you asked or if it returned an error,
     then this scenario is a good example of keeping prompts as simple as
     possible. Follow Copilot's suggestion by rephrasing your request. It's
     best to ask Copilot to do one task at a time, such as first removing
     the old slide, and then submitting a second request to add a new slide
-    with an image
+    with an image.
 
 18. Regardless how the last few steps went in dealing with the Q&A
     slide, you decide to move forward and try one last thing. In
