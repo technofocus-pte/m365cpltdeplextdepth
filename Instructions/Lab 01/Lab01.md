@@ -37,7 +37,7 @@ using one of the following methods:</span>
 <span class="mark">In this exercise, you select the company's Income
 Statement from the MRU file list.</span>
 
-<img src="./media/image1.png" style="width:6.26806in;height:3.02917in"
+<img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/media/image1.png" style="width:6.26806in;height:3.02917in"
 alt="A screenshot of a computer Description automatically generated" />
 
 You will perform the following steps to have Copilot in Word create a
@@ -47,14 +47,14 @@ speech for you based on your company's Income Statement:
     to copy and paste it in the browser window. [Fabrikam's 2023 Income
     Statement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Fabrikam%202023%20Income%20Statement.docx)
 
-    <img src="./media/image2.png" style="width:3.64583in;height:3.1133in" />
+    <img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/media/image2.png" style="width:3.64583in;height:3.1133in" />
 
 2.  Select “Download” to download the file to the Lab VM.
 
     **Important**: Please do not use **Save a copy to One Drive** option
     since you may encounter sign-in error.
 
-    <img src="./media/image3.png" style="width:5.59205in;height:0.82028in"
+    <img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/media/image3.png" style="width:5.59205in;height:0.82028in"
     alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image4.png" style="width:5.74633in;height:0.98934in"
