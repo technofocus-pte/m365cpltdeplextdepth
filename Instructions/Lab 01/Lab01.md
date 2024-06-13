@@ -288,7 +288,7 @@ create a draft of your presentation:
     Verify they call out the points that you want to make during the
     presentation.
 
-    ![Image description](./media/image1.png)
+    ![Image description](./media/image25.png)
 
 18. Try using Copilot to update the presentation. For example, enter the
     following prompt:
