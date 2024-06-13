@@ -600,7 +600,7 @@ adding?**
     create a prompt that asks it to do so. You can then copy and paste
     the new content into your document.
 
-Summary:
+## Summary:
 
 In this lab, you explored how Copilot for Microsoft 365 enhances the
 quality of your work by
