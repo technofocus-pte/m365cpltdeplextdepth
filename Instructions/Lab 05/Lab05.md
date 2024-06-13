@@ -605,8 +605,7 @@ the first step.
     campaign data.docx** to your OneDrive account, and then open and
     close the file to get it in your Most Recently Used (MRU) file list.
 
-> <img src="./media/image51.png" style="width:5.40952in;height:2.68558in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image51.png)
 
 3.  If you have a **Microsoft 365** tab open in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
@@ -631,15 +630,13 @@ the first step.
     campaign data.docx** file that you downloaded. In the **Draft with
     Copilot** window, select the **Reference your content** button.
 
-> <img src="./media/image52.png" style="width:5.16864in;height:2.76985in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image52.png)
 
 7.  In the drop-down menu that appears, if the **Fabrikam Q1 marketing
     campaigns data.docx** file appears in the list of files, select it.
     Otherwise, select **Browse files from cloud.**
 
-> <img src="./media/image53.png" style="width:5.26441in;height:2.73369in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image53.png)
 
 8.  Select the file from the **Recent** file list, and then select
     the **Attach** button. If the file doesn't appear in the **Recent
@@ -648,22 +645,19 @@ the first step.
     stored the file, select the file and then select **Attach**. Note
     how the file is displayed in the prompt.
 
-> <img src="./media/image54.png" style="width:5.10301in;height:2.58646in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image54.png)
 
 9.  Select **Generate**. Upon doing so, Copilot extracts the pertinent
     information from the file and drafts a report that analyzes the
     data.
 
-> <img src="./media/image55.png" style="width:5.3189in;height:2.6901in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image55.png)
 
 10. Review the results. If the data in the **Executive Summary** section
     is presented in a bulleted list, then enter following prompt and
     replace **{table or bulleted list}** with **table**.
 
-> <img src="./media/image56.png" style="width:5.09287in;height:2.88498in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image56.png)
 
 11. If the **Executive Summary** data isn't in a bulleted list format,
     then enter following prompt and replace **{table or bulleted
@@ -679,17 +673,14 @@ the first step.
 > **Please convert the information in the Executive Summary section into
 > a {table or bulleted list} format**.
 >
-> <img src="./media/image57.png" style="width:5.40118in;height:0.64687in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image57.png)
 >
-> <img src="./media/image58.png" style="width:5.08119in;height:3.24654in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image58.png)
 
 13. If the **Data Analysis** section is already in a table format, then
     proceed to the next step.
 
-> <img src="./media/image59.png" style="width:5.12689in;height:3.21325in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image59.png)
 >
 > <span class="mark">**Note**: It is in bulleted list format. Enter the
 > following prompt to place the data into a table so that it's easier to
@@ -698,13 +689,11 @@ the first step.
 > **Please convert the information in the Data Analysis section into a
 > table format**.
 >
-> <img src="./media/image60.png" style="width:5.12777in;height:0.60865in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image60.png)
 
 14. Examine the table of data in the **Data Analysis** section.
 
-> <img src="./media/image61.png"
-> style="width:5.34091in;height:2.7044in" />
+> ![](./media/image61.png)
 
 15. Let's see if Copilot can remove a column of data from a table. Enter
     the following prompt and replace {heading} with the name of a column
@@ -713,8 +702,7 @@ the first step.
 > **In the table of data in the Data Analysis section, please remove the
 > {heading} column**.
 >
-> <img src="./media/image62.png" style="width:5.38415in;height:0.85475in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image62.png)
 
 16. You like the **Recommendations**, but you feel they would be more
     valuable if Copilot displayed the data in order of importance. Enter
@@ -723,19 +711,16 @@ the first step.
 > **In the Recommendations section, display the items in order of
 > importance, starting with the most important item**.
 >
-> <img src="./media/image63.png" style="width:4.83543in;height:0.54296in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image63.png)
 >
-> <img src="./media/image64.png" style="width:5.09183in;height:2.97409in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image64.png)
 
 17. After reviewing this latest draft, you're satisfied with the report
     and you're ready to save it. In the Copilot window at the bottom of
     the document, select the **Keep it** button to convert it from a
     Copilot draft to a Word document.
 
-> <img src="./media/image65.png" style="width:4.63388in;height:2.78772in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image65.png)
 
 18. Review the document. Once you're satisfied with it, you can either
     discard the document or save it to your OneDrive for future
@@ -762,8 +747,7 @@ the file) to summarize the financial results that appear in the table.
     Financial Results.docx** to your OneDrive account, and then open and
     close the file to get it in your Most Recently Used (MRU) file list.
 
-> <img src="./media/image66.png"
-> style="width:4.09763in;height:2.79598in" />
+> ![](./media/image66.png)
 
 3.  In **Microsoft Word**, open the **Adatum 5 Year Financial
     Results.docx** file that you downloaded and moved to your OneDrive
@@ -776,11 +760,9 @@ the file) to summarize the financial results that appear in the table.
     of the Adatum 5 Year Financial Results document, so select
     the **Summarize this doc** tile.
 
-> <img src="./media/image67.png"
-> style="width:4.85847in;height:2.11014in" />
+> ![](./media/image67.png)
 >
-> <img src="./media/image68.png" style="width:3.409in;height:2.62463in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image68.png)
 
 6.  Review the results. In doing so, you would like to see Word add more
     details to support the summation that it provides for each area. You
@@ -795,16 +777,14 @@ the file) to summarize the financial results that appear in the table.
     more details in the summary** prompt doesn't appear, then enter this
     request in the prompt field.
 
-> <img src="./media/image69.png" style="width:3.44422in;height:2.41902in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image69.png)
 
 7.  Once Copilot finishes regenerating a new summary with more details,
     review the results. Compare the previous summary to the current one.
     Notice how Copilot displayed specific financial metrics from the
     report to support its summation in each area.
 
-> <img src="./media/image70.png" style="width:3.36075in;height:2.61728in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image70.png)
 
 8.  Try out different predefined prompts to see what else Copilot can do
     to improve its summation.
@@ -818,11 +798,9 @@ the file) to summarize the financial results that appear in the table.
 > Adatum's financial performance over the past five years? Is it getting
 > better or worse**?
 >
-> <img src="./media/image71.png" style="width:3.1583in;height:2.6206in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image71.png)
 >
-> <img src="./media/image72.png" style="width:2.89527in;height:2.14404in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image72.png)
 
 10. Review the results. You now want to see if there are any poorly
     performing areas that need attention. Enter the following prompt and
@@ -831,8 +809,7 @@ the file) to summarize the financial results that appear in the table.
 > **Is there any area that's performing poorly that should be
 > addressed?**
 >
-> <img src="./media/image73.png" style="width:3.27909in;height:2.40273in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image73.png)
 
 11. Review the results. You used Copilot to analyze the company's prior
     five years of financial results. You also identified the areas of
@@ -846,8 +823,7 @@ the file) to summarize the financial results that appear in the table.
     below the table in the document and paste in the contents of the
     clipboard (**Ctrl+V**).
 
-> <img src="./media/image74.png" style="width:5.5144in;height:3.21724in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image74.png)
 
 13. Repeat the previous step for both the window that indicates whether
     the company is doing better or worse, and the window that shows the
