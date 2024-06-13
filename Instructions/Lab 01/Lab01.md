@@ -288,7 +288,7 @@ create a draft of your presentation:
     Verify they call out the points that you want to make during the
     presentation.
 
-    <![Image description](./media/image1.png) style="width:5.31122in;height:2.17898in"
+    <![Image description](./media/image1.png)style="width:5.31122in;height:2.17898in"
     alt="A screenshot of a computer Description automatically generated" />
 
 18. Try using Copilot to update the presentation. For example, enter the
