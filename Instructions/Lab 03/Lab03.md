@@ -15,7 +15,7 @@ use:
 
 - Copilot in Word to modify a technical specification report.
 
-## Exercise \#1: Create a project plan using Microsoft Copilot
+## Exercise #1: Create a project plan using Microsoft Copilot
 
 With Microsoft Copilot seamlessly integrates into Microsoft 365 and
 offers a robust platform for IT professionals to enhance teamwork, share
@@ -55,8 +55,7 @@ to your OneDrive account. The next exercise uses this file.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-    <img src="./media/image1.png" style="width:5.07948in;height:4.44379in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image1.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** document to OneDrive.
@@ -65,21 +64,18 @@ to your OneDrive account. The next exercise uses this file.
     get the file to appear in the MRU list, open the document and then
     close it.
 
-    <img src="./media/image2.png" style="width:5.24059in;height:1.87558in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image2.png)
 
 7.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
     following URL: **[https://bing.com](https://bing.com/).**
 
-    <img src="./media/image3.png" style="width:4.90148in;height:2.68371in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image3.png)
 
 8.  On the **Microsoft Bing home page**, in the list of tabs that appear
     across the top of the page, select **Copilot**. Doing so
     opens **Microsoft Copilot**.
 
-    <img src="./media/image4.png" style="width:4.90247in;height:3.52667in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image4.png)
 
 9.  On the **Copilot** page, in the **Work/Web** toggle switch at the
     top of the page, select **Work**.
@@ -93,11 +89,9 @@ to your OneDrive account. The next exercise uses this file.
     attach files, and an icon of stacked blocks. This latter icon is the
     Plugins icon. Select this **Plugins** icon.
 
-    <img src="./media/image5.png" style="width:5.28057in;height:3.82674in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image5.png)>
 
-    <img src="./media/image6.png" style="width:5.02097in;height:3.49231in"
-    alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image6.png)
 
 11. You're now ready to use Copilot. Enter the following prompt, which
     directs Copilot to access public web data through the **Web
@@ -109,13 +103,11 @@ to your OneDrive account. The next exercise uses this file.
     network. Base this plan on IT industry guidelines for installing
     network security products**.
 
-    <img src="./media/image7.png" style="width:5.53797in;height:1.67808in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image7.png)
 
 12. Review the project plan that Copilot created.
 
-    <img src="./media/image8.png" style="width:5.29691in;height:3.713in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image8.png)
 
 13. You aren't satisfied that it encompasses all the areas that it
     should. Enter the following prompt to have it amend its plan by
@@ -129,11 +121,9 @@ to your OneDrive account. The next exercise uses this file.
     and QA, training, communication, document and reporting, stakeholder
     analysis, project timeline, and risk assessment and mitigation.**
 
-    <img src="./media/image9.png" style="width:5.2923in;height:3.55615in"
-    alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image9.png)
 
-    <img src="./media/image10.png" style="width:5.2797in;height:3.7296in"
-    alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image10.png)
 
 14. Review the amended project plan. You're happy with the breadth of
     topics covered, so now you want Copilot to update the plan with
@@ -147,8 +137,7 @@ to your OneDrive account. The next exercise uses this file.
     security product, and update your project plan with information from
     this product spec**.
 
-    <img src="./media/image11.png" style="width:4.96736in;height:3.49245in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image11.png)
 
 15. In the prompt field, enter a space after the prompt and then type a
     forward slash (/). You must enter the space before the forward slash
@@ -170,15 +159,13 @@ to your OneDrive account. The next exercise uses this file.
   prompt field, paste in the link following the forward slash and select
   the **Submit** icon.
 
-    <img src="./media/image12.png" style="width:4.93368in;height:3.4961in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image12.png)
     
     <span class="mark">**Note**: If Copilot is not able to directly access
     or review documents, Sign-out of the logged in user and sign-in once
     again</span>.
 
-    <img src="./media/image13.png"
-    style="width:5.07082in;height:2.63098in" />
+    ![](./media/image13.png)
 
 16. Continue from **step 9** once again.
 
@@ -190,28 +177,23 @@ to your OneDrive account. The next exercise uses this file.
     to the next exercise. The project plan document is made available for
     you to proceed with the remaining lab activity</span>
 
-    <img src="./media/image15.png" style="width:4.89822in;height:3.27235in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image15.png)
 
 17. Review how Copilot inserted features from the product spec into the
     project plan.
 
-    <img src="./media/image16.png" style="width:4.60359in;height:3.39225in"
-    alt="A screenshot of a computer Description automatically generated" />
-
+    ![](./media/image16.png)
 18. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
     **We're almost there. Please break down each item on the report into
     multiple detailed steps**.
 
-    <img src="./media/image17.png" style="width:4.77223in;height:3.42082in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image17.png)
 
 19. Review the results.
 
-    <img src="./media/image18.png" style="width:4.42017in;height:2.97062in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image18.png)
 
 20. Now that the project plan is created, you MUST save it to a Word
     document. **You'll use this project plan document in the next
@@ -223,25 +205,22 @@ to your OneDrive account. The next exercise uses this file.
     content to a Word document. The **Exporting** window disappears once
     the process is complete.
 
-    <img src="./media/image19.png" style="width:4.71232in;height:3.33559in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image19.png)
 
 21. The file will be exported to **Downloads** folder of the Lab VM
     (file name: Answer.docx). Select this file to open it and verify
     that it contains the project plan that Copilot exported.
 
-    <img src="./media/image20.png" style="width:4.05028in;height:2.56541in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image20.png)
 
 22. Save the file to your OneDrive account that contains the product
     specification document that you used in this exercise. Then rename
     this file from **Answers.docx** to **Contoso CipherGuard project
     plan.docx**. You'll use this file in the next exercise.
 
-    <img src="./media/image21.png" style="width:3.51388in;height:2.42304in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image21.png)
 
-## Exercise \#2: Create a project plan presentation using Copilot in PowerPoint
+## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
 
 Copilot in PowerPoint serves as an intelligent collaborator, offering
 real-time suggestions and enhancements as IT professionals craft their
@@ -292,8 +271,7 @@ was created for you, and save it to your OneDrive account.</span>
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-> <img src="./media/image1.png" style="width:5.07948in;height:4.44379in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image1.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Contoso CipherGuard project plan** document to OneDrive.
@@ -305,13 +283,11 @@ was created for you, and save it to your OneDrive account.</span>
     the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from.
 
-> <img src="./media/image22.png"
-> style="width:2.11415in;height:2.84774in" />
+    ![](./media/image22.png)
 
 8.  Select the **Create presentation from file** prompt.
 
-> <img src="./media/image23.png" style="width:2.33273in;height:3.07522in"
-> alt="Screens screenshot of a phone Description automatically generated" />
+    ![](./media/image23.png)
 
 9.  In the prompt field at the bottom of the **Copilot** pane, Copilot
     automatically enters the text: **Create presentation from file /**.
@@ -357,42 +333,37 @@ was created for you, and save it to your OneDrive account.</span>
     displayed a separate window showing a bulleted list of some of the
     changes that it made to the presentation based on the document.
 
-> <img src="./media/image24.png" style="width:4.89456in;height:2.25911in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image24.png)
 
 11. You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes the Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts
 
-> <img src="./media/image25.png" style="width:4.98117in;height:2.30792in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image25.png)
 
 12. You notice that there isn't a slide at the end for a Question and
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
-**Add a Q&A slide at the very end of the presentation with an
-appropriate image**.
+    **Add a Q&A slide at the very end of the presentation with an
+    appropriate image**.
 
-> <img src="./media/image26.png" style="width:5.24154in;height:1.87862in"
-> alt="A group of black question marks Description automatically generated" />
+    ![](./media/image26.png)
 
 13. Review the new slide that was created. You don't like the image that
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
-> **I don't like the image you used on the Q&A slide. Please replace it
-> with a different image**.
->
-> <img src="./media/image27.png" style="width:4.43751in;height:2.07127in"
-> alt="A screenshot of a computer Description automatically generated" />
+    **I don't like the image you used on the Q&A slide. Please replace it
+    with a different image**.
+
+    ![](./media/image27.png)
 
 14. What response did you receive? Sometimes Copilot didn't replace the
     image and it returned the following message.
 
-> <img src="./media/image28.png" style="width:4.4561in;height:2.07945in"
-> alt="A screenshot of a computer Description automatically generated" />
->
+    ![](./media/image28.png)
+
 > <span class="mark">**Note**: Remember that Copilot is still a work in
 > progress. As a best practice, if Copilot is unable to complete your
 > request, then try it again. And if it still doesn't work, then try
@@ -407,16 +378,14 @@ appropriate image**.
 > **Please remove the Q&A slide and add a new one with a different
 > image**.
 >
-> <img src="./media/image29.png" style="width:4.90351in;height:1.80799in"
-> alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image29.png)
 
 17. What response did you receive? In our testing of this exercise,
     Copilot continuously removed the Q&A slide but it didn't create a
     new one in its place. Instead, it kept returning the following
     message.
 
-> <img src="./media/image30.png" style="width:3.09097in;height:2.26111in"
-> alt="Screenshot showing the prompt to add a Q&amp;A slide and Copilot&#39;s response." />
+    ![](./media/image30.png)
 >
 > **Tip**: If Copilot didn't do as you asked or if it returned an error,
 > then this scenario is a good example of keeping prompts as simple as
@@ -434,14 +403,12 @@ appropriate image**.
 > **Change the theme of this presentation to something more
 > technical.** 
 >
-> <img src="./media/image31.png" style="width:4.34144in;height:2.26933in"
-> alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image31.png)
 
-19\. Note Copilot's response.
+19. Note Copilot's response.
 
-> <img src="./media/image32.png" style="width:3.07361in;height:2.88681in"
-> alt="Screenshot showing the prompt to change the theme and Copilot&#39;s response" />
->
+    ![](./media/image32.png)
+
 > This scenario is one of those situations to remember the prompting
 > best practice: **Understand Copilot's limitations**. In this case, it
 > isn't an understanding of a limitation as much as it's an
@@ -453,7 +420,7 @@ appropriate image**.
     presentation, you can either discard it or save it if you want it
     for future reference.
 
-Exercise \#3: Update a technical report using Copilot in Word
+## Exercise #3: Update a technical report using Copilot in Word
 
 Copilot in Word can help IT professionals save time and effort when
 creating documents. It can help you generate content, rewrite text, and
@@ -491,8 +458,7 @@ transform text into a table.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-> <img src="./media/image1.png" style="width:4.42961in;height:3.87526in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image1.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Trey Research - VPN Technical Overview** document to OneDrive.
@@ -501,14 +467,12 @@ transform text into a table.
 
 7.  Open the **Trey Research - VPN Technical Overview.docx** file.
 
-> <img src="./media/image33.png" style="width:5.44458in;height:2.45628in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image33.png)
 
 8.  On the **Word** ribbon, select the **Copilot** button to open the
     Copilot pane.
 
-> <img src="./media/image34.png" style="width:5.15508in;height:2.39726in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image34.png)
 
 9.  In the **Copilot** pane, enter the following prompt and then select
     the arrow (**Send**) icon:
@@ -517,8 +481,7 @@ transform text into a table.
 the pros and cons of each type. This content is for a technical
 audience, so please provide specific details.**
 
-> <img src="./media/image35.png" style="width:4.92364in;height:1.77068in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image35.png)
 
 10. Copilot doesn't add new content directly into a document. It
     displays the content in a response window in the Copilot pane.
@@ -543,16 +506,14 @@ audience, so please provide specific details.**
 related to VPN usage. This content is for a technical audience, so
 please provide specific details.**
 
-> <img src="./media/image36.png" style="width:5.37818in;height:2.32205in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image36.png)
 
 12. Copy and paste the content from this response into the document.
     Place it just before the **Risks and mitigations** section, and then
     edit the content as needed. If necessary, add a heading for this
     section titled **Security policies related to VPN usage**.
 
-> <img src="./media/image37.png" style="width:5.41085in;height:2.53218in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image37.png)
 
 13. When you reviewed the report, you also identified one area of
     content that you felt needed to be rewritten. In the section
@@ -573,16 +534,14 @@ please provide specific details.**
 > networks and focus solely on the risks of VPNs in enterprise
 > networks.**
 >
-> <img src="./media/image38.png" style="width:5.3961in;height:2.28375in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image38.png)
 
 15. Check Copilot's response. Sometimes this rewrite functionality
     didn't work. When it didn't work, Copilot returned the following
     response. If this situation occurs, copy and paste in your prompt
     and try it again (remember, iterate, iterate, iterate).
 
-> <img src="./media/image39.png" style="width:5.38806in;height:2.31317in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image39.png)
 
 16. After you make a final review of the document, you decide that the
     sections on the Pros and Cons of implementing VPNs would look better
@@ -592,13 +551,11 @@ please provide specific details.**
 
 **Please rewrite the highlighted content by placing it in a table**.
 
-> .<img src="./media/image40.png" style="width:5.67978in;height:2.62468in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image40.png)
 
 17. Note the Copilot response.
 
-> <img src="./media/image41.png" style="width:5.53447in;height:2.04492in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image41.png)
 
 18. Reformatting content into a table is different than rewriting
     content. Instead of highlighting the content that you want placed in
@@ -609,8 +566,7 @@ please provide specific details.**
 > **Place the content from the Pros and Cons of implementing VPNs into a
 > table**
 >
-> <img src="./media/image42.png" style="width:5.36838in;height:2.50576in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image42.png)
 
 19. Note the Copilot response. Instead of rewriting or replacing the
     existing content in the document with a table, it displays the table
@@ -623,8 +579,7 @@ please provide specific details.**
     font and font size of the table content to match the existing font
     and size used throughout the document.
 
-> <img src="./media/image43.png" style="width:5.50314in;height:2.27296in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image43.png)
 
 20. At this point, you feel the document is complete. However, to play
     it safe, you decide to ask Copilot if it feels the document should
@@ -633,15 +588,13 @@ please provide specific details.**
 **Is there anything missing in this document that you would recommend
 adding?**
 
-> <img src="./media/image44.png" style="width:2.7918in;height:2.84654in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image44.png)
 
 21. Note the Copilot response. In our testing, it told us that nothing
     was missing. Try again to see if Copilot provides a different
     response.
 
-> <img src="./media/image45.png" style="width:2.72225in;height:3.01829in"
-> alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image45.png)
 
 22. If Copilot recommended that you add more content to your document,
     create a prompt that asks it to do so. You can then copy and paste
