@@ -13,7 +13,7 @@ of which can enhance the quality of your work. In this lab, you will
 - Use Copilot in Word to compare three supplier agreements, identify the
   differences, and provide recommended actions.
 
-## Exercise \#1: Create a market research report using Copilot in Loop
+## Exercise #1: Create a market research report using Copilot in Loop
 
 You're the VP of Sales for VanArsdel Ltd, an OEM of plastic components,
 whose primary market is the agriculture equipment industry. However,
@@ -130,10 +130,9 @@ In this exercise, you will use Copilot in Loop to
 15. Scroll to the bottom of the report and review Copilot's
     recommendation.
 
-    <img src="./media/image13.png" style="width:5.59023in;height:2.59507in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image13.png)
 
-## Exercise \#2: Create a sales presentation using Copilot in PowerPoint
+## Exercise #2: Create a sales presentation using Copilot in PowerPoint
 
 With Copilot in PowerPoint Sales professionals can focus on the content
 of their presentations, while the tool takes care of the design and
@@ -173,8 +172,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-    <img src="./media/image14.png" style="width:5.07948in;height:4.44379in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image14.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** document to OneDrive.
@@ -187,8 +185,7 @@ Protein Shake.docx** file, which you download using the provided link.
     available for you to choose from. Select the **Create presentation
     from file** prompt.
 
-    <img src="./media/image15.png" style="width:5.50757in;height:2.76172in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image15.png)
 
     Above the prompt field at the bottom of the **Copilot** pane,
     a **Suggestions** window appears that contains the three most recently
@@ -201,8 +198,7 @@ Protein Shake.docx** file, which you download using the provided link.
     in **PowerPoint**, paste in the link following the forward slash
     (**Create presentation from file /**). Select the **Send** icon.
 
-    <img src="./media/image16.png" style="width:2.84042in;height:3.79186in"
-    alt="A screenshot of a phone Description automatically generated" />
+    ![](./media/image16.png)
 
 9.  This prompt triggered Copilot to create a slide presentation based
     on the document. In doing so, it first displayed the outline of the
@@ -210,8 +206,7 @@ Protein Shake.docx** file, which you download using the provided link.
     list of some of the changes that it made to the presentation based
     on the document.
 
-    <img src="./media/image17.png" style="width:5.27138in;height:2.38339in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image17.png)
 
 10. Review the slides once Copilot finished creating the presentation.
     To review the speaker notes, select the **View** tab and then select
@@ -220,8 +215,7 @@ Protein Shake.docx** file, which you download using the provided link.
     slide window up to show the notes. Verify the speaker notes include
     the key points that you want to make during the presentation.
 
-    <img src="./media/image18.png" style="width:5.26482in;height:2.45334in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image18.png)
 
 11. Select the **Home** tab and then select the **Designer** button,
     which appears to the left of the **Copilot** button.
@@ -230,16 +224,14 @@ Protein Shake.docx** file, which you download using the provided link.
     presentation and note how the **Designer** pane generates different
     design options for that slide.
 
-    <img src="./media/image19.png" style="width:5.24086in;height:1.99566in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image19.png)
 
 12. Select one of the design options to have PowerPoint replace the
     current slide with the new design. This feature isn't
     Copilot-related. It's available in PowerPoint when you have a
     Microsoft 365 subscription.
 
-    <img src="./media/image20.png" style="width:5.31763in;height:2.18455in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image20.png)
 
 13. Now let's see what else Copilot can do. Select
     the **Copilot** button to open the **Copilot** pane. In
@@ -248,16 +240,14 @@ Protein Shake.docx** file, which you download using the provided link.
     perform on the presentation. Select the **Organize this
     presentation** button.
 
-    <img src="./media/image21.png" style="width:5.42923in;height:1.98258in"
-    alt="A screen shot of a computer Description automatically generated" />
+    ![](./media/image21.png)
 
 14. Review what Copilot did in organizing the presentation. For example,
     it may have grouped the slides into sections and then added some new
     section title slides. If so, locate the new slides that it created
     and review them.
 
-    <img src="./media/image22.png" style="width:2.84042in;height:3.8127in"
-    alt="A screenshot of a cell phone Description automatically generated" />
+    ![](./media/image22.png)
 
 15. Above the prompt field, Copilot displays questions related to the
     presentation. The purpose of these questions is two-fold. You can
@@ -275,8 +265,7 @@ Protein Shake.docx** file, which you download using the provided link.
     behind the hype of Contoso Protein Plus**? Review the questions that you
     see, and select one of them to see what happens.
 
-    <img src="./media/image23.png"
-    style="width:5.80694in;height:3.84722in" />
+    ![](./media/image23.png)
 
 16. When you select any of these questions, Copilot generates an answer
     to the question and provides a **Copy** option at the bottom of the
@@ -286,17 +275,14 @@ Protein Shake.docx** file, which you download using the provided link.
     question, copy the answer, then go to an appropriate slide and in
     the speaker notes, enter **Ctrl+V** to paste in the note.
 
-    <img src="./media/image24.png" style="width:2.4729in;height:3.04446in"
-    alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image24.png)
 
-    <img src="./media/image25.png" style="width:5.48977in;height:3.03926in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image25.png)
 
 17. Note the **Refresh** button that appears between the suggested
     questions and the prompt field. Select this **Refresh** button.
 
-    <img src="./media/image26.png" style="width:2.96543in;height:3.8127in"
-    alt="A screenshot of a cell phone Description automatically generated" />
+    ![](./media/image26.png)
 
     In doing so, note how Copilot generated a new set of questions. You
     can continue to refresh the questions by selecting
@@ -313,8 +299,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     **Add a slide at the end of the presentation for Q&A**.
 
-    <img src="./media/image27.png" style="width:5.55823in;height:2.30372in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image27.png)
 
 19. Review the Q&A slide that Copilot created. Now try one final thing.
     You decide to compile a list of potential questions that you can
@@ -331,11 +316,9 @@ Protein Shake.docx** file, which you download using the provided link.
     Copilot can't complete a task, a good practice is to repeat the
     request.
 
-    <img src="./media/image28.png" style="width:5.41799in;height:2.83325in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image28.png)
 
-    <img src="./media/image29.png" style="width:5.16038in;height:1.91127in"
-    alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image29.png)
 
     If Copilot is unable to complete this task, then it just shows it may
     not be able to complete everything that you want at this point in
@@ -348,21 +331,19 @@ Protein Shake.docx** file, which you download using the provided link.
     **What kind of questions do you think participants may ask during the
     Q&A session**?
 
-    <img src="./media/image30.png"
-    style="width:4.06808in;height:2.25894in" />
+    ![](./media/image30.png)
 
 22. Review the questions that Copilot created. Select
     the **Copy** button at the bottom of the window, and then paste them
     (**Ctrl+V**) into the speaker notes of the Q&A slide.
 
-    <img src="./media/image31.png" style="width:4.112in;height:2.2437in"
-    alt="A screenshot of a chat Description automatically generated" />
+    ![](./media/image31.png)
 
     While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you to retain a
     copy for future reference.
 
-## Exercise \#3: Compare supplier agreements using Copilot in Word
+## Exercise #3: Compare supplier agreements using Copilot in Word
 
 Salespeople need right information at the right time to build strong
 relationships with their customers, take actions based on insights, and
@@ -429,8 +410,7 @@ In this exercise, you will
     each document and then close it. Open and close each of the three
     files in your OneDrive account.
 
-    <img src="./media/image32.png" style="width:3.59982in;height:2.73078in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image32.png)
 
 7.  In **Microsoft 365**, open **Microsoft Word** and then open a new
     blank document.
@@ -445,8 +425,7 @@ In this exercise, you will
     with more favorable terms. The supplier agreements for these three
     customers are attached**. **Thank you**!
 
-    <img src="./media/image33.png" style="width:5.06083in;height:2.24615in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image33.png)
 
     You now must attach the three supplier agreements to the prompt. In
     the **Draft with Copilot** window, select the **Reference your
@@ -464,8 +443,7 @@ In this exercise, you will
     information from the three supplier agreements drafts a report
     comparing them.
 
-    <img src="./media/image34.png" style="width:4.83835in;height:1.72821in"
-    alt="A screenshot of a computer screen Description automatically generated" />
+    ![](./media/image34.png)
 
 10. After reviewing the comparison document, you aren't pleased with the
     results. You would like to see Copilot try again and generate a new
