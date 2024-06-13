@@ -37,7 +37,7 @@ using one of the following methods:</span>
 <span class="mark">In this exercise, you select the company's Income
 Statement from the MRU file list.</span>
 
-   ![Image description](./media/image2.png)
+  ![Image description](./media/image1.png)
 
 You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
