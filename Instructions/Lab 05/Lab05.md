@@ -65,8 +65,7 @@ The purpose of this email is twofold:
 3.  On the **Message** tab that opens, select **Copilot** in the ribbon.
     In the drop-down menu that appears, select **Draft with Copilot**.
 
-> <img src="./media/image1.png" style="width:5.46213in;height:2.70867in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image1.png)
 
 4.  In the body of the message, a **Draft with Copilot** window appears.
     The prompt field contains the message: **What do you want this email
@@ -74,16 +73,14 @@ The purpose of this email is twofold:
     options** icon. Select this icon to see the options that Copilot
     provides when creating an email.
 
-> <img src="./media/image2.png" style="width:4.91052in;height:3.34586in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image2.png)
 
 5.  In the drop-down menu that appears, you see that you can change the
     Tone and Length of the email. You decide to start out by setting
     the **Tone** to **Formal** and the **Length** to **Long**. Select
     these options now.
 
-> <img src="./media/image3.png" style="width:4.942in;height:2.97582in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image3.png)
 
 6.  Enter the following prompt in the **What do you want this email to
     say**? field and then select the **Generate** button:
@@ -94,16 +91,14 @@ The purpose of this email is twofold:
 > year. Request a meeting with the insurance carrier’s team to discuss
 > the proposed increases and explore alternative options.**
 >
-> <img src="./media/image4.png" style="width:4.68646in;height:3.13919in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image4.png)
 
 7.  Scroll through the draft to review it. At the top of the message,
     Copilot displays the start of the prompt that you just entered (that
     is "**I'm the CFO for Northwind Traders...**"). Select this section
     of the prompt to see what happens.
 
-> <img src="./media/image5.png" style="width:5.19638in;height:3.46118in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image5.png)
 
 8.  Copilot displays a **Rewrite with Copilot** window that allows you
     to edit the prior prompt and regenerate an entirely new message. At
@@ -113,11 +108,9 @@ The purpose of this email is twofold:
     Change the **Tone** to **Direct** and the **Length** to **Medium**,
     and then select the **Generate** button.
 
-> <img src="./media/image6.png" style="width:5.18764in;height:3.06684in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image6.png)
 >
-> <img src="./media/image7.png" style="width:5.24058in;height:3.11265in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image7.png)
 
 9.  Review the revised draft. At the top of the **Rewrite with
     Copilot** window, note the "**I'm the CFO for Northwind
@@ -127,11 +120,9 @@ The purpose of this email is twofold:
     previous Copilot draft, which in this case is the first draft that
     has a **Formal** tone and a **Long** length.
 
-> <img src="./media/image8.png" style="width:5.21536in;height:3.18376in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image8.png)
 >
-> <img src="./media/image9.png" style="width:5.15504in;height:2.91106in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image9.png)
 >
 > If you generate multiple Copilot drafts, as you'll do in this
 > exercise, you can use these arrows to go back and forth between drafts
@@ -150,11 +141,9 @@ The purpose of this email is twofold:
     time change the **Tone** to **Casual** and the **Length** back
     to **Long**. Select **Generate**.
 
-> <img src="./media/image9.png" style="width:5.15504in;height:2.91106in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image9.png)
 >
-> <img src="./media/image10.png" style="width:5.41145in;height:1.99467in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image10.png)
 
 11. Review the new draft. At this point, you realize that you don't like
     the **Direct** tone and the **Medium** length in draft number two.
@@ -181,11 +170,9 @@ The purpose of this email is twofold:
     draft (Casual). Proceed to the next step once you decide which draft
     you want to use.
 
-> <img src="./media/image10.png" style="width:5.27155in;height:1.9431in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image10.png)
 >
-> <img src="./media/image11.png" style="width:5.27572in;height:1.65706in"
-> alt="A screenshot of a computer screen Description automatically generated" />
+> ![](./media/image11.png)
 
 13. At this point, your preferred draft should appear in the Copilot
     window. Beyond the changes to the tone and length that you
@@ -255,7 +242,7 @@ The purpose of this email is twofold:
     icon in the upper right corner of the email screen and then confirm
     that you want to discard the message.
 
-## Exercise \#2: Analyze a financial spreadsheet using Copilot in Excel
+## Exercise #2: Analyze a financial spreadsheet using Copilot in Excel
 
 For Finance professionals, Copilot in Excel offers the ability to ask
 questions about your data set in natural language rather than just
@@ -289,16 +276,14 @@ and prompts.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-> <img src="./media/image12.png" style="width:4.37976in;height:3.83165in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image12.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Fabrikam Q1 marketing campaigns** spreadsheet to OneDrive and then
     open and close the file to get it in your Most Recently Used (MRU)
     file list.
 
-> <img src="./media/image13.png" style="width:5.16341in;height:2.62118in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image13.png)
 
 6.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
@@ -312,8 +297,7 @@ and prompts.
 
 9.  Select the **Copilot** option on the right side of the ribbon.
 
-> <img src="./media/image14.png" style="width:5.0069in;height:1.99865in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image14.png)
 
 10. In the **Copilot** pane that appears, note the predefined prompts
     that are displayed above the prompt field. Before you select any of
@@ -325,8 +309,7 @@ and prompts.
 > **Create a pivot table to analyze the total revenue generated by each
 > campaign type**.
 >
-> <img src="./media/image15.png" style="width:5.03842in;height:2.36905in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image15.png)
 
 11. Review the results of this prompt. Copilot displayed two response
     windows. The first response included a pivot table that summarized
@@ -336,8 +319,7 @@ and prompts.
     sheet** button. Doing so adds this table to **Sheet 2** of this
     spreadsheet, which Copilot then opened for you.
 
-> <img src="./media/image16.png" style="width:5.7029in;height:2.3959in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image16.png)
 >
 > <span class="mark">**Note**: If **Add to new sheet** button is not
 > visible, you need to test with zoom in/out to see the button (A zoom
@@ -352,8 +334,7 @@ and prompts.
     in **Sheet 2**. However, notice that while you're in **Sheet 2**,
     the prompt field is disabled.
 
-> <img src="./media/image17.png" style="width:5.2211in;height:2.12234in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image17.png)
 >
 > **Note**: The prompting field is only enabled in the sheet that has
 > the Excel table. For this spreadsheet, that's **Sheet 1**. As you
@@ -366,8 +347,7 @@ and prompts.
 > generated by each campaign type. Create a chart in Sheet 2 to
 > visualize this data**.
 >
-> <img src="./media/image18.png" style="width:2.84123in;height:2.76798in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image18.png)
 
 14. Review the result. If Copilot created a chart showing the revenue by
     campaign type, then proceed to the next step. However, if Copilot
@@ -378,8 +358,7 @@ and prompts.
 
 > **Calculate the total revenue generated by each campaign type**.
 >
-> <img src="./media/image19.png" style="width:5.38977in;height:2.18374in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image19.png)
 >
 > <span class="mark">**Note**: Even after simplifying the prompt like
 > the following Calculate the total revenue generated by each campaign
@@ -393,11 +372,9 @@ and prompts.
     to a new sheet** button at the bottom of the window. Doing so adds
     this chart to **Sheet 3** of this spreadsheet.
 
-> <img src="./media/image20.png" style="width:5.07549in;height:2.35443in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image20.png)
 >
-> <img src="./media/image21.png" style="width:5.35127in;height:1.88237in"
-> alt="A screenshot of a graph Description automatically generated" />
+> ![](./media/image21.png)
 
 16. In looking at **Sheet 3**, you note how Copilot included the pivot
     table along with the chart. You realize that **Sheet 2** has the
@@ -408,11 +385,9 @@ and prompts.
     menu that appears, and then select **OK** to confirm the deletion.
     Doing so leaves you with Sheets 1 and 3.
 
-> <img src="./media/image22.png" style="width:4.76578in;height:2.33484in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image22.png)
 >
-> <img src="./media/image23.png" style="width:5.03468in;height:2.44148in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image23.png)
 
 17. Since you want to make more changes, select **Sheet 1** to return
     back to your sheet with the pivot table.
@@ -423,24 +398,20 @@ and prompts.
 
 > **Calculate the ROI for each campaign**.
 >
-> <img src="./media/image24.png" style="width:2.49354in;height:2.43574in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image24.png)
 
 19. Review the results of this prompt. Copilot shows you the
     calculation, and you can select the **Explain formula** option for
     an explanation of the ROI calculation.
-    <img src="./media/image25.png" style="width:2.80605in;height:3.35167in"
-    alt="A screenshot of a phone Description automatically generated" />
+    ![](./media/image25.png)
 
-> <img src="./media/image26.png" style="width:2.69458in;height:3.02793in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image26.png)
 
 20. You want Copilot to add the ROI to your spreadsheet, so select
     the **+Insert column** button that appears at the bottom of the
     window.
 
-> <img src="./media/image27.png" style="width:5.40298in;height:2.0107in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image27.png)
 
 21. Note the results. Copilot added a new column containing the ROI for
     each individual campaign. While that's fine, you want it to
@@ -453,8 +424,7 @@ and prompts.
 > **That change looks good. However, I would like you to also calculate
 > the ROI for each campaign type**.
 >
-> <img src="./media/image28.png" style="width:2.19431in;height:2.6419in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image28.png)
 
 22. Review the results. Copilot created a graph showing the ROI by
     campaign type. Select the option at the bottom of the window
@@ -465,11 +435,9 @@ and prompts.
     campaign type. After you finish reviewing this data, select **Sheet
     1**.
 
-> <img src="./media/image29.png" style="width:2.48248in;height:3.82152in"
-> alt="A screenshot of a cell phone Description automatically generated" />
+> ![](./media/image29.png)
 >
-> <img src="./media/image30.png" style="width:5.46633in;height:2.16509in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image30.png)
 
 23. You now want Copilot to determine which campaigns were most
     effective at engaging users. You feel the best way to visualize this
@@ -480,14 +448,12 @@ and prompts.
 > **Create a chart that shows which campaign was most effective at
 > engaging users**.
 >
-> <img src="./media/image31.png" style="width:5.56484in;height:2.12458in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image31.png)
 
 24. Review the results. Copilot created an **Engaged Users by Campaign
     Name** bar chart.
 
-> <img src="./media/image32.png" style="width:2.58347in;height:2.59041in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image32.png)
 
 25. However, if Copilot just summarized the total engaged users by
     campaign, that's not exactly what you wanted. To correct this
@@ -497,14 +463,12 @@ and prompts.
 > chart that shows the relationship between total users targeted and
 > total users engaged**.
 >
-> <img src="./media/image33.png" style="width:2.39601in;height:2.92708in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image33.png)
 
 26. Review the results. In our testing, Copilot indicated that it
     couldn't create a scatter chart with this data.
 
-> <img src="./media/image34.png" style="width:2.33208in;height:2.34349in"
-> alt="A screenshot of a screenshot of a computer Description automatically generated" />
+> ![](./media/image34.png)
 
 27. However, it did explain the pivot table that it created. You feel
     that result is good enough for now, so select the **+Add to a new
@@ -512,11 +476,9 @@ and prompts.
     adds this table to **Sheet 4** of this spreadsheet. When you're done
     reviewing this data, select **Sheet 1**.
 
-> <img src="./media/image35.png" style="width:2.61125in;height:3.17377in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image35.png)
 >
-> <img src="./media/image36.png" style="width:5.26502in;height:2.00311in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image36.png)
 
 28. You have one final piece of data that you want Copilot to provide.
     You would like Copilot to identify the top-performing campaigns
@@ -526,8 +488,7 @@ and prompts.
 
 > **Identify the top-performing campaigns based on revenue generated**.
 >
-> <img src="./media/image37.png" style="width:5.53416in;height:2.09999in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image37.png)
 
 29. Review the results. Copilot created a graph showing the Revenue by
     campaign name. Select the option at the bottom of the window
@@ -537,11 +498,9 @@ and prompts.
     revenue by campaign. When you're done reviewing this data,
     select **Sheet 1**.
 
-> <img src="./media/image38.png" style="width:2.69458in;height:3.27795in"
-> alt="A screenshot of a cell phone Description automatically generated" />
+> ![](./media/image38.png)
 >
-> <img src="./media/image39.png" style="width:5.57643in;height:2.23959in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image39.png)
 
 30. That completes the data that you wanted Copilot to analyze for you.
     However, you're curious as to what other suggestions Copilot may
@@ -551,17 +510,14 @@ and prompts.
     see this suggestion, then select it now. However, if you don't see
     this suggestion, then enter it manually in the prompt field.
 
-> <img src="./media/image40.png" style="width:2.75709in;height:3.29184in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image40.png)
 
 31. Review the column suggestion. If you want to add it to your
     spreadsheet, select the **+Insert column** button.
 
-> <img src="./media/image41.png"
-> style="width:2.61125in;height:3.15294in" />
+> ![](./media/image41.png)
 >
-> <img src="./media/image42.png" style="width:5.30031in;height:1.86268in"
-> alt="A screenshot of a spreadsheet Description automatically generated" />
+> ![](./media/image42.png)
 >
 > If a predefined prompt appears that says **Give me another
 > suggestion**, then select it now. However, if this predefined prompt
@@ -577,30 +533,24 @@ and prompts.
     various types of data. In the list of predefined prompts, select
     the **Show data insights** button.
 
-> <img src="./media/image43.png" style="width:2.77098in;height:3.34045in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image43.png)
 
 34. Review the results. If this chart is of interest to you, select
     the **+Add to a new sheet** button and then return to **Sheet 1**.
 
-> <img src="./media/image44.png" style="width:2.58347in;height:3.50712in"
-> alt="A screenshot of a graph Description automatically generated" />
+> ![](./media/image44.png)
 >
-> <img src="./media/image45.png" style="width:5.09184in;height:2.02635in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image45.png)
 
 35. Then select the **Can I see another insight**? button. Again, if
     this chart is of interest to you, select the **+Add to a new
     sheet** button and then return to **Sheet 1**.
 
-> <img src="./media/image46.png" style="width:2.86126in;height:3.46546in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image46.png)
 >
-> <img src="./media/image47.png" style="width:2.77792in;height:2.9446in"
-> alt="A screenshot of a social media post Description automatically generated" />
+> ![](./media/image47.png)
 >
-> <img src="./media/image48.png" style="width:5.37411in;height:1.93744in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image48.png)
 
 36. After seeing these first two charts, you realize that you like the
     various charts that Copilot provides. Instead of looking through
@@ -608,14 +558,12 @@ and prompts.
     all the insights that it can create based on your data. In the
     predefined prompts, select the **Add all insights to grid** prompt.
 
-> <img src="./media/image49.png" style="width:2.41587in;height:2.97756in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image49.png)
 
 37. Review the results. Copilot created multiple charts in the final
     sheet, along with several pivot tables.
 
-> <img src="./media/image50.png" style="width:5.34201in;height:2.08152in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image50.png)
 
 38. You determine that your analysis is complete given all the data that
     Copilot in Excel has provided. Since Excel automatically saved your
