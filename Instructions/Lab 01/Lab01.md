@@ -91,19 +91,17 @@ speech for you based on your company's Income Statement:
     If, for some reasons the file is not displayed, click **Browse files
     from cloud** in the pop-up window.
     
-   ![Image description](./media/image1.png)
+   ![Image description](./media/image9.png)
 
 10. In the **Pick a file** window that appears, under
     the **Recent** file list, select the **Fabrikam 2023 Income
     Statement.docx** file and then select the **Attach** button.
 
-    <img src="./media/image10.png" style="width:5.55643in;height:2.6003in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image10.png)
 
 11. Note how the file is displayed in the prompt. Select **Generate**.
 
-    <img src="./media/image11.png" style="width:5.72754in;height:2.06359in"
-    alt="A screenshot of a computer screen Description automatically generated" />
+    ![Image description](./media/image11.png)
 
 12. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
