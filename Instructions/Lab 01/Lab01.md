@@ -37,7 +37,7 @@ using one of the following methods:</span>
 <span class="mark">In this exercise, you select the company's Income
 Statement from the MRU file list.</span>
 
-![Image description](./media/image1.png)
+    ![Image description](./media/image1.png)
 
 You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
@@ -46,18 +46,16 @@ speech for you based on your company's Income Statement:
     to copy and paste it in the browser window. [Fabrikam's 2023 Income
     Statement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Fabrikam%202023%20Income%20Statement.docx)
 
-![Image description](./media/image2.png)
+    ![Image description](./media/image2.png)
 
 2.  Select “Download” to download the file to the Lab VM.
 
     **Important**: Please do not use **Save a copy to One Drive** option
     since you may encounter sign-in error.
 
-    <img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/media/image3.png" style="width:5.59205in;height:0.82028in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image3.png)
 
-    <img src="./media/image4.png" style="width:5.74633in;height:0.98934in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image4.png)
 
 3.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -65,17 +63,14 @@ speech for you based on your company's Income Statement:
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-    <img src="./media/image5.png" style="width:5.07948in;height:4.44379in"
-    alt="A screenshot of a computer Description automatically generated" />
-
+   ![Image description](./media/image5.png)
+   
 5.  Browse to the **Downloads** folder to select and upload a copy of
     Fabrikam's 2023 Income Statement document to OneDrive.
 
-    <img src="./media/image6.png" style="width:4.3529in;height:3.09228in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image6.png)
 
-    <img src="./media/image7.png" style="width:5.23605in;height:3.29354in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image7.png)
 
 6.  In Microsoft 365, open Microsoft Word, and then open a new blank
     document.
