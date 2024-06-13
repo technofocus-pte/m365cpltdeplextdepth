@@ -225,15 +225,15 @@ Copilot in PowerPoint serves as an intelligent collaborator, offering
 real-time suggestions and enhancements as IT professionals craft their
 presentations to:
 
-- Present their ideas or proposals to their team or management.
-
-- Train new employees or demonstrate new software or hardware to
-  clients.
-
-- Explain complex technical concepts to nontechnical audiences, such as
-  stakeholders or investors.
-
-- Showcase their work or promote their services to potential clients.
+  - Present their ideas or proposals to their team or management.
+  
+  - Train new employees or demonstrate new software or hardware to
+    clients.
+  
+  - Explain complex technical concepts to nontechnical audiences, such as
+    stakeholders or investors.
+  
+  - Showcase their work or promote their services to potential clients.
 
 With Copilot in PowerPoint, you can create a presentation from an
 existing Word document. When you provide Copilot in PowerPoint with the
@@ -295,35 +295,35 @@ was created for you, and save it to your OneDrive account.</span>
     a **Suggestions** window that displays three of the most recently
     used files.
 
-- If your file appears here, then select it now and proceed to the next
-  step.
+    - If your file appears here, then select it now and proceed to the next
+      step.
+    
+    - If the file isn't one of the three being displayed, select the right
+      arrow (**\>**) in the upper right corner of the **Suggestions** window
+      to see an expanded MRU file list. If the file appears here, then
+      select it now and proceed to the next step.
+    
+    - If you don't see your file in the expanded MRU list, then you must
+      copy the link to the report and paste it in the prompt field. To do
+      so:
 
-- If the file isn't one of the three being displayed, select the right
-  arrow (**\>**) in the upper right corner of the **Suggestions** window
-  to see an expanded MRU file list. If the file appears here, then
-  select it now and proceed to the next step.
-
-- If you don't see your file in the expanded MRU list, then you must
-  copy the link to the report and paste it in the prompt field. To do
-  so:
-
-  1.  Select the **Microsoft 365** browser tab and select **Word** in
-      the navigation pane.
-
-  2.  In the **Word** home page, in the list of recent files, select the
-      report to open it in Word.
-
-  3.  In the report in Word, on the far-right above the ribbon, select
-      the **Share** button. In the drop-down menu that appears,
-      select **Copy Link**. Wait for the **Link copied** window to
-      appear, which is your assurance that the link to the file is
-      copied to your clipboard.
-
-  4.  Switch to your **PowerPoint** tab, and at the bottom of
-      the **Copilot** pane, the prompt field should still be
-      displaying **Create presentation from file /**. Position your
-      cursor after the forward slash (**/**) and then paste in
-      (**Ctrl+V**) the link to the report.
+      1.  Select the **Microsoft 365** browser tab and select **Word** in
+          the navigation pane.
+    
+      2.  In the **Word** home page, in the list of recent files, select the
+          report to open it in Word.
+    
+      3.  In the report in Word, on the far-right above the ribbon, select
+          the **Share** button. In the drop-down menu that appears,
+          select **Copy Link**. Wait for the **Link copied** window to
+          appear, which is your assurance that the link to the file is
+          copied to your clipboard.
+    
+      4.  Switch to your **PowerPoint** tab, and at the bottom of
+          the **Copilot** pane, the prompt field should still be
+          displaying **Create presentation from file /**. Position your
+          cursor after the forward slash (**/**) and then paste in
+          (**Ctrl+V**) the link to the report.
 
 10. Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field. This prompt triggered Copilot
