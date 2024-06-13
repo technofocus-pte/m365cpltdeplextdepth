@@ -36,8 +36,7 @@ based on the role responsibilities in this document.
     account, and then open and close the file to get it in your Most
     Recently Used (MRU) file list.
 
-> <img src="./media/image1.png" style="width:3.36233in;height:2.4966in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image1.png)
 
 3.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
@@ -64,8 +63,7 @@ based on the role responsibilities in this document.
     Responsibilities.docx** file appears in the list of files, select
     it.
 
-> <img src="./media/image2.png" style="width:5.11597in;height:2.84649in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image2.png)
 
 7.  Select **Browse files from cloud**, select the file from
     the **Recent** file list, and then select the **Attach** button. If
@@ -74,19 +72,16 @@ based on the role responsibilities in this document.
     file** window, navigate to the folder where you stored the file,
     select the file and then select **Attach**.
 
-> <img src="./media/image3.png" style="width:4.65506in;height:2.2762in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image3.png)
 
 8.  Note how the file is displayed in the prompt and
     select **Generate**.
 
-> <img src="./media/image4.png" style="width:5.20199in;height:2.59696in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image4.png)
 
 9.  Review the first draft of the job description document.
 
-> <img src="./media/image5.png" style="width:4.84889in;height:2.7688in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image5.png)
 
 10. You note that it doesn't include many of the details found in the
     job responsibilities document. Instead, it provides a summarized
@@ -100,13 +95,11 @@ based on the role responsibilities in this document.
 > area and select the responsibilities required of a Senior Animation
 > Designer**.
 >
-> <img src="./media/image6.png" style="width:5.38886in;height:2.58039in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image6.png)
 
 11. Review the second draft.
 
-> <img src="./media/image7.png" style="width:5.25677in;height:2.90969in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image7.png)
 
 12. Again, you feel that Copilot should provide more details. Enter the
     following prompt to see if you can get it to be more specific:
@@ -127,11 +120,9 @@ based on the role responsibilities in this document.
     backward arrow (\<) to go back to the second and then first drafts.
     Use the forward arrows (\>) to go back to the latest drafts.
 
-> <img src="./media/image8.png" style="width:4.8999in;height:2.22249in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image8.png)
 >
-> <img src="./media/image9.png" style="width:6.26806in;height:0.94236in"
-> alt="Screenshot showing the range of drafts in the Copilot in Word window, with the current draft being draft 3 of 3." />
+> ![](./media/image9.png)
 >
 > In this case, go back to the second draft. Review the list of
 > responsibilities again. While it's not as extensive as the list in the
@@ -145,14 +136,12 @@ based on the role responsibilities in this document.
     save it to your OneDrive account with the file name of **Graphic
     Design Institute - Job descriptions.docx.**
 
-> <img src="./media/image10.png"
-> style="width:5.0716in;height:2.35851in" />
+> ![](./media/image10.png)
 >
 > <span class="mark">**Note:** It's important that you save this
 > document since you will be using it in the next exercise.</span>
 
-## Exercise #2: Analyze resumes and make a recommendation using Copilot in
-Word
+## Exercise #2: Analyze resumes and make a recommendation using Copilot in Word
 
 In the previous exercise, you learned how Copilot in Word can assist HR
 professionals in crafting a job description. In this exercise, you will
@@ -166,8 +155,7 @@ draft and then stop. If this situation happens to you, select
 the **Regenerate** button to have it generate a new draft, or rephrase
 your prompt and try again.</span>
 
-> <img src="./media/image11.png" style="width:5.34589in;height:1.22779in"
-> alt="Screenshot showing a message you may receive if Copilot can’t finish generating the current draft." />
+> ![](./media/image11.png)
 
 As the HR Manager at Graphic Design Institute, you started receiving
 resumes from probable candidate for a new Senior Animation Designer
@@ -207,8 +195,7 @@ can locate the file in this exercise.
     open each document and then close it. Open and close each of the
     four resume files in your OneDrive account.
 
-> <img src="./media/image12.png" style="width:5.05165in;height:2.44243in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image12.png)
 
 4.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
     blank document.
@@ -224,8 +211,7 @@ can locate the file in this exercise.
 > Animation Designer in the attached job description file and rank the
 > candidates from most qualified to least qualified. Thank you!**
 >
-> <img src="./media/image13.png" style="width:5.38726in;height:2.72228in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image13.png)
 
 6.  You now must attach to the prompt the **Graphic Design Institute -
     Job descriptions.docx** file that you saved to your OneDrive account
@@ -245,8 +231,7 @@ can locate the file in this exercise.
     requirements, you can only submit two of the resumes with this
     initial prompt.
 
-> <img src="./media/image14.png" style="width:5.4338in;height:1.92344in"
-> alt="A screenshot of a computer screen Description automatically generated" />
+> ![](./media/image14.png)
 
 8.  Since you attached the job description file and the first two
     resumes to the prompt, select **Generate**. At this point, Copilot
@@ -256,8 +241,7 @@ can locate the file in this exercise.
 
 9.  Review the results of this first draft.
 
-> <img src="./media/image15.png" style="width:5.11228in;height:2.5771in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image15.png)
 >
 > **Note**: Take a look at the **Draft with Copilot** window and note
 > that it doesn't include an **Attach** button. Once you're in draft
@@ -278,8 +262,7 @@ can locate the file in this exercise.
     okay, select the **Regenerate** button in the **Draft with
     Copilot** window to have Copilot create a second draft.
 
-> <img src="./media/image16.png" style="width:5.19432in;height:2.49184in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image16.png)
 
 11. When regenerating, you may come across the “Something went wrong”
     error message. Dismiss and try regenerating the comparison report
@@ -296,8 +279,7 @@ can locate the file in this exercise.
     either be **1 of 2** or **2 of 2**). When you find a draft that you
     want to use, select the **Keep it** button.
 
-> <img src="./media/image17.png"
-> style="width:5.52171in;height:1.55842in" />
+> ![](./media/image17.png)
 >
 > **Note**: When you select **Keep it**, Copilot moves from draft mode
 > into normal Microsoft Word mode. It also automatically saves
@@ -341,8 +323,7 @@ can locate the file in this exercise.
     and then select the **Attach** button. Repeat this process to select
     the final remaining resume.
 
-> <img src="./media/image18.png"
-> style="width:5.19375in;height:1.43333in" />
+> ![](./media/image18.png)
 
 15. Once you have the first Report Comparison report and the remaining
     two resumes attached to the prompt, select the **Generate** button
@@ -358,8 +339,7 @@ can locate the file in this exercise.
     For this training exercise, you decide you're satisfied with the
     report, so select the **Keep it** button.
 
-> <img src="./media/image19.png" style="width:4.93181in;height:2.52in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image19.png)
 
 17. At this point, Copilot generated two Report Comparison documents,
     the second of which is the final report comparing all four
@@ -396,8 +376,7 @@ questions based on your direction.
     Apps**, and on the **Apps** page, scroll down to locate **Loop** and
     then select it.
 
-> <img src="./media/image20.png" style="width:5.31041in;height:2.46341in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image20.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
     credentials.
@@ -412,8 +391,7 @@ questions based on your direction.
     select **+** next to **Getting started**, and then select **+New
     workspace** button.
 
-> <img src="./media/image22.png" style="width:4.76484in;height:2.43257in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image22.png)
 
 5.  In the **Create a new workspace** window, enter **Interview
     questions** for your workspace name, and then select either
@@ -432,14 +410,12 @@ questions based on your direction.
     role**. Note how the page name is automatically updated in the
     navigation pane.
 
-> <img src="./media/image23.png" style="width:4.60779in;height:2.20333in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image23.png)
 
 8.  In the **Just start typing...** field, enter a forward
     slash **(/)**.
 
-> <img src="./media/image24.png" style="width:5.16221in;height:2.60112in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image24.png)
 
 9.  In the drop-down menu that appears, under the **Copilot** section at
     the top of the menu, select **Draft page content**.
@@ -451,8 +427,7 @@ questions based on your direction.
 > asked to candidates applying for a new Senior Animation Designer role
 > at the Graphic Design Institute**.
 >
-> <img src="./media/image25.png" style="width:4.86484in;height:2.38984in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image25.png)
 >
 > <span class="mark">**Note**: Sometimes, you may not see the
 > **Copilot** window with Create, Brainstorm, Blueprint and Describe
@@ -461,8 +436,7 @@ questions based on your direction.
 
 11. Review the list of questions.
 
-> <img src="./media/image26.png" style="width:5.38837in;height:2.23093in"
-> alt="A white paper with black text Description automatically generated" />
+> ![](./media/image26.png)
 
 12. You feel this initial list is a good start, but you notice a few
     types of questions are missing. In the Copilot pane that appears,
@@ -471,13 +445,11 @@ questions based on your direction.
 > **Add a question about having failed at a project and what they
 > learned from it**.
 >
-> <img src="./media/image27.png" style="width:5.44574in;height:1.76899in"
-> alt="A white paper with black text Description automatically generated" />
+> ![](./media/image27.png)
 
 13. Review the new question that Loop created.
 
-> <img src="./media/image28.png" style="width:5.14481in;height:2.46638in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image28.png)
 
 14. After scanning the list one last time, you realize that it includes
     few, if any questions about leadership. To correct this situation,
@@ -488,8 +460,7 @@ questions based on your direction.
 > their most significant experiences in leading other design team
 > members, and what their leadership style is**.
 >
-> <img src="./media/image29.png" style="width:5.41152in;height:2.36522in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image29.png)
 
 15. Note what happened in Loop. When you request a change without
     specifically asking it to update the current page, Copilot may open
@@ -507,8 +478,7 @@ questions based on your direction.
 > amend the active page, which is why on this page, you can select into
 > the **Rewrite with Copilot** prompt field.
 >
-> <img src="./media/image30.png" style="width:5.02638in;height:2.54605in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image30.png)
 
 16. Let's make one more change. You're unsure as to whether the current
     list of questions is sufficient. To play it safe, you decide to ask
@@ -520,8 +490,7 @@ questions based on your direction.
 
 17. Note the final list of questions that Copilot in Loop generated.
 
-> <img src="./media/image31.png" style="width:5.60794in;height:2.84311in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image31.png)
 
 18. You now have a vast assortment of questions to choose from when
     interviewing your candidates. And with Loop, you know that others on
