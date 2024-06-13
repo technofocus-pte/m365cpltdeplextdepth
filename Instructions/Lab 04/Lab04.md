@@ -46,8 +46,7 @@ Creative, More Balanced, or More Precise).
 2.  In **Microsoft Bing**, in the list of tabs across the top of the
     page, select **Copilot**. Doing so opens Microsoft Copilot.
 
-> <img src="./media/image1.png"
-> style="width:4.24478in;height:3.02287in" />
+    ![](./media/image1.png)
 
 3.  On the **Copilot** page, note the toggle switch at the top of the
     page that allows you to select either **Work** or **Web**. While
@@ -55,15 +54,13 @@ Creative, More Balanced, or More Precise).
     Web to conduct its market analysis of the Toy industry. If
     necessary, select the **Web** toggle switch.
 
-> <img src="./media/image2.png" style="width:4.87178in;height:2.44452in"
-> alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image2.png)
 
 4.  Below the list of predefined prompt examples, you can choose a
     conversation style. Select the **More Balanced** option if it isn't
     already selected by default.
 
-> <img src="./media/image3.png"
-> style="width:2.95836in;height:1.29868in" />
+    ![](./media/image3.png)
 
 5.  In the prompt field, enter the following prompt and then select
     the **Submit** icon:
@@ -73,13 +70,11 @@ Creative, More Balanced, or More Precise).
 > identify sales figures, the latest trends, consumer preferences, and
 > the most popular toys in the market**.
 >
-> <img src="./media/image4.png"
-> style="width:5.32605in;height:2.18988in" />
+![](./media/image4.png)
 
 6.  Accept the **Terms of use and policy** to proceed further.
 
-> <img src="./media/image5.png" style="width:4.64211in;height:2.17654in"
-> alt="A screenshot of a message Description automatically generated" />
+![](./media/image5.png)
 
 7.  Review the market analysis that Copilot generated. You realize that
     a general request such as the one you submitted provides basic
@@ -97,13 +92,11 @@ Creative, More Balanced, or More Precise).
 > feedback. Please amend your prior analysis to include this
 > information. Thanks**!
 >
-> <img src="./media/image6.png" style="width:5.06915in;height:2.1478in" />
+> ![](./media/image6.png)
 >
-> <img src="./media/image7.png"
-> style="width:5.10695in;height:2.15311in" />
+> ![](./media/image7.png)
 >
-> <img src="./media/image8.png"
-> style="width:5.45953in;height:2.42886in" />
+> ![](./media/image8.png)
 
 8.  You realize that you're getting closer to your goal, but you're
     still missing some key information. After reviewing your prior
