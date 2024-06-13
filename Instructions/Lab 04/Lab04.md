@@ -206,8 +206,7 @@ that you want to export it just to save it for future reference. 
 - **PDF**. When you export a response to a PDF, Copilot opens
   a **Print** window that enables you to print the selected response.
 
-> <img src="./media/image19.png" style="width:4.74175in;height:2.45283in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image19.png)
 
 - **Text**. When you export a response to a Text file, Copilot downloads
   the response to an **Answer.txt** file in your **Downloads** folder.
@@ -215,8 +214,7 @@ that you want to export it just to save it for future reference. 
 > **Note**: Sometimes the export to Word process fails. Try again to
 > export to Word.
 >
-> <img src="./media/image20.png"
-> style="width:5.31072in;height:2.48202in" />
+> ![](./media/image20.png)
 
 3.  Select the exported file to open it in Word and review the contents.
     Note that Copilot's entire response was exported - note just the
@@ -257,8 +255,7 @@ line.
 2.  In the **Apps** page, scroll down to locate **Loop** and then select
     it.
 
-> <img src="./media/image22.png" style="width:5.3195in;height:2.70041in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image22.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
     credentials.
@@ -273,23 +270,20 @@ line.
     select **+** next to **Getting started**, and then select **+New
     workspace** button.
 
-> <img src="./media/image24.png" style="width:5.26571in;height:2.68828in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image24.png)
 
 5.  In the **Create a new workspace** window, enter **Outdoor toy line
     Marketing Campaign** for your workspace name and then select either
     the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
-> <img src="./media/image25.png"
-> style="width:2.5674in;height:2.62105in" />
+> ![](./media/image25.png)
 
 6.  In the **Add files to your workspace** window (depending on your
     version of Loop, this window may say **Workspace Switcher**),
     select **Create workspace**.
 
-> <img src="./media/image26.png" style="width:2.65775in;height:2.52695in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image26.png)
 
 7.  You're now on the first page for your new workspace. The name of the
     page is currently **Untitled**. Note the page (Untitled) also
@@ -298,11 +292,9 @@ line.
     page to **Ideas for Outdoor toy campaigns**. Note how the page name
     is automatically updated in the navigation pane.
 
-> <img src="./media/image27.png" style="width:5.41499in;height:2.84908in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image27.png)
 >
-> <img src="./media/image28.png" style="width:4.76479in;height:3.20116in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image28.png)
 
 8.  In the **Just start typing...** field, enter a forward
     slash **(/)**.
@@ -310,8 +302,7 @@ line.
 9.  In the drop-down menu that appears, under the **Copilot** section at
     the top of the menu, select **Draft page content**.
 
-> <img src="./media/image29.png"
-> style="width:5.46862in;height:2.80068in" />
+> ![](./media/image29.png)
 
 10. In the **Copilot** window that appears, note the row of buttons that
     appears below the prompt field. Select each button
@@ -320,8 +311,7 @@ line.
     the type of task that Copilot can assist with. Since this exercise
     deals with brainstorming, select the **Brainstorm** button.
 
-> <img src="./media/image30.png" style="width:5.41657in;height:1.08799in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image30.png)
 
 11. Note how Copilot prefills the prompt field with a brainstorming
     suggestion. In fact, select the **Brainstorm** button multiple
@@ -335,16 +325,14 @@ line.
 **Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
 toys**.
 
-> <img src="./media/image31.png" style="width:5.26697in;height:1.08595in"
-> alt="A screenshot of a social media post Description automatically generated" />
+> ![](./media/image31.png)
 
 12. Review the generated list of ideas. Rather than having all the
     information in a paragraph or list form, you prefer to summarize it
     in a table. Plus, you also want Copilot to provide more specific
     details for each idea.
 
-> <img src="./media/image32.png" style="width:5.10128in;height:3.03669in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image32.png)
 
 13. In the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
@@ -353,11 +341,9 @@ toys**.
 > information in a table and provide more specific details for each
 > idea**.
 >
-> <img src="./media/image33.png" style="width:5.1087in;height:3.62635in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image33.png)
 >
-> <img src="./media/image34.png" style="width:5.28598in;height:3.80314in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image34.png)
 
 14. Note how Copilot changed the formatting of the report. You now want
     Copilot to add another idea to the table titled **Supermarket store
@@ -365,11 +351,9 @@ toys**.
 
 **Add an idea for Supermarket store promotions**.
 
-> <img src="./media/image35.png" style="width:5.39227in;height:3.7452in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image35.png)
 >
-> <img src="./media/image36.png" style="width:5.1923in;height:3.77371in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image36.png)
 
 15. When you ask Copilot to add a new idea, it may add it into a new
     table, or it may add it to the end of the current table. Either way,
@@ -387,8 +371,7 @@ toys**.
 > you no longer want to include **Supermarket store promotions** in the
 > table, select the **Undo** icon for that prompt.
 >
-> <img src="./media/image37.png" style="width:4.39282in;height:3.10018in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image37.png)
 
 16. After selecting the **Undo** icon, note how Copilot deleted the
     prompt and returned you to the draft following the second prompt
@@ -413,19 +396,16 @@ toys**.
 
 **Please replace the final idea in the table with Seasonal Promotions**.
 
-> <img src="./media/image38.png" style="width:5.2596in;height:3.65596in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image38.png)
 >
-> <img src="./media/image39.png" style="width:5.10947in;height:3.55161in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image39.png)
 
 18. When it's time to present the list of marketing campaign ideas that
     you brainstormed with the help of Copilot in Loop, you can access
     the **Ideas for Outdoor toy campaigns** workspace that Loop
     automatically saved.
 
-## Exercise #3: Consolidate multiple marketing reports using Copilot in
-Word
+## Exercise #3: Consolidate multiple marketing reports using Copilot in Word
 
 Copilot in Word, an AI-powered writing assistant, can help you rewrite
 existing content, or even transform selected content into a table.
@@ -467,8 +447,7 @@ Latin America.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-> <img src="./media/image40.png" style="width:5.07948in;height:4.44379in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image40.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     the following documents to OneDrive.
@@ -484,8 +463,7 @@ Latin America.
     each document and then close it. Open and close each of the three
     files in your OneDrive account.
 
-> <img src="./media/image41.png" style="width:5.4728in;height:2.60968in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image41.png)
 
 7.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
     blank document.
@@ -501,8 +479,7 @@ Latin America.
 > describes the product, analyzes the market trend for it, and includes
 > a promotion plan for Latin America**.
 >
-> <img src="./media/image42.png" style="width:5.54781in;height:2.69646in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image42.png)
 
 9.  You now must attach the three documents to the prompt. In
     the **Draft with Copilot** window, select the **Reference your
@@ -513,24 +490,21 @@ Latin America.
     and then select the **Attach** button. Note how the file is
     displayed in the prompt.
 
-> <img src="./media/image43.png" style="width:5.39448in;height:2.5287in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image43.png)
 
 10. Repeat the prior step for both the **Contoso Chai Tea market trends
     2023.docx** file and the **Promotion Plan for Chai Tea in Latin
     America.docx** file. At this point, links to all three files should
     appear in the prompt.
 
-> <img src="./media/image44.png" style="width:5.74913in;height:2.47456in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image44.png)
 
 11. Select **Generate**. Upon doing so, Copilot extracts the pertinent
     information from the three files and drafts a report that combines
     them into a single Market Analysis report for Mystic Spice Premium
     Chai Tea.
 
-> <img src="./media/image45.png" style="width:5.22198in;height:2.56355in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image45.png)
 
 12. After reviewing this first draft of the Market Analysis report, you
     recognize that it's missing some critical information. You would
@@ -539,8 +513,7 @@ Latin America.
     following prompt in the Copilot window at the bottom of the report
     and then select the **Generate** arrow:
 
-> <img src="./media/image46.png" style="width:5.37635in;height:2.41835in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image46.png)
 >
 > **This report looks good. However, please add a section titled
 > Competitive Analysis. Review the beverage companies in Latin America
@@ -548,8 +521,7 @@ Latin America.
 > strengths and weaknesses of these competitors, their market share, and
 > their pricing strategies**.
 >
-> <img src="./media/image47.png" style="width:5.23569in;height:2.67991in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image47.png)
 
 13. After reviewing this second draft of the report that contains the
     new Competitive Analysis section, you realize that one last thing is
@@ -559,8 +531,7 @@ Latin America.
     following prompt in the Copilot window at the bottom of the report
     and then select the **Generate** arrow:
 
-> <img src="./media/image48.png" style="width:5.36269in;height:2.16623in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image48.png)
 >
 > **Nice job! One last thing. Please add a section titled Distribution
 > Channels. Review the distribution channels used to sell Chai Tea in
@@ -573,8 +544,7 @@ Latin America.
     select the **Keep it** button to convert it from a Copilot draft to
     a Word document.
 
-> <img src="./media/image49.png" style="width:5.41303in;height:2.5374in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image49.png)
 
 15. Review the document. If you want to make any manual changes, you can
     do so now. Once you're satisfied with it, feel free to save the
@@ -636,16 +606,14 @@ trend spreadsheet that already has an Excel table defined.
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-> <img src="./media/image40.png" style="width:3.93102in;height:3.43906in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image40.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     **Contoso Chai Tea market trends 2023** spreadsheet to OneDrive and
     then open and close the file to get it in your Most Recently Used
     (MRU) file list.
 
-> <img src="./media/image50.png" style="width:4.61069in;height:2.74772in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image50.png)
 
 6.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
@@ -664,11 +632,9 @@ trend spreadsheet that already has an Excel table defined.
     available for you to choose from. Select the **Show data
     insights** button.
 
-> <img src="./media/image51.png" style="width:5.33973in;height:1.85465in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image51.png)
 >
-> <img src="./media/image52.png"
-> style="width:2.99219in;height:2.96791in" />
+> ![](./media/image52.png)
 
 11. Note the pivot chart that it generated. When we tested this
     exercise, Copilot always created a line graph of the **Social Media
@@ -676,20 +642,16 @@ trend spreadsheet that already has an Excel table defined.
     for you? Below the chart that Copilot created for you, select
     the **+Add to a new sheet** button.
 
-> <img src="./media/image53.png" style="width:2.67604in;height:2.56115in"
-> alt="A screenshot of a computer Description automatically generated" />
-
+> ![](./media/image53.png)
 12. Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
     visible in the spreadsheet.
 
-> <img src="./media/image54.png" style="width:5.49176in;height:2.53185in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image54.png)
 
 13. Try with maximized excel sheet and repeat step 11. The **Add to
     sheet function** worked fine now.
 
-> <img src="./media/image55.png" style="width:5.45178in;height:1.87665in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image55.png)
 
 14. Select **Sheet 2**. Review the new data sheet that Copilot created.
     Copilot included both the graph and the column of data from the
@@ -697,8 +659,7 @@ trend spreadsheet that already has an Excel table defined.
     the chart and note the window that appears which indicates the type
     of chart that Copilot generated.
 
-> <img src="./media/image56.png" style="width:4.89912in;height:2.11412in"
-> alt="A graph with a line Description automatically generated" />
+> ![](./media/image56.png)
 
 17. Note how in the Copilot pane, the list of predefined prompts no
     longer appears. This situation occurs because Copilot doesn't work
@@ -706,8 +667,7 @@ trend spreadsheet that already has an Excel table defined.
     Select **Sheet 1**, which returns you back to the Excel table. Note
     how the predefined prompts appear.
 
-> <img src="./media/image57.png" style="width:2.68568in;height:2.56173in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image57.png)
 
 18. In the predefined prompts that appear above the prompt field, select
     the **Show suggestions for formula columns** button.
@@ -715,16 +675,14 @@ trend spreadsheet that already has an Excel table defined.
 19. Note the suggestion that Copilot provides. The following image shows
     the suggestion that Copilot provided during our testing.
 
-> <img src="./media/image58.png"
-> style="width:3.02624in;height:2.91475in" />
+> ![](./media/image58.png)
 
 20. In the suggestion that you received, select the **Explain
     formula** drop-down arrow. Review Copilot's explanation that
     describes the calculation. Select the **+Insert Column** button to
     insert this column into your Excel table.
 
-> <img src="./media/image59.png"
-> style="width:4.6763in;height:2.13905in" />
+> ![](./media/image59.png)
 
 21. Note how Copilot added this column of data to the end of your Excel
     table in **Sheet 1**. Is this feature intriguing you? You may want
@@ -736,26 +694,22 @@ trend spreadsheet that already has an Excel table defined.
 22. In the predefined prompts that appear above the prompt field, select
     the **How can I highlight, filter, and sort data**? button.
 
-> <img src="./media/image60.png"
-> style="width:2.81961in;height:2.40686in" />
+> ![](./media/image60.png)
 
 23. Note the list of actions that you can take.
 
-> <img src="./media/image61.png" style="width:2.92147in;height:2.71202in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image61.png)
 
 24. At this point, the predefined prompts that Copilot displays no
     longer interest you. As such, you want to see a new set of prompts.
     Select the **Refresh** button that appears above the prompt field.
 
-> <img src="./media/image62.png" style="width:0.70069in;height:0.64722in"
-> alt="Screenshot showing the Refresh prompt button." />
+> ![](./media/image62.png)
 
 25. Review the revised list of predefined prompts that now appear. The
     following image shows examples of prompts that was displayed.
 
-> <img src="./media/image63.png" style="width:3.03109in;height:2.62747in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image63.png)
 
 26. The purpose of this exercise is to get a feel for the various types
     of predefined actions that Copilot can perform. Therefore, select
@@ -771,8 +725,7 @@ trend spreadsheet that already has an Excel table defined.
 27. Again select the **Refresh** button that appears above the prompt
     field.
 
-> <img src="./media/image62.png" style="width:0.70069in;height:0.64722in"
-> alt="Screenshot showing the Refresh prompt button." />
+> ![](./media/image62.png)
 
 28. Review the new set of prompts that it displays. Select
     the **Refresh** button several times to see the different types
