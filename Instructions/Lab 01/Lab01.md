@@ -46,7 +46,7 @@ speech for you based on your company's Income Statement:
     to copy and paste it in the browser window. [Fabrikam's 2023 Income
     Statement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Fabrikam%202023%20Income%20Statement.docx)
 
-    <img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/media/image2.png" style="width:3.64583in;height:3.1133in" />
+![Image description](./media/image2.png)
 
 2.  Select “Download” to download the file to the Lab VM.
 
