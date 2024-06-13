@@ -448,8 +448,8 @@ transform text into a table.
 
 2.  Select “Download” to download the file to the VM.
 
-> Warning: <span class="mark">Please do not use **Save a copy to One
-> Drive** option since you may encounter sign-in error</span>.
+    > Warning: <span class="mark">Please do not use **Save a copy to One
+    > Drive** option since you may encounter sign-in error</span>.
 
 3.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -476,9 +476,9 @@ transform text into a table.
 9.  In the **Copilot** pane, enter the following prompt and then select
     the arrow (**Send**) icon:
 
-**Write a new section for this document about the types of VPNs. Discuss
-the pros and cons of each type. This content is for a technical
-audience, so please provide specific details.**
+    **Write a new section for this document about the types of VPNs. Discuss
+    the pros and cons of each type. This content is for a technical
+    audience, so please provide specific details.**
 
     ![](./media/image35.png)
 
@@ -489,21 +489,21 @@ audience, so please provide specific details.**
     to your clipboard. In looking at the document, you decide to paste
     the contents below the opening paragraph. Paste the contents in now.
 
-> **Tip**: When you select the **Copy** button for a response window, it
-> copies ALL the content, including Copilot's comments that are intended
-> for you. These types of comments are typically at the start and end of
-> the response. Make sure you remove these comments once you paste the
-> response into your document. Chances are, the font and font size of
-> the new content won't match the existing font and size used throughout
-> the document. As such, you must change them to match.
+    > **Tip**: When you select the **Copy** button for a response window, it
+    > copies ALL the content, including Copilot's comments that are intended
+    > for you. These types of comments are typically at the start and end of
+    > the response. Make sure you remove these comments once you paste the
+    > response into your document. Chances are, the font and font size of
+    > the new content won't match the existing font and size used throughout
+    > the document. As such, you must change them to match.
 
 11. Upon further review, you notice that there's no mention of security
     policies related to VPN usage. This topic is a key area that you
     want included, so enter the following prompt:
 
-**Please write a new section for this document about security policies
-related to VPN usage. This content is for a technical audience, so
-please provide specific details.**
+    **Please write a new section for this document about security policies
+    related to VPN usage. This content is for a technical audience, so
+    please provide specific details.**
 
     ![](./media/image36.png)
 
@@ -522,16 +522,16 @@ please provide specific details.**
     appear to be an easy fix. You decide to have Copilot rewrite the
     content for you.
 
-> **Tip**: To have Copilot rewrite content, you must first highlight the
-> content that you want Copilot to rewrite.
+    **Tip**: To have Copilot rewrite content, you must first highlight the
+    content that you want Copilot to rewrite.
 
 14. Highlight the content in the first bullet of the **Risks and
     mitigation** section, and then enter the following prompt:
 
-> **The highlighted content discusses the risks of using VPNs in both
-> home and enterprise networks. Remove the content related to home
-> networks and focus solely on the risks of VPNs in enterprise
-> networks.**
+    **The highlighted content discusses the risks of using VPNs in both
+    home and enterprise networks. Remove the content related to home
+    networks and focus solely on the risks of VPNs in enterprise
+    networks.**
 >
     ![](./media/image38.png)
 
@@ -548,7 +548,7 @@ please provide specific details.**
     section to be rewritten, you decide to highlight these two sections.
     Highlight both sections and then enter the following prompt:
 
-**Please rewrite the highlighted content by placing it in a table**.
+    **Please rewrite the highlighted content by placing it in a table**.
 
     ![](./media/image40.png)
 
@@ -562,9 +562,9 @@ please provide specific details.**
     you want included in the table. This time, enter the following
     prompt:
 
-> **Place the content from the Pros and Cons of implementing VPNs into a
-> table**
->
+    > **Place the content from the Pros and Cons of implementing VPNs into a
+    > table**
+    >
     ![](./media/image42.png)
 
 19. Note the Copilot response. Instead of rewriting or replacing the
@@ -584,8 +584,8 @@ please provide specific details.**
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
-**Is there anything missing in this document that you would recommend
-adding?**
+    **Is there anything missing in this document that you would recommend
+    adding?**
 
     ![](./media/image44.png)
 
