@@ -60,24 +60,21 @@ basically an AI-assisted sticky-note exercise.
 
 4.  On the **Whiteboard** home page, select **New Whiteboard**.
 
-> <img src="./media/image1.png" style="width:5.21696in;height:2.54837in"
-> alt="A computer screen with a blue square Description automatically generated" />
+> ![](./media/image1.png)
 
 5.  On the ribbon at the top of the page, select
     the **Whiteboard** drop-down arrow. In the **Board name** field,
     enter **Boiler installation project plan** and then select the
     checkmark icon.
 
-> <img src="./media/image2.png"
-> style="width:3.24087in;height:1.75616in" />
+> ![](./media/image2.png)
 
 7.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. Otherwise, in the tray of icons that appears above
     the taskbar at the bottom of the page, select the **Copilot** icon.
     In the menu that appears, select **Suggest**.
 
-> <img src="./media/image3.png" style="width:4.89853in;height:2.47388in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image3.png)
 
 8.  In the **Suggest content with Copilot** window, enter the following
     prompt:
@@ -86,8 +83,7 @@ basically an AI-assisted sticky-note exercise.
 > a new boiler in our heating system. Please suggest the steps we should
 > follow to install the new boiler**.
 >
-> <img src="./media/image4.png" style="width:4.94003in;height:2.88543in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image4.png)
 
 9.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. However, if you receive a message indicating that
@@ -96,8 +92,7 @@ basically an AI-assisted sticky-note exercise.
     the **Generate suggestions** arrow in the bottom corner of the
     Copilot window.
 
-> <img src="./media/image5.png" style="width:4.61389in;height:2.35625in"
-> alt="Screenshot of a Copilot window in Whiteboard showing an error message indicating that Copilot couldn’t process the prompt." />
+> ![](./media/image5.png)
 >
 > Sometimes Copilot completes the process it's working on but stumbles a
 > bit before displaying the results. When you select the **Generate
@@ -118,15 +113,13 @@ basically an AI-assisted sticky-note exercise.
     more suggestions. Notice how the **Insert (6)** button indicates the
     number of ideas that Copilot generated - in this case, 6.
 
-> <img src="./media/image6.png" style="width:4.8956in;height:3.27549in"
-> alt="A screenshot of a project plan Description automatically generated" />
+> ![](./media/image6.png)
 
 11. While six suggestions are a good starting point, you want to dig
     deeper into the tasks needed to install the security product, so
     select the **Generate more** button.
 
-> <img src="./media/image7.png" style="width:3.36056in;height:3.64605in"
-> alt="A screenshot of a device Description automatically generated" />
+> ![](./media/image7.png)
 >
 > **Note**: If Copilot displays an error message of any kind, then
 > select the \*\*Generate more\*\* button again. Do this any time you
@@ -137,15 +130,13 @@ basically an AI-assisted sticky-note exercise.
     more ideas, for the sake of time, let's insert the 12 ideas
     currently presented. Select the **Insert (12)** button.
 
-> <img src="./media/image8.png" style="width:3.02879in;height:3.22335in"
-> alt="A screenshot of a device Description automatically generated" />
+> ![](./media/image8.png)
 
 13. When you select the **Insert** button, Copilot attaches the
     suggested ideas to your whiteboard in the form of yellow sticky
     notes.
 
-> <img src="./media/image9.png" style="width:4.87185in;height:3.36161in"
-> alt="A screenshot of a computer screen Description automatically generated" />
+> ![](./media/image9.png)
 
 14. As with a real-world brainstorming session involving actual sticky
     notes, you can edit a particular note, delete it, lock it from
@@ -160,8 +151,7 @@ basically an AI-assisted sticky-note exercise.
 > Microsoft Whiteboard is to mimic real-world sticky-note exercises.
 > Feel free to edit a note as you wish.
 >
-> <img src="./media/image10.png" style="width:4.03497in;height:3.35002in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image10.png)
 
 15. In looking at the suggested ideas, you feel they don't cover risk
     mitigation adequately. Select the **Copilot** icon at the bottom of
@@ -173,8 +163,7 @@ basically an AI-assisted sticky-note exercise.
 > **Suggest ways to mitigate the risks of installing a new boiler into
 > the building's heating system**.
 >
-> <img src="./media/image11.png" style="width:4.24888in;height:2.99993in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image11.png)
 
 17. Review the six ideas that Copilot suggested. You would like Copilot
     to include more details, so select the **Generate more** button.
@@ -182,14 +171,12 @@ basically an AI-assisted sticky-note exercise.
 18. You're satisfied with the 12 risk mitigation ideas, so select
     the **Insert (12)** button.
 
-> <img src="./media/image12.png" style="width:3.15503in;height:3.35876in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image12.png)
 
 19. Note how the block of 12 risk mitigation ideas is selected (see the
     outside border).
 
-> <img src="./media/image13.png" style="width:4.1365in;height:3.33427in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image13.png)
 
 20. Copilot overlays the 12 risk mitigation ideas partially over top of
     the original 12 project plan ideas, you can select on this block of
@@ -201,8 +188,7 @@ basically an AI-assisted sticky-note exercise.
     see what areas Copilot proposed so that you can edit any of them if
     you wish.
 
-> <img src="./media/image14.png" style="width:4.25716in;height:3.86131in"
-> alt="A screenshot of a computer screen Description automatically generated" />
+> ![](./media/image14.png)
 
 21. You're now satisfied with the suggestions that Copilot created, and
     you've completed all the edits that you want done to the notes. You
@@ -211,8 +197,7 @@ basically an AI-assisted sticky-note exercise.
     the notes accordingly. Select the **Copilot** icon at the bottom of
     the page and then select **Categorize** from the menu.
 
-> <img src="./media/image15.png" style="width:5.33795in;height:3.24308in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image15.png)
 
 22. Note what happened. Copilot generated a set of categories and
     reorganized the notes accordingly. Each category of notes was
@@ -223,8 +208,7 @@ basically an AI-assisted sticky-note exercise.
     increases the size of the image until it can no longer increase it
     anymore without it exceeding the screen size.
 
-> <img src="./media/image16.png" style="width:5.16847in;height:3.42786in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image16.png)
 
 23. Note the icon tray that appears below the organized group of notes.
     If you're not satisfied with the categories, select
@@ -236,8 +220,7 @@ basically an AI-assisted sticky-note exercise.
 > Copilot makes each time. Besides changing category names, Copilot may
 > add or reduce the number of categories with each regeneration.
 >
-> <img src="./media/image17.png" style="width:4.25621in;height:3.04195in"
-> alt="A screenshot of a computer screen Description automatically generated" />
+> ![](./media/image17.png)
 
 24. After regenerating the categories several times, you realize that
     you're missing detailed steps concerning minimization of system
@@ -308,15 +291,13 @@ basically an AI-assisted sticky-note exercise.
     down to review the entire **Summary** window. You're happy with the
     results, so select **Keep it**.
 
-> <img src="./media/image18.png" style="width:5.05531in;height:2.63911in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image18.png)
 
 34. Select the **Fit to Screen** icon on the bottom-right corner of the
     page to fit all the sticky notes and the session summary onto the
     entire screen.
 
-> <img src="./media/image19.png" style="width:5.81974in;height:3.69463in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image19.png)
 
 ## Exercise #2: Compare reporting results using Copilot in Word
 
@@ -379,16 +360,14 @@ in the Copilot pane or when creating a new document.
 > will have any effect on our current air conditioning system, and the
 > average defect rates for boiler systems versus furnace systems.**
 >
-> <img src="./media/image20.png" style="width:4.74228in;height:2.30862in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image20.png)
 
 4.  Review the report that Copilot generated. Note the level of detail
     in each area of interest. Since you want to save this document for
     the next Use Case exercise, select the **Keep it** button on the
     Copilot tray and then save the document.
 
-> <img src="./media/image21.png" style="width:4.46112in;height:2.10304in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image21.png)
 >
 > **Note**: Make sure you save the report since you use it in the next
 > Use Case exercise.
@@ -405,16 +384,14 @@ in the Copilot pane or when creating a new document.
 > **What type of boilers do most buildings use as part of their heating
 > systems**?
 >
-> <img src="./media/image22.png" style="width:5.2749in;height:2.4142in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image22.png)
 
 7.  Review the answer. While you can select the **Copy** option if you
     want to paste the response into the document, for this training
     you're just going to select more prompts to see the responses that
     you receive.
 
-> <img src="./media/image23.png" style="width:3.44843in;height:2.53236in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image23.png)
 
 8.  Enter separate prompts for each of the remaining four questions:
 
@@ -431,11 +408,9 @@ in the Copilot pane or when creating a new document.
 - **What are the average defect rates for boiler systems versus furnace
   systems?**
 
-> <img src="./media/image24.png" style="width:5.25643in;height:2.46282in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image24.png)
 >
-> <img src="./media/image25.png" style="width:3.94579in;height:2.90131in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image25.png)
 
 9.  Note how Copilot answered each of your questions, but it didn't
     insert any of the answers into the current document. While you can
@@ -494,8 +469,7 @@ formally start this project.
     account, and then open and close the file to get it in your Most
     Recently Used (MRU) file list.
 
-> <img src="./media/image26.png" style="width:5.14236in;height:2.45666in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image26.png)
 
 3.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
@@ -509,8 +483,7 @@ formally start this project.
 6.  On the right side of the PowerPoint ribbon, select
     the **Copilot** option.
 
-> <img src="./media/image27.png" style="width:5.24557in;height:2.37347in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image27.png)
 
 7.  In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
@@ -523,8 +496,7 @@ formally start this project.
     a **Suggestions** window that displays three of the most recently
     used files.
 
-> <img src="./media/image28.png" style="width:2.56958in;height:3.84047in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image28.png)
 
 - If your file appears here, then select it now and proceed to the next
   step.
@@ -565,22 +537,19 @@ formally start this project.
     window showing a bulleted list of some of the changes that it made
     to the presentation based on the document.
 
-> <img src="./media/image29.png" style="width:2.59041in;height:3.8752in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image29.png)
 
 11. You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes that Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts.
 
-> <img src="./media/image30.png" style="width:5.41649in;height:2.66384in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image30.png)
 
 12. Review the speaker notes that Copilot added to each slide in the
     presentation. Verify they call out the points that you want to make
     during the presentation.
 
-> <img src="./media/image31.png" style="width:5.0644in;height:2.636in"
-> alt="A screenshot of a web page Description automatically generated" />
+> ![](./media/image31.png)
 
 13. Try using Copilot to update the presentation. Let's begin by adding
     an image to a slide. Find a slide without an image and enter the
@@ -590,8 +559,7 @@ formally start this project.
 > **Add an image to slide \[enter slide number here\]**. **The image
 > should contain a picture related to the slide contents**.
 >
-> <img src="./media/image32.png" style="width:5.28394in;height:2.39902in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image32.png)
 
 14. You also notice that there isn't any content in the presentation
     related to the expected lifespan for each type of heating system.
@@ -601,8 +569,7 @@ formally start this project.
 > **What is the average lifespan of a boiler heating system versus a
 > furnace heating system**?
 >
-> <img src="./media/image33.png" style="width:2.61125in;height:3.84047in"
-> alt="A screenshot of a cell phone Description automatically generated" />
+> ![](./media/image33.png)
 
 15. You now want Copilot to add this content to a slide. Select the
     slide towards the beginning of the presentation that lists the types
@@ -612,8 +579,7 @@ formally start this project.
 
 > **Add this lifespan content to slide \[enter slide number here\]**.
 >
-> <img src="./media/image34.png" style="width:2.48624in;height:3.69463in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image34.png)
 
 16. What did Copilot do? Did it do something like adding "**Lifespan
     content**" to the top of the slide, overlaying it on top of the
@@ -622,8 +588,7 @@ formally start this project.
 17. The prompt didn't work as expected. Remove whatever was added to the
     slide.
 
-> <img src="./media/image35.png" style="width:2.58347in;height:3.92381in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image35.png)
 
 18. Now try it again, but this time ask Copilot to find the lifespan
     content and add it to the slide all in one prompt. This time, enter
@@ -633,8 +598,7 @@ formally start this project.
 > versus a furnace heating system to slide \[enter slide number
 > here\].**
 >
-> <img src="./media/image36.png" style="width:2.69458in;height:3.79186in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image36.png)
 
 19. Did this work better? You just have to rework your prompts if
     Copilot doesn't do exactly what you wanted.
@@ -646,8 +610,7 @@ formally start this project.
 > **Add a Q&A slide at the very end of the presentation with an
 > appropriate image.**
 >
-> <img src="./media/image37.png" style="width:2.63208in;height:3.92381in"
-> alt="A screenshot of a phone Description automatically generated" />
+> ![](./media/image37.png)
 
 21. Review the new slide that was created. Upon seeing this slide, you
     would like Copilot to create a list of possible questions and add
@@ -664,8 +627,7 @@ formally start this project.
 > If Copilot displays some exception, then remember that Copilot is
 > still a work in progress.
 >
-> <img src="./media/image38.png" style="width:1.97781in;height:2.44128in"
-> alt="A screenshot of a chat Description automatically generated" />
+> ![](./media/image38.png)
 >
 > You can either discard this presentation or save it if you want to
 > keep it for future reference.
