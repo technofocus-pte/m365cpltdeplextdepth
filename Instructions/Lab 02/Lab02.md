@@ -36,18 +36,17 @@ In this exercise, you will use Copilot in Loop to
     navigation pane. If it doesn't appear there, then select **Explore
     all your Apps**,
 
-    ![](./media/image1.png)
+    ![Explore apps](./media/image1.png)
 
 2.  In the **Apps** page, scroll down to locate **Loop** and then select
     it.
 
-    <img src="./media/image2.png" style="width:6.26806in;height:3.18194in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Apps page](./media/image2.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
     credentials.
 
-    ![](./media/image3.png)
+    ![Loop Sign-in page](./media/image3.png)
 
     **Note**: After signing in, close the Loop browser window and once
     again open Loop from the Apps page.
@@ -57,23 +56,20 @@ In this exercise, you will use Copilot in Loop to
     select **+** next to **Getting started**, and then select **+New
     workspace** button.
 
-    <img src="./media/image4.png" style="width:5.44393in;height:2.77926in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Workspaces-Geeting started](./media/image4.png)
 
 5.  In the **Create a new workspace** window, enter **VanArsdel
     research** for your workspace name, and then select either
     the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
-    <img src="./media/image5.png" style="width:3.92289in;height:3.88807in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Create a new workspace window](./media/image5.png)
 
 6.  In the **Add files to your workspace** window (depending on your
     version of Loop, this window may say **Workspace Switcher**),
     select **Create workspace**.
 
-    <img src="./media/image6.png" style="width:2.95974in;height:2.81404in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Add files to your workspace](./media/image6.png)
 
 7.  You're now on the first page for your new workspace. The name of the
     page is currently **Untitled**. Note the page (Untitled) also
@@ -82,14 +78,12 @@ In this exercise, you will use Copilot in Loop to
     page to **Market research**. Note how the page name is automatically
     updated in the navigation pane.
 
-    <img src="./media/image7.png" style="width:4.71984in;height:2.23756in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![First page for your new workspace](./media/image7.png)
 
 8.  In the **Just start typing...** field, enter a forward
     slash **(/)**.
 
-    <img src="./media/image8.png" style="width:3.43952in;height:3.55048in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image8.png)
 
 9.  In the drop-down menu that appears, under the **Copilot** section at
     the top of the menu, select **Draft page content**.
@@ -107,14 +101,12 @@ In this exercise, you will use Copilot in Loop to
     automotive industry. Provide information on target audience, market
     size, competition, trends, regulations, and distribution channels**.
 
-    <img src="./media/image9.png" style="width:5.27476in;height:1.93727in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image9.png)
 
 12. If you receive an error saying that something went wrong, copy and
     paste in the prior prompt and submit it again.
 
-    <img src="./media/image10.png" style="width:5.54184in;height:2.65733in"
-    alt="A close-up of a text Description automatically generated" />
+    ![](./media/image10.png)
 
 13. Review the generated report. Rather than having all the information
     in paragraph form, you prefer to summarize it in a table. In
@@ -123,8 +115,7 @@ In this exercise, you will use Copilot in Loop to
 
     **Rewrite the report by placing the information in a table**.
     
-    <img src="./media/image11.png" style="width:5.59837in;height:1.86199in"
-    alt="A close-up of a text Description automatically generated" />
+    ![](./media/image11.png)
 
 14. Note how Copilot changed the formatting of the report. You now want
     Copilot to make a final recommendation as to whether moving into
@@ -134,8 +125,7 @@ In this exercise, you will use Copilot in Loop to
     **Add a recommendation to the end of the report as to whether we
     should move into the market**.
 
-    <img src="./media/image12.png" style="width:5.71798in;height:2.29581in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image12.png)
 
 15. Scroll to the bottom of the report and review Copilot's
     recommendation.
