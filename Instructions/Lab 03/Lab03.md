@@ -261,8 +261,8 @@ was created for you, and save it to your OneDrive account.</span>
 
 2.  Select “Download” to download the file to the VM.
 
-> Warning: <span class="mark">Please do not use **Save a copy to One
-> Drive** option since you may encounter sign-in error</span>.
+    > Warning: <span class="mark">Please do not use **Save a copy to One
+    > Drive** option since you may encounter sign-in error</span>.
 
 3.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -353,8 +353,7 @@ was created for you, and save it to your OneDrive account.</span>
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
-    **I don't like the image you used on the Q&A slide. Please replace it
-    with a different image**.
+    **I don't like the image you used on the Q&A slide. Please replace it with a different image**.
 
     ![](./media/image27.png)
 
