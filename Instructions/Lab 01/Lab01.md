@@ -198,23 +198,20 @@ create a draft of your presentation:
     files and select **Fabrikam 2023 Financial presentation.docx** to
     open it in a new tab in your Microsoft Edge browser.
 
-    <img src="./media/image16.png" style="width:6.26806in;height:2.95486in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image16.png)
 
 4.  Copy the URL of the document by selecting the **Share** button in
     the upper-right corner, above the ribbon and selecting **Copy
     Link** from the drop-down menu that appears.
 
-    <img src="./media/image17.png" style="width:6.26806in;height:2.85069in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image17.png)
 
     **Note**: You may occasionally come across trouble using the URL from
     your address bar. Copy the link from the Share tray for best results
 
 5.  Close the **Link copied** dialog box that appears in Word.
 
-    <img src="./media/image18.png" style="width:6.26806in;height:3.26042in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image18.png)
 
 6.  Close this document tab in your Microsoft Edge browser. This return
     you to the **Word \| Microsoft 365** tab.
@@ -222,8 +219,7 @@ create a draft of your presentation:
 7.  On the Word file page, select the **PowerPoint** icon in the
     navigation pane on the left.
 
-    <img src="./media/image19.png" style="width:3.87708in;height:4.15238in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image19.png)
 
 8.  In **PowerPoint**, open a new blank presentation.
 
@@ -246,16 +242,14 @@ create a draft of your presentation:
     MRU list, let's assume that it didn't. As such, you must paste the
     link to the file into the prompt field.
 
-    <img src="./media/image20.png" style="width:3.23628in;height:3.56963in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image20.png)
 
 13. In the prompt field, Copilot automatically types in **Create
     presentation from file /**. Place your cursor after the forward
     slash and enter **Ctrl+V** to paste the link to this document into
     the prompt.
 
-    <img src="./media/image21.png" style="width:5.60066in;height:3.19373in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image21.png)
 
 12. Select the **Send** icon.
 
@@ -265,19 +259,17 @@ create a draft of your presentation:
     These features may include speaker notes, images, layouts to
     organize slides, and a General sensitivity label.
 
-    <img src="./media/image22.png" style="width:5.53483in;height:2.55953in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image22.png)
 
 14. You're now free to review the slides and make any necessary updates.
     You can use the **Designer** tool to adjust the layouts.
 
-    <img src="./media/image23.png" style="width:5.48768in;height:3.24908in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image23.png)
 
 15. As you review the slides, be on the lookout for references to "the
     speaker" or any other items that you may need to change.
-    <img src="./media/image24.png" style="width:5.39563in;height:2.89748in"
-    alt="A screenshot of a computer Description automatically generated" />
+
+    ![Image description](./media/image24.png)
 
     Warning: Look out for the reference to "The speaker" along with the
     second sentence that begins with "The presentation will summarize...".
@@ -292,14 +284,14 @@ create a draft of your presentation:
     You should remove these types of references as they're more applicable
     as speaker notes rather than text intended for audiences.
 
-16. Review the speaker notes that Copilot added to the presentation.
+17. Review the speaker notes that Copilot added to the presentation.
     Verify they call out the points that you want to make during the
     presentation.
 
-    <img src="./media/image25.png" style="width:5.31122in;height:2.17898in"
+    <![Image description](./media/image1.png) style="width:5.31122in;height:2.17898in"
     alt="A screenshot of a computer Description automatically generated" />
 
-17. Try using Copilot to update the presentation. For example, enter the
+18. Try using Copilot to update the presentation. For example, enter the
     following prompt:
 
     **Add a new slide after slide 1. This slide should have an image of a
