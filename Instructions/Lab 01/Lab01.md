@@ -37,7 +37,7 @@ using one of the following methods:</span>
 <span class="mark">In this exercise, you select the company's Income
 Statement from the MRU file list.</span>
 
-![Image description](./image1.png)
+![Image description](./media/image1.png)
 
 <img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/image1.png" style="width:6.26806in;height:3.02917in"
 alt="A screenshot of a computer Description automatically generated" />
