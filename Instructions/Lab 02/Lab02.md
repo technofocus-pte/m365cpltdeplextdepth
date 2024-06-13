@@ -393,8 +393,7 @@ In this exercise, you will
 
 4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
 
-    <img src="./media/image14.png" style="width:5.07948in;height:4.44379in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image14.png)
 
 5.  Browse to the **Downloads** folder to select and upload a copy of
     the following documents to OneDrive.
