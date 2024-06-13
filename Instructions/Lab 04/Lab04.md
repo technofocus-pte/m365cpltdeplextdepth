@@ -112,11 +112,9 @@ Creative, More Balanced, or More Precise).
 > insights that can help me determine what Tailspin Toy's business plan
 > should be for the upcoming year**.
 >
-> <img src="./media/image9.png"
-> style="width:5.49161in;height:2.42011in" />
+> ![](./media/image9.png)
 >
-> <img src="./media/image10.png" style="width:5.139in;height:2.35381in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image10.png)
 
 9.  You really like the information that Copilot provided. However,
     since this project is your first opportunity to provide a market
@@ -131,11 +129,9 @@ Creative, More Balanced, or More Precise).
 > request? If so, can you please amend your responses to include this
 > information. Thank you**!
 >
-> <img src="./media/image11.png"
-> style="width:4.92981in;height:2.72083in" />
+> ![](./media/image11.png)
 >
-> <img src="./media/image12.png"
-> style="width:4.95638in;height:2.27338in" />
+> ![](./media/image12.png)
 
 10. Based on the information that Copilot provides, you realize that you
     can really maximize the effectiveness of your reports by having
@@ -146,11 +142,9 @@ Creative, More Balanced, or More Precise).
 > these areas for the Toy industry. Also update the business plan that
 > you created for Tailspin Toys based on these insights. Thanks**!
 >
-> <img src="./media/image13.png"
-> style="width:5.10658in;height:2.38003in" />
+> ![](./media/image13.png)
 >
-> <img src="./media/image14.png"
-> style="width:5.20023in;height:2.37433in" />
+> ![](./media/image14.png)
 
 11. The market analysis and business plan that Copilot generated for you
     was based on a **More Balanced** conversation style. It's ideal for
@@ -162,8 +156,7 @@ Creative, More Balanced, or More Precise).
     would look using the **More Creative** style. This style provides
     responses that are more imaginative and creative.
 
-> <img src="./media/image15.png"
-> style="width:5.1764in;height:2.10997in" />
+> ![](./media/image15.png)
 
 12. Let's explore how Copilot's responses would be different using
     the **More Creative** style. Open a new tab in your **Microsoft
@@ -190,11 +183,9 @@ that you want to export it just to save it for future reference. 
     response to display the drop-down menu that allows you to select
     which file type you want to use for the export process.
 
-> <img src="./media/image16.png"
-> style="width:5.15866in;height:2.12596in" />
+> ![](./media/image16.png)
 >
-> <img src="./media/image17.png" style="width:5.22475in;height:2.07537in"
-> alt="A screenshot of a computer Description automatically generated" />
+> ![](./media/image17.png)
 
 2.  The way in which Copilot handles an exported response depends on the
     file type that you select.
@@ -211,9 +202,7 @@ that you want to export it just to save it for future reference. 
   assigned to the file (this ID distinguishes the file from other
   responses that were exported on the same day).
 
-> <img src="./media/image18.png" style="width:5.16527in;height:2.31481in"
-> alt="A screenshot of a computer Description automatically generated" />
-
+> ![](./media/image18.png)
 - **PDF**. When you export a response to a PDF, Copilot opens
   a **Print** window that enables you to print the selected response.
 
