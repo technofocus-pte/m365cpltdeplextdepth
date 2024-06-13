@@ -91,7 +91,7 @@ speech for you based on your company's Income Statement:
     If, for some reasons the file is not displayed, click **Browse files
     from cloud** in the pop-up window.
     
-   ![Image description](./media/image9.png)
+    ![Image description](./media/image9.png)
 
 10. In the **Pick a file** window that appears, under
     the **Recent** file list, select the **Fabrikam 2023 Income
@@ -106,8 +106,7 @@ speech for you based on your company's Income Statement:
 12. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
 
-    <img src="./media/image12.png" style="width:5.55797in;height:3.08071in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image12.png)
 
 13. After reviewing the speech, you decide that it's a good starting
     point, although there are a few areas that you want to modify. In
@@ -121,8 +120,7 @@ speech for you based on your company's Income Statement:
     <span class="mark">**Note**: You will be able to see the **Editor**
     icon, in the Classic Ribbon and not in the Single line ribbon.</span>
 
-    <img src="./media/image13.png" style="width:5.79439in;height:2.84712in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image13.png)
 
 15. In the **Editor** pane that appears, note the categories that appear
     under the **Corrections** or **Refinements** sections that display a
@@ -156,22 +154,20 @@ speech for you based on your company's Income Statement:
     changes. Review all the suggested changes to see the differences that
     were flagged between Professional and Casual styles.
 
-    <img src="./media/image14.png" style="width:5.42799in;height:2.68573in"
-    alt="A screenshot of a computer Description automatically generated" />
+    ![Image description](./media/image14.png)
 
 17. Save the file to your OneDrive account with the following file
     name: **Fabrikam 2023 Financial presentation.docx**. The next
     exercise uses this document.
 
-    <img src="./media/image15.png" style="width:5.63671in;height:2.91765in"
-    alt="A screenshot of a computer Description automatically generated" />
-
+    ![Image description](./media/image15.png)
+    
     **Important**: Ensure that you save the file to your OneDrive rather
     than your local PC. In the next exercise, you use Copilot in
     PowerPoint to create a slide presentation based on this document. The
     document must be in OneDrive for Copilot to access it.
 
-18. Close the tab containing this document in your Microsoft Edge
+19. Close the tab containing this document in your Microsoft Edge
     browser.
 
 # Exercise \#2: Create a slide presentation using Copilot in PowerPoint
