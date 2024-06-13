@@ -39,9 +39,6 @@ Statement from the MRU file list.</span>
 
 ![Image description](./media/image1.png)
 
-<img src="https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/main/Instructions/Lab%2001/image1.png" style="width:6.26806in;height:3.02917in"
-alt="A screenshot of a computer Description automatically generated" />
-
 You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
 
