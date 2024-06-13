@@ -363,10 +363,10 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image28.png)
 
-> <span class="mark">**Note**: Remember that Copilot is still a work in
-> progress. As a best practice, if Copilot is unable to complete your
-> request, then try it again. And if it still doesn't work, then try
-> rephrasing your request or splitting it into two.</span>
+    <span class="mark">**Note**: Remember that Copilot is still a work in
+    progress. As a best practice, if Copilot is unable to complete your
+    request, then try it again. And if it still doesn't work, then try
+    rephrasing your request or splitting it into two.</span>
 
 16. Even if Copilot worked and replaced your image, let's assume for the
     sake of this exercise that it didn't. In this case, ask Copilot to
@@ -374,9 +374,8 @@ was created for you, and save it to your OneDrive account.</span>
     it with an entirely new slide containing a different image. As such,
     enter the following prompt:
 
-> **Please remove the Q&A slide and add a new one with a different
-> image**.
->
+    **Please remove the Q&A slide and add a new one with a different image**.
+
     ![](./media/image29.png)
 
 17. What response did you receive? In our testing of this exercise,
@@ -386,12 +385,12 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image30.png)
 >
-> **Tip**: If Copilot didn't do as you asked or if it returned an error,
-> then this scenario is a good example of keeping prompts as simple as
-> possible. Follow Copilot's suggestion by rephrasing your request. It's
-> best to ask Copilot to do one task at a time, such as first removing
-> the old slide, and then submitting a second request to add a new slide
-> with an image
+    **Tip**: If Copilot didn't do as you asked or if it returned an error,
+    then this scenario is a good example of keeping prompts as simple as
+    possible. Follow Copilot's suggestion by rephrasing your request. It's
+    best to ask Copilot to do one task at a time, such as first removing
+    the old slide, and then submitting a second request to add a new slide
+    with an image
 
 18. Regardless how the last few steps went in dealing with the Q&A
     slide, you decide to move forward and try one last thing. In
@@ -399,21 +398,20 @@ was created for you, and save it to your OneDrive account.</span>
     theme of the presentation to something more appropriate due to the
     technical nature of the topic. Enter the following prompt:
 
-> **Change the theme of this presentation to something more
-> technical.** 
->
+    **Change the theme of this presentation to something more technical.** 
+
     ![](./media/image31.png)
 
 19. Note Copilot's response.
 
     ![](./media/image32.png)
 
-> This scenario is one of those situations to remember the prompting
-> best practice: **Understand Copilot's limitations**. In this case, it
-> isn't an understanding of a limitation as much as it's an
-> understanding as to how Copilot works. In this case, Copilot points
-> you to an existing PowerPoint feature rather than duplicating what
-> that feature does.
+    This scenario is one of those situations to remember the prompting
+    best practice: **Understand Copilot's limitations**. In this case, it
+    isn't an understanding of a limitation as much as it's an
+    understanding as to how Copilot works. In this case, Copilot points
+    you to an existing PowerPoint feature rather than duplicating what
+    that feature does.
 
 20. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
@@ -532,17 +530,17 @@ transform text into a table.
     home and enterprise networks. Remove the content related to home
     networks and focus solely on the risks of VPNs in enterprise
     networks.**
->
+    
     ![](./media/image38.png)
 
-15. Check Copilot's response. Sometimes this rewrite functionality
+16. Check Copilot's response. Sometimes this rewrite functionality
     didn't work. When it didn't work, Copilot returned the following
     response. If this situation occurs, copy and paste in your prompt
     and try it again (remember, iterate, iterate, iterate).
 
     ![](./media/image39.png)
 
-16. After you make a final review of the document, you decide that the
+17. After you make a final review of the document, you decide that the
     sections on the Pros and Cons of implementing VPNs would look better
     in a table rather than as bulleted lists. Since you highlighted a
     section to be rewritten, you decide to highlight these two sections.
@@ -552,22 +550,21 @@ transform text into a table.
 
     ![](./media/image40.png)
 
-17. Note the Copilot response.
+18. Note the Copilot response.
 
     ![](./media/image41.png)
 
-18. Reformatting content into a table is different than rewriting
+19. Reformatting content into a table is different than rewriting
     content. Instead of highlighting the content that you want placed in
     a table, you must describe in your prompt what sections of content
     you want included in the table. This time, enter the following
     prompt:
 
-    > **Place the content from the Pros and Cons of implementing VPNs into a
-    > table**
-    >
+    **Place the content from the Pros and Cons of implementing VPNs into a table**
+    
     ![](./media/image42.png)
 
-19. Note the Copilot response. Instead of rewriting or replacing the
+20. Note the Copilot response. Instead of rewriting or replacing the
     existing content in the document with a table, it displays the table
     in its response. It's up to you to replace the content by copying
     and pasting the table into the document. In the response, select
@@ -580,22 +577,21 @@ transform text into a table.
 
     ![](./media/image43.png)
 
-20. At this point, you feel the document is complete. However, to play
+21. At this point, you feel the document is complete. However, to play
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
-    **Is there anything missing in this document that you would recommend
-    adding?**
+    **Is there anything missing in this document that you would recommend adding?**
 
     ![](./media/image44.png)
 
-21. Note the Copilot response. In our testing, it told us that nothing
+22. Note the Copilot response. In our testing, it told us that nothing
     was missing. Try again to see if Copilot provides a different
     response.
 
     ![](./media/image45.png)
 
-22. If Copilot recommended that you add more content to your document,
+23. If Copilot recommended that you add more content to your document,
     create a prompt that asks it to do so. You can then copy and paste
     the new content into your document.
 
