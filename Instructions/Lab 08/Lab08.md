@@ -1,4 +1,4 @@
-# Lab 08: Create conversational actions for Microsoft Copilot (preview)–Add on lab
+# Lab 08: Create conversational actions for Microsoft Copilot (Preview)
 
 ## Objective:
 
