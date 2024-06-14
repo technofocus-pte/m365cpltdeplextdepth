@@ -39,48 +39,39 @@ In this exercise you will use Microsoft Copilot in Bing
 **Note**: At the end of this exercise, you must save your project plan
 to your OneDrive account. The next exercise uses this file.
 
-1.  Open a new browser tab in the lab VM. Right click the following link
-    to copy and paste it in the browser window. [Contoso CipherGuard
-    Product Specification
-    report](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20CipherGuard%20Product%20Specification.docx)
+1.  Open a new browser tab in the lab VM and enter the following
+    URL**<https://www.office.com>**.
+    
+    **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  Select “Download” to download the file to the VM.
-
-    Warning: <span class="mark">Please do not use **Save a copy to One
-    Drive** option since you may encounter sign-in error</span>.
-
-3.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: [<u>https://www.office.com</u>](https://www.office.com)**.**
-
-4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
     ![](./media/image1.png)
 
-5.  Browse to the **Downloads** folder to select and upload a copy of
-    **Market Trend Report - Protein Shake** document to OneDrive.
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    **Contoso CipherGuard Product Specification report** document to **OneDrive**.
 
-6.  In this exercise, you access the document from the MRU file list. To
+4.  In this exercise, you access the document from the MRU file list. To
     get the file to appear in the MRU list, open the document and then
     close it.
 
     ![](./media/image2.png)
 
-7.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
+5.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
     following URL: **[https://bing.com](https://bing.com/).**
 
     ![](./media/image3.png)
 
-8.  On the **Microsoft Bing home page**, in the list of tabs that appear
+6.  On the **Microsoft Bing home page**, in the list of tabs that appear
     across the top of the page, select **Copilot**. Doing so
     opens **Microsoft Copilot**.
 
     ![](./media/image4.png)
 
-9.  On the **Copilot** page, in the **Work/Web** toggle switch at the
+7.  On the **Copilot** page, in the **Work/Web** toggle switch at the
     top of the page, select **Work**.
 
-10. By default, the **Work** option limits Copilot's reach to your
+8. By default, the **Work** option limits Copilot's reach to your
     Microsoft 365 organizational data. However, since you also want
     Copilot to access the public web guidelines on installing a
     corporate network security product, you must enable the **Web
@@ -93,7 +84,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image6.png)
 
-11. You're now ready to use Copilot. Enter the following prompt, which
+9. You're now ready to use Copilot. Enter the following prompt, which
     directs Copilot to access public web data through the **Web
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
@@ -105,11 +96,11 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image7.png)
 
-12. Review the project plan that Copilot created.
+10. Review the project plan that Copilot created.
 
     ![](./media/image8.png)
 
-13. You aren't satisfied that it encompasses all the areas that it
+11. You aren't satisfied that it encompasses all the areas that it
     should. Enter the following prompt to have it amend its plan by
     including areas of specific interest to you. If any of the areas
     included in this prompt are already in Copilot's previous response,
@@ -125,7 +116,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image10.png)
 
-14. Review the amended project plan. You're happy with the breadth of
+12. Review the amended project plan. You're happy with the breadth of
     topics covered, so now you want Copilot to update the plan with
     information from the product spec for the Contoso CipherGuard
     Sentinel X7 security product. Enter the following prompt, but don't
@@ -139,7 +130,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image11.png)
 
-15. In the prompt field, enter a space after the prompt and then type a
+13. In the prompt field, enter a space after the prompt and then type a
     forward slash (/). You must enter the space before the forward slash
     so that Copilot recognizes it as a request to attach something to
     the prompt. Your next step depends on whether Copilot opens a window
@@ -167,7 +158,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image13.png)
 
-16. Continue from **step 9** once again.
+14. Continue from **step 9** once again.
 
     ![](./media/image14.png)
 
@@ -178,11 +169,11 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image15.png)
 
-17. Review how Copilot inserted features from the product spec into the
+15. Review how Copilot inserted features from the product spec into the
     project plan.
 
     ![](./media/image16.png)
-18. While this looks good, you feel that the project plan is lacking in
+16. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
     **We're almost there. Please break down each item on the report into
@@ -190,11 +181,11 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image17.png)
 
-19. Review the results.
+17. Review the results.
 
     ![](./media/image18.png)
 
-20. Now that the project plan is created, you MUST save it to a Word
+18. Now that the project plan is created, you MUST save it to a Word
     document. **You'll use this project plan document in the next
     exercise**. At the bottom of Copilot's final response, select the
     down arrow icon (**Export**) to export the contents of the response.
@@ -206,13 +197,13 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image19.png)
 
-21. The file will be exported to **Downloads** folder of the Lab VM
+19. The file will be exported to **Downloads** folder of the Lab VM
     (file name: Answer.docx). Select this file to open it and verify
     that it contains the project plan that Copilot exported.
 
     ![](./media/image20.png)
 
-22. Save the file to your OneDrive account that contains the product
+20. Save the file to your OneDrive account that contains the product
     specification document that you used in this exercise. Then rename
     this file from **Answers.docx** to **Contoso CipherGuard project
     plan.docx**. You'll use this file in the next exercise.
