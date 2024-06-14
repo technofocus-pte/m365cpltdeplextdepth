@@ -50,7 +50,7 @@ speech for you based on your company's Income Statement:
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    Fabrikam 2023 Income Statement document to OneDrive.
+    **Fabrikam 2023 Income Statement document to OneDrive**.
 
     ![](./media/image5.png)
    
@@ -61,19 +61,19 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image7.png)
 
-5.  In Microsoft 365, open Microsoft Word, and then open a new blank
+4.  In Microsoft 365, open Microsoft Word, and then open a new blank
     document.
 
     ![](./media/image8.png)
    
-6.  In the **Draft with Copilot** window that appears at the top of the
+5.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
     <span class="mark">**Write a speech for the Fabrikam stakeholders that
     summarizes the results of the company's 2023 income statement found in
     the attached file**.</span>
 
-7.  In the **Draft with Copilot** window, select the **Reference your
+6.  In the **Draft with Copilot** window, select the **Reference your
     content** button. In the pop-up window that appears, select the
     file.
 
@@ -82,26 +82,26 @@ speech for you based on your company's Income Statement:
     
     ![](./media/image9.png)
 
-8. In the **Pick a file** window that appears, under
+7. In the **Pick a file** window that appears, under
     the **Recent** file list, select the **Fabrikam 2023 Income
     Statement.docx** file and then select the **Attach** button.
 
     ![](./media/image10.png)
 
-9. Note how the file is displayed in the prompt. Select **Generate**.
+8. Note how the file is displayed in the prompt. Select **Generate**.
 
     ![](./media/image11.png)
 
-10. At this point, Copilot extracts the financial results from the
+9. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
 
     ![](./media/image12.png)
 
-11. After reviewing the speech, you decide that it's a good starting
+10. After reviewing the speech, you decide that it's a good starting
     point, although there are a few areas that you want to modify. In
     the Copilot window at the end of the speech, select the **Keep it** button.
 
-12. You want to begin by reviewing any changes suggested by the Copilot
+11. You want to begin by reviewing any changes suggested by the Copilot
     Editor. Select the **Editor** icon that appears in the menu bar at
     the top of the page.
 
@@ -110,7 +110,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image13.png)
 
-13. In the **Editor** pane that appears, note the categories that appear
+12. In the **Editor** pane that appears, note the categories that appear
     under the **Corrections** or **Refinements** sections that display a
     number (indicating the number of issues for that category). These
     issues are often linked to the tone of the writing style used in the
@@ -125,7 +125,7 @@ speech for you based on your company's Income Statement:
     sounding tone, so select **Professional** from the drop-down menu.
     Note whether the **Editor Score** changes.
 
-14. In the categories that appear under
+13. In the categories that appear under
     the **Corrections** or **Refinements** sections, you can review the
     changes that occurred in the categories based on changing the
     writing style from Formal to Professional. Select each category that
@@ -144,7 +144,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image14.png)
 
-15. Save the file to your OneDrive account with the following file
+14. Save the file to your OneDrive account with the following file
     name: **Fabrikam 2023 Financial presentation.docx**. The next
     exercise uses this document.
 
@@ -155,7 +155,7 @@ speech for you based on your company's Income Statement:
     PowerPoint to create a slide presentation based on this document. The
     document must be in OneDrive for Copilot to access it.
 
-16. Close the tab containing this document in your Microsoft Edge
+15. Close the tab containing this document in your Microsoft Edge
     browser.
 
 # Exercise \#2: Create a slide presentation using Copilot in PowerPoint
