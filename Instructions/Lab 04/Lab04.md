@@ -250,40 +250,40 @@ line.
     navigation pane. If it doesn't appear there, then select **Explore
     all your Apps**,
 
-> ![](./media/image21.png)
+    ![](./media/image21.png)
 
 2.  In the **Apps** page, scroll down to locate **Loop** and then select
     it.
 
-> ![](./media/image22.png)
+    ![](./media/image22.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
     credentials.
 
-> ![](./media/image23.png)
->
-> **Note**: After signing in, close the Loop browser window and once
-> again open Loop from the Apps page.
+    ![](./media/image23.png)
+
+    **Note**: After signing in, close the Loop browser window and once
+    again open Loop from the Apps page.
 
 4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
     default. You want to create a new workspace for this project,
     select **+** next to **Getting started**, and then select **+New
     workspace** button.
 
-> ![](./media/image24.png)
+    ![](./media/image24.png)
 
 5.  In the **Create a new workspace** window, enter **Outdoor toy line
     Marketing Campaign** for your workspace name and then select either
     the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
-> ![](./media/image25.png)
+    ![](./media/image25.png)
 
 6.  In the **Add files to your workspace** window (depending on your
     version of Loop, this window may say **Workspace Switcher**),
     select **Create workspace**.
 
-> ![](./media/image26.png)
+    ![](./media/image26.png)
 
 7.  You're now on the first page for your new workspace. The name of the
     page is currently **Untitled**. Note the page (Untitled) also
@@ -292,9 +292,9 @@ line.
     page to **Ideas for Outdoor toy campaigns**. Note how the page name
     is automatically updated in the navigation pane.
 
-> ![](./media/image27.png)
->
-> ![](./media/image28.png)
+    ![](./media/image27.png)
+
+    ![](./media/image28.png)
 
 8.  In the **Just start typing...** field, enter a forward
     slash **(/)**.
@@ -302,7 +302,7 @@ line.
 9.  In the drop-down menu that appears, under the **Copilot** section at
     the top of the menu, select **Draft page content**.
 
-> ![](./media/image29.png)
+    ![](./media/image29.png)
 
 10. In the **Copilot** window that appears, note the row of buttons that
     appears below the prompt field. Select each button
@@ -311,7 +311,7 @@ line.
     the type of task that Copilot can assist with. Since this exercise
     deals with brainstorming, select the **Brainstorm** button.
 
-> ![](./media/image30.png)
+    ![](./media/image30.png)
 
 11. Note how Copilot prefills the prompt field with a brainstorming
     suggestion. In fact, select the **Brainstorm** button multiple
@@ -322,38 +322,38 @@ line.
     brainstorm. For this exercise, enter the following prompt field and
     select the **Submit** icon:
 
-**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
-toys**.
+    **Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
+    toys**.
 
-> ![](./media/image31.png)
+    ![](./media/image31.png)
 
 12. Review the generated list of ideas. Rather than having all the
     information in a paragraph or list form, you prefer to summarize it
     in a table. Plus, you also want Copilot to provide more specific
     details for each idea.
 
-> ![](./media/image32.png)
+    ![](./media/image32.png)
 
 13. In the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
 
-> **That looks good. However, please rewrite the report by placing the
-> information in a table and provide more specific details for each
-> idea**.
->
-> ![](./media/image33.png)
->
-> ![](./media/image34.png)
+    **That looks good. However, please rewrite the report by placing the
+    information in a table and provide more specific details for each
+    idea**.
+
+    ![](./media/image33.png)
+
+    ![](./media/image34.png)
 
 14. Note how Copilot changed the formatting of the report. You now want
     Copilot to add another idea to the table titled **Supermarket store
     promotions**. To do so, enter the following prompt:
 
-**Add an idea for Supermarket store promotions**.
+    **Add an idea for Supermarket store promotions**.
 
-> ![](./media/image35.png)
->
-> ![](./media/image36.png)
+    ![](./media/image35.png)
+    
+    ![](./media/image36.png)
 
 15. When you ask Copilot to add a new idea, it may add it into a new
     table, or it may add it to the end of the current table. Either way,
@@ -361,17 +361,17 @@ toys**.
     supermarket is a lousy idea, and you no longer want it included in
     the list. So how can you undo what you just did?
 
-> To the right of the table (either your original table or a new one
-> with just the **Supermarket store promotions** idea), note how Copilot
-> tracks each of your prompts. The prompts are displayed from the most
-> recent prompt down to the first prompt, in sequential order. More
-> importantly, note how each prompt includes an **Undo** icon. If you're
-> unhappy with the results of a prompt, you can undo it to go back to
-> the version of the draft before that prompt. Since you've decided that
-> you no longer want to include **Supermarket store promotions** in the
-> table, select the **Undo** icon for that prompt.
->
-> ![](./media/image37.png)
+    To the right of the table (either your original table or a new one
+    with just the **Supermarket store promotions** idea), note how Copilot
+    tracks each of your prompts. The prompts are displayed from the most
+    recent prompt down to the first prompt, in sequential order. More
+    importantly, note how each prompt includes an **Undo** icon. If you're
+    unhappy with the results of a prompt, you can undo it to go back to
+    the version of the draft before that prompt. Since you've decided that
+    you no longer want to include **Supermarket store promotions** in the
+    table, select the **Undo** icon for that prompt.
+
+    ![](./media/image37.png)
 
 16. After selecting the **Undo** icon, note how Copilot deleted the
     prompt and returned you to the draft following the second prompt
@@ -379,14 +379,14 @@ toys**.
     Copilot sort the ideas from best to worst. Enter the following
     prompt to sort the ideas:
 
-> **Please sort the ideas in the table starting from most effective to
-> least effective**.
->
-> **Note:** Locate the **Sort** icon (the up and down arrows) that
-> appears in the icon tray above the list of ideas. This option simply
-> sorts the ideas in alphabetical sequence. You can perform the sort on
-> either the name of each **Idea** or the first word in
-> each **Details** field.
+    **Please sort the ideas in the table starting from most effective to
+    least effective**.
+
+    **Note:** Locate the **Sort** icon (the up and down arrows) that
+    appears in the icon tray above the list of ideas. This option simply
+    sorts the ideas in alphabetical sequence. You can perform the sort on
+    either the name of each **Idea** or the first word in
+    each **Details** field.
 
 17. After reviewing the sorted ideas, you decide to make one final
     change. You want Copilot to replace the least effective idea with a
@@ -394,11 +394,11 @@ toys**.
     natural fit for a new toy line that focuses on outdoor products. To
     do so, enter the following prompt:
 
-**Please replace the final idea in the table with Seasonal Promotions**.
+    **Please replace the final idea in the table with Seasonal Promotions**.
 
-> ![](./media/image38.png)
->
-> ![](./media/image39.png)
+    ![](./media/image38.png)
+
+    ![](./media/image39.png)
 
 18. When it's time to present the list of marketing campaign ideas that
     you brainstormed with the help of Copilot in Loop, you can access
