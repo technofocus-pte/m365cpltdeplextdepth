@@ -272,6 +272,7 @@ and prompts.
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Fabrikam Q1 marketing campaigns.xlsx** spreadsheet to **OneDrive**
+
     **Tip**: Open and close the file to get it in your Most Recently Used (MRU)
     file list.
 
