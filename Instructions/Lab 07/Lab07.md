@@ -369,8 +369,8 @@ in the Copilot pane or when creating a new document.
 
     ![](./media/image21.png)
 
-    **Note**: Make sure you save the report since you use it in the next
-    Use Case exercise.
+    **Note**: Make sure you save the report since you will be usingg it in the next
+    exercise.
 
 5.  The prompt you entered to create the report included five requests.
     You now want to ask Copilot each of those five questions
@@ -420,22 +420,22 @@ in the Copilot pane or when creating a new document.
 10. Here are some pointers to reflect on the responses when you used
     Copilot in Word
 
-- How does the level of information for each reporting method compare to
-  one another?
-
-    Compare the level of information provided when Copilot in Word created
-    a report versus the answers it provided when you asked the questions
-    individually in the Copilot pane.
-
-- What did you notice?
-
-    When you ask Copilot to create a report, it usually provides richer
-    responses that it organizes into an attractive looking report.
-    Conversely, when you ask Copilot to answer questions individually in
-    the Copilot pane, it doesn't return the level of detail as the report,
-    although it does allow you to copy and paste the responses into a
-    document. However, doing so may require you to reformat the inserted
-    answers to clean up any formatting issues.
+    - How does the level of information for each reporting method compare to
+      one another?
+    
+        Compare the level of information provided when Copilot in Word created
+        a report versus the answers it provided when you asked the questions
+        individually in the Copilot pane.
+    
+    - What did you notice?
+    
+        When you ask Copilot to create a report, it usually provides richer
+        responses that it organizes into an attractive looking report.
+        Conversely, when you ask Copilot to answer questions individually in
+        the Copilot pane, it doesn't return the level of detail as the report,
+        although it does allow you to copy and paste the responses into a
+        document. However, doing so may require you to reformat the inserted
+        answers to clean up any formatting issues.
 
 ## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
 
@@ -483,7 +483,7 @@ formally start this project.
 6.  On the right side of the PowerPoint ribbon, select
     the **Copilot** option.
 
-> ![](./media/image27.png)
+    ![](./media/image27.png)
 
 7.  In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
@@ -496,37 +496,37 @@ formally start this project.
     a **Suggestions** window that displays three of the most recently
     used files.
 
-> ![](./media/image28.png)
+    ![](./media/image28.png)
 
-- If your file appears here, then select it now and proceed to the next
-  step.
-
-- If the file isn't one of the three being displayed, select the right
-  arrow (**\>**) in the upper right corner of the **Suggestions** window
-  to see an expanded MRU file list. If the file appears here, then
-  select it now and proceed to the next step.
-
-- If you don't see your file in the expanded MRU list, then you must
-  copy the link to the report and paste it in the prompt field. To do
-  so:
-
-  1.  Select the **Microsoft 365** browser tab and select **Word** in
-      the navigation pane.
-
-  2.  In the **Word** home page, in the list of recent files, select the
-      report to open it in Word.
-
-  3.  In the report in Word, on the far-right above the ribbon, select
-      the **Share** button. In the drop-down menu that appears,
-      select **Copy Link**. Wait for the **Link copied** window to
-      appear, which is your assurance that the link to the file was
-      copied to your clipboard.
-
-  4.  Switch to your **PowerPoint** tab, and at the bottom of
-      the **Copilot** pane, the prompt field should still be
-      displaying **Create presentation from file /**. Position your
-      cursor after the forward slash (**/**) and then paste in
-      (**Ctrl+V**) the link to the report.
+    - If your file appears here, then select it now and proceed to the next
+      step.
+    
+    - If the file isn't one of the three being displayed, select the right
+      arrow (**\>**) in the upper right corner of the **Suggestions** window
+      to see an expanded MRU file list. If the file appears here, then
+      select it now and proceed to the next step.
+    
+    - If you don't see your file in the expanded MRU list, then you must
+      copy the link to the report and paste it in the prompt field. To do
+      so:
+    
+      1.  Select the **Microsoft 365** browser tab and select **Word** in
+          the navigation pane.
+    
+      2.  In the **Word** home page, in the list of recent files, select the
+          report to open it in Word.
+    
+      3.  In the report in Word, on the far-right above the ribbon, select
+          the **Share** button. In the drop-down menu that appears,
+          select **Copy Link**. Wait for the **Link copied** window to
+          appear, which is your assurance that the link to the file was
+          copied to your clipboard.
+    
+      4.  Switch to your **PowerPoint** tab, and at the bottom of
+          the **Copilot** pane, the prompt field should still be
+          displaying **Create presentation from file /**. Position your
+          cursor after the forward slash (**/**) and then paste in
+          (**Ctrl+V**) the link to the report.
 
 9.  Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field.
@@ -537,39 +537,39 @@ formally start this project.
     window showing a bulleted list of some of the changes that it made
     to the presentation based on the document.
 
-> ![](./media/image29.png)
+    ![](./media/image29.png)
 
 11. You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes that Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts.
 
-> ![](./media/image30.png)
+    ![](./media/image30.png)
 
 12. Review the speaker notes that Copilot added to each slide in the
     presentation. Verify they call out the points that you want to make
     during the presentation.
 
-> ![](./media/image31.png)
+    ![](./media/image31.png)
 
 13. Try using Copilot to update the presentation. Let's begin by adding
     an image to a slide. Find a slide without an image and enter the
     following prompt (don't forget to replace \[enter slide number
     here\] with the number of the slide you picked):
 
-> **Add an image to slide \[enter slide number here\]**. **The image
-> should contain a picture related to the slide contents**.
->
-> ![](./media/image32.png)
+    **Add an image to slide \[enter slide number here\]**. **The image
+    should contain a picture related to the slide contents**.
+    
+    ![](./media/image32.png)
 
 14. You also notice that there isn't any content in the presentation
     related to the expected lifespan for each type of heating system.
     You want Copilot to research this topic and then add it into the
     presentation. Enter the following prompt:
 
-> **What is the average lifespan of a boiler heating system versus a
-> furnace heating system**?
->
-> ![](./media/image33.png)
+    **What is the average lifespan of a boiler heating system versus a
+    furnace heating system**?
+
+    ![](./media/image33.png)
 
 15. You now want Copilot to add this content to a slide. Select the
     slide towards the beginning of the presentation that lists the types
@@ -577,9 +577,9 @@ formally start this project.
     replace \[enter slide number here\] with the number of the slide you
     picked):
 
-> **Add this lifespan content to slide \[enter slide number here\]**.
->
-> ![](./media/image34.png)
+    **Add this lifespan content to slide \[enter slide number here\]**.
+    
+    ![](./media/image34.png)
 
 16. What did Copilot do? Did it do something like adding "**Lifespan
     content**" to the top of the slide, overlaying it on top of the
@@ -588,17 +588,17 @@ formally start this project.
 17. The prompt didn't work as expected. Remove whatever was added to the
     slide.
 
-> ![](./media/image35.png)
+    ![](./media/image35.png)
 
 18. Now try it again, but this time ask Copilot to find the lifespan
     content and add it to the slide all in one prompt. This time, enter
     the following prompt:
 
-> **Add content about the average lifespan of a boiler heating system
-> versus a furnace heating system to slide \[enter slide number
-> here\].**
->
-> ![](./media/image36.png)
+    **Add content about the average lifespan of a boiler heating system
+    versus a furnace heating system to slide \[enter slide number
+    here\].**
+    
+    ![](./media/image36.png)
 
 19. Did this work better? You just have to rework your prompts if
     Copilot doesn't do exactly what you wanted.
@@ -607,30 +607,30 @@ formally start this project.
     Question-and-Answer (Q&A) session. To correct this situation, enter
     the following prompt:
 
-> **Add a Q&A slide at the very end of the presentation with an
-> appropriate image.**
->
-> ![](./media/image37.png)
+    **Add a Q&A slide at the very end of the presentation with an
+    appropriate image.**
+    
+    ![](./media/image37.png)
 
 21. Review the new slide that was created. Upon seeing this slide, you
     would like Copilot to create a list of possible questions and add
     them to the speaker notes for the Q&A slide. Enter the following
     prompt:
 
-> **Create a list of five questions that may be asked during the Q&A
-> session and add them to the speaker notes in the Q&A slide.**
+    **Create a list of five questions that may be asked during the Q&A
+    session and add them to the speaker notes in the Q&A slide.**
 
 22. How did Copilot respond when you tried this prompt? Did it add five
     questions to the speaker notes for the Q&A slide? If so, then
     congratulations!
 
-> If Copilot displays some exception, then remember that Copilot is
-> still a work in progress.
->
-> ![](./media/image38.png)
->
-> You can either discard this presentation or save it if you want to
-> keep it for future reference.
+    If Copilot displays some exception, then remember that Copilot is
+    still a work in progress.
+    
+    ![](./media/image38.png)
+    
+    You can either discard this presentation or save it if you want to
+    keep it for future reference.
 
 ## Summary:
 
