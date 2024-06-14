@@ -198,7 +198,7 @@ can locate the file in this exercise.
 
     [](./media/image12.png)
 
-6.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
+6.  On the **Microsoft 365** navigation pane, select **Microsoft Word**, and then open a new
     blank document.
 
 7.  In the **Draft with Copilot** window that appears at the top of the
