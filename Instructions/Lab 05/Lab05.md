@@ -29,19 +29,19 @@ to your specific needs, without having to spend hours writing and
 editing them. In this exercise, you use Copilot in Outlook to draft a
 new email based on a series of user-supplied prompts.
 
-**Note**: Copilot scenarios in Outlook are only available on a user’s
-primary mailbox. They aren't available on a user’s archive mailbox,
-group mailboxes, or shared and delegate mailboxes that the user has
-access to.
-
-- Microsoft only supports Copilot in Outlook on mailboxes hosted on
-  Exchange Online.
-
-- Copilot in Outlook is only supported in Microsoft 365 work or school
-  accounts and Microsoft accounts with specific email domains.
-
-- It's supported both through Copilot for Microsoft 365 with your
-  Microsoft Entra ID account, and Copilot Pro with your MSA account.
+> **Note**: Copilot scenarios in Outlook are only available on a user’s
+> primary mailbox. They aren't available on a user’s archive mailbox,
+> group mailboxes, or shared and delegate mailboxes that the user has
+> access to.
+>
+> - Microsoft only supports Copilot in Outlook on mailboxes hosted on
+>   Exchange Online.
+>
+> - Copilot in Outlook is only supported in Microsoft 365 work or school
+>   accounts and Microsoft accounts with specific email domains.
+>
+> - It's supported both through Copilot for Microsoft 365 with your
+>   Microsoft Entra ID account, and Copilot Pro with your MSA account.
 
 As the CFO for Northwind Traders, you want to use Copilot in Outlook to
 draft an email to the company's health insurance carrier, Humongous
