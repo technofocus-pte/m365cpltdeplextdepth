@@ -248,41 +248,35 @@ CipherGuard project
 plan](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20CipherGuard%20project%20plan.docx) that
 was created for you, and save it to your OneDrive account.</span>
 
-1.  Open a new browser tab in the lab VM. Right click the following link
-    to copy and paste it in the browser window. [Contoso CipherGuard
-    project
-    plan](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20CipherGuard%20project%20plan.docx)
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  Select “Download” to download the file to the VM.
-
-    > Warning: <span class="mark">Please do not use **Save a copy to One
-    > Drive** option since you may encounter sign-in error</span>.
-
-3.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: [<u>https://www.office.com</u>](https://www.office.com)**.**
-
-4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
     ![](./media/image1.png)
 
-5.  Browse to the **Downloads** folder to select and upload a copy of
-    **Contoso CipherGuard project plan** document to OneDrive.
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    **Contoso CipherGuard Product Specification report** document to **OneDrive**.
 
-6.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** you can skip this step.
+
+4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
     PowerPoint, open a new blank presentation.
 
-7.  Select the **Copilot** option on the right side of the ribbon. In
+5.  Select the **Copilot** option on the right side of the ribbon. In
     the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from.
 
     ![](./media/image22.png)
 
-8.  Select the **Create presentation from file** prompt.
+6.  Select the **Create presentation from file** prompt.
 
     ![](./media/image23.png)
 
-9.  In the prompt field at the bottom of the **Copilot** pane, Copilot
+7.  In the prompt field at the bottom of the **Copilot** pane, Copilot
     automatically enters the text: **Create presentation from file /**.
     The forward slash is the universal Copilot indicator to enter a link
     to a file. In this case, it triggers Copilot to open
@@ -319,7 +313,7 @@ was created for you, and save it to your OneDrive account.</span>
           cursor after the forward slash (**/**) and then paste in
           (**Ctrl+V**) the link to the report.
 
-10. Note how the file appears in the prompt field. Select
+8. Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field. This prompt triggered Copilot
     to create a slide presentation based on the document. In doing so,
     it first displayed the outline of the presentation. Then it
@@ -328,13 +322,13 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image24.png)
 
-11. You're now free to review the slides and make any necessary updates.
+9. You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes the Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts
 
     ![](./media/image25.png)
 
-12. You notice that there isn't a slide at the end for a Question and
+10. You notice that there isn't a slide at the end for a Question and
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
@@ -343,7 +337,7 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image26.png)
 
-13. Review the new slide that was created. You don't like the image that
+11. Review the new slide that was created. You don't like the image that
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
@@ -351,7 +345,7 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image27.png)
 
-14. What response did you receive? Sometimes Copilot didn't replace the
+12. What response did you receive? Sometimes Copilot didn't replace the
     image and it returned the following message.
 
     ![](./media/image28.png)
@@ -361,7 +355,7 @@ was created for you, and save it to your OneDrive account.</span>
     request, then try it again. And if it still doesn't work, then try
     rephrasing your request or splitting it into two.</span>
 
-15. Even if Copilot worked and replaced your image, let's assume for the
+13. Even if Copilot worked and replaced your image, let's assume for the
     sake of this exercise that it didn't. In this case, ask Copilot to
     not just replace the image, but to remove the old slide and replace
     it with an entirely new slide containing a different image. As such,
@@ -371,7 +365,7 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image29.png)
 
-16. What response did you receive? In our testing of this exercise,
+14. What response did you receive? In our testing of this exercise,
     Copilot continuously removed the Q&A slide but it didn't create a
     new one in its place. Instead, it kept returning the following
     message.
@@ -385,7 +379,7 @@ was created for you, and save it to your OneDrive account.</span>
     the old slide, and then submitting a second request to add a new slide
     with an image.
 
-18. Regardless how the last few steps went in dealing with the Q&A
+15. Regardless how the last few steps went in dealing with the Q&A
     slide, you decide to move forward and try one last thing. In
     reviewing the presentation, you decide that you want to change the
     theme of the presentation to something more appropriate due to the
@@ -395,7 +389,7 @@ was created for you, and save it to your OneDrive account.</span>
 
     ![](./media/image31.png)
 
-19. Note Copilot's response.
+16. Note Copilot's response.
 
     ![](./media/image32.png)
 
@@ -406,7 +400,7 @@ was created for you, and save it to your OneDrive account.</span>
     you to an existing PowerPoint feature rather than duplicating what
     that feature does.
 
-20. While the remaining training exercises in this module don't use this
+17. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
     for future reference.
 
