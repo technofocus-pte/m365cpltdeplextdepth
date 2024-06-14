@@ -48,12 +48,12 @@ speech for you based on your company's Income Statement:
      **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-
+   
+    ![](./media/image5.png)
+    
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Fabrikam 2023 Income Statement document to OneDrive**.
 
-    ![](./media/image5.png)
-   
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution** you can skip this step.
 
@@ -158,7 +158,7 @@ speech for you based on your company's Income Statement:
 15. Close the tab containing this document in your Microsoft Edge
     browser.
 
-# Exercise \#2: Create a slide presentation using Copilot in PowerPoint
+# Exercise #2: Create a slide presentation using Copilot in PowerPoint
 
 In this exercise, you will use Copilot in PowerPoint to create a slide
 presentation based on your speech (to the shareholders based on the
@@ -179,8 +179,7 @@ create a draft of your presentation:
     select it now; otherwise, open a new tab and enter the following
     URL: [**https://www.office.com**](https://www.office.com/)
 
-2.  On the **Microsoft 365** navigation pane, select **Word** to open
-    the Word file page.
+2.  On the **Microsoft 365** navigation pane, select **Word** to open Word.
 
 3.  On the file page in **Word**, scroll down to the list of recent
     files and select **Fabrikam 2023 Financial presentation.docx** to
