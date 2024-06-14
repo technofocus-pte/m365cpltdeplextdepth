@@ -163,7 +163,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
   
-5.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** to **OneDrive**
 
     ![](./media/image14.png)
@@ -171,10 +171,10 @@ Protein Shake.docx** file, which you download using the provided link.
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution**, you can skip this step.
 
-7.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
+4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
     PowerPoint, open a new blank presentation.
 
-8.  Select the **Copilot** option on the right side of the ribbon. In
+5.  Select the **Copilot** option on the right side of the ribbon. In
     the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
     from file** prompt.
@@ -186,7 +186,7 @@ Protein Shake.docx** file, which you download using the provided link.
     used files. If the **Market Trend Report - Protein Shake.docx** file
     appears in the MRU list, then select it.
 
-9.  Otherwise, open the file in **Word**, select the **Share** button
+6.  Otherwise, open the file in **Word**, select the **Share** button
     above the ribbon, select the **Copy Link** option from the drop-down
     menu, and then in this prompt field in the **Copilot** pane
     in **PowerPoint**, paste in the link following the forward slash
@@ -194,7 +194,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image16.png)
 
-10.  This prompt triggered Copilot to create a slide presentation based
+7.  This prompt triggered Copilot to create a slide presentation based
     on the document. In doing so, it first displayed the outline of the
     presentation. Then it displayed a separate window showing a bulleted
     list of some of the changes that it made to the presentation based
@@ -202,7 +202,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image17.png)
 
-11. Review the slides once Copilot finished creating the presentation.
+8. Review the slides once Copilot finished creating the presentation.
     To review the speaker notes, select the **View** tab and then select
     the **Notes** button if it isn't already selected. If it's already
     selected and you can't see the notes, then drag the bottom of the
@@ -211,7 +211,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image18.png)
 
-12. Select the **Home** tab and then select the **Designer** button,
+9. Select the **Home** tab and then select the **Designer** button,
     which appears to the left of the **Copilot** button.
     The **Designer** pane offers samples of different designs for the
     current slide being displayed. Change to a different slide in the
@@ -220,14 +220,14 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image19.png)
 
-13. Select one of the design options to have PowerPoint replace the
+10. Select one of the design options to have PowerPoint replace the
     current slide with the new design. This feature isn't
     Copilot-related. It's available in PowerPoint when you have a
     Microsoft 365 subscription.
 
     ![](./media/image20.png)
 
-14. Now let's see what else Copilot can do. Select
+11. Now let's see what else Copilot can do. Select
     the **Copilot** button to open the **Copilot** pane. In
     the **Copilot** pane, note the section that says **Here are some
     things you can try**. Copilot displays several tasks that it can
@@ -236,14 +236,14 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image21.png)
 
-15. Review what Copilot did in organizing the presentation. For example,
+12. Review what Copilot did in organizing the presentation. For example,
     it may have grouped the slides into sections and then added some new
     section title slides. If so, locate the new slides that it created
     and review them.
 
     ![](./media/image22.png)
 
-16. Above the prompt field, Copilot displays questions related to the
+13. Above the prompt field, Copilot displays questions related to the
     presentation. The purpose of these questions is two-fold. You can
 
     - Select a question and have Copilot generate an answer, which you can
@@ -261,7 +261,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image23.png)
 
-17. When you select any of these questions, Copilot generates an answer
+14. When you select any of these questions, Copilot generates an answer
     to the question and provides a **Copy** option at the bottom of the
     answer window. In doing so, you can select the **Copy** option and
     then paste this answer in the speaker notes for any slide in which
@@ -273,7 +273,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image25.png)
 
-18. Note the **Refresh** button that appears between the suggested
+15. Note the **Refresh** button that appears between the suggested
     questions and the prompt field. Select this **Refresh** button.
 
     ![](./media/image26.png)
@@ -287,7 +287,7 @@ Protein Shake.docx** file, which you download using the provided link.
     questions to offer, it starts repeating the list of questions from the
     start.
 
-19. You now want Copilot to create a slide at the end of the
+16. You now want Copilot to create a slide at the end of the
     presentation for a Q&A session. Enter the following prompt and
     select the **Send** icon:
 
@@ -295,7 +295,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image27.png)
 
-20. Review the Q&A slide that Copilot created. Now try one final thing.
+17. Review the Q&A slide that Copilot created. Now try one final thing.
     You decide to compile a list of potential questions that you can
     prepare for during the Q&A session. Enter the following prompt to
     see if Copilot can add all of its suggested questions to the speaker
@@ -305,7 +305,7 @@ Protein Shake.docx** file, which you download using the provided link.
     list of possible questions that may be asked regarding this
     presentation**.
 
-21. If Copilot returns a message indicating that it was unable to
+18. If Copilot returns a message indicating that it was unable to
     generate the slide, try entering the prompt again. Sometimes when
     Copilot can't complete a task, a good practice is to repeat the
     request.
@@ -319,7 +319,7 @@ Protein Shake.docx** file, which you download using the provided link.
     time. This scenario is another example of the best practice that you
     need to be aware of: Understand Copilot's limitations.
 
-22. Now try this workaround. Enter the following prompt that asks it to
+19. Now try this workaround. Enter the following prompt that asks it to
     generate a list of questions:
 
     **What kind of questions do you think participants may ask during the
@@ -327,7 +327,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image30.png)
 
-23. Review the questions that Copilot created. Select
+20. Review the questions that Copilot created. Select
     the **Copy** button at the bottom of the window, and then paste them
     (**Ctrl+V**) into the speaker notes of the Q&A slide.
 
@@ -364,32 +364,16 @@ In this exercise, you will
   - Ask Copilot to provide recommendations for renegotiating each
     agreement.
 
-1.  Open a new browser tab in the lab VM. Right click the following
-    links one by one to copy and paste them in the browser window.
-    Repeat the step for each document.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL:+++**<https://www.office.com>**+++.
 
-    - [Contoso Supplier
-      Agreement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20Supplier%20Agreement.docx)
+    **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-    - [Tailwind Traders Supplier
-      Agreement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Tailwind%20Traders%20Supplier%20Agreement.docx)
-  
-    - [Wide World Importers Supplier Agreement](https://edxinteractivepage.blob.core.windows.net/ms-4004/Wide%20World%20Importers%20Supplier%20Agreement.docx)
-
-2.  Select “Download” to download the files to the VM.
-
-    **Warning**: <span class="mark">Please do not use **Save a copy to One
-    Drive** option since you may encounter sign-in error</span>.
-
-3.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: [<u>https://www.office.com</u>](https://www.office.com)**.**
-
-4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
     ![](./media/image14.png)
 
-5.  Browse to the **Downloads** folder to select and upload a copy of
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the following documents to OneDrive.
 
       - **Contoso Supplier Agreement**
@@ -398,17 +382,17 @@ In this exercise, you will
 
       - **Wide World Importers Supplier Agreement**
 
-6.  In this exercise, you access the documents from the Most Recently
+4.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
     each document and then close it. Open and close each of the three
     files in your OneDrive account.
 
     ![](./media/image32.png)
 
-7.  In **Microsoft 365**, open **Microsoft Word** and then open a new
+5.  In **Microsoft 365**, open **Microsoft Word** and then open a new
     blank document.
 
-8.  In the **Draft with Copilot** window that appears at the top of the
+6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
     **I'm the Sales Manager for Northwind Traders, a supplier of various
@@ -432,13 +416,13 @@ In this exercise, you will
     Agreement** and the **Wide World Importers Supplier Agreement**. At
     this point, links to all three files should be included in the prompt.
 
-9.  Select **Generate**. At this point, Copilot extracts the pertinent
+7.  Select **Generate**. At this point, Copilot extracts the pertinent
     information from the three supplier agreements drafts a report
     comparing them.
 
     ![](./media/image34.png)
 
-10. After reviewing the comparison document, you aren't pleased with the
+8. After reviewing the comparison document, you aren't pleased with the
     results. You would like to see Copilot try again and generate a new
     version. In the Copilot window that appears at the end of the
     document, select the **Regenerate** button, which appears next to
@@ -452,5 +436,5 @@ In this exercise, you will
     Once you're satisfied with a version of the report, select the **Keep
     it** button.
 
-11. Once you're done with this document, save it to your OneDrive, so
+9. Once you're done with this document, save it to your **OneDrive**, so
     you can close this tab in your Microsoft Edge browser.
