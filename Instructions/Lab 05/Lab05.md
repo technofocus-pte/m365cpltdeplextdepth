@@ -279,7 +279,7 @@ and prompts.
     ![](./media/image13.png)
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
+    execution** section you can skip this step.
 
 4.  On the **Microsoft 365** home page, select the **Excel** icon in the
     navigation pane on the left.
@@ -594,14 +594,14 @@ the first step.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
   
-4.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Fabrikam Q1 marketing
-    campaign data.docx** document to **OneDrive**,
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Fabrikam Q1 marketing
+    campaign data.docx** document to **OneDrive**.
     **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
 
     ![](./media/image51.png)
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
+    execution** sectionyou can skip this step.
 
 4.  In **Microsoft 365**, open **Microsoft Word** and then open a blank
     document.
