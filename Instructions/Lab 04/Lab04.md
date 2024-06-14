@@ -440,7 +440,10 @@ Latin America.
     - **Contoso Chai Tea market trends 2023.**
     
     - **Promotion Plan for Chai Tea in Latin America.**
-
+    
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** section you can skip this step.
+    
 4.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
     each document and then close it. Open and close each of the three
@@ -448,7 +451,7 @@ Latin America.
 
     ![](./media/image41.png)
 
-5.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
+5.  In **Microsoft 365** open **Microsoft Word**, and then open a new
     blank document.
 
 6.  In the **Draft with Copilot** window that appears at the top of the
@@ -583,9 +586,8 @@ trend spreadsheet that already has an Excel table defined.
     ![](./media/image40.png)
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso Chai Tea market trends 2023** spreadsheet to OneDrive and
-    then open and close the file to get it in your Most Recently Used
-    (MRU) file list.
+    **Contoso Chai Tea market trends 2023** spreadsheet to **OneDrive** and
+    then open and close the file to get it in your Most Recently Used (MRU) file list.
 
     ![](./media/image50.png)
 
