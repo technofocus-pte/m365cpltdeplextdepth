@@ -60,30 +60,30 @@ basically an AI-assisted sticky-note exercise.
 
 4.  On the **Whiteboard** home page, select **New Whiteboard**.
 
-> ![](./media/image1.png)
+    ![](./media/image1.png)
 
 5.  On the ribbon at the top of the page, select
     the **Whiteboard** drop-down arrow. In the **Board name** field,
     enter **Boiler installation project plan** and then select the
     checkmark icon.
 
-> ![](./media/image2.png)
+    ![](./media/image2.png)
 
 7.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. Otherwise, in the tray of icons that appears above
     the taskbar at the bottom of the page, select the **Copilot** icon.
     In the menu that appears, select **Suggest**.
 
-> ![](./media/image3.png)
+    ![](./media/image3.png)
 
 8.  In the **Suggest content with Copilot** window, enter the following
     prompt:
 
-> **I'm the Operations Manager for Adatum Corporation. We're installing
-> a new boiler in our heating system. Please suggest the steps we should
-> follow to install the new boiler**.
->
-> ![](./media/image4.png)
+    **I'm the Operations Manager for Adatum Corporation. We're installing
+    a new boiler in our heating system. Please suggest the steps we should
+    follow to install the new boiler**.
+    
+    ![](./media/image4.png)
 
 9.  If a **Suggest content with Copilot** window appears, then proceed
     to the next step. However, if you receive a message indicating that
@@ -92,18 +92,18 @@ basically an AI-assisted sticky-note exercise.
     the **Generate suggestions** arrow in the bottom corner of the
     Copilot window.
 
-> ![](./media/image5.png)
->
-> Sometimes Copilot completes the process it's working on but stumbles a
-> bit before displaying the results. When you select the **Generate
-> suggestions** arrow again, it usually displays the results without
-> much delay. However, if you receive a similar message a second time,
-> then select the **Generate suggestion**s arrow a few more times. If
-> you keep receiving this error after three or four attempts, then
-> simplify the prompt by entering the following text:
->
-> **Please suggest the steps we should follow to install a new boiler in
-> our building's heating system**.
+    ![](./media/image5.png)
+
+    Sometimes Copilot completes the process it's working on but stumbles a
+    bit before displaying the results. When you select the **Generate
+    suggestions** arrow again, it usually displays the results without
+    much delay. However, if you receive a similar message a second time,
+    then select the **Generate suggestion**s arrow a few more times. If
+    you keep receiving this error after three or four attempts, then
+    simplify the prompt by entering the following text:
+
+    **Please suggest the steps we should follow to install a new boiler in
+    our building's heating system**.
 
 10. By default, Copilot generates ideas in groups of six. In
     the **Suggest content with Copilot** window that appears, note the
@@ -113,45 +113,45 @@ basically an AI-assisted sticky-note exercise.
     more suggestions. Notice how the **Insert (6)** button indicates the
     number of ideas that Copilot generated - in this case, 6.
 
-> ![](./media/image6.png)
+    ![](./media/image6.png)
 
 11. While six suggestions are a good starting point, you want to dig
     deeper into the tasks needed to install the security product, so
     select the **Generate more** button.
 
-> ![](./media/image7.png)
->
-> **Note**: If Copilot displays an error message of any kind, then
-> select the \*\*Generate more\*\* button again. Do this any time you
-> receive an error message.
+    ![](./media/image7.png)
+
+    **Note**: If Copilot displays an error message of any kind, then
+    select the \*\*Generate more\*\* button again. Do this any time you
+    receive an error message.
 
 12. Note how Copilot generated another six ideas, so the **Insert
     (12)** button now displays **12**. While you can keep generating
     more ideas, for the sake of time, let's insert the 12 ideas
     currently presented. Select the **Insert (12)** button.
 
-> ![](./media/image8.png)
+    ![](./media/image8.png)
 
 13. When you select the **Insert** button, Copilot attaches the
     suggested ideas to your whiteboard in the form of yellow sticky
     notes.
 
-> ![](./media/image9.png)
+    ![](./media/image9.png)
 
 14. As with a real-world brainstorming session involving actual sticky
     notes, you can edit a particular note, delete it, lock it from
     future removal, and so on. In Microsoft Whiteboard, these activities
     are supported through standard whiteboarding functionality.
 
-> If you've never used Whiteboard before, try selecting (double-click) a
-> specific note, and then in the menu bar that appears above it, you can
-> select the **Edit text** (pencil) icon or any of the other options.
-> Selecting the ellipsis icon at the end of the menu bar displays a menu
-> of more options, such as deleting the note. Again, the idea behind
-> Microsoft Whiteboard is to mimic real-world sticky-note exercises.
-> Feel free to edit a note as you wish.
->
-> ![](./media/image10.png)
+    If you've never used Whiteboard before, try selecting (double-click) a
+    specific note, and then in the menu bar that appears above it, you can
+    select the **Edit text** (pencil) icon or any of the other options.
+    Selecting the ellipsis icon at the end of the menu bar displays a menu
+    of more options, such as deleting the note. Again, the idea behind
+    Microsoft Whiteboard is to mimic real-world sticky-note exercises.
+    Feel free to edit a note as you wish.
+
+    ![](./media/image10.png)
 
 15. In looking at the suggested ideas, you feel they don't cover risk
     mitigation adequately. Select the **Copilot** icon at the bottom of
@@ -160,10 +160,10 @@ basically an AI-assisted sticky-note exercise.
 16. In the **Suggest content with Copilot** window that appears, enter
     the following prompt to generate more ideas about risk mitigation:
 
-> **Suggest ways to mitigate the risks of installing a new boiler into
-> the building's heating system**.
->
-> ![](./media/image11.png)
+    **Suggest ways to mitigate the risks of installing a new boiler into
+    the building's heating system**.
+    
+    ![](./media/image11.png)
 
 17. Review the six ideas that Copilot suggested. You would like Copilot
     to include more details, so select the **Generate more** button.
@@ -171,12 +171,12 @@ basically an AI-assisted sticky-note exercise.
 18. You're satisfied with the 12 risk mitigation ideas, so select
     the **Insert (12)** button.
 
-> ![](./media/image12.png)
+    ![](./media/image12.png)
 
 19. Note how the block of 12 risk mitigation ideas is selected (see the
     outside border).
 
-> ![](./media/image13.png)
+    ![](./media/image13.png)
 
 20. Copilot overlays the 12 risk mitigation ideas partially over top of
     the original 12 project plan ideas, you can select on this block of
@@ -188,7 +188,7 @@ basically an AI-assisted sticky-note exercise.
     see what areas Copilot proposed so that you can edit any of them if
     you wish.
 
-> ![](./media/image14.png)
+    ![](./media/image14.png)
 
 21. You're now satisfied with the suggestions that Copilot created, and
     you've completed all the edits that you want done to the notes. You
@@ -197,7 +197,7 @@ basically an AI-assisted sticky-note exercise.
     the notes accordingly. Select the **Copilot** icon at the bottom of
     the page and then select **Categorize** from the menu.
 
-> ![](./media/image15.png)
+    ![](./media/image15.png)
 
 22. Note what happened. Copilot generated a set of categories and
     reorganized the notes accordingly. Each category of notes was
@@ -208,19 +208,19 @@ basically an AI-assisted sticky-note exercise.
     increases the size of the image until it can no longer increase it
     anymore without it exceeding the screen size.
 
-> ![](./media/image16.png)
+    ![](./media/image16.png)
 
 23. Note the icon tray that appears below the organized group of notes.
     If you're not satisfied with the categories, select
     the **Regenerate** button on the icon tray that appears.
 
-> **Note**: You can select the **Regenerate** button as many times as
-> needed until you're satisfied with the categories that Copilot
-> provides. Select this button several times and note the changes that
-> Copilot makes each time. Besides changing category names, Copilot may
-> add or reduce the number of categories with each regeneration.
->
-> ![](./media/image17.png)
+    **Note**: You can select the **Regenerate** button as many times as
+    needed until you're satisfied with the categories that Copilot
+    provides. Select this button several times and note the changes that
+    Copilot makes each time. Besides changing category names, Copilot may
+    add or reduce the number of categories with each regeneration.
+    
+    ![](./media/image17.png)
 
 24. After regenerating the categories several times, you realize that
     you're missing detailed steps concerning minimization of system
@@ -242,8 +242,8 @@ basically an AI-assisted sticky-note exercise.
     the following prompt to generate more ideas about minimizing system
     down-time:
 
-> **Suggest ways to limit heating system downtime when installing a new
-> boiler**.
+    **Suggest ways to limit heating system downtime when installing a new
+    boiler**.
 
 28. Review the six ideas that Copilot suggested. You're satisfied with
     these ideas, so select the **Insert (6)** button.
@@ -291,13 +291,13 @@ basically an AI-assisted sticky-note exercise.
     down to review the entire **Summary** window. You're happy with the
     results, so select **Keep it**.
 
-> ![](./media/image18.png)
+    ![](./media/image18.png)
 
 34. Select the **Fit to Screen** icon on the bottom-right corner of the
     page to fit all the sticky notes and the session summary onto the
     entire screen.
 
-> ![](./media/image19.png)
+    ![](./media/image19.png)
 
 ## Exercise #2: Compare reporting results using Copilot in Word
 
