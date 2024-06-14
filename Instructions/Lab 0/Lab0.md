@@ -14,7 +14,6 @@
 2.  **Complete setting up Microsoft 365 subscription** (using Microsoft
     Edge) and **access Copilot for Microsoft 365**
 
-<!-- -->
 
     1.  If you have a Microsoft 365 tab open in your Edge browser, then
         select it now; otherwise, open a new tab and enter the following
@@ -49,10 +48,12 @@
         particular lab.
 
         ![](./media/image5.png)
+        
 
         ![](./media/image6.png)
+        
 
         ![](./media/image7.png)
 
-    3.  Now you will have the document(s) in **OneDrive** to work with
+    4.  Now you will have the document(s) in **OneDrive** to work with
         **Copilot for Microsoft 365** labs.
