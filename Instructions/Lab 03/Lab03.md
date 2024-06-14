@@ -52,7 +52,7 @@ to your OneDrive account. The next exercise uses this file.
     **Contoso CipherGuard Product Specification report** document to **OneDrive**.
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
+    execution** section you can skip this step.
 
 4.  In this exercise, you access the document from the MRU file list. To
     get the file to appear in the MRU list, open the document and then
@@ -261,7 +261,7 @@ was created for you, and save it to your OneDrive account.</span>
     **Contoso CipherGuard Product Specification report** document to **OneDrive**.
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
+    execution** section you can skip this step.
 
 4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
     PowerPoint, open a new blank presentation.
@@ -426,39 +426,33 @@ In this exercise, you will use Copilot in Word to update an existing
 document. You direct Copilot to add new text, rewrite existing text, and
 transform text into a table.
 
-1.  Open a new browser tab in the lab VM. Right click the following link
-    to copy and paste it in the browser window. [Trey Research - VPN
-    Technical
-    Overview](https://edxinteractivepage.blob.core.windows.net/ms-4004/Trey%20Research%20-%20VPN%20Technical%20Overview.docx)
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  Select “Download” to download the file to the VM.
-
-    > Warning: <span class="mark">Please do not use **Save a copy to One
-    > Drive** option since you may encounter sign-in error</span>.
-
-3.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: [<u>https://www.office.com</u>](https://www.office.com)**.**
-
-4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
     ![](./media/image1.png)
 
-5.  Browse to the **Downloads** folder to select and upload a copy of
-    **Trey Research - VPN Technical Overview** document to OneDrive.
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    **Trey Research - VPN Technical Overview** document to **OneDrive**.
 
-6.  In **Microsoft 365**, open **Microsoft Word**.
+    **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing for the lab
+    execution** section you can skip this step.
 
-7.  Open the **Trey Research - VPN Technical Overview.docx** file.
+4.  On the **Microsoft 365** navigation pane, select **Microsoft Word** to open it.
+
+5.  Open the **Trey Research - VPN Technical Overview.docx** file.
 
     ![](./media/image33.png)
 
-8.  On the **Word** ribbon, select the **Copilot** button to open the
+6.  On the **Word** ribbon, select the **Copilot** button to open the
     Copilot pane.
 
     ![](./media/image34.png)
 
-9.  In the **Copilot** pane, enter the following prompt and then select
+7.  In the **Copilot** pane, enter the following prompt and then select
     the arrow (**Send**) icon:
 
     **Write a new section for this document about the types of VPNs. Discuss
@@ -467,7 +461,7 @@ transform text into a table.
 
     ![](./media/image35.png)
 
-10. Copilot doesn't add new content directly into a document. It
+8. Copilot doesn't add new content directly into a document. It
     displays the content in a response window in the Copilot pane.
     However, it does provide a **Copy** button at the bottom of each
     response window, so select the **Copy** button to copy its contents
@@ -482,7 +476,7 @@ transform text into a table.
     > the new content won't match the existing font and size used throughout
     > the document. As such, you must change them to match.
 
-11. Upon further review, you notice that there's no mention of security
+9. Upon further review, you notice that there's no mention of security
     policies related to VPN usage. This topic is a key area that you
     want included, so enter the following prompt:
 
@@ -492,14 +486,14 @@ transform text into a table.
 
     ![](./media/image36.png)
 
-12. Copy and paste the content from this response into the document.
+10. Copy and paste the content from this response into the document.
     Place it just before the **Risks and mitigations** section, and then
     edit the content as needed. If necessary, add a heading for this
     section titled **Security policies related to VPN usage**.
 
     ![](./media/image37.png)
 
-13. When you reviewed the report, you also identified one area of
+11. When you reviewed the report, you also identified one area of
     content that you felt needed to be rewritten. In the section
     on **Risks and mitigations**, the first bullet covers both home and
     enterprise VPNs. You want it to only address enterprise VPNs.
@@ -510,7 +504,7 @@ transform text into a table.
     **Tip**: To have Copilot rewrite content, you must first highlight the
     content that you want Copilot to rewrite.
 
-14. Highlight the content in the first bullet of the **Risks and
+12. Highlight the content in the first bullet of the **Risks and
     mitigation** section, and then enter the following prompt:
 
     **The highlighted content discusses the risks of using VPNs in both
@@ -520,14 +514,14 @@ transform text into a table.
     
     ![](./media/image38.png)
 
-16. Check Copilot's response. Sometimes this rewrite functionality
+13. Check Copilot's response. Sometimes this rewrite functionality
     didn't work. When it didn't work, Copilot returned the following
     response. If this situation occurs, copy and paste in your prompt
     and try it again (remember, iterate, iterate, iterate).
 
     ![](./media/image39.png)
 
-17. After you make a final review of the document, you decide that the
+14. After you make a final review of the document, you decide that the
     sections on the Pros and Cons of implementing VPNs would look better
     in a table rather than as bulleted lists. Since you highlighted a
     section to be rewritten, you decide to highlight these two sections.
@@ -537,11 +531,11 @@ transform text into a table.
 
     ![](./media/image40.png)
 
-18. Note the Copilot response.
+15. Note the Copilot response.
 
     ![](./media/image41.png)
 
-19. Reformatting content into a table is different than rewriting
+16. Reformatting content into a table is different than rewriting
     content. Instead of highlighting the content that you want placed in
     a table, you must describe in your prompt what sections of content
     you want included in the table. This time, enter the following
@@ -551,7 +545,7 @@ transform text into a table.
     
     ![](./media/image42.png)
 
-20. Note the Copilot response. Instead of rewriting or replacing the
+17. Note the Copilot response. Instead of rewriting or replacing the
     existing content in the document with a table, it displays the table
     in its response. It's up to you to replace the content by copying
     and pasting the table into the document. In the response, select
@@ -564,7 +558,7 @@ transform text into a table.
 
     ![](./media/image43.png)
 
-21. At this point, you feel the document is complete. However, to play
+18. At this point, you feel the document is complete. However, to play
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
@@ -572,13 +566,13 @@ transform text into a table.
 
     ![](./media/image44.png)
 
-22. Note the Copilot response. In our testing, it told us that nothing
+19. Note the Copilot response. In our testing, it told us that nothing
     was missing. Try again to see if Copilot provides a different
     response.
 
     ![](./media/image45.png)
 
-23. If Copilot recommended that you add more content to your document,
+20. If Copilot recommended that you add more content to your document,
     create a prompt that asks it to do so. You can then copy and paste
     the new content into your document.
 
