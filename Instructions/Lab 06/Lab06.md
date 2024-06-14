@@ -32,9 +32,7 @@ based on the role responsibilities in this document.
     **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it. 
-
     
-
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Graphic Design
     Institute - Design Team** document to **OneDrive**
 
@@ -45,14 +43,14 @@ based on the role responsibilities in this document.
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution** section you can skip this step.
   
-5.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
+4.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following URL: [**https://www.office.com**](https://www.office.com/)
 
-6.  In **Microsoft 365** home page, select **Microsoft Word**,and then open a blank
+5.  In **Microsoft 365** home page, select **Microsoft Word**,and then open a blank
     document.
 
-7.  In the **Draft with Copilot** window, enter the following prompt,
+6.  In the **Draft with Copilot** window, enter the following prompt,
     but don't select the **Generate** button until after you link the
     responsibilities file to the prompt in the next step:
 
@@ -62,7 +60,7 @@ based on the role responsibilities in this document.
     for this role and create a job description based on those
     responsibilities**.
 
-6.  You now must attach to the prompt the **Graphic Design Institute -
+7.  You now must attach to the prompt the **Graphic Design Institute -
     Design Team Responsibilities.docx** file that you downloaded. In
     the **Draft with Copilot** window, select the **Reference your
     content** button. In the drop-down menu that appears, if
@@ -72,7 +70,7 @@ based on the role responsibilities in this document.
 
     ![](./media/image2.png)
 
-7.  Select **Browse files from cloud**, select the file from
+8.  Select **Browse files from cloud**, select the file from
     the **Recent** file list, and then select the **Attach** button. If
     the file doesn't appear in the **Recent** file list, select **My
     files** at the top of the navigation pane in the **Pick a
@@ -81,16 +79,16 @@ based on the role responsibilities in this document.
 
     ![](./media/image3.png)
 
-8.  Note how the file is displayed in the prompt and
+9.  Note how the file is displayed in the prompt and
     select **Generate**.
 
     ![](./media/image4.png)
 
-9.  Review the first draft of the job description document.
+10.  Review the first draft of the job description document.
 
     ![](./media/image5.png)
 
-10. You note that it doesn't include many of the details found in the
+11. You note that it doesn't include many of the details found in the
     job responsibilities document. Instead, it provides a summarized
     sentence or two for each responsibility. To correct this
     shortcoming, enter the following prompt and select the forward
@@ -104,11 +102,11 @@ based on the role responsibilities in this document.
 
     ![](./media/image6.png)
 
-11. Review the second draft.
+12. Review the second draft.
 
     ![](./media/image7.png)
 
-12. Again, you feel that Copilot should provide more details. Enter the
+13. Again, you feel that Copilot should provide more details. Enter the
     following prompt to see if you can get it to be more specific:
 
     **This job description draft is better, but it still lacks the details
@@ -116,7 +114,7 @@ based on the role responsibilities in this document.
     detailed responsibilities for each area. Include those details in this
     job description. Be as specific as you can**.
 
-13. After reviewing the results, you're reminded of the saying, "Be
+14. After reviewing the results, you're reminded of the saying, "Be
     careful what you wish for" The list of responsibilities in this
     third draft is long; in fact, maybe too long for a workable job
     description document. At this point, you want to review the previous
@@ -139,7 +137,7 @@ based on the role responsibilities in this document.
     draft is preferable to the final draft, so you elect to use this one.
     In the Copilot window, select the **Keep it** button.
 
-14. You're ready to move forward with this job description document, so
+15. You're ready to move forward with this job description document, so
     save it to your OneDrive account with the file name of **Graphic
     Design Institute - Job descriptions.docx.**
 
@@ -162,7 +160,7 @@ draft and then stop. If this situation happens to you, select
 the **Regenerate** button to have it generate a new draft, or rephrase
 your prompt and try again.</span>
 
-> ![](./media/image11.png)
+![](./media/image11.png)
 
 As the HR Manager at Graphic Design Institute, you started receiving
 resumes from probable candidate for a new Senior Animation Designer
@@ -177,48 +175,44 @@ Design Institute - Job descriptions.docx**. If it is saved with a
 different file name, then remember the name that you used so that you
 can locate the file in this exercise.
 
-1.  Open a new browser tab in the lab VM. Copy the following links and
-    paste in the edge browser window to open the document. Download the
-    files to the VM. Repeat the step for each document.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-- [Resume - Patti
-  Fernandez](https://edxinteractivepage.blob.core.windows.net/ms-4004/Resume%20-%20Patti%20Fernandez.docx)
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
 
-- [Resume - Nestor
-  Wilke](https://edxinteractivepage.blob.core.windows.net/ms-4004/Resume%20-%20Nestor%20Wilke.docx)
-
-- [Resume - Holly
-  Dickson](https://edxinteractivepage.blob.core.windows.net/ms-4004/Resume%20-%20Holly%20Dickson.docx)
-
-- [Resume - Alex
-  Wilber](https://edxinteractivepage.blob.core.windows.net/ms-4004/Resume%20-%20Alex%20Wilber.docx)
-
-2.  Once the downloads are complete, open **File Explorer** and copy the
-    files from your **Downloads** folder to a folder in your OneDrive
-    account.
-
-3.  In this exercise, you access the documents from the Most Recently
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of the following documents to **OneDrive**,
+    - **Resume - Patti Fernandez**
+    - **Resume - Nestor Wilke**
+    - **Resume - Holly Dickson**
+    - **Resume - Alex Wilber** .
+    
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** you can skip this step.
+    
+5.  In this exercise, you access the documents from the Most Recently
     Used (MRU) file list. To get the files to appear in the MRU list,
     open each document and then close it. Open and close each of the
     four resume files in your OneDrive account.
 
-> ![](./media/image12.png)
+    [](./media/image12.png)
 
-4.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
+6.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
     blank document.
 
-5.  In the **Draft with Copilot** window that appears at the top of the
+7.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt, but don't submit the
     prompt just yet. You must attach the files to the prompt in the next
     step:
 
-> **I'm the Hiring Manager for Graphic Design Institute. We're hiring
-> for the position of Senior Animation Designer. Please create a report
-> that compares the attached resumes to the requirements for a Senior
-> Animation Designer in the attached job description file and rank the
-> candidates from most qualified to least qualified. Thank you!**
->
-> ![](./media/image13.png)
+    **I'm the Hiring Manager for Graphic Design Institute. We're hiring
+    for the position of Senior Animation Designer. Please create a report
+    that compares the attached resumes to the requirements for a Senior
+    Animation Designer in the attached job description file and rank the
+    candidates from most qualified to least qualified. Thank you!**
+    
+    ![](./media/image13.png)
 
 6.  You now must attach to the prompt the **Graphic Design Institute -
     Job descriptions.docx** file that you saved to your OneDrive account
@@ -238,7 +232,7 @@ can locate the file in this exercise.
     requirements, you can only submit two of the resumes with this
     initial prompt.
 
-> ![](./media/image14.png)
+    ![](./media/image14.png)
 
 8.  Since you attached the job description file and the first two
     resumes to the prompt, select **Generate**. At this point, Copilot
@@ -248,19 +242,19 @@ can locate the file in this exercise.
 
 9.  Review the results of this first draft.
 
-> ![](./media/image15.png)
->
-> **Note**: Take a look at the **Draft with Copilot** window and note
-> that it doesn't include an **Attach** button. Once you're in draft
-> mode like you currently are, Copilot doesn't allow you to attach any
-> more files to subsequent prompts. You can use the prompt field to
-> modify the document, but you can no longer attach another file. Keep
-> this requirement in mind as you proceed through the next steps. This
-> current draft only compares the first two resumes. To compare the
-> remaining two resumes to the two that are in the current draft, you
-> must keep a draft of this report, and then create a second report that
-> compares the two remaining resumes to the document that you just
-> created.
+    ![](./media/image15.png)
+
+    **Note**: Take a look at the **Draft with Copilot** window and note
+    that it doesn't include an **Attach** button. Once you're in draft
+    mode like you currently are, Copilot doesn't allow you to attach any
+    more files to subsequent prompts. You can use the prompt field to
+    modify the document, but you can no longer attach another file. Keep
+    this requirement in mind as you proceed through the next steps. This
+    current draft only compares the first two resumes. To compare the
+    remaining two resumes to the two that are in the current draft, you
+    must keep a draft of this report, and then create a second report that
+    compares the two remaining resumes to the document that you just
+    created.
 
 10. You're now looking at the first draft of the report that compares
     the first two resumes to the job description file. Copilot gives you
@@ -269,7 +263,7 @@ can locate the file in this exercise.
     okay, select the **Regenerate** button in the **Draft with
     Copilot** window to have Copilot create a second draft.
 
-> ![](./media/image16.png)
+    ![](./media/image16.png)
 
 11. When regenerating, you may come across the “Something went wrong”
     error message. Dismiss and try regenerating the comparison report
@@ -286,11 +280,11 @@ can locate the file in this exercise.
     either be **1 of 2** or **2 of 2**). When you find a draft that you
     want to use, select the **Keep it** button.
 
-> ![](./media/image17.png)
->
-> **Note**: When you select **Keep it**, Copilot moves from draft mode
-> into normal Microsoft Word mode. It also automatically saves
-> the **Report Comparison** document to your OneDrive account.
+    ![](./media/image17.png)
+
+    **Note**: When you select **Keep it**, Copilot moves from draft mode
+    into normal Microsoft Word mode. It also automatically saves
+    the **Report Comparison** document to your OneDrive account.
 
 11. You're now ready to have Copilot review the final two resumes.
     However, as the earlier step indicated, you must compare the
@@ -308,10 +302,10 @@ can locate the file in this exercise.
     and the first **Report Comparison** report to the prompt in the next
     step:
 
-> **That was a good start. Please create a report that compares the
-> attached resumes to the prior resume comparison report (attached) and
-> rank the candidates from most qualified to least qualified. Thank
-> you!**
+    **That was a good start. Please create a report that compares the
+    attached resumes to the prior resume comparison report (attached) and
+    rank the candidates from most qualified to least qualified. Thank
+    you!**
 
 13. You now must attach the report that you just created that compared
     the first two resumes, along with the remaining two resumes. After
@@ -330,15 +324,15 @@ can locate the file in this exercise.
     and then select the **Attach** button. Repeat this process to select
     the final remaining resume.
 
-> ![](./media/image18.png)
+    ![](./media/image18.png)
 
 15. Once you have the first Report Comparison report and the remaining
     two resumes attached to the prompt, select the **Generate** button
     in the **Draft with Copilot** window.
 
-> **Note**: When generating comparison reports with successive resumes,
-> you may come across the “Something went wrong” error message. Dismiss
-> and try generating the comparison report until you get the report.
+    **Note**: When generating comparison reports with successive resumes,
+    you may come across the “Something went wrong” error message. Dismiss
+    and try generating the comparison report until you get the report.
 
 16. Copilot should compare the first two resumes and the final two
     resumes and provide a rank list of the candidates. At this point,
@@ -346,7 +340,7 @@ can locate the file in this exercise.
     For this training exercise, you decide you're satisfied with the
     report, so select the **Keep it** button.
 
-> ![](./media/image19.png)
+    ![](./media/image19.png)
 
 17. At this point, Copilot generated two Report Comparison documents,
     the second of which is the final report comparing all four
@@ -383,22 +377,22 @@ questions based on your direction.
     Apps**, and on the **Apps** page, scroll down to locate **Loop** and
     then select it.
 
-> ![](./media/image20.png)
+    ![](./media/image20.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
     credentials.
 
-> ![](./media/image21.png)
->
-> **Note**: After signing in, close the Loop browser window and once
-> again open Loop from the Apps page.
+    ![](./media/image21.png)
+
+    **Note**: After signing in, close the Loop browser window and once
+    again open Loop from the Apps page.
 
 4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
     default. You want to create a new workspace for this project,
     select **+** next to **Getting started**, and then select **+New
     workspace** button.
 
-> ![](./media/image22.png)
+    ![](./media/image22.png)
 
 5.  In the **Create a new workspace** window, enter **Interview
     questions** for your workspace name, and then select either
@@ -417,12 +411,12 @@ questions based on your direction.
     role**. Note how the page name is automatically updated in the
     navigation pane.
 
-> ![](./media/image23.png)
+    ![](./media/image23.png)
 
 8.  In the **Just start typing...** field, enter a forward
     slash **(/)**.
 
-> ![](./media/image24.png)
+    ![](./media/image24.png)
 
 9.  In the drop-down menu that appears, under the **Copilot** section at
     the top of the menu, select **Draft page content**.
@@ -430,44 +424,44 @@ questions based on your direction.
 10. In the **Copilot** window that appears, enter the following prompt
     and select the **Submit** icon:
 
-> **Create a list of the 15 best interview questions that should be
-> asked to candidates applying for a new Senior Animation Designer role
-> at the Graphic Design Institute**.
->
-> ![](./media/image25.png)
->
-> <span class="mark">**Note**: Sometimes, you may not see the
-> **Copilot** window with Create, Brainstorm, Blueprint and Describe
-> options. If you are experiencing such exceptions, close the workspace
-> and try once again.</span>
+    **Create a list of the 15 best interview questions that should be
+    asked to candidates applying for a new Senior Animation Designer role
+    at the Graphic Design Institute**.
+
+    ![](./media/image25.png)
+
+    <span class="mark">**Note**: Sometimes, you may not see the
+    **Copilot** window with Create, Brainstorm, Blueprint and Describe
+    options. If you are experiencing such exceptions, close the workspace
+    and try once again.</span>
 
 11. Review the list of questions.
 
-> ![](./media/image26.png)
+    ![](./media/image26.png)
 
 12. You feel this initial list is a good start, but you notice a few
     types of questions are missing. In the Copilot pane that appears,
     enter the following prompt:
 
-> **Add a question about having failed at a project and what they
-> learned from it**.
->
-> ![](./media/image27.png)
+    **Add a question about having failed at a project and what they
+    learned from it**.
+    
+    ![](./media/image27.png)
 
 13. Review the new question that Loop created.
 
-> ![](./media/image28.png)
+    ![](./media/image28.png)
 
 14. After scanning the list one last time, you realize that it includes
     few, if any questions about leadership. To correct this situation,
     enter the following prompt:
 
-> **As a Senior Animation Designer, the candidate is expected to lead
-> their design team on projects. Ask them to talk about a couple of
-> their most significant experiences in leading other design team
-> members, and what their leadership style is**.
->
-> ![](./media/image29.png)
+    **As a Senior Animation Designer, the candidate is expected to lead
+    their design team on projects. Ask them to talk about a couple of
+    their most significant experiences in leading other design team
+    members, and what their leadership style is**.
+    
+    ![](./media/image29.png)
 
 15. Note what happened in Loop. When you request a change without
     specifically asking it to update the current page, Copilot may open
@@ -476,28 +470,28 @@ questions based on your direction.
     the Copilot pane it tracks the prompts, with the most recent prompt
     appearing at the top of the pane.
 
-> Select a previous prompt. Note how the content on the page appears in
-> a lighter font. Also attempt to select the **Rewrite with
-> Copilot** prompt field. Copilot disables this field since it's not the
-> current page. The current page is also referred to as the active page.
-> Now select the latest prompt and note how the content is clear,
-> indicating this page is the current, or active page. You can only
-> amend the active page, which is why on this page, you can select into
-> the **Rewrite with Copilot** prompt field.
->
-> ![](./media/image30.png)
+    Select a previous prompt. Note how the content on the page appears in
+    a lighter font. Also attempt to select the **Rewrite with
+    Copilot** prompt field. Copilot disables this field since it's not the
+    current page. The current page is also referred to as the active page.
+    Now select the latest prompt and note how the content is clear,
+    indicating this page is the current, or active page. You can only
+    amend the active page, which is why on this page, you can select into
+    the **Rewrite with Copilot** prompt field.
+    
+    ![](./media/image30.png)
 
 16. Let's make one more change. You're unsure as to whether the current
     list of questions is sufficient. To play it safe, you decide to ask
     Copilot in Loop to recommend some more questions. Enter the
     following prompt:
 
-> **Are there any other questions that you think should be added to the
-> list?**
+    **Are there any other questions that you think should be added to the
+    list?**
 
 17. Note the final list of questions that Copilot in Loop generated.
 
-> ![](./media/image31.png)
+    ![](./media/image31.png)
 
 18. You now have a vast assortment of questions to choose from when
     interviewing your candidates. And with Loop, you know that others on
