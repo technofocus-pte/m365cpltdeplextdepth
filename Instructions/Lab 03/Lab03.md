@@ -40,9 +40,9 @@ In this exercise you will use Microsoft Copilot in Bing
 to your OneDrive account. The next exercise uses this file.
 
 1.  Open a new browser tab in the lab VM and enter the following
-    URL**<https://www.office.com>**.
+    URL: **<https://www.office.com>**.
     
-    **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
@@ -50,6 +50,9 @@ to your OneDrive account. The next exercise uses this file.
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Contoso CipherGuard Product Specification report** document to **OneDrive**.
+
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** you can skip this step.
 
 4.  In this exercise, you access the document from the MRU file list. To
     get the file to appear in the MRU list, open the document and then
