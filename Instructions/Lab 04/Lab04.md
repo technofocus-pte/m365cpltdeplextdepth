@@ -423,65 +423,48 @@ Copilot to creates the combined report, review it and possibly update it
 with other information that Copilot can find on the Chai Tea market in
 Latin America.
 
-1.  Open a new browser tab in the lab VM. Right click the following
-    links one by one to copy and paste them in the browser window.
-    Repeat the step for each document.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-- [Mystic Spice Premium Chai Tea product
-  description](https://edxinteractivepage.blob.core.windows.net/ms-4004/Mystic%20Spice%20Premium%20Chai%20Tea%20product%20description.docx).
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
 
-- [Contoso Chai Tea market trends
-  2023](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20Chai%20Tea%20market%20trends%202023.docx).
+    ![](./media/image40.png)
 
-- [Promotion Plan for Chai Tea in Latin
-  America](https://edxinteractivepage.blob.core.windows.net/ms-4004/Promotion%20Plan%20for%20Chai%20Tea%20in%20Latin%20America.docx).
-
-2.  Select “Download” to download the files to the VM.
-
-> **Warning**: <span class="mark">Please do not use **Save a copy to One
-> Drive** option since you may encounter sign-in error</span>.
-
-3.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: [<u>https://www.office.com</u>](https://www.office.com)**.**
-
-4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
-
-> ![](./media/image40.png)
-
-5.  Browse to the **Downloads** folder to select and upload a copy of
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the following documents to OneDrive.
 
-- **Mystic Spice Premium Chai Tea product description.**
+    - **Mystic Spice Premium Chai Tea product description.**
+    
+    - **Contoso Chai Tea market trends 2023.**
+    
+    - **Promotion Plan for Chai Tea in Latin America.**
 
-- **Contoso Chai Tea market trends 2023.**
-
-- **Promotion Plan for Chai Tea in Latin America.**
-
-6.  In this exercise, you access the documents from the Most Recently
+4.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
     each document and then close it. Open and close each of the three
     files in your OneDrive account.
 
-> ![](./media/image41.png)
+    ![](./media/image41.png)
 
-7.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
+5.  In **Microsoft 365**, open **Microsoft Word**, and then open a new
     blank document.
 
-8.  In the **Draft with Copilot** window that appears at the top of the
+6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt, but don't select
     the **Generate** button until after you link the three files to the
     prompt:
 
-> **I'm the LATAM Marketing Director for Contoso Beverage. Please create
-> a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
-> beverage. Combine the three attached files to create a report that
-> describes the product, analyzes the market trend for it, and includes
-> a promotion plan for Latin America**.
->
-> ![](./media/image42.png)
+    **I'm the LATAM Marketing Director for Contoso Beverage. Please create
+    a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
+    beverage. Combine the three attached files to create a report that
+    describes the product, analyzes the market trend for it, and includes
+    a promotion plan for Latin America**.
 
-9.  You now must attach the three documents to the prompt. In
+    ![](./media/image42.png)
+
+7.  You now must attach the three documents to the prompt. In
     the **Draft with Copilot** window, select the **Reference your
     content** button. In the drop-down menu that appears, if
     the **Mystic Spice Premium Chai Tea product description.docx** file
@@ -490,40 +473,40 @@ Latin America.
     and then select the **Attach** button. Note how the file is
     displayed in the prompt.
 
-> ![](./media/image43.png)
+    ![](./media/image43.png)
 
-10. Repeat the prior step for both the **Contoso Chai Tea market trends
+8. Repeat the prior step for both the **Contoso Chai Tea market trends
     2023.docx** file and the **Promotion Plan for Chai Tea in Latin
     America.docx** file. At this point, links to all three files should
     appear in the prompt.
 
-> ![](./media/image44.png)
+    ![](./media/image44.png)
 
-11. Select **Generate**. Upon doing so, Copilot extracts the pertinent
+9. Select **Generate**. Upon doing so, Copilot extracts the pertinent
     information from the three files and drafts a report that combines
     them into a single Market Analysis report for Mystic Spice Premium
     Chai Tea.
 
-> ![](./media/image45.png)
+    ![](./media/image45.png)
 
-12. After reviewing this first draft of the Market Analysis report, you
+10. After reviewing this first draft of the Market Analysis report, you
     recognize that it's missing some critical information. You would
     like to see it include a section titled **Competitive Analysis**.
     You want Copilot to analyze the competition. To do so, enter the
     following prompt in the Copilot window at the bottom of the report
     and then select the **Generate** arrow:
 
-> ![](./media/image46.png)
->
-> **This report looks good. However, please add a section titled
-> Competitive Analysis. Review the beverage companies in Latin America
-> that sell Chai Tea and then provide information in this section on the
-> strengths and weaknesses of these competitors, their market share, and
-> their pricing strategies**.
->
-> ![](./media/image47.png)
+    ![](./media/image46.png)
 
-13. After reviewing this second draft of the report that contains the
+    **This report looks good. However, please add a section titled
+    Competitive Analysis. Review the beverage companies in Latin America
+    that sell Chai Tea and then provide information in this section on the
+    strengths and weaknesses of these competitors, their market share, and
+    their pricing strategies**.
+
+    ![](./media/image47.png)
+
+11. After reviewing this second draft of the report that contains the
     new Competitive Analysis section, you realize that one last thing is
     missing. You want Copilot to add a section on **Distribution
     Channels**. This section should analyze the distribution channels
@@ -531,27 +514,27 @@ Latin America.
     following prompt in the Copilot window at the bottom of the report
     and then select the **Generate** arrow:
 
-> ![](./media/image48.png)
->
-> **Nice job! One last thing. Please add a section titled Distribution
-> Channels. Review the distribution channels used to sell Chai Tea in
-> Latin America and then provide information in this section on the
-> types of retailers, wholesalers, and distributors used**.
+    ![](./media/image48.png)
 
-14. After reviewing this latest draft that contains the new Distribution
+    **Nice job! One last thing. Please add a section titled Distribution
+    Channels. Review the distribution channels used to sell Chai Tea in
+    Latin America and then provide information in this section on the
+    types of retailers, wholesalers, and distributors used**.
+
+12. After reviewing this latest draft that contains the new Distribution
     Channels section, you're satisfied with the report and you're ready
     to save it. In the Copilot window at the bottom of the document,
     select the **Keep it** button to convert it from a Copilot draft to
     a Word document.
 
-> ![](./media/image49.png)
+    ![](./media/image49.png)
 
-15. Review the document. If you want to make any manual changes, you can
+13. Review the document. If you want to make any manual changes, you can
     do so now. Once you're satisfied with it, feel free to save the
     document to your OneDrive if you wish to keep it for future
     reference, or just discard it.
 
-16. Close this tab in your Microsoft Edge browser.
+14. Close this tab in your Microsoft Edge browser.
 
 ## Exercise #4: Analyze a market trend spreadsheet using Copilot in Excel
 
@@ -590,128 +573,118 @@ trend spreadsheet that already has an Excel table defined.
 
 - <span class="mark">Select **OK**.</span>
 
-1.  Open a new browser tab in the lab VM. Right click the following link
-    to copy and paste it in the browser window. [<u>Contoso Chai Tea
-    market trends
-    2023</u>](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20Chai%20Tea%20market%20trends%202023.xlsx) 
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  Select “Download” to download the file to the VM.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
-> Warning: <span class="mark">Please do not use **Save a copy to One
-> Drive** option since you may encounter sign-in error</span>.
+    ![](./media/image40.png)
 
-3.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: [<u>https://www.office.com</u>](https://www.office.com)**.**
-
-4.  On the Microsoft 365 navigation pane, select OneDrive to open it.
-
-> ![](./media/image40.png)
-
-5.  Browse to the **Downloads** folder to select and upload a copy of
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Contoso Chai Tea market trends 2023** spreadsheet to OneDrive and
     then open and close the file to get it in your Most Recently Used
     (MRU) file list.
 
-> ![](./media/image50.png)
+    ![](./media/image50.png)
 
-6.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following
-    URL: [**<u>https://www.office.com</u>**](https://www.office.com/)
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the
+    labexecution** you can skip this step.
 
-7.  On the **Microsoft 365** home page, select the **Excel** icon in the
+4.  On the **Microsoft 365** home page, select the **Excel** icon in the
     navigation pane on the left.
 
-8.  In **Excel**, on the **File** page, select **Contoso Chai Tea market
+5.  In **Excel**, on the **File** page, select **Contoso Chai Tea market
     trends 2023.xlsx** from the file list.
 
-9.  Select the **Copilot** option on the right side of the ribbon.
+6.  Select the **Copilot** option on the right side of the ribbon.
 
-10. In the **Copilot** pane that appears, several predefined prompts are
+7. In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Show data
     insights** button.
 
-> ![](./media/image51.png)
->
-> ![](./media/image52.png)
+    ![](./media/image51.png)
 
-11. Note the pivot chart that it generated. When we tested this
+    ![](./media/image52.png)
+
+8. Note the pivot chart that it generated. When we tested this
     exercise, Copilot always created a line graph of the **Social Media
     Engagement (views) by Date**. What type of chart did Copilot create
     for you? Below the chart that Copilot created for you, select
     the **+Add to a new sheet** button.
 
-> ![](./media/image53.png)
-12. Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
-    visible in the spreadsheet.
+    ![](./media/image53.png)
+   
+9. Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
+   visible in the spreadsheet.
 
-> ![](./media/image54.png)
+    ![](./media/image54.png)
 
-13. Try with maximized excel sheet and repeat step 11. The **Add to
+10. Try with maximized excel sheet and repeat step 11. The **Add to
     sheet function** worked fine now.
 
-> ![](./media/image55.png)
+    ![](./media/image55.png)
 
-14. Select **Sheet 2**. Review the new data sheet that Copilot created.
+11. Select **Sheet 2**. Review the new data sheet that Copilot created.
     Copilot included both the graph and the column of data from the
     spreadsheet that was the basis of this graph. Hold your cursor over
     the chart and note the window that appears which indicates the type
     of chart that Copilot generated.
 
-> ![](./media/image56.png)
+    ![](./media/image56.png)
 
-17. Note how in the Copilot pane, the list of predefined prompts no
+12. Note how in the Copilot pane, the list of predefined prompts no
     longer appears. This situation occurs because Copilot doesn't work
     on PivotTables yet (note the message indicating this issue).
     Select **Sheet 1**, which returns you back to the Excel table. Note
     how the predefined prompts appear.
 
-> ![](./media/image57.png)
+     ![](./media/image57.png)
 
-18. In the predefined prompts that appear above the prompt field, select
+13. In the predefined prompts that appear above the prompt field, select
     the **Show suggestions for formula columns** button.
 
-19. Note the suggestion that Copilot provides. The following image shows
+14. Note the suggestion that Copilot provides. The following image shows
     the suggestion that Copilot provided during our testing.
 
-> ![](./media/image58.png)
+    ![](./media/image58.png)
 
-20. In the suggestion that you received, select the **Explain
+15. In the suggestion that you received, select the **Explain
     formula** drop-down arrow. Review Copilot's explanation that
     describes the calculation. Select the **+Insert Column** button to
     insert this column into your Excel table.
 
-> ![](./media/image59.png)
+    ![](./media/image59.png)
 
-21. Note how Copilot added this column of data to the end of your Excel
+16. Note how Copilot added this column of data to the end of your Excel
     table in **Sheet 1**. Is this feature intriguing you? You may want
     to see what other formula suggestions it provides. Select the **Show
     suggestions for formula columns** button again. Note the suggestion.
     Select the **+Insert Column** button to insert this suggested column
     into your Excel table.
 
-22. In the predefined prompts that appear above the prompt field, select
+17. In the predefined prompts that appear above the prompt field, select
     the **How can I highlight, filter, and sort data**? button.
 
-> ![](./media/image60.png)
+    ![](./media/image60.png)
 
-23. Note the list of actions that you can take.
+18. Note the list of actions that you can take.
 
-> ![](./media/image61.png)
+    ![](./media/image61.png)
 
-24. At this point, the predefined prompts that Copilot displays no
+19. At this point, the predefined prompts that Copilot displays no
     longer interest you. As such, you want to see a new set of prompts.
     Select the **Refresh** button that appears above the prompt field.
 
-> ![](./media/image62.png)
+    ![](./media/image62.png)
 
-25. Review the revised list of predefined prompts that now appear. The
+20. Review the revised list of predefined prompts that now appear. The
     following image shows examples of prompts that was displayed.
 
-> ![](./media/image63.png)
+    ![](./media/image63.png)
 
-26. The purpose of this exercise is to get a feel for the various types
+21. The purpose of this exercise is to get a feel for the various types
     of predefined actions that Copilot can perform. Therefore, select
     different prompts to see what happens. For example:
 
@@ -722,16 +695,16 @@ trend spreadsheet that already has an Excel table defined.
       bolded the items in the column it mentioned and left any others
       nonbolded.
 
-27. Again select the **Refresh** button that appears above the prompt
+22. Again select the **Refresh** button that appears above the prompt
     field.
 
-> ![](./media/image62.png)
+    ![](./media/image62.png)
 
-28. Review the new set of prompts that it displays. Select
+23. Review the new set of prompts that it displays. Select
     the **Refresh** button several times to see the different types
     prompts that Copilot provides.
 
-29. Feel free to select any other prompts to see what Copilot does. When
+24. Feel free to select any other prompts to see what Copilot does. When
     you're done, close your Microsoft Edge browser tab.
 
 ## Summary:
