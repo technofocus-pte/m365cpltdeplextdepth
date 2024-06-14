@@ -459,22 +459,22 @@ heating systems, including with the pros and cons of each, before you
 contact a Heating, Ventilation, and Air Conditioning (HVAC) company and
 formally start this project.
 
-1.  Open a new browser tab in the lab VM. Copy the link [Comparing
-    boiler and furnace heating systems
-    report](https://edxinteractivepage.blob.core.windows.net/ms-4004/Comparing%20boiler%20and%20furnace%20heating%20systems%20report.docx) 
-    and paste it in the browser window to open the document. Download
-    the file to the VM.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+ 
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.   
 
-2.  After the download completes, move the file to your OneDrive
-    account, and then open and close the file to get it in your Most
-    Recently Used (MRU) file list.
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Comparing boiler and furnace heating systems report** document to **OneDrive**.
 
-> ![](./media/image26.png)
+    **Tip**: open and close the file to get it in your Most Recently Used (MRU) file list.
 
-3.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: [**https://www.office.com**](https://www.office.com/)
+    ![](./media/image26.png)
 
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** section you can skip this step.
+    
 4.  On the **Microsoft 365** home page, select the **PowerPoint** icon
     in the navigation pane on the left.
 
@@ -498,35 +498,35 @@ formally start this project.
 
     ![](./media/image28.png)
 
-    - If your file appears here, then select it now and proceed to the next
-      step.
-    
-    - If the file isn't one of the three being displayed, select the right
-      arrow (**\>**) in the upper right corner of the **Suggestions** window
-      to see an expanded MRU file list. If the file appears here, then
-      select it now and proceed to the next step.
-    
-    - If you don't see your file in the expanded MRU list, then you must
-      copy the link to the report and paste it in the prompt field. To do
-      so:
-    
-      1.  Select the **Microsoft 365** browser tab and select **Word** in
-          the navigation pane.
-    
-      2.  In the **Word** home page, in the list of recent files, select the
-          report to open it in Word.
-    
-      3.  In the report in Word, on the far-right above the ribbon, select
-          the **Share** button. In the drop-down menu that appears,
-          select **Copy Link**. Wait for the **Link copied** window to
-          appear, which is your assurance that the link to the file was
-          copied to your clipboard.
-    
-      4.  Switch to your **PowerPoint** tab, and at the bottom of
-          the **Copilot** pane, the prompt field should still be
-          displaying **Create presentation from file /**. Position your
-          cursor after the forward slash (**/**) and then paste in
-          (**Ctrl+V**) the link to the report.
+      - If your file appears here, then select it now and proceed to the next
+        step.
+      
+      - If the file isn't one of the three being displayed, select the right
+        arrow (**\>**) in the upper right corner of the **Suggestions** window
+        to see an expanded MRU file list. If the file appears here, then
+        select it now and proceed to the next step.
+      
+      - If you don't see your file in the expanded MRU list, then you must
+        copy the link to the report and paste it in the prompt field. To do
+        so:
+      
+        1.  Select the **Microsoft 365** browser tab and select **Word** in
+            the navigation pane.
+      
+        2.  In the **Word** home page, in the list of recent files, select the
+            report to open it in Word.
+      
+        3.  In the report in Word, on the far-right above the ribbon, select
+            the **Share** button. In the drop-down menu that appears,
+            select **Copy Link**. Wait for the **Link copied** window to
+            appear, which is your assurance that the link to the file was
+            copied to your clipboard.
+      
+        4.  Switch to your **PowerPoint** tab, and at the bottom of
+            the **Copilot** pane, the prompt field should still be
+            displaying **Create presentation from file /**. Position your
+            cursor after the forward slash (**/**) and then paste in
+            (**Ctrl+V**) the link to the report.
 
 9.  Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field.
