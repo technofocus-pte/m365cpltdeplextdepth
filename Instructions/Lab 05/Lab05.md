@@ -728,25 +728,29 @@ you open a file containing a table with five years of financial results
 for a company, and you ask Copilot in Word (within the Copilot pane of
 the file) to summarize the financial results that appear in the table.
 
-1.  Open a new browser tab in the lab VM. Copy the link [Adatum 5 Year
-    Financial
-    Results](https://edxinteractivepage.blob.core.windows.net/ms-4004/Adatum%205%20Year%20Financial%20Results.docx)
-    and paste it in the browser window to open the document. Download
-    the file to the VM.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  After the download completes, move the file **Adatum 5 Year
-    Financial Results.docx** to your OneDrive account, and then open and
-    close the file to get it in your Most Recently Used (MRU) file list.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+   
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    **Adatum 5 Year Financial Results.docx** to your **OneDrive**.
 
-> ![](./media/image66.png)
+    **Tip**: Open and     close the file to get it in your Most Recently Used (MRU) file list.
 
-3.  In **Microsoft Word**, open the **Adatum 5 Year Financial
-    Results.docx** file that you downloaded and moved to your OneDrive
-    account.
+    ![](./media/image66.png)
 
-4.  On the **Microsoft Word** ribbon, select **Copilot**.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** you can skip this step.
 
-5.  In the **Copilot** pane that appears, several predefined tasks
+4.  On the **Microsoft 365** navigation pane, select **Microsoft Word**. Open the **Adatum 5 Year Financial
+    Results.docx** file that you uploaded to your **OneDrive**.
+
+5.  On the **Microsoft Word** ribbon, select **Copilot**.
+
+6.  In the **Copilot** pane that appears, several predefined tasks
     appear towards the top. You want Copilot to summarize the contents
     of the Adatum 5 Year Financial Results document, so select
     the **Summarize this doc** tile.
