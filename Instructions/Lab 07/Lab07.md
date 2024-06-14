@@ -51,7 +51,7 @@ basically an AI-assisted sticky-note exercise.
 
 2.  On the **Microsoft 365** home page, if a **Whiteboard** icon appears
     in the left-hand navigation pane, then select it now and proceed to
-    the next step. Otherwise, select the **Apps** icon, and on
+    the next step. Otherwise, select **Explore all your Apps**, and on
     the **Apps** page, scroll down to the **Explore by
     category** section, and in the **Productivity** tab (which should
     display by default), select **Whiteboard**.
@@ -336,41 +336,41 @@ The purpose of this exercise is to show how Copilot in Word provides a
 different level of response depending on which modality you use - either
 in the Copilot pane or when creating a new document.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
+1.  If you have a Microsoft 365 tab open in the Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following
     URL: [**<u>https://www.office.com</u>**](https://www.office.com/)
 
 2.  With your plan in mind, you decide to first use Copilot in Word to
-    create a report that addresses all your questions. In **Microsoft
-    365**, open **Microsoft Word**, and then open a blank document.
+    create a report that addresses all your questions. On the **Microsoft
+    365** navigation pane select **Microsoft Word**, and then open a blank document.
 
 3.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt and select
     the **Generate** button:
 
-> **I'm the Operations Manager for Adatum Corporation. We're thinking
-> about possibly replacing our building's current boiler system with a
-> furnace system. Write a report describing what type of boiler systems
-> are used in most commercial buildings, and include what considerations
-> I need to take into account to change from an existing boiler system
-> to a furnace system, the average cost of transitioning from a boiler
-> system to a furnace system in a commercial two-story building built in
-> the 1970s, whether changing from a boiler system to a furnace system
-> will have any effect on our current air conditioning system, and the
-> average defect rates for boiler systems versus furnace systems.**
->
-> ![](./media/image20.png)
+    **I'm the Operations Manager for Adatum Corporation. We're thinking
+    about possibly replacing our building's current boiler system with a
+    furnace system. Write a report describing what type of boiler systems
+    are used in most commercial buildings, and include what considerations
+    I need to take into account to change from an existing boiler system
+    to a furnace system, the average cost of transitioning from a boiler
+    system to a furnace system in a commercial two-story building built in
+    the 1970s, whether changing from a boiler system to a furnace system
+    will have any effect on our current air conditioning system, and the
+    average defect rates for boiler systems versus furnace systems.**
+    
+    ![](./media/image20.png)
 
 4.  Review the report that Copilot generated. Note the level of detail
     in each area of interest. Since you want to save this document for
     the next Use Case exercise, select the **Keep it** button on the
     Copilot tray and then save the document.
 
-> ![](./media/image21.png)
->
-> **Note**: Make sure you save the report since you use it in the next
-> Use Case exercise.
+    ![](./media/image21.png)
+
+    **Note**: Make sure you save the report since you use it in the next
+    Use Case exercise.
 
 5.  The prompt you entered to create the report included five requests.
     You now want to ask Copilot each of those five questions
@@ -381,36 +381,36 @@ in the Copilot pane or when creating a new document.
     pane, enter the following question and then select
     the **Send** arrow:
 
-> **What type of boilers do most buildings use as part of their heating
-> systems**?
->
-> ![](./media/image22.png)
+    **What type of boilers do most buildings use as part of their heating
+    systems**?
+    
+    ![](./media/image22.png)
 
 7.  Review the answer. While you can select the **Copy** option if you
     want to paste the response into the document, for this training
     you're just going to select more prompts to see the responses that
     you receive.
 
-> ![](./media/image23.png)
+    ![](./media/image23.png)
 
 8.  Enter separate prompts for each of the remaining four questions:
 
-- **What considerations do I need to take into account to change from an
-  existing boiler system to a furnace system in a commercial building?**
+    - **What considerations do I need to take into account to change from an
+      existing boiler system to a furnace system in a commercial building?**
+    
+    - **What is an average cost for transitioning from a boiler system to a
+      furnace system in a commercial two-story building built in the
+      1970s?**
+    
+    - **if we change from a boiler system to a furnace system, will it have
+      any effect on our current air conditioning system?**
+    
+    - **What are the average defect rates for boiler systems versus furnace
+      systems?**
 
-- **What is an average cost for transitioning from a boiler system to a
-  furnace system in a commercial two-story building built in the
-  1970s?**
+    ![](./media/image24.png)
 
-- **if we change from a boiler system to a furnace system, will it have
-  any effect on our current air conditioning system?**
-
-- **What are the average defect rates for boiler systems versus furnace
-  systems?**
-
-> ![](./media/image24.png)
->
-> ![](./media/image25.png)
+    ![](./media/image25.png)
 
 9.  Note how Copilot answered each of your questions, but it didn't
     insert any of the answers into the current document. While you can
@@ -423,19 +423,19 @@ in the Copilot pane or when creating a new document.
 - How does the level of information for each reporting method compare to
   one another?
 
-> Compare the level of information provided when Copilot in Word created
-> a report versus the answers it provided when you asked the questions
-> individually in the Copilot pane.
+    Compare the level of information provided when Copilot in Word created
+    a report versus the answers it provided when you asked the questions
+    individually in the Copilot pane.
 
 - What did you notice?
 
-> When you ask Copilot to create a report, it usually provides richer
-> responses that it organizes into an attractive looking report.
-> Conversely, when you ask Copilot to answer questions individually in
-> the Copilot pane, it doesn't return the level of detail as the report,
-> although it does allow you to copy and paste the responses into a
-> document. However, doing so may require you to reformat the inserted
-> answers to clean up any formatting issues.
+    When you ask Copilot to create a report, it usually provides richer
+    responses that it organizes into an attractive looking report.
+    Conversely, when you ask Copilot to answer questions individually in
+    the Copilot pane, it doesn't return the level of detail as the report,
+    although it does allow you to copy and paste the responses into a
+    document. However, doing so may require you to reformat the inserted
+    answers to clean up any formatting issues.
 
 ## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
 
