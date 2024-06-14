@@ -65,16 +65,16 @@ Creative, More Balanced, or More Precise).
 5.  In the prompt field, enter the following prompt and then select
     the **Submit** icon:
 
-> **I'm the Director for Market Research for Tailspin Toys, a U.S. based
-> toy manufacturer. Conduct a market analysis of the toy industry to
-> identify sales figures, the latest trends, consumer preferences, and
-> the most popular toys in the market**.
->
-![](./media/image4.png)
+    **I'm the Director for Market Research for Tailspin Toys, a U.S. based
+    toy manufacturer. Conduct a market analysis of the toy industry to
+    identify sales figures, the latest trends, consumer preferences, and
+    the most popular toys in the market**.
+
+    ![](./media/image4.png)
 
 6.  Accept the **Terms of use and policy** to proceed further.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
 7.  Review the market analysis that Copilot generated. You realize that
     a general request such as the one you submitted provides basic
@@ -87,16 +87,16 @@ Creative, More Balanced, or More Precise).
     iterate, iterate, iterate. Enter the following prompt to amend the
     market analysis:
 
-> **That analysis was great. However, I'm also interested in including
-> data on the toy industry, including market share and consumer
-> feedback. Please amend your prior analysis to include this
-> information. Thanks**!
->
-> ![](./media/image6.png)
->
-> ![](./media/image7.png)
->
-> ![](./media/image8.png)
+    **That analysis was great. However, I'm also interested in including
+    data on the toy industry, including market share and consumer
+    feedback. Please amend your prior analysis to include this
+    information. Thanks**!
+
+    ![](./media/image6.png)
+
+    ![](./media/image7.png)
+
+    ![](./media/image8.png)
 
 8.  You realize that you're getting closer to your goal, but you're
     still missing some key information. After reviewing your prior
@@ -107,14 +107,14 @@ Creative, More Balanced, or More Precise).
     plan for the upcoming year. To correct this shortcoming, enter the
     following prompt:
 
-> **I think all the data is complete. With all the information that you
-> captured, please analyze the data and identify patterns, trends, and
-> insights that can help me determine what Tailspin Toy's business plan
-> should be for the upcoming year**.
->
-> ![](./media/image9.png)
->
-> ![](./media/image10.png)
+    **I think all the data is complete. With all the information that you
+    captured, please analyze the data and identify patterns, trends, and
+    insights that can help me determine what Tailspin Toy's business plan
+    should be for the upcoming year**.
+
+    ![](./media/image9.png)
+
+    ![](./media/image10.png)
 
 9.  You really like the information that Copilot provided. However,
     since this project is your first opportunity to provide a market
@@ -123,28 +123,28 @@ Creative, More Balanced, or More Precise).
     have Copilot help you determine if you're missing anything. Enter
     the following prompt:
 
-> **Please analyze the data in this market analysis and business plan.
-> Is there any other information that a toy company would typically
-> request for market analysis and business plans that I failed to
-> request? If so, can you please amend your responses to include this
-> information. Thank you**!
->
-> ![](./media/image11.png)
->
-> ![](./media/image12.png)
+    **Please analyze the data in this market analysis and business plan.
+    Is there any other information that a toy company would typically
+    request for market analysis and business plans that I failed to
+    request? If so, can you please amend your responses to include this
+    information. Thank you**!
+
+    ![](./media/image11.png)
+
+    ![](./media/image12.png)
 
 10. Based on the information that Copilot provides, you realize that you
     can really maximize the effectiveness of your reports by having
     Copilot include an analysis of these areas. To put the finishing
     touch on your reports, enter the following prompt:
 
-> **Please amend the market analysis to include an analysis of each of
-> these areas for the Toy industry. Also update the business plan that
-> you created for Tailspin Toys based on these insights. Thanks**!
->
-> ![](./media/image13.png)
->
-> ![](./media/image14.png)
+    **Please amend the market analysis to include an analysis of each of
+    these areas for the Toy industry. Also update the business plan that
+    you created for Tailspin Toys based on these insights. Thanks**!
+
+    ![](./media/image13.png)
+
+    ![](./media/image14.png)
 
 11. The market analysis and business plan that Copilot generated for you
     was based on a **More Balanced** conversation style. It's ideal for
@@ -156,7 +156,7 @@ Creative, More Balanced, or More Precise).
     would look using the **More Creative** style. This style provides
     responses that are more imaginative and creative.
 
-> ![](./media/image15.png)
+    ![](./media/image15.png)
 
 12. Let's explore how Copilot's responses would be different using
     the **More Creative** style. Open a new tab in your **Microsoft
@@ -183,38 +183,38 @@ that you want to export it just to save it for future reference. 
     response to display the drop-down menu that allows you to select
     which file type you want to use for the export process.
 
-> ![](./media/image16.png)
->
-> ![](./media/image17.png)
+    ![](./media/image16.png)
+
+    ![](./media/image17.png)
 
 2.  The way in which Copilot handles an exported response depends on the
     file type that you select.
 
-> The three choices include:
+    The three choices include:
 
-- **Word**. When you export a response to a Word document, Copilot
-  displays an **Exporting** window that disappears once the export
-  process completes. So how does Word handle the document containing the
-  exported response? If you go to the **Word** home page, at the top of
-  the Most Recently Used file list, you should see a document with the
-  file name **CopilotAnswers-yyyymmdd-xxxxxx.docx** where "**yyyymmdd**"
-  is the current date and "**xxxxxx**" is a unique ID that Copilot
-  assigned to the file (this ID distinguishes the file from other
-  responses that were exported on the same day).
+  - **Word**. When you export a response to a Word document, Copilot
+    displays an **Exporting** window that disappears once the export
+    process completes. So how does Word handle the document containing the
+    exported response? If you go to the **Word** home page, at the top of
+    the Most Recently Used file list, you should see a document with the
+    file name **CopilotAnswers-yyyymmdd-xxxxxx.docx** where "**yyyymmdd**"
+    is the current date and "**xxxxxx**" is a unique ID that Copilot
+    assigned to the file (this ID distinguishes the file from other
+    responses that were exported on the same day).
 
-> ![](./media/image18.png)
-- **PDF**. When you export a response to a PDF, Copilot opens
-  a **Print** window that enables you to print the selected response.
+    ![](./media/image18.png)
+  - **PDF**. When you export a response to a PDF, Copilot opens
+    a **Print** window that enables you to print the selected response.
 
-> ![](./media/image19.png)
+    ![](./media/image19.png)
 
-- **Text**. When you export a response to a Text file, Copilot downloads
-  the response to an **Answer.txt** file in your **Downloads** folder.
+  - **Text**. When you export a response to a Text file, Copilot downloads
+    the response to an **Answer.txt** file in your **Downloads** folder.
 
-> **Note**: Sometimes the export to Word process fails. Try again to
-> export to Word.
->
-> ![](./media/image20.png)
+    **Note**: Sometimes the export to Word process fails. Try again to
+    export to Word.
+
+    ![](./media/image20.png)
 
 3.  Select the exported file to open it in Word and review the contents.
     Note that Copilot's entire response was exported - note just the
@@ -223,12 +223,12 @@ that you want to export it just to save it for future reference. 
     this file with others, you should consider removing that extraneous
     text.
 
-> **Note**: If you export multiple responses from a given Copilot
-> session, Copilot doesn't combine them into a single document. Instead,
-> Copilot generates a separate file for each exported response. If you
-> want to consolidate the responses into a single document, you need to
-> manually copy and paste each response into one document, or you can
-> use Copilot in Word to do it for you.
+    **Note**: If you export multiple responses from a given Copilot
+    session, Copilot doesn't combine them into a single document. Instead,
+    Copilot generates a separate file for each exported response. If you
+    want to consolidate the responses into a single document, you need to
+    manually copy and paste each response into one document, or you can
+    use Copilot in Word to do it for you.
 
 ## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
 
