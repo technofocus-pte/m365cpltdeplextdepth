@@ -65,7 +65,7 @@ The purpose of this email is twofold:
 3.  On the **Message** tab that opens, select **Copilot** in the ribbon.
     In the drop-down menu that appears, select **Draft with Copilot**.
 
-> ![](./media/image1.png)
+    ![](./media/image1.png)
 
 4.  In the body of the message, a **Draft with Copilot** window appears.
     The prompt field contains the message: **What do you want this email
@@ -73,32 +73,32 @@ The purpose of this email is twofold:
     options** icon. Select this icon to see the options that Copilot
     provides when creating an email.
 
-> ![](./media/image2.png)
+    ![](./media/image2.png)
 
 5.  In the drop-down menu that appears, you see that you can change the
     Tone and Length of the email. You decide to start out by setting
     the **Tone** to **Formal** and the **Length** to **Long**. Select
     these options now.
 
-> ![](./media/image3.png)
+    ![](./media/image3.png)
 
 6.  Enter the following prompt in the **What do you want this email to
     say**? field and then select the **Generate** button:
 
-> **I'm the CFO for Northwind Traders. Draft an email to our insurance
-> carrier, Humongous Insurance, expressing my concern for the level of
-> increases in our company's health insurance premiums for the coming
-> year. Request a meeting with the insurance carrier’s team to discuss
-> the proposed increases and explore alternative options.**
->
-> ![](./media/image4.png)
+    **I'm the CFO for Northwind Traders. Draft an email to our insurance
+    carrier, Humongous Insurance, expressing my concern for the level of
+    increases in our company's health insurance premiums for the coming
+    year. Request a meeting with the insurance carrier’s team to discuss
+    the proposed increases and explore alternative options.**
+
+    ![](./media/image4.png)
 
 7.  Scroll through the draft to review it. At the top of the message,
     Copilot displays the start of the prompt that you just entered (that
     is "**I'm the CFO for Northwind Traders...**"). Select this section
     of the prompt to see what happens.
 
-> ![](./media/image5.png)
+    ![](./media/image5.png)
 
 8.  Copilot displays a **Rewrite with Copilot** window that allows you
     to edit the prior prompt and regenerate an entirely new message. At
@@ -108,9 +108,9 @@ The purpose of this email is twofold:
     Change the **Tone** to **Direct** and the **Length** to **Medium**,
     and then select the **Generate** button.
 
-> ![](./media/image6.png)
->
-> ![](./media/image7.png)
+    ![](./media/image6.png)
+
+    ![](./media/image7.png)
 
 9.  Review the revised draft. At the top of the **Rewrite with
     Copilot** window, note the "**I'm the CFO for Northwind
@@ -120,20 +120,20 @@ The purpose of this email is twofold:
     previous Copilot draft, which in this case is the first draft that
     has a **Formal** tone and a **Long** length.
 
-> ![](./media/image8.png)
->
-> ![](./media/image9.png)
->
-> If you generate multiple Copilot drafts, as you'll do in this
-> exercise, you can use these arrows to go back and forth between drafts
-> to find one that you like. If you find a draft that you want, you can
-> select one of the available buttons to either **Keep
-> it** or **Regenerate** a new draft with the same tone and length. Note
-> the salutation and complementary close, the overall tone of the
-> message for this Direct draft, and the change in Length. While you
-> want to get straight to the point, you feel the **Direct** tone is far
-> too impersonal, so you want to generate a new draft with a different
-> tone.
+    ![](./media/image8.png)
+
+    ![](./media/image9.png)
+
+    If you generate multiple Copilot drafts, as you'll do in this
+    exercise, you can use these arrows to go back and forth between drafts
+    to find one that you like. If you find a draft that you want, you can
+    select one of the available buttons to either **Keep
+    it** or **Regenerate** a new draft with the same tone and length. Note
+    the salutation and complementary close, the overall tone of the
+    message for this Direct draft, and the change in Length. While you
+    want to get straight to the point, you feel the **Direct** tone is far
+    too impersonal, so you want to generate a new draft with a different
+    tone.
 
 10. Select the linked prompt at the top of the window ("**I'm the CFO
     for Northwind Traders...**") to return back to the **Rewrite with
@@ -141,9 +141,9 @@ The purpose of this email is twofold:
     time change the **Tone** to **Casual** and the **Length** back
     to **Long**. Select **Generate**.
 
-> ![](./media/image9.png)
->
-> ![](./media/image10.png)
+    ![](./media/image9.png)
+
+    ![](./media/image10.png)
 
 11. Review the new draft. At this point, you realize that you don't like
     the **Direct** tone and the **Medium** length in draft number two.
@@ -170,9 +170,9 @@ The purpose of this email is twofold:
     draft (Casual). Proceed to the next step once you decide which draft
     you want to use.
 
-> ![](./media/image10.png)
->
-> ![](./media/image11.png)
+    ![](./media/image10.png)
+
+    ![](./media/image11.png)
 
 13. At this point, your preferred draft should appear in the Copilot
     window. Beyond the changes to the tone and length that you
@@ -183,11 +183,11 @@ The purpose of this email is twofold:
     the following prompt and then select the arrow icon at the end of
     the field:
 
-> **Please compare the level of premium increases being proposed for
-> Northwind Traders in comparison to industry-wide premium increases.
-> Our individual policy premiums increased over 9%, and family policies
-> increased over 15%. Mention how our increases far exceed the industry
-> averages of 6% and 10% increases, respectively**.
+    **Please compare the level of premium increases being proposed for
+    Northwind Traders in comparison to industry-wide premium increases.
+    Our individual policy premiums increased over 9%, and family policies
+    increased over 15%. Mention how our increases far exceed the industry
+    averages of 6% and 10% increases, respectively**.
 
 14. What just happened when you tried to update the email based on this
     latest prompt? Chances are you received an error message indicating
@@ -198,36 +198,36 @@ The purpose of this email is twofold:
     the plan increases to industry averages** and **specify the specific
     rate increases**.
 
-> Here's the current rule of thumb involving prompts when working in
-> Copilot for Outlook:
+    Here's the current rule of thumb involving prompts when working in
+    Copilot for Outlook:
 
-- When you submit your initial prompt, you can include multiple
-  requests. For example, you could tell Copilot to include information
-  about A, B, and C. In that case, it would generate a draft with all
-  three items.
-
-- However, any subsequent prompts to amend a draft AFTER that initial
-  prompt can only include one change request per prompt.
+    - When you submit your initial prompt, you can include multiple
+      requests. For example, you could tell Copilot to include information
+      about A, B, and C. In that case, it would generate a draft with all
+      three items.
+    
+    - However, any subsequent prompts to amend a draft AFTER that initial
+      prompt can only include one change request per prompt.
 
 15. Given this requirement, you decide to break your previous request
     into two parts. This time, enter the following prompt, which is part
     one:
 
-> **Please mention that our individual policy premiums increased by over
-> 9%, and family policies increased over 15**%.
+    **Please mention that our individual policy premiums increased by over
+    9%, and family policies increased over 15**%.
 
 16. Review the updated draft. Now enter the following prompt regarding
     industry averages, which is part two:
 
-> **Please mention that average industry premium increases are 6% for
-> individual policies and 10% for family policies**.
+    **Please mention that average industry premium increases are 6% for
+    individual policies and 10% for family policies**.
 
 17. This draft looks better. However, you decide to add one last note
     regarding a possible change to high deductible/low premium plans.
     Enter the following prompt:
 
-> **Please mention that we should discuss converting to high-deductible,
-> low premium policies**.
+    **Please mention that we should discuss converting to high-deductible,
+    low premium policies**.
 
 18. After reviewing this latest iteration, you're satisfied with the
     draft, so select the **Keep it** button.
