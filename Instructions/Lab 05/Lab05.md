@@ -271,11 +271,14 @@ and prompts.
     ![](./media/image12.png)
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Fabrikam Q1 marketing campaigns.xlsx** spreadsheet to OneDrive and then
-    open and close the file to get it in your Most Recently Used (MRU)
+    **Fabrikam Q1 marketing campaigns.xlsx** spreadsheet to **OneDrive**
+    **Tip**: Open and close the file to get it in your Most Recently Used (MRU)
     file list.
 
     ![](./media/image13.png)
+
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** you can skip this step.
 
 4.  On the **Microsoft 365** home page, select the **Excel** icon in the
     navigation pane on the left.
