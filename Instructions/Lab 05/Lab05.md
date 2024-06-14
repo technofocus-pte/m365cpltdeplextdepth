@@ -587,22 +587,21 @@ spreadsheet was copied and pasted for you into a Word document
 **Fabrikam Q1 marketing campaign data.docx**, which you’ll download in
 the first step.
 
-1.  Open a new browser tab in the lab VM. Copy the following link
-     [<u>Fabrikam Q1 marketing campaign
-    data</u>](https://edxinteractivepage.blob.core.windows.net/ms-4004/Fabrikam%20Q1%20marketing%20campaign%20data.docx)
-    and paste it in the browser window to open the document. Download
-    the file to the VM.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  After the download completes, move the file **Fabrikam Q1 marketing
-    campaign data.docx** to your OneDrive account, and then open and
-    close the file to get it in your Most Recently Used (MRU) file list.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+  
+4.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Fabrikam Q1 marketing
+    campaign data.docx** document to **OneDrive**,
+    **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
 
-> ![](./media/image51.png)
+    ![](./media/image51.png)
 
-3.  If you have a **Microsoft 365** tab open in your Microsoft Edge
-    browser, then select it now; otherwise, open a new tab and enter the
-    following
-    URL: [**<u>https://www.office.com</u>**](https://www.office.com/)
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** you can skip this step.
 
 4.  In **Microsoft 365**, open **Microsoft Word** and then open a blank
     document.
@@ -612,23 +611,23 @@ the first step.
     the **Generate** button until after you link the file to the prompt
     in the next step:
 
-> **I'm the Director of Finance for Fabrikam. Please create a Q1
-> Marketing Campaign Analysis report based on the attached file, which
-> provides data on our Q1 marketing campaigns. Include the following
-> sections in the report: Executive Summary, Data Analysis, and
-> Recommendations**.
+    **I'm the Director of Finance for Fabrikam. Please create a Q1
+    Marketing Campaign Analysis report based on the attached file, which
+    provides data on our Q1 marketing campaigns. Include the following
+    sections in the report: Executive Summary, Data Analysis, and
+    Recommendations**.
 
 6.  You now must attach to the prompt the **Fabrikam Q1 marketing
     campaign data.docx** file that you downloaded. In the **Draft with
     Copilot** window, select the **Reference your content** button.
 
-> ![](./media/image52.png)
+    ![](./media/image52.png)
 
 7.  In the drop-down menu that appears, if the **Fabrikam Q1 marketing
     campaigns data.docx** file appears in the list of files, select it.
     Otherwise, select **Browse files from cloud.**
 
-> ![](./media/image53.png)
+    ![](./media/image53.png)
 
 8.  Select the file from the **Recent** file list, and then select
     the **Attach** button. If the file doesn't appear in the **Recent
@@ -637,82 +636,82 @@ the first step.
     stored the file, select the file and then select **Attach**. Note
     how the file is displayed in the prompt.
 
-> ![](./media/image54.png)
+    ![](./media/image54.png)
 
 9.  Select **Generate**. Upon doing so, Copilot extracts the pertinent
     information from the file and drafts a report that analyzes the
     data.
 
-> ![](./media/image55.png)
+    ![](./media/image55.png)
 
 10. Review the results. If the data in the **Executive Summary** section
     is presented in a bulleted list, then enter following prompt and
     replace **{table or bulleted list}** with **table**.
 
-> ![](./media/image56.png)
+    ![](./media/image56.png)
 
 11. If the **Executive Summary** data isn't in a bulleted list format,
     then enter following prompt and replace **{table or bulleted
     list}** with **bulleted list**:
 
-> **Please convert the information in the Executive Summary section into
-> a {table or bulleted list} format**.
+    **Please convert the information in the Executive Summary section into
+    a {table or bulleted list} format**.
 
 12. If the **Executive Summary** data is in a bulleted list format, but
     you want that in table format then enter following prompt and
     replace **{table or bulleted list}** with **table.**
 
-> **Please convert the information in the Executive Summary section into
-> a {table or bulleted list} format**.
->
-> ![](./media/image57.png)
->
-> ![](./media/image58.png)
+    **Please convert the information in the Executive Summary section into
+    a {table or bulleted list} format**.
+
+    ![](./media/image57.png)
+
+    ![](./media/image58.png)
 
 13. If the **Data Analysis** section is already in a table format, then
     proceed to the next step.
 
-> ![](./media/image59.png)
->
-> <span class="mark">**Note**: It is in bulleted list format. Enter the
-> following prompt to place the data into a table so that it's easier to
-> read:</span>
->
-> **Please convert the information in the Data Analysis section into a
-> table format**.
->
-> ![](./media/image60.png)
+    ![](./media/image59.png)
+
+    <span class="mark">**Note**: It is in bulleted list format. Enter the
+    following prompt to place the data into a table so that it's easier to
+    read:</span>
+    
+    **Please convert the information in the Data Analysis section into a
+    table format**.
+    
+    ![](./media/image60.png)
 
 14. Examine the table of data in the **Data Analysis** section.
 
-> ![](./media/image61.png)
+    ![](./media/image61.png)
 
 15. Let's see if Copilot can remove a column of data from a table. Enter
     the following prompt and replace {heading} with the name of a column
     that you want to remove:
 
-> **In the table of data in the Data Analysis section, please remove the
-> {heading} column**.
->
-> ![](./media/image62.png)
+    **In the table of data in the Data Analysis section, please remove the
+    {heading} column**.
+    
+    ![](./media/image62.png)
 
 16. You like the **Recommendations**, but you feel they would be more
     valuable if Copilot displayed the data in order of importance. Enter
     the following prompt to have Copilot make this change:
 
-> **In the Recommendations section, display the items in order of
-> importance, starting with the most important item**.
->
-> ![](./media/image63.png)
->
-> ![](./media/image64.png)
+    **In the Recommendations section, display the items in order of
+    importance, starting with the most important item**.
+
+    ![](./media/image63.png)
+
+    ![](./media/image64.png)
 
 17. After reviewing this latest draft, you're satisfied with the report
     and you're ready to save it. In the Copilot window at the bottom of
     the document, select the **Keep it** button to convert it from a
     Copilot draft to a Word document.
 
-> ![](./media/image65.png)
+    ![](./media/image65.png)
 
 18. Review the document. Once you're satisfied with it, you can either
     discard the document or save it to your OneDrive for future
