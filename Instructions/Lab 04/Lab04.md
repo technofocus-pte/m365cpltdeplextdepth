@@ -561,20 +561,20 @@ the monthly marketing trends.
 In this exercise, you will use Copilot in Excel to analyze a market
 trend spreadsheet that already has an Excel table defined.
 
-    > <span class="mark">**Note**: When you use Copilot in Excel, you must
-    > have an Excel table that includes data in a worksheet. You can quickly
-    > turn a range of cells into an Excel table by following these
-    > steps:</span>
+<span class="mark">**Note**: When you use Copilot in Excel, you must
+have an Excel table that includes data in a worksheet. You can quickly
+turn a range of cells into an Excel table by following these
+steps:</span>
     
-    - <span class="mark">Select the cell or the range in the data.</span>
+- <span class="mark">Select the cell or the range in the data.</span>
     
-    - <span class="mark">Select **Home** \> **Format as Table**.</span>
+- <span class="mark">Select **Home** \> **Format as Table**.</span>
     
-    - <span class="mark">In the **Format as Table** dialog box, select the
-      checkbox next to **My table has headers** if you want the first row of
-      the range to be the header row.</span>
+- <span class="mark">In the **Format as Table** dialog box, select the
+  checkbox next to **My table has headers** if you want the first row of
+  the range to be the header row.</span>
     
-    - <span class="mark">Select **OK**.</span>
+- <span class="mark">Select **OK**.</span>
 
 1.  Open a new browser tab in the lab VM and enter the following
     URL: **<https://www.office.com>**.
