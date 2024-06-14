@@ -30,7 +30,7 @@
         You will now be able to access all the Microsoft 365 applications and
         will have access to Copilot for Microsoft 365.
 
-3.  **Upload lab assets to One Drive**
+3.  **Upload lab assets to OneDrive**
 
     The lab assets (Reference documents) that you will be using in this
     hands-on lab session are available in **c:\LabFiles.**
