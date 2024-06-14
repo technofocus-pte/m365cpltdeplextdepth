@@ -162,11 +162,11 @@ Protein Shake.docx** file, which you download using the provided link.
     **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-  
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Market Trend Report - Protein Shake** to **OneDrive**
 
     ![](./media/image14.png)
+
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    **Market Trend Report - Protein Shake** to **OneDrive**
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution**, you can skip this step.
