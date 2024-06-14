@@ -44,15 +44,17 @@ speech for you based on your company's Income Statement:
 
 1.  Open a new browser tab in the lab VM and enter the following
     URL: <https://www.office.com>.
-    **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+     **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-   ![](./media/image5.png)
+3.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+
+     ![](./media/image5.png)
    
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     Fabrikam 2023 Income Statement document to OneDrive.
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+
+     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution** you can skip this step.
 
     ![](./media/image6.png)
