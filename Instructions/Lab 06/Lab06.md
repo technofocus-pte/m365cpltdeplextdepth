@@ -26,34 +26,41 @@ document that outlines all the job responsibilities for this role. In
 this exercise you will use Copilot in Word to create a job description
 based on the role responsibilities in this document.
 
-1.  Open a new browser tab in the lab VM. Copy the link [Graphic Design
-    Institute - Design Team
-    Responsibilities](https://edxinteractivepage.blob.core.windows.net/ms-4004/Graphic%20Design%20Institute%20-%20Design%20Team%20Responsibilities.docx)
-    and paste it in the browser window to open the document. Download
-    the file to the VM.
+1.  Open a new browser tab in the lab VM and enter the following
+    URL: **<https://www.office.com>**.
+    
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  After the download completes, move the file to your OneDrive
-    account, and then open and close the file to get it in your Most
-    Recently Used (MRU) file list.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it. 
 
-> ![](./media/image1.png)
+    
 
-3.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Graphic Design
+    Institute - Design Team** document to **OneDrive**
+
+    **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
+    
+    ![](./media/image1.png)
+    
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution** section you can skip this step.
+  
+5.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
     following URL: [**https://www.office.com**](https://www.office.com/)
 
-4.  In **Microsoft 365**, open **Microsoft Word**,and then open a blank
+6.  In **Microsoft 365** home page, select **Microsoft Word**,and then open a blank
     document.
 
-5.  In the **Draft with Copilot** window, enter the following prompt,
+7.  In the **Draft with Copilot** window, enter the following prompt,
     but don't select the **Generate** button until after you link the
     responsibilities file to the prompt in the next step:
 
-> **I'm the HR Manager at the Graphic Design Institute. We've currently
-> started the hiring process for a new Senior Animation Designer. Please
-> review the attached document that outlines the job responsibilities
-> for this role and create a job description based on those
-> responsibilities**.
+    **I'm the HR Manager at the Graphic Design Institute. We've currently
+    started the hiring process for a new Senior Animation Designer. Please
+    review the attached document that outlines the job responsibilities
+    for this role and create a job description based on those
+    responsibilities**.
 
 6.  You now must attach to the prompt the **Graphic Design Institute -
     Design Team Responsibilities.docx** file that you downloaded. In
@@ -63,7 +70,7 @@ based on the role responsibilities in this document.
     Responsibilities.docx** file appears in the list of files, select
     it.
 
-> ![](./media/image2.png)
+    ![](./media/image2.png)
 
 7.  Select **Browse files from cloud**, select the file from
     the **Recent** file list, and then select the **Attach** button. If
@@ -72,16 +79,16 @@ based on the role responsibilities in this document.
     file** window, navigate to the folder where you stored the file,
     select the file and then select **Attach**.
 
-> ![](./media/image3.png)
+    ![](./media/image3.png)
 
 8.  Note how the file is displayed in the prompt and
     select **Generate**.
 
-> ![](./media/image4.png)
+    ![](./media/image4.png)
 
 9.  Review the first draft of the job description document.
 
-> ![](./media/image5.png)
+    ![](./media/image5.png)
 
 10. You note that it doesn't include many of the details found in the
     job responsibilities document. Instead, it provides a summarized
@@ -89,25 +96,25 @@ based on the role responsibilities in this document.
     shortcoming, enter the following prompt and select the forward
     arrow:
 
-> **While this job description draft is a good start, you failed to
-> include most of the details found in the job responsibilities
-> document. Please try again, and this time outline each responsibility
-> area and select the responsibilities required of a Senior Animation
-> Designer**.
->
-> ![](./media/image6.png)
+    **While this job description draft is a good start, you failed to
+    include most of the details found in the job responsibilities
+    document. Please try again, and this time outline each responsibility
+    area and select the responsibilities required of a Senior Animation
+    Designer**.
+
+    ![](./media/image6.png)
 
 11. Review the second draft.
 
-> ![](./media/image7.png)
+    ![](./media/image7.png)
 
 12. Again, you feel that Copilot should provide more details. Enter the
     following prompt to see if you can get it to be more specific:
 
-> **This job description draft is better, but it still lacks the details
-> that I'm looking for. The job responsibilities document outlined
-> detailed responsibilities for each area. Include those details in this
-> job description. Be as specific as you can**.
+    **This job description draft is better, but it still lacks the details
+    that I'm looking for. The job responsibilities document outlined
+    detailed responsibilities for each area. Include those details in this
+    job description. Be as specific as you can**.
 
 13. After reviewing the results, you're reminded of the saying, "Be
     careful what you wish for" The list of responsibilities in this
@@ -120,26 +127,26 @@ based on the role responsibilities in this document.
     backward arrow (\<) to go back to the second and then first drafts.
     Use the forward arrows (\>) to go back to the latest drafts.
 
-> ![](./media/image8.png)
->
-> ![](./media/image9.png)
->
-> In this case, go back to the second draft. Review the list of
-> responsibilities again. While it's not as extensive as the list in the
-> third draft, it looks cleaner and still provides sufficient
-> information for a job candidate to understand what is expected of them
-> in this Senior Animation Designer role. You decide that the second
-> draft is preferable to the final draft, so you elect to use this one.
-> In the Copilot window, select the **Keep it** button.
+    ![](./media/image8.png)
+
+    ![](./media/image9.png)
+
+    In this case, go back to the second draft. Review the list of
+    responsibilities again. While it's not as extensive as the list in the
+    third draft, it looks cleaner and still provides sufficient
+    information for a job candidate to understand what is expected of them
+    in this Senior Animation Designer role. You decide that the second
+    draft is preferable to the final draft, so you elect to use this one.
+    In the Copilot window, select the **Keep it** button.
 
 14. You're ready to move forward with this job description document, so
     save it to your OneDrive account with the file name of **Graphic
     Design Institute - Job descriptions.docx.**
 
-> ![](./media/image10.png)
->
-> <span class="mark">**Note:** It's important that you save this
-> document since you will be using it in the next exercise.</span>
+    ![](./media/image10.png)
+
+    <span class="mark">**Note:** It's important that you save this
+    document since you will be using it in the next exercise.</span>
 
 ## Exercise #2: Analyze resumes and make a recommendation using Copilot in Word
 
