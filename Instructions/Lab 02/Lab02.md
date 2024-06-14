@@ -159,7 +159,7 @@ Protein Shake.docx** file, which you download using the provided link.
 1.  Open a new browser tab in the lab VM and enter the following
     URL:**<https://www.office.com>**.
 
-    **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
@@ -168,8 +168,8 @@ Protein Shake.docx** file, which you download using the provided link.
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** to **OneDrive**
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution**, you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing for the lab
+    execution** section, you can skip this step.
 
 4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
     PowerPoint, open a new blank presentation.
@@ -367,7 +367,7 @@ In this exercise, you will
 1.  Open a new browser tab in the lab VM and enter the following
     URL:+++**<https://www.office.com>**+++.
 
-    **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
