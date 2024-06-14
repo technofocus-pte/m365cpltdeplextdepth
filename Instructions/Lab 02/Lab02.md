@@ -157,7 +157,7 @@ presentation based on the information in the **Market Trend Report -
 Protein Shake.docx** file, which you download using the provided link.
 
 1.  Open a new browser tab in the lab VM and enter the following
-    URL:+++**<https://www.office.com>**+++.
+    URL:**<https://www.office.com>**.
 
     **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
