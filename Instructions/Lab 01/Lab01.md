@@ -47,7 +47,7 @@ speech for you based on your company's Income Statement:
 
      **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
-2.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     Fabrikam 2023 Income Statement document to OneDrive.
