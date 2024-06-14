@@ -1,6 +1,6 @@
 # Lab 0: Preparing for the lab execution
 
-## **Log into your Lab Virtual Machine:**
+## Log into your Lab Virtual Machine
 
 On the Log-in screen, select **Admin** account in the lower left
 corner of the screen to sign-in to the lab virtual machine using the
@@ -11,7 +11,7 @@ tab** on the right (see screenshot).
 
 ![](./media/image1.png)
 
-## **Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365**
+## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
@@ -28,7 +28,7 @@ tab** on the right (see screenshot).
     You will now be able to access all the Microsoft 365 applications and
     will have access to Copilot for Microsoft 365.
 
-## **Upload lab assets to OneDrive**
+## Upload lab assets to OneDrive
 
 The lab assets (Reference documents) that you will be using in this
 hands-on lab session are available in **c:\LabFiles.**
