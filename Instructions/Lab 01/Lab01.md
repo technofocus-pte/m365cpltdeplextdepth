@@ -43,7 +43,7 @@ You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
 
 1.  Open a new browser tab in the lab VM and enter the following
-    URL: <https://www.office.com>.
+    URL:+++<https://www.office.com>+++.
 
      **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
 
