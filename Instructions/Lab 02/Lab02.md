@@ -43,35 +43,35 @@ In this exercise, you will use Copilot in Loop to
 
     ![Apps page](./media/image2.png)
 
-3.  If you see the **Sign-in** button, sign-in using the user
-    credentials.
+3.  If you see the **Sign-in** button, sign-in using the credentials(provided under **Microsoft 365 Credentials** in the
+    **Resources** tab.
 
     ![Loop Sign-in page](./media/image3.png)
 
     **Note**: After signing in, close the Loop browser window and once
     again open Loop from the Apps page.
 
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
+5.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
     default. You want to create a new workspace for this project,
     select **+** next to **Getting started**, and then select **+New
     workspace** button.
 
     ![Workspaces-Geeting started](./media/image4.png)
 
-5.  In the **Create a new workspace** window, enter **VanArsdel
+6.  In the **Create a new workspace** window, enter **VanArsdel
     research** for your workspace name, and then select either
     the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
     ![Create a new workspace window](./media/image5.png)
 
-6.  In the **Add files to your workspace** window (depending on your
+7.  In the **Add files to your workspace** window (depending on your
     version of Loop, this window may say **Workspace Switcher**),
     select **Create workspace**.
 
     ![Add files to your workspace](./media/image6.png)
 
-7.  You're now on the first page for your new workspace. The name of the
+8.  You're now on the first page for your new workspace. The name of the
     page is currently **Untitled**. Note the page (Untitled) also
     appears in the left-hand navigation pane. In the main body of the
     page, select in the **Untitled** field and change the name of the
@@ -80,20 +80,20 @@ In this exercise, you will use Copilot in Loop to
 
     ![First page for your new workspace](./media/image7.png)
 
-8.  In the **Just start typing...** field, enter a forward
+9.  In the **Just start typing...** field, enter a forward
     slash **(/)**.
 
     ![](./media/image8.png)
 
-9.  In the drop-down menu that appears, under the **Copilot** section at
+10.  In the drop-down menu that appears, under the **Copilot** section at
     the top of the menu, select **Draft page content**.
 
-10. In the **Copilot** window that appears, note the row of buttons that
+11. In the **Copilot** window that appears, note the row of buttons that
     appears below the prompt field. Select each button. When doing so,
     note how it prefills the prompt field with an example of the type of
     task that Copilot can assist with.
 
-11. You're now going to enter your own prompt. In the prompt field,
+12. You're now going to enter your own prompt. In the prompt field,
     enter the following prompt and select the **Submit** icon:
 
     **As the VP for Sales for an OEM in the plastics manufacturing
@@ -103,12 +103,12 @@ In this exercise, you will use Copilot in Loop to
 
     ![](./media/image9.png)
 
-12. If you receive an error saying that something went wrong, copy and
+13. If you receive an error saying that something went wrong, copy and
     paste in the prior prompt and submit it again.
 
     ![](./media/image10.png)
 
-13. Review the generated report. Rather than having all the information
+14. Review the generated report. Rather than having all the information
     in paragraph form, you prefer to summarize it in a table. In
     the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
@@ -117,7 +117,7 @@ In this exercise, you will use Copilot in Loop to
     
     ![](./media/image11.png)
 
-14. Note how Copilot changed the formatting of the report. You now want
+15. Note how Copilot changed the formatting of the report. You now want
     Copilot to make a final recommendation as to whether moving into
     this market is a viable option for VanArsdel. Enter the following
     prompt:
@@ -127,7 +127,7 @@ In this exercise, you will use Copilot in Loop to
 
     ![](./media/image12.png)
 
-15. Scroll to the bottom of the report and review Copilot's
+16. Scroll to the bottom of the report and review Copilot's
     recommendation.
 
     ![](./media/image13.png)
