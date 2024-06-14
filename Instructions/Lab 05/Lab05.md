@@ -743,7 +743,7 @@ the file) to summarize the financial results that appear in the table.
     ![](./media/image66.png)
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
+    execution** section you can skip this step.
 
 4.  On the **Microsoft 365** navigation pane, select **Microsoft Word**. Open the **Adatum 5 Year Financial
     Results.docx** file that you uploaded to your **OneDrive**.
@@ -755,9 +755,9 @@ the file) to summarize the financial results that appear in the table.
     of the Adatum 5 Year Financial Results document, so select
     the **Summarize this doc** tile.
 
-> ![](./media/image67.png)
->
-> ![](./media/image68.png)
+    ![](./media/image67.png)
+
+    ![](./media/image68.png)
 
 6.  Review the results. In doing so, you would like to see Word add more
     details to support the summation that it provides for each area. You
@@ -772,14 +772,14 @@ the file) to summarize the financial results that appear in the table.
     more details in the summary** prompt doesn't appear, then enter this
     request in the prompt field.
 
-> ![](./media/image69.png)
+    ![](./media/image69.png)
 
 7.  Once Copilot finishes regenerating a new summary with more details,
     review the results. Compare the previous summary to the current one.
     Notice how Copilot displayed specific financial metrics from the
     report to support its summation in each area.
 
-> ![](./media/image70.png)
+    ![](./media/image70.png)
 
 8.  Try out different predefined prompts to see what else Copilot can do
     to improve its summation.
@@ -789,22 +789,22 @@ the file) to summarize the financial results that appear in the table.
     past five years. Enter the following prompt and select
     the **Send** icon:
 
-> **Based on the information in this document, how would you rate
-> Adatum's financial performance over the past five years? Is it getting
-> better or worse**?
->
-> ![](./media/image71.png)
->
-> ![](./media/image72.png)
+    **Based on the information in this document, how would you rate
+    Adatum's financial performance over the past five years? Is it getting
+    better or worse**?
+
+    ![](./media/image71.png)
+
+    ![](./media/image72.png)
 
 10. Review the results. You now want to see if there are any poorly
     performing areas that need attention. Enter the following prompt and
     select the **Send** icon:
 
-> **Is there any area that's performing poorly that should be
-> addressed?**
->
-> ![](./media/image73.png)
+    **Is there any area that's performing poorly that should be
+    addressed?**
+
+    ![](./media/image73.png)
 
 11. Review the results. You used Copilot to analyze the company's prior
     five years of financial results. You also identified the areas of
@@ -818,7 +818,7 @@ the file) to summarize the financial results that appear in the table.
     below the table in the document and paste in the contents of the
     clipboard (**Ctrl+V**).
 
-> ![](./media/image74.png)
+    ![](./media/image74.png)
 
 13. Repeat the previous step for both the window that indicates whether
     the company is doing better or worse, and the window that shows the
