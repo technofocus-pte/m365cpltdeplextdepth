@@ -35,12 +35,12 @@ In this exercise, you will use Copilot in Loop to
 1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
     navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft 365** navigation pane,
 
-    ![Explore apps](./media/image1.png)
+    ![](./media/image1.png)
 
 2.  In the **Apps** page, scroll down to locate **Loop** and then select
     it.
 
-    ![Apps page](./media/image2.png)
+    ![](./media/image2.png)
 
 3.  If you see the **Sign-in** button, sign-in using the credentials(provided under **Microsoft 365 Credentials** in the
     **Resources** tab.
