@@ -33,7 +33,7 @@ In this exercise, you will use Copilot in Loop to
   into that market.
 
 1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft 365** navigation pane,
+    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
 
     ![](./media/image1.png)
 
