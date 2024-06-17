@@ -32,7 +32,7 @@ tab** on the right (see screenshot).
 
 You can access and launch the productivity applications from:
 
---**Apps icon** (in the navigation pane on the left)
+- **Apps icon** (in the navigation pane on the left)
 
 - **View more Apps** link (in the navigation pane on the left)
 
