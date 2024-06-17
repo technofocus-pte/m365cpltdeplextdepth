@@ -1,4 +1,4 @@
-# Lab 09: Creating AI plugin actions for Microsoft Copilot (Preview)
+# Lab 09: Create AI plugin actions for Microsoft Copilot (Preview)
 
 ## Objective:
 
