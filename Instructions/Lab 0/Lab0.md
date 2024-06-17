@@ -32,12 +32,21 @@ tab** on the right (see screenshot).
 
 You can access and launch the productivity applications from:
 
-- View more Apps (in the navigation pane on the left)
+--**Apps icon** (in the navigation pane on the left)
 
-- App Launcher (available in the top left just above the left navigation
+- **View more Apps** link (in the navigation pane on the left)
+
+- **App Launcher** (available in the top left just above the left navigation
   pane)
 
-1.  To launch an application from **View more Apps:**
+1.  To launch an application from **Apps** icon:
+
+    In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you
+    need to work with.
+
+    ![](./media/image10.png)
+    
+2.  To launch an application from **View more Apps:**:
 
     In the navigation pane on the lower left, select **View more Apps**
     (ellipsis **…** icon) to select and open the office applications you
@@ -45,7 +54,7 @@ You can access and launch the productivity applications from:
 
     ![](./media/image8.png)
 
-2.  To launch an application from **App launcher**:
+3.  To launch an application from **App launcher**:
 
     The Microsoft 365 app launcher is a menu of apps and services that you
     are licensed for, and opens when you select the app launcher icon on
