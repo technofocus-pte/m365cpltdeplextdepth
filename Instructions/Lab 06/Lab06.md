@@ -373,9 +373,7 @@ questions based on your direction.
     URL: [**https://www.office.com**](https://www.office.com/)
 
 2.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **Explore
-    Apps**, and on the **Apps** page, scroll down to locate **Loop** and
-    then select it.
+    navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on the **Apps** page,       scroll down to locate **Loop** and then select it.
 
     ![](./media/image20.png)
 
