@@ -253,7 +253,9 @@ line.
 
 2.  In the **Apps** page, scroll down to locate **Loop** and then select
     it.
+
     **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**
+
     ![](./media/image22.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
