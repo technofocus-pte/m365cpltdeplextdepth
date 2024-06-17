@@ -250,12 +250,12 @@ line.
     navigation pane. If it doesn't appear there, then select **Explore
     all your Apps**,
 
-    ![](./media/image21.png)
+    ![](./media/image.png)
 
 2.  In the **Apps** page, scroll down to locate **Loop** and then select
     it.
 
-    ![](./media/image22.png)
+    ![](./media/image.png)
 
 3.  If you see the **Sign-in** button, sign-in using the user
     credentials.
