@@ -70,7 +70,7 @@ You can access and launch the productivity applications from:
 ## Upload lab assets to OneDrive
 
 The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **c:\LabFiles.**
+hands-on lab session are available in **C:\LabFiles.**
     
 <span class="mark">**Note**: When you need to reference a file (a Word
 document, an Excel file, etc) into a Copilot prompt, the file MUST be
@@ -79,9 +79,10 @@ on your PC.</span>
 
 1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
     
-2.  Browse to the **c:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive. **Note**: You can either choose to
-    upload a copy of all the documents or the document(s) related to the
+2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    the document(s) to OneDrive. 
+
+    **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the
     particular lab.
 
     ![](./media/image5.png)
