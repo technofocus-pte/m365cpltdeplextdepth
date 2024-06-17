@@ -28,6 +28,36 @@ tab** on the right (see screenshot).
     You will now be able to access all the Microsoft 365 applications and
     will have access to Copilot for Microsoft 365.
 
+## Access and launch Microsoft 365 applications
+
+You can access and launch the productivity applications from:
+
+- View more Apps (in the navigation pane on the left)
+
+- App Launcher (available in the top left just above the left navigation
+  pane)
+
+1.  To launch an application from **View more Apps:**
+
+    In the navigation pane on the lower left, select **View more Apps**
+    (ellipsis **…** icon) to select and open the office applications you
+    need to work with.
+
+    ![](./media/image8.png)
+
+2.  To launch an application from **App launcher**:
+
+    The Microsoft 365 app launcher is a menu of apps and services that you
+    are licensed for, and opens when you select the app launcher icon on
+    Microsoft365 page. The App launcher makes opening and switching
+    between your apps easy by highlighting your recently used apps, and
+    providing quick access to your recent online Office documents.
+
+    ![](./media/image9.png)
+
+   **Note**: If you do not find an application in the pop-up, then select
+   **More apps** icon to select the same.
+
 ## Upload lab assets to OneDrive
 
 The lab assets (Reference documents) that you will be using in this
