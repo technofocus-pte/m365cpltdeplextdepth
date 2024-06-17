@@ -42,7 +42,7 @@ In this exercise, you will use Copilot in Loop to
 
     ![](./media/image2.png)
 
-3.  If you see the **Sign-in** button, sign-in using the credentials(provided under **Microsoft 365 Credentials** in the
+3.  If you see the **Sign-in** button, sign-in using the credentials provided under **Microsoft 365 Credentials** in the
     **Resources** tab.
 
     ![Loop Sign-in page](./media/image3.png)
