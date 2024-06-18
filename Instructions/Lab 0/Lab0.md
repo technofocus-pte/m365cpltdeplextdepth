@@ -17,9 +17,7 @@ tab** on the right (see screenshot).
     select it now; otherwise, open a new tab and enter the following
     URL: **<https://portal.office.com>.**
     
-2.  <span class="mark">Use the credentials provided under **Microsoft
-    365 Credentials** in the **Resources tab** on the right (see
-    screenshot) to sign-in</span>.
+2.  <span class="mark">Use the **Microsoft 365 Credentials** provided under Azure Portal section in the **Resources tab** on     the right (see screenshot) to sign-in</span>.
 
     ![](./media/image3.png)
 
