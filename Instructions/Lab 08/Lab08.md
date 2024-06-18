@@ -140,7 +140,7 @@ In this lab, we will learn how to create a Conversational action.
 Note: The publish should complete quickly. The actual availability in
 the Microsoft Admin Center can take up to 4 hours.
 
-**Important:** **:** For the admin to get it listed in the admin center,
+>[!Alert] **Important:** **:** For the admin to get it listed in the admin center,
 the company will have to hold a valid Copilot license.
 
 6.  Your Admin can find the **Dataverse and Microsoft Copilot
