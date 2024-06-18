@@ -16,10 +16,30 @@ In this lab, we will learn how to create a Conversational action.
 
 ## Exercise #1: Create a Conversational plugin
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    tenant credentials if not already logged in.
+1.  Login to +++**https://copilotstudio.microsoft.com/+++** using
+    the **Microsoft 365 Credentials** provided under Azure Portal
+    section in the **Resources tab** on the right (see screenshot).
 
-2.  Select **Copilot for Microsoft 365**.
+> <img src="./media/image1.png"
+> style="width:6.08365in;height:2.35429in" />
+
+2.  Once logged in, on the **Welcome to Microsoft Copilot Studio** page,
+    select your Country and click on **Start free trial**.
+
+> <img src="./media/image2.png" style="width:6.26806in;height:4.32083in"
+> alt="Screenshot" />
+
+3.  The Copilot Studio Home page opens.
+
+> <img src="./media/image3.png" style="width:6.26806in;height:4.05in"
+> alt="Screenshot" />
+
+4.  Select **Copilots** from the left pane.
+
+> <img src="./media/image4.png"
+> style="width:5.63918in;height:3.58352in" />
+
+5.  Select **Copilot for Microsoft 365**.
 
 ![](./media/image1.png)
 
