@@ -20,56 +20,52 @@ In this lab, we will learn how to create a Conversational action.
     the **Microsoft 365 Credentials** provided under Azure Portal
     section in the **Resources tab** on the right (see screenshot).
 
-> <img src="./media/image1.png"
-> style="width:6.08365in;height:2.35429in" />
+    ![](./media/image17.png)
 
 2.  Once logged in, on the **Welcome to Microsoft Copilot Studio** page,
     select your Country and click on **Start free trial**.
 
-> <img src="./media/image2.png" style="width:6.26806in;height:4.32083in"
-> alt="Screenshot" />
+    ![](./media/image18.png)
 
 3.  The Copilot Studio Home page opens.
 
-> <img src="./media/image3.png" style="width:6.26806in;height:4.05in"
-> alt="Screenshot" />
+    ![](./media/image19.png)
 
 4.  Select **Copilots** from the left pane.
 
-> <img src="./media/image4.png"
-> style="width:5.63918in;height:3.58352in" />
+    ![](./media/image20.png)
 
 5.  Select **Copilot for Microsoft 365**.
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 3.  Select **Actions**.
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
 4.  Select **+ Add an action**.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 5.  Select **Conversational** in the **New action** pane.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 6.  Provide the name for the action as !!**Conversational action**!!.
     Select **Create**.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 7.  Once ready, the created action opens in Authoring canvas. Select
     **Topics**.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 8.  Name the topic as !!Holidaylist!!
 
-![](./media/image8.png)
+    ![](./media/image8.png)
 
 9.  In the Trigger node’s description, provide a clear description of
     how the conversational plugin can help the user and what it can
@@ -79,7 +75,7 @@ In this lab, we will learn how to create a Conversational action.
 Type +++**This plugin helps to retrieve the list of holidays for the
 year 2024.**+++ in the Trigger node’s description.
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 This description has functional purpose and is used by the Microsoft
 Copilot to determine whether to invoke your plugin or not.
@@ -110,13 +106,13 @@ Copilot to determine whether to invoke your plugin or not.
 
     - Christmas Day - December 25
 
-![](./media/image10.png)
+    ![](./media/image10.png)
 
 11. Click on **Save** to save the plugin.
 
-![](./media/image11.png)
+    ![](./media/image11.png)
 
-![](./media/image12.png)
+    ![](./media/image12.png)
 
 ## Exercise #2: Publishing your conversational action to Microsoft Copilot
 
