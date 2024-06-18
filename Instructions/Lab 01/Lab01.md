@@ -87,13 +87,14 @@ speech for you based on your company's Income Statement:
     Statement.docx** file and then select the **Attach** button.
 
     ![](./media/image10.png)
-
-   >**Note**: If, for some reasons, you keep getting the **Something went wrong** error when clicking the **Generate** button,
-   >Open the file in a browser and copy its path using the Share option, then paste the path into the prompt following the forward slash (/). 
-  
+   
 10. Note how the file is displayed in the prompt. Select **Generate**.
 
     ![](./media/image11.png)
+
+   >**Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the **Generate** button after attaching the referenced document,
+   >Open the file in a browser and copy its path using the Share option, then paste the path into the prompt following the forward slash (/).
+     ![](./media/image26.png)
 
 11. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
