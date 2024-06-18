@@ -92,7 +92,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image11.png)
 
-   >**Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the **Generate** button after attaching the referenced document dismiss        the error and proceed with the next step
+   **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the **Generate** button after attaching the referenced document dismiss        the error and proceed with the next step
 
     ![](./media/image26.png)
    
