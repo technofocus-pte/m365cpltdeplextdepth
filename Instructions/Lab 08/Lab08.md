@@ -16,7 +16,7 @@ In this lab, we will learn how to create a Conversational action.
 
 ## Exercise #1: Create a Conversational plugin
 
-1.  Login to +++**https://copilotstudio.microsoft.com/** +++ using
+1.  Login to **+++https://copilotstudio.microsoft.com/+++** using
     the **Microsoft 365 Credentials** provided under Azure Portal
     section in the **Resources tab** on the right (see screenshot).
 
