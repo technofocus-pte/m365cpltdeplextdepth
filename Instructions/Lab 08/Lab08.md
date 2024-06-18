@@ -51,7 +51,7 @@ In this lab, we will learn how to create a Conversational action.
 
     ![](./media/image4.png)
 
-6.  Provide the name for the action as !!**Conversational action**!!.
+6.  Provide the name for the action as +++**Conversational action**+++.
     Select **Create**.
 
     ![](./media/image5.png)
