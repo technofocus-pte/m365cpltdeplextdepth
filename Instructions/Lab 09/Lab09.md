@@ -53,7 +53,7 @@ applicable to all. The new gallery will place everyone in tiles of
 equal size (16:9 ratio) whether their video is turned on or off.
 Additionally, the new default gallery layout will be more consistent
 and predictable for all meetings, regardless of size and content
-hared.
+shared.
 
 And when a Teams Room joins the meeting, the video of the room
 automatically enlarges, bridging the gap between remote and in-room
