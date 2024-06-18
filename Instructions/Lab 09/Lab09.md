@@ -39,43 +39,43 @@ the organization has valid license for the same.
 7.  Click on the **Input** under Prompt Settings add the below content
     in the Sample data.
 ```
-**Meet comfortably and confidently with customizable meeting views**
+Meet comfortably and confidently with customizable meeting views
 
-**The meeting stage, or gallery, is at the core of the virtual meeting
+The meeting stage, or gallery, is at the core of the virtual meeting
 experience and can either hinder or enhance meeting efficiency
 depending on your needs. We’re excited to share how we’re evolving the
 default gallery experience in Teams meetings to give you a simpler,
 more predictable meeting presence—while enabling more controls that
-let you personalize the view to suit your preferences.**
+let you personalize the view to suit your preferences.
 
-**First, let’s look at the new default gallery experience that will be
+First, let’s look at the new default gallery experience that will be
 applicable to all. The new gallery will place everyone in tiles of
 equal size (16:9 ratio) whether their video is turned on or off.
 Additionally, the new default gallery layout will be more consistent
 and predictable for all meetings, regardless of size and content
-hared.**
+hared.
 
-**And when a Teams Room joins the meeting, the video of the room
+And when a Teams Room joins the meeting, the video of the room
 automatically enlarges, bridging the gap between remote and in-room
 participants. Remote attendees enjoy a clearer view and better
 connection, easily spotting who is speaking. Want a custom view?
 Simply tweak the tile size to your preference from the more options
 (...) menu by hovering on the room name. It's seamless, inclusive, and
-ensures everyone can be seen, no matter where they are.**
+ensures everyone can be seen, no matter where they are.
 
-**Next, let’s look at the controls that help you customize every
-meeting view to suit your needs.**
+Next, let’s look at the controls that help you customize every
+meeting view to suit your needs.
 
-**While the default gallery size for meetings will be 16 participants,
+While the default gallery size for meetings will be 16 participants,
 you can customize the number of participants visible on your screen to
 best fit your preference. You can choose from 4, 9, 16, and 49
-participants visible on the screen for gallery size.**
+participants visible on the screen for gallery size.
 
-**There are still a few default configurations that AI will optimize
+There are still a few default configurations that AI will optimize
 for to improve engagement and efficiency. For virtual participants,
 these are prioritizing those that have a raised hand and prioritizing
 the active speaker, enhancing their visibility so comments are not
-missed.**
+missed.
 ```
 ![](./media/image6.png)
 
