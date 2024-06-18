@@ -81,7 +81,7 @@ This description has functional purpose and is used by the Microsoft
 Copilot to determine whether to invoke your plugin or not.
 
 10. Add a message node with the list of holidays.
-
+```
     - New Year's Day - January 1
 
     - Martin Luther King, Jr.'s Birthday (Third Monday of January) -
@@ -106,6 +106,7 @@ Copilot to determine whether to invoke your plugin or not.
 
     - Christmas Day - December 25
 
+```
     ![](./media/image10.png)
 
 11. Click on **Save** to save the plugin.
