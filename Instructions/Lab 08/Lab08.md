@@ -63,7 +63,7 @@ In this lab, we will learn how to create a Conversational action.
 
     ![](./media/image7.png)
 
-8.  Name the topic as !!Holidaylist!!
+8.  Name the topic as +++**Holidaylist**+++
 
     ![](./media/image8.png)
 
