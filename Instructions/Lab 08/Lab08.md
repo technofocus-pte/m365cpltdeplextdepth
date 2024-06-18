@@ -107,7 +107,7 @@ In this lab, we will learn how to create a Conversational action.
     - Christmas Day - December 25
 
 ```
-    ![](./media/image10.png)
+![](./media/image10.png)
 
 11. Click on **Save** to save the plugin.
 
