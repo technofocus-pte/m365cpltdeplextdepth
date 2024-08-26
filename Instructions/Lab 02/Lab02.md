@@ -450,8 +450,7 @@ In this exercise, you will
     information may be included in one version of the report that's not
     in others.
 
-    Once you're satisfied with a version of the report, select the **Keep
-    it** button.
+    Once you're satisfied with a version of the report, select the **Keep it** button.
 
 12. Once you're done with this document, save it to your **OneDrive**, so
     you can close this tab in your Microsoft Edge browser.
