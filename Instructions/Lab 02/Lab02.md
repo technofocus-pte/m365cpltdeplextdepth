@@ -382,16 +382,12 @@ In this exercise, you will
   - Ask Copilot to provide recommendations for renegotiating each
     agreement.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL:+++**<https://www.office.com>**+++.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab          and enter the following URL:+++**<https://www.office.com>**+++ to go to the Microsoft 365 home page.
 
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
+    tab on the right.
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-
-    ![](./media/image14.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the following documents to OneDrive.
 
       - **Contoso Supplier Agreement**
@@ -400,17 +396,20 @@ In this exercise, you will
 
       - **Wide World Importers Supplier Agreement**
 
-4.  In this exercise, you access the documents from the Most Recently
+    **Note**: You can skip this step, if you have already uploaded a copy of all the documents (that you will be using in
+    this hands-on lab session from **C:\LabFiles** as instructed in **Lab 0**).
+  
+3.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
     each document and then close it. Open and close each of the three
     files in your OneDrive account.
 
     ![](./media/image32.png)
 
-5.  In **Microsoft 365**, open **Microsoft Word** and then open a new
+4.  In **Microsoft 365**, open **Microsoft Word** and then open a new
     blank document.
 
-6.  In the **Draft with Copilot** window that appears at the top of the
+9.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
     **I'm the Sales Manager for Northwind Traders, a supplier of various
@@ -434,13 +433,13 @@ In this exercise, you will
     Agreement** and the **Wide World Importers Supplier Agreement**. At
     this point, links to all three files should be included in the prompt.
 
-7.  Select **Generate**. At this point, Copilot extracts the pertinent
+10.  Select **Generate**. At this point, Copilot extracts the pertinent
     information from the three supplier agreements drafts a report
     comparing them.
 
     ![](./media/image34.png)
 
-8. After reviewing the comparison document, you aren't pleased with the
+11. After reviewing the comparison document, you aren't pleased with the
     results. You would like to see Copilot try again and generate a new
     version. In the Copilot window that appears at the end of the
     document, select the **Regenerate** button, which appears next to
@@ -454,5 +453,16 @@ In this exercise, you will
     Once you're satisfied with a version of the report, select the **Keep
     it** button.
 
-9. Once you're done with this document, save it to your **OneDrive**, so
+12. Once you're done with this document, save it to your **OneDrive**, so
     you can close this tab in your Microsoft Edge browser.
+
+# Summary:
+  In this lab, you explored the capabilities of Copilot for Microsoft 365 as an AI-powered writing assistant and
+  -  Utilized Copilot in Loop to draft a detailed market research report that involved organizing data, generating
+     insights, and creating a cohesive and informative report.
+     
+  -  Leveraged Copilot in PowerPoint to design a compelling sales presentation to generate slides, customize content, and 
+     ensure that the presentation effectively communicates key sales messages.
+     
+  -  Used Copilot in Word to analyze and compare three supplier agreements to identify differences between the agreements
+     and provide recommended actions based on the comparison.
