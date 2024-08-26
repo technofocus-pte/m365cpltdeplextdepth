@@ -437,7 +437,7 @@ In this exercise, you will
     information from the three supplier agreements drafts a report
     comparing them.
 
-    ![](./media/image34.png)
+     ![](./media/image34.png)
 
 11. After reviewing the comparison document, you aren't pleased with the
     results. You would like to see Copilot try again and generate a new
