@@ -192,7 +192,7 @@ create a draft of your presentation:
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: [**https://www.office.com**](https://www.office.com/) to go to **Microsoft 365** home page
+    URL: [**https://www.office.com**](https://www.office.com/) to go to **Microsoft 365** home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
@@ -311,7 +311,9 @@ create a draft of your presentation:
 # Summary
 
 In this lab, you have
+
   •	Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes generating content that     effectively communicates key messages and company updates.
+  
   •	Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually engaging and     
     informative presentation, creating slides that highlight the main points of the speech, using Copilot to ensure   
     consistency and clarity in the presentation format.
