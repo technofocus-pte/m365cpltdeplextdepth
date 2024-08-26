@@ -42,10 +42,10 @@ Statement from the MRU file list.</span>
 You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL:<https://www.office.com>.
+1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following 
+    URL:<https://www.office.com> to go to the **Microsoft 365** home page.
 
-     **Note**: If you have a Microsoft 365 tab open in your Edge browser, then select it now.
+     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
    
@@ -53,27 +53,26 @@ speech for you based on your company's Income Statement:
     
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Fabrikam 2023 Income Statement document to OneDrive**.
-
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
-
     ![](./media/image6.png)
+    
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
+    execution (Lab 0)** you can skip this step.
 
     ![](./media/image7.png)
 
-4.  In Microsoft 365, open Microsoft Word, and then open a new blank
+5.  In Microsoft 365, open Microsoft Word, and then open a new blank
     document.
 
     ![](./media/image8.png)
    
-5.  In the **Draft with Copilot** window that appears at the top of the
+6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
     <span class="mark">**Write a speech for the Fabrikam stakeholders that
     summarizes the results of the company's 2023 income statement found in
     the attached file**.</span>
 
-6.  In the **Draft with Copilot** window, select the **Reference your
+7.  In the **Draft with Copilot** window, select the **Reference your
     content** button. In the pop-up window that appears, select the
     file.
 
@@ -82,13 +81,13 @@ speech for you based on your company's Income Statement:
     
     ![](./media/image9.png)
 
-7. In the **Pick a file** window that appears, under
+8. In the **Pick a file** window that appears, under
    the **Recent** file list, select the **Fabrikam 2023 Income
    Statement.docx** file and then select the **Attach** button.
 
     ![](./media/image10.png)
    
-8. Note how the file is displayed in the prompt. Select **Generate**.
+9. Note how the file is displayed in the prompt. Select **Generate**.
 
     ![](./media/image11.png)
 
@@ -96,22 +95,22 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image26.png)   
    
-9. Open the file in a browser and copy its path using the Share option, then paste the path into the prompt following the forward slash (/).
+10. Open the file in a browser and copy its path using the Share option, then paste the path into the prompt following the forward slash (/).
 
     ![](./media/image27.png)
    
     ![](./media/image28.png)
 
-10. At this point, Copilot extracts the financial results from the
+11. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
 
     ![](./media/image12.png)
 
-11. After reviewing the speech, you decide that it's a good starting
+12. After reviewing the speech, you decide that it's a good starting
     point, although there are a few areas that you want to modify. In
     the Copilot window at the end of the speech, select the **Keep it** button.
 
-12. You want to begin by reviewing any changes suggested by the Copilot
+13. You want to begin by reviewing any changes suggested by the Copilot
     Editor. Select the **Editor** icon that appears in the menu bar at
     the top of the page.
 
@@ -120,7 +119,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image13.png)
 
-13. In the **Editor** pane that appears, note the categories that appear
+14. In the **Editor** pane that appears, note the categories that appear
     under the **Corrections** or **Refinements** sections that display a
     number (indicating the number of issues for that category). These
     issues are often linked to the tone of the writing style used in the
@@ -135,7 +134,7 @@ speech for you based on your company's Income Statement:
     sounding tone, so select **Professional** from the drop-down menu.
     Note whether the **Editor Score** changes.
 
-14. In the categories that appear under
+15. In the categories that appear under
     the **Corrections** or **Refinements** sections, you can review the
     changes that occurred in the categories based on changing the
     writing style from Formal to Professional. Select each category that
@@ -154,7 +153,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image14.png)
 
-15. Save the file to your OneDrive account with the following file
+16. Save the file to your OneDrive account with the following file
     name: **Fabrikam 2023 Financial presentation.docx**. The next
     exercise uses this document.
 
@@ -165,7 +164,7 @@ speech for you based on your company's Income Statement:
     PowerPoint to create a slide presentation based on this document. The
     document must be in OneDrive for Copilot to access it.
 
-16. Close the tab containing this document in your Microsoft Edge
+17. Close the tab containing this document in your Microsoft Edge
     browser.
 
 # Exercise #2: Create a slide presentation using Copilot in PowerPoint
