@@ -8,7 +8,7 @@ In this lab, you will
 - Use Copilot in PowerPoint to create a PowerPoint presentation based on
   the speech you created.
 
-## Exercise \#1: Create a speech using Copilot in Word
+## Exercise #1: Create a speech using Copilot in Word
 
 In this exercise, you direct Copilot in Word to write a speech for you
 based on your company's Income Statement, which is stored as a Word
@@ -192,7 +192,9 @@ create a draft of your presentation:
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: [**https://www.office.com**](https://www.office.com/)
+    URL: [**https://www.office.com**](https://www.office.com/) to go to **Microsoft 365** home page
+
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **Word** to open Word.
 
@@ -253,9 +255,9 @@ create a draft of your presentation:
 
     ![Image description](./media/image21.png)
 
-12. Select the **Send** icon.
+14. Select the **Send** icon.
 
-13. This prompt triggers Copilot to create a slide presentation based on
+15. This prompt triggers Copilot to create a slide presentation based on
     the document. In doing so, it displays the outline of the
     presentation and a list of features included in the presentation.
     These features may include speaker notes, images, layouts to
@@ -263,12 +265,12 @@ create a draft of your presentation:
 
     ![Image description](./media/image22.png)
 
-14. You're now free to review the slides and make any necessary updates.
+16. You're now free to review the slides and make any necessary updates.
     You can use the **Designer** tool to adjust the layouts.
 
     ![Image description](./media/image23.png)
 
-15. As you review the slides, be on the lookout for references to "the
+17. As you review the slides, be on the lookout for references to "the
     speaker" or any other items that you may need to change.
 
     ![Image description](./media/image24.png)
@@ -286,13 +288,13 @@ create a draft of your presentation:
     You should remove these types of references as they're more applicable
     as speaker notes rather than text intended for audiences.
 
-17. Review the speaker notes that Copilot added to the presentation.
+18. Review the speaker notes that Copilot added to the presentation.
     Verify they call out the points that you want to make during the
     presentation.
 
     ![Image description](./media/image25.png)
 
-18. Try using Copilot to update the presentation. For example, enter the
+19. Try using Copilot to update the presentation. For example, enter the
     following prompt:
 
     **Add a new slide after slide 1. This slide should have an image of a
@@ -305,3 +307,11 @@ create a draft of your presentation:
     Review the new slide that was created. While the remaining lab
     exercises don't use this presentation, you can either discard it or
     save it if you want for future reference.
+
+# Summary
+
+In this lab, you have
+  •	Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes generating content that     effectively communicates key messages and company updates.
+  •	Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually engaging and     
+    informative presentation, creating slides that highlight the main points of the speech, using Copilot to ensure   
+    consistency and clarity in the presentation format.
