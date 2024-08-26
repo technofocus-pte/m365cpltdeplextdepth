@@ -312,8 +312,8 @@ create a draft of your presentation:
 
 In this lab, you have
 
-  •	Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes generating content that     effectively communicates key messages and company updates.
+-  Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes generating content that     effectively communicates key messages and company updates.
   
-  •	Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually engaging and     
-    informative presentation, creating slides that highlight the main points of the speech, using Copilot to ensure   
-    consistency and clarity in the presentation format.
+-  Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually engaging and
+   informative presentation, creating slides that highlight the main points of the speech, using Copilot to ensure   
+   consistency and clarity in the presentation format.
