@@ -156,25 +156,23 @@ In this exercise you will use Copilot in PowerPoint to create your slide
 presentation based on the information in the **Market Trend Report -
 Protein Shake.docx** file, which you download using the provided link.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL:**<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL:**<https://www.office.com>** to go to the Microsoft 365 home page.
 
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
+    tab on the right.
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-
-    ![](./media/image14.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** to **OneDrive**
 
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing for the lab
-    execution** section, you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to **OneDrive** as instructed in **Preparing for the lab
+    execution** section (**Lab 0**), you can skip this step.
 
-4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
-    PowerPoint, open a new blank presentation.
+3.  Open and close the file **Market Trend Report - Protein Shake.docx** (which you uploaded to OneDrive) to get it in your
+    Most Recently Used (MRU) file list
+  
+4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In PowerPoint, open a new blank presentation.
 
-5.  Select the **Copilot** option on the right side of the ribbon. In
+5.  Select the **Copilot** icon on the right end of the ribbon. In
     the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
     from file** prompt.
@@ -203,20 +201,20 @@ Protein Shake.docx** file, which you download using the provided link.
     ![](./media/image17.png)
 
 8. Review the slides once Copilot finished creating the presentation.
-    To review the speaker notes, select the **View** tab and then select
-    the **Notes** button if it isn't already selected. If it's already
-    selected and you can't see the notes, then drag the bottom of the
-    slide window up to show the notes. Verify the speaker notes include
-    the key points that you want to make during the presentation.
+   To review the speaker notes, select the **View** tab and then select
+   the **Notes** button if it isn't selected already. If it's already
+   selected and you can't see the notes, then drag the bottom of the
+   slide window up to show the notes. Verify the speaker notes include
+   the key points that you want to make during the presentation.
 
     ![](./media/image18.png)
 
 9. Select the **Home** tab and then select the **Designer** button,
-    which appears to the left of the **Copilot** button.
-    The **Designer** pane offers samples of different designs for the
-    current slide being displayed. Change to a different slide in the
-    presentation and note how the **Designer** pane generates different
-    design options for that slide.
+   which appears to the left of the **Copilot** button.
+   The **Designer** pane offers samples of different designs for the
+   current slide being displayed. Change to a different slide in the
+   presentation and note how the **Designer** pane generates different
+   design options for that slide.
 
     ![](./media/image19.png)
 
@@ -295,7 +293,25 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image27.png)
 
-17. Review the Q&A slide that Copilot created. Now try one final thing.
+    **Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one below.
+
+    ![](./media/image36.png)
+
+    Please try rephrasing the prompt or use the suggested prompts like the one below:
+
+    ![](./media/image37.png)
+
+18. Select the command **Add a slide about** and append the following Q&A at the very end of the presentation (as shown in      the screenshot).
+
+     ![](./media/image38.png)
+   
+20. Click **Send** to check what happens.
+
+    ![](./media/image39.png)
+
+    Copilot has added a Q&A slide as instructed. Review the Q&A slide that Copilot created.
+    
+29. Review the Q&A slide that Copilot created. Now try one final thing.
     You decide to compile a list of potential questions that you can
     prepare for during the Q&A session. Enter the following prompt to
     see if Copilot can add all of its suggested questions to the speaker
@@ -305,7 +321,7 @@ Protein Shake.docx** file, which you download using the provided link.
     list of possible questions that may be asked regarding this
     presentation**.
 
-18. If Copilot returns a message indicating that it was unable to
+21. If Copilot returns a message indicating that it was unable to
     generate the slide, try entering the prompt again. Sometimes when
     Copilot can't complete a task, a good practice is to repeat the
     request.
@@ -319,7 +335,7 @@ Protein Shake.docx** file, which you download using the provided link.
     time. This scenario is another example of the best practice that you
     need to be aware of: Understand Copilot's limitations.
 
-19. Now try this workaround. Enter the following prompt that asks it to
+22. Now try this workaround. Enter the following prompt that asks it to
     generate a list of questions:
 
     **What kind of questions do you think participants may ask during the
@@ -327,11 +343,13 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image30.png)
 
-20. Review the questions that Copilot created. Select
+23. Review the questions that Copilot created. Select
     the **Copy** button at the bottom of the window, and then paste them
     (**Ctrl+V**) into the speaker notes of the Q&A slide.
 
     ![](./media/image31.png)
+
+    **Note**: Copilot may display some exception. Please try using the suggested prompts as in **step #16**
 
     While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you to retain a
