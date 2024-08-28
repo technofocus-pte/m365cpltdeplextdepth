@@ -196,7 +196,7 @@ to your OneDrive account. The next exercise uses this file.
     ![](./media/image19.png)
 
 
-20. 18.	Save the file as **Contoso CipherGuard project plan.docx** in your OneDrive that contains the product 
+19. Save the file as **Contoso CipherGuard project plan.docx** in your OneDrive that contains the product 
     specification document that you used in this exercise. You'll use this file in the next exercise.
 
     ![](./media/image21.png)
