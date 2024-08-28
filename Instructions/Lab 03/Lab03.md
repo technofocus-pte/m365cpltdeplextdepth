@@ -39,10 +39,10 @@ In this exercise you will use Microsoft Copilot in Bing
 **Note**: At the end of this exercise, you must save your project plan
 to your OneDrive account. The next exercise uses this file.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the **Microsoft 365** home page.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**   
+    tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
@@ -190,26 +190,14 @@ to your OneDrive account. The next exercise uses this file.
 
 18. Now that the project plan is created, you MUST save it to a Word
     document. **You'll use this project plan document in the next
-    exercise**. At the bottom of Copilot's final response, select the
-    down arrow icon (**Export**) to export the contents of the response.
-    A drop-down menu appears that allows you to select the type of file
-    you want to export the response into. Select **Word**.
-    An **Exporting** window should appear while Copilot exports the
-    content to a Word document. The **Exporting** window disappears once
-    the process is complete.
+    exercise**. At the bottom of Copilot's final response, select the **Copy** button to copy and paste the response in a 
+    **Word** document.
 
     ![](./media/image19.png)
 
-19. The file will be exported to **Downloads** folder of the Lab VM
-    (file name: Answer.docx). Select this file to open it and verify
-    that it contains the project plan that Copilot exported.
 
-    ![](./media/image20.png)
-
-20. Save the file to your OneDrive account that contains the product
-    specification document that you used in this exercise. Then rename
-    this file from **Answers.docx** to **Contoso CipherGuard project
-    plan.docx**. You'll use this file in the next exercise.
+20. 18.	Save the file as **Contoso CipherGuard project plan.docx** in your OneDrive that contains the product 
+    specification document that you used in this exercise. You'll use this file in the next exercise.
 
     ![](./media/image21.png)
 
