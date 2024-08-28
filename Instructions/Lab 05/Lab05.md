@@ -261,10 +261,9 @@ trend that's already in an Excel spreadsheet **Fabrikam Q1 marketing
 campaigns.xlsx**. You will examine many of Copilot's pre-built functions
 and prompts.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>**.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
@@ -587,10 +586,9 @@ spreadsheet was copied and pasted for you into a Word document
 **Fabrikam Q1 marketing campaign data.docx**, which you’ll download in
 the first step.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
   
