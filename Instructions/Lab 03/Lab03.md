@@ -229,15 +229,11 @@ to your IT staff, and ultimately to corporate management.
 
 <span class="mark">**Note**: If you completed the prior exercise and
 created a **Contoso CipherGuard project plan.docx** file, then ensure
-that you copied it to your OneDrive account and proceed to the next
+that you saved it to your OneDrive account and proceed to the next
 step. However, if you were unable to create this project plan in the
-prior exercise, then use the following link to download a [Contoso
-CipherGuard project
-plan](https://edxinteractivepage.blob.core.windows.net/ms-4004/Contoso%20CipherGuard%20project%20plan.docx) that
-was created for you, and save it to your OneDrive account.</span>
+prior exercise, then upload a copy of the document **Contoso CipherGuard project plan.docx** available in **C:\LabFiles**.</span>
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the      following URL: **<https://www.office.com>** to go to Microsoft 365 home page.
     
     **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
@@ -250,21 +246,24 @@ was created for you, and save it to your OneDrive account.</span>
 
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution** section you can skip this step.
-
-4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
+    
+4.  Open and close the file Contoso CipherGuard project plan.docx (which you saved to OneDrive) to get it in your Most   
+    Recently Used (MRU) file list.
+    
+5.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
     PowerPoint, open a new blank presentation.
 
-5.  Select the **Copilot** option on the right side of the ribbon. In
+6.  Select the **Copilot** option on the right side of the ribbon. In
     the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from.
 
     ![](./media/image22.png)
 
-6.  Select the **Create presentation from file** prompt.
+7.  Select the **Create presentation from file** prompt.
 
     ![](./media/image23.png)
 
-7.  In the prompt field at the bottom of the **Copilot** pane, Copilot
+8.  In the prompt field at the bottom of the **Copilot** pane, Copilot
     automatically enters the text: **Create presentation from file /**.
     The forward slash is the universal Copilot indicator to enter a link
     to a file. In this case, it triggers Copilot to open
@@ -301,7 +300,7 @@ was created for you, and save it to your OneDrive account.</span>
           cursor after the forward slash (**/**) and then paste in
           (**Ctrl+V**) the link to the report.
 
-8. Note how the file appears in the prompt field. Select
+11. Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field. This prompt triggered Copilot
     to create a slide presentation based on the document. In doing so,
     it first displayed the outline of the presentation. Then it
