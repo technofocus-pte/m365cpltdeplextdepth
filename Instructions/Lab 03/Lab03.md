@@ -233,7 +233,7 @@ that you saved it to your OneDrive account and proceed to the next
 step. However, if you were unable to create this project plan in the
 prior exercise, then upload a copy of the document **Contoso CipherGuard project plan.docx** available in **C:\LabFiles**.</span>
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the      following URL: **<https://www.office.com>** to go to Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: **<https://www.office.com>** to go     to Microsoft 365 home page.
     
     **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
@@ -300,7 +300,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
           cursor after the forward slash (**/**) and then paste in
           (**Ctrl+V**) the link to the report.
 
-11. Note how the file appears in the prompt field. Select
+9. Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field. This prompt triggered Copilot
     to create a slide presentation based on the document. In doing so,
     it first displayed the outline of the presentation. Then it
@@ -309,7 +309,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image24.png)
 
-9. You're now free to review the slides and make any necessary updates.
+10. You're now free to review the slides and make any necessary updates.
     Pay special attention to the changes the Copilot made based on the
     document. You can use the **Designer** tool to adjust the layouts
 
@@ -337,36 +337,25 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image28.png)
 
-    <span class="mark">**Note**: Remember that Copilot is still a work in
-    progress. As a best practice, if Copilot is unable to complete your
-    request, then try it again. And if it still doesn't work, then try
-    rephrasing your request or splitting it into two.</span>
+    <span class="mark">**Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one above.</span>
 
-13. Even if Copilot worked and replaced your image, let's assume for the
-    sake of this exercise that it didn't. In this case, ask Copilot to
-    not just replace the image, but to remove the old slide and replace
-    it with an entirely new slide containing a different image. As such,
-    enter the following prompt:
-
-    **Please remove the Q&A slide and add a new one with a different image**.
+13. Please try rephrasing the prompt or use the suggested prompts like the one below:
 
     ![](./media/image29.png)
 
-14. What response did you receive? In our testing of this exercise,
-    Copilot continuously removed the Q&A slide but it didn't create a
-    new one in its place. Instead, it kept returning the following
-    message.
+14. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown in the screenshot)
 
     ![](./media/image30.png)
 
-    **Tip**: If Copilot didn't do as you asked or if it returned an error,
-    then this scenario is a good example of keeping prompts as simple as
-    possible. Follow Copilot's suggestion by rephrasing your request. It's
-    best to ask Copilot to do one task at a time, such as first removing
-    the old slide, and then submitting a second request to add a new slide
-    with an image.
+16. Click Send to check what happens. Copilot has added a Q&A slide as instructed.
 
-15. Regardless how the last few steps went in dealing with the Q&A
+17. Now try with another prompt:
+
+    **Add a slide about** what the audience may ask about the presentation
+    
+18. Once you are done with final presentation you can save for future reference or discard this presentation
+       
+19. Regardless how the last few steps went in dealing with the Q&A
     slide, you decide to move forward and try one last thing. In
     reviewing the presentation, you decide that you want to change the
     theme of the presentation to something more appropriate due to the
@@ -376,7 +365,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image31.png)
 
-16. Note Copilot's response.
+20. Note Copilot's response.
 
     ![](./media/image32.png)
 
@@ -387,7 +376,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
     you to an existing PowerPoint feature rather than duplicating what
     that feature does.
 
-17. While the remaining training exercises in this module don't use this
+21. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
     for future reference.
 
