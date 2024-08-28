@@ -379,10 +379,9 @@ Copilot to creates the combined report, review it and possibly update it
 with other information that Copilot can find on the Chai Tea market in
 Latin America.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
 
@@ -403,7 +402,7 @@ Latin America.
 4.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
     each document and then close it. Open and close each of the three
-    files in your OneDrive account.
+    files in your OneDrive.
 
     ![](./media/image41.png)
 
@@ -517,25 +516,9 @@ the monthly marketing trends.
 In this exercise, you will use Copilot in Excel to analyze a market
 trend spreadsheet that already has an Excel table defined.
 
-><span class="mark">**Note**: When you use Copilot in Excel, you must
->have an Excel table that includes data in a worksheet. You can quickly
->turn a range of cells into an Excel table by following these
->steps:</span>
->    
->- <span class="mark">Select the cell or the range in the data.</span>
->    
->- <span class="mark">Select **Home** \> **Format as Table**.</span>
->    
->- <span class="mark">In the **Format as Table** dialog box, select the
->  checkbox next to **My table has headers** if you want the first row of
->  the range to be the header row.</span>
->    
->- <span class="mark">Select **OK**.</span>
-
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
