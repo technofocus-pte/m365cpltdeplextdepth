@@ -179,57 +179,12 @@ When you use Microsoft Copilot in Bing to research different things or
 answer different questions, you may decide that a response is so good
 that you want to export it just to save it for future reference. 
 
-1.  Select the down-arrow **Export** icon at the bottom of a prompt
-    response to display the drop-down menu that allows you to select
-    which file type you want to use for the export process.
+1. Select Copy button at the bottom of a prompt response to copy the response and paste the copied response in a text          editor.
 
     ![](./media/image16.png)
 
-    ![](./media/image17.png)
-
-2.  The way in which Copilot handles an exported response depends on the
-    file type that you select.
-
-    The three choices include:
-
-  - **Word**. When you export a response to a Word document, Copilot
-    displays an **Exporting** window that disappears once the export
-    process completes. So how does Word handle the document containing the
-    exported response? If you go to the **Word** home page, at the top of
-    the Most Recently Used file list, you should see a document with the
-    file name **CopilotAnswers-yyyymmdd-xxxxxx.docx** where "**yyyymmdd**"
-    is the current date and "**xxxxxx**" is a unique ID that Copilot
-    assigned to the file (this ID distinguishes the file from other
-    responses that were exported on the same day).
-
-    ![](./media/image18.png)
-  - **PDF**. When you export a response to a PDF, Copilot opens
-    a **Print** window that enables you to print the selected response.
-
-    ![](./media/image19.png)
-
-  - **Text**. When you export a response to a Text file, Copilot downloads
-    the response to an **Answer.txt** file in your **Downloads** folder.
-
-    **Note**: Sometimes the export to Word process fails. Try again to
-    export to Word.
-
-    ![](./media/image20.png)
-
-3.  Select the exported file to open it in Word and review the contents.
-    Note that Copilot's entire response was exported - note just the
-    core answer, but also the extraneous comments that Copilot included
-    at the beginning and end of its response. If you decide to share
-    this file with others, you should consider removing that extraneous
-    text.
-
-    **Note**: If you export multiple responses from a given Copilot
-    session, Copilot doesn't combine them into a single document. Instead,
-    Copilot generates a separate file for each exported response. If you
-    want to consolidate the responses into a single document, you need to
-    manually copy and paste each response into one document, or you can
-    use Copilot in Word to do it for you.
-
+    If you want to consolidate multiple responses into a single document, you need to manually copy and paste each response     in a text editor.
+   
 ## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
 
 You can use Copilot in Loop to brainstorm new marketing strategies, plan
