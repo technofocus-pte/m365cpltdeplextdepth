@@ -247,8 +247,8 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
     execution** section you can skip this step.
     
-4.  Open and close the file Contoso CipherGuard project plan.docx (which you saved to OneDrive) to get it in your Most   
-    Recently Used (MRU) file list.
+4.  Open and close the file Contoso CipherGuard project plan.docx (which you saved to OneDrive) to get it in your
+    Most Recently Used (MRU) file list.
     
 5.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
     PowerPoint, open a new blank presentation.
@@ -315,7 +315,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image25.png)
 
-10. You notice that there isn't a slide at the end for a Question and
+11. You notice that there isn't a slide at the end for a Question and
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
@@ -324,7 +324,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image26.png)
 
-11. Review the new slide that was created. You don't like the image that
+12. Review the new slide that was created. You don't like the image that
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
@@ -332,18 +332,20 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image27.png)
 
-12. What response did you receive? Sometimes Copilot didn't replace the
+13. What response did you receive? Sometimes Copilot didn't replace the
     image and it returned the following message.
 
     ![](./media/image28.png)
 
-    <span class="mark">**Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one above.</span>
+    <span class="mark">**Note**: Copilot may display some exception (remember that Copilot is still a work in progress)   
+    like the one above.</span>
 
-13. Please try rephrasing the prompt or use the suggested prompts like the one below:
+14. Please try rephrasing the prompt or use the suggested prompts like the one below:
 
     ![](./media/image29.png)
 
-14. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown in the screenshot)
+15. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown
+    in the screenshot)
 
     ![](./media/image30.png)
 
@@ -365,7 +367,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
 
     ![](./media/image31.png)
 
-20. Note Copilot's response.
+21. Note Copilot's response.
 
     ![](./media/image32.png)
 
@@ -376,7 +378,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
     you to an existing PowerPoint feature rather than duplicating what
     that feature does.
 
-21. While the remaining training exercises in this module don't use this
+22. While the remaining training exercises in this module don't use this
     presentation, you can either discard it or save it if you want it
     for future reference.
 
