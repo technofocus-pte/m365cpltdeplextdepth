@@ -26,10 +26,9 @@ document that outlines all the job responsibilities for this role. In
 this exercise you will use Copilot in Word to create a job description
 based on the role responsibilities in this document.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: **<https://www.office.com>** to go to the **Microsoft 365** home page.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it. 
     
@@ -175,10 +174,9 @@ Design Institute - Job descriptions.docx**. If it is saved with a
 different file name, then remember the name that you used so that you
 can locate the file in this exercise.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new          tab and enter the following URL: **<https://www.office.com>**.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
 
@@ -194,7 +192,7 @@ can locate the file in this exercise.
 5.  In this exercise, you access the documents from the Most Recently
     Used (MRU) file list. To get the files to appear in the MRU list,
     open each document and then close it. Open and close each of the
-    four resume files in your OneDrive account.
+    four resume files in your OneDrive.
 
     [](./media/image12.png)
 
