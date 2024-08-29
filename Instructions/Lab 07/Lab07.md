@@ -338,9 +338,10 @@ in the Copilot pane or when creating a new document.
 
 1.  If you have a Microsoft 365 tab open in the Edge browser,
     then select it now; otherwise, open a new tab and enter the
-    following
-    URL: [**<u>https://www.office.com</u>**](https://www.office.com/)
+    following URL: [**<u>https://www.office.com</u>**](https://www.office.com/)
 
+    Note: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on     the right.
+    
 2.  With your plan in mind, you decide to first use Copilot in Word to
     create a report that addresses all your questions. On the **Microsoft
     365** navigation pane select **Microsoft Word**, and then open a blank document.
@@ -459,14 +460,13 @@ heating systems, including with the pros and cons of each, before you
 contact a Heating, Ventilation, and Air Conditioning (HVAC) company and
 formally start this project.
 
-1.  Open a new browser tab in the lab VM and enter the following
-    URL: **<https://www.office.com>**.
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
     
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
  
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.   
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Comparing boiler and furnace heating systems report** document to **OneDrive**.
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Comparing boiler and furnace heating systems          report** document to **OneDrive**.
 
     **Tip**: open and close the file to get it in your Most Recently Used (MRU) file list.
 
@@ -624,14 +624,31 @@ formally start this project.
     questions to the speaker notes for the Q&A slide? If so, then
     congratulations!
 
-    If Copilot displays some exception, then remember that Copilot is
-    still a work in progress.
+    **Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one below.
     
     ![](./media/image38.png)
     
-    You can either discard this presentation or save it if you want to
-    keep it for future reference.
+    Please try rephrasing the prompt or use the suggested prompts like the one below.
 
+    ![](./media/image39.png)
+    
+24. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown     in the screenshot) 
+
+    ![](./media/image40.png)
+
+
+25. Click Send to check what happens.
+
+    ![](./media/image41.png)
+
+    Copilot has added a Q&A slide as instructed.
+
+26. Now try with another prompt:
+
+    **Add a slide about** what the audience may ask about the presentation
+   
+27.	Once you are done with final presentation you can save for future reference or discard this presentation.
+    
 ## Summary:
 
 In this lab you used:
