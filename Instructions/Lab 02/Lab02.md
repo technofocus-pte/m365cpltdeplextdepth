@@ -96,10 +96,10 @@ In this exercise, you will use Copilot in Loop to
 11. You're now going to enter your own prompt. In the prompt field,
     enter the following prompt and select the **Submit** icon:
 
-    **As the VP for Sales for an OEM in the plastics manufacturing
+    ++**As the VP for Sales for an OEM in the plastics manufacturing
     industry, please research the market for plastic components in the
     automotive industry. Provide information on target audience, market
-    size, competition, trends, regulations, and distribution channels**.
+    size, competition, trends, regulations, and distribution channels**.++
 
     ![](./media/image9.png)
 
@@ -113,7 +113,7 @@ In this exercise, you will use Copilot in Loop to
     the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
 
-    **Rewrite the report by placing the information in a table**.
+    ++**Rewrite the report by placing the information in a table**.++
     
     ![](./media/image11.png)
 
@@ -122,8 +122,8 @@ In this exercise, you will use Copilot in Loop to
     this market is a viable option for VanArsdel. Enter the following
     prompt:
 
-    **Add a recommendation to the end of the report as to whether we
-    should move into the market**.
+    ++**Add a recommendation to the end of the report as to whether we
+    should move into the market**.++
 
     ![](./media/image12.png)
 
@@ -289,7 +289,7 @@ Protein Shake.docx** file, which you download using the provided link.
     presentation for a Q&A session. Enter the following prompt and
     select the **Send** icon:
 
-    **Add a slide at the end of the presentation for Q&A**.
+    ++**Add a slide at the end of the presentation for Q&A**.++
 
     ![](./media/image27.png)
 
@@ -317,9 +317,9 @@ Protein Shake.docx** file, which you download using the provided link.
     see if Copilot can add all of its suggested questions to the speaker
     notes on the Q&A slide:
 
-    **In the speaker notes of the Q&A slide that you just created, add a
+    ++**In the speaker notes of the Q&A slide that you just created, add a
     list of possible questions that may be asked regarding this
-    presentation**.
+    presentation**.++
 
 21. If Copilot returns a message indicating that it was unable to
     generate the slide, try entering the prompt again. Sometimes when
@@ -338,8 +338,8 @@ Protein Shake.docx** file, which you download using the provided link.
 22. Now try this workaround. Enter the following prompt that asks it to
     generate a list of questions:
 
-    **What kind of questions do you think participants may ask during the
-    Q&A session**?
+    ++**What kind of questions do you think participants may ask during the
+    Q&A session**?++
 
     ![](./media/image30.png)
 
@@ -412,12 +412,12 @@ In this exercise, you will
 9.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
-    **I'm the Sales Manager for Northwind Traders, a supplier of various
+    ++**I'm the Sales Manager for Northwind Traders, a supplier of various
     grocery and beverage products. Please create a report that compares the
     supplier agreements for three of our customers**. **Provide a
     recommendation on contract renewals that can provide Northwind Traders
     with more favorable terms. The supplier agreements for these three
-    customers are attached**. **Thank you**!
+    customers are attached**. **Thank you**!++
 
     ![](./media/image33.png)
 
