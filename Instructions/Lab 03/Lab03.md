@@ -39,7 +39,7 @@ In this exercise you will use Microsoft Copilot in Bing
 **Note**: At the end of this exercise, you must save your project plan
 to your OneDrive account. The next exercise uses this file.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the **Microsoft 365** home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**   
     tab on the right.
@@ -61,7 +61,7 @@ to your OneDrive account. The next exercise uses this file.
     ![](./media/image2.png)
 
 5.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
-    following URL: **[https://bing.com](https://bing.com/).**
+    following URL: +++https://bing.com+++
 
     ![](./media/image3.png)
 
@@ -92,10 +92,10 @@ to your OneDrive account. The next exercise uses this file.
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-    **I'm the Director of IT at Adatum Corporation. Create a project plan
+    ++**I'm the Director of IT at Adatum Corporation. Create a project plan
     for installing a new network security product into a corporate
     network. Base this plan on IT industry guidelines for installing
-    network security products**.
+    network security products**.++
 
     ![](./media/image7.png)
 
@@ -110,10 +110,10 @@ to your OneDrive account. The next exercise uses this file.
     then remove them from this prompt so that Copilot doesn't duplicate
     them:
 
-    **While that was a good start, I feel like it's missing important
+    ++**While that was a good start, I feel like it's missing important
     areas. Please add the following items to the existing list: testing
     and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation.**
+    analysis, project timeline, and risk assessment and mitigation**.++
 
     ![](./media/image9.png)
 
@@ -126,10 +126,10 @@ to your OneDrive account. The next exercise uses this file.
     submit it yet as you must first link the file to the prompt in the
     next step:
 
-    **This version looks better. Please review the attached file, which is
+    ++**This version looks better. Please review the attached file, which is
     a product specification for the Contoso CipherGuard Sentinel X7
     security product, and update your project plan with information from
-    this product spec**.
+    this product spec**.++
 
     ![](./media/image11.png)
 
@@ -179,8 +179,8 @@ to your OneDrive account. The next exercise uses this file.
 16. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
-    **We're almost there. Please break down each item on the report into
-    multiple detailed steps**.
+    ++**We're almost there. Please break down each item on the report into
+    multiple detailed steps**.++
 
     ![](./media/image17.png)
 
@@ -233,7 +233,7 @@ that you saved it to your OneDrive account and proceed to the next
 step. However, if you were unable to create this project plan in the
 prior exercise, then upload a copy of the document **Contoso CipherGuard project plan.docx** available in **C:\LabFiles**.</span>
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: **<https://www.office.com>** to go     to Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: ++https://www.office.com++ to go     to Microsoft 365 home page.
     
     **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
 
@@ -319,8 +319,8 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
-    **Add a Q&A slide at the very end of the presentation with an
-    appropriate image**.
+    ++**Add a Q&A slide at the very end of the presentation with an
+    appropriate image**.++
 
     ![](./media/image26.png)
 
@@ -363,7 +363,7 @@ prior exercise, then upload a copy of the document **Contoso CipherGuard project
     theme of the presentation to something more appropriate due to the
     technical nature of the topic. Enter the following prompt:
 
-    **Change the theme of this presentation to something more technical.** 
+    ++**Change the theme of this presentation to something more technical**.++ 
 
     ![](./media/image31.png)
 
@@ -404,7 +404,7 @@ In this exercise, you will use Copilot in Word to update an existing
 document. You direct Copilot to add new text, rewrite existing text, and
 transform text into a table.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
@@ -434,9 +434,9 @@ transform text into a table.
 8.  In the **Copilot** pane, enter the following prompt and then select
     the arrow (**Send**) icon:
 
-    **Write a new section for this document about the types of VPNs. Discuss
+    ++**Write a new section for this document about the types of VPNs. Discuss
     the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details.**
+    audience, so please provide specific details**.++
 
     ![](./media/image35.png)
 
@@ -459,9 +459,9 @@ transform text into a table.
     policies related to VPN usage. This topic is a key area that you
     want included, so enter the following prompt:
 
-    **Please write a new section for this document about security policies
+    ++**Please write a new section for this document about security policies
     related to VPN usage. This content is for a technical audience, so
-    please provide specific details.**
+    please provide specific details**.++
 
     ![](./media/image36.png)
 
@@ -486,10 +486,10 @@ transform text into a table.
 13. Highlight the content in the first bullet of the **Risks and
     mitigation** section, and then enter the following prompt:
 
-    **The highlighted content discusses the risks of using VPNs in both
+    ++**The highlighted content discusses the risks of using VPNs in both
     home and enterprise networks. Remove the content related to home
     networks and focus solely on the risks of VPNs in enterprise
-    networks.**
+    networks**.++
     
     ![](./media/image38.png)
 
@@ -506,7 +506,7 @@ transform text into a table.
     section to be rewritten, you decide to highlight these two sections.
     Highlight both sections and then enter the following prompt:
 
-    **Please rewrite the highlighted content by placing it in a table**.
+    ++**Please rewrite the highlighted content by placing it in a table**.++
 
     ![](./media/image40.png)
 
@@ -520,7 +520,7 @@ transform text into a table.
     you want included in the table. This time, enter the following
     prompt:
 
-    **Place the content from the Pros and Cons of implementing VPNs into a table**
+    ++**Place the content from the Pros and Cons of implementing VPNs into a table**.++
     
     ![](./media/image42.png)
 
@@ -541,7 +541,7 @@ transform text into a table.
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
-    **Is there anything missing in this document that you would recommend adding?**
+    ++**Is there anything missing in this document that you would recommend adding?**.++
 
     ![](./media/image44.png)
 
