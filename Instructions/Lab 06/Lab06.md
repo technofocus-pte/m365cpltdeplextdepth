@@ -26,7 +26,7 @@ document that outlines all the job responsibilities for this role. In
 this exercise you will use Copilot in Word to create a job description
 based on the role responsibilities in this document.
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: **<https://www.office.com>** to go to the **Microsoft 365** home page.
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
@@ -44,7 +44,7 @@ based on the role responsibilities in this document.
   
 4.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
-    following URL: [**https://www.office.com**](https://www.office.com/)
+    following URL: +++https://www.office.com+++
 
 5.  In **Microsoft 365** home page, select **Microsoft Word**,and then open a blank
     document.
@@ -53,11 +53,11 @@ based on the role responsibilities in this document.
     but don't select the **Generate** button until after you link the
     responsibilities file to the prompt in the next step:
 
-    **I'm the HR Manager at the Graphic Design Institute. We've currently
+    ++**I'm the HR Manager at the Graphic Design Institute. We've currently
     started the hiring process for a new Senior Animation Designer. Please
     review the attached document that outlines the job responsibilities
     for this role and create a job description based on those
-    responsibilities**.
+    responsibilities**.++
 
 7.  You now must attach to the prompt the **Graphic Design Institute -
     Design Team Responsibilities.docx** file that you downloaded. In
@@ -93,11 +93,11 @@ based on the role responsibilities in this document.
     shortcoming, enter the following prompt and select the forward
     arrow:
 
-    **While this job description draft is a good start, you failed to
+    ++**While this job description draft is a good start, you failed to
     include most of the details found in the job responsibilities
     document. Please try again, and this time outline each responsibility
     area and select the responsibilities required of a Senior Animation
-    Designer**.
+    Designer**.++
 
     ![](./media/image6.png)
 
@@ -108,10 +108,10 @@ based on the role responsibilities in this document.
 13. Again, you feel that Copilot should provide more details. Enter the
     following prompt to see if you can get it to be more specific:
 
-    **This job description draft is better, but it still lacks the details
+    ++**This job description draft is better, but it still lacks the details
     that I'm looking for. The job responsibilities document outlined
     detailed responsibilities for each area. Include those details in this
-    job description. Be as specific as you can**.
+    job description. Be as specific as you can**.++
 
 14. After reviewing the results, you're reminded of the saying, "Be
     careful what you wish for" The list of responsibilities in this
@@ -174,7 +174,7 @@ Design Institute - Job descriptions.docx**. If it is saved with a
 different file name, then remember the name that you used so that you
 can locate the file in this exercise.
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new          tab and enter the following URL: **<https://www.office.com>**.
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new          tab and enter the following URL: +++https://www.office.com+++
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
@@ -204,11 +204,11 @@ can locate the file in this exercise.
     prompt just yet. You must attach the files to the prompt in the next
     step:
 
-    **I'm the Hiring Manager for Graphic Design Institute. We're hiring
+    ++**I'm the Hiring Manager for Graphic Design Institute. We're hiring
     for the position of Senior Animation Designer. Please create a report
     that compares the attached resumes to the requirements for a Senior
     Animation Designer in the attached job description file and rank the
-    candidates from most qualified to least qualified. Thank you!**
+    candidates from most qualified to least qualified. Thank you**!++
     
     ![](./media/image13.png)
 
@@ -267,9 +267,8 @@ can locate the file in this exercise.
     error message. Dismiss and try regenerating the comparison report
     until you get the regenerated report.
 
-<!-- -->
 
-10. Review the second draft that Copilot created. In the real world, you
+12. Review the second draft that Copilot created. In the real world, you
     can repeat this process until you're satisfied with a specific
     draft. If you want to go back to a previous draft to compare it to a
     more recent draft, select the forward (\>) and backward (\<) arrows
@@ -284,7 +283,7 @@ can locate the file in this exercise.
     into normal Microsoft Word mode. It also automatically saves
     the **Report Comparison** document to your OneDrive account.
 
-11. You're now ready to have Copilot review the final two resumes.
+13. You're now ready to have Copilot review the final two resumes.
     However, as the earlier step indicated, you must compare the
     remaining two resumes to the **Report Comparison** document that you
     just created that compared the first two resumes. To do so, you must
@@ -295,17 +294,17 @@ can locate the file in this exercise.
     the **New** section. Doing so opens a new tab in your browser along
     with a new Word document.
 
-12. In the **Draft with Copilot** window, enter the following prompt,
+14. In the **Draft with Copilot** window, enter the following prompt,
     but don't submit it. You must attach the remaining two resume files
     and the first **Report Comparison** report to the prompt in the next
     step:
 
-    **That was a good start. Please create a report that compares the
+    ++**That was a good start. Please create a report that compares the
     attached resumes to the prior resume comparison report (attached) and
     rank the candidates from most qualified to least qualified. Thank
-    you!**
+    you**!++
 
-13. You now must attach the report that you just created that compared
+15. You now must attach the report that you just created that compared
     the first two resumes, along with the remaining two resumes. After
     entering the prompt in the prior step, select the **Reference your
     content** button in the **Draft with Copilot** window. In the
@@ -313,7 +312,7 @@ can locate the file in this exercise.
     Resumes** document that you created should appear at the top of the
     file list. Select this document.
 
-14. In the **Draft with Copilot** window, select the **Reference your
+16. In the **Draft with Copilot** window, select the **Reference your
     content** button. In the drop-down menu that appears, you need to
     attach one of the remaining two resumes. If you see one of the files
     in the file list, then select it. Otherwise, select **Browse files
@@ -324,7 +323,7 @@ can locate the file in this exercise.
 
     ![](./media/image18.png)
 
-15. Once you have the first Report Comparison report and the remaining
+17. Once you have the first Report Comparison report and the remaining
     two resumes attached to the prompt, select the **Generate** button
     in the **Draft with Copilot** window.
 
@@ -332,7 +331,7 @@ can locate the file in this exercise.
     you may come across the “Something went wrong” error message. Dismiss
     and try generating the comparison report until you get the report.
 
-16. Copilot should compare the first two resumes and the final two
+18. Copilot should compare the first two resumes and the final two
     resumes and provide a rank list of the candidates. At this point,
     you could regenerate a new draft or ask Copilot to make any changes.
     For this training exercise, you decide you're satisfied with the
@@ -340,7 +339,7 @@ can locate the file in this exercise.
 
     ![](./media/image19.png)
 
-17. At this point, Copilot generated two Report Comparison documents,
+19. At this point, Copilot generated two Report Comparison documents,
     the second of which is the final report comparing all four
     candidates. Keep this scenario in mind if you must do something
     similar in the real-world using Copilot in Word. You can close this
@@ -368,7 +367,7 @@ questions based on your direction.
 1.  If you have **Microsoft 365** open in a tab, then proceed to the
     next step. Otherwise, open a new tab in your **Microsoft
     Edge** browser, and then enter the following
-    URL: [**https://www.office.com**](https://www.office.com/)
+    URL: +++https://www.office.com+++https://www.office.com/)
 
 2.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
     navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on the **Apps** page,       scroll down to locate **Loop** and then select it.
@@ -420,9 +419,9 @@ questions based on your direction.
 10. In the **Copilot** window that appears, enter the following prompt
     and select the **Submit** icon:
 
-    **Create a list of the 15 best interview questions that should be
+    ++**Create a list of the 15 best interview questions that should be
     asked to candidates applying for a new Senior Animation Designer role
-    at the Graphic Design Institute**.
+    at the Graphic Design Institute**.++
 
     ![](./media/image25.png)
 
@@ -439,8 +438,8 @@ questions based on your direction.
     types of questions are missing. In the Copilot pane that appears,
     enter the following prompt:
 
-    **Add a question about having failed at a project and what they
-    learned from it**.
+    ++**Add a question about having failed at a project and what they
+    learned from it**.++
     
     ![](./media/image27.png)
 
@@ -452,10 +451,10 @@ questions based on your direction.
     few, if any questions about leadership. To correct this situation,
     enter the following prompt:
 
-    **As a Senior Animation Designer, the candidate is expected to lead
+    ++**As a Senior Animation Designer, the candidate is expected to lead
     their design team on projects. Ask them to talk about a couple of
     their most significant experiences in leading other design team
-    members, and what their leadership style is**.
+    members, and what their leadership style is**.++
     
     ![](./media/image29.png)
 
@@ -482,8 +481,8 @@ questions based on your direction.
     Copilot in Loop to recommend some more questions. Enter the
     following prompt:
 
-    **Are there any other questions that you think should be added to the
-    list?**
+    ++**Are there any other questions that you think should be added to the
+    list**?++
 
 17. Note the final list of questions that Copilot in Loop generated.
 
