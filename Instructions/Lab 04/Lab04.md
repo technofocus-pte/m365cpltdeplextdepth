@@ -41,7 +41,7 @@ the tips and choosing the right conversation style (either More
 Creative, More Balanced, or More Precise).
 
 1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: **[https://bing.com](https://bing.com/).**
+    URL: +++https://bing.com+++
 
 2.  In **Microsoft Bing**, in the list of tabs across the top of the
     page, select **Copilot**. Doing so opens Microsoft Copilot.
@@ -65,10 +65,10 @@ Creative, More Balanced, or More Precise).
 5.  In the prompt field, enter the following prompt and then select
     the **Submit** icon:
 
-    **I'm the Director for Market Research for Tailspin Toys, a U.S. based
+    ++**I'm the Director for Market Research for Tailspin Toys, a U.S. based
     toy manufacturer. Conduct a market analysis of the toy industry to
     identify sales figures, the latest trends, consumer preferences, and
-    the most popular toys in the market**.
+    the most popular toys in the market**.++
 
     ![](./media/image4.png)
 
@@ -87,10 +87,10 @@ Creative, More Balanced, or More Precise).
     iterate, iterate, iterate. Enter the following prompt to amend the
     market analysis:
 
-    **That analysis was great. However, I'm also interested in including
+    ++**That analysis was great. However, I'm also interested in including
     data on the toy industry, including market share and consumer
     feedback. Please amend your prior analysis to include this
-    information. Thanks**!
+    information. Thanks**!++
 
     ![](./media/image6.png)
 
@@ -107,10 +107,10 @@ Creative, More Balanced, or More Precise).
     plan for the upcoming year. To correct this shortcoming, enter the
     following prompt:
 
-    **I think all the data is complete. With all the information that you
+    ++**I think all the data is complete. With all the information that you
     captured, please analyze the data and identify patterns, trends, and
     insights that can help me determine what Tailspin Toy's business plan
-    should be for the upcoming year**.
+    should be for the upcoming year**.++
 
     ![](./media/image9.png)
 
@@ -123,11 +123,11 @@ Creative, More Balanced, or More Precise).
     have Copilot help you determine if you're missing anything. Enter
     the following prompt:
 
-    **Please analyze the data in this market analysis and business plan.
+    ++**Please analyze the data in this market analysis and business plan.
     Is there any other information that a toy company would typically
     request for market analysis and business plans that I failed to
     request? If so, can you please amend your responses to include this
-    information. Thank you**!
+    information. Thank you**!++
 
     ![](./media/image11.png)
 
@@ -138,9 +138,9 @@ Creative, More Balanced, or More Precise).
     Copilot include an analysis of these areas. To put the finishing
     touch on your reports, enter the following prompt:
 
-    **Please amend the market analysis to include an analysis of each of
+    ++**Please amend the market analysis to include an analysis of each of
     these areas for the Toy industry. Also update the business plan that
-    you created for Tailspin Toys based on these insights. Thanks**!
+    you created for Tailspin Toys based on these insights. Thanks**!++
 
     ![](./media/image13.png)
 
@@ -161,7 +161,7 @@ Creative, More Balanced, or More Precise).
 12. Let's explore how Copilot's responses would be different using
     the **More Creative** style. Open a new tab in your **Microsoft
     Edge** browser and enter the following
-    URL: [**https://bing.com**](https://bing.com/)
+    URL: +++https://bing.com+++
 
 13. In **Microsoft Bing**, select **Copilot** to open Microsoft Copilot.
 
@@ -278,8 +278,8 @@ line.
     brainstorm. For this exercise, enter the following prompt field and
     select the **Submit** icon:
 
-    **Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
-    toys**.
+    ++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
+    toys**.++
 
     ![](./media/image31.png)
 
@@ -293,9 +293,9 @@ line.
 13. In the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
 
-    **That looks good. However, please rewrite the report by placing the
+    ++**That looks good. However, please rewrite the report by placing the
     information in a table and provide more specific details for each
-    idea**.
+    idea**.++
 
     ![](./media/image33.png)
 
@@ -305,7 +305,7 @@ line.
     Copilot to add another idea to the table titled **Supermarket store
     promotions**. To do so, enter the following prompt:
 
-    **Add an idea for Supermarket store promotions**.
+    ++**Add an idea for Supermarket store promotions**.++
 
     ![](./media/image35.png)
     
@@ -335,8 +335,8 @@ line.
     Copilot sort the ideas from best to worst. Enter the following
     prompt to sort the ideas:
 
-    **Please sort the ideas in the table starting from most effective to
-    least effective**.
+    ++**Please sort the ideas in the table starting from most effective to
+    least effective**.++
 
     **Note:** Locate the **Sort** icon (the up and down arrows) that
     appears in the icon tray above the list of ideas. This option simply
@@ -350,7 +350,7 @@ line.
     natural fit for a new toy line that focuses on outdoor products. To
     do so, enter the following prompt:
 
-    **Please replace the final idea in the table with Seasonal Promotions**.
+    ++**Please replace the final idea in the table with Seasonal Promotions**.++
 
     ![](./media/image38.png)
 
@@ -379,7 +379,7 @@ Copilot to creates the combined report, review it and possibly update it
 with other information that Copilot can find on the Chai Tea market in
 Latin America.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
@@ -414,11 +414,11 @@ Latin America.
     the **Generate** button until after you link the three files to the
     prompt:
 
-    **I'm the LATAM Marketing Director for Contoso Beverage. Please create
+    ++**I'm the LATAM Marketing Director for Contoso Beverage. Please create
     a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
     beverage. Combine the three attached files to create a report that
     describes the product, analyzes the market trend for it, and includes
-    a promotion plan for Latin America**.
+    a promotion plan for Latin America**.++
 
     ![](./media/image42.png)
 
@@ -456,11 +456,11 @@ Latin America.
 
     ![](./media/image46.png)
 
-    **This report looks good. However, please add a section titled
+    ++**This report looks good. However, please add a section titled
     Competitive Analysis. Review the beverage companies in Latin America
     that sell Chai Tea and then provide information in this section on the
     strengths and weaknesses of these competitors, their market share, and
-    their pricing strategies**.
+    their pricing strategies**.++
 
     ![](./media/image47.png)
 
@@ -474,10 +474,10 @@ Latin America.
 
     ![](./media/image48.png)
 
-    **Nice job! One last thing. Please add a section titled Distribution
+    ++**Nice job! One last thing. Please add a section titled Distribution
     Channels. Review the distribution channels used to sell Chai Tea in
     Latin America and then provide information in this section on the
-    types of retailers, wholesalers, and distributors used**.
+    types of retailers, wholesalers, and distributors used**.++
 
 12. After reviewing this latest draft that contains the new Distribution
     Channels section, you're satisfied with the report and you're ready
@@ -516,7 +516,7 @@ the monthly marketing trends.
 In this exercise, you will use Copilot in Excel to analyze a market
 trend spreadsheet that already has an Excel table defined.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
 
