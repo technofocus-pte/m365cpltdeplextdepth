@@ -47,7 +47,7 @@ basically an AI-assisted sticky-note exercise.
 
 1.  In your Microsoft Edge browser, open a new tab and enter the
     following URL to go to the Microsoft 365 home
-    page: [**<u>https://www.office.com</u>**](https://www.office.com/)
+    page: +++https://www.office.com+++
 
 2.  On the **Microsoft 365** home page, if a **Whiteboard** icon appears
     in the left-hand navigation pane, then select it now and proceed to
@@ -79,9 +79,9 @@ basically an AI-assisted sticky-note exercise.
 8.  In the **Suggest content with Copilot** window, enter the following
     prompt:
 
-    **I'm the Operations Manager for Adatum Corporation. We're installing
+    ++**I'm the Operations Manager for Adatum Corporation. We're installing
     a new boiler in our heating system. Please suggest the steps we should
-    follow to install the new boiler**.
+    follow to install the new boiler**.++
     
     ![](./media/image4.png)
 
@@ -102,8 +102,8 @@ basically an AI-assisted sticky-note exercise.
     you keep receiving this error after three or four attempts, then
     simplify the prompt by entering the following text:
 
-    **Please suggest the steps we should follow to install a new boiler in
-    our building's heating system**.
+    ++**Please suggest the steps we should follow to install a new boiler in
+    our building's heating system**.++
 
 10. By default, Copilot generates ideas in groups of six. In
     the **Suggest content with Copilot** window that appears, note the
@@ -160,8 +160,8 @@ basically an AI-assisted sticky-note exercise.
 16. In the **Suggest content with Copilot** window that appears, enter
     the following prompt to generate more ideas about risk mitigation:
 
-    **Suggest ways to mitigate the risks of installing a new boiler into
-    the building's heating system**.
+    ++**Suggest ways to mitigate the risks of installing a new boiler into
+    the building's heating system**.++
     
     ![](./media/image11.png)
 
@@ -242,8 +242,8 @@ basically an AI-assisted sticky-note exercise.
     the following prompt to generate more ideas about minimizing system
     down-time:
 
-    **Suggest ways to limit heating system downtime when installing a new
-    boiler**.
+    ++**Suggest ways to limit heating system downtime when installing a new
+    boiler**.++
 
 28. Review the six ideas that Copilot suggested. You're satisfied with
     these ideas, so select the **Insert (6)** button.
@@ -338,7 +338,7 @@ in the Copilot pane or when creating a new document.
 
 1.  If you have a Microsoft 365 tab open in the Edge browser,
     then select it now; otherwise, open a new tab and enter the
-    following URL: [**<u>https://www.office.com</u>**](https://www.office.com/)
+    following URL: +++https://www.office.com+++
 
     Note: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on     the right.
     
@@ -350,7 +350,7 @@ in the Copilot pane or when creating a new document.
     blank document, enter the following prompt and select
     the **Generate** button:
 
-    **I'm the Operations Manager for Adatum Corporation. We're thinking
+    ++**I'm the Operations Manager for Adatum Corporation. We're thinking
     about possibly replacing our building's current boiler system with a
     furnace system. Write a report describing what type of boiler systems
     are used in most commercial buildings, and include what considerations
@@ -359,7 +359,7 @@ in the Copilot pane or when creating a new document.
     system to a furnace system in a commercial two-story building built in
     the 1970s, whether changing from a boiler system to a furnace system
     will have any effect on our current air conditioning system, and the
-    average defect rates for boiler systems versus furnace systems.**
+    average defect rates for boiler systems versus furnace systems**.++
     
     ![](./media/image20.png)
 
@@ -382,8 +382,8 @@ in the Copilot pane or when creating a new document.
     pane, enter the following question and then select
     the **Send** arrow:
 
-    **What type of boilers do most buildings use as part of their heating
-    systems**?
+    ++**What type of boilers do most buildings use as part of their heating
+    systems**?++
     
     ![](./media/image22.png)
 
@@ -460,7 +460,7 @@ heating systems, including with the pros and cons of each, before you
 contact a Heating, Ventilation, and Air Conditioning (HVAC) company and
 formally start this project.
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
  
@@ -556,8 +556,8 @@ formally start this project.
     following prompt (don't forget to replace \[enter slide number
     here\] with the number of the slide you picked):
 
-    **Add an image to slide \[enter slide number here\]**. **The image
-    should contain a picture related to the slide contents**.
+    ++**Add an image to slide \[enter slide number here\]**. **The image
+    should contain a picture related to the slide contents**.++
     
     ![](./media/image32.png)
 
@@ -566,8 +566,8 @@ formally start this project.
     You want Copilot to research this topic and then add it into the
     presentation. Enter the following prompt:
 
-    **What is the average lifespan of a boiler heating system versus a
-    furnace heating system**?
+    ++**What is the average lifespan of a boiler heating system versus a
+    furnace heating system**?++
 
     ![](./media/image33.png)
 
@@ -577,7 +577,7 @@ formally start this project.
     replace \[enter slide number here\] with the number of the slide you
     picked):
 
-    **Add this lifespan content to slide \[enter slide number here\]**.
+    ++**Add this lifespan content to slide \[enter slide number here\]**.++
     
     ![](./media/image34.png)
 
@@ -594,9 +594,9 @@ formally start this project.
     content and add it to the slide all in one prompt. This time, enter
     the following prompt:
 
-    **Add content about the average lifespan of a boiler heating system
+    ++**Add content about the average lifespan of a boiler heating system
     versus a furnace heating system to slide \[enter slide number
-    here\].**
+    here\].**++
     
     ![](./media/image36.png)
 
@@ -607,8 +607,8 @@ formally start this project.
     Question-and-Answer (Q&A) session. To correct this situation, enter
     the following prompt:
 
-    **Add a Q&A slide at the very end of the presentation with an
-    appropriate image.**
+    ++**Add a Q&A slide at the very end of the presentation with an
+    appropriate image**.++
     
     ![](./media/image37.png)
 
@@ -617,8 +617,8 @@ formally start this project.
     them to the speaker notes for the Q&A slide. Enter the following
     prompt:
 
-    **Create a list of five questions that may be asked during the Q&A
-    session and add them to the speaker notes in the Q&A slide.**
+    ++**Create a list of five questions that may be asked during the Q&A
+    session and add them to the speaker notes in the Q&A slide**.++
 
 22. How did Copilot respond when you tried this prompt? Did it add five
     questions to the speaker notes for the Q&A slide? If so, then
