@@ -1,1 +1,1 @@
-# Lab 06: Empower Team Collaboration and Content Creation with Copilot Pages
+# Lab 06: Empower Team collaboration and content creation with Copilot Pages
