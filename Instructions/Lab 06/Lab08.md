@@ -1,4 +1,4 @@
-# Lab 06: Empower your workforce – Copilot – HR
+# Lab 08: Empower your workforce – Copilot – HR
 
 ## Objective:
 
