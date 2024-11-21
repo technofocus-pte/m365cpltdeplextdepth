@@ -34,14 +34,17 @@ application.
 
 - **Lab 05**: Empower your workforce -Copilot-Finance
 
-- **Lab 06**: Empower your workforce - Copilot-HR
+- **Lab 06**: 
 
-- **Lab 07**: Empower your workforce - Copilot-Operations
+- **Lab 07**: 
 
-- **Lab 08**: Create conversational actions for Microsoft Copilot
-  (preview)
+- **Lab 08**: Empower your workforce - Copilot-HR
 
-- **Lab 09**: Create AI plugin actions for Microsoft Copilot (preview)
+- **Lab 09**: Empower your workforce - Copilot-Operations
+
+-  **Lab 10**:
+
+-  **Lab 11**:
 
 During these exercises, you'll use Copilot in various Microsoft 365 apps
 such as Word, PowerPoint, and Outlook to perform common business tasks
