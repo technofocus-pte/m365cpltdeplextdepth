@@ -1,1 +1,2 @@
-# Lab 06: Empower Team collaboration and content creation with Copilot Pages
+# Lab 06: Gain deeper insights on your data with Copilot and Python in Excel
+
