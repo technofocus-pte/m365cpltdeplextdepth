@@ -34,17 +34,17 @@ application.
 
 - **Lab 05**: Empower your workforce -Copilot-Finance
 
-- **Lab 06**: 
+- **Lab 06**: Gain deeper insights on your data with Copilot and Python in Excel
 
-- **Lab 07**: 
+- **Lab 07**: Empower Team Collaboration and Content Creation with Copilot Pages
 
 - **Lab 08**: Empower your workforce - Copilot-HR
 
 - **Lab 09**: Empower your workforce - Copilot-Operations
 
--  **Lab 10**:
+-  **Lab 10**: Build an autonomous agent to analyze the sentiment of an email and respond to it accordingly.
 
--  **Lab 11**:
+-  **Lab 11**: Implement prompt action for a quiz generation agent’s topic and Automation for the agent with Power Automate cloud flows
 
 During these exercises, you'll use Copilot in various Microsoft 365 apps
 such as Word, PowerPoint, and Outlook to perform common business tasks
