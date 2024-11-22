@@ -248,7 +248,7 @@ as multi choice+++
 
     ![](./media/image33.png)
 
-Summary
+## Summary
 
 In this lab, we have learnt how to create a prompt action for a topic by
 creating a custom prompt and test it.
