@@ -1,4 +1,4 @@
-# Lab 09 – Build an autonomous agent to track new files created in OneDrive
+# Lab 09: Build an autonomous agent to track new files created in OneDrive
 
 **Introduction**
 
