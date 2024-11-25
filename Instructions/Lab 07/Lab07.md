@@ -365,9 +365,8 @@ exercise, you can check whether Copilot in Loop can amend the list of
 questions based on your direction.
 
 1.  If you have **Microsoft 365** open in a tab, then proceed to the
-    next step. Otherwise, open a new tab in your **Microsoft
-    Edge** browser, and then enter the following
-    URL: +++https://www.office.com+++https://www.office.com/)
+    next step. Otherwise, open a new tab in your **Microsoft Edge** browser, and then enter the following
+    URL: +++https://www.office.com+++
 
 2.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
     navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on the **Apps** page,       scroll down to locate **Loop** and then select it.
