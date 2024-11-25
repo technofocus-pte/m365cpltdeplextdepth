@@ -17,9 +17,11 @@ potential solutions, and key benefits of adopting Contoso’s recommended VPN ar
 document shared by Trey Research.
 
 ## Exercise #1: Create a Copilot Page
-The reference document shared by Trey Research contains key information about Trey Research's operations, existing IT infrastructure, and VPN needs. As a Infrastructure solution consultant, you will reference this document to draft the proposal. 
+The reference document shared by Trey Research contains key information about Trey Research's operations, 
+existing IT infrastructure, and VPN needs. As a Infrastructure solution consultant, you will reference this 
+document to draft the proposal. 
 
-### Task 1: Access Copilot and Start a Conversation
+### Task 1: Get the reference document listed in the Most Recently Used (MRU) file list.
 1. If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open 
    a new tab and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
@@ -37,3 +39,5 @@ The reference document shared by Trey Research contains key information about Tr
 
 4.  Open and close the file **Trey Research - VPN Technical Overview.docx** (which you uploaded to         
     OneDrive) to get it in your Most Recently Used (MRU) file list.
+
+### Task 2: Access Copilot and Start a Conversation
