@@ -13,10 +13,11 @@ You are part of Fabrikam's IT consulting team. Trey Research, a fast-growing pha
 Your task is to deliver an Executive Overview Document summarizing Trey Research’s VPN requirements, 
 potential solutions, and key benefits of adopting Contoso’s recommended VPN architecture.
 
-**Note**: You will be using **Trey Research - VPN Technical Overview** document as a base reference document shared by Trey Research.
+**Note**: You will be using **Trey Research - VPN Technical Overview** document as a base reference the 
+document shared by Trey Research.
 
 ## Exercise #1: Create a Copilot Page
-The reference document shared by Trey Research contains key information about Trey Research's operations, existing IT infrastructure, and VPN needs. As a Infrastructure solution consultant, you will reference document to draft the proposal. 
+The reference document shared by Trey Research contains key information about Trey Research's operations, existing IT infrastructure, and VPN needs. As a Infrastructure solution consultant, you will reference this document to draft the proposal. 
 
 ### Task 1: Access Copilot and Start a Conversation
 1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
