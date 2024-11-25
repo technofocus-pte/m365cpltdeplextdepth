@@ -49,5 +49,6 @@ document to draft the proposal.
    
 3.  Open Copilot in **Teams** and select Copilot. Begin a chat with **Copilot** by entering the following 
     prompt.
+
     ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and 
     compliance with industry standards.++
