@@ -2,8 +2,7 @@
 
 ## Objective:
 
-Operations Managers can use Copilot for Microsoft 365 to streamline
-their workflow and enhance their productivity.
+Operations Managers can use Copilot for Microsoft 365 to streamline their workflow and enhance their productivity.
 
 In this lab you will use:
 
