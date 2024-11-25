@@ -1,8 +1,7 @@
 # Lab 06: Empower Team collaboration and content creation with Copilot Pages
 
 ## Objectives:
-In this lab, you will learn to use Microsoft Copilot within **Microsoft 365 Pages** to collaborate effectively, refine content, and share results dynamically.
-
+In this lab, you will learn to use Microsoft Copilot within **Microsoft 365 Pages** to 
 -  Interact with Copilot to generate and edit content.
 -  Refine and enhance generated content using **Microsoft 365 Pages** features.
 -  Share and collaborate on M365 Pages with a team for seamless productivity.
