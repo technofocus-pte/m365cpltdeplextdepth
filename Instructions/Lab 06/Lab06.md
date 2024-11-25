@@ -20,9 +20,11 @@ document shared by Trey Research.
 The reference document shared by Trey Research contains key information about Trey Research's operations, existing IT infrastructure, and VPN needs. As a Infrastructure solution consultant, you will reference this document to draft the proposal. 
 
 ### Task 1: Access Copilot and Start a Conversation
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
+1. If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open 
+   a new tab and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
-**Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on the right.
+   **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+   **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
