@@ -1,4 +1,4 @@
-# Lab 09: Empower your workforce – Copilot – Operations
+# Lab 08: Empower your workforce – Copilot – Operations
 
 ## Objective:
 
