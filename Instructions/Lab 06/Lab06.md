@@ -41,3 +41,13 @@ document to draft the proposal.
     OneDrive) to get it in your Most Recently Used (MRU) file list.
 
 ### Task 2: Access Copilot and Start a Conversation
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise,
+    open a new tab and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** 
+    home page.
+
+2.  On the **Microsoft 365** navigation pane, select **Teams** to open it.
+   
+3.  Open Copilot in **Teams** and select Copilot. Begin a chat with **Copilot** by entering the following 
+    prompt.
+    ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and 
+    compliance with industry standards.++
