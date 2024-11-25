@@ -4,7 +4,7 @@
 In this lab, you will learn to use Microsoft Copilot within **Microsoft 365 Pages** to 
 -  Interact with Copilot to generate and edit content.
 -  Refine and enhance generated content using **Microsoft 365 Pages** features.
--  Share and collaborate on M365 Pages with a team for seamless productivity.
+-  Share and collaborate on **Microsoft 365 Pages** with a team for seamless productivity.
 -  Re-access and manage pages from the Pages module in **Microsoft 365**.
 
 **Scenario**:
