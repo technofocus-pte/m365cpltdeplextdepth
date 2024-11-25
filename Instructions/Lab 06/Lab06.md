@@ -48,7 +48,11 @@ document to draft the proposal.
 2.  On the **Microsoft 365** navigation pane, select **Teams** to open it.
     Please wait while the setup process completes.
 
+    ![](./media/image2.png)
+    
 3.  Select **Chat** and open **Copilot**
+
+    ![](./media/image3.png)
   
 4.  Begin a chat with **Copilot** by entering the following prompt.
 
@@ -58,12 +62,16 @@ document to draft the proposal.
     **Note**: On the Copilot page, in the **Work/Web** toggle switch at the top of the page, **Work** will 
     be selected by default.
 
+    ![](./media/image5.png)
 
 5.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
    Executive summary. Select the **Attach** (Paper clip) icon to reference the document.
 
+   ![](./media/image6.png)
+
 6.	Select the document **Trey Research – VPN Technical Overview**.
 
+   ![](./media/image7.png)
 
    **Note**: If the file is not listed in the popup list, try again by selecting the **Attach** icon.       
    Sometimes it will get displayed after the third try.
@@ -71,10 +79,16 @@ document to draft the proposal.
 7.	You will see the selected document attached in the Prompt box. Click **Send** icon to trigger 
    **Copilot** start generating the content.
 
+  	![](./media/image8.png)
 
-8.	Copilot will comb through the reference document and start generating the content.
-   
+9.	Copilot will comb through the reference document and start generating the content.
 
-9.	You can rename the chat as per your requirement.
+   ![](./media/image9.png)
+
+10.You can rename the chat as per your requirement.
+
+   ![](./media/image10.png)
 
    **Note**: Copilot chat name cannot be more than 30 characters.
+   
+   ![](./media/image11.png)
