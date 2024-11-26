@@ -326,4 +326,4 @@ In this lab, you applied the following skills:
   enhance teamwork.
 
 to real-world scenarios by integrating Microsoft 365 Copilot into daily
-workflows for productivity and collaboration**.**
+workflows for productivity and collaboration.
