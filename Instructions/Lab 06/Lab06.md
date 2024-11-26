@@ -57,7 +57,7 @@ document to draft the proposal.
 4.  Begin a chat with **Copilot** by entering the following prompt.
 
     ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and  
-    compliance with industry standards.++
+   compliance with industry standards.++
 
     **Note**: On the Copilot page, in the **Work/Web** toggle switch at the top of the page, **Work** will 
     be selected by default.
@@ -76,10 +76,10 @@ document to draft the proposal.
    **Copilot** start generating the content.
   	![](./media/image7.png)
 
-9.	Copilot will comb through the reference document and start generating the content.
+8.	Copilot will comb through the reference document and start generating the content.
    ![](./media/image8.png)
 
-10.You can rename the chat as per your requirement.
+9. You can rename the chat as per your requirement.
    ![](./media/image9.png)
    **Note**: Copilot chat name cannot be more than 30 characters.
    ![](./media/image10.png)
