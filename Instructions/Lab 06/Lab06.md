@@ -66,29 +66,21 @@ document to draft the proposal.
 
 5.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
    Executive summary. Select the **Attach** (Paper clip) icon to reference the document.
-
    ![](./media/image6.png)
 
 6.	Select the document **Trey Research – VPN Technical Overview**.
-
    ![](./media/image7.png)
-
    **Note**: If the file is not listed in the popup list, try again by selecting the **Attach** icon.       
    Sometimes it will get displayed after the third try.
 
 7.	You will see the selected document attached in the Prompt box. Click **Send** icon to trigger 
    **Copilot** start generating the content.
-
   	![](./media/image8.png)
 
 9.	Copilot will comb through the reference document and start generating the content.
-
    ![](./media/image9.png)
 
 10.You can rename the chat as per your requirement.
-
    ![](./media/image10.png)
-
    **Note**: Copilot chat name cannot be more than 30 characters.
-   
    ![](./media/image11.png)
