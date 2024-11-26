@@ -41,27 +41,27 @@ document to draft the proposal.
     OneDrive) to get it in your Most Recently Used (MRU) file list.
 
 ### Task 2: Access Copilot and Start a Conversation
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise,
-    open a new tab and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** 
-    home page.
+1. If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise,
+   open a new tab and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** 
+   home page.
 
-2.  On the **Microsoft 365** navigation pane, select **Teams** to open it.
-    Please wait while the setup process completes.
+2. On the **Microsoft 365** navigation pane, select **Teams** to open it.
+   Please wait while the setup process completes.
 
-    ![](./media/image2.png)
+   ![](./media/image2.png)
     
-3.  Select **Chat** and open **Copilot**
+3. Select **Chat** and open **Copilot**
 
-    ![](./media/image3.png)
+   ![](./media/image3.png)
   
-4.  Begin a chat with **Copilot** by entering the following prompt.
+4. Begin a chat with **Copilot** by entering the following prompt.
 
-    ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and
+   ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and
 compliance with industry standards.++
 
-    **Note**: On the Copilot page, in the **Work/Web** toggle switch at the top of the page, **Work** will 
-    be selected by default.
-    ![](./media/image4.png)
+   **Note**: On the Copilot page, in the **Work/Web** toggle switch at the top of the page, **Work** will 
+   be selected by default.
+   ![](./media/image4.png)
 
 5.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
    Executive summary. Select the **Attach** (Paper clip) icon to reference the document.
@@ -78,12 +78,10 @@ compliance with industry standards.++
 
 8.	Copilot will comb through the reference document and start generating the content.
    ![](./media/image8.png)
-
    ![](./media/image11.png)
    
 9. Once Copilot completes generating the draft content, you will see the Edit in Pages button at the end of 
    the end of the generated content.
-
    ![](./media/image12.png)
 
 10. You can rename the chat as per your requirement.
