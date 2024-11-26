@@ -5,12 +5,9 @@
 In this lab, you will learn to use Microsoft Copilot within **Microsoft 365 Pages** to
 
 - Interact with Copilot to generate and edit content.
-
 - Refine and enhance generated content using **Microsoft 365 Pages** features.
-
 - Share and collaborate on **Microsoft 365 Pages** with a team for
   seamless productivity.
-
 - Re-access and manage pages from the Pages module in **Microsoft 365**.
 
 **Scenario**: You are part of Fabrikam's IT consulting team. Trey
@@ -29,10 +26,8 @@ adopting Contoso’s recommended VPN architecture.
 
 - **Persistent Content**: Understand how Copilot Pages allow you to make
   AI-generated responses more durable and editable.
-
 - **Collaborative Editing**: Observe real-time changes as team members
   interact with the content, demonstrating the multiplayer capabilities.
-
 - **Content Structuring with "/" Menu**: Use the **"/" menu** to add
   different content types like headings, tables, and images, helping
   structure the document effectively.
@@ -55,11 +50,11 @@ document to draft the proposal.
     following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
 
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under   
+    the **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
     open it.
-
 
    ![](./media/image1.png)
 
@@ -67,9 +62,8 @@ document to draft the proposal.
     of **Trey Research - VPN Technical Overview** document
     to **OneDrive**.
 
-
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+   **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing 
+   for the lab execution** section you can skip this step.
 
 4.  Open and close the file **Trey Research - VPN Technical
     Overview.docx** (which you uploaded to  
@@ -84,7 +78,6 @@ document to draft the proposal.
 2.  On the **Microsoft 365** navigation pane, select **Teams** to open
     it.
 
-
    ![](./media/image2.png)
 
     Please wait while the setup process completes.
@@ -98,8 +91,6 @@ document to draft the proposal.
 
     ++Create a summary of the key VPN needs for Trey Research, focusing on
     secure remote access and compliance with industry standards.++
-
-
 
     Note: On the **Copilot** page, in the **Work/Web** toggle switch at
     the top of the page, **Work** will be selected by default.
@@ -149,27 +140,24 @@ document to draft the proposal.
 
     **Note**: Copilot chat name cannot be more than 30 characters.
 
-
    ![](./media/image13.png)
 
-2.  You can click the **Panel** (Collapse/Expand) icon to expand the
-    Copilot chat pane to make room to view the content in a separate
-    section. Verify that the page opens on the right, side-by-side with
-    the chat pane. The response is automatically copied and formatted,
-    including any link previews or code blocks.
+2. You can click the **Panel** (Collapse/Expand) icon to expand the
+   Copilot chat pane to make room to view the content in a separate
+   section. Verify that the page opens on the right, side-by-side with
+   the chat pane. The response is automatically copied and formatted,
+   including any link previews or code blocks.
 
 
-   ![](./media/image14.png)
+    ![](./media/image14.png)
 
 3.  Click the **Edit in Pages** button to view the generated content in
     a separate section on the right.
 
-
-   ![](./media/image15.png)
-
+    ![](./media/image15.png)
 
 
-   ![](./media/image16.png)
+    ![](./media/image16.png)
 
 ## Exercise #2: Add and Refine Content on the Page
 
@@ -185,70 +173,47 @@ page (that you are viewing on the right side of chat pane)
     focusing on their pros and cons in relation to Trey Research’s
     needs. Enter the following prompt and click **Send.**
 
-
     ++Compare three VPN technologies based on scalability, security, and
     cost-effectiveness.++
 
-
-
-   ![](./media/image17.png)
-
-
-
-   **Note**: You can also try with the following prompt.
-
-
+    ![](./media/image17.png)
+    **Note**: You can also try with the following prompt.
 
     ++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
     VPN, IPsec VPN) based on scalability, security features, ease of
     deployment, and cost.++
 
 2.  Copilot will generate new insights with the comparison details.
-
-
    ![](./media/image18.png)
-
-
 
    ![](./media/image19.png)
 
 3.  Click **Edit in Pages** to append this comparison details to the
     existing page.
-
-
    ![](./media/image20.png)
 
 ### Task 2: Edit Directly on the Page
 
 1.  Click anywhere on the page to start typing and refining the content.
-
-
     Type **"/"** to open a menu of content options, such as headings,
     bullet points, tables, or images, for a more structured and engaging
     layout.
-
-
-
-   ![](./media/image21.png)
+    ![](./media/image21.png)
 
 2.  Hover your mouse over a content block and select the Kebab menu (3
     vertical dots in parallel array – resembling a skewered item) to see
     the options to Copy Page link, Move block, and Delete.
-
-
-   ![](./media/image22.png)
+    ![](./media/image22.png)
 
 ### Task 3: Collaborate with Team Members
 
 1.  When your page is ready for team input, click the **Share icon** in
     the upper-right corner and select **‘Copy component’**.
 
-
-   ![](./media/image23.png)
+    ![](./media/image23.png)
 
 2.  Paste this link in a **Teams channel** or **Outlook** email,
     allowing team members to access the page and collaborate with you.
-
 
     **Note**: This lab environment is deployed with restricted
     functionality. So, you will not be able to use Teams and Outlook in a
@@ -263,13 +228,10 @@ Copilot Page link was first created.
 
 1.  Go to the **Pages** tab on **Microsoft365.com**.
 
-
     ![](./media/image24.png)
 
 2.  Here, you’ll see all the **Copilot Pages** you’ve created, organized
     for easy access.
-
-
     ![](./media/image25.png)
 
 ### Task 2: Make additional Edits or Share updates
@@ -297,8 +259,6 @@ page link for continued collaboration with new or existing team members.
 
 4.  Close the **Copilot chat** window and select **Preview** to proceed
     further.
-
-
    ![](./media/image29.png)
 
 5.  Now you will finalize the draft to make it ready for Trey Research’s
