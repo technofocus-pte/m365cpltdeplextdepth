@@ -98,7 +98,6 @@ based on the role responsibilities in this document.
     document. Please try again, and this time outline each responsibility
     area and select the responsibilities required of a Senior Animation
     Designer**.++
-
     ![](./media/image6.png)
 
 12. Review the second draft.
