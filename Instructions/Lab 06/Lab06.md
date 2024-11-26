@@ -63,23 +63,30 @@ compliance with industry standards.++
     be selected by default.
     ![](./media/image4.png)
 
-6.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
+5.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
    Executive summary. Select the **Attach** (Paper clip) icon to reference the document.
    ![](./media/image5.png)
 
-7.	Select the document **Trey Research – VPN Technical Overview**.
+6.	Select the document **Trey Research – VPN Technical Overview**.
    ![](./media/image6.png)
    **Note**: If the file is not listed in the popup list, try again by selecting the **Attach** icon.       
    Sometimes it will get displayed after the third try.
 
-8.	You will see the selected document attached in the Prompt box. Click **Send** icon to trigger 
+7.	You will see the selected document attached in the Prompt box. Click **Send** icon to trigger 
    **Copilot** start generating the content.
   	![](./media/image7.png)
 
-9.	Copilot will comb through the reference document and start generating the content.
+8.	Copilot will comb through the reference document and start generating the content.
    ![](./media/image8.png)
 
+   ![](./media/image11.png)
+   
+9. Once Copilot completes generating the draft content, you will see the Edit in Pages button at the end of 
+   the end of the generated content.
+
+   ![](./media/image12.png)
+
 10. You can rename the chat as per your requirement.
-   ![](./media/image9.png)
-   **Note**: Copilot chat name cannot be more than 30 characters.
-   ![](./media/image10.png)
+    ![](./media/image9.png)
+    **Note**: Copilot chat name cannot be more than 30 characters.
+    ![](./media/image10.png)
