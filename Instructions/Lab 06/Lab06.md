@@ -82,5 +82,6 @@ document to draft the proposal.
 
 10.You can rename the chat as per your requirement.
    ![](./media/image10.png)
+   
    **Note**: Copilot chat name cannot be more than 30 characters.
    ![](./media/image11.png)
