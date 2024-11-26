@@ -56,30 +56,30 @@ document to draft the proposal.
   
 4.  Begin a chat with **Copilot** by entering the following prompt.
 
-    ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and  
-   compliance with industry standards.++
+    ++Create a summary of the key VPN needs for Trey Research, focusing on secure remote access and
+compliance with industry standards.++
 
     **Note**: On the Copilot page, in the **Work/Web** toggle switch at the top of the page, **Work** will 
     be selected by default.
     ![](./media/image4.png)
 
-5.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
+6.	Now you will attach the reference document shared by Trey Research to start drafting the content for 
    Executive summary. Select the **Attach** (Paper clip) icon to reference the document.
    ![](./media/image5.png)
 
-6.	Select the document **Trey Research – VPN Technical Overview**.
+7.	Select the document **Trey Research – VPN Technical Overview**.
    ![](./media/image6.png)
    **Note**: If the file is not listed in the popup list, try again by selecting the **Attach** icon.       
    Sometimes it will get displayed after the third try.
 
-7.	You will see the selected document attached in the Prompt box. Click **Send** icon to trigger 
+8.	You will see the selected document attached in the Prompt box. Click **Send** icon to trigger 
    **Copilot** start generating the content.
   	![](./media/image7.png)
 
-8.	Copilot will comb through the reference document and start generating the content.
+9.	Copilot will comb through the reference document and start generating the content.
    ![](./media/image8.png)
 
-9. You can rename the chat as per your requirement.
+10. You can rename the chat as per your requirement.
    ![](./media/image9.png)
    **Note**: Copilot chat name cannot be more than 30 characters.
    ![](./media/image10.png)
