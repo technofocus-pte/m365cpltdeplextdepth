@@ -83,7 +83,7 @@ based on the role responsibilities in this document.
 
     ![](./media/image4.png)
 
-10.  Review the first draft of the job description document.
+10. Review the first draft of the job description document.
 
     ![](./media/image5.png)
 
