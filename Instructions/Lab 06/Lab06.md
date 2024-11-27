@@ -2,12 +2,11 @@
 
 **Objectives:**
 
-In this lab, you will learn to use Microsoft Copilot within **Microsoft 365 Pages** to
+In this lab, you will use Microsoft Copilot within **Microsoft 365 Apps** to
 
-- Interact with Copilot to generate and edit content.
+- Generate and edit content.
 - Refine and enhance generated content using **Microsoft 365 Pages** features.
-- Share and collaborate on **Microsoft 365 Pages** with a team for
-  seamless productivity.
+- Share and collaborate on **Microsoft 365 Pages** with a team for seamless productivity.
 - Re-access and manage pages from the Pages module in **Microsoft 365**.
 
 **Scenario**: You are part of Fabrikam's IT consulting team. Trey
@@ -33,7 +32,7 @@ adopting Contoso’s recommended VPN architecture.
   structure the document effectively.
 
 **Note**: You will be using **Trey Research - VPN Technical
-Overview** document as a base reference the document shared by Trey
+Overview** document as a reference document shared by Trey
 Research.
 
 ## Exercise #1: Create a Copilot Page
@@ -56,7 +55,7 @@ document to draft the proposal.
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
     open it.
 
-   ![](./media/image1.png)
+    ![](./media/image1.png)
 
 3.  Browse to the **C:\LabFiles** folder to select and upload a copy
     of **Trey Research - VPN Technical Overview** document
@@ -78,7 +77,7 @@ document to draft the proposal.
 2.  On the **Microsoft 365** navigation pane, select **Teams** to open
     it.
 
-   ![](./media/image2.png)
+    ![](./media/image2.png)
 
     Please wait while the setup process completes.
 
@@ -95,7 +94,7 @@ document to draft the proposal.
     Note: On the **Copilot** page, in the **Work/Web** toggle switch at
     the top of the page, **Work** will be selected by default.
 
-   ![](./media/image4.png)
+    ![](./media/image4.png)
 
 5.  Now you will attach the reference document shared by Trey Research
     to start drafting the content for Executive summary. Select the
@@ -148,14 +147,12 @@ document to draft the proposal.
    the chat pane. The response is automatically copied and formatted,
    including any link previews or code blocks.
 
-
     ![](./media/image14.png)
 
 3.  Click the **Edit in Pages** button to view the generated content in
     a separate section on the right.
 
     ![](./media/image15.png)
-
 
     ![](./media/image16.png)
 
