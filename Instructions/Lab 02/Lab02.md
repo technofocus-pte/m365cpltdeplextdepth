@@ -39,7 +39,7 @@ In this exercise, you will use Copilot in Loop to
 
 2.  In the **Apps** page, scroll down to locate **Loop** and then select it. 
 
-    **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**.
+    **Note**: If you don't see **Loop** listed in the Apps page, select **More apps**.
 
     ![](./media/image2.png)
 
