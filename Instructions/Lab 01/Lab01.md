@@ -50,15 +50,19 @@ speech for you based on your company's Income Statement:
     **Resources** tab on the right.
 
     After signing-in, if you happend to see a hazy web page of **Microsoft 365** home page, click 
-    **Refresh**  in the browser menu bar
+    **Refresh** in the browser menu bar
     ![](./media/image2.png)
+
+    Click the **Candy box menu** icon (3 by 3 dot matrix) on the top left to expand the App menu and 
+    select **OneDrive**.
+    ![](./media/image2a.png)
 
 3.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
    
     ![](./media/image5.png)
     
 4.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Fabrikam 2023 Income Statement document to OneDrive**.
+    **Fabrikam 2023 Income Statement** document to **OneDrive**.
     ![](./media/image6.png)
     
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
