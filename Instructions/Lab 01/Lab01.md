@@ -42,11 +42,12 @@ Statement from the MRU file list.</span>
 You will perform the following steps to have Copilot in Word create a
 speech for you based on your company's Income Statement:
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following 
+1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new 
+    tab and enter the following 
     URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
    
@@ -56,10 +57,11 @@ speech for you based on your company's Income Statement:
     **Fabrikam 2023 Income Statement document to OneDrive**.
     ![](./media/image6.png)
     
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution (Lab 0)** you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
+    the lab execution (Lab 0)** you can skip this step.
 
-4.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) to get it in your      Most Recently Used (MRU) file list.
+4.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) 
+    to get it in your      Most Recently Used (MRU) file list.
 
 5.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
 
@@ -91,21 +93,24 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image11.png)
 
-    **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the **Generate** button       after attaching the referenced document dismiss the error and proceed with the next step
+   **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the 
+   **Generate** button after attaching the referenced document dismiss the error and proceed with the next 
+   step
 
     ![](./media/image26.png)   
    
-    Open the file in a browser and copy its path using the Share option, then paste the path into the prompt following the      forward slash (/).
+    Open the file in a browser and copy its path using the Share option, then paste the path into the 
+    prompt following the forward slash (/).
 
     ![](./media/image27.png)
    
     ![](./media/image28.png)
 
-    **Important**: Even after trying with the alternate option, if you see the same “something went wrong” exception, then
-    instead of using the web client of Word try using the desktop version of Word.
+    **Important**: Even after trying with the alternate option, if you see the same “something went wrong” 
+    exception, then instead of using the web client of Word try using the desktop version of Word.
 
-    If it works when using the desktop version of Word, please follow the same in the upcoming labs when you see the
-    “something went wrong” exception while clicking **Generate** button.
+    If it works when using the desktop version of Word, please follow the same in the upcoming labs when 
+    you see the “something went wrong” exception while clicking **Generate** button.
 
 10. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
@@ -120,8 +125,8 @@ speech for you based on your company's Income Statement:
     Editor. Select the **Editor** icon that appears in the menu bar at
     the top of the page.
 
-    <span class="mark">**Note**: You will be able to see the **Editor**
-    icon, in the Classic Ribbon and not in the Single line ribbon.</span>
+    **Note**: You will be able to see the **Editor**
+    icon, in the Classic Ribbon and not in the Single line ribbon.
 
     ![](./media/image13.png)
 
@@ -160,7 +165,7 @@ speech for you based on your company's Income Statement:
     ![](./media/image14.png)
 
 15. Save the file to your OneDrive account with the following file
-    name: **Fabrikam 2023 Financial presentation.docx**. The next
+    name: +++Fabrikam 2023 Financial presentation.docx+++. The next
     exercise uses this document.
 
     ![](./media/image15.png)
@@ -194,7 +199,8 @@ create a draft of your presentation:
     select it now; otherwise, open a new tab and enter the following
     URL: +++https://www.office.com+++ to go to **Microsoft 365** home page.
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **Word** to open Word.
 
@@ -202,20 +208,20 @@ create a draft of your presentation:
     files and select **Fabrikam 2023 Financial presentation.docx** to
     open it in a new tab in your Microsoft Edge browser.
 
-    ![Image description](./media/image16.png)
+    ![](./media/image16.png)
 
 4.  Copy the URL of the document by selecting the **Share** button in
     the upper-right corner, above the ribbon and selecting **Copy
     Link** from the drop-down menu that appears.
 
-    ![Image description](./media/image17.png)
+    ![](./media/image17.png)
 
     **Note**: You may occasionally come across trouble using the URL from
     your address bar. Copy the link from the Share tray for best results
 
 5.  Close the **Link copied** dialog box that appears in Word.
 
-    ![Image description](./media/image18.png)
+    ![](./media/image18.png)
 
 6.  Close this document tab in your Microsoft Edge browser. This returns
     you to the **Word \| Microsoft 365** tab.
@@ -223,7 +229,7 @@ create a draft of your presentation:
 7.  On the Word file page, select the **PowerPoint** icon in the
     navigation pane on the left.
 
-    ![Image description](./media/image19.png)
+    ![](./media/image19.png)
 
 8.  In **PowerPoint**, open a new blank presentation.
 
@@ -246,14 +252,14 @@ create a draft of your presentation:
     MRU list, let's assume that it didn't. As such, you must paste the
     link to the file into the prompt field.
 
-    ![Image description](./media/image20.png)
+    ![](./media/image20.png)
 
 13. In the prompt field, Copilot automatically types in **Create
     presentation from file /**. Place your cursor after the forward
     slash and enter **Ctrl+V** to paste the link to this document into
     the prompt.
 
-    ![Image description](./media/image21.png)
+    ![](./media/image21.png)
 
 14. Select the **Send** icon.
 
@@ -263,17 +269,17 @@ create a draft of your presentation:
     These features may include speaker notes, images, layouts to
     organize slides, and a General sensitivity label.
 
-    ![Image description](./media/image22.png)
+    ![](./media/image22.png)
 
 16. You're now free to review the slides and make any necessary updates.
     You can use the **Designer** tool to adjust the layouts.
 
-    ![Image description](./media/image23.png)
+    ![](./media/image23.png)
 
 17. As you review the slides, be on the lookout for references to "the
     speaker" or any other items that you may need to change.
 
-    ![Image description](./media/image24.png)
+    ![](./media/image24.png)
 
     Warning: Look out for the reference to "The speaker" along with the
     second sentence that begins with "The presentation will summarize...".
@@ -292,17 +298,17 @@ create a draft of your presentation:
     Verify they call out the points that you want to make during the
     presentation.
 
-    ![Image description](./media/image25.png)
+    ![](./media/image25.png)
 
 19. Try using Copilot to update the presentation. For example, enter the
     following prompt:
 
-    ++**Add a new slide after slide 1. This slide should have an image of a
+    +++Add a new slide after slide 1. This slide should have an image of a
     mountain peak in the Alps. Towards the bottom of the slide, add a text
     box that says: Fabrikam's company motto - "We overcome every
     obstacle." Add speaker notes to this new slide that talk about how
     Fabrikam works diligently to solve every customer's request, never
-    letting any obstacle stand in its way of success**++.
+    letting any obstacle stand in its way of success.+++
 
     Review the new slide that was created. While the remaining lab
     exercises don't use this presentation, you can either discard it or
@@ -312,8 +318,9 @@ create a draft of your presentation:
 
 In this lab, you have
 
--  Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes generating content that     effectively communicates key messages and company updates.
+-  Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes 
+   generating content that     effectively communicates key messages and company updates.
   
--  Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually engaging and
-   informative presentation, creating slides that highlight the main points of the speech, using Copilot to ensure   
-   consistency and clarity in the presentation format.
+-  Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually 
+   engaging and informative presentation, creating slides that highlight the main points of the speech, 
+   using Copilot to ensure consistency and clarity in the presentation format.
