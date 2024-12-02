@@ -72,6 +72,7 @@ speech for you based on your company's Income Statement:
 
 4.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) 
     to get it in your Most Recently Used (MRU) file list.
+  	![](./media/image6.png)
 
 5.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
 
