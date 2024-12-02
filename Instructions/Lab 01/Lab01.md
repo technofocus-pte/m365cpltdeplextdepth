@@ -188,13 +188,10 @@ speech for you based on your company's Income Statement:
     name to highlight it and rename the file as +++Fabrikam 2023 Financial presentation.docx+++. The next
     exercise uses this document.
 
-    ![](./media/image15.png)
-
     ![](./media/image15a.png)
-    
-    ![](./media/image15b.png)
 
-    ![](./media/image15c.png)
+    ![](./media/image15b.png)
+    
     **Important**: In the next exercise, you use Copilot in PowerPoint to create a slide presentation 
     based on this document. The document must be in OneDrive for Copilot to access it.
 
