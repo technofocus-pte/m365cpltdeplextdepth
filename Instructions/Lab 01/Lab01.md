@@ -108,19 +108,19 @@ speech for you based on your company's Income Statement:
    ![](./media/image10.png)
    
 9. Note how the file is displayed in the prompt. Select **Generate**.
-    ![](./media/image11.png)
+   ![](./media/image11.png)
 
-    **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the 
-    **Generate** button after attaching the referenced document dismiss the error and proceed with the 
-    next step
-    ![](./media/image26.png)   
+   **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the 
+   **Generate** button after attaching the referenced document, dismiss the error and proceed with the 
+   next step.
+   ![](./media/image26.png)   
    
-    Open the file in a browser and copy its path using the Share option, then paste the path into the 
-    prompt following the forward slash (/).
+   Open the file in a browser and copy its path using the Share option, then paste the path into the 
+   prompt following the forward slash (/).
 
-    ![](./media/image27.png)
+   ![](./media/image27.png)
    
-    ![](./media/image28.png)
+   ![](./media/image28.png)
 
     **Important**: Even after trying with the alternate option, if you see the same “something went 
     wrong” exception, then instead of using the web client of Word try using the desktop version of Word.
@@ -133,9 +133,8 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image12.png)
 
-11. After reviewing the speech, you decide that it's a good starting
-    point, although there are a few areas that you want to modify. In
-    the Copilot window at the end of the speech, select the **Keep it** button.
+11. After reviewing the speech, you decide that it's a good starting point, although there are a few areas 
+    that you want to modify. In the Copilot window at the end of the speech, select the **Keep it** button.
 
 12. You want to begin by reviewing any changes suggested by the Copilot
     Editor. Select the **Editor** icon that appears in the menu bar at
