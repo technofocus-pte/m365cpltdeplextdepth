@@ -82,20 +82,21 @@ speech for you based on your company's Income Statement:
 
     Close the browser with the **Fabrikam 2023 Income Statement** document.
 
-6.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
+5.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
 
     ![](./media/image8.png)
    
-7.  In the **Draft with Copilot** window that appears at the top of the
+6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
     +++Write a speech for the Fabrikam stakeholders that
     summarizes the results of the company's 2023 income statement found in
     the attached file.+++
 
-8.  In the **Draft with Copilot** window, select the **Reference your
+7.  In the **Draft with Copilot** window, select the **Reference your
     content** button. In the pop-up window that appears, select the
     file.
+    ![](./media/image8a.png)
 
     If, for some reasons the file is not displayed, click **Browse files
     from cloud** in the pop-up window.
