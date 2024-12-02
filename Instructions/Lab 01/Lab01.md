@@ -244,16 +244,17 @@ create a draft of your presentation:
     ![](./media/image18.png)
 
 6.  Close this document tab in your Microsoft Edge browser. This returns
-    you to the **Word \| Microsoft 365** tab.
+    you to the **Word | Microsoft 365** tab.
 
-7.  On the Word file page, select the **PowerPoint** icon in the
-    navigation pane on the left.
+7.  On the Word file page, select the **PowerPoint** icon in the **App
+    Launcher** pane on the top left.
 
     ![](./media/image19.png)
 
 8.  In **PowerPoint**, open a new blank presentation.
 
-9.  Select the **Copilot** option on the right side of the ribbon.
+9.  Select the **Copilot** icon (in red highlight as shown in the
+    screenshot).
 
 10. In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from.
