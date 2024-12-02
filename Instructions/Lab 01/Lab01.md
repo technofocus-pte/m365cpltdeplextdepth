@@ -53,8 +53,8 @@ speech for you based on your company's Income Statement:
     **Refresh** in the browser menu bar
     ![](./media/image2.png)
 
-    Click the **Candy box menu** icon (3 by 3 dot matrix) on the top left to expand the App menu and 
-    select **OneDrive**.
+    Click the **App launcher** (**Candy box menu** icon - 3 by 3 dot matrix) on the top left to expand the 
+    App menu and select **OneDrive**.
     ![](./media/image3.png)
 
     Click the arrow to continue.
