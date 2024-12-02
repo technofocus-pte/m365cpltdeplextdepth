@@ -49,7 +49,8 @@ speech for you based on your company's Income Statement:
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
     **Resources** tab on the right.
 
-    After signing-in if you happend to see a hazy web page of **Microsoft 365** home page, click **Refresh**  in the browser menu bar
+    After signing-in, if you happend to see a hazy web page of **Microsoft 365** home page, click 
+    **Refresh**  in the browser menu bar
     ![](./media/image2.png)
 
 3.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
