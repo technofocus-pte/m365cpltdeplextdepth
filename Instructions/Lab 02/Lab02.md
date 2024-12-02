@@ -215,20 +215,20 @@ Protein Shake.docx** file, which you download using the provided link.
     ![](./media/image17.png)
 
 10. Review the slides once Copilot finished creating the presentation.
-   To review the speaker notes, select the **View** tab and then select
-   the **Notes** button if it isn't selected already. If it's already
-   selected and you can't see the notes, then drag the bottom of the
-   slide window up to show the notes. Verify the speaker notes include
-   the key points that you want to make during the presentation.
+    To review the speaker notes, select the **View** tab and then select
+    the **Notes** button if it isn't selected already. If it's already
+    selected and you can't see the notes, then drag the bottom of the
+    slide window up to show the notes. Verify the speaker notes include
+    the key points that you want to make during the presentation.
 
     ![](./media/image18.png)
 
 11. Select the **Home** tab and then select the **Designer** button,
-   which appears to the left of the **Copilot** button.
-   The **Designer** pane offers samples of different designs for the
-   current slide being displayed. Change to a different slide in the
-   presentation and note how the **Designer** pane generates different
-   design options for that slide.
+    which appears to the left of the **Copilot** button.
+    The **Designer** pane offers samples of different designs for the
+    current slide being displayed. Change to a different slide in the
+    presentation and note how the **Designer** pane generates different
+    design options for that slide.
 
     ![](./media/image19.png)
 
@@ -239,14 +239,15 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image20.png)
 
-13. Now let's see what else Copilot can do. Select
-    the **Copilot** button to open the **Copilot** pane. In
-    the **Copilot** pane, note the section that says **Here are some
-    things you can try**. Copilot displays several tasks that it can
-    perform on the presentation. Select the **Organize this
-    presentation** button.
+13. Now let's see what else Copilot can do. Select the **Copilot** button to open the **Copilot** pane. In
+    the **Copilot** pane, note the section that says **Here are some things you can try**. Copilot 
+    provides pre-built prompts that you can use to perform several tasks on the presentation. Select 
+    the **View Prompts** icon and select **Organize your thoughts** (in red highlight).
+    **Note**: You need to scroll down slowly to locate the prompt (shown in the screenshot)
 
-    ![](./media/image21.png)
+    ![](./media/image21a.png)
+    
+    ![](./media/image21b.png)
 
 14. Review what Copilot did in organizing the presentation. For example,
     it may have grouped the slides into sections and then added some new
