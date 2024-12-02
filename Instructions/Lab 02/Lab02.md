@@ -188,21 +188,25 @@ Protein Shake.docx** file, which you download using the provided link.
     
     ![](./media/image15c.png)
     
-    Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window appears that contains the three most recently
-    used files. If the **Market Trend Report - Protein Shake.docx** file
+    Above the prompt field at the bottom of the **Copilot** pane, a **Suggestions** window may appear that 
+    contains the three most recently used files. If the **Market Trend Report - Protein Shake.docx** file
     appears in the MRU list, then select it.
+    
+6.  Otherwise, you can attach the reference document using the Attach cloud files option as shown in the 
+    screenshot.
     ![](./media/image15d.png)
 
-6.  Otherwise, open the file in **Word**, select the **Share** button
-    above the ribbon, select the **Copy Link** option from the drop-down
-    menu, and then in this prompt field in the **Copilot** pane
-    in **PowerPoint**, paste in the link following the forward slash
-    (**Create presentation from file /**). Select the **Send** icon.
+    ![](./media/image15e.png)
+
+    **Note**: You can alao attach the reference document using the link to the document.
+    To get the link open the file in **Word**, select the **Share** button above the ribbon, select 
+    the **Copy Link** option from the drop-down menu, and then in this prompt field in the **Copilot** pane
+    in **PowerPoint**, paste in the link following the forward slash (**Create presentation from file 
+     /**). Select the **Send** icon.
 
     ![](./media/image16.png)
 
-7.  This prompt triggered Copilot to create a slide presentation based
+9.  This prompt triggered Copilot to create a slide presentation based
     on the document. In doing so, it first displayed the outline of the
     presentation. Then it displayed a separate window showing a bulleted
     list of some of the changes that it made to the presentation based
@@ -210,7 +214,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image17.png)
 
-8. Review the slides once Copilot finished creating the presentation.
+10. Review the slides once Copilot finished creating the presentation.
    To review the speaker notes, select the **View** tab and then select
    the **Notes** button if it isn't selected already. If it's already
    selected and you can't see the notes, then drag the bottom of the
@@ -219,7 +223,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image18.png)
 
-9. Select the **Home** tab and then select the **Designer** button,
+11. Select the **Home** tab and then select the **Designer** button,
    which appears to the left of the **Copilot** button.
    The **Designer** pane offers samples of different designs for the
    current slide being displayed. Change to a different slide in the
@@ -228,14 +232,14 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image19.png)
 
-10. Select one of the design options to have PowerPoint replace the
+12. Select one of the design options to have PowerPoint replace the
     current slide with the new design. This feature isn't
     Copilot-related. It's available in PowerPoint when you have a
     Microsoft 365 subscription.
 
     ![](./media/image20.png)
 
-11. Now let's see what else Copilot can do. Select
+13. Now let's see what else Copilot can do. Select
     the **Copilot** button to open the **Copilot** pane. In
     the **Copilot** pane, note the section that says **Here are some
     things you can try**. Copilot displays several tasks that it can
@@ -244,14 +248,14 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image21.png)
 
-12. Review what Copilot did in organizing the presentation. For example,
+14. Review what Copilot did in organizing the presentation. For example,
     it may have grouped the slides into sections and then added some new
     section title slides. If so, locate the new slides that it created
     and review them.
 
     ![](./media/image22.png)
 
-13. Above the prompt field, Copilot displays questions related to the
+15. Above the prompt field, Copilot displays questions related to the
     presentation. The purpose of these questions is two-fold. You can
 
     - Select a question and have Copilot generate an answer, which you can
@@ -269,7 +273,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image23.png)
 
-14. When you select any of these questions, Copilot generates an answer
+16. When you select any of these questions, Copilot generates an answer
     to the question and provides a **Copy** option at the bottom of the
     answer window. In doing so, you can select the **Copy** option and
     then paste this answer in the speaker notes for any slide in which
@@ -281,7 +285,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image25.png)
 
-15. Note the **Refresh** button that appears between the suggested
+17. Note the **Refresh** button that appears between the suggested
     questions and the prompt field. Select this **Refresh** button.
 
     ![](./media/image26.png)
@@ -295,7 +299,7 @@ Protein Shake.docx** file, which you download using the provided link.
     questions to offer, it starts repeating the list of questions from the
     start.
 
-16. You now want Copilot to create a slide at the end of the
+18. You now want Copilot to create a slide at the end of the
     presentation for a Q&A session. Enter the following prompt and
     select the **Send** icon:
 
@@ -312,18 +316,18 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image37.png)
 
-17. Select the command **Add a slide about** and append the following Q&A at the very end of the 
+19. Select the command **Add a slide about** and append the following Q&A at the very end of the 
     presentation (as shown in the screenshot).
 
      ![](./media/image38.png)
    
-18. Click **Send** to check what happens.
+20. Click **Send** to check what happens.
 
     ![](./media/image39.png)
 
     Copilot has added a Q&A slide as instructed. Review the Q&A slide that Copilot created.
     
-19. Review the Q&A slide that Copilot created. Now try one final thing.
+21. Review the Q&A slide that Copilot created. Now try one final thing.
     You decide to compile a list of potential questions that you can
     prepare for during the Q&A session. Enter the following prompt to
     see if Copilot can add all of its suggested questions to the speaker
@@ -333,7 +337,7 @@ Protein Shake.docx** file, which you download using the provided link.
     list of possible questions that may be asked regarding this
     presentation.+++
 
-20. If Copilot returns a message indicating that it was unable to
+22. If Copilot returns a message indicating that it was unable to
     generate the slide, try entering the prompt again. Sometimes when
     Copilot can't complete a task, a good practice is to repeat the
     request.
@@ -347,7 +351,7 @@ Protein Shake.docx** file, which you download using the provided link.
     time. This scenario is another example of the best practice that you
     need to be aware of: Understand Copilot's limitations.
 
-21. Now try this workaround. Enter the following prompt that asks it to
+23. Now try this workaround. Enter the following prompt that asks it to
     generate a list of questions:
 
     +++What kind of questions do you think participants may ask during the
@@ -355,7 +359,7 @@ Protein Shake.docx** file, which you download using the provided link.
 
     ![](./media/image30.png)
 
-22. Review the questions that Copilot created. Select
+24. Review the questions that Copilot created. Select
     the **Copy** button at the bottom of the window, and then paste them
     (**Ctrl+V**) into the speaker notes of the Q&A slide.
 
