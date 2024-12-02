@@ -78,7 +78,9 @@ speech for you based on your company's Income Statement:
     the screenshot. Click **Next** and select **Try Copilot**.
     ![](./media/image6a.png)
   	
-  	![](./media/image6b.png)   
+  	![](./media/image6b.png)
+
+    Close the browser with the **Fabrikam 2023 Income Statement** document.
 
 6.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
 
