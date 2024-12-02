@@ -256,16 +256,21 @@ create a draft of your presentation:
 9.  Select the **Copilot** icon (in red highlight as shown in the
     screenshot).
 
-10. In the **Copilot** pane that appears, several predefined prompts are
+    ![](./media/image19a.png)
+
+    ![](./media/image19b.png)
+
+11. In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from.
 
-11. Select the **Create presentation from file** prompt.
+12. Select the **Create presentation from file** prompt.
 
     **Note**: In the prior exercise, you linked a file into a prompt by
     selecting the file from the MRU list. In this exercise, you will gain
     experience linking a file into a prompt using another method.
+    ![](./media/image19c.png)
 
-12. Above the prompt field at the bottom of the **Copilot** pane,
+14. Above the prompt field at the bottom of the **Copilot** pane,
     a **Suggestions** window appears that contains the three most
     recently used files. Normally, you would select your desired file if
     it appeared in this window. However, in this training exercise, even
@@ -275,16 +280,16 @@ create a draft of your presentation:
 
     ![](./media/image20.png)
 
-13. In the prompt field, Copilot automatically types in **Create
+15. In the prompt field, Copilot automatically types in **Create
     presentation from file /**. Place your cursor after the forward
     slash and enter **Ctrl+V** to paste the link to this document into
     the prompt.
 
     ![](./media/image21.png)
 
-14. Select the **Send** icon.
+16. Select the **Send** icon.
 
-15. This prompt triggers Copilot to create a slide presentation based on
+17. This prompt triggers Copilot to create a slide presentation based on
     the document. In doing so, it displays the outline of the
     presentation and a list of features included in the presentation.
     These features may include speaker notes, images, layouts to
@@ -292,12 +297,12 @@ create a draft of your presentation:
 
     ![](./media/image22.png)
 
-16. You're now free to review the slides and make any necessary updates.
+18. You're now free to review the slides and make any necessary updates.
     You can use the **Designer** tool to adjust the layouts.
 
     ![](./media/image23.png)
 
-17. As you review the slides, be on the lookout for references to "the
+19. As you review the slides, be on the lookout for references to "the
     speaker" or any other items that you may need to change.
 
     ![](./media/image24.png)
@@ -315,13 +320,13 @@ create a draft of your presentation:
     You should remove these types of references as they're more applicable
     as speaker notes rather than text intended for audiences.
 
-18. Review the speaker notes that Copilot added to the presentation.
+20. Review the speaker notes that Copilot added to the presentation.
     Verify they call out the points that you want to make during the
     presentation.
 
     ![](./media/image25.png)
 
-19. Try using Copilot to update the presentation. For example, enter the
+21. Try using Copilot to update the presentation. For example, enter the
     following prompt:
 
     +++Add a new slide after slide 1. This slide should have an image of a
