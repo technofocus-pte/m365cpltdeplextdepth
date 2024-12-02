@@ -139,13 +139,16 @@ speech for you based on your company's Income Statement:
 12. You want to begin by reviewing any changes suggested by the Copilot
     Editor. Select the **Editor** icon that appears in the menu bar at
     the top of the page.
+    ![](./media/image13.png)
 
     **Note**: You will be able to see the **Editor**
     icon, in the Classic Ribbon of **Microsoft Word**. In the Single line ribbon, it will not be visible 
     in the default browser zoom level of 100%. Select the **ellipsis** (3 horizontal dots) icon and scroll 
     down to select **Editor**.
 
-    ![](./media/image13.png)
+    ![](./media/image13a.png)
+
+    ![](./media/image13b.png)    
 
 13. In the **Editor** pane that appears, note the categories that appear
     under the **Corrections** or **Refinements** sections that display a
@@ -181,18 +184,20 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image14.png)
 
-15. Save the file to your OneDrive account with the following file
-    name: +++Fabrikam 2023 Financial presentation.docx+++. The next
+15. The file will be saved in your OneDrive account. On the top left of the Word document, click the file 
+    name to highlight it and rename the file as +++Fabrikam 2023 Financial presentation.docx+++. The next
     exercise uses this document.
 
     ![](./media/image15.png)
-    
-    **Important**: Ensure that you save the file to your OneDrive rather
-    than your local PC. In the next exercise, you use Copilot in
-    PowerPoint to create a slide presentation based on this document. The
-    document must be in OneDrive for Copilot to access it.
 
-16. Close the tab containing this document in your Microsoft Edge
+    ![](./media/image15a.png)
+    
+    ![](./media/image15b.png)
+    
+    **Important**: In the next exercise, you use Copilot in PowerPoint to create a slide presentation 
+    based on this document. The document must be in OneDrive for Copilot to access it.
+
+17. Close the tab containing this document in your Microsoft Edge
     browser.
 
 # Exercise #2: Create a slide presentation using Copilot in PowerPoint
