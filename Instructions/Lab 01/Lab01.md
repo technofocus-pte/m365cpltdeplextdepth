@@ -55,7 +55,10 @@ speech for you based on your company's Income Statement:
 
     Click the **Candy box menu** icon (3 by 3 dot matrix) on the top left to expand the App menu and 
     select **OneDrive**.
-    ![](./media/image2a.png)
+    ![](./media/image3.png)
+
+    Click the arrow to continue.
+    ![](./media/image4.png)
 
 3.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
    
