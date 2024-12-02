@@ -278,7 +278,7 @@ create a draft of your presentation:
     MRU list, let's assume that it didn't. As such, you must paste the
     link to the file into the prompt field.
 
-    ![](./media/image20.png)
+    ![](./media/image19d.png)
 
 15. In the prompt field, Copilot automatically types in **Create
     presentation from file /**. Place your cursor after the forward
