@@ -60,7 +60,7 @@ speech for you based on your company's Income Statement:
     Click the arrow to continue.
     ![](./media/image4.png)
 
-3.  On the navigation pane, select **+** icon and select **Files Upload** to open it.
+3.  On the navigation pane, select **+** icon and select **Files upload** to open it.
    
     ![](./media/image5.png)
     
