@@ -193,11 +193,12 @@ speech for you based on your company's Income Statement:
     ![](./media/image15a.png)
     
     ![](./media/image15b.png)
-    
+
+    ![](./media/image15c.png)
     **Important**: In the next exercise, you use Copilot in PowerPoint to create a slide presentation 
     based on this document. The document must be in OneDrive for Copilot to access it.
 
-17. Close the tab containing this document in your Microsoft Edge
+16. Close the tab containing this document in your Microsoft Edge
     browser.
 
 # Exercise #2: Create a slide presentation using Copilot in PowerPoint
