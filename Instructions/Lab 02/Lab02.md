@@ -37,11 +37,12 @@ In this exercise, you will use Copilot in Loop to
 
     ![](./media/image1.png)
 
+    **Note**: If you don't see **Loop** listed in the Apps page, select **More apps**.
+    ![](./media/image2.png)
+    
 2.  In the **Apps** page, scroll down to locate **Loop** and then select it. 
 
-    **Note**: If you don't see **Loop** listed in the Apps page, select **More apps**.
-
-    ![](./media/image2.png)
+    ![](./media/image2a.png)
 
 3.  If you see the **Sign-in** button, sign-in using the credentials provided under **Microsoft 365 
     Credentials** in the **Resources** tab.
