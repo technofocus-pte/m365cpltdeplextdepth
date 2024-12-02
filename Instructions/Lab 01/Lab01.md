@@ -16,13 +16,13 @@ document. This exercise walks you through a series of prompts that you
 can use to have Copilot in Word generate your speech and then update it
 based on your suggested changes.
 
-<span class="mark">**Note**: When you need to reference a file (such as
+**Note**: When you need to reference a file (such as
 your company's Income Statement) into a Copilot prompt, the file MUST be
 saved in a OneDrive account. You can't link to a locally stored file on
-your PC.</span>
+your PC.
 
-<span class="mark">You can reference/link a file into the Copilot prompt
-using one of the following methods:</span>
+You can reference/link a file into the Copilot prompt
+using one of the following methods:
 
 - <span class="mark">Select the file from the Most Recently Used (MRU)
   file list.</span>
@@ -49,32 +49,35 @@ speech for you based on your company's Income Statement:
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
     **Resources** tab on the right.
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+    After signing-in if you happend to see a hazy web page of **Microsoft 365** home page, click **Refresh**  in the browser menu bar
+    ![](./media/image2.png)
+
+3.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
    
     ![](./media/image5.png)
     
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+4.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Fabrikam 2023 Income Statement document to OneDrive**.
     ![](./media/image6.png)
     
     **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
     the lab execution (Lab 0)** you can skip this step.
 
-4.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) 
+5.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) 
     to get it in your      Most Recently Used (MRU) file list.
 
-5.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
+6.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
 
     ![](./media/image8.png)
    
-6.  In the **Draft with Copilot** window that appears at the top of the
+7.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
     +++Write a speech for the Fabrikam stakeholders that
     summarizes the results of the company's 2023 income statement found in
     the attached file.+++
 
-7.  In the **Draft with Copilot** window, select the **Reference your
+8.  In the **Draft with Copilot** window, select the **Reference your
     content** button. In the pop-up window that appears, select the
     file.
 
@@ -83,13 +86,13 @@ speech for you based on your company's Income Statement:
     
     ![](./media/image9.png)
 
-8. In the **Pick a file** window that appears, under
+9. In the **Pick a file** window that appears, under
    the **Recent** file list, select the **Fabrikam 2023 Income
    Statement.docx** file and then select the **Attach** button.
 
     ![](./media/image10.png)
    
-9. Note how the file is displayed in the prompt. Select **Generate**.
+10. Note how the file is displayed in the prompt. Select **Generate**.
 
     ![](./media/image11.png)
 
@@ -112,16 +115,16 @@ speech for you based on your company's Income Statement:
     If it works when using the desktop version of Word, please follow the same in the upcoming labs when 
     you see the “something went wrong” exception while clicking **Generate** button.
 
-10. At this point, Copilot extracts the financial results from the
+11. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
 
     ![](./media/image12.png)
 
-11. After reviewing the speech, you decide that it's a good starting
+12. After reviewing the speech, you decide that it's a good starting
     point, although there are a few areas that you want to modify. In
     the Copilot window at the end of the speech, select the **Keep it** button.
 
-12. You want to begin by reviewing any changes suggested by the Copilot
+13. You want to begin by reviewing any changes suggested by the Copilot
     Editor. Select the **Editor** icon that appears in the menu bar at
     the top of the page.
 
@@ -130,7 +133,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image13.png)
 
-13. In the **Editor** pane that appears, note the categories that appear
+14. In the **Editor** pane that appears, note the categories that appear
     under the **Corrections** or **Refinements** sections that display a
     number (indicating the number of issues for that category). These
     issues are often linked to the tone of the writing style used in the
@@ -145,7 +148,7 @@ speech for you based on your company's Income Statement:
     sounding tone, so select **Professional** from the drop-down menu.
     Note whether the **Editor Score** changes.
 
-14. In the categories that appear under
+15. In the categories that appear under
     the **Corrections** or **Refinements** sections, you can review the
     changes that occurred in the categories based on changing the
     writing style from Formal to Professional. Select each category that
@@ -164,7 +167,7 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image14.png)
 
-15. Save the file to your OneDrive account with the following file
+16. Save the file to your OneDrive account with the following file
     name: +++Fabrikam 2023 Financial presentation.docx+++. The next
     exercise uses this document.
 
@@ -175,7 +178,7 @@ speech for you based on your company's Income Statement:
     PowerPoint to create a slide presentation based on this document. The
     document must be in OneDrive for Copilot to access it.
 
-16. Close the tab containing this document in your Microsoft Edge
+17. Close the tab containing this document in your Microsoft Edge
     browser.
 
 # Exercise #2: Create a slide presentation using Copilot in PowerPoint
