@@ -54,13 +54,15 @@ In this exercise, you will use Copilot in Loop to
 
 4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
     default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
+    select **+** on the top left next to **Getting started**, and then select **+New
     workspace** button.
 
-    ![Workspaces-Geeting started](./media/image4.png)
+    ![Workspaces-Geeting started](./media/image4a.png)
 
-5.  In the **Create a new workspace** window, enter **VanArsdel
-    research** for your workspace name, and then select either
+    ![Workspaces-New Workspace](./media/image4b.png)
+    
+5.  In the **Create a new workspace** window, enter +++VanArsdel
+    research+++ for your workspace name, and then select either
     the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
@@ -68,9 +70,9 @@ In this exercise, you will use Copilot in Loop to
 
 6.  In the **Add files to your workspace** window (depending on your
     version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+    select **Create**.
 
-    ![Add files to your workspace](./media/image6.png)
+    ![Add files to your workspace](./media/image6a.png)
 
 7.  You're now on the first page for your new workspace. The name of the
     page is currently **Untitled**. Note the page (Untitled) also
