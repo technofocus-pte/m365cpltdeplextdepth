@@ -112,24 +112,24 @@ speech for you based on your company's Income Statement:
 
     ![](./media/image11.png)
 
-   **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the 
-   **Generate** button after attaching the referenced document dismiss the error and proceed with the next 
-   step
+     **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the 
+     **Generate** button after attaching the referenced document dismiss the error and proceed with the 
+     next step
 
-    ![](./media/image26.png)   
+     ![](./media/image26.png)   
    
-    Open the file in a browser and copy its path using the Share option, then paste the path into the 
-    prompt following the forward slash (/).
+     Open the file in a browser and copy its path using the Share option, then paste the path into the 
+     prompt following the forward slash (/).
 
-    ![](./media/image27.png)
+     ![](./media/image27.png)
    
-    ![](./media/image28.png)
+     ![](./media/image28.png)
 
-    **Important**: Even after trying with the alternate option, if you see the same “something went wrong” 
-    exception, then instead of using the web client of Word try using the desktop version of Word.
+     **Important**: Even after trying with the alternate option, if you see the same “something went 
+     wrong” exception, then instead of using the web client of Word try using the desktop version of Word.
 
-    If it works when using the desktop version of Word, please follow the same in the upcoming labs when 
-    you see the “something went wrong” exception while clicking **Generate** button.
+     If it works when using the desktop version of Word, please follow the same in the upcoming labs when 
+     you see the “something went wrong” exception while clicking **Generate** button.
 
 11. At this point, Copilot extracts the financial results from the
     Income Statement and drafts a speech.
