@@ -145,7 +145,9 @@ speech for you based on your company's Income Statement:
     the top of the page.
 
     **Note**: You will be able to see the **Editor**
-    icon, in the Classic Ribbon and not in the Single line ribbon.
+    icon, in the Classic Ribbon of **Microsoft Word**. In the Single line ribbon, it will not be visible 
+    in the default browser zoom level of 100%. Select the **ellipsis** (3 horizontal dots) icon and scroll 
+    down to select **Editor**.
 
     ![](./media/image13.png)
 
