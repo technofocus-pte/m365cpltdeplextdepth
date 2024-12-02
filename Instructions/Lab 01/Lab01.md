@@ -68,9 +68,9 @@ speech for you based on your company's Income Statement:
 6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
-    <span class="mark">++**Write a speech for the Fabrikam stakeholders that
+    +++Write a speech for the Fabrikam stakeholders that
     summarizes the results of the company's 2023 income statement found in
-    the attached file**++.</span>
+    the attached file.+++
 
 7.  In the **Draft with Copilot** window, select the **Reference your
     content** button. In the pop-up window that appears, select the
