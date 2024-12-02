@@ -49,7 +49,7 @@ speech for you based on your company's Income Statement:
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
     **Resources** tab on the right.
 
-    After signing-in, if you happend to see a hazy web page of **Microsoft 365** home page, click 
+    After signing-in, if you happen to see a hazy web page of **Microsoft 365** home page, click 
     **Refresh** in the browser menu bar
     ![](./media/image2.png)
 
@@ -72,7 +72,7 @@ speech for you based on your company's Income Statement:
     the lab execution (Lab 0)** you can skip this step.
 
 5.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) 
-    to get it in your      Most Recently Used (MRU) file list.
+    to get it in your Most Recently Used (MRU) file list.
 
 6.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
 
