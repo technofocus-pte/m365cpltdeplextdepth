@@ -34,18 +34,18 @@ application.
 
 - **Lab 05**: Empower your workforce -Copilot-Finance
 
-- **Lab 06**: Empower your workforce - Copilot-HR
+- **Lab 06**: Empower Team Collaboration and Content Creation with Copilot Pages
 
-- **Lab 07**: Empower your workforce - Copilot-Operations
+- **Lab 07**: Empower your workforce - Copilot-HR
 
-- **Lab 08**: Create conversational actions for Microsoft Copilot
-  (preview)
+- **Lab 08**: Empower your workforce - Copilot-Operations
 
-- **Lab 09**: Create AI plugin actions for Microsoft Copilot (preview)
+- **Lab 09**: Build an autonomous agent to track new files created in OneDrive
 
-During these exercises, you'll use Copilot in various Microsoft 365 apps
+-  **Lab 10**: Implement prompt action for a quiz generation agent’s topic
+
+During these exercises, you'll use Copilot in various **Microsoft 365** apps
 such as Word, PowerPoint, and Outlook to perform common business tasks
 relevant to each role.
 
-Let's dive in and start transforming the way you work with Microsoft
-365!
+Let's dive in and start transforming the way you work with **Microsoft 365**!
