@@ -74,7 +74,8 @@ to your OneDrive account. The next exercise uses this file.
     **Note:** If you don’t see the list of tabs across the top of the
     page, please follow the steps below to view the list of tabs.
 
-    - Ensure you have signed-in using the **Microsoft 365 credentials** (available under the **Resources** tab).
+    - Ensure you have signed-in using the **Microsoft 365 credentials** (available under the **Resources** 
+      tab).
 
       ![](./media/image4.png)
 
@@ -111,10 +112,10 @@ to your OneDrive account. The next exercise uses this file.
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-    ++**I'm the Director of IT at Adatum Corporation. Create a project
+    +++I'm the Director of IT at Adatum Corporation. Create a project
     plan for installing a new network security product into a corporate
     network. Base this plan on IT industry guidelines for installing
-    network security products**.++
+    network security products.+++
 
     ![](./media/image10.png)
 
@@ -129,10 +130,10 @@ to your OneDrive account. The next exercise uses this file.
     then remove them from this prompt so that Copilot doesn't duplicate
     them:
 
-    ++**While that was a good start, I feel like it's missing important
+    +++While that was a good start, I feel like it's missing important
     areas. Please add the following items to the existing list: testing
     and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation**++
+    analysis, project timeline, and risk assessment and mitigation.+++
 
     ![](./media/image12.png)
 
@@ -145,10 +146,10 @@ to your OneDrive account. The next exercise uses this file.
     submit it yet as you must first link the file to the prompt in the
     next step:
 
-    ++**This version looks better. Please review the attached file, which
+    +++This version looks better. Please review the attached file, which
     is a product specification for the Contoso CipherGuard Sentinel X7
     security product, and update your project plan with information from
-    this product spec**++
+    this product spec+++
 
     ![](./media/image14.png)
 
@@ -195,8 +196,8 @@ to your OneDrive account. The next exercise uses this file.
 16. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
-    ++**We're almost there. Please break down each item on the report into
-    multiple detailed steps**++
+    +++We're almost there. Please break down each item on the report into
+    multiple detailed steps+++
 
     ![](./media/image19.png)
 
@@ -254,8 +255,8 @@ project plan.docx** available in **C:\LabFiles**.</span>
 
 1.  If you have a Microsoft 365 tab open in your Edge browser, then
     select it now; otherwise, open a new tab and enter the following
-    URL: +++<https://www.office.com>+++ to go to **Microsoft 365** home
-    page**.**
+    URL: +++https://www.office.com+++ to go to **Microsoft 365** home
+    page.
 
 2.  Open and close the file **Contoso CipherGuard project plan.docx**
     (which you saved to **OneDrive**) to get it in your Most Recently
@@ -290,17 +291,20 @@ project plan.docx** available in **C:\LabFiles**.</span>
       to see an expanded MRU file list. If the file appears here, then
       select it now and proceed to the next step.
 
-    - If you don't see your file in the expanded MRU list, then you must copy the link to the report and paste it in the          prompt field. To do so:
+    - If you don't see your file in the expanded MRU list, then you must copy the link to the report and 
+      paste it in the prompt field. To do so:
 
       a.  Select the **Microsoft 365** browser tab and select **Word** in the navigation pane.
 
       b.  In the **Word** home page, in the list of recent files, select the report to open it in Word.
 
-      c.  In the report in Word, on the far-right above the ribbon, select the **Share** button. In the drop-down menu that           appears, select **Copy Link**. Wait for the **Link copied** window to appear, which is your assurance that the              link to the file is copied to your clipboard.
+      c.  In the report in Word, on the far-right above the ribbon, select the **Share** button. In the 
+          drop-down menu that appears, select **Copy Link**. Wait for the **Link copied** window to 
+          appear, which is your assurance that the link to the file is copied to your clipboard.
 
-      d.  Switch to your **PowerPoint** tab, and at the bottom of the **Copilot** pane, the prompt field should still be
-          displaying **Create presentation from file /**. Position your cursor after the forward slash (**/**) and then    
-          paste in (**Ctrl+V**) the link to the report.
+      d.  Switch to your **PowerPoint** tab, and at the bottom of the **Copilot** pane, the prompt field 
+          should still be displaying **Create presentation from file /**. Position your cursor after the 
+          forward slash (**/**) and then paste in (**Ctrl+V**) the link to the report.
 
 7.  Note how the file appears in the prompt field. Select
     the **Send** icon in the prompt field. This prompt triggered Copilot
@@ -321,8 +325,8 @@ project plan.docx** available in **C:\LabFiles**.</span>
     Answer (Q&A) session. To correct this oversight, enter the following
     prompt:
 
-    ++**Add a Q&A slide at the very end of the presentation with an
-    appropriate image**++
+    +++Add a Q&A slide at the very end of the presentation with an
+    appropriate image.+++
 
     ![](./media/image25.png)
 
@@ -330,8 +334,8 @@ project plan.docx** available in **C:\LabFiles**.</span>
     Copilot used for this slide, so enter the following prompt asking
     Copilot to change the image:
 
-    ++**I don't like the image you used on the Q&A slide. Please replace it
-    with a different image**++
+    +++I don't like the image you used on the Q&A slide. Please replace it
+    with a different image.+++
 
     ![](./media/image26.png)
 
@@ -350,7 +354,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
     ![](./media/image28.png)
 
 13. Select the command **Add a slide about** and append the following
-    ++**Q&A at the very end of the presentation**++ (as shown in the
+    +++Q&A at the very end of the presentation+++ (as shown in the
     screenshot)
 
     ![](./media/image29.png)
@@ -371,7 +375,7 @@ project plan.docx** available in **C:\LabFiles**.</span>
     theme of the presentation to something more appropriate due to the
     technical nature of the topic. Enter the following prompt:
 
-    ++**Change the theme of this presentation to something more technical**++ 
+    +++Change the theme of this presentation to something more technical+++ 
 
     ![](./media/image30.png)
 
@@ -445,9 +449,9 @@ transform text into a table.
 7.  In the **Copilot** pane, enter the following prompt and then select
     the arrow (**Send**) icon:
 
-    ++**Write a new section for this document about the types of VPNs.
+    +++Write a new section for this document about the types of VPNs.
     Discuss the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details**++
+    audience, so please provide specific details+++
 
     ![](./media/image34.png)
 
@@ -470,9 +474,9 @@ transform text into a table.
     policies related to VPN usage. This topic is a key area that you
     want included, so enter the following prompt:
 
-    ++**Please write a new section for this document about security
+    +++Please write a new section for this document about security
     policies related to VPN usage. This content is for a technical audience,
-    so please provide specific details**.++
+    so please provide specific details.+++
 
     ![](./media/image35.png)
 
@@ -497,10 +501,10 @@ transform text into a table.
 12. Highlight the content in the first bullet of the **Risks and
     mitigation** section, and then enter the following prompt:
 
-    ++**The highlighted content discusses the risks of using VPNs in both
+    +++The highlighted content discusses the risks of using VPNs in both
     home and enterprise networks. Remove the content related to home
     networks and focus solely on the risks of VPNs in enterprise
-    networks**++
+    networks+++
 
     ![](./media/image37.png)
 
@@ -517,8 +521,8 @@ transform text into a table.
     section to be rewritten, you decide to highlight these two sections.
     Highlight both sections and then enter the following prompt:
 
-    ++**Please rewrite the highlighted content by placing it in a
-    table**++
+    +++Please rewrite the highlighted content by placing it in a
+    table.+++
 
     ![](./media/image39.png)
 
@@ -532,8 +536,8 @@ transform text into a table.
     you want included in the table. This time, enter the following
     prompt:
 
-    ++**Place the content from the Pros and Cons of implementing VPNs
-    into a table**++
+    +++Place the content from the Pros and Cons of implementing VPNs
+    into a table.+++
 
     ![](./media/image41.png)
 
@@ -554,8 +558,8 @@ transform text into a table.
     it safe, you decide to ask Copilot if it feels the document should
     include any other information. Enter the following prompt:
 
-    ++**Is there anything missing in this document that you would recommend
-    adding?** ++
+    +++Is there anything missing in this document that you would recommend
+    adding?+++
 
     ![](./media/image43.png)
 
