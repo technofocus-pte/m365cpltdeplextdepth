@@ -220,6 +220,9 @@ to your OneDrive account. The next exercise uses this file.
     OneDrive account that contains the product specification document
     that you used in this exercise. You'll use this file in the next
     exercise.
+    ![](./media/image18b.png)
+
+    ![](./media/image18c.png)
 
     ![](./media/image47.png)
 
