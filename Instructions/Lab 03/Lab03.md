@@ -216,14 +216,19 @@ to your OneDrive account. The next exercise uses this file.
     included in Lab #06. 
     ![](./media/image18a.png)
 
-19. Save the file as **Contoso CipherGuard project plan.docx** in your
-    OneDrive account that contains the product specification document
-    that you used in this exercise. You'll use this file in the next
-    exercise.
     ![](./media/image18b.png)
 
     ![](./media/image18c.png)
 
+     ![](./media/image18d.png)
+
+20. Rename the file as +++Contoso CipherGuard project plan.docx+++ in your
+    OneDrive. You'll use this file in the next exercise.
+
+    ![](./media/image18e.png)
+
+    ![](./media/image18f.png)
+    
     ![](./media/image47.png)
 
 ## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
