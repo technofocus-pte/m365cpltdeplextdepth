@@ -208,22 +208,26 @@ to your OneDrive account. The next exercise uses this file.
 18. Now that the project plan is created, you MUST save it to a Word
     document. **You'll use this project plan document in the next
     exercise**. At the bottom of Copilot's final response, select the
-    **Copy** button to copy the content. Open a blank word document **Word** document in a browser and 
-    paste the response.
+    **Copy** button to copy the content. 
     
     **Note**: You will see a **Edit in Pages** button which offers more funtionality and facilitates team 
     collaboration. We will not be using **Edit in Pages** in this exercise. A separate lab exercise is 
     included in Lab #06. 
     ![](./media/image18a.png)
+    
+    Open a blank word document **Word** document in a browser and paste the response.
 
     ![](./media/image18b.png)
 
+    One you paste the copied content, you will see the **Paste options** context menu. You can use **Keep 
+    Source formatting**.
     ![](./media/image18c.png)
 
-     ![](./media/image18d.png)
+    ![](./media/image18d.png)
 
-20. Rename the file as +++Contoso CipherGuard project plan.docx+++ in your
-    OneDrive. You'll use this file in the next exercise.
+20. Click the file name field on the top left (as shown in the screenshto) and rename the file as 
+    +++Contoso CipherGuard project plan.docx+++ in your **OneDrive**. You'll use this file in the next 
+    exercise.
 
     ![](./media/image18e.png)
 
