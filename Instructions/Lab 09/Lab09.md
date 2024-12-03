@@ -15,10 +15,6 @@ the newly created files.
 
 ## Exercise 1: Set up the environment
 
-1.  Login to the VM using the password from the Resources tab.
-
-    ![](./media/image1.png)
-
 ### Task 1: Setup OneDrive
 
 1.  Open a browser and navigate to +++**https://office.com**+++. **Sign
@@ -35,7 +31,7 @@ the newly created files.
 
     ![](./media/image4.png)
 
-4.  Select the file **File details** from **C:\LabFiles** and select
+4.  Select the file **File details.xlsx** from **C:\LabFiles** and select
     **Open**.
 
     ![](./media/image5.png)
@@ -51,7 +47,7 @@ the newly created files.
 
 ### Task 2 : Create a development environment
 
-1.  Login to +++<https://admin.powerplatform.microsoft.com/>+++ using
+1.  Login to +++https://admin.powerplatform.microsoft.com+++ using
     you tenant details from the Resources tab.
 
 2.  Select **Environments** from the left navigation pane and click on
@@ -65,7 +61,7 @@ the newly created files.
     |	|	|
     |:----|:-----|
     | +++Property+++	| +++Value+++	|
-    | Name	| +++ Dev env+++	|
+    | Name	| +++Dev env+++	|
     | Region	| United States - Default	|
     | Type	| Developer	|
 
@@ -109,7 +105,7 @@ the newly created files.
 
 ### Task 1: Create an agent from Copilot Studio
 
-1.  Click on the Skip to configure option in the Agent creation page
+1.  Click on the **Skip to configure** option in the Agent creation page
     that opens up.
 
     ![](./media/image15.png)
@@ -121,7 +117,7 @@ the newly created files.
 
     - **Description** - +++This agent will update the File details tracker
     placed in the OneDrive, each time a new file is created in the
-    OneDrive
+    OneDrive+++
 
     ![](./media/image16.png)
 
@@ -227,20 +223,25 @@ the newly created files.
 
     ![](./media/image32.png)
 
-2.  Select **Security** -\> **Authentication** -\> **No authentication**
+2.  Select **Generative AI** -> **Using generative AI in conversations**. Select **Generative (preview)**  
+    and then click on **Save**.
+
+    ![](./media/image32a.png)
+    
+3.  Select **Security** -\> **Authentication** -\> **No authentication**
     and then click on **Save**.
 
     ![](./media/image33.png)
 
-3.  Select **Save** in the confirmation dialog.
+4.  Select **Save** in the confirmation dialog.
 
     ![](./media/image34.png)
 
-4.  Now, select **Publish** to publish the agent.
+5.  Now, select **Publish** to publish the agent.
 
     ![](./media/image35.png)
 
-5.  Select **Publish** in the confirmation dialog.
+6.  Select **Publish** in the confirmation dialog.
 
     ![](./media/image36.png)
 
@@ -261,16 +262,17 @@ the newly created files.
 
 4.  Add few more files similarly.
 
-5.  Now, open the File details.xlsx from OneDrive and observe that the
+5.  Now, **open** the **File details.xlsx** from OneDrive and observe that the
     details of the files created are added to the tracker.
+    **Note**: Login using your credentials from the Resources tab as requried. 
 
     ![](./media/image40.png)
 
-6.  When the file is created in OneDrive, the trigger is invoked which
+7.  When the file is created in OneDrive, the trigger is invoked which
     in turn executes the flow **When a file is added** and updates the
     tracker.
 
-7.  You can also check the details of the autonomous agent in the
+8.  You can also check the details of the autonomous agent in the
     Activity tab in Copilot Studio.
 
 **Summary**
