@@ -2,26 +2,6 @@
 
 ## Objective:
 
-Marketing professionals can utilize Copilot for Microsoft 365 to
-generate content for their campaigns, improve productivity, get insights
-into their campaigns, collaborate more effectively and automating
-repetitive tasks such as formatting, adding charts and graphs, and even
-proofreading documents.
-
-In this lab you will use:
-
-- Microsoft Copilot (Bing/Web mode) to analyze market trends, provide
-  sales forecasts, and identify new sales opportunities.
-
-- Copilot in Loop to generate marketing campaign ideas for a new product
-  line.
-
-- Copilot in Word to combine multiple marketing reports.
-
-- Copilot in Excel to analyze market trends in a spreadsheet.
-
-## Exercise #1: Conduct market analysis using Microsoft Copilot
-
 Microsoft Copilot (within Bing) is a generative AI service grounded in
 data from the public web in the Microsoft Bing search index only. It
 doesn't have access to organizational resources or content within the
@@ -41,42 +21,56 @@ the tips and choosing the right conversation style (either More
 Creative, More Balanced, or More Precise).
 
 1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: +++https://bing.com+++
+    URL: +++**<https://bing.com>+++**
 
 2.  In **Microsoft Bing**, in the list of tabs across the top of the
     page, select **Copilot**. Doing so opens Microsoft Copilot.
 
     ![](./media/image1.png)
 
-3.  On the **Copilot** page, note the toggle switch at the top of the
+    **Note:** If you don’t see the list of tabs across the top of the
+    page, please follow the steps below to view the list of tabs.
+
+- Ensure you have signed-in using the **Microsoft 365 credentials**
+  (available under the **Resources** tab).
+
+    ![](./media/image2.png)
+
+- Enable the option **Show menu bar** (in red highlight)
+
+    ![](./media/image3.png)
+
+    ![](./media/image4.png)
+
+3.  Now select **Copilot**. Doing so opens Microsoft Copilot.
+
+    ![](./media/image5.png)
+
+4.  On the **Copilot** page, note the toggle switch at the top of the
     page that allows you to select either **Work** or **Web**. While
     your request is a work-related task, you need Copilot to access the
     Web to conduct its market analysis of the Toy industry. If
     necessary, select the **Web** toggle switch.
 
-    ![](./media/image2.png)
+    ![](./media/image6.png)
 
-4.  Below the list of predefined prompt examples, you can choose a
-    conversation style. Select the **More Balanced** option if it isn't
-    already selected by default.
+    ![](./media/image7.png)
 
-    ![](./media/image3.png)
+    **Note**: The conversational tone selector **More Creative -More Balanced-
+    More Precise** present in the previous Copilot version is dropped in
+    the latest version.
 
 5.  In the prompt field, enter the following prompt and then select
     the **Submit** icon:
 
-    ++**I'm the Director for Market Research for Tailspin Toys, a U.S. based
-    toy manufacturer. Conduct a market analysis of the toy industry to
-    identify sales figures, the latest trends, consumer preferences, and
-    the most popular toys in the market**.++
+    ++**I'm the Director for Market Research for Tailspin Toys, a U.S.
+    based toy manufacturer. Conduct a market analysis of the toy industry
+    to identify sales figures, the latest trends, consumer preferences,
+    and the most popular toys in the market**.++
 
-    ![](./media/image4.png)
+    ![](./media/image8.png)
 
-6.  Accept the **Terms of use and policy** to proceed further.
-
-    ![](./media/image5.png)
-
-7.  Review the market analysis that Copilot generated. You realize that
+6.  Review the market analysis that Copilot generated. You realize that
     a general request such as the one you submitted provides basic
     information such as market trends, consumer preferences, and toy
     trends. However, you're also interested in gathering data on the toy
@@ -87,18 +81,18 @@ Creative, More Balanced, or More Precise).
     iterate, iterate, iterate. Enter the following prompt to amend the
     market analysis:
 
-    ++**That analysis was great. However, I'm also interested in including
-    data on the toy industry, including market share and consumer
-    feedback. Please amend your prior analysis to include this
+    ++**That analysis was great. However, I'm also interested in
+    including data on the toy industry, including market share and
+    consumer feedback. Please amend your prior analysis to include this
     information. Thanks**!++
 
-    ![](./media/image6.png)
+    ![](./media/image9.png)
 
-    ![](./media/image7.png)
+    <![](./media/image10.png)
 
-    ![](./media/image8.png)
+    [](./media/image11.png)
 
-8.  You realize that you're getting closer to your goal, but you're
+7.  You realize that you're getting closer to your goal, but you're
     still missing some key information. After reviewing your prior
     prompts, you realized that you provided Copilot with your overall
     objective, the scope of the analysis, and the data that you needed.
@@ -107,83 +101,82 @@ Creative, More Balanced, or More Precise).
     plan for the upcoming year. To correct this shortcoming, enter the
     following prompt:
 
-    ++**I think all the data is complete. With all the information that you
-    captured, please analyze the data and identify patterns, trends, and
-    insights that can help me determine what Tailspin Toy's business plan
-    should be for the upcoming year**.++
+    ++**I think all the data is complete. With all the information that
+    you captured, please analyze the data and identify patterns, trends,
+    and insights that can help me determine what Tailspin Toy's business
+    plan should be for the upcoming year**++
 
-    ![](./media/image9.png)
+    ![](./media/image12.png)
 
-    ![](./media/image10.png)
+    ![](./media/image13.png)
 
-9.  You really like the information that Copilot provided. However,
+8.  You really like the information that Copilot provided. However,
     since this project is your first opportunity to provide a market
     analysis report to your company's SLT, you're not sure if you're
     covering everything that might be of interest to them. You decide to
     have Copilot help you determine if you're missing anything. Enter
     the following prompt:
 
-    ++**Please analyze the data in this market analysis and business plan.
-    Is there any other information that a toy company would typically
-    request for market analysis and business plans that I failed to
-    request? If so, can you please amend your responses to include this
+    ++**Please analyze the data in this market analysis and business
+    plan. Is there any other information that a toy company would
+    typically request for market analysis and business plans that I failed
+    to request? If so, can you please amend your responses to include this
     information. Thank you**!++
 
-    ![](./media/image11.png)
+    ![](./media/image14.png)
 
-    ![](./media/image12.png)
+    ![](./media/image15.png)
 
-10. Based on the information that Copilot provides, you realize that you
+9.  Based on the information that Copilot provides, you realize that you
     can really maximize the effectiveness of your reports by having
     Copilot include an analysis of these areas. To put the finishing
     touch on your reports, enter the following prompt:
 
-    ++**Please amend the market analysis to include an analysis of each of
-    these areas for the Toy industry. Also update the business plan that
-    you created for Tailspin Toys based on these insights. Thanks**!++
-
-    ![](./media/image13.png)
-
-    ![](./media/image14.png)
-
-11. The market analysis and business plan that Copilot generated for you
-    was based on a **More Balanced** conversation style. It's ideal for
-    users who want a balance between precision and creativity. This
-    style provides responses that are longer and more descriptive than
-    the **More Precise** style. As for your reports, you wanted longer
-    and more descriptive responses, since you felt that your SLT expects
-    that level of detail. However, you're curious as to how the reports
-    would look using the **More Creative** style. This style provides
-    responses that are more imaginative and creative.
-
-    ![](./media/image15.png)
-
-12. Let's explore how Copilot's responses would be different using
-    the **More Creative** style. Open a new tab in your **Microsoft
-    Edge** browser and enter the following
-    URL: +++https://bing.com+++
-
-13. In **Microsoft Bing**, select **Copilot** to open Microsoft Copilot.
-
-14. On the **Copilot** page, you still want to be in **Web** mode, but
-    this time you decide to try the **More Creative** conversation
-    style. Repeat steps 4-10. Copy and paste in each prompt. Pay
-    particular attention to the tone that Copilot uses when responding
-    to each prompt. Also note how each response is different from its
-    corresponding response that was based on the **More
-    Balanced** conversation style.
-
-## Export a Copilot response
-
-When you use Microsoft Copilot in Bing to research different things or
-answer different questions, you may decide that a response is so good
-that you want to export it just to save it for future reference. 
-
-1. Select Copy button at the bottom of a prompt response to copy the response and paste the copied response in a text          editor.
+    ++**Please amend the market analysis to include an analysis of each
+    of these areas for the Toy industry. Also update the business plan
+    that you created for Tailspin Toys based on these insights.
+    Thanks**!++
 
     ![](./media/image16.png)
 
-    If you want to consolidate multiple responses into a single document, you need to manually copy and paste each response     in a text editor.
+    ![](./media/image16a.png)
+10. The market analysis and business plan that Copilot generated for you
+    was based on a predefined conversation style. It's ideal for users
+    who want a balance between precision and creativity.
+
+    If you're curious as to how the reports would look using the **More
+    Creative** style (responses that are more imaginative and creative)
+    you can adjust your prompts to manually set the tone or focus,
+    depending on whether you want precise, creative, or balanced outputs:
+
+    **Points to note**:
+
+    - **For Precise Responses**: Use clear, specific, and detail-oriented
+      prompts. Indicate that you want factual, concise answers with a focus
+      on accuracy.
+
+    - **For Creative Responses**: Use open-ended, exploratory, or
+  i   maginative prompts. Encourage brainstorming or suggest solutions
+      where originality is needed.
+
+    - **For Balanced Responses:** Use moderately open-ended prompts that
+      request a mix of factual detail with some creativity. You can ask for
+      both analytical and exploratory input.
+
+  ## Export a Copilot response
+
+  When you use Microsoft Copilot in Bing to research different things or
+  answer different questions, you may decide that a response is so good
+  that you want to save it for future reference. 
+
+  1.  Select **Copy** button at the bottom of a prompt response to copy
+      the response and paste the copied response in a text editor.
+
+      ![](./media/image16b.png)
+
+      If you want to consolidate multiple responses into a single document,
+      you need to manually copy and paste each response in a text editor and
+      save the file..
    
 ## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
 
@@ -202,7 +195,8 @@ brainstorm ideas for a marketing campaign targeted at this new product
 line.
 
 1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
+    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above 
+    the **Mocrosoft 365** navigation pane,
 
     ![](./media/image21.png)
 
@@ -379,9 +373,12 @@ Copilot to creates the combined report, review it and possibly update it
 with other information that Copilot can find on the Chai Tea market in
 Latin America.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, 
+    open a new tab and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 
+    home page.
     
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
 
@@ -396,8 +393,8 @@ Latin America.
     
     - **Promotion Plan for Chai Tea in Latin America.**
     
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
+    the lab execution** section you can skip this step.
     
 4.  In this exercise, you access the documents from the Most Recently
     Used file list. To get the files to appear in the MRU list, open
@@ -516,9 +513,12 @@ the monthly marketing trends.
 In this exercise, you will use Copilot in Excel to analyze a market
 trend spreadsheet that already has an Excel table defined.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
+1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, 
+    open a new tab and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 
+    home page.
     
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
 
@@ -530,8 +530,8 @@ trend spreadsheet that already has an Excel table defined.
 
     ![](./media/image50.png)
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the
-    labexecution** you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
+    the lab execution** you can skip this step.
 
 4.  On the **Microsoft 365** home page, select the **Excel** icon in the
     navigation pane on the left.
