@@ -222,8 +222,8 @@ line.
 
     ![](./media/image24.png)
 
-5.  In the **Create a new workspace** window, enter **Outdoor toy line
-    Marketing Campaign** for your workspace name and then select either
+5.  In the **Create a new workspace** window, enter +++**Outdoor toy line
+    Marketing Campaign**+++ for your workspace name and then select either
     the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
@@ -272,8 +272,8 @@ line.
     brainstorm. For this exercise, enter the following prompt field and
     select the **Submit** icon:
 
-    ++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
-    toys**.++
+    +++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
+    toys**.+++
 
     ![](./media/image31.png)
 
@@ -287,9 +287,9 @@ line.
 13. In the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
 
-    ++**That looks good. However, please rewrite the report by placing the
+    +++**That looks good. However, please rewrite the report by placing the
     information in a table and provide more specific details for each
-    idea**.++
+    idea**.+++
 
     ![](./media/image33.png)
 
@@ -299,7 +299,7 @@ line.
     Copilot to add another idea to the table titled **Supermarket store
     promotions**. To do so, enter the following prompt:
 
-    ++**Add an idea for Supermarket store promotions**.++
+    +++**Add an idea for Supermarket store promotions**.+++
 
     ![](./media/image35.png)
     
@@ -329,8 +329,8 @@ line.
     Copilot sort the ideas from best to worst. Enter the following
     prompt to sort the ideas:
 
-    ++**Please sort the ideas in the table starting from most effective to
-    least effective**.++
+    +++**Please sort the ideas in the table starting from most effective to
+    least effective**.+++
 
     **Note:** Locate the **Sort** icon (the up and down arrows) that
     appears in the icon tray above the list of ideas. This option simply
@@ -344,7 +344,7 @@ line.
     natural fit for a new toy line that focuses on outdoor products. To
     do so, enter the following prompt:
 
-    ++**Please replace the final idea in the table with Seasonal Promotions**.++
+    +++**Please replace the final idea in the table with Seasonal Promotions**.+++
 
     ![](./media/image38.png)
 
@@ -411,11 +411,11 @@ Latin America.
     the **Generate** button until after you link the three files to the
     prompt:
 
-    ++**I'm the LATAM Marketing Director for Contoso Beverage. Please create
+    +++**I'm the LATAM Marketing Director for Contoso Beverage. Please create
     a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
     beverage. Combine the three attached files to create a report that
     describes the product, analyzes the market trend for it, and includes
-    a promotion plan for Latin America**.++
+    a promotion plan for Latin America**.+++
 
     ![](./media/image42.png)
 
@@ -453,11 +453,11 @@ Latin America.
 
     ![](./media/image46.png)
 
-    ++**This report looks good. However, please add a section titled
+    +++**This report looks good. However, please add a section titled
     Competitive Analysis. Review the beverage companies in Latin America
     that sell Chai Tea and then provide information in this section on the
     strengths and weaknesses of these competitors, their market share, and
-    their pricing strategies**.++
+    their pricing strategies**.+++
 
     ![](./media/image47.png)
 
@@ -471,10 +471,10 @@ Latin America.
 
     ![](./media/image48.png)
 
-    ++**Nice job! One last thing. Please add a section titled Distribution
+    +++**Nice job! One last thing. Please add a section titled Distribution
     Channels. Review the distribution channels used to sell Chai Tea in
     Latin America and then provide information in this section on the
-    types of retailers, wholesalers, and distributors used**.++
+    types of retailers, wholesalers, and distributors used**.+++
 
 12. After reviewing this latest draft that contains the new Distribution
     Channels section, you're satisfied with the report and you're ready
