@@ -112,10 +112,10 @@ to your OneDrive account. The next exercise uses this file.
     content** plugin to Microsoft Copilot, and then select
     the **Submit** arrow in the bottom corner of the prompt field:
 
-    +++I'm the Director of IT at Adatum Corporation. Create a project
+    ++**I'm the Director of IT at Adatum Corporation. Create a project
     plan for installing a new network security product into a corporate
     network. Base this plan on IT industry guidelines for installing
-    network security products.+++
+    network security products**.++
 
     ![](./media/image10.png)
 
@@ -130,10 +130,10 @@ to your OneDrive account. The next exercise uses this file.
     then remove them from this prompt so that Copilot doesn't duplicate
     them:
 
-    +++While that was a good start, I feel like it's missing important
+    ++**While that was a good start, I feel like it's missing important
     areas. Please add the following items to the existing list: testing
     and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation.+++
+    analysis, project timeline, and risk assessment and mitigation**.++
 
     ![](./media/image12.png)
 
@@ -146,10 +146,10 @@ to your OneDrive account. The next exercise uses this file.
     submit it yet as you must first link the file to the prompt in the
     next step:
 
-    +++This version looks better. Please review the attached file, which
+    ++**This version looks better. Please review the attached file, which
     is a product specification for the Contoso CipherGuard Sentinel X7
     security product, and update your project plan with information from
-    this product spec+++
+    this product spec**.++
 
     ![](./media/image14.png)
 
@@ -196,8 +196,8 @@ to your OneDrive account. The next exercise uses this file.
 16. While this looks good, you feel that the project plan is lacking in
     specific details. To address this issue, enter the following prompt:
 
-    +++We're almost there. Please break down each item on the report into
-    multiple detailed steps+++
+    ++**We're almost there. Please break down each item on the report into
+    multiple detailed steps**.++
 
     ![](./media/image19.png)
 
