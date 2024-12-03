@@ -209,7 +209,8 @@ to your OneDrive account. The next exercise uses this file.
     document. **You'll use this project plan document in the next
     exercise**. At the bottom of Copilot's final response, select the
     **Copy** button to copy the content. Open a blank word document **Word** document in a browser and 
-    paste the response. 
+    paste the response.
+    
     **Note**: You will see a **Edit in Pages** button which offers more funtionality and facilitates team 
     collaboration. We will not be using **Edit in Pages** in this exercise. A separate lab exercise is 
     included in Lab #06. 
