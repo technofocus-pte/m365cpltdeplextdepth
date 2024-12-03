@@ -225,7 +225,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image18d.png)
 
-20. Click the file name field on the top left (as shown in the screenshto) and rename the file as 
+20. Click the file name field on the top left (as shown in the screenshot) and rename the file as 
     +++Contoso CipherGuard project plan.docx+++ in your **OneDrive**. You'll use this file in the next 
     exercise.
 
