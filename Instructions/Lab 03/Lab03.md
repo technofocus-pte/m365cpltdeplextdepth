@@ -46,7 +46,7 @@ to your OneDrive account. The next exercise uses this file.
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365
     Credentials** provided under the **Resources tab** on the right.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+2.  Open **OneDrive**. Browse to the **C:\LabFiles** folder to select and upload a copy of
     **Contoso CipherGuard Product Specification report.docx** to
     **OneDrive**.
 
