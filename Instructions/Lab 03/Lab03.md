@@ -233,7 +233,7 @@ to your OneDrive account. The next exercise uses this file.
 
     ![](./media/image18f.png)
     
-    ![](./media/image47.png)
+    ![](./media/image47a.png)
 
 ## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
 
