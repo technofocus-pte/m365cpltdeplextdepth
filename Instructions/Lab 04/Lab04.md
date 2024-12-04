@@ -169,18 +169,15 @@ Creative, More Balanced, or More Precise).
   that you want to save it for future reference. 
 
   At the bottom of Copilot's final response, select the **Copy** button to copy the response and paste the 
-  copied response in a text editor.. 
+  copied response in a text editor. If you want to consolidate multiple responses into a single document,
+  you need to manually copy and paste each response in a text editor and save the file.
     
   **Note**: You will see a **Edit in Pages** button which offers more funtionality and facilitates team 
   collaboration. We will not be using **Edit in Pages** in this exercise. A separate lab exercise is 
   included in Lab #06.  
 
   ![](./media/image16b.png)
-
-  If you want to consolidate multiple responses into a single document,
-  you need to manually copy and paste each response in a text editor and
-  save the file..
-   
+  
 ## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
 
 You can use Copilot in Loop to brainstorm new marketing strategies, plan
