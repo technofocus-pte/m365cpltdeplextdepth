@@ -265,8 +265,8 @@ line.
     brainstorm. For this exercise, enter the following prompt field and
     select the **Submit** icon:
 
-    +++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
-    toys**.+++
+    ++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
+    toys**.++
 
     ![](./media/image31.png)
 
@@ -280,9 +280,9 @@ line.
 13. In the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
 
-    +++**That looks good. However, please rewrite the report by placing the
+    ++**That looks good. However, please rewrite the report by placing the
     information in a table and provide more specific details for each
-    idea**.+++
+    idea**.++
 
     ![](./media/image33.png)
 
@@ -292,7 +292,7 @@ line.
     Copilot to add another idea to the table titled **Supermarket store
     promotions**. To do so, enter the following prompt:
 
-    +++**Add an idea for Supermarket store promotions**.+++
+    ++**Add an idea for Supermarket store promotions**.++
 
     ![](./media/image35.png)
     
@@ -322,8 +322,8 @@ line.
     Copilot sort the ideas from best to worst. Enter the following
     prompt to sort the ideas:
 
-    +++**Please sort the ideas in the table starting from most effective to
-    least effective**.+++
+    ++**Please sort the ideas in the table starting from most effective to
+    least effective**.++
 
     **Note:** Locate the **Sort** icon (the up and down arrows) that
     appears in the icon tray above the list of ideas. This option simply
@@ -337,7 +337,7 @@ line.
     natural fit for a new toy line that focuses on outdoor products. To
     do so, enter the following prompt:
 
-    +++**Please replace the final idea in the table with Seasonal Promotions**.+++
+    ++**Please replace the final idea in the table with Seasonal Promotions**.++
 
     ![](./media/image38.png)
 
