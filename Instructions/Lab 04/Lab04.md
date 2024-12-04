@@ -216,21 +216,20 @@ line.
 
 4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
     default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
+    select **+** on the top left of the navigation menu, and then select **+New workspace** button.
 
-    ![](./media/image24.png)
+    ![](./media/image024.png)
 
 5.  In the **Create a new workspace** window, enter +++**Outdoor toy line Marketing Campaign**+++ for your 
     workspace name and then select either the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
-    ![](./media/image25.png)
+    ![](./media/image24a.png)
 
 6.  In the **Add files to your workspace** window (depending on your version of Loop, this window may 
     say **Workspace Switcher**), select **Create**.
 
-    ![](./media/image26.png)
+    ![](./media/image25a.png)
 
 7.  You're now on the first page for your new workspace. The name of the page is currently **Untitled**. 
     Note the page (Untitled) also appears in the left-hand navigation pane. In the main body of the   
