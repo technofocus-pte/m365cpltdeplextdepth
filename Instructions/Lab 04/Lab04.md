@@ -168,8 +168,12 @@ Creative, More Balanced, or More Precise).
   answer different questions, you may decide that a response is so good
   that you want to save it for future reference. 
 
-  Select **Copy** button at the bottom of a prompt response to copy
-  the response and paste the copied response in a text editor.
+  At the bottom of Copilot's final response, select the **Copy** button to copy the response and paste the 
+  copied response in a text editor.. 
+    
+  **Note**: You will see a **Edit in Pages** button which offers more funtionality and facilitates team 
+  collaboration. We will not be using **Edit in Pages** in this exercise. A separate lab exercise is 
+  included in Lab #06.  
 
   ![](./media/image16b.png)
 
