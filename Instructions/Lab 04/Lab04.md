@@ -21,7 +21,7 @@ the tips and choosing the right conversation style (either More
 Creative, More Balanced, or More Precise).
 
 1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: +++**<https://bing.com>+++**
+    URL: +++**https://bing.com+++**
 
 2.  In **Microsoft Bing**, in the list of tabs across the top of the
     page, select **Copilot**. Doing so opens Microsoft Copilot.
