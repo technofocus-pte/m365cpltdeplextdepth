@@ -14,7 +14,7 @@
     ![](./media/image2.png)
 
 3.  On the Home page, in the text area under Describe your agent to
-    create it, enter +++I want you to be a question and answering assistant that can answer common  questions from users using the content of a website +++ and click on **Send**.
+    create it, enter +++I want you to be a question and answering assistant that can answer common  questions from users using the content of a website+++ and click on **Send**.
 
     ![](./media/image3.png)
 
