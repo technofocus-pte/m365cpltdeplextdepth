@@ -63,7 +63,7 @@ basically an AI-assisted sticky-note exercise.
 
 5.  On the ribbon at the top of the page, select
     the **Whiteboard** drop-down arrow. In the **Board name** field,
-    enter **Boiler installation project plan** and then select the
+    enter +++**Boiler installation project plan**+++ and then select the
     checkmark icon.
 
     ![](./media/image2.png)
