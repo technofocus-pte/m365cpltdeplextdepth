@@ -221,25 +221,20 @@ line.
 
     ![](./media/image24.png)
 
-5.  In the **Create a new workspace** window, enter +++**Outdoor toy line
-    Marketing Campaign**+++ for your workspace name and then select either
-    the **Continue** or **Create** button that appears (depending on
+5.  In the **Create a new workspace** window, enter +++**Outdoor toy line Marketing Campaign**+++ for your 
+    workspace name and then select either the **Continue** or **Create** button that appears (depending on
     your Loop version).
 
     ![](./media/image25.png)
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+6.  In the **Add files to your workspace** window (depending on your version of Loop, this window may 
+    say **Workspace Switcher**), select **Create**.
 
     ![](./media/image26.png)
 
-7.  You're now on the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to **Ideas for Outdoor toy campaigns**. Note how the page name
-    is automatically updated in the navigation pane.
+7.  You're now on the first page for your new workspace. The name of the page is currently **Untitled**. 
+    Note the page (Untitled) also appears in the left-hand navigation pane. In the main body of the   
+    page, select in the **Untitled** field and change the name of the page to +++**Ideas for Outdoor toy campaigns**+++. Note how the page name is automatically updated in the navigation pane.
 
     ![](./media/image27.png)
 
