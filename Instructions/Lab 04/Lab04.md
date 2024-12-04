@@ -155,9 +155,8 @@ Creative, More Balanced, or More Precise).
       prompts. Indicate that you want factual, concise answers with a focus
       on accuracy.
 
-    - **For Creative Responses**: Use open-ended, exploratory, or
-  i   maginative prompts. Encourage brainstorming or suggest solutions
-      where originality is needed.
+    - **For Creative Responses**: Use open-ended, exploratory, or imaginative prompts. Encourage 
+      brainstorming or suggest solutions where originality is needed.
 
     - **For Balanced Responses:** Use moderately open-ended prompts that
       request a mix of factual detail with some creativity. You can ask for
@@ -169,14 +168,14 @@ Creative, More Balanced, or More Precise).
   answer different questions, you may decide that a response is so good
   that you want to save it for future reference. 
 
-  1.  Select **Copy** button at the bottom of a prompt response to copy
-      the response and paste the copied response in a text editor.
+  1. Select **Copy** button at the bottom of a prompt response to copy
+     the response and paste the copied response in a text editor.
 
-      ![](./media/image16b.png)
+     ![](./media/image16b.png)
 
-      If you want to consolidate multiple responses into a single document,
-      you need to manually copy and paste each response in a text editor and
-      save the file..
+     If you want to consolidate multiple responses into a single document,
+     you need to manually copy and paste each response in a text editor and
+     save the file..
    
 ## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
 
