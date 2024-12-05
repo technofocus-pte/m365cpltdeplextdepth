@@ -339,7 +339,8 @@ in the Copilot pane or when creating a new document.
     then select it now; otherwise, open a new tab and enter the
     following URL: +++https://www.office.com+++
 
-    Note: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on     the right.
+    Note: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
     
 2.  With your plan in mind, you decide to first use Copilot in Word to
     create a report that addresses all your questions. On the **Microsoft
@@ -349,7 +350,7 @@ in the Copilot pane or when creating a new document.
     blank document, enter the following prompt and select
     the **Generate** button:
 
-    ++**I'm the Operations Manager for Adatum Corporation. We're thinking
+    +++I'm the Operations Manager for Adatum Corporation. We're thinking
     about possibly replacing our building's current boiler system with a
     furnace system. Write a report describing what type of boiler systems
     are used in most commercial buildings, and include what considerations
@@ -358,7 +359,7 @@ in the Copilot pane or when creating a new document.
     system to a furnace system in a commercial two-story building built in
     the 1970s, whether changing from a boiler system to a furnace system
     will have any effect on our current air conditioning system, and the
-    average defect rates for boiler systems versus furnace systems**.++
+    average defect rates for boiler systems versus furnace systems.+++
     
     ![](./media/image20.png)
 
@@ -381,8 +382,8 @@ in the Copilot pane or when creating a new document.
     pane, enter the following question and then select
     the **Send** arrow:
 
-    ++**What type of boilers do most buildings use as part of their heating
-    systems**?++
+    +++What type of boilers do most buildings use as part of their heating
+    systems?+++
     
     ![](./media/image22.png)
 
@@ -461,18 +462,20 @@ formally start this project.
 
 1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
     
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
  
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.   
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Comparing boiler and furnace heating systems          report** document to **OneDrive**.
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Comparing boiler and furnace 
+    heating systems report** document to **OneDrive**.
 
     **Tip**: open and close the file to get it in your Most Recently Used (MRU) file list.
 
     ![](./media/image26.png)
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
+    the lab execution** section you can skip this step.
     
 4.  On the **Microsoft 365** home page, select the **PowerPoint** icon
     in the navigation pane on the left.
