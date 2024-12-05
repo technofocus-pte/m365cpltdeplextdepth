@@ -28,7 +28,8 @@ based on the role responsibilities in this document.
 
 1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
     
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it. 
     
@@ -39,8 +40,7 @@ based on the role responsibilities in this document.
     
     ![](./media/image1.png)
     
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab execution** section you can skip this step.
   
 4.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
     then select it now; otherwise, open a new tab and enter the
@@ -53,12 +53,12 @@ based on the role responsibilities in this document.
     but don't select the **Generate** button until after you link the
     responsibilities file to the prompt in the next step:
 
-    ++**I'm the HR Manager at the Graphic Design Institute. We've currently
+    +++I'm the HR Manager at the Graphic Design Institute. We've currently
     started the hiring process for a new Senior Animation Designer. Please
     review the attached document that outlines the job responsibilities
     for this role and create a job description based on those
-    responsibilities**.++
-
+    responsibilities.+++
+    ![](./media/image1a.png)
 7.  You now must attach to the prompt the **Graphic Design Institute -
     Design Team Responsibilities.docx** file that you downloaded. In
     the **Draft with Copilot** window, select the **Reference your
@@ -66,9 +66,7 @@ based on the role responsibilities in this document.
     the **Graphic Design Institute - Design Team
     Responsibilities.docx** file appears in the list of files, select
     it.
-
-    ![](./media/image2.png)
-
+    
 8.  Select **Browse files from cloud**, select the file from
     the **Recent** file list, and then select the **Attach** button. If
     the file doesn't appear in the **Recent** file list, select **My
@@ -93,11 +91,11 @@ based on the role responsibilities in this document.
     shortcoming, enter the following prompt and select the forward
     arrow:
 
-    ++**While this job description draft is a good start, you failed to
+    +++While this job description draft is a good start, you failed to
     include most of the details found in the job responsibilities
     document. Please try again, and this time outline each responsibility
     area and select the responsibilities required of a Senior Animation
-    Designer**.++
+    Designer.+++
 
     ![](./media/image6.png)
 
@@ -108,10 +106,10 @@ based on the role responsibilities in this document.
 13. Again, you feel that Copilot should provide more details. Enter the
     following prompt to see if you can get it to be more specific:
 
-    ++**This job description draft is better, but it still lacks the details
+    +++This job description draft is better, but it still lacks the details
     that I'm looking for. The job responsibilities document outlined
     detailed responsibilities for each area. Include those details in this
-    job description. Be as specific as you can**.++
+    job description. Be as specific as you can.+++
 
 14. After reviewing the results, you're reminded of the saying, "Be
     careful what you wish for" The list of responsibilities in this
@@ -174,20 +172,22 @@ Design Institute - Job descriptions.docx**. If it is saved with a
 different file name, then remember the name that you used so that you
 can locate the file in this exercise.
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new          tab and enter the following URL: +++https://www.office.com+++
+1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and enter the following URL: +++https://www.office.com+++
     
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
+    **Resources** tab on the right.
 
 2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of the following documents to **OneDrive**,
+3.  Browse to the **C:\LabFiles** folder to select and upload a copy of the following documents to 
+    **OneDrive**,
     - **Resume - Patti Fernandez**
     - **Resume - Nestor Wilke**
     - **Resume - Holly Dickson**
     - **Resume - Alex Wilber** .
     
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
+    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for 
+    the lab execution** you can skip this step.
     
 5.  In this exercise, you access the documents from the Most Recently
     Used (MRU) file list. To get the files to appear in the MRU list,
@@ -204,11 +204,11 @@ can locate the file in this exercise.
     prompt just yet. You must attach the files to the prompt in the next
     step:
 
-    ++**I'm the Hiring Manager for Graphic Design Institute. We're hiring
+    +++I'm the Hiring Manager for Graphic Design Institute. We're hiring
     for the position of Senior Animation Designer. Please create a report
     that compares the attached resumes to the requirements for a Senior
     Animation Designer in the attached job description file and rank the
-    candidates from most qualified to least qualified. Thank you**!++
+    candidates from most qualified to least qualified. Thank you!+++
     
     ![](./media/image13.png)
 
@@ -299,10 +299,10 @@ can locate the file in this exercise.
     and the first **Report Comparison** report to the prompt in the next
     step:
 
-    ++**That was a good start. Please create a report that compares the
+    +++That was a good start. Please create a report that compares the
     attached resumes to the prior resume comparison report (attached) and
     rank the candidates from most qualified to least qualified. Thank
-    you**!++
+    you!+++
 
 15. You now must attach the report that you just created that compared
     the first two resumes, along with the remaining two resumes. After
@@ -369,7 +369,8 @@ questions based on your direction.
     URL: +++https://www.office.com+++
 
 2.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on the **Apps** page,       scroll down to locate **Loop** and then select it.
+    navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on 
+    the **Apps** page, scroll down to locate **Loop** and then select it.
 
     ![](./media/image20.png)
 
