@@ -482,10 +482,9 @@ formally start this project.
 
 5.  In **PowerPoint**, open a new blank presentation.
 
-6.  On the right side of the PowerPoint ribbon, select
-    the **Copilot** option.
+6.  Select the **Copilot** icon (in red highlight as shown in the screenshot)..
 
-    ![](./media/image27.png)
+    ![](./media/image27a.png)
 
 7.  In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
