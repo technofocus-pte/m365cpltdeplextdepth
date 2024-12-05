@@ -485,11 +485,11 @@ formally start this project.
 6.  Select the **Copilot** icon (in red highlight as shown in the screenshot)..
 
     ![](./media/image27a.png)
-    ![](./media/image27b.png)
+    
 7.  In the **Copilot** pane that appears, several predefined prompts are
     available for you to choose from. Select the **Create presentation
     from file** prompt.
-
+    ![](./media/image27b.png)
 8.  In the prompt field at the bottom of the **Copilot** pane, Copilot
     automatically enters the text: **Create presentation from file /**.
     The forward slash is the universal Copilot indicator to enter a link
