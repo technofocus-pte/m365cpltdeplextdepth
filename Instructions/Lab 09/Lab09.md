@@ -45,45 +45,7 @@ the newly created files.
 
     ![](./media/image7.png)
 
-### Task 2 : Create a development environment
-
-1.  Login to +++https://admin.powerplatform.microsoft.com+++ using
-    you tenant details from the Resources tab.
-
-2.  Select **Environments** from the left navigation pane and click on
-    **+ New.**
-
-    ![](./media/image8.png)
-
-3.  In the New environment window that opens, fill in the below details
-    and click on **Next**.
-
-    |	|	|
-    |:----|:-----|
-    | +++Property+++	| +++Value+++	|
-    | Name	| +++Dev env+++	|
-    | Region	| United States - Default	|
-    | Type	| Developer	|
-
-
-    ![](./media/image9.png)
-
-    ![](./media/image10.png)
-
-4.  In the **Add Dataverse** window, accept the defaults and click on
-    **Save**.
-
-    ![](./media/image11.png)
-
-5.  The newly created environment gets listed in the admin center with
-    its status in the Environments pane.
-
-6.  Once the **status** is **ready**, the environment is ready to use.
-    We will use this environment in the upcoming exercises.
-
-    ![](./media/image12.png)
-
-### Task 3: Enable Copilot Studio trial
+### Task 2: Enable Copilot Studio trial
 
 1.  In a new tab, open +++**https://copilotstudio.microsoft.com/**+++.
 
@@ -213,15 +175,15 @@ the newly created files.
 
     ![](./media/image31.png)
 
-7. Click on the New designer toggle.
+7. Click on the **New designer toggle**.
 
    ![](./media/image31a.png)
 
-8. Select Save draft.
+8. Select **Save draft**.
 
    ![](./media/image31b.png)
 
-9. Select Publish to publish the flow
+9. Select **Publish** to publish the flow
 
    ![](./media/image31c.png)
 
