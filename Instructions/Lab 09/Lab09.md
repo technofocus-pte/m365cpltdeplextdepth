@@ -115,9 +115,7 @@ the newly created files.
 
     - **Name** - +++New file tracker agent+++
 
-    - **Description** - +++This agent will update the File details tracker
-    placed in the OneDrive, each time a new file is created in the
-    OneDrive+++
+    - **Description** - +++This agent will update the File details tracker placed in the OneDrive, each time a new file is created in the OneDrive+++
 
     ![](./media/image16.png)
 
@@ -215,7 +213,17 @@ the newly created files.
 
     ![](./media/image31.png)
 
-7.  Save the flow and **publish** it.
+7. Click on the New designer toggle.
+
+   ![](./media/image31a.png)
+
+8. Select Save draft.
+
+   ![](./media/image31b.png)
+
+9. Select Publish to publish the flow
+
+   ![](./media/image31c.png)
 
 ### Task 4: Publish the trigger
 
@@ -223,8 +231,7 @@ the newly created files.
 
     ![](./media/image32.png)
 
-2.  Select **Generative AI** -> **Using generative AI in conversations**. Select **Generative (preview)**  
-    and then click on **Save**.
+2.  Select **Generative AI** -> **Using generative AI in conversations**. If not selected already, select **Generative (preview)** and then click on **Save**.
 
     ![](./media/image32a.png)
     
@@ -237,11 +244,15 @@ the newly created files.
 
     ![](./media/image34.png)
 
-5.  Now, select **Publish** to publish the agent.
+5.  Close the Settings pane.
+
+    ![](./media/image34a.png)
+   
+6.  Now, select **Publish** to publish the agent.
 
     ![](./media/image35.png)
 
-6.  Select **Publish** in the confirmation dialog.
+7.  Select **Publish** in the confirmation dialog.
 
     ![](./media/image36.png)
 
