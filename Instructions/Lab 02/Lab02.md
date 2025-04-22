@@ -1,467 +1,435 @@
-# Lab 02: Empower your workforce – Copilot - Sales
-<span class="mark"></span>
+**实验 02：增强您的员工能力 – Copilot – 销售**
 
-Copilot for Microsoft 365 serves as an AI-powered writing assistant. It
-understands context, suggests phrases, and helps generate content, all
-of which can enhance the quality of your work. In this lab, you will
+适用于 Microsoft 365 的 Copilot 用作 AI
+驱动的写作助手。它理解上下文、建议短语并帮助生成内容，所有这些都可以提高您的工作质量。在本实验中，您将
 
-- Use Copilot in Loop to create a market research report.
+- 使用 Copilot in Loop 创建市场研究报告。
 
-- Use Copilot in PowerPoint to create and customize a sales
-  presentation.
+- 在 PowerPoint 中使用 Copilot 创建和自定义销售演示文稿。
 
-- Use Copilot in Word to compare three supplier agreements, identify the
-  differences, and provide recommended actions.
+- 在 Word 中使用 Copilot 比较三个供应商协议，确定差异并提供建议的作。
 
-## Exercise #1: Create a market research report using Copilot in Loop
+**练习 \#1：使用 Copilot in Loop 创建市场研究报告**
 
-You're the VP of Sales for VanArsdel Ltd, an OEM of plastic components,
-whose primary market is the agriculture equipment industry. However,
-senior leadership is interested in possibly moving into the automotive
-market. Given the heavy competition from existing plastic manufacturers
-who already monopolize this sector, you need to determine if there's a
-space available for your company to become a viable player.
+您是 VanArsdel Ltd 的销售副总裁，这是一家塑料部件
+OEM，其主要市场是农业设备行业。然而，高级领导层对可能进入汽车市场感兴趣。鉴于来自已经垄断该行业的现有塑料制造商的激烈竞争，您需要确定您的公司是否有空间成为可行的参与者。
 
-In this exercise, you will use Copilot in Loop to
+在本练习中，您将使用 Copilot in Loop 来
 
-- Research a potential new sales market for your company's products and
-  create a market research report that outlines its findings.
+- 为您公司的产品研究潜在的新销售市场，并创建一份市场研究报告来概述其发现。
 
-- Change the format of the report by placing the content in a table.
+- 通过将内容放在表中来更改报告的格式。
 
-- Make a final recommendation as to whether your company should move
-  into that market.
+- 就您的公司是否应该进入该市场提出最终建议。
 
-1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
+1.  在 **Microsoft 365** 中，如果它出现在左侧导航窗格中，请选择
+    **Loop**。如果它没有出现在那里，请选择 **Mocrosoft 365**
+    导航窗格上方左上角的 **App Launcher**,
 
-    ![](./media/image1.png)
+![](./media/image1.png)
 
-2.  In the **Apps** page, scroll down to locate **Loop** and then select it. 
+**注意：**如果您在 Apps 页面中没有看到 **Loop** 列出，请选择 **More
+apps**。 
+![](./media/image2.png)
 
-    **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**.
+2.  在 **Apps** （应用程序） 页面中，向下滚动以找到 **Loop**
+    （循环），然后选择它。
 
-    ![](./media/image2.png)
+![](./media/image3.png)
 
-3.  If you see the **Sign-in** button, sign-in using the credentials provided under **Microsoft 365 Credentials** in the
-    **Resources** tab.
+3.  如果您看到 **Sign-in** （登录） 按钮，请使用 **Resources** （资源）
+    选项卡中的 **Microsoft 365 Credentials** （365 凭据）
+    下提供的凭据登录。
 
-    ![Loop Sign-in page](./media/image3.png)
+![](./media/image4.png)
 
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
+**注意：**登录后，关闭 Loop 浏览器窗口，然后再次从 Apps 页面打开 Loop。
 
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
+4.  在 **Microsoft Loop** 中，默认情况下会显示 **Workspaces**
+    选项卡。要为此项目创建新工作区，请选择 “**Getting started**”
+    旁边的左上角的 “+” ，然后选择 **“+New workspace**” 按钮。
 
-    ![Workspaces-Geeting started](./media/image4.png)
+![](./media/image5.png)
 
-5.  In the **Create a new workspace** window, enter **VanArsdel
-    research** for your workspace name, and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
+![](./media/image6.png)
 
-    ![Create a new workspace window](./media/image5.png)
+5.  在 **Create a new workspace** （创建新工作区） 窗口中，输入
+    +++VanArsdel research+++ 作为工作区名称，然后选择显示的 **Continue**
+    （继续） 或 **Create** （创建） 按钮（具体取决于您的 Loop 版本）。
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+![](./media/image7.png)
 
-    ![Add files to your workspace](./media/image6.png)
+6.  在 **Add files to your workspace** （将文件添加到工作区）
+    窗口中（根据您的 Loop 版本，此窗口可能会显示 **Workspace
+    Switcher**），选择 **Create** （创建）。
 
-7.  You're now on the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to **Market research**. Note how the page name is automatically
-    updated in the navigation pane.
+![](./media/image8.png)
 
-    ![First page for your new workspace](./media/image7.png)
+7.  您现在位于新工作区的第一页。页面名称当前为
+    **Untitled**。请注意，页面 （Untitled）
+    也显示在左侧导航窗格中。在页面的主体中，选择 **Untitled**
+    字段，然后将页面名称更改为 **Market
+    research**。请注意页面名称在导航窗格中的自动更新方式。
 
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
+![](./media/image9.png)
 
-    ![](./media/image8.png)
+8.  在 **Just start typing...**字段中，输入正斜杠 **（/）**。
 
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
+![](./media/image10.png)
 
-10. In the **Copilot** window that appears, note the row of buttons that
-    appears below the prompt field. Select each button. When doing so,
-    note how it prefills the prompt field with an example of the type of
-    task that Copilot can assist with.
+9.  在显示的下拉菜单中，在菜单顶部的 **Copilot** 部分下，选择 **Draft
+    page content**。
 
-11. You're now going to enter your own prompt. In the prompt field,
-    enter the following prompt and select the **Submit** icon:
+10. 在出现的 **Copilot**
+    窗口中，请注意提示字段下方显示的一行按钮。选择每个按钮。执行此作时，请注意它如何使用
+    Copilot 可以协助的任务类型的示例预填充提示字段。
 
-    ++**As the VP for Sales for an OEM in the plastics manufacturing
-    industry, please research the market for plastic components in the
-    automotive industry. Provide information on target audience, market
-    size, competition, trends, regulations, and distribution channels**.++
+11. 您现在要输入自己的提示符。在提示字段中，输入以下提示，然后选择
+    **Submit** 图标：
 
-    ![](./media/image9.png)
++++As the VP for Sales for an OEM in the plastics manufacturing
+industry, please research the market for plastic components in the
+automotive industry. Provide information on target audience, market
+size, competition, trends, regulations, and distribution channels.+++
 
-12. If you receive an error saying that something went wrong, copy and
-    paste in the prior prompt and submit it again.
+![](./media/image11.png)
 
-    ![](./media/image10.png)
+12. 如果您收到一条错误消息，指出出现问题，请复制并粘贴之前的提示，然后再次提交。
 
-13. Review the generated report. Rather than having all the information
-    in paragraph form, you prefer to summarize it in a table. In
-    the **Copilot** pane that appears, enter the following prompt in
-    the **Rewrite with Copilot** field and select the **Submit** icon:
+![](./media/image12.png)
 
-    ++**Rewrite the report by placing the information in a table**.++
-    
-    ![](./media/image11.png)
+13. 查看生成的报告。与其以段落形式显示所有信息，不如将其汇总到表格中。在显示的
+    **Copilot** 窗格中，在 **Rewrite with Copilot**
+    字段中输入以下提示，然后选择 **Submit** 图标：
 
-14. Note how Copilot changed the formatting of the report. You now want
-    Copilot to make a final recommendation as to whether moving into
-    this market is a viable option for VanArsdel. Enter the following
-    prompt:
++++Rewrite the report by placing the information in a table.+++
 
-    ++**Add a recommendation to the end of the report as to whether we
-    should move into the market**.++
+![](./media/image13.png)
 
-    ![](./media/image12.png)
+14. 请注意 Copilot 如何更改报告的格式。您现在希望 Copilot
+    就进入这个市场是否是 VanArsdel
+    的可行选择提出最终建议。输入以下提示：
 
-15. Scroll to the bottom of the report and review Copilot's
-    recommendation.
++++Add a recommendation to the end of the report as to whether we should
+move into the market.+++
 
-    ![](./media/image13.png)
+![](./media/image14.png)
 
-## Exercise #2: Create a sales presentation using Copilot in PowerPoint
+15. 滚动到报告底部并查看 Copilot 的建议。
 
-With Copilot in PowerPoint, Sales professionals can focus on the content
-of their presentations, while the tool takes care of the design and
-formatting. It can
+![](./media/image15.png)
 
-- Transform existing written documents into presentation decks complete
-  with speaker notes and sources
+**练习 \#2：在 PowerPoint 中使用 Copilot 创建销售演示文稿**
 
-- Start a new presentation from a simple prompt or outline.
+使用 PowerPoint 中的
+Copilot，销售专业人员可以专注于他们的演示文稿内容，而该工具则负责设计和格式设置。它可以
 
-- Help summarize presentations, providing a bulleted summary of the key
-  points to quickly understand the content of a presentation or share
-  the main ideas with the team.
+- 将现有的书面文档转换为演示文稿，并配有演讲者笔记和来源
 
-As the Sales and Marketing Director at Contoso, Ltd., you need to make a
-presentation to your Sales team regarding the company's hottest selling
-product, Contoso Protein Plus shake. The presentation should analyze the
-market trend report that your Marketing team created for the product.
+- 从简单的提示或大纲开始新的演示文稿。
 
-In this exercise you will use Copilot in PowerPoint to create your slide
-presentation based on the information in the **Market Trend Report -
-Protein Shake.docx** file, which you download using the provided link.
+- 帮助总结演示文稿，提供关键点的项目符号摘要，以便快速理解演示文稿的内容或与团队分享主要思想。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
+作为 Contoso， Ltd.
+的销售和营销总监，您需要向您的销售团队介绍该公司最畅销的产品 Contoso
+Protein Plus
+奶昔。该演示文稿应分析您的营销团队为产品创建的市场趋势报告。
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+在本练习中，您将使用 PowerPoint 中的 Copilot 根据 **Market Trend
+Report - Protein Shake.docx**
+文件中的信息创建幻灯片演示文稿，您可以使用提供的链接下载该文件。
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Market Trend Report - Protein Shake** to **OneDrive**
+1.  如果您在 Microsoft Edge 浏览器中打开了 Microsoft 365
+    选项卡，请立即选择它; 否则，请打开一个新选项卡并输入以下 URL：
+    +++[https://www.office.com+++](https://www.office.com+++/) 以转到
+    Microsoft 365 主页。
 
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as instructed in **Preparing for the lab
-    execution** section (**Lab 0**), you can skip this step.
+**注意：**您需要使用右侧 “**Resources**” 选项卡下提供的 **Microsoft 365
+凭据**登录（如果出现提示）。
 
-3.  Open and close the file **Market Trend Report - Protein Shake.docx** (which you uploaded to OneDrive) to get it in your
-    Most Recently Used (MRU) file list
-  
-4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In PowerPoint, open a new blank presentation.
+2.  浏览到 C：\LabFiles 文件夹以选择 **Market Trend Report - Protein
+    Shake** 的副本并将其上传到 **OneDrive**
 
-5.  Select the **Copilot** icon on the right end of the ribbon. In
-    the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Create presentation
-    from file** prompt.
+**注意：**如果您已按照**准备实验室执行**部分**（实验
+0）**中的说明将所有实验室资产上传到 **OneDrive，**则可以跳过此步骤。
 
-    ![](./media/image15.png)
+3.  打开并关闭文件 **Market Trend Report - Protein
+    Shake.docx**（已上传到 OneDrive），将其放入 Most Recently Used
+    （MRU） 文件列表中
 
-    Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window appears that contains the three most recently
-    used files. If the **Market Trend Report - Protein Shake.docx** file
-    appears in the MRU list, then select it.
+4.  在 **Microsoft 365** 导航窗格中，选择 **PowerPoint**。在 PowerPoint
+    中，打开一个新的空白演示文稿。
 
-6.  Otherwise, open the file in **Word**, select the **Share** button
-    above the ribbon, select the **Copy Link** option from the drop-down
-    menu, and then in this prompt field in the **Copilot** pane
-    in **PowerPoint**, paste in the link following the forward slash
-    (**Create presentation from file /**). Select the **Send** icon.
-
+5.  选择 **Copilot** 图标（以红色突出显示，如屏幕截图所示）。在显示的
+    **Copilot** 窗格中，有几个预定义的提示可供您选择。选择 **Create
+    presentation from file**
+    提示。 
     ![](./media/image16.png)
 
-7.  This prompt triggered Copilot to create a slide presentation based
-    on the document. In doing so, it first displayed the outline of the
-    presentation. Then it displayed a separate window showing a bulleted
-    list of some of the changes that it made to the presentation based
-    on the document.
+![](./media/image17.png)
 
-    ![](./media/image17.png)
+![](./media/image18.png)
 
-8. Review the slides once Copilot finished creating the presentation.
-   To review the speaker notes, select the **View** tab and then select
-   the **Notes** button if it isn't selected already. If it's already
-   selected and you can't see the notes, then drag the bottom of the
-   slide window up to show the notes. Verify the speaker notes include
-   the key points that you want to make during the presentation.
+在 **Copilot** 窗格底部的提示字段上方，可能会出现一个 **建议**
+窗口，其中包含最近使用的三个文件。如果 **Market Trend Report - Protein
+Shake.docx** 文件显示在 MRU 列表中，然后选择它。
 
-    ![](./media/image18.png)
-
-9. Select the **Home** tab and then select the **Designer** button,
-   which appears to the left of the **Copilot** button.
-   The **Designer** pane offers samples of different designs for the
-   current slide being displayed. Change to a different slide in the
-   presentation and note how the **Designer** pane generates different
-   design options for that slide.
-
+6.  否则，您可以使用 Attach cloud files
+    选项附加参考文档，如屏幕截图所示。 
     ![](./media/image19.png)
-
-10. Select one of the design options to have PowerPoint replace the
-    current slide with the new design. This feature isn't
-    Copilot-related. It's available in PowerPoint when you have a
-    Microsoft 365 subscription.
 
     ![](./media/image20.png)
 
-11. Now let's see what else Copilot can do. Select
-    the **Copilot** button to open the **Copilot** pane. In
-    the **Copilot** pane, note the section that says **Here are some
-    things you can try**. Copilot displays several tasks that it can
-    perform on the presentation. Select the **Organize this
-    presentation** button.
+**注：** 您也可以使用文档链接附加参考文档。若要获取链接，请在 **Word**
+中打开文件，选择功能区上方的**“Share”**按钮，从下拉菜单中选择**“Copy
+Link ”**选项，然后在 **PowerPoint** 的 **Copilot**
+窗格的此提示字段中，粘贴正斜杠后面的链接**（Create presentation from
+file /）。**选择 **Send** 图标。
 
-    ![](./media/image21.png)
+![](./media/image21.png)
 
-12. Review what Copilot did in organizing the presentation. For example,
-    it may have grouped the slides into sections and then added some new
-    section title slides. If so, locate the new slides that it created
-    and review them.
+7.  此提示触发 Copilot
+    根据文档创建幻灯片演示文稿。在此过程中，它首先显示演示文稿的大纲。然后，它显示一个单独的窗口，其中显示了它根据文档对演示文稿所做的一些更改的项目符号列表。
 
-    ![](./media/image22.png)
+![](./media/image22.png)
 
-13. Above the prompt field, Copilot displays questions related to the
-    presentation. The purpose of these questions is two-fold. You can
+8.  Copilot 完成创建演示文稿后查看幻灯片。要查看演讲者备注，请选择
+    **View** （查看） 选项卡，然后选择 **Notes** （备注）
+    按钮（如果尚未选择）。如果已选中该窗口，但您看不到注释，则向上拖动幻灯片窗口的底部以显示注释。验证演讲者注释是否包含您希望在演示期间提出的关键点。
 
-    - Select a question and have Copilot generate an answer, which you can
-      then copy and paste into the speaker notes for an applicable slide.
+![](./media/image23.png)
 
-    - Create a Question and Answer (Q&A) slide and copy and paste in the
-      answers to all these questions in the speaker notes.
+9.  选择 “**Home**” 选项卡，然后选择 “**Designer**” 按钮，该按钮显示在
+    **Copilot** 按钮的左侧。**Designer** （设计器）
+    窗格为当前显示的幻灯片提供不同设计的示例。在演示文稿中更改为其他幻灯片，并注意
+    **Designer** 窗格如何为该幻灯片生成不同的设计选项。
 
-    In doing so, you can use these questions and answers to prepare for the
-    Q&A portion of the presentation. For example, it may have a button that
-    asks something like: **What caused the rise in demand for Contoso
-    Protein Plus**? Or it may ask something like: **What are the key factors
-    behind the hype of Contoso Protein Plus**? Review the questions that you
-    see, and select one of them to see what happens.
+![](./media/image24.png)
 
-    ![](./media/image23.png)
+10. 选择其中一个设计选项，让 PowerPoint
+    将当前幻灯片替换为新设计。此功能与 Copilot 无关。当您拥有 Microsoft
+    365 订阅时，它会在 PowerPoint 中可用。
 
-14. When you select any of these questions, Copilot generates an answer
-    to the question and provides a **Copy** option at the bottom of the
-    answer window. In doing so, you can select the **Copy** option and
-    then paste this answer in the speaker notes for any slide in which
-    this text would make an appropriate note. Try it now. Select a
-    question, copy the answer, then go to an appropriate slide and in
-    the speaker notes, enter **Ctrl+V** to paste in the note.
+![](./media/image25.png)
 
-    ![](./media/image24.png)
+11. 现在让我们看看 Copilot 还可以做什么。选择 **Copilot** 按钮以打开
+    **Copilot** 窗格。在 **Copilot** 窗格中，请注意 **Here are some
+    things you can try** 的部分。Copilot
+    提供预构建的提示，您可以使用这些提示在演示文稿上执行多项任务。选择
+    **View Prompts** 图标，然后选择 **Organize your thoughts** （in red
+    highlight） 。**请注意**：
+    您需要慢慢向下滚动才能找到提示（如屏幕截图所示）
 
-    ![](./media/image25.png)
+![](./media/image26.png)
 
-15. Note the **Refresh** button that appears between the suggested
-    questions and the prompt field. Select this **Refresh** button.
+![](./media/image27.png)
 
-    ![](./media/image26.png)
+12. 回顾一下 Copilot
+    在组织演示时所做的工作。例如，它可能已将幻灯片分组为多个部分，然后添加了一些新的部分标题幻灯片。如果是这样，请找到它创建的新幻灯片并查看它们。
 
-    In doing so, note how Copilot generated a new set of questions. You
-    can continue to refresh the questions by selecting
-    the **Refresh** button until you see a question that you want to
-    address in the presentation. You can then select the question, copy
-    the Copilot-generated answer, and paste it into the speaker notes of
-    the slide of your choosing. Once Copilot can't think of any new
-    questions to offer, it starts repeating the list of questions from the
-    start.
+![](./media/image28.png)
 
-16. You now want Copilot to create a slide at the end of the
-    presentation for a Q&A session. Enter the following prompt and
-    select the **Send** icon:
+13. 在提示字段上方，Copilot
+    显示与演示文稿相关的问题。这些问题的目的有两个。您可以
 
-    ++**Add a slide at the end of the presentation for Q&A**.++
+    - 选择一个问题并让 Copilot
+      生成答案，然后您可以将其复制并粘贴到适用幻灯片的演讲者备注中。
 
-    ![](./media/image27.png)
+    - 创建问题与答案 （Q&A）
+      幻灯片，并在演讲者备注中复制并粘贴所有这些问题的答案。
 
-    **Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one below.
+在此过程中，您可以使用这些问题和答案来准备演示文稿的 Q&A
+部分。例如，它可能有一个按钮，询问如下内容：**What caused the rise in
+demand for Contoso Protein Plus?** 或者它可能会问这样的事情：**What are
+the key factors behind the hype of Contoso Protein Plus?**
+查看您看到的问题，然后选择其中一个问题以查看会发生什么。
 
-    ![](./media/image36.png)
+![](./media/image29.png)
 
-    Please try rephrasing the prompt or use the suggested prompts like the one below:
+14. 当您选择这些问题中的任何一个时，Copilot
+    会生成问题的答案，并在答案窗口底部提供 **Copy**
+    选项。为此，您可以选择 **Copy** （复制）
+    选项，然后将此答案粘贴到任何幻灯片的演讲者备注中，此文本将在其中作为适当的备注。现在就试试吧。选择一个问题，复制答案，然后转到相应的幻灯片，然后在演讲者备注中输入
+    **Ctrl+V** 以粘贴到备注中。
 
-    ![](./media/image37.png)
+![](./media/image30.png)
 
-18. Select the command **Add a slide about** and append the following Q&A at the very end of the presentation (as shown in      the screenshot).
+![](./media/image31.png)
 
-     ![](./media/image38.png)
-   
-20. Click **Send** to check what happens.
+15. 请注意显示在建议问题和提示字段之间的 **Refresh** （刷新）
+    按钮。选择此 **Refresh** （刷新） 按钮。
 
-    ![](./media/image39.png)
+![](./media/image32.png)
 
-    Copilot has added a Q&A slide as instructed. Review the Q&A slide that Copilot created.
-    
-29. Review the Q&A slide that Copilot created. Now try one final thing.
-    You decide to compile a list of potential questions that you can
-    prepare for during the Q&A session. Enter the following prompt to
-    see if Copilot can add all of its suggested questions to the speaker
-    notes on the Q&A slide:
+在此过程中，请注意 Copilot 如何生成一组新问题。您可以通过选择
+**Refresh** （刷新）
+按钮继续刷新问题，直到您在演示文稿中看到要解决的问题。然后，您可以选择问题，复制
+Copilot 生成的答案，并将其粘贴到您选择的幻灯片的演讲者备注中。一旦
+Copilot 想不出任何新问题可以提供，它就会从头开始重复问题列表。
 
-    ++**In the speaker notes of the Q&A slide that you just created, add a
-    list of possible questions that may be asked regarding this
-    presentation**.++
+16. 您现在希望 Copilot
+    在演示文稿结束时为问答环节创建一张幻灯片。输入以下提示，然后选择
+    **Send** 图标：
 
-21. If Copilot returns a message indicating that it was unable to
-    generate the slide, try entering the prompt again. Sometimes when
-    Copilot can't complete a task, a good practice is to repeat the
-    request.
++++Add a slide at the end of the presentation for Q&A.+++
 
-    ![](./media/image28.png)
+![](./media/image33.png)
 
-    ![](./media/image29.png)
+**注意：**Copilot 可能会显示一些异常，如下所示。
 
-    If Copilot is unable to complete this task, then it just shows it may
-    not be able to complete everything that you want at this point in
-    time. This scenario is another example of the best practice that you
-    need to be aware of: Understand Copilot's limitations.
+![](./media/image34.png)
 
-22. Now try this workaround. Enter the following prompt that asks it to
-    generate a list of questions:
+请尝试改写提示或使用建议的提示，如下所示：
 
-    ++**What kind of questions do you think participants may ask during the
-    Q&A session**?++
+![](./media/image35.png)
 
-    ![](./media/image30.png)
+17. 选择命令 **Add a slide about** 并在演示文稿的最后附加以下
+    Q&A（如屏幕截图所示）。
 
-23. Review the questions that Copilot created. Select
-    the **Copy** button at the bottom of the window, and then paste them
-    (**Ctrl+V**) into the speaker notes of the Q&A slide.
+![](./media/image36.png)
 
-    ![](./media/image31.png)
+18. 单击 **Send** 以检查会发生什么。
 
-    **Note**: Copilot may display some exception. Please try using the suggested prompts as in **step #16**
+![](./media/image37.png)
 
-    While the remaining training exercises in this module don't use this
-    presentation, you can either discard it or save it if you to retain a
-    copy for future reference.
+Copilot 已按照说明添加了 Q&A 幻灯片。查看 Copilot 创建的问答幻灯片。
 
-## Exercise #3: Compare supplier agreements using Copilot in Word
+19. 查看 Copilot
+    创建的问答幻灯片。现在尝试最后一件事。您决定编制一份潜在问题列表，以便在
+    Q&A 会话期间准备这些问题。输入以下提示，查看 Copilot
+    是否可以将其所有建议的问题添加到问答幻灯片上的演讲者备注中：
 
-Salespeople need right information at the right time to build strong
-relationships with their customers, take actions based on insights, and
-close deals faster. Copilot in Word can help them bring in specific
-information from other documents into their content, generate summaries,
-ask questions about their document, provide ideas about specific topics,
-and transform text into tables, or provide suggestions for ways to
-rewrite content.
++++In the speaker notes of the Q&A slide that you just created, add a
+list of possible questions that may be asked regarding this
+presentation.+++
 
-You're the new Sales Manager for Northwind Traders, a supplier of
-various grocery and beverage products. You're concerned about the
-supplier agreements that are currently in place with several of
-Northwind's top customers. Your predecessor negotiated these agreements,
-so you aren't familiar with the terms and conditions that were
-previously agreed upon with these customers.
+20. 如果 Copilot
+    返回一条消息，指示它无法生成幻灯片，请尝试再次输入提示。有时，当
+    Copilot 无法完成任务时，一个好的做法是重复请求。
 
-In this exercise, you will
+![](./media/image38.png)
 
-  - Provide Copilot in Word with three supplier agreement documents.
+![](./media/image39.png)
 
-  - Ask it to create a report that compares the terms and conditions
-    negotiated with each customer.
+如果 Copilot
+无法完成此任务，则它只是表明它此时可能无法完成您想要的所有任务。此方案是您需要注意的最佳实践的另一个示例：了解
+Copilot 的限制。
 
-  - Ask Copilot to provide recommendations for renegotiating each
-    agreement.
+21. 现在尝试此解决方法。输入以下提示，要求它生成问题列表：
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab          and enter the following URL:+++https://www.office.com+++ to go to the Microsoft 365 home page.
++++What kind of questions do you think participants may ask during the
+Q&A session?+++
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+![](./media/image40.png)
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the following documents to OneDrive.
+22. 查看 Copilot 创建的问题。选择窗口底部的 **Copy**
+    按钮，然后将它们粘贴 （**Ctrl+V**） 到 Q&A 幻灯片的演讲者备注中。
 
-      - **Contoso Supplier Agreement**
+![](./media/image41.png)
 
-      - **Tailwind Traders Supplier Agreement**
+**注意：**Copilot 可能会显示一些异常。请尝试使用**步骤 \#16**
+中建议的提示
 
-      - **Wide World Importers Supplier Agreement**
+虽然本模块中的其余训练练习不使用此演示文稿，但您可以放弃它或保存它（如果您保留副本以备将来参考）。
 
-    **Note**: You can skip this step, if you have already uploaded a copy of all the documents (that you will be using in
-    this hands-on lab session from **C:\LabFiles** as instructed in **Lab 0**).
-  
-3.  In this exercise, you access the documents from the Most Recently
-    Used file list. To get the files to appear in the MRU list, open
-    each document and then close it. Open and close each of the three
-    files in your OneDrive account.
+**练习 \#3：在 Word 中使用 Copilot 比较供应商协议**
 
-    ![](./media/image32.png)
+销售人员需要在正确的时间获得正确的信息，以便与客户建立牢固的关系，根据洞察采取行动，并更快地达成交易。Word
+中的 Copilot
+可以帮助他们将其他文档中的特定信息引入其内容、生成摘要、询问有关其文档的问题、提供有关特定主题的想法以及将文本转换为表格，或提供重写内容的方法建议。
 
-4.  In **Microsoft 365**, open **Microsoft Word** and then open a new
-    blank document.
+您是 Northwind Traders 的新销售经理，Northwind Traders
+是各种杂货和饮料产品的供应商。您担心目前与 Northwind
+的几个顶级客户签订的供应商协议。您的前任协商了这些协议，因此您不熟悉之前与这些客户商定的条款和条件。
 
-9.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt:
+在本练习中，您将
 
-    ++**I'm the Sales Manager for Northwind Traders, a supplier of various
-    grocery and beverage products. Please create a report that compares the
-    supplier agreements for three of our customers**. **Provide a
-    recommendation on contract renewals that can provide Northwind Traders
-    with more favorable terms. The supplier agreements for these three
-    customers are attached**. **Thank you**!++
+- 在 Word 中向 Copilot 提供三份供应商协议文档。
 
-    ![](./media/image33.png)
+- 请 IT 部门创建一份报告，以比较与每位客户协商的条款和条件。
 
-    You now must attach the three supplier agreements to the prompt. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if the **Contoso
-    Supplier Agreement** appears in the list of files, select it.
-    Otherwise, select **Browse files from cloud**, select the **Contoso
-    Supplier Agreement** from the **Recent** file list, and then select
-    the **Attach** button. Note how the file is displayed in the prompt.
+- 要求 Copilot 为重新协商每个协议提供建议。
 
-    Repeat the prior step for both the **Tailwind Traders Supplier
-    Agreement** and the **Wide World Importers Supplier Agreement**. At
-    this point, links to all three files should be included in the prompt.
+1.  如果您在 Microsoft Edge 浏览器中打开了 Microsoft 365
+    选项卡，请立即选择它; 否则，请打开一个新选项卡并输入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/) 以转到
+    Microsoft 365 主页。
 
-10.  Select **Generate**. At this point, Copilot extracts the pertinent
-    information from the three supplier agreements drafts a report
-    comparing them.
+> **注意：**您需要使用右侧 “**Resources**” 选项卡下提供的 **Microsoft
+> 365 凭据**登录（如果出现提示）。
 
-     ![](./media/image34.png)
+2.  浏览到 **C：\LabFiles** 文件夹，选择以下文档的副本并将其上传到
+    OneDrive。
 
-11. After reviewing the comparison document, you aren't pleased with the
-    results. You would like to see Copilot try again and generate a new
-    version. In the Copilot window that appears at the end of the
-    document, select the **Regenerate** button, which appears next to
-    the **Keep it** button. You can repeat this step as many times as
-    necessary until Copilot creates a version of this report that you
-    approve. For this exercise, repeat this step several times to see
-    the various formats that Copilot delivers. Also note how some
-    information may be included in one version of the report that's not
-    in others.
+    - **Contoso 供应商协议**
 
-    Once you're satisfied with a version of the report, select the **Keep it** button.
+    - **Tailwind Traders 供应商协议**
 
-12. Once you're done with this document, save it to your **OneDrive**, so
-    you can close this tab in your Microsoft Edge browser.
+    - **Wide World Importers 供应商协议**
 
-# Summary:
-  In this lab, you explored the capabilities of Copilot for Microsoft 365 as an AI-powered writing assistant and
-  -  Utilized Copilot in Loop to draft a detailed market research report that involved organizing data, generating
-     insights, and creating a cohesive and informative report.
-     
-  -  Leveraged Copilot in PowerPoint to design a compelling sales presentation to generate slides, customize content, and 
-     ensure that the presentation effectively communicates key sales messages.
-     
-  -  Used Copilot in Word to analyze and compare three supplier agreements to identify differences between the agreements
-     and provide recommended actions based on the comparison.
+> **注意：**如果您已经上传了所有文档的副本（您将按照**实验室 0**
+> 中的说明从 **C：\LabFiles** 进行此动手实验会话），则可以跳过此步骤。
+
+3.  在本练习中，您将从 Most Recently Used file （最近使用的文件）
+    列表中访问文档。若要使文件显示在 MRU
+    列表中，请打开每个文档，然后将其关闭。打开和关闭 OneDrive
+    帐户中的三个文件。
+
+![](./media/image42.png)
+
+4.  在 **Microsoft 365** 中，打开 **Microsoft
+    Word**，然后打开一个新的空白文档。
+
+5.  在空白文档顶部显示的 **Draft with Copilot** （使用 Copilot 起草）
+    窗口中，输入以下提示：
+
++++I'm the Sales Manager for Northwind Traders, a supplier of various
+grocery and beverage products. Please create a report that compares the
+supplier agreements for three of our customers. Provide a recommendation
+on contract renewals that can provide Northwind Traders with more
+favorable terms. The supplier agreements for these three customers are
+attached. Thank you!+++
+
+![](./media/image43.png)
+
+现在，您必须将 3 个供应商协议附加到提示符中。在 **Draft with
+Copilot**窗口中，选择 **Reference your content**
+按钮。在显示的下拉菜单中，如果 **Contoso Supplier Agreement** （Contoso
+供应商协议） 显示在文件列表中，请选择它。否则，请选择“**Browse files
+from cloud**”，从“**最近**使用的文件”列表中选择“**Contoso Supplier
+Agreement**”，然后选择“**Attach**
+”按钮。请注意文件在提示符中的显示方式。
+
+对 **Tailwind Traders 供应商协议**和 **Wide World Importers
+供应商协议**重复上一步。此时，提示符中应包含指向所有三个文件的链接。
+
+6.  选择 **Generate** （生成）。此时，Copilot
+    从三个供应商协议中提取相关信息，起草一份报告进行比较。
+
+![](./media/image44.png)
+
+7.  查看比较文档后，您对结果不满意。您希望看到 Copilot
+    重试并生成新版本。在文档末尾显示的 Copilot
+    窗口中，选择“**Regenerate**”按钮，该按钮显示在“**Keep
+    it**”按钮旁边。您可以根据需要多次重复此步骤，直到 Copilot
+    创建您批准的此报告版本。对于本练习，请多次重复此步骤以查看 Copilot
+    提供的各种格式。另请注意，某些信息可能包含在一个版本的报表中，而其他版本中没有。
+
+对报表的某个版本感到满意后，请选择 **Keep it** （保留） 按钮。
+
+8.  完成此文档后，将其保存到 **OneDrive**，以便您可以在 Microsoft Edge
+    浏览器中关闭此选项卡。
+
+**总结:**
+
+在本实验中，您探索了 Copilot for Microsoft 365 作为 AI
+驱动的写作助手的功能，以及
+
+- 利用 Copilot in Loop
+  起草了一份详细的市场研究报告，其中包括组织数据、生成见解以及创建有凝聚力且信息丰富的报告。
+
+- 利用 PowerPoint 中的 Copilot
+  设计引人注目的销售演示文稿，以生成幻灯片、自定义内容并确保演示文稿有效地传达关键销售信息。
+
+- 在 Word 中使用 Copilot
+  分析和比较三个供应商协议，以确定协议之间的差异，并根据比较提供建议的作。
