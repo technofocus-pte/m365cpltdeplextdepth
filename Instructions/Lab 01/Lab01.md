@@ -1,319 +1,322 @@
-# Lab 01: Empower your workforce – Copilot - Executives
+**实验室 01：增强您的员工能力 – Copilot - 高管**
 
-In this lab, you will
+在本实验中，您将
 
-- Use Copilot in Word to create a speech you plan to deliver to company
-  shareholders.
+- 在 Word 中使用 Copilot 创建您计划向公司股东发表的演讲。
 
-- Use Copilot in PowerPoint to create a PowerPoint presentation based on
-  the speech you created.
+- 在 PowerPoint 中使用 Copilot 根据您创建的语音创建 PowerPoint
+  演示文稿。
 
-## Exercise #1: Create a speech using Copilot in Word
+**练习 \#1：在 Word 中使用 Copilot 创建语音**
 
-In this exercise, you direct Copilot in Word to write a speech for you
-based on your company's Income Statement, which is stored as a Word
-document. This exercise walks you through a series of prompts that you
-can use to have Copilot in Word generate your speech and then update it
-based on your suggested changes.
+在本练习中，您将指示 Word 中的 Copilot
+根据公司的损益表为您编写语音，该损益表存储为 Word
+文档。本练习将引导您完成一系列提示，您可以使用这些提示让 Word 中的
+Copilot 生成您的语音，然后根据您建议的更改对其进行更新。
 
-<span class="mark">**Note**: When you need to reference a file (such as
-your company's Income Statement) into a Copilot prompt, the file MUST be
-saved in a OneDrive account. You can't link to a locally stored file on
-your PC.</span>
+**注意：**当您需要将文件（例如您公司的损益表）引用到 Copilot
+提示符中时，该文件必须保存在 OneDrive 帐户中。您无法链接到 PC
+上本地存储的文件。
 
-<span class="mark">You can reference/link a file into the Copilot prompt
-using one of the following methods:</span>
+您可以使用以下方法之一将文件引用/链接到 Copilot 提示符中：
 
-- <span class="mark">Select the file from the Most Recently Used (MRU)
-  file list.</span>
+- 从 Most Recently Used （MRU） 文件列表中选择文件。
 
-- <span class="mark">Open the file and copy its path using
-  the **Share** option, then paste the path into the prompt following
-  the forward slash (/).</span>
+- 打开文件并使用 **Share** 选项复制其路径，然后将路径粘贴到正斜杠 （/）
+  后面的提示符中。
 
-- <span class="mark">Copy the file's path from File Explorer and paste
-  it into the prompt following the forward slash (/).</span>
+- 从文件资源管理器中复制文件的路径，并将其粘贴到正斜杠 （/）
+  后面的提示符中。
 
-<span class="mark">In this exercise, you select the company's Income
-Statement from the MRU file list.</span>
+在本练习中，您将从 MRU 文件列表中选择公司的 Income Statement。
 
 ![](./media/image1.png)
 
-You will perform the following steps to have Copilot in Word create a
-speech for you based on your company's Income Statement:
+您将执行以下步骤，让 Word 中的 Copilot 根据您公司的损益表为您创建语音：
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following 
-    URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
+1.  如果您在 Edge 浏览器中打开了 Microsoft 365
+    选项卡，请立即选择它;否则，请打开一个新选项卡并输入以下 URL：
+    +++[https://www.office.com+++](https://www.office.com+++/) 以转到
+    **Microsoft 365** 主页。
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+**注意：**您需要使用右侧 “**Resources**” 选项卡下提供的 **Microsoft 365
+凭据**登录（如果出现提示）。
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-   
-    ![](./media/image5.png)
-    
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Fabrikam 2023 Income Statement document to OneDrive**.
+登录后，如果您碰巧看到 **Microsoft 365**
+主页的朦胧网页，请单击浏览器菜单栏中的 **Refresh**
+
+![](./media/image2.png)
+
+单击左上角的 **App launcher** （**糖果盒菜单**图标 - 3 x 3
+点矩阵）以展开应用程序菜单并选择 **OneDrive**。 
+
+![](./media/image3.png)
+
+单击箭头以继续。 
+
+![](./media/image4.png)
+
+2.  在导航窗格中，选择 **+** 图标，然后选择 **Files upload** 将其打开。
+
+![](./media/image5.png)
+
+3.  浏览到 **C：\LabFiles** 文件夹，选择 **Fabrikam 2023
+    损益表**文档的副本并将其上传到 **OneDrive**。
+
+**注意：**如果已按照**准备实验室执行 （实验室 0）**
+中的建议将所有实验室资产上传到 OneDrive，则可以跳过此步骤。
+
+4.  打开并关闭文件 **Fabrikam 2023 损益表**文档（已上传到
+    OneDrive），以将其放入最近使用的 （MRU）
+    文件列表中。 
     ![](./media/image6.png)
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution (Lab 0)** you can skip this step.
 
-4.	Open and close the file **Fabrikam 2023 Income Statement document** (which you uploaded to OneDrive) to get it in your      Most Recently Used (MRU) file list.
+**注意：**当您打开 **Fabrikam 2023
+损益表**文档时，您将看到一个弹出窗口，如屏幕截图所示。单击 **Next**
+，然后选择 **Try Copilot。** 
+![](./media/image7.png)
 
-5.  In Microsoft 365, open **Microsoft Word**, and then open a new blank document.
+![](./media/image8.png)
 
-    ![](./media/image8.png)
-   
-6.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt:
+关闭包含 **Fabrikam 2023 Income Statement** 文档的浏览器。
 
-    <span class="mark">++**Write a speech for the Fabrikam stakeholders that
-    summarizes the results of the company's 2023 income statement found in
-    the attached file**++.</span>
+5.  在 Microsoft 365 中，打开 **Microsoft
+    Word**，然后打开一个新的空白文档。
 
-7.  In the **Draft with Copilot** window, select the **Reference your
-    content** button. In the pop-up window that appears, select the
-    file.
+![](./media/image9.png)
 
-    If, for some reasons the file is not displayed, click **Browse files
-    from cloud** in the pop-up window.
-    
-    ![](./media/image9.png)
+6.  在空白文档顶部显示的 **Draft with Copilot** （使用 Copilot 起草）
+    窗口中，输入以下提示：
 
-8. In the **Pick a file** window that appears, under
-   the **Recent** file list, select the **Fabrikam 2023 Income
-   Statement.docx** file and then select the **Attach** button.
++++Write a speech for the Fabrikam stakeholders that summarizes the
+results of the company's 2023 income statement found in the attached
+file.+++
 
+7.  在 **Draft with Copilot** 口中，选择**Reference your content**
+    按钮。在出现的弹出窗口中，选择文件。 
     ![](./media/image10.png)
-   
-9. Note how the file is displayed in the prompt. Select **Generate**.
 
-    ![](./media/image11.png)
+如果由于某些原因文件未显示，请在弹出窗口中单击 **Browse files from
+cloud**。
 
-    **Note**: If, for some reasons, you keep getting **Something went wrong** error when clicking the **Generate** button       after attaching the referenced document dismiss the error and proceed with the next step
+![](./media/image11.png)
 
-    ![](./media/image26.png)   
-   
-    Open the file in a browser and copy its path using the Share option, then paste the path into the prompt following the      forward slash (/).
-
-    ![](./media/image27.png)
-   
-    ![](./media/image28.png)
-
-    **Important**: Even after trying with the alternate option, if you see the same “something went wrong” exception, then
-    instead of using the web client of Word try using the desktop version of Word.
-
-    If it works when using the desktop version of Word, please follow the same in the upcoming labs when you see the
-    “something went wrong” exception while clicking **Generate** button.
-
-10. At this point, Copilot extracts the financial results from the
-    Income Statement and drafts a speech.
-
+8.  在出现的 **Pick a file** 窗口中的 **Recent** 使用的文件 列表下，选择
+    **Fabrikam 2023 Income Statement.docx**文件，然后选择 **Attach**
+    按钮。 
     ![](./media/image12.png)
 
-11. After reviewing the speech, you decide that it's a good starting
-    point, although there are a few areas that you want to modify. In
-    the Copilot window at the end of the speech, select the **Keep it** button.
-
-12. You want to begin by reviewing any changes suggested by the Copilot
-    Editor. Select the **Editor** icon that appears in the menu bar at
-    the top of the page.
-
-    <span class="mark">**Note**: You will be able to see the **Editor**
-    icon, in the Classic Ribbon and not in the Single line ribbon.</span>
-
+9.  请注意文件在提示符中的显示方式。选择 **Generate**
+    （生成）。 
     ![](./media/image13.png)
 
-13. In the **Editor** pane that appears, note the categories that appear
-    under the **Corrections** or **Refinements** sections that display a
-    number (indicating the number of issues for that category). These
-    issues are often linked to the tone of the writing style used in the
-    document.
+**注：** 如果由于某些原因，您在附加引用文档后单击 **Generate**
+按钮时不断收到 **Something went wrong**
+错误，请忽略该错误并继续下一步。 
+![](./media/image14.png)
 
-    Below the **Editor Score** is a field that allows you to select the
-    tone used when writing the speech. It currently displays **Formal
-    writing**, which is the default tone that Copilot used when writing
-    this speech. When you don't indicate what writing style to use in your
-    prompt, **Formal writing** is the default tone that Copilot uses.
-    Select this field to see your options. You prefer a professional
-    sounding tone, so select **Professional** from the drop-down menu.
-    Note whether the **Editor Score** changes.
+在浏览器中打开文件，并使用 Share 选项复制其路径，然后将路径粘贴到正斜杠
+（/） 后面的提示符中。
 
-14. In the categories that appear under
-    the **Corrections** or **Refinements** sections, you can review the
-    changes that occurred in the categories based on changing the
-    writing style from Formal to Professional. Select each category that
-    displays a number (indicating the number of issues for that
-    category). Doing so enables you to review the suggestions throughout
-    the document for that category. For each suggestion, select either
-    the suggested change or select **Ignore**. Repeat this process until
-    all categories display a check mark.
+![](./media/image15.png)
 
-    Change the writing style to **Casual** and check whether the **Editor
-    Score** changes. If any categories display a number, review the
-    category and see what the Editor has flagged. You want to keep the
-    writing style as Professional, so select **Ignore** any suggested
-    changes. Review all the suggested changes to see the differences that
-    were flagged between Professional and Casual styles.
+![](./media/image16.png)
 
-    ![](./media/image14.png)
+**重要说明：**即使在尝试使用备用选项后，如果您看到相同的“出现问题”异常，请尝试使用
+Word 的桌面版本，而不是使用 Word 的 Web 客户端。
 
-15. Save the file to your OneDrive account with the following file
-    name: **Fabrikam 2023 Financial presentation.docx**. The next
-    exercise uses this document.
+如果它在使用 Word 桌面版本时有效，请在即将到来的实验中单击
+“**Generate**” 按钮时看到 “出错” 异常。
 
-    ![](./media/image15.png)
-    
-    **Important**: Ensure that you save the file to your OneDrive rather
-    than your local PC. In the next exercise, you use Copilot in
-    PowerPoint to create a slide presentation based on this document. The
-    document must be in OneDrive for Copilot to access it.
+10. 此时，Copilot 从损益表中提取财务结果并起草演讲稿。
 
-16. Close the tab containing this document in your Microsoft Edge
-    browser.
+![](./media/image17.png)
 
-# Exercise #2: Create a slide presentation using Copilot in PowerPoint
+11. 在查看语音后，您认为这是一个很好的起点，尽管您想要修改一些区域。在语音结束时的
+    Copilot 窗口中，选择 **Keep it** （保留） 按钮。
 
-In this exercise, you will use Copilot in PowerPoint to create a slide
-presentation based on your speech (to the shareholders based on the
-Income Statement) that you created using Copilot in Word to write your
-speech.
+12. 首先，您需要查看 Copilot Editor
+    建议的任何更改。选择页面顶部菜单栏中显示的 **Editor**
+    图标。 
+   ![](./media/image18.png)
 
-In the prior exercise, you accessed the company's Income Statement in
-Copilot by accessing the file from the Most Recently Used (MRU) file
-list. In this exercise, you're going to gain experience accessing a file
-using a different process. Instead of using the MRU list, you plan to
-access the speech by copying the link to the **Fabrikam 2023 Financial
-presentation.docx** file that you created in the prior exercise.
+**注意：**您将能够在 **Microsoft Word** 的经典功能区中看到 **Editor**
+图标。在 Single line （单线） 功能区中，它在默认浏览器缩放级别 100%
+中不可见。选择 **ellipsis** 号（3 个水平点）图标，然后向下滚动以选择
+**Editor**。
 
-You will perform the following steps to have Copilot in PowerPoint
-create a draft of your presentation:
+![](./media/image19.png)
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: +++https://www.office.com+++ to go to **Microsoft 365** home page.
+![](./media/image20.png)
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+13. 在出现的 **Editor** 窗格中，请注意 **Corrections** 或
+    **Refinements**
+    部分下显示的类别，这些类别显示一个数字（表示该类别的期刊数量）。这些问题通常与文档中使用的写作风格的语气有关。
 
-2.  On the **Microsoft 365** navigation pane, select **Word** to open Word.
+**Editor Score**
+下方是一个字段，允许您选择编写语音时使用的语气。它当前显示 **Formal
+writing**，这是 Copilot
+在编写此语音时使用的默认语气。如果您未指明要在提示中使用哪种书写样式，则
+**Formal writing** 是 Copilot
+使用的默认语气。选择此字段可查看您的选项。您更喜欢专业的音调，因此请从下拉菜单中选择
+**Professional**。注意 **Editor Score** 是否发生变化。
 
-3.  On the file page in **Word**, scroll down to the list of recent
-    files and select **Fabrikam 2023 Financial presentation.docx** to
-    open it in a new tab in your Microsoft Edge browser.
+14. 在 **Corrections** （更正） 或 **Refinements** （优化）
+    部分下显示的类别中，您可以根据将写作风格从 Formal （正式） 更改为
+    Professional （专业）
+    来查看类别中发生的更改。选择显示数字（表示该类别的期刊数）的每个类别。这样，您就可以查看整个文档中针对该类别的建议。对于每个建议，请选择建议的更改或选择
+    **Ignore** （忽略）。重复此过程，直到所有类别都显示复选标记。
 
-    ![Image description](./media/image16.png)
+将 Casual 修改为 **Casual** 并检查 **Editor Score**
+是否有变化。如果任何类别显示数字，请查看该类别并查看 Editor
+标记的内容。您希望将写作风格保持为 Professional（专业），因此请选择
+**Ignore** any suggested
+changes（忽略任何建议的更改）。查看所有建议的更改，以查看 Professional
+和 Casual 样式之间标记的差异。
 
-4.  Copy the URL of the document by selecting the **Share** button in
-    the upper-right corner, above the ribbon and selecting **Copy
-    Link** from the drop-down menu that appears.
+![](./media/image21.png)
 
-    ![Image description](./media/image17.png)
+15. 该文件将保存在您的 OneDrive 帐户中。在 Word
+    文档的左上角，单击文件名以突出显示它，然后将文件重命名为 +++Fabrikam
+    2023 Financial presentation.docx+++。下一个练习将使用此文档。
 
-    **Note**: You may occasionally come across trouble using the URL from
-    your address bar. Copy the link from the Share tray for best results
+![](./media/image22.png)
 
-5.  Close the **Link copied** dialog box that appears in Word.
+![](./media/image23.png)
 
-    ![Image description](./media/image18.png)
+**重要说明：**在下一个练习中，您将使用 PowerPoint 中的 Copilot
+基于此文档创建幻灯片演示文稿。该文档必须位于 OneDrive 中，Copilot
+才能访问它。
 
-6.  Close this document tab in your Microsoft Edge browser. This returns
-    you to the **Word \| Microsoft 365** tab.
+16. 在 Microsoft Edge 浏览器中关闭包含此文档的选项卡。
 
-7.  On the Word file page, select the **PowerPoint** icon in the
-    navigation pane on the left.
+**练习 \#2：在 PowerPoint 中使用 Copilot 创建幻灯片演示文稿**
 
-    ![Image description](./media/image19.png)
+在本练习中，您将使用 PowerPoint 中的 Copilot 根据您在 Word 中使用
+Copilot
+创建的演讲（根据损益表对股东）创建幻灯片演示文稿，以编写您的演讲。
 
-8.  In **PowerPoint**, open a new blank presentation.
+在前面的练习中，您通过从 Most Recently Used （MRU）
+文件列表中访问文件，在 Copilot
+中访问了公司的损益表。在本练习中，您将获得使用其他进程访问文件的经验。您计划通过复制您在上一个练习中创建的
+**Fabrikam 2023 Financial
+presentation.docx**文件的链接来访问语音，而不是使用 MRU 列表。
 
-9.  Select the **Copilot** option on the right side of the ribbon.
+您将执行以下步骤，让 PowerPoint 中的 Copilot 创建演示文稿的草稿：
 
-10. In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from.
+1.  如果您在 Edge 浏览器中打开了 Microsoft 365
+    选项卡，请立即选择它;否则，请打开一个新选项卡并输入以下
+    URL： +++[https://www.office.com+++](https://www.office.com+++/) 以转到
+    **Microsoft 365** 主页。
 
-11. Select the **Create presentation from file** prompt.
+**注意：**您需要使用右侧 “**Resources**” 选项卡下提供的 **Microsoft 365
+凭据**登录（如果出现提示）。
 
-    **Note**: In the prior exercise, you linked a file into a prompt by
-    selecting the file from the MRU list. In this exercise, you will gain
-    experience linking a file into a prompt using another method.
+2.  在 **Microsoft 365** 导航窗格中，选择 **Word** 以打开 Word。
 
-12. Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window appears that contains the three most
-    recently used files. Normally, you would select your desired file if
-    it appeared in this window. However, in this training exercise, even
-    if the **Fabrikam 2023 Financial presentation.docx** appears in the
-    MRU list, let's assume that it didn't. As such, you must paste the
-    link to the file into the prompt field.
+3.  在 **Word** 的文件页面上，向下滚动到最近使用的文件列表，然后选择
+    **Fabrikam 2023 Financial presentation.docx** 在 Microsoft Edge
+    浏览器的新选项卡中打开它。
 
-    ![Image description](./media/image20.png)
+![](./media/image24.png)
 
-13. In the prompt field, Copilot automatically types in **Create
-    presentation from file /**. Place your cursor after the forward
-    slash and enter **Ctrl+V** to paste the link to this document into
-    the prompt.
+4.  通过选择功能区上方右上角的 **Share**
+    按钮，然后从显示的下拉菜单中选择 **Copy Link** 来复制文档的 URL。
 
-    ![Image description](./media/image21.png)
+![](./media/image25.png)
 
-14. Select the **Send** icon.
+**注意：**使用地址栏中的 URL
+时，您有时可能会遇到问题。从共享托盘复制链接以获得最佳效果
 
-15. This prompt triggers Copilot to create a slide presentation based on
-    the document. In doing so, it displays the outline of the
-    presentation and a list of features included in the presentation.
-    These features may include speaker notes, images, layouts to
-    organize slides, and a General sensitivity label.
+5.  关闭 Word 中显示的 **Link copied** （链接已复制） 对话框。
 
-    ![Image description](./media/image22.png)
+![](./media/image26.png)
 
-16. You're now free to review the slides and make any necessary updates.
-    You can use the **Designer** tool to adjust the layouts.
+6.  在 Microsoft Edge 浏览器中关闭此文档选项卡。这让你回到了 **Word
+    \|Microsoft 365** 选项卡。
 
-    ![Image description](./media/image23.png)
+7.  在 Word 文件页面上，选择左上角的 **App Launcher** 窗格中的
+    **PowerPoint** 图标。
 
-17. As you review the slides, be on the lookout for references to "the
-    speaker" or any other items that you may need to change.
+![](./media/image27.png)
 
-    ![Image description](./media/image24.png)
+8.  在 **PowerPoint** 中，打开一个新的空白演示文稿。
 
-    Warning: Look out for the reference to "The speaker" along with the
-    second sentence that begins with "The presentation will summarize...".
-    that may be created by Copilot.
+9.  选择 **Copilot** 图标（以红色突出显示，如屏幕截图所示）。
 
-    **Example**: The speaker introduces a presentation on Fabrikam's 2023
-    income statement highlights, reporting strong performance and growth
-    despite challenges from the global pandemic and competitive market.
-    The presentation will summarize the main results and explain how they
-    align with the company's strategic vision and goals.
+![](./media/image28.png)
 
-    You should remove these types of references as they're more applicable
-    as speaker notes rather than text intended for audiences.
+![](./media/image29.png)
 
-18. Review the speaker notes that Copilot added to the presentation.
-    Verify they call out the points that you want to make during the
-    presentation.
+10. 在显示的 **Copilot** 窗格中，有几个预定义的提示可供您选择。
 
-    ![Image description](./media/image25.png)
+11. 选择 **Create presentation from file** 提示。
 
-19. Try using Copilot to update the presentation. For example, enter the
-    following prompt:
+**注：** 在上一个练习中，您通过从 MRU
+列表中选择文件，将文件链接到提示中。在本练习中，您将获得使用其他方法将文件链接到提示的经验**。** 
+![](./media/image30.png)
 
-    ++**Add a new slide after slide 1. This slide should have an image of a
-    mountain peak in the Alps. Towards the bottom of the slide, add a text
-    box that says: Fabrikam's company motto - "We overcome every
-    obstacle." Add speaker notes to this new slide that talk about how
-    Fabrikam works diligently to solve every customer's request, never
-    letting any obstacle stand in its way of success**++.
+12. 在 **Copilot** 窗格底部的提示字段上方，将显示一个 **建议**
+    窗口，其中包含最近使用的三个文件。通常，如果它出现在此窗口中，您会选择所需的文件。但是，在此培训练习中，即使
+    **Fabrikam 2023 Financial presentation.docx**出现在 MRU
+    列表中，我们也假设它没有。因此，您必须将文件的链接粘贴到提示字段中。
 
-    Review the new slide that was created. While the remaining lab
-    exercises don't use this presentation, you can either discard it or
-    save it if you want for future reference.
+![](./media/image31.png)
 
-# Summary
+13. 在提示字段中，Copilot 会自动键入 **Create presentation from file
+    /**。将光标放在正斜杠后面，然后按 **Ctrl+V**
+    将指向此文档的链接粘贴到提示符中。
 
-In this lab, you have
+![](./media/image32.png)
 
--  Utilized Microsoft Copilot's capabilities in Word to draft a comprehensive speech that includes generating content that     effectively communicates key messages and company updates.
-  
--  Leveraged Microsoft Copilot in PowerPoint to transform the speech created in Word into a visually engaging and
-   informative presentation, creating slides that highlight the main points of the speech, using Copilot to ensure   
-   consistency and clarity in the presentation format.
+14. 选择 **Send** 图标。
+
+15. 此提示会触发 Copilot
+    根据文档创建幻灯片演示文稿。在此过程中，它会显示演示文稿的大纲和演示文稿中包含的功能列表。这些功能可能包括演讲者备注、图像、用于组织幻灯片的布局以及常规敏感度标签。
+
+![](./media/image33.png)
+
+16. 您现在可以自由地查看幻灯片并进行任何必要的更新。您可以使用
+    **Designer** 工具调整布局。
+
+![](./media/image34.png)
+
+17. 在查看幻灯片时，请留意对 “the speaker”
+    的引用或您可能需要更改的任何其他项目。
+
+![](./media/image35.png)
+
+警告：请留意对 “The speaker” 的引用以及以 “The presentation will
+summarize...” 开头的第二句。可能由 Copilot 创建。
+
+**示例：**演讲者介绍了 Fabrikam 的 2023
+年损益表亮点，报告称，尽管面临全球疫情和竞争市场的挑战，但仍实现了强劲的业绩和增长。该演示文稿将总结主要结果，并解释它们如何与公司的战略愿景和目标保持一致。
+
+您应该删除这些类型的引用，因为它们更适合作为演讲者注释，而不是面向受众的文本。
+
+18. 查看 Copilot
+    添加到演示文稿中的演讲者备注。验证他们指出了您希望在演示过程中提出的观点。
+
+![](./media/image36.png)
+
+19. 尝试使用 Copilot 更新演示文稿。例如，输入以下提示：
+
++++Add a new slide after slide 1. This slide should have an image of a
+mountain peak in the Alps. Towards the bottom of the slide, add a text
+box that says: Fabrikam's company motto - "We overcome every obstacle."
+Add speaker notes to this new slide that talk about how Fabrikam works
+diligently to solve every customer's request, never letting any obstacle
+stand in its way of success.+++
+
+查看已创建的新幻灯片。虽然其余的实验练习不使用此演示文稿，但如果需要，您可以丢弃它或保存它以备将来参考。
+
+**总结**
+
+在本实验中，您拥有
+
+- 利用 Microsoft Copilot 在 Word
+  中的功能起草一份全面的演讲，其中包括生成可有效传达关键信息和公司更新的内容。
+
+- 利用 PowerPoint 中的 Microsoft Copilot 将 Word
+  中创建的语音转换为视觉上引人入胜且信息丰富的演示文稿，创建突出演讲要点的幻灯片，使用
+  Copilot 确保演示文稿格式的一致性和清晰度。
