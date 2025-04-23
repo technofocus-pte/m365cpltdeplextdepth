@@ -1,573 +1,516 @@
-# Lab 03: Empower your workforce – Copilot-IT
+**實驗室 03：為您的員工賦能 – Copilot-IT**
 
-## Objective:
+**目的：**
 
-Copilot for Microsoft 365 serves as an AI-powered writing assistant
-understands context, suggests phrases, and helps generate content, all
-of which can enhance the quality of your work. In this lab, you will
-use:
+適用於 Microsoft 365 的 Copilot 充當 AI
+驅動的寫作助手，可理解上下文、建議短語並幫助生成內容，所有這些都可以提高您的工作質量。在本實驗中，您將使用：
 
-- Microsoft Copilot to summarize the information in a product spec and
-  create a project plan to implement the product.
+- Microsoft Copilot 匯總產品規格中的信息並創建項目計劃來實施該產品。
 
-- Copilot in PowerPoint to create a presentation based on the project
-  plan that you created.
+- PowerPoint 中的 Copilot 根據您創建的項目計劃創建演示文稿。
 
-- Copilot in Word to modify a technical specification report.
+- Word 中的 Copilot 修改技術規範報告。
 
-## Exercise #1: Create a project plan using Microsoft Copilot
+**練習 #1：使用 Microsoft Copilot 創建項目計劃**
 
-With Microsoft Copilot seamlessly integrates into Microsoft 365 and
-offers a robust platform for IT professionals to enhance teamwork, share
-insights, and accelerate problem-solving within the IT ecosystem. It
-enables IT professionals to connect instantly, share information, and
-coordinate efforts efficiently.
+借助 Microsoft，Copilot 無縫集成到 Microsoft 365 中，並為 IT
+專業人員提供了一個強大的平臺，以增強團隊合作、共享見解並加速 IT
+生態系統中的問題解決。它使 IT
+專業人員能夠即時連接、共享信息並有效地協調工作。
 
-As the Director of IT at Adatum Corporation, you've been reviewing a
-product specification report for the Contoso CipherGuard Sentinel X7
-network security product. You plan to install this product, which
-provides advanced security protection that is far beyond anything Adatum
-has today.
+作為 Adatum Corporation 的 IT 總監，您一直在查看 Contoso CipherGuard
+Sentinel X7
+網絡安全產品的產品規格報告。您計劃安裝此產品，它提供的高級安全保護遠遠超出
+Adatum 目前所擁有的任何產品。
 
-In this exercise you will use Microsoft Copilot in Bing
+在本練習中，您將在必應中使用 Microsoft Copilot
 
-- Analyze a product specification report for a new network security
-  product that you plan to install.
+- 分析您計劃安裝的新網絡安全產品的產品規格報告。
 
-- Update the project plan with information from the product spec report.
+- 使用產品規格報告中的信息更新項目計劃。
 
-**Note**: At the end of this exercise, you must save your project plan
-to your OneDrive account. The next exercise uses this file.
+**注意：**在本練習結束時，您必須將項目計劃保存到 OneDrive
+帳戶。下一個練習將使用此文件。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**   
-    tab on the right.
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它; 否則，請打開一個新選項卡並輸入以下
+    URL： +++[https://www.office.com+++](https://www.office.com+++/) 以轉到
+    **Microsoft 365** 主頁。
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+**注意：**您需要使用右側**“資源”選項卡**下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）。
 
-    ![](./media/image1.png)
+2.  打開 **OneDrive**。瀏覽到 **C：\LabFiles** 文件夾，選擇 **Contoso
+    CipherGuard Product Specification report.docx** 的副本並將其上傳到
+    **OneDrive**。
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso CipherGuard Product Specification report** document to **OneDrive**.
+**注意：**如果您已經上傳了所有文檔的副本（您將按照**實驗室 0**
+中的說明從 **C：\LabFiles** 進行此動手實驗會話），則可以跳過此步驟。
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+3.  打開並關閉 **Contoso CipherGuard Product Specification report.docx**
+    文件（已上傳到 **OneDrive**），將其放入最近使用的 （MRU） 文件列表中
 
-4.  In this exercise, you access the document from the MRU file list. To
-    get the file to appear in the MRU list, open the document and then
-    close it.
+![](./media/image1.png)
 
-    ![](./media/image2.png)
+4.  在 **Microsoft Edge** 中，輸入以下 URL 導航到 Microsoft
+    Bing： +++[https://bing.com+++](https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/m365cpltdeplextdepth-Dec2K24/Instructions/Lab%2003/media/image15.png)。
 
-5.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
-    following URL: +++https://bing.com+++
+![](./media/image2.png)
 
-    ![](./media/image3.png)
+5.  在 **Microsoft Bing 主頁**上，在頁面頂部顯示的選項卡列表中，選擇
+    **Copilot**。這樣做將打開 **Microsoft Copilot**。
 
-6.  On the **Microsoft Bing home page**, in the list of tabs that appear
-    across the top of the page, select **Copilot**. Doing so
-    opens **Microsoft Copilot**.
+![](./media/image3.png)
 
-    ![](./media/image4.png)
+**注意：**
+如果您在頁面頂部沒有看到標簽頁列表，請按照以下步驟查看標簽頁列表。
 
-7.  On the **Copilot** page, in the **Work/Web** toggle switch at the
-    top of the page, select **Work**.
+- 確保您已使用 **Microsoft 365 憑據**（位於 **Resources** （資源）
+  選項卡下） 登錄。
 
-8. By default, the **Work** option limits Copilot's reach to your
-    Microsoft 365 organizational data. However, since you also want
-    Copilot to access the public web guidelines on installing a
-    corporate network security product, you must enable the **Web
-    content** plugin. To do so, in the prompt field at the bottom of the
-    page, you should notice two icons - the paper clip icon, which is to
-    attach files, and an icon of stacked blocks. This latter icon is the
-    Plugins icon. Select this **Plugins** icon.
+![](./media/image4.png)
 
-    ![](./media/image5.png)>
+- 啟用選項 **Show menu bar** （以紅色高亮顯示）
 
-    ![](./media/image6.png)
+![](./media/image5.png)
 
-9. You're now ready to use Copilot. Enter the following prompt, which
-    directs Copilot to access public web data through the **Web
-    content** plugin to Microsoft Copilot, and then select
-    the **Submit** arrow in the bottom corner of the prompt field:
+![](./media/image6.png)
 
-    ++**I'm the Director of IT at Adatum Corporation. Create a project plan
-    for installing a new network security product into a corporate
-    network. Base this plan on IT industry guidelines for installing
-    network security products**.++
+6.  現在選擇 **Copilot**。這樣做將打開 Microsoft Copilot。
 
-    ![](./media/image7.png)
+7.  在 **Copilot** 頁面上，在頁面頂部的 **Work/Web** 切換開關中，選擇
+    **Work**。
 
-10. Review the project plan that Copilot created.
+8.  默認情況下，“**Work**”選項會限制 Copilot 對您的 Microsoft 365
+    組織數據的訪問權限。但是，由於您還希望 Copilot
+    訪問有關安裝公司網絡安全產品的公共 Web 指南，因此您必須啟用 **Web
+    內容**插件。為此，在頁面底部的提示字段中，您應該注意到兩個圖標 -
+    回形針圖標（用於附加文件）和堆疊塊圖標。後一個圖標是 Plugins 圖標。
 
-    ![](./media/image8.png)
+![](./media/image7.png)
 
-11. You aren't satisfied that it encompasses all the areas that it
-    should. Enter the following prompt to have it amend its plan by
-    including areas of specific interest to you. If any of the areas
-    included in this prompt are already in Copilot's previous response,
-    then remove them from this prompt so that Copilot doesn't duplicate
-    them:
+9.  選擇此 **Plugins** 圖標並啟用 **Web 內容**插件。
 
-    ++**While that was a good start, I feel like it's missing important
-    areas. Please add the following items to the existing list: testing
-    and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation**.++
+![](./media/image8.png)
 
-    ![](./media/image9.png)
+![](./media/image9.png)
 
-    ![](./media/image10.png)
+10. 您現在可以使用 Copilot。輸入以下提示，該提示指示 Copilot 通過 **Web
+    內容**插件訪問 Microsoft Copilot 的公共 Web
+    數據，然後選擇提示字段下角的 “**Submit**” 箭頭：
 
-12. Review the amended project plan. You're happy with the breadth of
-    topics covered, so now you want Copilot to update the plan with
-    information from the product spec for the Contoso CipherGuard
-    Sentinel X7 security product. Enter the following prompt, but don't
-    submit it yet as you must first link the file to the prompt in the
-    next step:
+++**I'm the Director of IT at Adatum Corporation. Create a project plan
+for installing a new network security product into a corporate network.
+Base this plan on IT industry guidelines for installing network security
+products**.++
 
-    ++**This version looks better. Please review the attached file, which is
-    a product specification for the Contoso CipherGuard Sentinel X7
-    security product, and update your project plan with information from
-    this product spec**.++
+![](./media/image10.png)
 
-    ![](./media/image11.png)
+11. 查看 Copilot 創建的項目計劃。
 
-13. In the prompt field, enter a space after the prompt and then type a
-    forward slash (/). You must enter the space before the forward slash
-    so that Copilot recognizes it as a request to attach something to
-    the prompt. Your next step depends on whether Copilot opens a window
-    for you to select the file:
+![](./media/image11.png)
 
-    - If Copilot opens a window after you entered the forward slash (/),
-      then select the **Files** tab. Doing so displays the list of MRU
-      files. Select the **Contoso CipherGuard Product Specification** file
-      and then select the **Submit** icon.
+12. 您不滿意它包含它應該包含的所有領域。輸入以下提示，讓它通過包含您特別感興趣的區域來修改其計劃。如果此提示中包含的任何區域已在
+    Copilot 的上一個響應中，請從此提示中刪除它們，以便 Copilot
+    不會複製它們：
 
-    - If Copilot didn't do anything after you entered the forward slash (/),
-      then you'll have to copy and paste in the link to the **Contoso
-      CipherGuard Product Specification** file. To do so, locate the file in
-      your OneDrive account, open it in **Word**, select
-      the **Share** button that appears above the Word ribbon, select **Copy
-      link** in the drop-down menu that appears, and then back in this
-      prompt field, paste in the link following the forward slash and select
-      the **Submit** icon.
+++**While that was a good start, I feel like it's missing important
+areas. Please add the following items to the existing list: testing and
+QA, training, communication, document and reporting, stakeholder
+analysis, project timeline, and risk assessment and mitigation**.++
 
-    ![](./media/image12.png)
-    
-      <span class="mark">**Note**: If Copilot is not able to directly access
-      or review documents, Sign-out of the logged in user and sign-in once
-      again</span>.
+![](./media/image12.png)
 
-    ![](./media/image13.png)
+![](./media/image13.png)
 
-14. Continue from **step 9** once again.
+13. 查看修改後的項目計劃。您對涵蓋的主題的廣度感到滿意，因此現在您希望
+    Copilot 使用 Contoso CipherGuard Sentinel X7
+    安全產品的產品規格中的信息更新計劃。輸入以下提示，但不要提交，因為您必須先在下一步中將文件鏈接到提示：
 
-    ![](./media/image14.png)
+++**This version looks better. Please review the attached file, which is
+a product specification for the Contoso CipherGuard Sentinel X7 security
+product, and update your project plan with information from this product
+spec**.++
 
-    <span class="mark">**Note**: If you are unable to view and reference
-    **Contoso CipherGuard Product Specification** document, then proceed
-    to the next exercise. The project plan document is made available for
-    you to proceed with the remaining lab activity</span>
+![](./media/image14.png)
 
-    ![](./media/image15.png)
+14. 在提示字段中，在提示後輸入一個空格，然後鍵入正斜杠
+    （/）。您必須在正斜杠之前輸入空格，以便 Copilot
+    將其識別為將某些內容附加到提示符的請求。下一步取決於 Copilot
+    是否打開一個窗口供您選擇文件：
 
-15. Review how Copilot inserted features from the product spec into the
-    project plan.
+    - 如果 Copilot 在您輸入正斜杠 （/） 後打開一個窗口，請選擇 “文件”
+      選項卡。這樣做會顯示 MRU 文件的列表。選擇 **Contoso CipherGuard
+      Product Specification** 文件，然後選擇 **Submit** 圖標。
 
-    ![](./media/image16.png)
-16. While this looks good, you feel that the project plan is lacking in
-    specific details. To address this issue, enter the following prompt:
+![](./media/image15.png)
 
-    ++**We're almost there. Please break down each item on the report into
-    multiple detailed steps**.++
+- 如果 Copilot 在您輸入正斜杠 （/） 後未執行任何作，則必須複製並粘貼指向
+  **Contoso CipherGuard Product Specification**
+  文件的鏈接。為此，請在您的 OneDrive 帳戶中找到該文件，在 **Word**
+  中打開它，選擇 Word 功能區上方顯示的
+  “**Share**”按鈕，在出現的下拉菜單中選擇 “**Copy link**”
+  ，然後返回此提示字段，粘貼正斜杠後面的鏈接，然後選擇 “**Submit**”
+  圖標。
 
-    ![](./media/image17.png)
+![](./media/image16.png)
 
-17. Review the results.
+**注意：**如果 Copilot
+無法直接訪問或查看文檔，請注銷已登錄用戶並再次登錄，然後再次從**步驟 9**
+繼續。
 
-    ![](./media/image18.png)
-
-18. Now that the project plan is created, you MUST save it to a Word
-    document. **You'll use this project plan document in the next
-    exercise**. At the bottom of Copilot's final response, select the **Copy** button to copy and paste the response in a 
-    **Word** document.
-
-    ![](./media/image19.png)
-
-
-19. Save the file as **Contoso CipherGuard project plan.docx** in your OneDrive that contains the product 
-    specification document that you used in this exercise. You'll use this file in the next exercise.
-
-    ![](./media/image21.png)
-
-## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
-
-Copilot in PowerPoint serves as an intelligent collaborator, offering
-real-time suggestions and enhancements as IT professionals craft their
-presentations to:
-
-  - Present their ideas or proposals to their team or management.
-  
-  - Train new employees or demonstrate new software or hardware to
-    clients.
-  
-  - Explain complex technical concepts to nontechnical audiences, such as
-    stakeholders or investors.
-  
-  - Showcase their work or promote their services to potential clients.
-
-With Copilot in PowerPoint, you can create a presentation from an
-existing Word document. When you provide Copilot in PowerPoint with the
-link to your Word document, it can generate slides, apply layouts, and
-choose a theme for you.
-
-In this exercise, you use Copilot in PowerPoint to create a slide
-presentation based on the project plan you created in the prior
-exercise. You want to use this presentation to explain the project plan
-to your IT staff, and ultimately to corporate management.
-
-<span class="mark">**Note**: If you completed the prior exercise and
-created a **Contoso CipherGuard project plan.docx** file, then ensure
-that you saved it to your OneDrive account and proceed to the next
-step. However, if you were unable to create this project plan in the
-prior exercise, then upload a copy of the document **Contoso CipherGuard project plan.docx** available in **C:\LabFiles**.</span>
-
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: ++https://www.office.com++ to go     to Microsoft 365 home page.
-    
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
-
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+![](./media/image17.png)
 
-    ![](./media/image1.png)
+**注意：**如果您無法查看和引用 **Contoso CipherGuard Product
+Specification**
+文檔，請繼續進行下一個練習。項目計劃文檔可供您繼續執行剩餘的實驗室活動。
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso CipherGuard Product Specification report** document to **OneDrive**.
+15. 查看 Copilot 如何將產品規格中的功能插入到項目計劃中。
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-    
-4.  Open and close the file Contoso CipherGuard project plan.docx (which you saved to OneDrive) to get it in your
-    Most Recently Used (MRU) file list.
-    
-5.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
-    PowerPoint, open a new blank presentation.
+![](./media/image18.png)
 
-6.  Select the **Copilot** option on the right side of the ribbon. In
-    the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from.
+16. 雖然這看起來不錯，但您覺得項目計劃缺少具體細節。要解決此問題，請輸入以下提示：
 
-    ![](./media/image22.png)
+++**We're almost there. Please break down each item on the report into
+multiple detailed steps**.++
 
-7.  Select the **Create presentation from file** prompt.
+![](./media/image19.png)
 
-    ![](./media/image23.png)
+17. 查看結果。
 
-8.  In the prompt field at the bottom of the **Copilot** pane, Copilot
-    automatically enters the text: **Create presentation from file /**.
-    The forward slash is the universal Copilot indicator to enter a link
-    to a file. In this case, it triggers Copilot to open
-    a **Suggestions** window that displays three of the most recently
-    used files.
+![](./media/image20.png)
 
-    - If your file appears here, then select it now and proceed to the next
-      step.
-    
-    - If the file isn't one of the three being displayed, select the right
-      arrow (**\>**) in the upper right corner of the **Suggestions** window
-      to see an expanded MRU file list. If the file appears here, then
-      select it now and proceed to the next step.
-    
-    - If you don't see your file in the expanded MRU list, then you must
-      copy the link to the report and paste it in the prompt field. To do
-      so:
+18. 現在，項目計劃已創建，您必須將其保存到 Word
+    文檔中。**您將在下一個練習中使用此項目計劃文檔**。在 Copilot
+    最終響應的底部，選擇 “Copy ”按鈕以複製內容。
 
-      1.  Select the **Microsoft 365** browser tab and select **Word** in
-          the navigation pane.
-    
-      2.  In the **Word** home page, in the list of recent files, select the
-          report to open it in Word.
-    
-      3.  In the report in Word, on the far-right above the ribbon, select
-          the **Share** button. In the drop-down menu that appears,
-          select **Copy Link**. Wait for the **Link copied** window to
-          appear, which is your assurance that the link to the file is
-          copied to your clipboard.
-    
-      4.  Switch to your **PowerPoint** tab, and at the bottom of
-          the **Copilot** pane, the prompt field should still be
-          displaying **Create presentation from file /**. Position your
-          cursor after the forward slash (**/**) and then paste in
-          (**Ctrl+V**) the link to the report.
+**注意：**您將看到一個 **Edit in Pages**
+按鈕，該按鈕提供了更多功能並促進了團隊協作。在本練習中，我們不會使用
+**Edit in Pages**。實驗室 \#06
+中包括一個單獨的實驗室練習。 
+![](./media/image21.png)
 
-9. Note how the file appears in the prompt field. Select
-    the **Send** icon in the prompt field. This prompt triggered Copilot
-    to create a slide presentation based on the document. In doing so,
-    it first displayed the outline of the presentation. Then it
-    displayed a separate window showing a bulleted list of some of the
-    changes that it made to the presentation based on the document.
+在瀏覽器中打開一個空白的 **Word** 文檔 Word 文檔並粘貼響應。
 
-    ![](./media/image24.png)
+![](./media/image22.png)
 
-10. You're now free to review the slides and make any necessary updates.
-    Pay special attention to the changes the Copilot made based on the
-    document. You can use the **Designer** tool to adjust the layouts
+粘貼複製的內容後，您將看到 **Paste options** 上下文菜單。您可以使用
+**Keep Source
+formatting**。 
+![](./media/image23.png)
 
-    ![](./media/image25.png)
+![](./media/image24.png)
 
-11. You notice that there isn't a slide at the end for a Question and
-    Answer (Q&A) session. To correct this oversight, enter the following
-    prompt:
+19. 單擊左上角的文件名字段（如屏幕截圖所示），然後在 **OneDrive**
+    中將文件重命名為 +++Contoso CipherGuard 項目
+    plan.docx+++。您將在下一個練習中使用此文件。
 
-    ++**Add a Q&A slide at the very end of the presentation with an
-    appropriate image**.++
+![](./media/image25.png)
 
-    ![](./media/image26.png)
+![](./media/image26.png)
 
-12. Review the new slide that was created. You don't like the image that
-    Copilot used for this slide, so enter the following prompt asking
-    Copilot to change the image:
+![](./media/image27.png)
 
-    **I don't like the image you used on the Q&A slide. Please replace it with a different image**.
+**練習 \#2：在 PowerPoint 中使用 Copilot 創建項目計劃演示文稿**
 
-    ![](./media/image27.png)
+PowerPoint 中的 Copilot 充當智能協作者，在 IT
+專業人員製作演示文稿時提供實時建議和增強功能，以便：
 
-13. What response did you receive? Sometimes Copilot didn't replace the
-    image and it returned the following message.
+- 向他們的團隊或管理層展示他們的想法或提案。
 
-    ![](./media/image28.png)
+- 培訓新員工或向客戶演示新軟件或硬件。
 
-    <span class="mark">**Note**: Copilot may display some exception (remember that Copilot is still a work in progress)   
-    like the one above.</span>
+- 向非技術受眾（如利益相關者或投資者）解釋複雜的技術概念。
 
-14. Please try rephrasing the prompt or use the suggested prompts like the one below:
+- 向潛在客戶展示他們的工作或推廣他們的服務。
 
-    ![](./media/image29.png)
+使用 PowerPoint 中的 Copilot，您可以從現有 Word 文檔創建演示文稿。當您在
+PowerPoint 中為 Copilot 提供指向 Word
+文檔的鏈接時，它可以生成幻燈片、應用佈局並為您選擇主題。
 
-15. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown
-    in the screenshot)
+在本練習中，您將使用 PowerPoint 中的 Copilot
+根據您在上一個練習中創建的項目計劃創建幻燈片演示文稿。您希望使用此演示文稿向
+IT 員工解釋項目計劃，並最終向公司管理層解釋項目計劃。
 
-    ![](./media/image30.png)
+**注意：**如果您完成了前面的練習並創建了 **Contoso CipherGuard project
+plan.docx** 文件，請確保將其保存到您的 OneDrive
+帳戶並繼續下一步。但是，如果您在前面的練習中無法創建此項目計劃，請上傳文檔
+**Contoso CipherGuard project plan.docx** 的副本 C：\LabFiles 中可用。
 
-16. Click Send to check what happens. Copilot has added a Q&A slide as instructed.
+1.  如果您在 Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它;否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/m365cpltdeplextdepth-Dec2K24/Instructions/Lab%2003/media/image22.png) 以轉到
+    **Microsoft 365** 主頁。
 
-17. Now try with another prompt:
+2.  打開並關閉 文件 **Contoso CipherGuard project plan.docx** （已保存到
+    **OneDrive**），以將其放入最近使用的 （MRU） 文件列表中
 
-    **Add a slide about** what the audience may ask about the presentation
-    
-18. Once you are done with final presentation you can save for future reference or discard this presentation
-       
-19. Regardless how the last few steps went in dealing with the Q&A
-    slide, you decide to move forward and try one last thing. In
-    reviewing the presentation, you decide that you want to change the
-    theme of the presentation to something more appropriate due to the
-    technical nature of the topic. Enter the following prompt:
+3.  在 **Microsoft 365** 導航窗格中，選擇 **PowerPoint**。在 PowerPoint
+    中，打開一個新的空白演示文稿。
 
-    ++**Change the theme of this presentation to something more technical**.++ 
+4.  選擇 **Copilot** 圖標（以紅色突出顯示，如屏幕截圖所示）。在顯示的
+    **Copilot** 窗格中，有幾個預定義的提示可供您選擇。
 
-    ![](./media/image31.png)
+![](./media/image28.png)
 
-21. Note Copilot's response.
+![](./media/image29.png)
 
-    ![](./media/image32.png)
+5.  選擇 **Create presentation from file** 提示。
 
-    This scenario is one of those situations to remember the prompting
-    best practice: **Understand Copilot's limitations**. In this case, it
-    isn't an understanding of a limitation as much as it's an
-    understanding as to how Copilot works. In this case, Copilot points
-    you to an existing PowerPoint feature rather than duplicating what
-    that feature does.
+![](./media/image30.png)
 
-22. While the remaining training exercises in this module don't use this
-    presentation, you can either discard it or save it if you want it
-    for future reference.
+6.  在 **Copilot** 窗格底部的提示字段中，Copilot
+    會自動輸入文本：**Create presentation from file /**。正斜杠是通用的
+    Copilot 指示器，用於輸入文件的鏈接。在這種情況下，它會觸發 Copilot
+    打開一個 **Suggestions**窗口，其中顯示最近使用的三個文件。
 
-## Exercise #3: Update a technical report using Copilot in Word
+    - 如果您的文件顯示在此處，請立即選擇它並繼續下一步。
 
-Copilot in Word can help IT professionals save time and effort when
-creating documents. It can help you generate content, rewrite text, and
-provide helpful suggestions. With its AI-powered writing assistance,
-Copilot can help you create documents more efficiently and effectively.
+    - 如果該文件不是顯示的三個文件之一，請選擇 **Suggestions** （建議）
+      窗口右上角的向右箭頭 （\>） 以查看展開的 MRU
+      文件列表。如果文件顯示在此處，請立即選擇它並繼續下一步。
 
-When you create a new document or work on an existing one, Copilot can
-help you in different ways.
+    - 如果您在展開的 MRU
+      列表中沒有看到您的文件，則必須複製報告的鏈接並將其粘貼到提示字段中。為此，請執行以下作：
 
-- In a new, blank document or when you want to add content to an
-  existing document, you can tell Copilot what you want to write about,
-  and it generates the content accordingly.
+a\. 選擇 **Microsoft 365** 瀏覽器選項卡，然後在導航窗格中選擇 **Word**。
 
-- In a document with existing content, Copilot can help you transform
-  the content. It can rewrite selected content, or even transform
-  selected content into a table.
+b\. 在 **Word** 主頁的最近打開的文件列表中，選擇報表以在 Word 中打開它。
 
-In this exercise, you will use Copilot in Word to update an existing
-document. You direct Copilot to add new text, rewrite existing text, and
-transform text into a table.
+c\. 在 Word 的報表中，在功能區上方的最右側，選擇 “**Share**”
+按鈕。在顯示的下拉菜單中，選擇 **Copy Link**。等待 **Link copied**
+（鏈接已複製） 窗口出現，這是您確保文件的鏈接已複製到剪貼板的保證。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+d\. 切換到 **PowerPoint** 選項卡，在 **Copilot**
+窗格的底部，提示字段應仍顯示 “**Create presentation from file /**”
+。將光標置於正斜杠 （**/**） 之後，然後粘貼到 （**Ctrl+V**）
+報表的鏈接。
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+7.  請注意文件在提示字段中的顯示方式。選擇提示字段中的 **Send**
+    圖標。此提示觸發 Copilot
+    根據文檔創建幻燈片演示文稿。在此過程中，它首先顯示演示文稿的大綱。然後，它顯示一個單獨的窗口，其中顯示了它根據文檔對演示文稿所做的一些更改的項目符號列表。
 
-    ![](./media/image1.png)
+![](./media/image31.png)
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Trey Research - VPN Technical Overview** document to **OneDrive**.
+8.  您現在可以自由地查看幻燈片並進行任何必要的更新。請特別注意 Copilot
+    根據文檔所做的更改。您可以使用 **Designer** 工具調整佈局
 
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+![](./media/image32.png)
 
-4.  Open and close the file **Trey Research - VPN Technical Overview.docx** (which you uploaded to OneDrive) to get it in       your Most Recently Used (MRU) file list
-  
-5.  On the **Microsoft 365** navigation pane, select **Microsoft Word** to open it.
+9.  您注意到，問答 （Q&A）
+    會話的末尾沒有幻燈片。要更正此疏忽，請輸入以下提示：
 
-6.  Open the **Trey Research - VPN Technical Overview.docx** file.
++++Add a Q&A slide at the very end of the presentation with an
+appropriate image.+++
 
-    ![](./media/image33.png)
+![](./media/image33.png)
 
-7.  On the **Word** ribbon, select the **Copilot** button to open the
-    Copilot pane.
+10. 查看已創建的新幻燈片。您不喜歡 Copilot
+    用於此幻燈片的圖像，因此輸入以下提示，要求 Copilot 更改圖像：
 
-    ![](./media/image34.png)
++++I don't like the image you used on the Q&A slide. Please replace it
+with a different image.+++
 
-8.  In the **Copilot** pane, enter the following prompt and then select
-    the arrow (**Send**) icon:
+![](./media/image34.png)
 
-    ++**Write a new section for this document about the types of VPNs. Discuss
-    the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details**.++
+11. 您收到了什麼回復？有時 Copilot 沒有替換圖像，它會返回以下消息。
 
-    ![](./media/image35.png)
+![](./media/image35.png)
 
-9. Copilot doesn't add new content directly into a document. It
-    displays the content in a response window in the Copilot pane.
-    However, it does provide a **Copy** button at the bottom of each
-    response window, so select the **Copy** button to copy its contents
-    to your clipboard. In looking at the document, you decide to paste
-    the contents below the opening paragraph. Paste the contents in now.
+**注意：**Copilot 可能會顯示一些異常（請記住，Copilot
+仍在進行中），如上所示。
 
-    > **Tip**: When you select the **Copy** button for a response window, it
-    > copies ALL the content, including Copilot's comments that are intended
-    > for you. These types of comments are typically at the start and end of
-    > the response. Make sure you remove these comments once you paste the
-    > response into your document. Chances are, the font and font size of
-    > the new content won't match the existing font and size used throughout
-    > the document. As such, you must change them to match.
+12. 請嘗試改寫提示或使用建議的提示，如下所示。
 
-10. Upon further review, you notice that there's no mention of security
-    policies related to VPN usage. This topic is a key area that you
-    want included, so enter the following prompt:
+![](./media/image36.png)
 
-    ++**Please write a new section for this document about security policies
-    related to VPN usage. This content is for a technical audience, so
-    please provide specific details**.++
+13. 選擇命令 **Add a slide about** 並在演示文稿的末尾附加以下
+    +++Q&A+（如屏幕截圖所示）
 
-    ![](./media/image36.png)
+![](./media/image37.png)
 
-11. Copy and paste the content from this response into the document.
-    Place it just before the **Risks and mitigations** section, and then
-    edit the content as needed. If necessary, add a heading for this
-    section titled **Security policies related to VPN usage**.
+14. 單擊 Send 以檢查會發生什麼。Copilot 已按照說明添加了 Q&A 幻燈片。
 
-    ![](./media/image37.png)
+15. 現在嘗試使用另一個提示：
 
-12. When you reviewed the report, you also identified one area of
-    content that you felt needed to be rewritten. In the section
-    on **Risks and mitigations**, the first bullet covers both home and
-    enterprise VPNs. You want it to only address enterprise VPNs.
-    However, given the way in which the content is written, it doesn't
-    appear to be an easy fix. You decide to have Copilot rewrite the
-    content for you.
+**Add a slide about** what the audience may ask about the presentation.
 
-    **Tip**: To have Copilot rewrite content, you must first highlight the
-    content that you want Copilot to rewrite.
+16. 完成最終演示後，您可以保存以備將來參考或放棄此演示文稿
 
-13. Highlight the content in the first bullet of the **Risks and
-    mitigation** section, and then enter the following prompt:
+17. 無論處理 Q&A
+    幻燈片的最後幾個步驟如何，您都決定繼續嘗試最後一件事。在審閱演示文稿時，由於主題的技術性質，您決定要將演示文稿的主題更改為更合適的主題。輸入以下提示：
 
-    ++**The highlighted content discusses the risks of using VPNs in both
-    home and enterprise networks. Remove the content related to home
-    networks and focus solely on the risks of VPNs in enterprise
-    networks**.++
-    
-    ![](./media/image38.png)
++++Change the theme of this presentation to something more technical+++ 
 
-14. Check Copilot's response. Sometimes this rewrite functionality
-    didn't work. When it didn't work, Copilot returned the following
-    response. If this situation occurs, copy and paste in your prompt
-    and try it again (remember, iterate, iterate, iterate).
+![](./media/image38.png)
 
-    ![](./media/image39.png)
+18. 請注意 Copilot 的回應。
 
-15. After you make a final review of the document, you decide that the
-    sections on the Pros and Cons of implementing VPNs would look better
-    in a table rather than as bulleted lists. Since you highlighted a
-    section to be rewritten, you decide to highlight these two sections.
-    Highlight both sections and then enter the following prompt:
+![](./media/image39.png)
 
-    ++**Please rewrite the highlighted content by placing it in a table**.++
+此方案是需要記住提示最佳實踐的情況之一：**瞭解 Copilot
+的限制**。在這種情況下，與其說是對限制的理解，不如說是對 Copilot
+工作原理的理解。在這種情況下，Copilot 會將您指向現有的 PowerPoint
+功能，而不是複製該功能的功能。
 
-    ![](./media/image40.png)
+19. 雖然本模塊中的其餘訓練練習不使用此演示文稿，但如果需要，您可以丟棄或保存它以備將來參考。
 
-16. Note the Copilot response.
+**練習 \#3：在 Word 中使用 Copilot 更新技術報告**
 
-    ![](./media/image41.png)
+Word 中的 Copilot 可以幫助 IT
+專業人員在創建文檔時節省時間和精力。它可以幫助您生成內容、重寫文本並提供有用的建議。憑藉其
+AI 驅動的寫作輔助，Copilot 可以幫助您更高效地創建文檔。
 
-17. Reformatting content into a table is different than rewriting
-    content. Instead of highlighting the content that you want placed in
-    a table, you must describe in your prompt what sections of content
-    you want included in the table. This time, enter the following
-    prompt:
+當您創建新文檔或處理現有文檔時，Copilot 可以以不同的方式為您提供幫助。
 
-    ++**Place the content from the Pros and Cons of implementing VPNs into a table**.++
-    
-    ![](./media/image42.png)
+- 在新的空白文檔中或當您想向現有文檔添加內容時，您可以告訴 Copilot
+  您要寫什麼，它會相應地生成內容。
 
-18. Note the Copilot response. Instead of rewriting or replacing the
-    existing content in the document with a table, it displays the table
-    in its response. It's up to you to replace the content by copying
-    and pasting the table into the document. In the response, select
-    the **Copy** button, and then in the document, highlight the Pros
-    and Cons sections and paste in the table. Make sure you add a
-    section heading before the table that says: **Pros and Cons of
-    implementing VPNs.** Chances are, you'll also need to change the
-    font and font size of the table content to match the existing font
-    and size used throughout the document.
+- 在包含現有內容的文檔中，Copilot
+  可以幫助您轉換內容。它可以重寫所選內容，甚至可以將所選內容轉換為表格。
 
-    ![](./media/image43.png)
+在本練習中，您將在 Word 中使用 Copilot 來更新現有文檔。您指示 Copilot
+添加新文本、重寫現有文本並將文本轉換為表格。
 
-19. At this point, you feel the document is complete. However, to play
-    it safe, you decide to ask Copilot if it feels the document should
-    include any other information. Enter the following prompt:
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它;否則，請打開一個新選項卡並輸入以下
+    URL： +++[https://www.office.com/+++](https://github.com/technofocus-pte/m365cpltdeplextdepth/blob/m365cpltdeplextdepth-Dec2K24/Instructions/Lab%2003/media/image13.png) 以轉到
+    **Microsoft 365** 主頁。
 
-    ++**Is there anything missing in this document that you would recommend adding?**.++
+**注意：**您需要使用右側**“資源”選項卡**下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）。
 
-    ![](./media/image44.png)
+2.  瀏覽到 **C：\LabFiles** 文件夾以選擇 **Trey Research - VPN Technical
+    Overview.docx** 的副本並將其上傳到 **OneDrive**。
 
-20. Note the Copilot response. In our testing, it told us that nothing
-    was missing. Try again to see if Copilot provides a different
-    response.
+**注意：**如果您已經上傳了所有文檔的副本（您將按照**實驗室 0**
+中的說明從 **C：\LabFiles** 進行此動手實驗會話），則可以跳過此步驟。
 
-    ![](./media/image45.png)
+3.  打開並關閉文件 **Trey Research - VPN Technical Overview.docx**
+    （已上傳到 **OneDrive**） ，以將其放入最近使用的 （MRU）
+    文件列表中。
 
-21. If Copilot recommended that you add more content to your document,
-    create a prompt that asks it to do so. You can then copy and paste
-    the new content into your document.
+4.  在 **Microsoft 365** 中，打開 **Microsoft Word**。
 
-## Summary:
+5.  打開 **Trey Research - VPN Technical Overview.docx** 文件。
 
-In this lab, you explored how Copilot for Microsoft 365 enhances the
-quality of your work by
+![](./media/image40.png)
 
-- Using Microsoft Copilot to distil the key information from a product
-  specification document and develop a comprehensive project plan for
-  implementing the product.
+6.  在 **Word** 功能區上，選擇 **Copilot** 按鈕以打開 Copilot 窗格。
 
-- Leveraging Copilot in PowerPoint to design a presentation based on the
-  project plan you created, ensuring it is visually appealing and
-  effectively communicates the plan's details.
+![](./media/image41.png)
 
-- Utilizing Copilot in Word to revise and enhance a technical
-  specification report, improving clarity, coherence, and overall
-  quality.
+7.  在 **Copilot** 窗格中，輸入以下提示，然後選擇箭頭 （**Send**）
+    圖標：
+
++++Write a new section for this document about the types of VPNs.
+Discuss the pros and cons of each type. This content is for a technical
+audience, so please provide specific details+++
+
+![](./media/image42.png)
+
+8.  Copilot 不會將新內容直接添加到文檔中。它在 Copilot
+    窗格的響應窗口中顯示內容。但是，它確實在每個響應窗口的底部提供了一個
+    **Copy** 按鈕，因此請選擇 **Copy**
+    按鈕將其內容複製到剪貼板。在查看文檔時，您決定將內容粘貼到開始段落的下方。現在粘貼內容。
+
+**提示：** 當您選擇響應窗口的 “**Copy**” 按鈕時，它會複製所有內容，包括
+Copilot
+的評論，這些評論是面向您的。這些類型的注釋通常位於響應的開頭和結尾。確保在將響應粘貼到文檔中後刪除這些注釋。新內容的字體和字體大小可能與整個文檔中使用的現有字體和大小不匹配。因此，您必須更改它們以匹配。
+
+9.  進一步查看後，您注意到沒有提到與 VPN
+    使用相關的安全策略。此主題是要包含的關鍵區域，因此請輸入以下提示：
+
++++Please write a new section for this document about security policies
+related to VPN usage. This content is for a technical audience, so
+please provide specific details.+++
+
+![](./media/image43.png)
+
+10. 將此響應中的內容複製並粘貼到文檔中。將其放在 **Risks and
+    mitigations** （風險和緩解措施）
+    部分之前，然後根據需要編輯內容。如有必要，請為標題為 **Security
+    policies related to VPN usage** 的部分添加標題。
+
+![](./media/image44.png)
+
+11. 在查看報告時，您還發現了一個您認為需要重寫的內容區域。在 **Risks and
+    mitigations** 部分中，第一項涵蓋家庭和企業 VPN。您希望它僅處理企業
+    VPN。但是，考慮到內容的編寫方式，這似乎不是一個容易的解決方案。您決定讓
+    Copilot 為您重寫內容。
+
+**提示：** 要讓 Copilot 重寫內容，您必須首先突出顯示您希望 Copilot
+重寫的內容。
+
+12. 突出顯示 **Risks and mitigation** （風險和緩解）
+    部分的第一個項目符號中的內容，然後輸入以下提示：
+
++++The highlighted content discusses the risks of using VPNs in both
+home and enterprise networks. Remove the content related to home
+networks and focus solely on the risks of VPNs in enterprise networks+++
+
+![](./media/image45.png)
+
+13. 檢查 Copilot
+    的回復。有時這種重寫功能不起作用。當它不起作用時，Copilot
+    返回以下響應。如果出現這種情況，請複製並粘貼您的提示，然後重試（記住、迭代、迭代、迭代）。
+
+![](./media/image46.png)
+
+14. 在對文檔進行最終審閱後，您決定有關實施 VPN
+    的利弊的部分在表格中看起來會更好，而不是作為項目符號列表。由於您突出顯示了要重寫的部分，因此您決定突出顯示這兩個部分。突出顯示這兩個部分，然後輸入以下提示：
+
++++Please rewrite the highlighted content by placing it in a table.+++
+
+![](./media/image47.png)
+
+15. 請注意 Copilot 的響應。
+
+![](./media/image48.png)
+
+16. 將內容重新格式化為表與重寫內容不同。您必須在提示中描述要包含在表中的內容部分，而不是突出顯示要放置在表中的內容部分。這一次，請輸入以下提示符：
+
++++Place the content from the Pros and Cons of implementing VPNs into a
+table.+++
+
+![](./media/image49.png)
+
+17. 請注意 Copilot
+    的響應。它不會重寫文檔中的現有內容或將其替換為表格，而是在其響應中顯示表格。您可以通過將表格複製並粘貼到文檔中來替換內容。在響應中，選擇
+    **Copy** 按鈕，然後在文檔中突出顯示 Pros 和 Cons
+    部分並粘貼到表中。確保在表格之前添加一個部分標題，上面寫著：**Pros
+    and Cons of implementing
+    VPNs**。您可能還需要更改表格內容的字體和字體大小，以匹配整個文檔中使用的現有字體和大小。
+
+![](./media/image50.png)
+
+18. 此時，您覺得文檔已完成。但是，為了安全起見，您決定詢問 Copilot
+    是否認為該文件應包含任何其他信息。輸入以下提示：
+
++++Is there anything missing in this document that you would recommend
+adding?+++
+
+![](./media/image51.png)
+
+19. 請注意 Copilot
+    的響應。在我們的測試中，它告訴我們沒有遺漏任何東西。請重試，查看
+    Copilot 是否提供不同的響應。
+
+![](./media/image52.png)
+
+20. 如果 Copilot
+    建議您向文檔添加更多內容，請創建一個提示，要求它這樣做。然後，您可以將新內容複製並粘貼到文檔中。
+
+**總結：**
+
+在本實驗中，您探索了適用於 Microsoft 365 的 Copilot
+如何通過以下方式提高您的工作質量
+
+- 使用 Microsoft Copilot
+  從產品規格文檔中提煉關鍵信息，並制定實施產品的綜合項目計劃。
+
+- 利用 PowerPoint 中的 Copilot
+  根據您創建的項目計劃設計演示文稿，確保它在視覺上具有吸引力並有效地傳達計劃的細節。
+
+- 在 Word 中使用 Copilot
+  來修訂和增強技術規範報告，從而提高清晰度、連貫性和整體質量。
