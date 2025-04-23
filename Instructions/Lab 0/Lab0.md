@@ -1,95 +1,88 @@
-# Lab 0: Preparing for the lab execution
+**實驗 0：準備實驗室執行**
 
-## Log into your Lab Virtual Machine
+**登錄到 Lab Virtual Machine**
 
-On the Log-in screen, select **Admin** account in the lower left
-corner of the screen to sign-in to the lab virtual machine using the
-credentials provided under **Win 11 Base23B-22H2** in the **Resources
-tab** on the right (see screenshot).
- 
-<span class="mark">**Note**: Do not use the **Student** login</span>.
+在“登錄”屏幕上，選擇屏幕左下角的“**Admin** 員帳戶”
+，以使用右側**Resources tab** 中的 **Win 11 Base23B-22H2**
+下提供的憑據登錄到實驗室虛擬機（請參閱屏幕截圖）。
+
+**注意：**請勿使用 **Student** 登錄名。
 
 ![](./media/image1.png)
 
-## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
+**完成設置 Microsoft 365 訂閱並訪問適用於 Microsoft 365 的 Copilot**
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: +++https://portal.office.com+++
-    
-2.  <span class="mark">Use the **Microsoft 365 Credentials** provided under Azure Portal section in the **Resources tab** on     the right (see screenshot) to sign-in</span>.
+1.  如果您在 Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它;否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://portal.office.com+++](https://portal.office.com+++/)
 
-    ![](./media/image3.png)
+2.  使用右側**“資源”選項卡**中的 Azure 門戶部分下提供的 **Microsoft 365
+    憑據**登錄（請參閱屏幕截圖）。
 
-    ![](./media/image4.png)
+![](./media/image2.png)
 
-    You will now be able to access all the Microsoft 365 applications and
-    will have access to Copilot for Microsoft 365.
+![](./media/image3.png)
 
-## Access and launch Microsoft 365 applications
+您現在可以訪問所有 Microsoft 365 應用程序，並可以訪問適用於 Microsoft
+365 的 Copilot。
 
-You can access and launch the productivity applications from:
+**訪問和啟動 Microsoft 365 應用程序**
 
-- **Apps icon** (in the navigation pane on the left)
+您可以從以下位置訪問和啟動生產力應用程序：
 
-- **View more Apps** link (in the navigation pane on the left)
+- **Apps 圖標**（位於左側的導航窗格中）
 
-- **App Launcher** (available in the top left just above the left navigation
-  pane)
+- **View more Apps** （查看更多應用程序） 鏈接（位於左側導航窗格中）
 
-1.  To launch an application from **Apps** icon:
+- **App Launcher**（位於左側導航窗格上方的左上角）
 
-    In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you
-    need to work with.
+1.  要從 **Apps** 圖標啟動應用程序：
 
-    ![](./media/image10.png)
-    
-2.  To launch an application from **View more Apps:**:
+在左下角的導航窗格中，選擇 **Apps** 圖標以選擇並打開您需要使用的 Office
+應用程序。
 
-    In the navigation pane on the lower left, select **View more Apps**
-    (ellipsis **…** icon) to select and open the office applications you
-    need to work with.
+![](./media/image4.png)
 
-    ![](./media/image8.png)
+2.  要從 **View more Apps**（查看更多應用程序）啟動應用程序：
 
-3.  To launch an application from **App launcher**:
+在左下角的導航窗格中，選擇 **View more Apps**
+（省略號...圖標）選擇並打開您需要使用的 Office 應用程序。
 
-    The Microsoft 365 app launcher is a menu of apps and services that you
-    are licensed for, and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switching
-    between your apps easy by highlighting your recently used apps, and
-    providing quick access to your recent online Office documents.
+![](./media/image5.png)
 
-    ![](./media/image9.png)
+3.  要從**應用程序啟動器**啟動應用程序：
 
-    **Note**: If you do not find an application in the pop-up, then select
-    **More apps** icon to select the same.
+Microsoft 365 應用啟動器是您獲得許可的應用和服務的菜單，當您在
+Microsoft365
+頁面上選擇應用啟動器圖標時，該菜單將打開。應用程序啟動器通過突出顯示您最近使用的應用程序，並提供對您最近的在線
+Office 文檔的快速訪問，使打開和切換應用程序變得容易。
 
-## Upload lab assets to OneDrive
+![](./media/image6.png)
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
-    
-<span class="mark">**Note**: When you need to reference a file (a Word
-document, an Excel file, etc) into a Copilot prompt, the file MUST be
-saved in a OneDrive account. You can't link to a locally stored file
-on your PC.</span>
+**注意：**如果您在彈出窗口中找不到應用程序，請選擇 **More apps**
+圖標以選擇相同的應用程序。
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
-    
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive. 
+**將實驗室資產上傳到 OneDrive**
 
-    **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the
-    particular lab.
+您將在此動手實驗會話中使用的實驗資源（參考文檔）位於 **C：\LabFiles**
+中。
 
-    ![](./media/image5.png)
-        
+**注意：**當您需要將文件（Word 文檔、Excel 文件等）引用到 Copilot
+提示符中時，該文件必須保存在 OneDrive 帳戶中。您無法鏈接到 PC
+上本地存儲的文件。
 
-    ![](./media/image6.png)
-        
+1.  在 Microsoft 365 導航窗格中，選擇 OneDrive 將其打開。
 
-    ![](./media/image7.png)
+2.  瀏覽到 **C：\LabFiles** 文件夾以選擇文檔的副本並將其上傳到
+    OneDrive。
 
-    Now you will have the document(s) in **OneDrive** to work with
-    **Copilot for Microsoft 365** labs.
+**注意：**您可以選擇上傳所有文檔的副本，也可以選擇上傳與特定練習相關的文檔。
+
+![](./media/image7.png)
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+
+現在，您將在 **OneDrive** 中擁有文檔，以便與 **Microsoft 365 實驗室的
+Copilot** 一起使用。
