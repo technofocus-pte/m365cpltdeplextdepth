@@ -1,205 +1,231 @@
-# Lab 09: Create AI plugin actions for Microsoft Copilot (Preview)
+# ラボ 09: OneDrive で作成された新しいファイルを追跡する自律エージェントを構築する
 
-## Objective:
+**紹介**
 
-AI Plugins can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating different types of AI Plugins.
+ある組織のOneDrive For
+Businessでは、複数のファイルが作成されており、管理者がそれらを追跡することが困難になっています。
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+目標
 
-## Exercise #1: Generate content or extract insights with AI Builder dynamic prompts
+新しく追加されたファイルの詳細をファイル詳細トラッカーに入力する自律エージェントを構築します。これにより、ファイルの追加を追跡する問題が解決され、ファイル詳細トラッカーには新しく作成されたすべてのファイルの詳細が記録されます。
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    tenant credentials if not already logged in.
+## 演習1: 環境を設定する
 
-2.  Select **Library** on the side navigation pane. Select **+ Add an
-    item**.
+### タスク 1: OneDrive のセットアップ
 
+1\. ブラウザを開き、+++https://office.com+++
+にアクセスします。Resourcesタブの資格情報を使用してサインインします。
 ![](./media/image1.png)
 
-3.  Select **Copilot for Microsoft 365** in the **Which Copilot would
-    you like to extend? (preview)** dialog.
-
+2\. 左側のメニューから OneDrive
+を選択します。
 ![](./media/image2.png)
 
-4.  Select **Prompt** in the New action menu that appears.
-
+3\. 左上の + 記号をクリックし、「Files
+upload」を選択します。
 ![](./media/image3.png)
 
-5.  Name it as +++**Dynamic prompt**+++. Select **Summarize text**.
-
+4\. C:\LabFiles からファイル details.xlsx を選択し、\[Open\]
+を選択します。
 ![](./media/image4.png)
 
-6.  It will add a prompt with a dynamic value **input text**.
-
+5\.
+ファイルがアップロードされると、ウィンドウに成功メッセージが表示されます。
 ![](./media/image5.png)
 
-7.  Click on the **Input** under Prompt Settings add the below content
-    in the Sample data.
-```
-Meet comfortably and confidently with customizable meeting views
-
-The meeting stage, or gallery, is at the core of the virtual meeting
-experience and can either hinder or enhance meeting efficiency
-depending on your needs. We’re excited to share how we’re evolving the
-default gallery experience in Teams meetings to give you a simpler,
-more predictable meeting presence—while enabling more controls that
-let you personalize the view to suit your preferences.
-
-First, let’s look at the new default gallery experience that will be
-applicable to all. The new gallery will place everyone in tiles of
-equal size (16:9 ratio) whether their video is turned on or off.
-Additionally, the new default gallery layout will be more consistent
-and predictable for all meetings, regardless of size and content
-shared.
-
-And when a Teams Room joins the meeting, the video of the room
-automatically enlarges, bridging the gap between remote and in-room
-participants. Remote attendees enjoy a clearer view and better
-connection, easily spotting who is speaking. Want a custom view?
-Simply tweak the tile size to your preference from the more options
-(...) menu by hovering on the room name. It's seamless, inclusive, and
-ensures everyone can be seen, no matter where they are.
-
-Next, let’s look at the controls that help you customize every
-meeting view to suit your needs.
-
-While the default gallery size for meetings will be 16 participants,
-you can customize the number of participants visible on your screen to
-best fit your preference. You can choose from 4, 9, 16, and 49
-participants visible on the screen for gallery size.
-
-There are still a few default configurations that AI will optimize
-for to improve engagement and efficiency. For virtual participants,
-these are prioritizing those that have a raised hand and prioritizing
-the active speaker, enhancing their visibility so comments are not
-missed.
-```
+6\. 左側のメニューから「My
+Files」をクリックすると、新しいファイルがそこに表示されていることを確認できます。
 ![](./media/image6.png)
 
-8.  Click on **Test prompt**.
+### タスク 2: Copilot Studio のトライアルを有効にする
 
-> ![](./media/image7.png)
+1\. 新しいタブで、+++https://copilotstudio.microsoft.com/+++
+を開きます。
 
-9.  Notice that the Prompt response, summarizing the text is generated.
+2\. ラボ VM の \[Resources\]
+タブで提供されている資格情報を使用してサインインします。
+![](./media/image1.png)
 
-> ![](./media/image8.png)
+3\. ログインしたら、「Welcome to Microsoft Copilot
+Studio」ページで国を米国のままにして、「Get
+started」をクリックします。
+![](./media/image7.png)
 
-10. Click on **Finalize prompt**.
+4\.
+ようこそ画面で「Skip」を選択します。
+![](./media/image8.png)
 
+## エクササイズ 2: 自律エージェントの構築とテスト
+
+### タスク 1: Copilot Studioからエージェントを作成する
+
+1\. 開いたエージェント作成ページで、「Skip to
+configure」オプションをクリックします。
 ![](./media/image9.png)
 
-11. Click on **Create prompt action**.
+> ２．エージェント作成ペインで以下の詳細を入力し、「Create」をクリックします。
+
+- **Name** - +++New file tracker agent+++
+
+- **Description** - +++This agent will update the File details tracker
+  placed in the OneDrive, each time a new file is created in the
+  OneDrive+++
 
 ![](./media/image10.png)
 
-12. It gets listed in the **Library.**
+### タスク 2: エージェントにトリガーを追加する
 
-13. After you create your action, enable it for use in Microsoft
-    Copilot.
-
-## Exercise \#2: Create Custom automation with Power Automate flows
-
-Power Automate flow plugins let you define flows that can be called from
-AI surfaces in Power Platform. Flow plugins use the new **Run from
-Copilot** trigger and **Respond to Copilot** action to define custom
-processes that can be invoked with natural language.
-
-**To create automation plugins:**
-
-1.  Select **+ Add action**. Select **Flow** in the New action menu that
-    open up.
-
+1\.
+エージェントを作成したら、下にスクロールして「Trigger」セクションを見つけ、「+
+Add
+trigger」を選択します。
 ![](./media/image11.png)
 
-2.  The flow editor automatically opens with the **Run from
-    Copilot** trigger and **Respond to Copilot** action present. Rename
-    the flow as +++**Get Weather forecast for next day**+++
-
+2\. 「Turn on generative orchestration to continue」ダイアログで、「Turn
+it
+on」を選択します。トリガーを追加するには、このオプションをオンにする必要があります。
 ![](./media/image12.png)
 
-3.  Click on the **Run a flow from Copilot** node. The details pane
-    opens up. Click on **+ Add an input**.
-
+3\. \[Add trigger\] メニューから、\[When a file is created\]
+トリガーを選択します。
 ![](./media/image13.png)
 
-4.  Select Text and name it as **City**.
-
-5.  Similarly, add another input of type **Number** and name it as
-    **Zipcode**.
-
+4\. 「Add trigger
+」画面で、「Continue」を選択します。
 ![](./media/image14.png)
 
-6.  Click on the **+** symbol between **Run a flow from Copilot** and
-    the **Respond to Copilot** nodes and select **Add an action**.
-
+5\. 次の画面で、トリガー名が入力されていることを確認します。Microsoft
+Copilot Studio と OneDrive for Business
+への接続が確立されるまでお待ちください（各コネクタに緑色のチェックマークが表示されます）。「Next」をクリックします。
 ![](./media/image15.png)
-7.  Select **MSN Weather**.
+
+> 6.以下の詳細を選択してください。
+
+- **Folder** – Root
+
+- **Include subfolders** – Yes
+
+Leave the other fields as default and select **Create trigger**.
 
 ![](./media/image16.png)
 
-8.  Select **Get the forecast for tomorrow** option.
-
 ![](./media/image17.png)
 
-9.  Add the **City** and **Zipcode** input parameters to **Location**.
-
+7\. トリガーが作成されると、「Time to test your
+trigger」というメッセージが表示されます。このメッセージを閉じてください。トリガーの基本フローを少し調整して機能を実装し、テストを行います。
 ![](./media/image18.png)
 
 ![](./media/image19.png)
 
-10. Click on **Respond to copilot** action and select **Add an output**.
+### タスク 3: トリガーにロジックを追加する
 
-11. Add a Text output variable and name it as +++**Weather
-    condition**+++. Add the output variable **Conditions**.
+1\. 「New file track agent」ページで、トリガー
+セクションまで下にスクロールします。
 
+2\. 「When a file is created」というトリガーの横にある 3
+つのドットをクリックし、「Edit in Power
+Automate」を選択します。
 ![](./media/image20.png)
 
-12. Click on **Save**.
-
+3\. 「When the file is created」と「Sends a prompt」アクションの間の +
+アイコンを選択し、「Add an
+action」を選択します。
 ![](./media/image21.png)
 
-13. Click on **Test**.
-
+4\. +++add a
+row+++を検索し、テーブルに行を追加を選択します。
 ![](./media/image22.png)
 
-**Note:** This might take some time to get reflected. Wait for 5 to 10
-minutes if you are not able to start the flow after clicking on
-**Test**.
+> 5.各行に対して以下の値を選択し、「Save」をクリックします。
 
-14. In the **Test Flow** pane, select the checkbox for **Manually** and
-    then click on **Next**.
+|                  |                                         |
+|------------------|-----------------------------------------|
+| Property         | Value                                   |
+| Location         | OneDrive for Business                   |
+| Document Library | OneDrive                                |
+| File             | File details.xlsx                       |
+| Table            | Table1                                  |
+| Date Time Format | Serial Number                           |
+| File ID          | Select the variable **File identifier** |
+| File Name        | Select the variable **File name**       |
+| File Path        | Select the variable **File path**       |
 
 ![](./media/image23.png)
-
-15. In the **Run flow** panel, select **MSN Weather** and click on
-    **Continue**.
-
+>
 ![](./media/image24.png)
 
-16. Enter +++**Redmond**+++ for city and +++**98004**+++ for **Zipcode**
-    and select **Run flow**.
-
+6\.
+フローは以下のスクリーンショットのようになります。
 ![](./media/image25.png)
 
-17. Once the execution is completed, a success message is obtained.
-    Click on **Done**.
+1.  Click on the **New designer toggle**.
 
 ![](./media/image26.png)
 
-**Note:** The AI uses the title and description of the flow to determine
-when to invoke the flow plugins. Ensure your flows run correctly, as
-only tested flows show up as available plugins in Microsoft Copilot.
-
-18. The created flow is listed in the **Library**.
-
+7\. 「Save
+draft」を選択します。
 ![](./media/image27.png)
 
-19. After you create your action, enable it for use in Microsoft
-    Copilot.
+8\.
+フローを公開するには「Publish」を選択します
+![](./media/image28.png)
 
-## Summary:
+### タスク 4: トリガーを公開する
 
-In this lab, we have learnt to create **AI actions**.
+1\. Copilot Studio
+に戻り、「Settings」を選択します。
+![](./media/image29.png)
+
+2\. 「Generative AI」→「Using generative AI in
+conversations」を選択します。まだ選択されていない場合は「Generative」を選択し、「Save」をクリックします。
+![](./media/image30.png)
+
+3\. 「Security -\> Authentication -\> No
+authentication」を選択し、「Save」をクリックします。
+![](./media/image31.png)
+
+4\. 確認ダイアログで「Save」を選択します。
+![](./media/image32.png)
+
+5\. Settingsパネルを閉じます。
+![](./media/image33.png)
+
+6\.
+次に、「Publish」を選択してエージェントを公開します。
+![](./media/image34.png)
+
+7\.
+確認ダイアログで「Publish」を選択します。
+![](./media/image35.png)
+
+### タスク 5: トリガーをテストする
+
+1\.
+ブラウザでOneDriveに戻り、「+」をクリックしてWord文書を選択します。
+![](./media/image36.png)
+
+2\.
+ドキュメントに名前を付けて、「Create」を選択します。
+![](./media/image37.png)
+
+3\. 「Close」をクリックしてプライバシー
+オプションを閉じます。
+![](./media/image38.png)
+
+4\. 同様に、さらにいくつかのファイルを追加します。
+
+5\. OneDriveからファイル details.xlsx
+を開き、作成されたファイルの詳細がトラッカーに追加されていることを確認します。注:
+必要に応じて、「Resources」タブから資格情報を使用してログインしてください。
+![](./media/image39.png)
+
+1\. OneDrive
+にファイルが作成されると、トリガーが呼び出され、ファイルが追加されたときのフローが実行され、トラッカーが更新されます。
+
+2\. Copilot Studio の \[Activity\]
+タブで自律エージェントの詳細を確認することもできます。
+
+**概要**
+
+このラボでは、Copilot Studio
+から自律エージェントを作成、公開、テストする方法を学習しました。
