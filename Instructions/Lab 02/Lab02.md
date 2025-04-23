@@ -1,467 +1,413 @@
-# Lab 02: Empower your workforce – Copilot - Sales
-<span class="mark"></span>
+**ラボ 02: 従**業員の力を高める – Copilot - セールス
 
-Copilot for Microsoft 365 serves as an AI-powered writing assistant. It
-understands context, suggests phrases, and helps generate content, all
-of which can enhance the quality of your work. In this lab, you will
+Copilot for Microsoft 365は、AIを活用したライティングアシスタントです。文脈を理解し、適切なフレーズを提案し、コンテンツの作成をサポートすることで、文章の質を高めます。このラボでは、
 
-- Use Copilot in Loop to create a market research report.
+- Loop で Copilot を使用して市場調査レポートを作成します。
 
-- Use Copilot in PowerPoint to create and customize a sales
-  presentation.
+- PowerPoint で Copilot
+  を使用して営業プレゼンテーションを作成およびカスタマイズします。
 
-- Use Copilot in Word to compare three supplier agreements, identify the
-  differences, and provide recommended actions.
+- Word で Copilot を使用して 3
+  つのサプライヤー契約を比較し、相違点を特定して推奨アクションを提案します。
 
-## Exercise #1: Create a market research report using Copilot in Loop
+**エクササイズ #1: Copilot in Loop を使用して市場調査レポートを作成する**
 
-You're the VP of Sales for VanArsdel Ltd, an OEM of plastic components,
-whose primary market is the agriculture equipment industry. However,
-senior leadership is interested in possibly moving into the automotive
-market. Given the heavy competition from existing plastic manufacturers
-who already monopolize this sector, you need to determine if there's a
-space available for your company to become a viable player.
+あなたは、プラスチック部品のOEMメーカーであるVanArsdel
+Ltdの営業担当副社長です。主要市場は農業機械業界です。しかし、経営陣は自動車市場への進出を検討しています。この分野を既に独占している既存のプラスチックメーカーとの激しい競争を考えると、貴社が生き残れる余地があるかどうかを判断する必要があります。
 
-In this exercise, you will use Copilot in Loop to
+この演習では、Copilot in Loop を使用して、
 
-- Research a potential new sales market for your company's products and
-  create a market research report that outlines its findings.
+- 自社製品の潜在的な新規販売市場を調査し、調査結果をまとめた市場調査レポートを作成します。
 
-- Change the format of the report by placing the content in a table.
+- レポートの形式を変更し、内容を表形式にします。
 
-- Make a final recommendation as to whether your company should move
-  into that market.
+- 自社がその市場に参入すべきかどうかについて、最終的な提言を行います。
 
-1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
+1.  Microsoft
+    365で、左側のナビゲーションウィンドウに「Loop」が表示されている場合は選択します。表示されない場合は、Microsoft
+    365ナビゲーションウィンドウのすぐ上にある左上の「App
+    Launcher」を選択します。
 
-    ![](./media/image1.png)
+![](./media/image1.png)
 
-2.  In the **Apps** page, scroll down to locate **Loop** and then select it. 
+注: アプリ ページに Loop が表示されない場合は、\[More apps\]
+を選択します。 
+![](./media/image2.png)
 
-    **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**.
+2.  「Apps」ページで下にスクロールして「Loop」を見つけて選択します。
 
-    ![](./media/image2.png)
+![](./media/image3.png)
 
-3.  If you see the **Sign-in** button, sign-in using the credentials provided under **Microsoft 365 Credentials** in the
-    **Resources** tab.
+3.  \[Sign in\] ボタンが表示された場合は、\[Resources\] タブの
+    \[Microsoft 365 資格情報\]
+    で提供されている資格情報を使用してサインインします。
 
-    ![Loop Sign-in page](./media/image3.png)
+![](./media/image4.png)
 
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
+注: サインイン後、Loop ブラウザ ウィンドウを閉じて、アプリ
+ページからもう一度 Loop を開きます。
 
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
+4.  Microsoft Loop
+    では、デフォルトで「Workspaces」タブが表示されます。このプロジェクト用に新しいワークスペースを作成するには、「Getting
+    started」の横にある左上の「+」を選択し、「+ New
+    workspace」ボタンをクリックします。
 
-    ![Workspaces-Geeting started](./media/image4.png)
+![](./media/image5.png)
 
-5.  In the **Create a new workspace** window, enter **VanArsdel
-    research** for your workspace name, and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
+![](./media/image6.png)
 
-    ![Create a new workspace window](./media/image5.png)
+5.  \[Create a new workspace\]
+    ウィンドウで、ワークスペース名として「+++VanArsdel
+    research+++」と入力し、表示される \[Continue\] または \[Create\]
+    ボタンを選択します (Loop のバージョンによって異なります)。
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+![](./media/image7.png)
 
-    ![Add files to your workspace](./media/image6.png)
+6.  \[Add files to your workspace\] ウィンドウ (Loop
+    のバージョンによっては、このウィンドウに \[ワークスペース
+    スイッチャー\] と表示されることがあります) で、\[Create\]
+    を選択します。
 
-7.  You're now on the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to **Market research**. Note how the page name is automatically
-    updated in the navigation pane.
+![](./media/image8.png)
 
-    ![First page for your new workspace](./media/image7.png)
+7.  新しいワークスペースの最初のページが表示されました。ページ名は現在「Untitled」です。左側のナビゲーションペインにもページ（「Untitled」）が表示されています。ページのメイン部分で、「Untitled」フィールドを選択し、ページ名を「Market
+    research」に変更します。ナビゲーションペインのページ名が自動的に更新されるのを確認してください。
 
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
+![](./media/image9.png)
 
-    ![](./media/image8.png)
+8.  \[Just start typing...\] フィールドにスラッシュ (/) を入力します。
 
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
+![](./media/image10.png)
 
-10. In the **Copilot** window that appears, note the row of buttons that
-    appears below the prompt field. Select each button. When doing so,
-    note how it prefills the prompt field with an example of the type of
-    task that Copilot can assist with.
+9.  表示されるドロップダウンメニューの、メニュー上部にある「Copilot」セクションで、「Draft
+    page content」を選択します。
 
-11. You're now going to enter your own prompt. In the prompt field,
-    enter the following prompt and select the **Submit** icon:
+10. 表示される Copilot
+    ウィンドウのプロンプトフィールドの下に表示されるボタンの列に注目してください。各ボタンを選択してください。選択すると、プロンプトフィールドに、Copilot
+    が支援できるタスクの種類の例が事前に入力されていることに注意してください。
 
-    ++**As the VP for Sales for an OEM in the plastics manufacturing
-    industry, please research the market for plastic components in the
-    automotive industry. Provide information on target audience, market
-    size, competition, trends, regulations, and distribution channels**.++
+11. 次に、独自のプロンプトを入力します。プロンプトフィールドに次のプロンプトを入力し、「Submit」アイコンを選択します。
 
-    ![](./media/image9.png)
++++プラスチック製造業界のOEMの営業担当副社長として、自動車業界におけるプラスチック部品の市場調査をお願いします。ターゲット顧客、市場規模、競合状況、トレンド、規制、流通チャネルに関する情報を提供してください。+++
 
-12. If you receive an error saying that something went wrong, copy and
-    paste in the prior prompt and submit it again.
+![](./media/image11.png)
 
-    ![](./media/image10.png)
+12. 問題が発生したというエラーが表示された場合は、前のプロンプトをコピーして貼り付け、再度送信してください。
 
-13. Review the generated report. Rather than having all the information
-    in paragraph form, you prefer to summarize it in a table. In
-    the **Copilot** pane that appears, enter the following prompt in
-    the **Rewrite with Copilot** field and select the **Submit** icon:
+![](./media/image12.png)
 
-    ++**Rewrite the report by placing the information in a table**.++
-    
-    ![](./media/image11.png)
+13. 生成されたレポートを確認します。すべての情報を段落形式で表示するのではなく、表にまとめることをお勧めします。表示されるCopilotペインで、「Rewrite
+    with
+    Copilot」フィールドに次のプロンプトを入力し、「Submit」アイコンを選択します。
 
-14. Note how Copilot changed the formatting of the report. You now want
-    Copilot to make a final recommendation as to whether moving into
-    this market is a viable option for VanArsdel. Enter the following
-    prompt:
++++情報を表にまとめてレポートを書き直します。+++
 
-    ++**Add a recommendation to the end of the report as to whether we
-    should move into the market**.++
+![](./media/image13.png)
 
-    ![](./media/image12.png)
+14. Copilotによってレポートの書式がどのように変更されたかに注目してください。VanArsdelにとってこの市場への参入が現実的な選択肢であるかどうかについて、Copilotに最終的な推奨を依頼します。次のプロンプトを入力します。
 
-15. Scroll to the bottom of the report and review Copilot's
-    recommendation.
++++市場に参入すべきかどうかについての推奨事項をレポートの最後に追加します。+++
 
-    ![](./media/image13.png)
+![](./media/image14.png)
 
-## Exercise #2: Create a sales presentation using Copilot in PowerPoint
+15. レポートの一番下までスクロールして、Copilot の推奨事項を確認します。
 
-With Copilot in PowerPoint, Sales professionals can focus on the content
-of their presentations, while the tool takes care of the design and
-formatting. It can
+![](./media/image15.png)
 
-- Transform existing written documents into presentation decks complete
-  with speaker notes and sources
+**エクササイズ #2: Copilot in PowerPoint を使用してセールスプレゼンテーションを作成する**
 
-- Start a new presentation from a simple prompt or outline.
+PowerPointのCopilotを使用すると、デザインとフォーマットはツールが処理するため、営業担当者はプレゼンテーションの内容に集中できます。
 
-- Help summarize presentations, providing a bulleted summary of the key
-  points to quickly understand the content of a presentation or share
-  the main ideas with the team.
+- 既存の文書を、スピーカーノートや資料を含むプレゼンテーション資料に変換します。
 
-As the Sales and Marketing Director at Contoso, Ltd., you need to make a
-presentation to your Sales team regarding the company's hottest selling
-product, Contoso Protein Plus shake. The presentation should analyze the
-market trend report that your Marketing team created for the product.
+- 簡単なプロンプトまたはアウトラインから新しいプレゼンテーションを開始します。
 
-In this exercise you will use Copilot in PowerPoint to create your slide
-presentation based on the information in the **Market Trend Report -
-Protein Shake.docx** file, which you download using the provided link.
+- プレゼンテーションの要点を箇条書きでまとめ、プレゼンテーションの内容を素早く理解したり、主要なアイデアをチームと共有したりすることで、プレゼンテーションの要約を支援します。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
+Contoso社の営業・マーケティングディレクターとして、あなたは営業チームに対し、同社のベストセラー商品であるContoso
+Protein
+Plusシェイクについてプレゼンテーションを行う必要があります。プレゼンテーションでは、マーケティングチームが同製品について作成した市場動向レポートを分析する必要があります。
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+この演習では、PowerPointのCopilotを使用して、提供されているリンクからダウンロードしたMarket
+Trend Report - Protein
+Shake.docxファイルの情報に基づいてスライドプレゼンテーションを作成します。
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Market Trend Report - Protein Shake** to **OneDrive**
+1.  Microsoft Edge ブラウザーで Microsoft 365
+    タブを開いている場合は、それを選択します。開いていない場合は、新しいタブを開き、次の
+    URL を入力します: +++https://www.office.com+++ して、Microsoft 365
+    ホームページに移動します。
 
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as instructed in **Preparing for the lab
-    execution** section (**Lab 0**), you can skip this step.
+注: 右側の \[Resources\] タブに表示される Microsoft 365
+資格情報を使用してサインインする必要があります (要求された場合)。
 
-3.  Open and close the file **Market Trend Report - Protein Shake.docx** (which you uploaded to OneDrive) to get it in your
-    Most Recently Used (MRU) file list
-  
-4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In PowerPoint, open a new blank presentation.
+2.  C:\Lab Files フォルダを参照して、Market Trend Report - Protein Shake
+    のコピーを選択し、OneDrive にアップロードします。
 
-5.  Select the **Copilot** icon on the right end of the ribbon. In
-    the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Create presentation
-    from file** prompt.
+注: ラボ実行の準備セクション (ラボ 0) の指示に従って、すべてのラボ
+アセットを既に OneDrive
+にアップロードしている場合は、この手順をスキップできます。
 
-    ![](./media/image15.png)
+3.  OneDriveにアップロードしたファイル「Market Trend Report - Protein
+    Shake.docx」を開いて閉じ、最近使用したファイル（MRU）リストに追加します。
 
-    Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window appears that contains the three most recently
-    used files. If the **Market Trend Report - Protein Shake.docx** file
-    appears in the MRU list, then select it.
+4.  Microsoft 365 のナビゲーション
+    ウィンドウで「PowerPoint」を選択します。PowerPoint
+    で、新しい空のプレゼンテーションを開きます。
 
-6.  Otherwise, open the file in **Word**, select the **Share** button
-    above the ribbon, select the **Copy Link** option from the drop-down
-    menu, and then in this prompt field in the **Copilot** pane
-    in **PowerPoint**, paste in the link following the forward slash
-    (**Create presentation from file /**). Select the **Send** icon.
-
+5.  Copilot
+    アイコン（スクリーンショットの赤くハイライトされた部分）を選択します。表示される
+    Copilot
+    ウィンドウで、いくつかの定義済みプロンプトから選択できます。「Create
+    presentation from file
+    prompt」プロンプトを選択します。 
     ![](./media/image16.png)
 
-7.  This prompt triggered Copilot to create a slide presentation based
-    on the document. In doing so, it first displayed the outline of the
-    presentation. Then it displayed a separate window showing a bulleted
-    list of some of the changes that it made to the presentation based
-    on the document.
+![](./media/image17.png)
 
-    ![](./media/image17.png)
+![](./media/image18.png)
 
-8. Review the slides once Copilot finished creating the presentation.
-   To review the speaker notes, select the **View** tab and then select
-   the **Notes** button if it isn't selected already. If it's already
-   selected and you can't see the notes, then drag the bottom of the
-   slide window up to show the notes. Verify the speaker notes include
-   the key points that you want to make during the presentation.
+Copilotパネル下部のプロンプトフィールドの上に、最近使用した3つのファイルを含む候補ウィンドウが表示される場合があります。「Market
+Trend Report - Protein
+Shake.docx」ファイルがMRUリストに表示されたら、それを選択します。
 
-    ![](./media/image18.png)
-
-9. Select the **Home** tab and then select the **Designer** button,
-   which appears to the left of the **Copilot** button.
-   The **Designer** pane offers samples of different designs for the
-   current slide being displayed. Change to a different slide in the
-   presentation and note how the **Designer** pane generates different
-   design options for that slide.
-
+6.  それ以外の場合は、スクリーンショットに示すように、「Attach cloud
+    files」オプションを使用して参照ドキュメントを添付できます。 
     ![](./media/image19.png)
-
-10. Select one of the design options to have PowerPoint replace the
-    current slide with the new design. This feature isn't
-    Copilot-related. It's available in PowerPoint when you have a
-    Microsoft 365 subscription.
 
     ![](./media/image20.png)
 
-11. Now let's see what else Copilot can do. Select
-    the **Copilot** button to open the **Copilot** pane. In
-    the **Copilot** pane, note the section that says **Here are some
-    things you can try**. Copilot displays several tasks that it can
-    perform on the presentation. Select the **Organize this
-    presentation** button.
+注:
+ドキュメントへのリンクを使用して参照ドキュメントを添付することもできます。リンクを取得するには、Wordでファイルを開き、リボンの上にある「Share」ボタンを選択し、ドロップダウンメニューから「Copy
+Link」オプションを選択します。次に、PowerPointのCopilotペインのこのプロンプトフィールドに、スラッシュ（ファイルからプレゼンテーションを作成
+/）に続くリンクを貼り付けます。「Submit」アイコンを選択します。
 
-    ![](./media/image21.png)
+![](./media/image21.png)
 
-12. Review what Copilot did in organizing the presentation. For example,
-    it may have grouped the slides into sections and then added some new
-    section title slides. If so, locate the new slides that it created
-    and review them.
+7.  このプロンプトにより、Copilot
+    はドキュメントに基づいてスライドプレゼンテーションを作成しました。その際、まずプレゼンテーションのアウトラインが表示され、次に別のウィンドウに、ドキュメントに基づいてプレゼンテーションに加えられた変更の一部が箇条書きで表示されました。
 
-    ![](./media/image22.png)
+![](./media/image22.png)
 
-13. Above the prompt field, Copilot displays questions related to the
-    presentation. The purpose of these questions is two-fold. You can
+8.  Copilot
+    がプレゼンテーションの作成を完了したら、スライドを確認します。発表者ノートを確認するには、「View」タブを選択し、「Note」ボタンがまだ選択されていない場合は選択します。すでに選択されていてノートが表示されていない場合は、スライドウィンドウの下部を上にドラッグしてノートを表示します。発表者ノートに、プレゼンテーションで伝えたい重要なポイントが含まれていることを確認してください。
 
-    - Select a question and have Copilot generate an answer, which you can
-      then copy and paste into the speaker notes for an applicable slide.
+![](./media/image23.png)
 
-    - Create a Question and Answer (Q&A) slide and copy and paste in the
-      answers to all these questions in the speaker notes.
+9.  「Home」タブを選択し、「Copilot」ボタンの左側にある「Designer」ボタンを選択します。「Designer」ペインには、現在表示中のスライドの様々なデザインのサンプルが表示されます。プレゼンテーション内の別のスライドに切り替えて、そのスライドに合わせて「Designer」ペインでどのように異なるデザインオプションが生成されるかを確認してください。
 
-    In doing so, you can use these questions and answers to prepare for the
-    Q&A portion of the presentation. For example, it may have a button that
-    asks something like: **What caused the rise in demand for Contoso
-    Protein Plus**? Or it may ask something like: **What are the key factors
-    behind the hype of Contoso Protein Plus**? Review the questions that you
-    see, and select one of them to see what happens.
+![](./media/image24.png)
 
-    ![](./media/image23.png)
+10. デザインオプションのいずれかを選択すると、PowerPoint
+    で現在のスライドが新しいデザインに置き換えられます。この機能は
+    Copilot とは関係ありません。Microsoft 365
+    サブスクリプションをお持ちの場合、PowerPoint でご利用いただけます。
 
-14. When you select any of these questions, Copilot generates an answer
-    to the question and provides a **Copy** option at the bottom of the
-    answer window. In doing so, you can select the **Copy** option and
-    then paste this answer in the speaker notes for any slide in which
-    this text would make an appropriate note. Try it now. Select a
-    question, copy the answer, then go to an appropriate slide and in
-    the speaker notes, enter **Ctrl+V** to paste in the note.
+![](./media/image25.png)
 
-    ![](./media/image24.png)
+11. では、Copilot で他に何ができるのか見てみましょう。Copilot
+    ボタンを選択して、Copilot ペインを開きます。Copilot ペインで、「Here
+    are some things you can
+    try」というセクションに注目してください。Copilot
+    には、プレゼンテーションでいくつかのタスクを実行するために使用できる、あらかじめ用意されたプロンプトが用意されています。「View
+    Prompts」アイコンを選択し、「Organize your
+    thoughts」（赤くハイライトされている部分）を選択します。注:
+    プロンプトを見つけるには、ゆっくりと下にスクロールする必要があります（スクリーンショットを参照）。
 
-    ![](./media/image25.png)
+![](./media/image26.png)
 
-15. Note the **Refresh** button that appears between the suggested
-    questions and the prompt field. Select this **Refresh** button.
+![](./media/image27.png)
 
-    ![](./media/image26.png)
+12. Copilot
+    がプレゼンテーションをどのように整理したかを確認します。例えば、スライドをセクションにグループ化し、新しいセクションタイトルスライドを追加した可能性があります。その場合は、作成された新しいスライドを見つけて確認してください。
 
-    In doing so, note how Copilot generated a new set of questions. You
-    can continue to refresh the questions by selecting
-    the **Refresh** button until you see a question that you want to
-    address in the presentation. You can then select the question, copy
-    the Copilot-generated answer, and paste it into the speaker notes of
-    the slide of your choosing. Once Copilot can't think of any new
-    questions to offer, it starts repeating the list of questions from the
-    start.
+![](./media/image28.png)
 
-16. You now want Copilot to create a slide at the end of the
-    presentation for a Q&A session. Enter the following prompt and
-    select the **Send** icon:
+13. プロンプトフィールドの上に、Copilotはプレゼンテーションに関連する質問を表示します。これらの質問の目的は2つあります。
 
-    ++**Add a slide at the end of the presentation for Q&A**.++
+    - 質問を選択し、Copilot
+      で回答を生成して、該当するスライドの発表者ノートにコピーして貼り付けることができます。
 
-    ![](./media/image27.png)
+    - 質疑応答 (Q&A)
+      スライドを作成し、これらの質問すべてに対する回答をコピーして発表者ノートに貼り付けます。
 
-    **Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one below.
+これらの質問と回答は、プレゼンテーションの質疑応答の準備に役立ちます。例えば、「Contoso
+Protein Plus
+の需要が高まった理由は何ですか？」といった質問のボタンや、「Contoso
+Protein Plus
+の人気が高まっている主な要因は何ですか？」といった質問が表示されるかもしれません。表示される質問を確認し、いずれかを選択して、何が起こるか確認してみましょう。
 
-    ![](./media/image36.png)
+![](./media/image29.png)
 
-    Please try rephrasing the prompt or use the suggested prompts like the one below:
+14. これらの質問のいずれかを選択すると、Copilot
+    は質問に対する回答を生成し、回答ウィンドウの下部に「Copy」オプションを表示します。「Copy」オプションを選択すると、この回答を、このテキストが適切なメモとなるスライドのスピーカーノートに貼り付けることができます。さあ、試してみてください。質問を選択し、回答をコピーしたら、適切なスライドに移動し、スピーカーノートで
+    Ctrl+V を入力してメモを貼り付けます。
 
-    ![](./media/image37.png)
+![](./media/image30.png)
 
-18. Select the command **Add a slide about** and append the following Q&A at the very end of the presentation (as shown in      the screenshot).
+![](./media/image31.png)
 
-     ![](./media/image38.png)
-   
-20. Click **Send** to check what happens.
+15. 提案された質問とプロンプトフィールドの間に表示される「Refresh」ボタンに注目してください。この「Refresh」ボタンを選択してください。
 
-    ![](./media/image39.png)
+![](./media/image32.png)
 
-    Copilot has added a Q&A slide as instructed. Review the Q&A slide that Copilot created.
-    
-29. Review the Q&A slide that Copilot created. Now try one final thing.
-    You decide to compile a list of potential questions that you can
-    prepare for during the Q&A session. Enter the following prompt to
-    see if Copilot can add all of its suggested questions to the speaker
-    notes on the Q&A slide:
+この操作を行うと、Copilot
+が新しい質問セットをどのように生成したかに注目してください。プレゼンテーションで取り上げたい質問が表示されるまで、「更新」ボタンを選択することで、質問を更新し続けることができます。その後、質問を選択し、Copilot
+が生成した回答をコピーして、選択したスライドの発表者ノートに貼り付けます。Copilot
+が新しい質問を思いつかなくなると、質問リストの最初から繰り返し表示されます。
 
-    ++**In the speaker notes of the Q&A slide that you just created, add a
-    list of possible questions that may be asked regarding this
-    presentation**.++
+16. プレゼンテーションの最後にQ&Aセッション用のスライドを作成するようにCopilotを設定します。以下のプロンプトを入力し、送信アイコンを選択します。
 
-21. If Copilot returns a message indicating that it was unable to
-    generate the slide, try entering the prompt again. Sometimes when
-    Copilot can't complete a task, a good practice is to repeat the
-    request.
++++プレゼンテーションの最後に質疑応答用のスライドを追加します。+++
 
-    ![](./media/image28.png)
+![](./media/image33.png)
 
-    ![](./media/image29.png)
+注意: Copilot では以下のような例外が表示される場合があります。
 
-    If Copilot is unable to complete this task, then it just shows it may
-    not be able to complete everything that you want at this point in
-    time. This scenario is another example of the best practice that you
-    need to be aware of: Understand Copilot's limitations.
+![](./media/image34.png)
 
-22. Now try this workaround. Enter the following prompt that asks it to
-    generate a list of questions:
+プロンプトを言い換えるか、以下のような提案されたプロンプトを使用してください。
 
-    ++**What kind of questions do you think participants may ask during the
-    Q&A session**?++
+![](./media/image35.png)
 
-    ![](./media/image30.png)
+17. \[Add a slide\] コマンドを選択し、プレゼンテーションの最後に次の Q&A
+    を追加します (スクリーンショットを参照)。
 
-23. Review the questions that Copilot created. Select
-    the **Copy** button at the bottom of the window, and then paste them
-    (**Ctrl+V**) into the speaker notes of the Q&A slide.
+![](./media/image36.png)
 
-    ![](./media/image31.png)
+18. 「Send」をクリックして、何が起こるかを確認します。
 
-    **Note**: Copilot may display some exception. Please try using the suggested prompts as in **step #16**
+![](./media/image37.png)
 
-    While the remaining training exercises in this module don't use this
-    presentation, you can either discard it or save it if you to retain a
-    copy for future reference.
+Copilot は指示に従って Q&A スライドを追加しました。Copilot が作成した
+Q&A スライドを確認してください。
 
-## Exercise #3: Compare supplier agreements using Copilot in Word
+19. Copilot が作成した Q&A スライドを確認します。最後にもう 1
+    つ試してみましょう。Q&A
+    セッションで想定される質問のリストを作成することにしました。次のプロンプトを入力すると、Copilot
+    が提案したすべての質問を Q&A
+    スライドのスピーカーノートに追加できるかどうかを確認できます。
 
-Salespeople need right information at the right time to build strong
-relationships with their customers, take actions based on insights, and
-close deals faster. Copilot in Word can help them bring in specific
-information from other documents into their content, generate summaries,
-ask questions about their document, provide ideas about specific topics,
-and transform text into tables, or provide suggestions for ways to
-rewrite content.
++++作成した Q&A スライドのスピーカー
+ノートに、このプレゼンテーションに関して尋ねられる可能性のある質問のリストを追加します。+++
 
-You're the new Sales Manager for Northwind Traders, a supplier of
-various grocery and beverage products. You're concerned about the
-supplier agreements that are currently in place with several of
-Northwind's top customers. Your predecessor negotiated these agreements,
-so you aren't familiar with the terms and conditions that were
-previously agreed upon with these customers.
+20. Copilotからスライドを生成できなかったというメッセージが返された場合は、プロンプトを再度入力してください。Copilotがタスクを完了できない場合は、リクエストを再度入力することをお勧めします。
 
-In this exercise, you will
+![](./media/image38.png)
 
-  - Provide Copilot in Word with three supplier agreement documents.
+![](./media/image39.png)
 
-  - Ask it to create a report that compares the terms and conditions
-    negotiated with each customer.
+Copilot
+がこのタスクを完了できない場合、それは現時点では必要なすべてのタスクを完了できない可能性があることを示しているだけです。このシナリオは、Copilot
+の制限事項を理解しておく必要があるベストプラクティスのもう一つの例です。
 
-  - Ask Copilot to provide recommendations for renegotiating each
-    agreement.
+21. では、この回避策を試してみましょう。質問リストを生成するための次のプロンプトを入力します。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab          and enter the following URL:+++https://www.office.com+++ to go to the Microsoft 365 home page.
++++Q&Aセッション中に参加者はどのような質問をすると思いますか?+++
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+![](./media/image40.png)
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the following documents to OneDrive.
+22. Copilot
+    が作成した質問を確認します。ウィンドウ下部の「Copy」ボタンを選択し、Q&A
+    スライドのスピーカーノートに貼り付けます（Ctrl+V）。
 
-      - **Contoso Supplier Agreement**
+![](./media/image41.png)
 
-      - **Tailwind Traders Supplier Agreement**
+注: Copilot に例外が表示される場合があります。手順 16
+に記載されている推奨プロンプトをお試しください。
 
-      - **Wide World Importers Supplier Agreement**
+このモジュールの残りのトレーニング演習ではこのプレゼンテーションは使用しませんが、破棄するか、将来の参照用にコピーを保存する場合は保存してください。
 
-    **Note**: You can skip this step, if you have already uploaded a copy of all the documents (that you will be using in
-    this hands-on lab session from **C:\LabFiles** as instructed in **Lab 0**).
-  
-3.  In this exercise, you access the documents from the Most Recently
-    Used file list. To get the files to appear in the MRU list, open
-    each document and then close it. Open and close each of the three
-    files in your OneDrive account.
+**エクササイズ \#3: Copilot in Word
+を使用してサプライヤー契約を比較する**
 
-    ![](./media/image32.png)
+営業担当者は、顧客との強固な関係を構築し、インサイトに基づいて行動し、より迅速に商談を成立させるために、適切な情報を適切なタイミングで必要としています。Word
+の Copilot
+は、他の文書から特定の情報をコンテンツに取り込んだり、要約を作成したり、文書に関する質問を行ったり、特定のトピックに関するアイデアを提供したり、テキストを表に変換したり、コンテンツの書き換え方法を提案したりするのに役立ちます。
 
-4.  In **Microsoft 365**, open **Microsoft Word** and then open a new
-    blank document.
+あなたは、様々な食料品や飲料製品を販売する Northwind Traders
+社の新しい営業マネージャーです。あなたは、Northwind
+社の主要顧客数社と現在締結しているサプライヤー契約について懸念を抱いています。これらの契約は前任者が交渉したため、以前これらの顧客と合意した契約条件をよく知りません。
 
-9.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt:
+この演習では、次のことを行います
 
-    ++**I'm the Sales Manager for Northwind Traders, a supplier of various
-    grocery and beverage products. Please create a report that compares the
-    supplier agreements for three of our customers**. **Provide a
-    recommendation on contract renewals that can provide Northwind Traders
-    with more favorable terms. The supplier agreements for these three
-    customers are attached**. **Thank you**!++
+- 3つのサプライヤー契約書類をWord形式でCopilotに提供します。
 
-    ![](./media/image33.png)
+- 各顧客と交渉した契約条件を比較するレポートを作成するよう依頼します。
 
-    You now must attach the three supplier agreements to the prompt. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if the **Contoso
-    Supplier Agreement** appears in the list of files, select it.
-    Otherwise, select **Browse files from cloud**, select the **Contoso
-    Supplier Agreement** from the **Recent** file list, and then select
-    the **Attach** button. Note how the file is displayed in the prompt.
+- 各契約の再交渉に関する推奨事項をCopilotに提示するよう依頼します。
 
-    Repeat the prior step for both the **Tailwind Traders Supplier
-    Agreement** and the **Wide World Importers Supplier Agreement**. At
-    this point, links to all three files should be included in the prompt.
+1.  Microsoft Edge ブラウザーで Microsoft 365
+    タブを開いている場合は、それを選択します。そうでない場合は、新しいタブを開いて次の
+    URL を入力します: +++https://www.office.com+++ 、Microsoft 365
+    ホームページに移動します。
 
-10.  Select **Generate**. At this point, Copilot extracts the pertinent
-    information from the three supplier agreements drafts a report
-    comparing them.
+> 注: 右側の \[リソース\] タブの下にある Microsoft 365
+> 資格情報を使用してサインインする必要があります (求められた場合)。
 
-     ![](./media/image34.png)
+2.  C:\Lab Files
+    フォルダーを参照して、次のドキュメントのコピーを選択し、OneDrive
+    にアップロードします。
 
-11. After reviewing the comparison document, you aren't pleased with the
-    results. You would like to see Copilot try again and generate a new
-    version. In the Copilot window that appears at the end of the
-    document, select the **Regenerate** button, which appears next to
-    the **Keep it** button. You can repeat this step as many times as
-    necessary until Copilot creates a version of this report that you
-    approve. For this exercise, repeat this step several times to see
-    the various formats that Copilot delivers. Also note how some
-    information may be included in one version of the report that's not
-    in others.
+    - Contoso サプライヤー契約
 
-    Once you're satisfied with a version of the report, select the **Keep it** button.
+    - Tailwind Traders サプライヤー契約
 
-12. Once you're done with this document, save it to your **OneDrive**, so
-    you can close this tab in your Microsoft Edge browser.
+    - Wide World Importers サプライヤー契約
 
-# Summary:
-  In this lab, you explored the capabilities of Copilot for Microsoft 365 as an AI-powered writing assistant and
-  -  Utilized Copilot in Loop to draft a detailed market research report that involved organizing data, generating
-     insights, and creating a cohesive and informative report.
-     
-  -  Leveraged Copilot in PowerPoint to design a compelling sales presentation to generate slides, customize content, and 
-     ensure that the presentation effectively communicates key sales messages.
-     
-  -  Used Copilot in Word to analyze and compare three supplier agreements to identify differences between the agreements
-     and provide recommended actions based on the comparison.
+> 注: すべてのドキュメントのコピー (ラボ 0 の指示に従って C:\ラボFiles
+> からこのハンズオン ラボ セッションで使用するもの)
+> をすでにアップロードしている場合は、この手順をスキップできます。
+
+3.  この演習では、「Most Recently Used
+    file」リストからドキュメントにアクセスします。ファイルを「Most
+    Recently Used
+    file」リストに表示するには、各ドキュメントを開いてから閉じます。OneDriveアカウント内の3つのファイルをそれぞれ開いて閉じてください。
+
+![](./media/image42.png)
+
+4.  Microsoft 365 で Microsoft Word を開き、新しい空白の文書を開きます。
+
+5.  空白の文書の上部に表示される「Draft with
+    Copilot」ウィンドウで、次のプロンプトを入力します。
+
++++私は、様々な食料品や飲料製品を取り扱うノースウィンド・トレーダーズの営業部長です。3社のお客様とのサプライヤー契約を比較したレポートを作成してください。ノースウィンド・トレーダーズにとってより有利な条件で契約を更新できるよう、契約更新に関する推奨事項をご提示ください。3社のお客様とのサプライヤー契約書は添付しております。よろしくお願いいたします。+++
+
+![](./media/image43.png)
+
+次に、3つのサプライヤー契約をプロンプトに添付する必要があります。「Draft
+with
+Copilot」ウィンドウで、「コンテンツを参照」ボタンを選択します。表示されるドロップダウンメニューで、ファイル一覧にContosoサプライヤー契約が表示されている場合は選択します。表示されていない場合は、「クラウドからファイルを参照」を選択し、「最近使用したファイル」リストからContosoサプライヤー契約を選択して、「添付」ボタンを選択します。ファイルがプロンプトにどのように表示されるかを確認してください。
+
+Tailwind Tradersサプライヤー契約とWide World
+Importersサプライヤー契約の両方について、前の手順を繰り返します。この時点で、3つのファイルすべてへのリンクがプロンプトに含まれるはずです。
+
+6.  「Generate」を選択します。この時点で、Copilot は 3
+    つのサプライヤー契約から関連情報を抽出し、それらを比較するレポートを作成します。
+
+![](./media/image44.png)
+
+7.  比較ドキュメントを確認しましたが、結果に満足できません。Copilot
+    で再度新しいバージョンを生成してみます。ドキュメントの最後に表示される
+    Copilot ウィンドウで、「Keep
+    it」ボタンの横にある「Regenerate」ボタンを選択します。Copilot
+    が承認するバージョンのレポートを作成するまで、この手順を必要な回数だけ繰り返すことができます。この演習では、この手順を数回繰り返して、Copilot
+    が生成するさまざまな形式を確認します。また、あるバージョンのレポートには含まれている情報が、他のバージョンには含まれていない場合があることにも注意してください。
+
+8.  レポートのバージョンに満足したら、「Keep it」ボタンを選択します。
+
+9.  このドキュメントの作成が完了したら、OneDrive に保存して、Microsoft
+    Edge ブラウザーでこのタブを閉じます。
+
+**概要:**
+
+このラボでは、AIを活用したライティングアシスタントであるCopilot for
+Microsoft 365の機能について学習し、
+
+- Copilot in
+  Loopを活用し、データの整理、インサイトの生成、そして一貫性と情報量に富んだレポートの作成を含む詳細な市場調査レポートを作成しました。
+
+- Copilot in
+  PowerPointを活用し、魅力的な営業プレゼンテーションをデザインしました。スライドの作成、コンテンツのカスタマイズを行い、プレゼンテーションで主要な営業メッセージを効果的に伝えることができました。
+
+- Copilot in
+  Wordを使用し、3つのサプライヤー契約を分析・比較して、契約間の相違点を特定し、比較に基づいて推奨アクションを提示しました。
