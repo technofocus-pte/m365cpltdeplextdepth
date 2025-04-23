@@ -1,841 +1,669 @@
-# Lab 05: Empower your workforce – Copilot – Finance
+**ラボ 05: 従業員のエンパワーメント – Copilot – 財務**
 
-## Objective:
+**目的:**
 
-By using Copilot for Microsoft 365, Finance professionals can automate
-repetitive financial tasks, gain insights into their financial data,
-save time by automating manual tasks and collaborate more effectively
+Copilot for Microsoft 365
+を使用することで、財務担当者は反復的な財務タスクを自動化し、財務データから洞察を得て、手作業のタスクを自動化することで時間を節約し、より効果的にコラボレーションすることができます。
 
-In this lab, as a finance professional you will use:
+このラボでは、財務担当者として以下のツールを活用します。
 
-- Copilot in Outlook to create a new email to the company's insurance
-  carrier to discuss the exorbitant increases in its medical insurance
-  premiums.
+- Copilot in Outlook
+  を使用して、会社の保険会社に医療保険料の法外な値上げについて話し合うための新しいメールを作成します。
 
-- Copilot in Excel to analyze a spreadsheet containing projected revenue
-  for Q1 marketing campaigns and then add new calculations and charts to
-  visualize the data.
+- Copilot in Excel を使用して、第 1 四半期のマーケティング
+  キャンペーンの予測収益を含むスプレッドシートを分析し、新しい計算とグラフを追加してデータを視覚化します。
 
-- Copilot in Word to create a marketing campaign report based on the
-  company's Q1 marketing campaign spreadsheet.
+- Copilot in Word を使用して、会社の第 1 四半期のマーケティング
+  キャンペーン スプレッドシートに基づいてマーケティング キャンペーン
+  レポートを作成します。
 
-- Copilot in Word to summarize a company's financial results for the
-  past five years.
+- Copilot in Wordを使用して、会社の過去 5 年間の財務結果を要約します。
 
-## Exercise \#1: Draft an email to your insurance company using Copilot in Outlook
+**エクササイズ#1: Outlook の Copilot
+を使用して保険会社へのメールを作成します**
 
-With Copilot, you can quickly generate email drafts that Copilot tailors
-to your specific needs, without having to spend hours writing and
-editing them. In this exercise, you use Copilot in Outlook to draft a
-new email based on a series of user-supplied prompts.
+Copilot
+を使えば、何時間もかけて作成・編集することなく、特定のニーズに合わせてカスタマイズしたメールの下書きを素早く作成できます。この演習では、Outlook
+で Copilot
+を使用して、ユーザーが入力した一連のプロンプトに基づいて新しいメールの下書きを作成します。
 
-> **Note**: Copilot scenarios in Outlook are only available on a user’s
-> primary mailbox. They aren't available on a user’s archive mailbox,
-> group mailboxes, or shared and delegate mailboxes that the user has
-> access to.
->
-> - Microsoft only supports Copilot in Outlook on mailboxes hosted on
->   Exchange Online.
->
-> - Copilot in Outlook is only supported in Microsoft 365 work or school
->   accounts and Microsoft accounts with specific email domains.
->
-> - It's supported both through Copilot for Microsoft 365 with your
->   Microsoft Entra ID account, and Copilot Pro with your MSA account.
+注: Outlook の Copilot
+シナリオは、ユーザーのプライマリメールボックスでのみ利用できます。アーカイブメールボックス、グループメールボックス、またはユーザーがアクセスできる共有メールボックスと代理人メールボックスでは利用できません。
 
-As the CFO for Northwind Traders, you want to use Copilot in Outlook to
-draft an email to the company's health insurance carrier, Humongous
-Insurance. You were recently notified by your insurance agent that
-Northwind's health insurance premiums would be increasing across the
-board - more than 9% for individual policies and more than 15% for
-family policies. This rate of increase is considerably higher than
-industry averages.
+- Microsoft は、Exchange Online でホストされているメールボックスの
+  Outlook でのみ Copilot をサポートします。
 
-The purpose of this email is twofold:
+- Outlook での Copilot は、Microsoft 365
+  の職場または学校アカウント、および特定のメールドメインを持つ Microsoft
+  アカウントでのみサポートされます。
 
-- To express your concern over the level of increases.
+- Microsoft Entra ID アカウントを使用した Copilot for Microsoft 365
+  と、MSA アカウントを使用した Copilot Pro の両方でサポートされます。
 
-- To request a meeting with the insurance carrier’s team to discuss the
-  matter and explore alternative options.
+Northwind
+Traders社のCFOとして、OutlookのCopilotを使って、同社の健康保険会社であるHumongous
+Insurance社宛てのメールを作成したいと考えています。先日、保険代理店から、Northwind社の健康保険料が全面的に値上げされることが通知されました。個人向け保険は9%以上、家族向け保険は15%以上値上げされます。この値上げ率は業界平均を大幅に上回っています。
 
-1.  In **Microsoft 365**, open **Outlook**.
+このメールの目的は2つあります。
 
-2.  Open a **New** email.
+- 値上げ額に対する懸念を表明する。
 
-3.  On the **Message** tab that opens, select **Copilot** in the ribbon.
-    In the drop-down menu that appears, select **Draft with Copilot**.
+- 保険会社の担当者と面談し、問題について話し合い、代替案を検討する。
 
-    ![](./media/image1.png)
+1.  Microsoft 365 で Outlook を開きます。
 
-4.  In the body of the message, a **Draft with Copilot** window appears.
-    The prompt field contains the message: **What do you want this email
-    to say**? At the bottom of the field is a **Generation
-    options** icon. Select this icon to see the options that Copilot
-    provides when creating an email.
+2.  新しいメールを開きます。
 
-    ![](./media/image2.png)
+3.  開いた「Message」タブで、リボンから「Copilot」を選択します。表示されるドロップダウンメニューで、「Copilot
+    で下書き」を選択します。
 
-5.  In the drop-down menu that appears, you see that you can change the
-    Tone and Length of the email. You decide to start out by setting
-    the **Tone** to **Formal** and the **Length** to **Long**. Select
-    these options now.
-
-    ![](./media/image3.png)
-
-6.  Enter the following prompt in the **What do you want this email to
-    say**? field and then select the **Generate** button:
-
-    ++**I'm the CFO for Northwind Traders. Draft an email to our insurance
-    carrier, Humongous Insurance, expressing my concern for the level of
-    increases in our company's health insurance premiums for the coming
-    year. Request a meeting with the insurance carrier’s team to discuss
-    the proposed increases and explore alternative options**.++
-
-    ![](./media/image4.png)
-
-7.  Scroll through the draft to review it. At the top of the message,
-    Copilot displays the start of the prompt that you just entered (that
-    is "**I'm the CFO for Northwind Traders...**"). Select this section
-    of the prompt to see what happens.
-
-    ![](./media/image5.png)
-
-8.  Copilot displays a **Rewrite with Copilot** window that allows you
-    to edit the prior prompt and regenerate an entirely new message. At
-    this point, you're happy with the message, but you want to see how
-    it would change when using a different tone and length. Select
-    the **Generation options** icon that appears below the prompt.
-    Change the **Tone** to **Direct** and the **Length** to **Medium**,
-    and then select the **Generate** button.
-
-    ![](./media/image6.png)
-
-    ![](./media/image7.png)
-
-9.  Review the revised draft. At the top of the **Rewrite with
-    Copilot** window, note the "**I'm the CFO for Northwind
-    Traders...**" link. Also note how Copilot indicates this draft is
-    "**2 of 2**", meaning you're looking at the second of two Copilot
-    drafts. You can select the back arrow (\<) to go back to the
-    previous Copilot draft, which in this case is the first draft that
-    has a **Formal** tone and a **Long** length.
-
-    ![](./media/image8.png)
-
-    ![](./media/image9.png)
-
-    If you generate multiple Copilot drafts, as you'll do in this
-    exercise, you can use these arrows to go back and forth between drafts
-    to find one that you like. If you find a draft that you want, you can
-    select one of the available buttons to either **Keep
-    it** or **Regenerate** a new draft with the same tone and length. Note
-    the salutation and complementary close, the overall tone of the
-    message for this Direct draft, and the change in Length. While you
-    want to get straight to the point, you feel the **Direct** tone is far
-    too impersonal, so you want to generate a new draft with a different
-    tone.
-
-10. Select the linked prompt at the top of the window ("**I'm the CFO
-    for Northwind Traders...**") to return back to the **Rewrite with
-    Copilot** window. Select the **Generation options** icon, and this
-    time change the **Tone** to **Casual** and the **Length** back
-    to **Long**. Select **Generate**.
-
-    ![](./media/image9.png)
-
-    ![](./media/image10.png)
-
-11. Review the new draft. At this point, you realize that you don't like
-    the **Direct** tone and the **Medium** length in draft number two.
-    However, you're sure that you prefer the longer length, but you
-    can't decide whether you prefer the **Formal** or **Casual** tone.
-
-    - Since the **Casual** draft is currently displayed, you note that
-      the salutation is a bit informal, such as "Hi there" or just
-      "Hello."
-
-    - You can't remember the exact salutation when you used
-      the **Formal** tone, but it was something along the lines of "Dear
-      so and so."
-
-    - You also can't remember the phrasing of the complementary close in
-      the first draft that used the **Formal** tone (for example,
-      Sincerely/Best regards/Thank you, etc.).
-
-12. If you can't remember how the two messages appeared beyond the
-    salutations, follow the previous instructions to select the back
-    arrow to return to the first draft, which had a **Formal** tone. If
-    you can't decide which draft you prefer, use the forward and
-    backward arrows to compare the first draft (Formal) and the third
-    draft (Casual). Proceed to the next step once you decide which draft
-    you want to use.
-
-    ![](./media/image10.png)
-
-    ![](./media/image11.png)
-
-13. At this point, your preferred draft should appear in the Copilot
-    window. Beyond the changes to the tone and length that you
-    previously made; it strikes you that the email message seems a bit
-    sparse. You notice that it doesn't provide any detailed information
-    about the rate increases, at least not broken down by individual and
-    family plans. In the **Anything you'd like to change**? field, enter
-    the following prompt and then select the arrow icon at the end of
-    the field:
-
-    ++**Please compare the level of premium increases being proposed for
-    Northwind Traders in comparison to industry-wide premium increases.
-    Our individual policy premiums increased over 9%, and family policies
-    increased over 15%. Mention how our increases far exceed the industry
-    averages of 6% and 10% increases, respectively**.++
-
-14. What just happened when you tried to update the email based on this
-    latest prompt? Chances are you received an error message indicating
-    "**Sorry, something went wrong. Copilot is working on it**." The
-    reason you received this error is that when you submit a change
-    request to a draft, Copilot currently accepts only one change at a
-    time per prompt. In this case, you asked for two changes - ++**compare
-    the plan increases to industry averages** and **specify the specific
-    rate increases**.++
-
-    Here's the current rule of thumb involving prompts when working in
-    Copilot for Outlook:
-
-    - When you submit your initial prompt, you can include multiple
-      requests. For example, you could tell Copilot to include information
-      about A, B, and C. In that case, it would generate a draft with all
-      three items.
-    
-    - However, any subsequent prompts to amend a draft AFTER that initial
-      prompt can only include one change request per prompt.
-
-15. Given this requirement, you decide to break your previous request
-    into two parts. This time, enter the following prompt, which is part
-    one:
-
-    ++**Please mention that our individual policy premiums increased by over
-    9%, and family policies increased over 15**%.++
-
-16. Review the updated draft. Now enter the following prompt regarding
-    industry averages, which is part two:
-
-    ++**Please mention that average industry premium increases are 6% for
-    individual policies and 10% for family policies**.++
-
-17. This draft looks better. However, you decide to add one last note
-    regarding a possible change to high deductible/low premium plans.
-    Enter the following prompt:
-
-    ++**Please mention that we should discuss converting to high-deductible,
-    low premium policies**.++
-
-18. After reviewing this latest iteration, you're satisfied with the
-    draft, so select the **Keep it** button.
-
-19. Note how the message appears in the body of the email without the
-    Copilot window. In a real-world scenario, you would either send the
-    email as is, or make any final changes manually. Once you **keep** a
-    Copilot draft, you must manually make any further changes yourself.
-    You can't go back into Copilot draft mode with that message.
-
-20. Since you won't send this email, select the trash can (**Discard**)
-    icon in the upper right corner of the email screen and then confirm
-    that you want to discard the message.
-
-## Exercise #2: Analyze a financial spreadsheet using Copilot in Excel
-
-For Finance professionals, Copilot in Excel offers the ability to ask
-questions about your data set in natural language rather than just
-formulas. The tool can reveal correlations, suggest what-if scenarios,
-and create powerful visualizations based on your queries.
-
-As Fabrikam's Director of Finance, you want to analyze how effective the
-company's Q1 marketing campaigns were. Your Director of Marketing
-provided you with a spreadsheet that identifies each of the marketing
-campaigns the company engaged in during the first quarter. The
-spreadsheet provides basic budget and revenue figures and the number of
-targeted and engaged users.
-
-In this exercise, you'll use Copilot in Excel to analyze the market
-trend that's already in an Excel spreadsheet **Fabrikam Q1 marketing
-campaigns.xlsx**. You will examine many of Copilot's pre-built functions
-and prompts.
-
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
-
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-
-    ![](./media/image12.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Fabrikam Q1 marketing campaigns.xlsx** spreadsheet to **OneDrive**
-
-    **Tip**: Open and close the file to get it in your Most Recently Used (MRU)
-    file list.
-
-    ![](./media/image13.png)
-
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-
-4.  On the **Microsoft 365** home page, select the **Excel** icon in the
-    navigation pane on the left.
-
-5.  In **Excel**, on the **File** page, select **Fabrikam Q1 marketing
-    campaigns** from the file list.
-
-6.  Select the **Copilot** option on the right side of the ribbon.
-
-    ![](./media/image14.png)
-
-7. In the **Copilot** pane that appears, note the predefined prompts
-    that are displayed above the prompt field. Before you select any of
-    these predefined prompts to improve your analysis, you first want
-    Copilot to make some specific changes to the spreadsheet. To begin
-    with, you want Copilot to identify which campaign types are most
-    profitable. To do so, enter the following prompt:
-
-    ++**Create a pivot table to analyze the total revenue generated by each
-    campaign type**.++
-    
-    ![](./media/image15.png)
-
-8. Review the results of this prompt. Copilot displayed two response
-    windows. The first response included a pivot table that summarized
-    the total revenue by campaign type. The second response included an
-    explanation for what it did in the first response. In the first
-    response containing this table, select the **+Add to a new
-    sheet** button. Doing so adds this table to **Sheet 2** of this
-    spreadsheet, which Copilot then opened for you.
-
-    ![](./media/image16.png)
-
-    <span class="mark">**Note**: If **Add to new sheet** button is not
-    visible, you need to test with zoom in/out to see the button (A zoom
-    level of 115% seems to display the details)</span>
-
-9. In looking at **Sheet 2**, you notice that Copilot didn't create a
-    chart to accompany the pivot table. In looking at the prompt you
-    submitted, you realize that you just asked it to create a pivot
-    table - you never mentioned anything about a chart. You would like
-    to see a visualization of this data, so you want to enter a prompt
-    asking Copilot to generate a chart to go along with the pivot table
-    in **Sheet 2**. However, notice that while you're in **Sheet 2**,
-    the prompt field is disabled.
-
-    ![](./media/image17.png)
-
-    **Note**: The prompting field is only enabled in the sheet that has
-    the Excel table. For this spreadsheet, that's **Sheet 1**. As you
-    continue through this exercise, each time Copilot adds data to a new
-    sheet, you must return to **Sheet 1** to request more changes.
-
-10. Select **Sheet 1**, and then enter the following prompt:
-
-    **In Sheet 2, you created a pivot table to analyze the total revenue
-    generated by each campaign type. Create a chart in Sheet 2 to
-    visualize this data**.
-    
-    ![](./media/image18.png)
-
-11. Review the result. If Copilot created a chart showing the revenue by
-    campaign type, then proceed to the next step. However, if Copilot
-    displayed a message indicating that you can't ask it to work on a
-    sheet other than the original sheet that has the Excel table, then
-    you must simplify your previous prompt. In this case, enter the
-    following prompt:
-
-    **Calculate the total revenue generated by each campaign type**.
-    
-    ![](./media/image19.png)
-    
-    <span class="mark">**Note**: Even after simplifying the prompt like
-    the following Calculate the total revenue generated by each campaign
-    type, if Copilot fails to generate the total revenue, keep trying
-    again and again (In our testing only at the fourth attempt, it
-    generated the Pivot chart along with the option to insert the chat to
-    a sheet)</span>
-
-12. Review the chart that Copilot created showing the revenue by
-    campaign type. This result is what you wanted, so select the **+Add
-    to a new sheet** button at the bottom of the window. Doing so adds
-    this chart to **Sheet 3** of this spreadsheet.
-
-    ![](./media/image20.png)
-
-    ![](./media/image21.png)
-
-13. In looking at **Sheet 3**, you note how Copilot included the pivot
-    table along with the chart. You realize that **Sheet 2** has the
-    same pivot table, while **Sheet 3** has the table and chart. Since
-    you want **Sheet 3** that has both the table and chart, you decide
-    to remove **Sheet 2** to avoid any future confusion. To
-    delete **Sheet 2**, right-click on it, select **Delete** from the
-    menu that appears, and then select **OK** to confirm the deletion.
-    Doing so leaves you with Sheets 1 and 3.
-
-    ![](./media/image22.png)
-
-    ![](./media/image23.png)
-
-14. Since you want to make more changes, select **Sheet 1** to return
-    back to your sheet with the pivot table.
-
-15. You now want to identify which campaigns were the most effective. To
-    do so, you want Copilot to calculate the Return on Investment (ROI)
-    for each campaign. To calculate the ROI, enter the following prompt:
-
-    ++**Calculate the ROI for each campaign**.++
-    
-    ![](./media/image24.png)
-
-16. Review the results of this prompt. Copilot shows you the
-    calculation, and you can select the **Explain formula** option for
-    an explanation of the ROI calculation.
-    
-    ![](./media/image25.png)
-
-    ![](./media/image26.png)
-
-17. You want Copilot to add the ROI to your spreadsheet, so select
-    the **+Insert column** button that appears at the bottom of the
-    window.
-
-    ![](./media/image27.png)
-
-18. Note the results. Copilot added a new column containing the ROI for
-    each individual campaign. While that's fine, you want it to
-    determine the ROI for each campaign type. You realized your mistake
-    when you reviewed your prior prompt. You asked Copilot to calculate
-    the ROI for each campaign, when in fact, you wanted to calculate the
-    ROI for each campaign type. Enter the following prompt to calculate
-    the ROI for each campaign type:
-
-    ++**That change looks good. However, I would like you to also calculate
-    the ROI for each campaign type**.++
-    
-    ![](./media/image28.png)
-
-19. Review the results. Copilot created a graph showing the ROI by
+![](./media/image1.png)
+
+4.  メッセージ本文に「Draft with
+    Copilot」ウィンドウが表示されます。プロンプトフィールドには、「このメールの内容は何ですか？」というメッセージが表示されます。フィールドの下部には「生成オプション」アイコンがあります。このアイコンを選択すると、Copilot
+    がメール作成時に提供するオプションが表示されます。
+
+![](./media/image2.png)
+
+5.  表示されるドロップダウンメニューで、メールのトーンと長さを変更できます。まずはトーンを「Formal」、長さを「Long」に設定することにします。これらのオプションを選択します。
+
+![](./media/image3.png)
+
+6.  \[What do you want this email to say\]
+    フィールドに次のプロンプトを入力し、\[Generate\]
+    ボタンを選択します。
+
+++Northwind TradersのCFOです。保険会社であるHumongous
+Insurance宛てに、来年度の健康保険料の値上げ幅に対する懸念を伝えるメールを作成してください。保険会社の担当者と面談し、提案された値上げについて話し合い、代替案を検討してください。++
+
+![](./media/image4.png)
+
+7.  下書きをスクロールして確認します。メッセージの上部に、Copilot
+    は先ほど入力したプロンプト（「私は Northwind Traders の CFO
+    です…」）の冒頭部分を表示します。この部分を選択して、何が起こるか確認します。
+
+![](./media/image5.png)
+
+8.  Copilot は「Rewrite with
+    Copilot」ウィンドウを表示します。このウィンドウでは、以前のプロンプトを編集して全く新しいメッセージを再生成できます。この時点でメッセージは完成していますが、トーンと長さを変えた場合にどのような変化が見られるかを確認したいとします。プロンプトの下に表示される生成オプションアイコンを選択します。トーンを「Direct」に、長さを「Medium」に変更し、「Generate」ボタンを選択します。
+
+![](./media/image6.png)
+
+![](./media/image7.png)
+
+9.  修正後の草稿を確認します。「Copilotで書き直す」ウィンドウの上部に「私はNorthwind
+    TradersのCFOです…」というリンクがあります。また、Copilotではこの草稿が「2/2」と表示されていることにも注目してください。これは、2つのCopilot草稿のうちの2番目の草稿であることを意味します。戻る矢印（\<）を選択すると、前のCopilot草稿（この場合はフォーマルなトーンと長い文体の最初の草稿）に戻ることができます。
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+
+この演習のように、複数のCopilotドラフトを作成する場合は、これらの矢印を使ってドラフト間を行き来し、気に入ったものを見つけることができます。気に入ったドラフトが見つかったら、利用可能なボタンのいずれかを選択して「保存」するか、「同じトーンと長さで新しいドラフトを再生成」するかを選択できます。このDirectドラフトの挨拶と結びの言葉、メッセージ全体のトーン、そして長さの変化に注目してください。要点を簡潔に伝えたいのですが、Directのトーンはあまりにも非人間的だと感じたので、トーンを変えた新しいドラフトを作成したいと思います。
+
+10. ウィンドウ上部のリンクされたプロンプト（「私はNorthwind
+    TradersのCFOです…」）を選択して、「Rewrite with
+    Copilot」ウィンドウに戻ります。「生成オプション」アイコンを選択し、「トーン」を「カジュアル」に、「長さ」を「ロング」に戻します。「生成」を選択します。
+
+![](./media/image9.png)
+
+![](./media/image10.png)
+
+11. 新しい下書きを見直します。この時点で、2番目の下書きのダイレクトなトーンとミディアムの長さが気に入らないことに気づきました。しかし、長めの長さの方が好みであることは確かです。しかし、フォーマルなトーンとカジュアルなトーンのどちらが好みか決めかねています。
+
+    - 現在表示されているのはカジュアルな下書きですが、挨拶文が「こんにちは」や「こんにちは」など、少しくだけた表現になっていることに気づきました。
+
+    - フォーマルなトーンで書いた時の挨拶文を正確には思い出せませんが、「拝啓　○○様」といった感じだったと思います。
+
+    - また、最初の下書きでフォーマルなトーンで書いた結びの言葉（例えば、「敬具」「敬具」「ありがとう」など）も思い出せません。
+
+12. 挨拶文以外の2つのメッセージがどのように表示されたか思い出せない場合は、前の手順に従って戻る矢印を選択し、フォーマルなトーンで書かれた最初の下書きに戻ってください。どちらの下書きが好みか決めかねる場合は、進む矢印と戻る矢印を使用して、最初の下書き（フォーマル）と3番目の下書き（カジュアル）を比較してください。どちらの下書きを使用するかが決まったら、次のステップに進んでください。
+
+![](./media/image10.png)
+
+![](./media/image11.png)
+
+13. この時点で、Copilot
+    ウィンドウに希望通りの下書きが表示されるはずです。先ほど変更した文面と長さを除けば、メールの内容が少し物足りないように感じます。料金の値上げに関する詳細情報、少なくとも個人プランとファミリープランごとの内訳が記載されていないことに気づきます。「変更したい点はありますか？」フィールドに以下のプロンプトを入力し、フィールドの端にある矢印アイコンを選択します。
+
+++ノースウィンド・トレーダーズに提案されている保険料の値上げ幅を、業界全体の保険料の値上げ幅と比較してください。個人向け保険の保険料は9%以上、家族向け保険の保険料は15%以上値上げされました。当社の値上げ幅が、それぞれ業界平均の6%と10%を大きく上回っている理由を述べてください。++
+
+14. この最新のプロンプトに基づいてメールを更新しようとした際に何が起こりましたか？おそらく、「申し訳ございません。問題が発生しました。Copilot
+    が対応中です」というエラーメッセージが表示されたのではないでしょうか。このエラーが発生する理由は、ドラフトに変更リクエストを送信した場合、Copilot
+    は現在、1つのプロンプトにつき1つの変更しか受け付けないためです。今回のケースでは、2つの変更をリクエストしました。「プランの増額を業界平均と比較し、具体的な料金の増額を明記してください」です。
+
+Copilot for Outlook
+で作業する際のプロンプトに関する現在の経験則は次のとおりです。
+
+- 最初のプロンプトを送信する際、複数のリクエストを含めることができます。例えば、Copilot
+  に A、B、C に関する情報を含めるように指示できます。その場合、3
+  つの項目すべてを含む下書きが生成されます。
+
+- ただし、最初のプロンプトの後に下書きを修正するための後続のプロンプトでは、1
+  つのプロンプトにつき 1 つの変更リクエストのみを含めることができます。
+
+15. この要件を踏まえ、前回のリクエストを2つの部分に分割することにしました。今回は、次のプロンプト（パート1）を入力します。
+
+++個人保険料は9%以上、家族保険料は15%以上増加したことをお伝えください。++
+
+16. 更新された下書きを確認します。次に、業界平均に関する次のプロンプトを入力します（パート2）。
+
+++業界平均の保険料の値上げは、個人保険の場合は6%、家族保険の場合は10%であることをお伝えください。++
+
+17. この草稿は改善されたようですが、高額自己負担・低額保険料プランへの変更の可能性について最後に補足することにしました。次のプロンプトを入力してください。
+
+++免責額が高く保険料が低い保険への変更について話し合う必要があることをお伝えください。++
+
+18. この最新のイテレーションを確認し、下書きに満足したら「Save」ボタンを選択します。
+
+19. Copilot
+    ウィンドウが表示されていない状態で、メール本文にメッセージがどのように表示されているかを確認してください。実際のシナリオでは、そのままメールを送信するか、最終的な変更を手動で行うことになります。Copilot
+    の下書きを保存したら、それ以降の変更は手動で行う必要があります。そのメッセージで
+    Copilot の下書きモードに戻ることはできません。
+
+20. このメールは送信しないので、メール画面の右上にあるゴミ箱（破棄）アイコンを選択し、メッセージを破棄することを確認します。
+
+**エクササイズ#2: Excel の Copilot
+を使用して財務スプレッドシートを分析する**
+
+財務担当者にとって、Excel の Copilot
+は、数式だけでなく自然言語でデータセットに関する質問をする機能を提供します。このツールは、クエリに基づいて相関関係を明らかにし、仮説シナリオを提案し、強力な視覚化を作成できます。
+
+Fabrikam 社の財務ディレクターとして、あなたは同社の第 1
+四半期のマーケティングキャンペーンの効果を分析したいと考えています。マーケティングディレクターから、第
+1
+四半期に実施された各マーケティングキャンペーンを識別したスプレッドシートが提供されました。このスプレッドシートには、基本的な予算と収益の数値、ターゲットユーザーとエンゲージメントユーザーの数が記載されています。
+
+この演習では、Excel の Copilot を使用して、Excel
+スプレッドシート「Fabrikam Q1 marketing
+campaigns.xlsx」に既に入力されている市場動向を分析します。Copilot
+にあらかじめ用意されている多くの関数とプロンプトを検証します。
+
+1.  1\. Microsoft Edge ブラウザーで Microsoft 365
+    タブを開いている場合は、それを選択します。そうでない場合は、新しいタブを開いて次の
+    URL を入力します: +++https://www.office.com+++
+
+注: 右側の \[Resources\] タブに表示される Microsoft 365
+資格情報を使用してサインインする必要があります (要求された場合)。
+
+2.  Microsoft 365 ナビゲーション ウィンドウで、OneDrive
+    を選択して開きます。
+
+![](./media/image12.png)
+
+3\. C:\Lab Files フォルダに移動し、Fabrikam Q1 marketing campaigns.xlsx
+スプレッドシートのコピーを選択して OneDrive にアップロードします。
+
+ヒント: ファイルを開いて閉じると、最近使用したファイル (MRU)
+リストに追加されます。
+![](./media/image13.png)
+
+注: 「Preparing for the ラボ
+execution」セクションで推奨されているように、ラボのすべてのアセットを既に
+OneDrive にアップロードしている場合は、この手順を省略できます。
+
+4\. Microsoft 365 ホームページで、左側のナビゲーション ウィンドウで
+Excel アイコンを選択します。
+
+5\. Excel の \[File\] ページで、ファイル リストから「Fabrikam Q1
+マーケティング キャンペーン」を選択します。
+
+6\. リボンの右側にある \[Copilot\]
+オプションを選択します。
+![](./media/image14.png)
+
+7\.
+表示されるCopilotパネルで、プロンプトフィールドの上に表示される定義済みのプロンプトに注目してください。これらの定義済みプロンプトを選択して分析を改善する前に、まずCopilotでスプレッドシートに特定の変更を加えます。まず、どのキャンペーンタイプが最も収益性が高いかをCopilotに特定させます。そのためには、次のプロンプトを入力します。
+
+++各キャンペーンタイプで生成された総収益を分析するためのピボットテーブルを作成します。++
+![](./media/image15.png)
+
+> 8.このプロンプトの結果を確認します。Copilot は 2
+> つのレスポンスウィンドウを表示しました。最初のレスポンスには、キャンペーンタイプ別の総収益をまとめたピボットテーブルが含まれていました。2
+> 番目のレスポンスには、最初のレスポンスで実行した操作の説明が含まれていました。このテーブルを含む最初のレスポンスで、「+
+> Add to a new
+> sheet」ボタンを選択します。これにより、このテーブルがこのスプレッドシートのシート
+> 2 に追加され、Copilot によって自動的に開きます。
+
+![](./media/image16.png)
+
+注: 「Add to new
+sheet」ボタンが表示されない場合は、ズームイン/ズームアウトしてボタンが表示されるかテストする必要があります
+(ズームレベル 115% で詳細が表示されるようです)
+
+> 9.シート2を見ると、Copilot
+> がピボットテーブルに付随するチャートを作成していないことに気づきます。送信したプロンプトを確認すると、ピボットテーブルの作成を指示しただけで、チャートについては何も言及していないことに気づきます。このデータの視覚化を確認したいので、シート2のピボットテーブルに付随するチャートを生成するようにCopilotに指示するプロンプトを入力します。しかし、シート2を開いている間は、プロンプトフィールドが無効になっていることに注意してください。
+
+![](./media/image17.png)
+
+注: プロンプトフィールドは、Excel
+テーブルを含むシートでのみ有効になります。このスプレッドシートでは、シート
+1 が該当します。この演習を進める中で、Copilot
+が新しいシートにデータを追加するたびに、シート 1
+に戻って変更を要求する必要があります。
+
+10\. シート 1 を選択し、次のプロンプトを入力します。
+
+シート 2 では、各キャンペーン
+タイプで生成された総収益を分析するためのピボット
+テーブルを作成しました。シート 2
+にグラフを作成して、このデータを視覚化します。
+![](./media/image18.png)
+
+5\.
+結果を確認します。キャンペーンタイプ別の収益を示すグラフがCopilotによって作成された場合は、次のステップに進みます。ただし、Excelテーブルを含む元のシート以外のシートではCopilotを操作できないことを示すメッセージが表示された場合は、前のプロンプトを簡素化する必要があります。この場合、次のプロンプトを入力します。
+
+各キャンペーンタイプで生成された総収益を計算します。
+![](./media/image19.png)
+
+注:
+プロンプトを「各キャンペーンタイプで発生した総収益を計算してください」のように簡素化した後でも、Copilot
+が総収益を生成できない場合は、何度でも試してください（テストでは、4回目の試行でのみ、ピボットチャートが生成され、チャットをシートに挿入するオプションも表示されました）。
+
+5\. Copilot
+によって作成された、キャンペーンタイプ別の収益を示すチャートを確認します。この結果が目的のものであるため、ウィンドウ下部の「+
+Add to a new
+sheet」ボタンを選択します。これにより、このチャートがこのスプレッドシートのシート3に追加されます。
+![](./media/image20.png)
+
+![](./media/image21.png)
+
+3.  シート3を見ると、Copilot
+    がグラフに加えてピボットテーブルも追加していることに気づきます。シート2にも同じピボットテーブルが含まれていますが、シート3にはピボットテーブルとグラフが含まれています。シート3にはピボットテーブルとグラフの両方が含まれている必要があるため、今後の混乱を避けるためにシート2を削除することにしました。シート2を削除するには、シート2を右クリックし、表示されるメニューから「Delete」を選択し、「OK」をクリックして削除を確定します。これでシート1とシート3が残ります。
+
+![](./media/image22.png)
+
+![](./media/image23.png)
+
+6\.
+さらに変更を加えたい場合は、シート1を選択してピボットテーブルのあるシートに戻ります。
+
+7\.
+次に、どのキャンペーンが最も効果的だったかを特定します。そのためには、Copilot
+を使って各キャンペーンの投資収益率 (ROI) を計算します。ROI
+を計算するには、次のプロンプトを入力します。
+
+++各キャンペーンの ROI を計算します。++
+![](./media/image24.png)
+
+8\. このプロンプトの結果を確認します。Copilot
+が計算結果を表示し、「数式の説明」オプションを選択すると、ROI
+計算の説明が表示されます。
+![](./media/image25.png)
+
+![](./media/image26.png)
+
+4.  Copilot で ROI
+    をスプレッドシートに追加するには、ウィンドウの下部に表示される
+    \[+Insert column\] ボタンを選択します。
+
+![](./media/image27.png)
+
+5\. 結果を確認してください。Copilot によって、各キャンペーンの ROI
+を含む新しい列が追加されました。これは問題ありませんが、キャンペーンタイプごとに
+ROI
+を計算したいと考えていました。以前のプロンプトを確認したところ、間違いに気づきました。Copilot
+に各キャンペーンの ROI
+を計算するように指示していたのですが、実際にはキャンペーンタイプごとに
+ROI を計算したかったのです。キャンペーンタイプごとに ROI
+を計算するには、次のプロンプトを入力してください。
+
+++この変更は良さそうです。ただし、キャンペーンタイプごとに ROI
+も計算してもらいたいと思います。++
+![](./media/image28.png)
+
+5.  Review the results. Copilot created a graph showing the ROI by
     campaign type. Select the option at the bottom of the window
     to **+Add to a new sheet**. Doing so adds this table to a
     new **Sheet 2** of this spreadsheet. In addition to the clustered
     bar chart that it created (hover your cursor over the chart to see
     the chart type), it also created a pivot table containing the ROI by
-    campaign type. After you finish reviewing this data, select **Sheet 1**.
-
-    ![](./media/image29.png)
+    campaign type. After you finish reviewing this data, select **Sheet
+    1**.
 
-    ![](./media/image30.png)
+![](./media/image29.png)
 
-20. You now want Copilot to determine which campaigns were most
-    effective at engaging users. You feel the best way to visualize this
-    data is to have Copilot create a chart that shows the relationship
-    between total users targeted and total users engaged. To do so,
-    enter the following prompt:
+![](./media/image30.png)
 
-    ++**Create a chart that shows which campaign was most effective at
-    engaging users**.++
+6\. Copilot
+を使って、どのキャンペーンがユーザーエンゲージメントに最も効果的だったかを判断したいとします。このデータを視覚化する最適な方法は、ターゲットユーザー総数とエンゲージメントユーザー総数の関係を示すチャートを
+Copilot
+で作成することだと考えました。そのためには、次のプロンプトを入力します。
 
-    ![](./media/image31.png)
+++ユーザーエンゲージメントに最も効果的だったキャンペーンを示すチャートを作成します。++
+![](./media/image31.png)
 
-21. Review the results. Copilot created an **Engaged Users by Campaign
-    Name** bar chart.
+> 7.結果を確認します。Copilot
+> はキャンペーン名別のエンゲージメントユーザー数の棒グラフを作成しました。
 
-    ![](./media/image32.png)
+![](./media/image32.png)
 
-22. However, if Copilot just summarized the total engaged users by
-    campaign, that's not exactly what you wanted. To correct this
-    result, enter the following prompt:
+8\. しかし、Copilot
+がキャンペーンごとにエンゲージしたユーザーの合計数を集計しただけでは、期待どおりの結果にはなりません。この結果を修正するには、次のプロンプトを入力してください。
 
-    ++**That type of chart isn't what I was looking for. Please create a
-    chart that shows the relationship between total users targeted and
-    total users engaged**.++
-    
-    ![](./media/image33.png)
+++そのようなグラフは求めていません。ターゲットユーザーの合計数とエンゲージしたユーザーの合計数の関係を示すグラフを作成してください。++
+![](./media/image33.png)
 
-23. Review the results. In our testing, Copilot indicated that it
-    couldn't create a scatter chart with this data.
+9\. 結果を確認します。テストでは、Copilot
+はこのデータで散布図を作成できないと表示されました。
+![](./media/image34.png)
 
-    ![](./media/image34.png)
+10\.
+ただし、作成されたピボットテーブルの説明はありました。今のところはこれで十分だと思うので、ピボットテーブルウィンドウの下部にある「+
+Add to a new
+sheet」ボタンを選択します。これにより、このテーブルがこのスプレッドシートのシート4に追加されます。データの確認が終わったら、シート1を選択します。
+![](./media/image35.png)
 
-24. However, it did explain the pivot table that it created. You feel
-    that result is good enough for now, so select the **+Add to a new
-    sheet** button at the bottom of the pivot table window. Doing so
-    adds this table to **Sheet 4** of this spreadsheet. When you're done
-    reviewing this data, select **Sheet 1**.
+![](./media/image36.png)
 
-    ![](./media/image35.png)
+11\. Copilot
+に提供してほしい最後のデータがあります。収益に基づいて、最もパフォーマンスの高いキャンペーンを特定したいとします。この情報を使用して、どのキャンペーンが最も収益性が高いかを特定できます。次のプロンプトを入力します。
 
-    ![](./media/image36.png)
+++収益に基づいて、最もパフォーマンスの高いキャンペーンを特定します。++
+![](./media/image37.png)
 
-25. You have one final piece of data that you want Copilot to provide.
-    You would like Copilot to identify the top-performing campaigns
-    based on revenue generated. You can then use this information to
-    identify which campaigns are most profitable. Enter the following
-    prompt:
+> 12\. 結果を確認してください。Copilot
+> はキャンペーン名別の収益を示すグラフを作成しました。ウィンドウ下部の「+
+> Add to a new
+> sheet」オプションを選択してください。すると、この表がこのスプレッドシートのシート5に追加されます。作成された集合棒グラフに加えて、キャンペーン別の総収益を示すピボットテーブルも作成されています。データの確認が終わったら、シート1を選択してください。
 
-    ++**Identify the top-performing campaigns based on revenue generated**.++
-    
-    ![](./media/image37.png)
+![](./media/image38.png)
 
-26. Review the results. Copilot created a graph showing the Revenue by
-    campaign name. Select the option at the bottom of the window
-    to **+Add to a new sheet**. Doing so adds this table to **Sheet
-    5** of this spreadsheet. In addition to the clustered bar chart that
-    it created, it also created a pivot table displaying the total
-    revenue by campaign. When you're done reviewing this data,
-    select **Sheet 1**.
+![](./media/image39.png)
 
-    ![](./media/image38.png)
-    
-    ![](./media/image39.png)
+> 13\. これで、Copilot
+> に分析させたいデータの分析が完了しました。キャンペーンデータをさらに分析するために、Copilot
+> が他にどのような提案をしてくれるのか知りたいですよね。プロンプトフィールドの上に表示される定義済みプロンプトのリストで、「Show
+> suggestions for formula
+> columns」という提案を探してください。この提案が表示されている場合は、今すぐ選択してください。この提案が表示されない場合は、プロンプトフィールドに手動で入力してください。
 
-27. That completes the data that you wanted Copilot to analyze for you.
-    However, you're curious as to what other suggestions Copilot may
-    have to further analyze your campaign data. In the list of
-    predefined prompts that appear above the prompt field, look for a
-    suggestion titled **Show suggestions for formula columns**. If you
-    see this suggestion, then select it now. However, if you don't see
-    this suggestion, then enter it manually in the prompt field.
+![](./media/image40.png)
 
-    ![](./media/image40.png)
+> 14.列の提案を確認します。スプレッドシートに追加したい場合は、「+
+> Insert column」ボタンを選択します。.
 
-28. Review the column suggestion. If you want to add it to your
-    spreadsheet, select the **+Insert column** button.
+![](./media/image41.png)
 
-    ![](./media/image41.png)
-    
-    ![](./media/image42.png)
-    
-    If a predefined prompt appears that says **Give me another
-    suggestion**, then select it now. However, if this predefined prompt
-    doesn't appear, then enter it manually in the prompt field (in our
-    testing, this predefined prompt sometimes appeared before inserting
-    the column, but then disappeared after the column was inserted).
+![](./media/image42.png)
 
-29. Repeat the previous step a few times to have Copilot suggest
-    different calculations. Insert the ones you like and skip the ones
-    you don't.
+「Give me another
+suggestion」という定義済みプロンプトが表示された場合は、それを選択します。ただし、この定義済みプロンプトが表示されない場合は、プロンプトフィールドに手動で入力します（テストでは、列を挿入する前にこの定義済みプロンプトが表示されることがありましたが、列を挿入すると表示されなくなりました）。
 
-30. You now want Copilot to show you some more charts that visualize
-    various types of data. In the list of predefined prompts, select
-    the **Show data insights** button.
+15\. 前の手順を数回繰り返して、Copilot
+にさまざまな計算を提案してもらいます。気に入った計算を挿入し、気に入らない計算はスキップします。
 
-    ![](./media/image43.png)
+16\.
+次に、さまざまな種類のデータを視覚化するチャートをいくつか表示します。定義済みプロンプトのリストで、「Show
+data
+insights」ボタンを選択します。
+![](./media/image43.png)
 
-31. Review the results. If this chart is of interest to you, select
-    the **+Add to a new sheet** button and then return to **Sheet 1**.
+> 17.結果を確認します。このグラフに興味がある場合は、「+ Add to a new
+> sheet」ボタンを選択し、シート1に戻ります。
 
-    ![](./media/image44.png)
+![](./media/image44.png)
 
-    ![](./media/image45.png)
+![](./media/image45.png)
 
-32. Then select the **Can I see another insight**? button. Again, if
-    this chart is of interest to you, select the **+Add to a new
-    sheet** button and then return to **Sheet 1**.
+> 18.次に、「Can I see another
+> insight？」ボタンを選択します。このグラフに興味がある場合は、「+ Add
+> to a new sheet」ボタンを選択し、シート1に戻ります。
 
-    ![](./media/image46.png)
-    
-    ![](./media/image47.png)
-    
-    ![](./media/image48.png)
+![](./media/image46.png)
 
-33. After seeing these first two charts, you realize that you like the
-    various charts that Copilot provides. Instead of looking through
-    more charts one by one, you want Copilot to add to your spreadsheet
-    all the insights that it can create based on your data. In the
-    predefined prompts, select the **Add all insights to grid** prompt.
+![](./media/image47.png)
 
-    ![](./media/image49.png)
+![](./media/image48.png)
 
-34. Review the results. Copilot created multiple charts in the final
-    sheet, along with several pivot tables.
+> 19.最初の2つのグラフを見て、Copilotが提供する様々なグラフが気に入りました。グラフを一つずつ確認するのではなく、Copilotがデータに基づいて生成できるすべてのインサイトをスプレッドシートに追加したいと考えました。定義済みのプロンプトで、「Add
+> all insights to grid prompt」を選択します。
 
-    ![](./media/image50.png)
+![](./media/image49.png)
+
+> 20.結果を確認します。Copilot
+> は最終シートに複数のグラフとピボットテーブルを作成しました。
+
+![](./media/image50.png)
+
+> 21.ExcelのCopilotから提供されたすべてのデータに基づいて分析が完了したと判断します。Excelはファイルを自動的に保存したので、Microsoft
+> Edgeブラウザのタブを閉じます。
+
+**エクササイズ#3: Copilot in Word を使用して財務分析レポートを作成する**
+
+財務アナリストとして企業の業績レポートを作成する必要がある場合、Copilot
+in Wordを使用してレポートの下書きを作成し、Copilot Chat
+で質問して調査、アイデア出し、または追加可能なコンテンツの反復作業を行うことができます。
+
+この演習では、前回の演習で分析および更新した Fabrikam 社の第 1
+四半期マーケティング キャンペーン
+スプレッドシートのデータに基づいて、Copilot in
+Wordに新しいレポートを作成するよう指示します。ただし、Excel
+スプレッドシートではなく、スプレッドシートのすべてのデータを含む Word
+文書を使用します。
+
+注: Copilot in
+Wordでは、スプレッドシートに基づいてレポートを作成できます。ただし、Word
+内から Excel ファイルを直接参照することはできません。Excel
+ファイルからデータをコピーして Word 文書に貼り付ける必要があります。
+
+Fabrikam 社の財務ディレクターとして、前回の演習では Copilot in
+Excelを使用して同社の第 1 四半期マーケティング
+キャンペーンの効果を分析しました。この演習では、Copilot in
+Wordを使用して、そのデータの分析結果をまとめたレポートを生成します。スプレッドシートはコピーされ、最初の手順でダウンロードする
+Word 文書 Fabrikam Q1 マーケティング キャンペーン データ.docx
+に貼り付けられます。
+
+1.  Microsoft Edge ブラウザーで Microsoft 365
+    タブを開いている場合は、それを選択します。開いていない場合は、新しいタブを開き、次の
+    URL を入力します: https://www.office.com 、Microsoft 365
+    ホームページに移動します。
+
+注: 右側の「リソース」タブに表示される Microsoft 365
+資格情報を使用してサインインする必要があります（要求された場合）。
 
-35. You determine that your analysis is complete given all the data that
-    Copilot in Excel has provided. Since Excel automatically saved your
-    file, close your Microsoft Edge browser tab.
+2\. Microsoft 365 ナビゲーション ウィンドウで、OneDrive
+を選択して開きます。
+
+3\. C:\LabFiles フォルダーを参照し、Fabrikam Q1 マーケティング
+キャンペーン データ.docx ドキュメントのコピーを選択して OneDrive
+にアップロードします。ヒント:
+ファイルを開いて閉じると、最近使用したファイル (MRU)
+リストに追加されます。
+![](./media/image51.png)
 
-## Exercise #3: Create a financial analysis report using Copilot in Word
+注:
+「ラボ実行の準備」セクションで示されているように、ラボアセットをすべて
+OneDrive にアップロード済みの場合は、この手順を省略できます。
 
-If you're a financial analyst and need to write a report on the
-performance of a company, you can use Copilot in Word to draft the
-report and ask Copilot Chat questions to research, ideate, or iterate on
-for possible content to add.
+4\. Microsoft 365 で Microsoft Word
+を開き、空白のドキュメントを開きます。
 
-In this exercise, you instruct Copilot in Word to write a new report
-based on the data from the Fabrikam Q1 Marketing Campaign spreadsheet
-that you analyzed and updated in the previous exercise. However, instead
-of using the Excel spreadsheet, you'll use a Word document that contains
-all the spreadsheet data.
+5\. 空白のドキュメントの上部に表示される「Draft with
+Copilot」ウィンドウで、次のプロンプトを入力します。ただし、次の手順でファイルをプロンプトにリンクするまで、「Generate」ボタンは選択しないでください。
 
-<span class="mark">**Note**: Copilot in Word can create a report based
-on a spreadsheet. However, you can't directly reference an Excel file
-from within Word. Instead, you must copy and paste the data from the
-Excel file into a Word document</span>.
+++Fabrikam の財務部長です。添付ファイルに基づいて、第 1
+四半期のマーケティングキャンペーンに関するデータを提供する第 1
+四半期のマーケティングキャンペーン分析レポートを作成してください。レポートには、エグゼクティブサマリー、データ分析、推奨事項の各セクションを含めてください。++
 
-As Fabrikam's Director of Finance, you used Copilot in Excel to analyze
-the effectiveness of the company's Q1 marketing campaigns in the
-previous exercise. In this exercise, you will use Copilot in Word to
-generate a report that summarizes the analysis of that data. The
-spreadsheet was copied and pasted for you into a Word document
-**Fabrikam Q1 marketing campaign data.docx**, which you’ll download in
-the first step.
+6\. ダウンロードした Fabrikam 第 1
+四半期のマーケティングキャンペーンデータ.docx
+ファイルをプロンプトに添付する必要があります。「Draft with
+Copilot」ウィンドウで、「Reference your
+content」ボタンを選択します。
+![](./media/image52.png)
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: **<https://www.office.com>** to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+7\. 表示されるドロップダウンメニューで、Fabrikam Q1
+マーケティングキャンペーンデータ.docx
+ファイルがファイルリストに表示されている場合は選択します。表示されていない場合は、「Browse
+files from
+cloud」を選択します。
+![](./media/image53.png)
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-  
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Fabrikam Q1 marketing
-    campaign data.docx** document to **OneDrive**.
-    **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
+8\. 「Recent
+file」リストからファイルを選択し、「Attach」ボタンを選択します。ファイルが「Recent
+file」リストに表示されない場合は、「Pick a
+file」ウィンドウのナビゲーションペイン上部にある「My
+files」を選択し、ファイルを保存したフォルダに移動してファイルを選択し、「Attach」を選択します。プロンプトにファイルがどのように表示されるかご確認ください。
+![](./media/image54.png)
 
-    ![](./media/image51.png)
+9\. 「Generate」を選択します。すると、Copilot
+はファイルから関連情報を抽出し、データを分析したレポートを作成します。
+![](./media/image55.png)
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** sectionyou can skip this step.
+10\.
+結果を確認します。エグゼクティブサマリーセクションのデータが箇条書きで示されている場合は、次のプロンプトを入力し、{table
+or bulleted
+list}をtableに置き換えます。
+![](./media/image56.png)
 
-4.  In **Microsoft 365**, open **Microsoft Word** and then open a blank
-    document.
+11\.
+エグゼクティブサマリーのデータが箇条書き形式でない場合は、次のプロンプトを入力し、「{表または箇条書き}」を「箇条書き」に置き換えてください。
 
-5.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt, but don't select
-    the **Generate** button until after you link the file to the prompt
-    in the next step:
+++エグゼクティブサマリーセクションの情報を{表または箇条書き}形式に変換してください。++
 
-    ++**I'm the Director of Finance for Fabrikam. Please create a Q1
-    Marketing Campaign Analysis report based on the attached file, which
-    provides data on our Q1 marketing campaigns. Include the following
-    sections in the report: Executive Summary, Data Analysis, and
-    Recommendations**.++
+12\.
+エグゼクティブサマリーのデータが箇条書き形式になっているが、表形式にしたい場合は、次のプロンプトを入力し、「{表または箇条書き}」を「表」に置き換えてください。
 
-6.  You now must attach to the prompt the **Fabrikam Q1 marketing
-    campaign data.docx** file that you downloaded. In the **Draft with
-    Copilot** window, select the **Reference your content** button.
+++エグゼクティブサマリーセクションの情報を{表または箇条書き}形式に変換してください。++
+![](./media/image57.png)
 
-    ![](./media/image52.png)
+![](./media/image58.png)
 
-7.  In the drop-down menu that appears, if the **Fabrikam Q1 marketing
-    campaigns data.docx** file appears in the list of files, select it.
-    Otherwise, select **Browse files from cloud.**
+13\. Data
+Analysisセクションがすでに表形式になっている場合は、次の手順に進みます。
+![](./media/image59.png)
 
-    ![](./media/image53.png)
+注:
+箇条書き形式になっています。読みやすくするために、データを表形式にするには、次のプロンプトを入力してください。
 
-8.  Select the file from the **Recent** file list, and then select
-    the **Attach** button. If the file doesn't appear in the **Recent
-    file** list, select **My files** at the top of the navigation pane
-    in the **Pick a file** window, navigate to the folder where you
-    stored the file, select the file and then select **Attach**. Note
-    how the file is displayed in the prompt.
+++データ分析セクションの情報を表形式に変換してください。++
+![](./media/image60.png)
 
-    ![](./media/image54.png)
+14\. Data Analysisセクションのデータ
+テーブルを調べます。
+![](./media/image61.png)
 
-9.  Select **Generate**. Upon doing so, Copilot extracts the pertinent
-    information from the file and drafts a report that analyzes the
-    data.
+15\. Copilot
+でテーブルからデータ列を削除できるかどうか確認してみましょう。次のプロンプトを入力し、{heading}
+を削除したい列名に置き換えてください。
 
-    ![](./media/image55.png)
+++データ分析セクションのデータテーブルで、{heading}
+列を削除してください。++
+![](./media/image62.png)
 
-10. Review the results. If the data in the **Executive Summary** section
-    is presented in a bulleted list, then enter following prompt and
-    replace **{table or bulleted list}** with **table**.
+16\. 推奨事項は気に入っていますが、Copilot
+がデータを重要度順に表示してくれたら、もっと役立つと思います。Copilot
+にこの変更を実行させるには、次のプロンプトを入力してください。
 
-    ![](./media/image56.png)
+++「Recommendations」セクションで、最も重要な項目から順に項目を表示します。++
+![](./media/image63.png)
 
-11. If the **Executive Summary** data isn't in a bulleted list format,
-    then enter following prompt and replace **{table or bulleted
-    list}** with **bulleted list**:
+![](./media/image64.png)
 
-    ++**Please convert the information in the Executive Summary section into
-    a {table or bulleted list} format**.++
+17\.
+最新の下書きを確認し、レポートに満足したら保存する準備が整いました。文書下部のCopilotウィンドウで「Keep
+it」ボタンを選択すると、Copilotの下書きからWord文書に変換されます。
+![](./media/image65.png)
 
-12. If the **Executive Summary** data is in a bulleted list format, but
-    you want that in table format then enter following prompt and
-    replace **{table or bulleted list}** with **table.**
+18\.
+ドキュメントを確認します。問題がなければ、ドキュメントを破棄するか、後で参照できるようにOneDriveに保存します。
 
-    ++**Please convert the information in the Executive Summary section into
-    a {table or bulleted list} format**.++
+19\. Microsoft Edgeブラウザでこのタブを閉じます。
 
-    ![](./media/image57.png)
+**エクササイズ#4: Copilot in Word を使用して財務結果を要約する**
 
-    ![](./media/image58.png)
+前回の演習では、Word の Copilot
+を使用して（プロンプトに添付したファイルに基づいて）データ表を分析し、そのファイル内の情報をまとめたレポートを作成しました。今回の演習では、ある企業の
+5 年間の財務実績表を含むファイルを開き、Word の Copilot（ファイルの
+Copilot ペイン内）を使用して、表に表示されている財務実績をまとめます。
 
-13. If the **Data Analysis** section is already in a table format, then
-    proceed to the next step.
+1\. Microsoft Edge ブラウザーで Microsoft 365
+タブを開いている場合は、ここでそれを選択します。開いていない場合は、新しいタブを開き、次の
+URL を入力します: +++https://www.office.com+++ で Microsoft 365
+ホームページに移動します。
 
-    ![](./media/image59.png)
+注: 右側の \[リソース\] タブに表示される Microsoft 365
+資格情報を使用して（プロンプトが表示された場合）サインインする必要があります。
 
-    <span class="mark">**Note**: It is in bulleted list format. Enter the
-    following prompt to place the data into a table so that it's easier to
-    read:</span>
-    
-    ++**Please convert the information in the Data Analysis section into a
-    table format**.++
-    
-    ![](./media/image60.png)
+2\. Microsoft 365 ナビゲーション ウィンドウで、OneDrive
+を選択して開きます。
 
-14. Examine the table of data in the **Data Analysis** section.
+3\. C:\ラボFiles フォルダを参照し、Adatum 5 Year Financial Results.docx
+のコピーを選択して OneDrive にアップロードします。
 
-    ![](./media/image61.png)
+ヒント: ファイルを開いて閉じると、最近使用したファイル (MRU)
+リストに追加されます。
+![](./media/image66.png)
 
-15. Let's see if Copilot can remove a column of data from a table. Enter
-    the following prompt and replace {heading} with the name of a column
-    that you want to remove:
+注:
+「ラボ実行の準備」セクションで推奨されているように、ラボアセットをすべて
+OneDrive にアップロード済みの場合は、この手順を省略できます。
 
-    ++**In the table of data in the Data Analysis section, please remove the
-    {heading} column**.++
-    
-    ![](./media/image62.png)
+4\. Microsoft 365 ナビゲーション ウィンドウで、Microsoft Word
+を選択します。OneDrive にアップロードした Adatum 5 Year Financial
+Results.docx ファイルを開きます。
 
-16. You like the **Recommendations**, but you feel they would be more
-    valuable if Copilot displayed the data in order of importance. Enter
-    the following prompt to have Copilot make this change:
+5\. Microsoft Word リボンで、「Copilot」を選択します。
 
-    ++**In the Recommendations section, display the items in order of
-    importance, starting with the most important item**.++
+6\. 表示される Copilot
+ウィンドウの上部に、いくつかの定義済みタスクが表示されます。Copilot で
+Adatum 5 Year Financial Results
+ドキュメントの内容を要約したいので、「Summarize this
+doc」タイルを選択します。
+![](./media/image67.png)
 
-    ![](./media/image63.png)
+![](./media/image68.png)
 
-    ![](./media/image64.png)
+7\.
+結果を確認します。その際、各領域で提供される集計を補足するために、Word
+に詳細情報を追加してもらいたいと思います。プロンプトで追加を要求するか、プロンプトフィールドの上に表示される定義済みタスクを利用することができます。「概要に詳細情報を含める」プロンプトが表示された場合は、すぐに選択します。表示されない場合は、プロンプトフィールドの上に表示される「更新」アイコンを選択します。このプロンプトまたは同様のプロンプトが表示されるまで「更新」アイコンを選択し続け、表示されたら選択します。ただし、定義済みプロンプトが循環して繰り返し表示され、「概要に詳細情報を含める」プロンプトが表示されない場合は、プロンプトフィールドにこの要求を入力します。
+![](./media/image69.png)
 
-17. After reviewing this latest draft, you're satisfied with the report
-    and you're ready to save it. In the Copilot window at the bottom of
-    the document, select the **Keep it** button to convert it from a
-    Copilot draft to a Word document.
+8\. Copilot
+がより詳細な情報を含む新しいサマリーを再生成し終えたら、結果を確認します。以前のサマリーと現在のサマリーを比較してみましょう。各領域における集計結果を裏付けるために、レポートから具体的な財務指標が表示されている点に注目してください。
+![](./media/image70.png)
 
-    ![](./media/image65.png)
+9\. 様々な定義済みプロンプトを試して、Copilot
+で集計結果を改善できる点を確認してください。
 
-18. Review the document. Once you're satisfied with it, you can either
-    discard the document or save it to your OneDrive for future
-    reference.
+10\. 要約には満足していますが、過去 5
+年間の会社の業績に関する明確な見解を確認したいとします。次のプロンプトを入力し、送信アイコンを選択してください。
 
-19. Close this tab in your Microsoft Edge browser.
+++この文書の情報に基づいて、Adatum の過去 5
+年間の財務実績をどのように評価しますか？改善していますか、それとも悪化していますか？++
+![](./media/image71.png)
 
-## Exercise #4: Summarize financial results using Copilot in Word
+![](./media/image72.png)
 
-In the previous exercise, you used Copilot in Word (based on a file you
-attached in the promptto analyze) a table of data and then create a
-report that summarized the information in that file. In this exercise,
-you open a file containing a table with five years of financial results
-for a company, and you ask Copilot in Word (within the Copilot pane of
-the file) to summarize the financial results that appear in the table.
+11\.
+結果を確認します。次に、パフォーマンスが低い、対処が必要な領域があるかどうかを確認します。次のプロンプトを入力し、送信アイコンを選択します。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+++パフォーマンスが低い、対処が必要な領域はありますか？++
+![](./media/image73.png)
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-   
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Adatum 5 Year Financial Results.docx** to your **OneDrive**.
+12\. 結果を確認します。Copilot を使用して、会社の過去 5
+年間の財務実績を分析しました。また、会社の収益性を向上させるために注力すべき業務領域を特定しました。
 
-    **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
+13\. この集計結果を、現在開いている Word 文書に保持します。Copilot
+ペインで、詳細な指標を含む完全な集計結果が表示されているウィンドウまで上にスクロールします。ウィンドウの下部にある「Copy」ボタンを選択します。文書内の表の下にカーソルを置き、クリップボードの内容を貼り付けます
+(Ctrl+V)。
+![](./media/image74.png)
 
-    ![](./media/image66.png)
+14\.
+会社の業績が好調か不調かを示すウィンドウと、改善が必要な領域を示すウィンドウの両方で、前の手順を繰り返します。これで、今後の参考のためにドキュメント内のすべての情報が取得されました。
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+15\. Microsoft Edgeブラウザで、このWord文書を含むタブを閉じます。
 
-4.  On the **Microsoft 365** navigation pane, select **Microsoft Word**. Open the **Adatum 5 Year Financial
-    Results.docx** file that you uploaded to your **OneDrive**.
+**概要:**
 
-5.  On the **Microsoft Word** ribbon, select **Copilot**.
+このラボでは次のことが行えます。
 
-6.  In the **Copilot** pane that appears, several predefined tasks
-    appear towards the top. You want Copilot to summarize the contents
-    of the Adatum 5 Year Financial Results document, so select
-    the **Summarize this doc** tile.
+•
+OutlookでCopilotを使用し、ベンダーへのプロフェッショナルなメールを作成しました。
 
-    ![](./media/image67.png)
+•
+ExcelでCopilotを使用し、マーケティングデータを分析し、データを視覚化するグラフを作成しました。
 
-    ![](./media/image68.png)
+•
+WordでCopilotを使用し、包括的なマーケティングキャンペーンレポートを作成しました。
 
-6.  Review the results. In doing so, you would like to see Word add more
-    details to support the summation that it provides for each area. You
-    can either request that it do so in a prompt, or you can take
-    advantage of the predefined tasks that Word displays above the
-    prompt field. If an **Include more details in the summary** prompt
-    appears, then select it now. Otherwise, select the **Refresh** icon
-    that appears above the prompt field. Keep selecting
-    the **Refresh** icon until you either see this prompt or something
-    similar, and then select it. However, if the predefined prompts
-    recycle through and start repeating themselves and this **Include
-    more details in the summary** prompt doesn't appear, then enter this
-    request in the prompt field.
-
-    ![](./media/image69.png)
-
-7.  Once Copilot finishes regenerating a new summary with more details,
-    review the results. Compare the previous summary to the current one.
-    Notice how Copilot displayed specific financial metrics from the
-    report to support its summation in each area.
-
-    ![](./media/image70.png)
-
-8.  Try out different predefined prompts to see what else Copilot can do
-    to improve its summation.
-
-9.  While you're satisfied with the summary, you want to see a
-    definitive statement on how the company has been performing over the
-    past five years. Enter the following prompt and select
-    the **Send** icon:
-
-    ++**Based on the information in this document, how would you rate
-    Adatum's financial performance over the past five years? Is it getting
-    better or worse**?++
-
-    ![](./media/image71.png)
-
-    ![](./media/image72.png)
-
-10. Review the results. You now want to see if there are any poorly
-    performing areas that need attention. Enter the following prompt and
-    select the **Send** icon:
-
-    ++**Is there any area that's performing poorly that should be
-    addressed**?++
-
-    ![](./media/image73.png)
-
-11. Review the results. You used Copilot to analyze the company's prior
-    five years of financial results. You also identified the areas of
-    your operation that you must focus on to improve the company's
-    profitability.
-
-12. You want to retain this summation into the current document that’s
-    open in Word. In the Copilot pane, scroll up to the window showing
-    the complete summation that contains the detailed metrics. At the
-    bottom of the window, select the **Copy** button. Place your cursor
-    below the table in the document and paste in the contents of the
-    clipboard (**Ctrl+V**).
-
-    ![](./media/image74.png)
-
-13. Repeat the previous step for both the window that indicates whether
-    the company is doing better or worse, and the window that shows the
-    area that needs improvement. You have now captured all the
-    information in the document for future reference.
-
-14. Close the tab in your Microsoft Edge browser containing this Word
-    document.
-
-## Summary:
-
-In this lab you:
-
-- Drafted a professional email to vendor using Copilot in Outlook.
-
-- Analyzed marketing data and created charts to visualize the data using
-  Copilot in Excel
-
-- Developed a comprehensive marketing campaign report using Copilot in
-  Word
-
-- Summarized financial results of a company to provide clear and concise
-  overview for stakeholders.
+• 会社の財務結果を要約し、関係者に明確かつ簡潔な概要を提供しました。
