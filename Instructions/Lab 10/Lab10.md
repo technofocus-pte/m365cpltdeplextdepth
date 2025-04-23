@@ -3,8 +3,7 @@
 ## エクササイズ1: Natural Languageを使用してエージェントを作成する
 
 1\. ブラウザを開き、+++https://copilotstudio.microsoft.com/+++
-にログインします。そのページにまだアクセスしていない場合は、\[Resources\]
-タブの資格情報を使用してログインします。
+にログインします。そのページにまだアクセスしていない場合は、\[Resources\] タブの資格情報を使用してログインします。
 ![](./media/image1.png)
 
 2\. すでに Copilot Studio
