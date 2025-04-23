@@ -1,508 +1,259 @@
-# Lab 06: Empower your workforce – Copilot – HR
+**實驗 06：使用 Copilot Pages 增強團隊協作和內容創建**
 
-## Objective:
+**目標：**
 
-With Copilot for Microsoft 365 HR professionals can streamline their
-workflow and enhance their productivity in their core business processes
-such as recruitment, onboarding, performance management, employee
-engagement and compliance management.
+在本實驗室中，你將使用 **Microsoft 365 應用**版中的 Microsoft Copilot 來
 
-In this lab, you will use:
+- 生成和編輯內容。
 
-- Copilot in Word to create a job description for a new role.
+- 使用 **Microsoft 365 Pages** 功能優化和增強生成的內容。
 
-- Copilot in Word to analyze multiple resumes and provide a report
-  comparing the strengths and weaknesses of each candidate, rank the
-  candidates from most qualified to least, and make a recommendation.
+- 與團隊共享和協作 **Microsoft 365 Pages**，實現無縫生產力。
 
-- Copilot in Loop to create a set of interview questions for
-  interviewing candidates for this role.
+- 從 **Microsoft 365** 中的頁面模塊重新訪問和管理頁面。
 
-## Exercise #1: Create a job description using Copilot in Word
+**場景：**您是 Fabrikam 的 IT 諮詢團隊的一員。Trey Research
+是一家快速發展的製藥研究公司，已尋求有關實施虛擬專用網絡 （VPN）
+的指導，以改善其員工和合作夥伴的安全遠程訪問。Trey Research
+的業務遍及全球，需要可擴展的解決方案來保護敏感的研究數據，同時確保符合行業法規。
 
-As the HR Manager at Graphic Design Institute, you started the hiring
-process for a new Senior Animation Designer. Your staff created a
-document that outlines all the job responsibilities for this role. In
-this exercise you will use Copilot in Word to create a job description
-based on the role responsibilities in this document.
+您的任務是提供一份執行概述文檔，其中總結了 Trey Research 的 VPN
+要求、潛在解決方案以及採用 Contoso 建議的 VPN 體系結構的主要優勢。
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+**在實驗中要探索的主要功能：**
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it. 
-    
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Graphic Design
-    Institute - Design Team** document to **OneDrive**
+- **持久內容：** 瞭解 Copilot Pages 如何讓您使 AI
+  生成的響應更加持久和可編輯。
 
-    **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
-    
-    ![](./media/image1.png)
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-  
-4.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://www.office.com+++
+- **協作編輯：**觀察團隊成員與內容交互時的實時變化，演示多人遊戲功能。
 
-5.  In **Microsoft 365** home page, select **Microsoft Word**,and then open a blank
-    document.
+- **使用“/”菜單構建內容：**使用**“/”菜單**添加不同的內容類型，如標題、表格和圖像，幫助有效地構建文檔。
 
-6.  In the **Draft with Copilot** window, enter the following prompt,
-    but don't select the **Generate** button until after you link the
-    responsibilities file to the prompt in the next step:
+**注意：**您將使用 **Trey Research - VPN Technical Overview** 文檔作為
+Trey Research 共享的參考文檔。
 
-    ++**I'm the HR Manager at the Graphic Design Institute. We've currently
-    started the hiring process for a new Senior Animation Designer. Please
-    review the attached document that outlines the job responsibilities
-    for this role and create a job description based on those
-    responsibilities**.++
+**練習 \#1：創建 Copilot 頁面**
 
-7.  You now must attach to the prompt the **Graphic Design Institute -
-    Design Team Responsibilities.docx** file that you downloaded. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if
-    the **Graphic Design Institute - Design Team
-    Responsibilities.docx** file appears in the list of files, select
-    it.
+Trey Research 共享的參考文檔包含有關 Trey Research 運營、現有 IT
+基礎設施和 VPN
+需求的關鍵信息。作為基礎設施解決方案顧問，您將參考此文檔來起草提案。
 
-    ![](./media/image2.png)
+**任務 1：獲取最近使用的 （MRU） 文件列表中列出的參考文檔。**
 
-8.  Select **Browse files from cloud**, select the file from
-    the **Recent** file list, and then select the **Attach** button. If
-    the file doesn't appear in the **Recent** file list, select **My
-    files** at the top of the navigation pane in the **Pick a
-    file** window, navigate to the folder where you stored the file,
-    select the file and then select **Attach**.
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它; 否則，請打開一個新選項卡並輸入以下
+    URL：+++ 以轉到 Microsoft 365 主頁。
 
-    ![](./media/image3.png)
+**注意：**您需要使用下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）**  
+Resources** （資源） 選項卡。
 
-9.  Note how the file is displayed in the prompt and
-    select **Generate**.
+2.  在 **Microsoft 365** 導航窗格中，選擇 **OneDrive** 將其打開。
 
-    ![](./media/image4.png)
+![](./media/image1.png)
 
-10. Review the first draft of the job description document.
+3.  瀏覽到 **C：\LabFiles** 文件夾，選擇 **Trey Research - VPN Technical
+    Overview** 文檔的副本並將其上傳到 **OneDrive**。
 
-    ![](./media/image5.png)
+**注意：**如果您已按照**準備實驗室執行**部分中的建議將所有實驗室資產上傳到
+**OneDrive**，則可以跳過此步驟。
 
-11. You note that it doesn't include many of the details found in the
-    job responsibilities document. Instead, it provides a summarized
-    sentence or two for each responsibility. To correct this
-    shortcoming, enter the following prompt and select the forward
-    arrow:
+4.  打開並關閉文件 **Trey Research - VPN Technical
+    Overview.docx**（您上傳到的文件）  
+    OneDrive） 將其放入最近使用的 （MRU） 文件列表中。
 
-    ++**While this job description draft is a good start, you failed to
-    include most of the details found in the job responsibilities
-    document. Please try again, and this time outline each responsibility
-    area and select the responsibilities required of a Senior Animation
-    Designer**.++
-    ![](./media/image6.png)
+**任務 2：訪問 Copilot 並開始對話**
 
-12. Review the second draft.
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它; 否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/) 以轉到
+    **Microsoft 365** 主頁。
 
-    ![](./media/image7.png)
+2.  在 **Microsoft 365** 導航窗格中，選擇 **Teams** 將其打開。
 
-13. Again, you feel that Copilot should provide more details. Enter the
-    following prompt to see if you can get it to be more specific:
+![](./media/image2.png)
 
-    ++**This job description draft is better, but it still lacks the details
-    that I'm looking for. The job responsibilities document outlined
-    detailed responsibilities for each area. Include those details in this
-    job description. Be as specific as you can**.++
+請稍候，等待設置過程完成。
 
-14. After reviewing the results, you're reminded of the saying, "Be
-    careful what you wish for" The list of responsibilities in this
-    third draft is long; in fact, maybe too long for a workable job
-    description document. At this point, you want to review the previous
-    drafts to see if the earlier ones are maybe preferable to this
-    longer one. In the Copilot window, just above the prompt field, note
-    the draft of the current version of the document. In this case,
-    you're on draft 3 of 3. To review an earlier draft, select the
-    backward arrow (\<) to go back to the second and then first drafts.
-    Use the forward arrows (\>) to go back to the latest drafts.
+3.  選擇 \*\*Chat\*\* 並打開 \*\*Copilot\*\*
 
-    ![](./media/image8.png)
+![](./media/image3.png)
 
-    ![](./media/image9.png)
+4.  輸入以下提示，開始與 **Copilot** 聊天。
 
-    In this case, go back to the second draft. Review the list of
-    responsibilities again. While it's not as extensive as the list in the
-    third draft, it looks cleaner and still provides sufficient
-    information for a job candidate to understand what is expected of them
-    in this Senior Animation Designer role. You decide that the second
-    draft is preferable to the final draft, so you elect to use this one.
-    In the Copilot window, select the **Keep it** button.
+++Create a summary of the key VPN needs for Trey Research, focusing on
+secure remote access and compliance with industry standards.++
 
-15. You're ready to move forward with this job description document, so
-    save it to your OneDrive account with the file name of **Graphic
-    Design Institute - Job descriptions.docx.**
+注意：在 **Copilot** 頁面上，在頁面頂部的 **Work/Web**
+切換開關中，默認情況下將選擇 **Work**。
 
-    ![](./media/image10.png)
+![](./media/image4.png)
 
-    <span class="mark">**Note:** It's important that you save this
-    document since you will be using it in the next exercise.</span>
+5.  現在，您將附上 Trey Research
+    共享的參考文檔，以開始起草執行摘要的內容。選擇 **Attach** （Paper
+    clip） 圖標以引用文檔。
 
-## Exercise #2: Analyze resumes and make a recommendation using Copilot in Word
+![](./media/image5.png)
 
-In the previous exercise, you learned how Copilot in Word can assist HR
-professionals in crafting a job description. In this exercise, you will
-learn how you can automate the initial stages of the resume screening
-process to quickly identify the most suitable candidates from large
-pools of applicants.
+6.  選擇文檔 **Trey Research – VPN Technical Overview**。
 
-<span class="mark">**Note**: When you ask Copilot to generate a document
-or apply some type of change, it may sometimes start to display the
-draft and then stop. If this situation happens to you, select
-the **Regenerate** button to have it generate a new draft, or rephrase
-your prompt and try again.</span>
+![](./media/image6.png)
+
+**注意：**如果文件未在彈出列表中列出，請選擇 **Attach** 圖標
+
+7.  您將在 **提示** 框。單擊 **Send** 圖標以觸發 Copilot 開始生成內容。
+
+![](./media/image7.png)
+
+8.  Copilot 將梳理參考文檔並開始生成內容。
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+9.  Copilot 完成生成草稿內容後，您將在生成的內容末尾看到“**Edit in
+    Pages**”按鈕。
+
+![](./media/image10.png)
+
+10. 聊天中會自動添加對這個新 **Copilot 頁面**的引用，以便於訪問。
 
 ![](./media/image11.png)
 
-As the HR Manager at Graphic Design Institute, you started receiving
-resumes from probable candidate for a new Senior Animation Designer
-position based on the job posting on the web and the company's internal
-employee website. You will now use Copilot in Word to screen a batch of
-resumes that you received for the role and provide a recommendation as
-to which of the candidates qualifies for a job interview.
+**任務 3：瀏覽頁面功能**
 
-At the end of the previous exercise, you saved the job description file
-that you created. You were instructed to save the file as **Graphic
-Design Institute - Job descriptions.docx**. If it is saved with a
-different file name, then remember the name that you used so that you
-can locate the file in this exercise.
+1.  您可以根據需要重命名聊天。
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new          tab and enter the following URL: +++https://www.office.com+++
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+![](./media/image12.png)
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
+**注意：**Copilot 聊天名稱不能超過 30 個字符。
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of the following documents to **OneDrive**,
-    - **Resume - Patti Fernandez**
-    - **Resume - Nestor Wilke**
-    - **Resume - Holly Dickson**
-    - **Resume - Alex Wilber** .
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
-    
-5.  In this exercise, you access the documents from the Most Recently
-    Used (MRU) file list. To get the files to appear in the MRU list,
-    open each document and then close it. Open and close each of the
-    four resume files in your OneDrive.
+![](./media/image13.png)
 
-    [](./media/image12.png)
+2.  您可以單擊**Panel** （折疊/展開）圖標以展開 Copilot
+    聊天窗格，以騰出空間來查看單獨部分中的內容。驗證頁面是否在右側與聊天窗格並排打開。響應會自動複製並格式化，包括任何鏈接預覽或代碼塊。
 
-6.  On the **Microsoft 365** navigation pane, select **Microsoft Word**, and then open a new
-    blank document.
+![](./media/image14.png)
 
-7.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt, but don't submit the
-    prompt just yet. You must attach the files to the prompt in the next
-    step:
+3.  單擊 **Edit in Pages** 按鈕，在右側的單獨部分中查看生成的內容。
 
-    ++**I'm the Hiring Manager for Graphic Design Institute. We're hiring
-    for the position of Senior Animation Designer. Please create a report
-    that compares the attached resumes to the requirements for a Senior
-    Animation Designer in the attached job description file and rank the
-    candidates from most qualified to least qualified. Thank you**!++
-    
-    ![](./media/image13.png)
+![](./media/image15.png)
 
-6.  You now must attach to the prompt the **Graphic Design Institute -
-    Job descriptions.docx** file that you saved to your OneDrive account
-    at the end of the prior exercise. In the **Draft with
-    Copilot** window, select the **Reference your content** button. In
-    the drop-down menu that appears, if the job description file appears
-    in the list of files, select it. Otherwise, select **Browse files
-    from cloud**, locate the job description file that you saved to your
-    OneDrive account in the prior exercise, and then select
-    the **Attach** button. Note how the file is displayed in the prompt.
+![](./media/image16.png)
 
-7.  Repeat the prior step for each of the four resumes that you
-    downloaded. Note what happens when you attempt to attach the third
-    resume. Copilot displays a message indicating that you can only
-    include up to three files to a prompt. Since you had to include the
-    job description file that provides Copilot with the job
-    requirements, you can only submit two of the resumes with this
-    initial prompt.
+**練習 \#2：在頁面上添加和優化內容**
 
-    ![](./media/image14.png)
+在本練習中，您將在聊天中繼續與 Copilot 互動。生成新分析後，單擊 **Edit
+in Pages** （在 Pages 中編輯）
+以將其添加到當前頁面。這些更新將附加到頁面底部（您正在聊天窗格右側查看）
 
-8.  Since you attached the job description file and the first two
-    resumes to the prompt, select **Generate**. At this point, Copilot
-    extracts the pertinent information from the job description file and
-    the first two resumes and creates a Resume Comparison report. At
-    this point, you're in Copilot draft mode.
+**任務 1：在 Chat 中繼續對話**
 
-9.  Review the results of this first draft.
+1.  在聊天窗口中，提供進一步的說明以優化內容。現在您將要求 Copilot
+    比較三種 VPN 技術，重點關注它們與 Trey Research
+    需求相關的優缺點。輸入以下提示，然後單擊 **Send**。
 
-    ![](./media/image15.png)
+++Compare three VPN technologies based on scalability, security, and
+cost-effectiveness.++
 
-    **Note**: Take a look at the **Draft with Copilot** window and note
-    that it doesn't include an **Attach** button. Once you're in draft
-    mode like you currently are, Copilot doesn't allow you to attach any
-    more files to subsequent prompts. You can use the prompt field to
-    modify the document, but you can no longer attach another file. Keep
-    this requirement in mind as you proceed through the next steps. This
-    current draft only compares the first two resumes. To compare the
-    remaining two resumes to the two that are in the current draft, you
-    must keep a draft of this report, and then create a second report that
-    compares the two remaining resumes to the document that you just
-    created.
+![](./media/image17.png)
 
-10. You're now looking at the first draft of the report that compares
-    the first two resumes to the job description file. Copilot gives you
-    the ability to regenerate however many drafts you want until you
-    find one that you prefer. Even if you think this first draft looks
-    okay, select the **Regenerate** button in the **Draft with
-    Copilot** window to have Copilot create a second draft.
+**注意：**您也可以嘗試使用以下提示進行作。
 
-    ![](./media/image16.png)
+++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
+VPN, IPsec VPN) based on scalability, security features, ease of
+deployment, and cost.++
 
-11. When regenerating, you may come across the “Something went wrong”
-    error message. Dismiss and try regenerating the comparison report
-    until you get the regenerated report.
-
-
-12. Review the second draft that Copilot created. In the real world, you
-    can repeat this process until you're satisfied with a specific
-    draft. If you want to go back to a previous draft to compare it to a
-    more recent draft, select the forward (\>) and backward (\<) arrows
-    to go back and forth through the drafts. Compare the two drafts that
-    you created and make sure the one you prefer is displayed (it will
-    either be **1 of 2** or **2 of 2**). When you find a draft that you
-    want to use, select the **Keep it** button.
-
-    ![](./media/image17.png)
-
-    **Note**: When you select **Keep it**, Copilot moves from draft mode
-    into normal Microsoft Word mode. It also automatically saves
-    the **Report Comparison** document to your OneDrive account.
-
-13. You're now ready to have Copilot review the final two resumes.
-    However, as the earlier step indicated, you must compare the
-    remaining two resumes to the **Report Comparison** document that you
-    just created that compared the first two resumes. To do so, you must
-    open a new Word document. Since you're still in the **Word** tab in
-    your browser with the current **Report Comparison** document being
-    displayed, select **File** in the menu above the **Word** ribbon,
-    and then on the **Home** page, select **Blank document** under
-    the **New** section. Doing so opens a new tab in your browser along
-    with a new Word document.
-
-14. In the **Draft with Copilot** window, enter the following prompt,
-    but don't submit it. You must attach the remaining two resume files
-    and the first **Report Comparison** report to the prompt in the next
-    step:
-
-    ++**That was a good start. Please create a report that compares the
-    attached resumes to the prior resume comparison report (attached) and
-    rank the candidates from most qualified to least qualified. Thank
-    you**!++
-
-15. You now must attach the report that you just created that compared
-    the first two resumes, along with the remaining two resumes. After
-    entering the prompt in the prior step, select the **Reference your
-    content** button in the **Draft with Copilot** window. In the
-    drop-down menu that appears, the **Report Comparison of
-    Resumes** document that you created should appear at the top of the
-    file list. Select this document.
-
-16. In the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, you need to
-    attach one of the remaining two resumes. If you see one of the files
-    in the file list, then select it. Otherwise, select **Browse files
-    from cloud**, locate one of the remaining two resumes (you should
-    see it if you scroll through the **Recent** file list), select it,
-    and then select the **Attach** button. Repeat this process to select
-    the final remaining resume.
-
+2.  Copilot
+    將通過比較詳細信息生成新的見解。 
     ![](./media/image18.png)
-
-17. Once you have the first Report Comparison report and the remaining
-    two resumes attached to the prompt, select the **Generate** button
-    in the **Draft with Copilot** window.
-
-    **Note**: When generating comparison reports with successive resumes,
-    you may come across the “Something went wrong” error message. Dismiss
-    and try generating the comparison report until you get the report.
-
-18. Copilot should compare the first two resumes and the final two
-    resumes and provide a rank list of the candidates. At this point,
-    you could regenerate a new draft or ask Copilot to make any changes.
-    For this training exercise, you decide you're satisfied with the
-    report, so select the **Keep it** button.
 
     ![](./media/image19.png)
 
-19. At this point, Copilot generated two Report Comparison documents,
-    the second of which is the final report comparing all four
-    candidates. Keep this scenario in mind if you must do something
-    similar in the real-world using Copilot in Word. You can close this
-    tab in your Microsoft Edge browser.
+3.  單擊 **Edit in Pages**
+    將此比較詳細信息附加到現有頁面。 
+   ![](./media/image20.png)
 
-## Exercise #3: Create interview questions using Copilot in Loop
+**任務 2：直接在頁面上編輯**
 
-With Copilot in Loop, you can create workspaces and pages, use
-intelligent search and templates to add relevant content, and share your
-work with others. Copilot in Loop can suggest ideas and help start
-projects, making it easier to get going when you find yourself stuck. It
-can draft texts, create tables, and even answer questions quickly.
-
-Copilot in Loop can assist HR professionals through many aspects of the
-HR experience - from the hiring process, to managing employees, to
-handling important documents, to managing internal communications.
-
-In this exercise, you will use Copilot in Loop to help with the hiring
-process for a new role. While you used Copilot in Word in the previous
-exercise to screen resumes, you will use Copilot in Loop to create a
-list of interview questions for the top candidates. During this
-exercise, you can check whether Copilot in Loop can amend the list of
-questions based on your direction.
-
-1.  If you have **Microsoft 365** open in a tab, then proceed to the
-    next step. Otherwise, open a new tab in your **Microsoft
-    Edge** browser, and then enter the following
-    URL: +++https://www.office.com+++https://www.office.com/)
-
-2.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on the **Apps** page,       scroll down to locate **Loop** and then select it.
-
-    ![](./media/image20.png)
-
-3.  If you see the **Sign-in** button, sign-in using the user
-    credentials.
-
+1.  單擊頁面上的任意位置以開始鍵入和優化內容。鍵入 “**/**”
+    以打開內容選項菜單，例如標題、項目符號、表格或圖像，以獲得更結構化和引人入勝的佈局。 
     ![](./media/image21.png)
 
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
-
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
-
+2.  將鼠標懸停在內容塊上，然後選擇 Kebab 菜單（平行數組中的 3 個垂直點 -
+    類似於串燒項目）以查看 Copy Page link、Move 塊和 Delete 選項。 
     ![](./media/image22.png)
 
-5.  In the **Create a new workspace** window, enter **Interview
-    questions** for your workspace name, and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
+**任務 3：與團隊成員協作**
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+1.  當您的頁面準備好供團隊輸入時，單擊右上角的 **Share 圖標**，然後選擇
+    “**Copy component**” 。
 
-7.  You're now in the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to: **15 interview questions for the Senior Animation Designer
-    role**. Note how the page name is automatically updated in the
-    navigation pane.
+![](./media/image23.png)
 
-    ![](./media/image23.png)
+2.  將此鏈接粘貼到 **Teams 頻道**或 **Outlook**
+    電子郵件中，以允許團隊成員訪問該頁面並與您協作。
 
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
+**注意：**此實驗室環境在部署時功能受限。因此，您將無法以協作方式使用
+Teams 和 Outlook，否則您將無法在公司網絡中進行。
 
-    ![](./media/image24.png)
+**練習 \#3：重新訪問和訪問已保存的頁面Pages**
 
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
+您可以隨時返回到首次創建 Copilot 頁面鏈接的原始聊天消息。
 
-10. In the **Copilot** window that appears, enter the following prompt
-    and select the **Submit** icon:
+**任務 1：在 Microsoft365.com 中找到您的頁面**
 
-    ++**Create a list of the 15 best interview questions that should be
-    asked to candidates applying for a new Senior Animation Designer role
-    at the Graphic Design Institute**.++
+1.  轉到 **Microsoft365.com** 上的 **Pages** 選項卡。
 
+![](./media/image24.png)
+
+2.  在這裡，您將看到您創建的所有 **Copilot
+    頁面**，這些頁面經過組織以便於訪問。 
     ![](./media/image25.png)
 
-    <span class="mark">**Note**: Sometimes, you may not see the
-    **Copilot** window with Create, Brainstorm, Blueprint and Describe
-    options. If you are experiencing such exceptions, close the workspace
-    and try once again.</span>
+**任務 2：進行其他編輯或共享更新**
 
-11. Review the list of questions.
+打開已保存的頁面以進行進一步編輯、添加更新或重新共享頁面鏈接，以便與新的或現有的團隊成員繼續協作。
 
-    ![](./media/image26.png)
+1.  當您將鼠標懸停在文本內容上時，您將看到 **Kebab** 菜單和 **Chat**
+    圖標**\*\***。
 
-12. You feel this initial list is a good start, but you notice a few
-    types of questions are missing. In the Copilot pane that appears,
-    enter the following prompt:
+![](./media/image26.png)
 
-    ++**Add a question about having failed at a project and what they
-    learned from it**.++
-    
-    ![](./media/image27.png)
+2.  現在直接編輯頁面。單擊頁面並鍵入以添加或更改內容。現在，您將輸入以下提示（以插入描述
+    VPN 採用率的圖表），然後單擊 **Send**。
 
-13. Review the new question that Loop created.
+++Insert a chart showing VPN adoption rates in pharmaceutical
+industries.++
 
-    ![](./media/image28.png)
+![](./media/image27.png)
 
-14. After scanning the list one last time, you realize that it includes
-    few, if any questions about leadership. To correct this situation,
-    enter the following prompt:
+3.  Copilot 將生成並顯示帶有代碼片段的圖表。
 
-    ++**As a Senior Animation Designer, the candidate is expected to lead
-    their design team on projects. Ask them to talk about a couple of
-    their most significant experiences in leading other design team
-    members, and what their leadership style is**.++
-    
-    ![](./media/image29.png)
+![](./media/image28.png)
 
-15. Note what happened in Loop. When you request a change without
-    specifically asking it to update the current page, Copilot may open
-    a new page and make the change there rather than in the current
-    page, as it did in the prior prompt. When it does so, note how in
-    the Copilot pane it tracks the prompts, with the most recent prompt
-    appearing at the top of the pane.
+4.  關閉 **Copilot 聊**天窗口，然後選擇 **Preview** 以繼續。 
+    <![](./media/image29.png)
 
-    Select a previous prompt. Note how the content on the page appears in
-    a lighter font. Also attempt to select the **Rewrite with
-    Copilot** prompt field. Copilot disables this field since it's not the
-    current page. The current page is also referred to as the active page.
-    Now select the latest prompt and note how the content is clear,
-    indicating this page is the current, or active page. You can only
-    amend the active page, which is why on this page, you can select into
-    the **Rewrite with Copilot** prompt field.
-    
-    ![](./media/image30.png)
+5.  現在，您將完成草稿，為 Trey Research 的領導團隊做好準備。
 
-16. Let's make one more change. You're unsure as to whether the current
-    list of questions is sufficient. To play it safe, you decide to ask
-    Copilot in Loop to recommend some more questions. Enter the
-    following prompt:
+您將使用以下提示完成文檔。
 
-    ++**Are there any other questions that you think should be added to the
-    list**?++
+++Format the executive summary to highlight the top three benefits of
+Contoso’s VPN recommendation.++
 
-17. Note the final list of questions that Copilot in Loop generated.
+![](./media/image30.png)
 
-    ![](./media/image31.png)
+![](./media/image31.png)
 
-18. You now have a vast assortment of questions to choose from when
-    interviewing your candidates. And with Loop, you know that others on
-    your HR team can see these questions in real-time on the same Loop
-    component, even if they're using different apps and devices.
+6.  您將使用以下提示完成文檔。您將確保所有編輯都已完成，並使用適當的名稱保存頁面，以便進行演示或共享。
 
-## Summary:
+**總結：**
 
-In this lab, you:
+在本實驗中，您應用了以下技能：
 
-- Created a a job description for a new role in your organization using
-  Copilot in Word.
+- 使用 Copilot 有效地創建、優化和共享內容。
 
-- Analyzed multiple resumes and generated a report comparing the
-  strengths and weaknesses of each candidate, rank the candidates from
-  most qualified to least, and make a recommendation using Copilot in
-  Word.
+- 利用 M365 Pages 的交互式和協作功能來增強團隊合作。
 
-- Drafted a set of interview questions for interviewing candidates for a
-  job role using Copilot in Loop.
+通過將 Microsoft 365 Copilot
+集成到日常工作流程中，以提高生產力和協作，從而實現真實場景。
