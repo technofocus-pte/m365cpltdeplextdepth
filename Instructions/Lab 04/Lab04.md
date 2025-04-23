@@ -1,666 +1,574 @@
-# Lab 04: Empower your workforce – Copilot – Marketing
+**實驗室 04：增強您的員工能力 – Copilot – 營銷**
 
-## Objective:
+**目的：**
 
-Marketing professionals can utilize Copilot for Microsoft 365 to
-generate content for their campaigns, improve productivity, get insights
-into their campaigns, collaborate more effectively and automating
-repetitive tasks such as formatting, adding charts and graphs, and even
-proofreading documents.
+Microsoft Copilot（在 Bing 中）是一種 generative AI 服務，僅基於
+Microsoft Bing 搜索索引中來自公共 Web 的數據。它無權訪問 Microsoft 365
+Graph 中的組織資源或內容。
 
-In this lab you will use:
+作為 Tailspin Toys
+的市場研究總監，您希望對玩具行業進行市場分析，以提供給公司的高級領導團隊
+（SLT）。您的目標是確定市場上的最新趨勢、消費者偏好和最受歡迎的玩具。
 
-- Microsoft Copilot (Bing/Web mode) to analyze market trends, provide
-  sales forecasts, and identify new sales opportunities.
+在本練習中，您將利用必應中的 Microsoft Copilot 聊天功能。使用 Microsoft
+Copilot
+時，在製作提示時提供上下文和資源非常重要。響應的質量取決於您如何通過遵循提示並選擇正確的對話風格（More
+Creative、More Balanced 或 More Precise）來製作請求。
 
-- Copilot in Loop to generate marketing campaign ideas for a new product
-  line.
+1.  在 **Microsoft Edge** 中，打開一個新選項卡並輸入以下
+    URL： +++[**https://bing.com+++**](https://bing.com+++/)
 
-- Copilot in Word to combine multiple marketing reports.
+2.  在 **Microsoft Bing** 中，在頁面頂部的選項卡列表中，選擇
+    **Copilot**。這樣做將打開 Microsoft Copilot。
 
-- Copilot in Excel to analyze market trends in a spreadsheet.
+![](./media/image1.png)
 
-## Exercise #1: Conduct market analysis using Microsoft Copilot
+**注意：**
+如果您在頁面頂部沒有看到標簽頁列表，請按照以下步驟查看標簽頁列表。
 
-Microsoft Copilot (within Bing) is a generative AI service grounded in
-data from the public web in the Microsoft Bing search index only. It
-doesn't have access to organizational resources or content within the
-Microsoft 365 Graph.
+- 確保您已使用 **Microsoft 365 憑據**（位於 **Resources** （資源）
+  選項卡下） 登錄。
 
-As the Director for Market Research at Tailspin Toys, you want to
-conduct a market analysis of the toy industry to provide to the
-company's Senior Leadership Team (SLT). Your goal is to identify the
-latest trends, consumer preferences, and the most popular toys in the
-market.
+![](./media/image2.png)
 
-In this exercise you will utilize the Microsoft Copilot chat
-functionality in Bing. When you use Microsoft Copilot, it's important to
-provide context and resources when you craft your prompts. The quality
-of the response is a function of how you craft the request by following
-the tips and choosing the right conversation style (either More
-Creative, More Balanced, or More Precise).
+- 啟用選項 **Show menu bar** （以紅色高亮顯示）
 
-1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: +++https://bing.com+++
+![](./media/image3.png)
 
-2.  In **Microsoft Bing**, in the list of tabs across the top of the
-    page, select **Copilot**. Doing so opens Microsoft Copilot.
+![](./media/image4.png)
 
-    ![](./media/image1.png)
+3.  現在選擇 **Copilot**。這樣做將打開 Microsoft Copilot。
 
-3.  On the **Copilot** page, note the toggle switch at the top of the
-    page that allows you to select either **Work** or **Web**. While
-    your request is a work-related task, you need Copilot to access the
-    Web to conduct its market analysis of the Toy industry. If
-    necessary, select the **Web** toggle switch.
+![](./media/image5.png)
 
-    ![](./media/image2.png)
+4.  在 **Copilot** 頁面上，請注意頁面頂部的切換開關，該開關允許您選擇
+    **Work** 或 **Web**。雖然您的請求是一項與工作相關的任務，但您需要
+    Copilot 訪問 Web 以對玩具行業進行市場分析。如有必要，請選擇 **Web**
+    切換開關。
 
-4.  Below the list of predefined prompt examples, you can choose a
-    conversation style. Select the **More Balanced** option if it isn't
-    already selected by default.
+![](./media/image6.png)
 
-    ![](./media/image3.png)
+![](./media/image7.png)
 
-5.  In the prompt field, enter the following prompt and then select
-    the **Submit** icon:
+**請注意：** 上一個 Copilot 版本中的對話語氣選擇器 **More Creative -
+More Balanced- More Precise** 在最新版本中被刪除。
 
-    ++**I'm the Director for Market Research for Tailspin Toys, a U.S. based
-    toy manufacturer. Conduct a market analysis of the toy industry to
-    identify sales figures, the latest trends, consumer preferences, and
-    the most popular toys in the market**.++
+5.  在提示字段中，輸入以下提示，然後選擇 **Submit** 圖標：
 
-    ![](./media/image4.png)
+++**I'm the Director for Market Research for Tailspin Toys, a U.S. based
+toy manufacturer. Conduct a market analysis of the toy industry to
+identify sales figures, the latest trends, consumer preferences, and the
+most popular toys in the market**.++
 
-6.  Accept the **Terms of use and policy** to proceed further.
+![](./media/image8.png)
 
-    ![](./media/image5.png)
+6.  查看 Copilot
+    生成的市場分析。您意識到，您提交的常規請求提供了基本信息，例如市場趨勢、消費者偏好和玩具趨勢。但是，您也對收集有關玩具行業的數據感興趣，包括市場份額和消費者反饋。您意識到您在之前的提示中有點太模糊了，因為您沒有請求這些特定信息。您還記得之前培訓中的最佳實踐建議 -
+    保持禮貌並迭代、迭代、迭代。輸入以下提示以修改市場分析：
 
-7.  Review the market analysis that Copilot generated. You realize that
-    a general request such as the one you submitted provides basic
-    information such as market trends, consumer preferences, and toy
-    trends. However, you're also interested in gathering data on the toy
-    industry, including market share and consumer feedback. You realized
-    that you were a little too vague in your prior prompt since you
-    failed to request this specific information. You remember the best
-    practice suggestions from your earlier training - Be polite and
-    iterate, iterate, iterate. Enter the following prompt to amend the
-    market analysis:
+++**That analysis was great. However, I'm also interested in including
+data on the toy industry, including market share and consumer feedback.
+Please amend your prior analysis to include this information.
+Thanks**!++
 
-    ++**That analysis was great. However, I'm also interested in including
-    data on the toy industry, including market share and consumer
-    feedback. Please amend your prior analysis to include this
-    information. Thanks**!++
+![](./media/image9.png)
 
-    ![](./media/image6.png)
+![](./media/image10.png)
 
-    ![](./media/image7.png)
+7.  您意識到自己離目標越來越近了，但仍然缺少一些關鍵信息。在查看之前的提示後，您意識到您向
+    Copilot 提供了總體目標、分析範圍和所需的數據。但是，您未能要求
+    Copilot 分析所有這些信息，以便您可以對 Tailspin Toys
+    來年的商業計劃做出明智的決定。要更正此缺點，請輸入以下提示：
 
-    ![](./media/image8.png)
+++**I think all the data is complete. With all the information that you
+captured, please analyze the data and identify patterns, trends, and
+insights that can help me determine what Tailspin Toy's business plan
+should be for the upcoming year**++
 
-8.  You realize that you're getting closer to your goal, but you're
-    still missing some key information. After reviewing your prior
-    prompts, you realized that you provided Copilot with your overall
-    objective, the scope of the analysis, and the data that you needed.
-    However, you failed to ask Copilot to analyze all this information
-    so that you can make informed decisions on Tailspin Toys’ business
-    plan for the upcoming year. To correct this shortcoming, enter the
-    following prompt:
-
-    ++**I think all the data is complete. With all the information that you
-    captured, please analyze the data and identify patterns, trends, and
-    insights that can help me determine what Tailspin Toy's business plan
-    should be for the upcoming year**.++
-
-    ![](./media/image9.png)
+![](./media/image11.png)
 
-    ![](./media/image10.png)
-
-9.  You really like the information that Copilot provided. However,
-    since this project is your first opportunity to provide a market
-    analysis report to your company's SLT, you're not sure if you're
-    covering everything that might be of interest to them. You decide to
-    have Copilot help you determine if you're missing anything. Enter
-    the following prompt:
+![](./media/image12.png)
 
-    ++**Please analyze the data in this market analysis and business plan.
-    Is there any other information that a toy company would typically
-    request for market analysis and business plans that I failed to
-    request? If so, can you please amend your responses to include this
-    information. Thank you**!++
+8.  您真的很喜歡 Copilot 提供的信息。但是，由於該項目是您向公司的 SLT
+    提供市場分析報告的第一次機會，因此您不確定您是否涵蓋了他們可能感興趣的所有內容。您決定讓
+    Copilot 幫助您確定是否遺漏了任何內容。輸入以下提示：
 
-    ![](./media/image11.png)
+++**Please analyze the data in this market analysis and business plan.
+Is there any other information that a toy company would typically
+request for market analysis and business plans that I failed to request?
+If so, can you please amend your responses to include this information.
+Thank you**!++
 
-    ![](./media/image12.png)
+![](./media/image13.png)
 
-10. Based on the information that Copilot provides, you realize that you
-    can really maximize the effectiveness of your reports by having
-    Copilot include an analysis of these areas. To put the finishing
-    touch on your reports, enter the following prompt:
+![](./media/image14.png)
 
-    ++**Please amend the market analysis to include an analysis of each of
-    these areas for the Toy industry. Also update the business plan that
-    you created for Tailspin Toys based on these insights. Thanks**!++
+9.  根據 Copilot 提供的信息，您意識到通過讓 Copilot
+    包括對這些領域的分析，您可以真正最大限度地提高報告的有效性。要對報表進行最後的潤色，請輸入以下提示：
 
-    ![](./media/image13.png)
+++**Please amend the market analysis to include an analysis of each of
+these areas for the Toy industry. Also update the business plan that you
+created for Tailspin Toys based on these insights. Thanks**!++
 
-    ![](./media/image14.png)
+![](./media/image15.png)
 
-11. The market analysis and business plan that Copilot generated for you
-    was based on a **More Balanced** conversation style. It's ideal for
-    users who want a balance between precision and creativity. This
-    style provides responses that are longer and more descriptive than
-    the **More Precise** style. As for your reports, you wanted longer
-    and more descriptive responses, since you felt that your SLT expects
-    that level of detail. However, you're curious as to how the reports
-    would look using the **More Creative** style. This style provides
-    responses that are more imaginative and creative.
+![](./media/image16.png)
 
-    ![](./media/image15.png)
+10. Copilot
+    為您生成的市場分析和商業計劃基於預定義的對話風格。它非常適合希望在精度和創造力之間取得平衡的用戶。
 
-12. Let's explore how Copilot's responses would be different using
-    the **More Creative** style. Open a new tab in your **Microsoft
-    Edge** browser and enter the following
-    URL: +++https://bing.com+++
+如果您對使用**更具創意**的樣式（更具想像力和創意的響應）的報表外觀感到好奇，您可以調整提示以手動設置語氣或焦點，具體取決於您想要精確、創意還是平衡的輸出：
 
-13. In **Microsoft Bing**, select **Copilot** to open Microsoft Copilot.
+**注意事項：**
 
-14. On the **Copilot** page, you still want to be in **Web** mode, but
-    this time you decide to try the **More Creative** conversation
-    style. Repeat steps 4-10. Copy and paste in each prompt. Pay
-    particular attention to the tone that Copilot uses when responding
-    to each prompt. Also note how each response is different from its
-    corresponding response that was based on the **More
-    Balanced** conversation style.
+- **對於精確響應：**使用清晰、具體且注重細節的提示。表明您需要事實、簡潔的答案，並注重準確性。
 
-## Export a Copilot response
+- **對於創意回答：**使用開放式、探索性或富有想像力的提示。鼓勵集思廣益或在需要原創性的地方提出解決方案。
 
-When you use Microsoft Copilot in Bing to research different things or
-answer different questions, you may decide that a response is so good
-that you want to export it just to save it for future reference. 
+- **對於平衡的回答：**使用適度的開放式提示，要求將事實細節與一些創意相結合。您可以要求提供分析和探索性意見。
 
-1. Select Copy button at the bottom of a prompt response to copy the response and paste the copied response in a text          editor.
+**導出 Copilot 響應**
 
-    ![](./media/image16.png)
+當您在 Bing 中使用 Microsoft Copilot
+研究不同的事物或回答不同的問題時，您可能會認為某個響應非常好，以至於您想要將其保存以備將來參考。 
 
-    If you want to consolidate multiple responses into a single document, you need to manually copy and paste each response     in a text editor.
-   
-## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
+在 Copilot 的最終響應底部，選擇 “**Copy**”
+按鈕以複製響應並將複製的響應粘貼到文本編輯器中。如果要將多個響應合併到一個文檔中，則需要在文本編輯器中手動複製並粘貼每個響應並保存文件。
 
-You can use Copilot in Loop to brainstorm new marketing strategies, plan
-campaigns, and develop content. Copilot in Loop can help you generate
-ideas for blog posts, articles, and other content types. You can input
-topics and desired content style, and Copilot can suggest prompts to
-help you get started.
+**注意：**您將看到一個 **Edit in Pages**
+按鈕，該按鈕提供了更多功能並促進了團隊協作。在本練習中，我們不會使用
+**Edit in Pages**。實驗室 \#06 中包括一個單獨的實驗室練習。
 
-In the previous exercise, Tailspin Toys conducted a market analysis of
-the toy industry. Based on that analysis, the company decided to
-introduce a new line of outdoor toys. As a Marketing Program Manager at
-Tailspin Toys, you are tasked with creating marketing campaigns for this
-new line of toys. In this exercise, you will use Copilot in Loop to
-brainstorm ideas for a marketing campaign targeted at this new product
-line.
+![](./media/image17.png)
 
-1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
+**練習 \#2：在 Loop 中使用 Copilot 集思廣益營銷活動創意**
 
-    ![](./media/image21.png)
+您可以使用 Copilot in Loop
+來集思廣益新的營銷策略、規劃活動和開發內容。Loop 中的 Copilot
+可以幫助您為博客文章、文章和其他內容類型生成想法。您可以輸入主題和所需的內容樣式，Copilot
+可以建議提示以幫助您入門。
 
-2.  In the **Apps** page, scroll down to locate **Loop** and then select
-    it.
+在上一次練習中，Tailspin Toys
+對玩具行業進行了市場分析。基於該分析，該公司決定推出一個新的戶外玩具系列。作為
+Tailspin Toys
+的營銷項目經理，您的任務是為這一新玩具系列創建營銷活動。在本練習中，您將使用
+Copilot in Loop 為針對此新產品線的營銷活動集思廣益。
 
-    **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**
+1.  在 **Microsoft 365** 中，如果它出現在左側導航窗格中，請選擇
+    **Loop**。如果它沒有出現在那裡，請選擇 **Mocrosoft 365**
+    導航窗格上方左上角的 **App Launcher**，
 
-    ![](./media/image22.png)
+![](./media/image18.png)
 
-3.  If you see the **Sign-in** button, sign-in using the user
-    credentials.
+2.  在 **Apps** （應用程序） 頁面中，向下滾動以找到 **Loop**
+    （循環），然後選擇它。
 
-    ![](./media/image23.png)
+**注意：**如果您在 Apps 頁面中沒有看到 **Loop** 列出，請選擇 **More
+apps**
 
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
+![](./media/image19.png)
 
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
+3.  如果您看到 **Sign-in** （登錄） 按鈕，請使用用戶憑證登錄。
 
-    ![](./media/image24.png)
+![](./media/image20.png)
 
-5.  In the **Create a new workspace** window, enter **Outdoor toy line
-    Marketing Campaign** for your workspace name and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
+**注意：**登錄後，關閉 Loop 瀏覽器窗口，然後再次從 Apps 頁面打開 Loop。
 
-    ![](./media/image25.png)
+4.  在 **Microsoft Loop** 中，默認情況下會顯示 **Workspaces**
+    選項卡。要為此項目創建新工作區，請選擇導航菜單左上角的 +，然後選擇
+    **+New workspace** 按鈕。
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+![](./media/image21.png)
 
-    ![](./media/image26.png)
+5.  在 **Create a new workspace** 窗口中，輸入 +++**Outdoor toy line
+    Marketing Campaign** +++ 作為您的工作區名稱，然後選擇出現的
+    **Continue** 或 **Create** 按鈕（取決於您的 Loop 版本）。
 
-7.  You're now on the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to **Ideas for Outdoor toy campaigns**. Note how the page name
-    is automatically updated in the navigation pane.
+![](./media/image22.png)
 
-    ![](./media/image27.png)
+6.  在 **Add files to your workspace** （將文件添加到工作區）
+    窗口中（根據您的 Loop 版本，此窗口可能會顯示 **Workspace
+    Switcher**），選擇 **Create** （創建）。
 
-    ![](./media/image28.png)
+![](./media/image23.png)
 
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
+7.  您現在位於新工作區的第一頁。頁面名稱當前為
+    **Untitled**。請注意，頁面 （Untitled） 也顯示在左側導航窗格中。在  
+    頁面上，選擇 **Untitled** 字段，然後將頁面名稱更改為 +++**Ideas for
+    Outdoor toy
+    campaigns**+++。請注意頁面名稱在導航窗格中的自動更新方式。
 
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
+![](./media/image24.png)
 
-    ![](./media/image29.png)
+![](./media/image25.png)
 
-10. In the **Copilot** window that appears, note the row of buttons that
-    appears below the prompt field. Select each button
-    (**Create**, **Brainstorm**, **Blueprint**, and **Describe**). When
-    doing so, note how it prefills the prompt field with an example of
-    the type of task that Copilot can assist with. Since this exercise
-    deals with brainstorming, select the **Brainstorm** button.
+8.  在 **Just start typing...**字段中，輸入正斜杠 （**/**）。
 
-    ![](./media/image30.png)
+9.  在顯示的下拉菜單中，在菜單頂部的 **Copilot** 部分下，選擇 **Draft
+    page content**。
 
-11. Note how Copilot prefills the prompt field with a brainstorming
-    suggestion. In fact, select the **Brainstorm** button multiple
-    times. Note how it suggests a new brainstorming prompt each time.
-    Copilot loops through seven different brainstorming examples, and
-    then starts back over. The purpose of these examples is to give you
-    an idea as to the eclectic types of things that Copilot can help you
-    brainstorm. For this exercise, enter the following prompt field and
-    select the **Submit** icon:
+![](./media/image26.png)
 
-    ++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
-    toys**.++
+10. 在出現的 **Copilot**
+    窗口中，請注意提示字段下方顯示的一行按鈕。選擇每個按鈕（**Create、Brainstorm、Blueprint**
+    和 **Describe**）。執行此作時，請注意它如何使用 Copilot
+    可以協助的任務類型的示例預填充提示字段。由於本練習涉及頭腦風暴，因此請選擇
+    **Brainstorm** 按鈕。
 
-    ![](./media/image31.png)
+![](./media/image27.png)
 
-12. Review the generated list of ideas. Rather than having all the
-    information in a paragraph or list form, you prefer to summarize it
-    in a table. Plus, you also want Copilot to provide more specific
-    details for each idea.
+11. 請注意 Copilot
+    如何使用頭腦風暴建議預填充提示字段。事實上，請多次選擇
+    **Brainstorm**
+    按鈕。請注意它每次都是如何建議新的頭腦風暴提示的。Copilot
+    循環播放了七個不同的頭腦風暴示例，然後重新開始。這些示例的目的是讓您瞭解
+    Copilot
+    可以幫助您集思廣益的不拘一格的事物類型。對於本練習，請輸入以下提示字段，然後選擇
+    **Submit** 圖標：
 
-    ![](./media/image32.png)
+++**Brainstorm 10 ideas for a marketing campaign for a new line of
+outdoor toys**.++
 
-13. In the **Copilot** pane that appears, enter the following prompt in
-    the **Rewrite with Copilot** field and select the **Submit** icon:
+![](./media/image28.png)
 
-    ++**That looks good. However, please rewrite the report by placing the
-    information in a table and provide more specific details for each
-    idea**.++
+12. 查看生成的想法列表。與其將所有信息都放在段落或列表形式中，不如將其匯總到表格中。此外，您還希望
+    Copilot 為每個想法提供更具體的詳細信息。
 
-    ![](./media/image33.png)
+![](./media/image29.png)
 
-    ![](./media/image34.png)
+13. 在顯示的 **Copilot** 窗格中，在 **Rewrite with Copilot**
+    字段中輸入以下提示，然後選擇 **Submit** 圖標：
 
-14. Note how Copilot changed the formatting of the report. You now want
-    Copilot to add another idea to the table titled **Supermarket store
-    promotions**. To do so, enter the following prompt:
+++**That looks good. However, please rewrite the report by placing the
+information in a table and provide more specific details for each
+idea**.++
 
-    ++**Add an idea for Supermarket store promotions**.++
+![](./media/image30.png)
 
-    ![](./media/image35.png)
-    
-    ![](./media/image36.png)
+![](./media/image31.png)
 
-15. When you ask Copilot to add a new idea, it may add it into a new
-    table, or it may add it to the end of the current table. Either way,
-    you decide after further reflection that promoting outdoor toys in a
-    supermarket is a lousy idea, and you no longer want it included in
-    the list. So how can you undo what you just did?
+14. 請注意 Copilot 如何更改報告的格式。現在，您希望 Copilot
+    將另一個概念添加到標題為 **Supermarket store promotions**
+    的表中。為此，請輸入以下提示：
 
-    To the right of the table (either your original table or a new one
-    with just the **Supermarket store promotions** idea), note how Copilot
-    tracks each of your prompts. The prompts are displayed from the most
-    recent prompt down to the first prompt, in sequential order. More
-    importantly, note how each prompt includes an **Undo** icon. If you're
-    unhappy with the results of a prompt, you can undo it to go back to
-    the version of the draft before that prompt. Since you've decided that
-    you no longer want to include **Supermarket store promotions** in the
-    table, select the **Undo** icon for that prompt.
+++**Add an idea for Supermarket store promotions**.++
 
-    ![](./media/image37.png)
+![](./media/image32.png)
 
-16. After selecting the **Undo** icon, note how Copilot deleted the
-    prompt and returned you to the draft following the second prompt
-    that put the ideas in a table. At this point, you're ready to have
-    Copilot sort the ideas from best to worst. Enter the following
-    prompt to sort the ideas:
+![](./media/image33.png)
 
-    ++**Please sort the ideas in the table starting from most effective to
-    least effective**.++
+15. 當您要求 Copilot
+    添加新想法時，它可能會將其添加到新表中，或者可能會將其添加到當前表的末尾。無論哪種方式，您在進一步思考後決定在超市推廣戶外玩具是一個糟糕的主意，並且您不再希望它包含在列表中。那麼，您如何撤消剛剛所做的作呢？
 
-    **Note:** Locate the **Sort** icon (the up and down arrows) that
-    appears in the icon tray above the list of ideas. This option simply
-    sorts the ideas in alphabetical sequence. You can perform the sort on
-    either the name of each **Idea** or the first word in
-    each **Details** field.
+在表格的右側（您的原始表格或僅包含 **Supermarket store
+promotions**創意的新表格），請注意 Copilot
+如何跟蹤您的每個提示。提示按順序從最近的提示到第一個提示顯示。更重要的是，請注意每個提示如何包含一個
+**Undo**
+圖標。如果您對提示的結果不滿意，可以撤消該提示以返回到該提示之前的草稿版本。由於您已決定不再希望在表中包括
+**Supermarket store promotions**（超市商店促銷），因此請選擇該提示的
+**Undo** （撤消） 圖標。
 
-17. After reviewing the sorted ideas, you decide to make one final
-    change. You want Copilot to replace the least effective idea with a
-    campaign event titled **Seasonal Promotions**. You think it's a
-    natural fit for a new toy line that focuses on outdoor products. To
-    do so, enter the following prompt:
+![](./media/image34.png)
 
-    ++**Please replace the final idea in the table with Seasonal Promotions**.++
+16. 選擇 “**Undo**” 圖標後，請注意 Copilot
+    如何刪除提示並將您返回到第二個提示（將想法放在表格中）之後的草稿。此時，您已準備好讓
+    Copilot 從最好到最差對想法進行排序。輸入以下提示以對想法進行排序：
 
-    ![](./media/image38.png)
+++**Please sort the ideas in the table starting from most effective to
+least effective**.++
 
-    ![](./media/image39.png)
+**注意：**找到出現在概念列表上方圖標託盤中的 **Sort**
+圖標（向上和向下箭頭）。此選項只是按字母順序對想法進行排序。您可以對每個
+**Idea** 的名稱或每個 **Details** 字段中的第一個單詞執行排序。
 
-18. When it's time to present the list of marketing campaign ideas that
-    you brainstormed with the help of Copilot in Loop, you can access
-    the **Ideas for Outdoor toy campaigns** workspace that Loop
-    automatically saved.
+17. 在查看已排序的想法後，您決定進行最後的更改。您希望 Copilot
+    將效果最差的想法替換為名為 **Seasonal Promotions**
+    的營銷活動事件。您認為它非常適合專注於戶外產品的新玩具系列。為此，請輸入以下提示：
 
-## Exercise #3: Consolidate multiple marketing reports using Copilot in Word
+++**Please replace the final idea in the table with Seasonal
+Promotions**.++
 
-Copilot in Word, an AI-powered writing assistant, can help you rewrite
-existing content, or even transform selected content into a table.
+![](./media/image35.png)
 
-As the Latin America (LATAM) Marketing Director for Contoso Beverage, a
-division of Contoso, Ltd., your product manager provided you with three
-separate reports involving the company's Mystic Spice Premium Chai Tea
-beverage. However, you’re finding it difficult to analyze the
-information, since you’re constantly jumping back and forth between
-documents.
+![](./media/image36.png)
 
-You decide to combine the reports into a single LATAM Market Analysis
-report for Mystic Spice Premium Chai Tea. In this exercise you will use
-Copilot to creates the combined report, review it and possibly update it
-with other information that Copilot can find on the Chai Tea market in
-Latin America.
+18. 當需要展示您在 Copilot in Loop
+    的幫助下集思廣益的營銷活動創意列表時，您可以訪問 Loop 自動保存的
+    **Ideas for Outdoor toy campaigns** 工作區。
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+**練習 \#3：在 Word 中使用 Copilot 合併多個營銷報告**
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
-
-    ![](./media/image40.png)
+Word 中的 Copilot 是一款 AI
+驅動的寫作助手，可以幫助您重寫現有內容，甚至將所選內容轉換為表格。
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the following documents to OneDrive.
+作為 Contoso Beverage（Contoso， Ltd. 的一個部門）的拉丁美洲 （LATAM）
+營銷總監，您的產品經理向你提供了三個單獨的報告，涉及該公司的 Mystic
+Spice Premium Chai Tea
+飲料。但是，您發現分析信息很困難，因為您不斷地在文檔之間來回跳轉。
 
-    - **Mystic Spice Premium Chai Tea product description.**
-    
-    - **Contoso Chai Tea market trends 2023.**
-    
-    - **Promotion Plan for Chai Tea in Latin America.**
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-    
-4.  In this exercise, you access the documents from the Most Recently
-    Used file list. To get the files to appear in the MRU list, open
-    each document and then close it. Open and close each of the three
-    files in your OneDrive.
+您決定將這些報告合併為一份 Mystic Spice Premium Chai Tea
+的拉丁美洲市場分析報告。在本練習中，您將使用 Copilot
+創建合併報告，對其進行審查，並可能使用 Copilot
+可以在拉丁美洲柴茶市場上找到的其他信息對其進行更新。
 
-    ![](./media/image41.png)
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它; 否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/) 以轉到
+    Microsoft 365 主頁。
 
-5.  In **Microsoft 365** open **Microsoft Word**, and then open a new
-    blank document.
+**注意：**您需要使用右側**“Resources**”選項卡下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）。
 
-6.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt, but don't select
-    the **Generate** button until after you link the three files to the
-    prompt:
+2.  在 **Microsoft 365** 導航窗格中，選擇 **OneDrive** 將其打開。
 
-    ++**I'm the LATAM Marketing Director for Contoso Beverage. Please create
-    a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
-    beverage. Combine the three attached files to create a report that
-    describes the product, analyzes the market trend for it, and includes
-    a promotion plan for Latin America**.++
-
-    ![](./media/image42.png)
+![](./media/image37.png)
 
-7.  You now must attach the three documents to the prompt. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if
-    the **Mystic Spice Premium Chai Tea product description.docx** file
-    appears in the list of files, select it. Otherwise, select **Browse
-    files from cloud**, select the file from the **Recent** file list,
-    and then select the **Attach** button. Note how the file is
-    displayed in the prompt.
+3.  瀏覽到 **C：\LabFiles** 文件夾，選擇以下文檔的副本並將其上傳到
+    OneDrive。
 
-    ![](./media/image43.png)
+    - **Mystic Spice Premium Chai Tea 產品描述。**
 
-8. Repeat the prior step for both the **Contoso Chai Tea market trends
-    2023.docx** file and the **Promotion Plan for Chai Tea in Latin
-    America.docx** file. At this point, links to all three files should
-    appear in the prompt.
+    - **2023 年Contoso Chai Tea 市場趨勢。**
 
-    ![](./media/image44.png)
+    - **Chai Tea 在拉丁美洲的推廣計劃。**
 
-9. Select **Generate**. Upon doing so, Copilot extracts the pertinent
-    information from the three files and drafts a report that combines
-    them into a single Market Analysis report for Mystic Spice Premium
-    Chai Tea.
+**注意：**如果您已按照**準備實驗室執行**部分中的建議將所有實驗室資產上傳到
+OneDrive，則可以跳過此步驟。
 
-    ![](./media/image45.png)
+4.  在本練習中，您將從 Most Recently Used file （最近使用的文件）
+    列表中訪問文檔。若要使文件顯示在 MRU
+    列表中，請打開每個文檔，然後將其關閉。打開和關閉 OneDrive
+    中的三個文件。
 
-10. After reviewing this first draft of the Market Analysis report, you
-    recognize that it's missing some critical information. You would
-    like to see it include a section titled **Competitive Analysis**.
-    You want Copilot to analyze the competition. To do so, enter the
-    following prompt in the Copilot window at the bottom of the report
-    and then select the **Generate** arrow:
+![](./media/image38.png)
 
-    ![](./media/image46.png)
+5.  在 **Microsoft 365** 中打開 **Microsoft
+    Word**，然後打開一個新的空白文檔。
 
-    ++**This report looks good. However, please add a section titled
-    Competitive Analysis. Review the beverage companies in Latin America
-    that sell Chai Tea and then provide information in this section on the
-    strengths and weaknesses of these competitors, their market share, and
-    their pricing strategies**.++
+6.  在空白文檔頂部顯示的 **Draft with Copilot**
+    窗口中，輸入以下提示，但在將三個文件鏈接到提示之前，不要選擇
+    **Generate** 按鈕：
 
-    ![](./media/image47.png)
++++**I'm the LATAM Marketing Director for Contoso Beverage. Please
+create a LATAM Market Analysis report for our Mystic Spice Premium Chai
+Tea beverage. Combine the three attached files to create a report that
+describes the product, analyzes the market trend for it, and includes a
+promotion plan for Latin America**.+++
 
-11. After reviewing this second draft of the report that contains the
-    new Competitive Analysis section, you realize that one last thing is
-    missing. You want Copilot to add a section on **Distribution
-    Channels**. This section should analyze the distribution channels
-    used to sell Chai Tea in Latin America. To do so, enter the
-    following prompt in the Copilot window at the bottom of the report
-    and then select the **Generate** arrow:
+![](./media/image39.png)
 
-    ![](./media/image48.png)
+7.  現在，您必須將這三個文檔附加到提示符中。在 **Draft with Copilot**
+    窗口中，選擇 **Reference your content**
+    按鈕。在顯示的下拉菜單中，如果 **Mystic Spice Premium Chai Tea
+    product description.docx**
+    文件出現在文件列表中，請選擇它。否則，請選擇 **Browse files from
+    cloud**（從雲中瀏覽文件），從 **Recent** file （最近的文件）
+    列表中選擇文件，然後選擇 **Attach** （附加）
+    按鈕。請注意文件在提示符中的顯示方式。
 
-    ++**Nice job! One last thing. Please add a section titled Distribution
-    Channels. Review the distribution channels used to sell Chai Tea in
-    Latin America and then provide information in this section on the
-    types of retailers, wholesalers, and distributors used**.++
+![](./media/image40.png)
 
-12. After reviewing this latest draft that contains the new Distribution
-    Channels section, you're satisfied with the report and you're ready
-    to save it. In the Copilot window at the bottom of the document,
-    select the **Keep it** button to convert it from a Copilot draft to
-    a Word document.
+8.  對 **Contoso Chai Tea market trends 2023.docx** 文件和 **Promotion
+    Plan for Chai Tea in Latin America.docx**
+    文件重複上一步。此時，提示符中應顯示指向所有三個文件的鏈接。
 
-    ![](./media/image49.png)
+![](./media/image41.png)
 
-13. Review the document. If you want to make any manual changes, you can
-    do so now. Once you're satisfied with it, feel free to save the
-    document to your OneDrive if you wish to keep it for future
-    reference, or just discard it.
+9.  選擇 **Generate** （生成）。這樣做後，Copilot
+    從三個文件中提取相關信息並起草一份報告，將它們合併為 Mystic Spice
+    Premium Chai Tea 的單一市場分析報告。
 
-14. Close this tab in your Microsoft Edge browser.
+![](./media/image42.png)
 
-## Exercise #4: Analyze a market trend spreadsheet using Copilot in Excel
+10. 在查看了市場分析報告的初稿後，您意識到它缺少一些關鍵信息。您希望看到它包含一個標題為
+    **Competitive Analysis** 的部分。您希望 Copilot
+    分析競爭對手。為此，請在報告底部的 Copilot
+    窗口中輸入以下提示，然後選擇 **Generate** 箭頭：
 
-Copilot in Excel is a powerful tool that can help Marketing
-professionals create, edit, understand, and visualize their data with
-ease and gain insights into their business.
+![](./media/image43.png)
 
-Copilot’s AI-powered capabilities can help Marketing professionals save
-time and effort by automating repetitive tasks (analyze quarterly
-business results, summarize key trends, apply color coding to tables,
-create models, scenarios, filter and sort, and add charts at the click
-of a mouse) and providing valuable insights that can help them make
-informed decisions.
++++**This report looks good. However, please add a section titled
+Competitive Analysis. Review the beverage companies in Latin America
+that sell Chai Tea and then provide information in this section on the
+strengths and weaknesses of these competitors, their market share, and
+their pricing strategies**.+++
 
-As the Director of Marketing for Contoso Beverage, a division of
-Contoso, Ltd., you received a market trend spreadsheet showing monthly
-activity for Contoso's Chai Tea product. You want to use the features of
-Copilot in Excel to analyze the report and provide detailed analysis of
-the monthly marketing trends.
+![](./media/image44.png)
 
-In this exercise, you will use Copilot in Excel to analyze a market
-trend spreadsheet that already has an Excel table defined.
+11. 在查看了包含新 Competitive Analysis
+    部分的報告草稿後，您意識到還缺少最後一件事。您希望 Copilot
+    添加有關**分銷渠道**的部分。本節應分析用於在拉丁美洲銷售柴茶的分銷渠道。為此，請在報告底部的
+    Copilot 窗口中輸入以下提示，然後選擇 **Generate** 箭頭：
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+![](./media/image45.png)
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
++++**Nice job! One last thing. Please add a section titled Distribution
+Channels. Review the distribution channels used to sell Chai Tea in
+Latin America and then provide information in this section on the types
+of retailers, wholesalers, and distributors used**.+++
 
-    ![](./media/image40.png)
+12. 在查看了包含新 Distribution Channels
+    部分的最新草稿後，您對報告感到滿意，並準備保存它。在文檔底部的
+    Copilot 窗口中，選擇 “**Keep it**” 按鈕以將其從 Copilot 草稿轉換為
+    Word 文檔。
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso Chai Tea market trends 2023** spreadsheet to **OneDrive** and
-    then open and close the file to get it in your Most Recently Used (MRU) file list.
+![](./media/image46.png)
 
-    ![](./media/image50.png)
+13. 查看文檔。如果您想進行任何手動更改，現在可以進行。對它感到滿意後，如果您想保留文檔以備將來參考，請隨時將文檔保存到您的
+    OneDrive，或者直接丟棄它。
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the
-    labexecution** you can skip this step.
+14. 在 Microsoft Edge 瀏覽器中關閉此選項卡。
 
-4.  On the **Microsoft 365** home page, select the **Excel** icon in the
-    navigation pane on the left.
+**練習 \#4：在 Excel 中使用 Copilot 分析市場趨勢電子表格**
 
-5.  In **Excel**, on the **File** page, select **Contoso Chai Tea market
-    trends 2023.xlsx** from the file list.
+Excel 中的 Copilot
+是一個強大的工具，可以幫助營銷專業人員輕鬆創建、編輯、理解和可視化他們的數據，並深入瞭解他們的業務。
 
-6.  Select the **Copilot** option on the right side of the ribbon.
+Copilot 的 AI
+驅動功能可以通過自動化重複性任務（分析季度業務結果、總結關鍵趨勢、對表格應用顏色編碼、創建模型、場景、過濾和排序以及單擊鼠標添加圖表）並提供有價值的見解來幫助他們做出明智的決策，從而幫助營銷專業人員節省時間和精力。
 
-7. In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Show data
-    insights** button.
+作為 Contoso， Ltd. 的一個部門 Contoso Beverage
+的營銷總監，您收到了一份市場趨勢電子表格，其中顯示了 Contoso 的 Chai Tea
+產品的每月活動。您希望使用 Excel 中 Copilot
+的功能來分析報告並提供每月營銷趨勢的詳細分析。
 
-    ![](./media/image51.png)
+在本練習中，您將在 Excel 中使用 Copilot 來分析已定義 Excel
+表的市場趨勢電子表格。
 
-    ![](./media/image52.png)
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它;否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/) 以轉到
+    Microsoft 365 主頁。
 
-8. Note the pivot chart that it generated. When we tested this
-    exercise, Copilot always created a line graph of the **Social Media
-    Engagement (views) by Date**. What type of chart did Copilot create
-    for you? Below the chart that Copilot created for you, select
-    the **+Add to a new sheet** button.
+**注意：**您需要使用右側 “**Resources**” 選項卡下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）。
 
-    ![](./media/image53.png)
-   
-9. Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
-   visible in the spreadsheet.
+2.  在 **Microsoft 365** 導航窗格中，選擇 **OneDrive** 將其打開。
 
-    ![](./media/image54.png)
+![](./media/image37.png)
 
-10. Try with maximized excel sheet and repeat step 11. The **Add to
-    sheet function** worked fine now.
+3.  瀏覽到 C：\LabFiles 文件夾，選擇 **Contoso Chai Tea Market trends
+    2023** 電子表格的副本並將其上傳到
+    **OneDrive**，然後打開並關閉該文件以將其放入最近使用的 （MRU）
+    文件列表中。
 
-    ![](./media/image55.png)
+![](./media/image47.png)
 
-11. Select **Sheet 2**. Review the new data sheet that Copilot created.
-    Copilot included both the graph and the column of data from the
-    spreadsheet that was the basis of this graph. Hold your cursor over
-    the chart and note the window that appears which indicates the type
-    of chart that Copilot generated.
+**注意：**如果您已按照**準備實驗室執行**中的建議將所有實驗室資產上傳到
+OneDrive，則可以跳過此步驟。
 
-    ![](./media/image56.png)
+4.  在 **Microsoft 365** 主頁上，選擇左側導航窗格中的 **Excel** 圖標。
 
-12. Note how in the Copilot pane, the list of predefined prompts no
-    longer appears. This situation occurs because Copilot doesn't work
-    on PivotTables yet (note the message indicating this issue).
-    Select **Sheet 1**, which returns you back to the Excel table. Note
-    how the predefined prompts appear.
+5.  在 **Excel** 中，在 **文件** 頁上，從文件列表中選擇 **Contoso Chai
+    Tea market trends 2023.xlsx**。
 
-     ![](./media/image57.png)
+6.  選擇功能區右側的 **Copilot** 選項。
 
-13. In the predefined prompts that appear above the prompt field, select
-    the **Show suggestions for formula columns** button.
+7.  在顯示的 **Copilot** 窗格中，有幾個預定義的提示可供您選擇。選擇
+    **Show data insights** （顯示數據見解） 按鈕。
 
-14. Note the suggestion that Copilot provides. The following image shows
-    the suggestion that Copilot provided during our testing.
+![](./media/image48.png)
 
-    ![](./media/image58.png)
+![](./media/image49.png)
 
-15. In the suggestion that you received, select the **Explain
-    formula** drop-down arrow. Review Copilot's explanation that
-    describes the calculation. Select the **+Insert Column** button to
-    insert this column into your Excel table.
+8.  請注意它生成的數據透視圖。當我們測試此練習時，Copilot
+    始終**按日期劃分的社交媒體參與度（瀏覽量）**的折線圖。Copilot
+    為您創建了什麼類型的圖表？在 Copilot 為您創建的圖表下方，選擇 **+Add
+    to a new sheet** 按鈕。
 
-    ![](./media/image59.png)
+![](./media/image50.png)
 
-16. Note how Copilot added this column of data to the end of your Excel
-    table in **Sheet 1**. Is this feature intriguing you? You may want
-    to see what other formula suggestions it provides. Select the **Show
-    suggestions for formula columns** button again. Note the suggestion.
-    Select the **+Insert Column** button to insert this suggested column
-    into your Excel table.
+9.  儘管 Copilot 表示它將圖表添加到了第 2 頁，但第 2
+    頁在電子表格中不可見。
 
-17. In the predefined prompts that appear above the prompt field, select
-    the **How can I highlight, filter, and sort data**? button.
+![](./media/image51.png)
 
-    ![](./media/image60.png)
+10. 嘗試使用最大化的 excel 工作表並重複步驟 11。**Add to sheet**
+    **（添加到工作表） 功能**現在運行正常。
 
-18. Note the list of actions that you can take.
+![](./media/image52.png)
 
-    ![](./media/image61.png)
+11. 選擇**Sheet 2**。查看 Copilot 創建的新數據表。Copilot
+    包括電子表格中的圖形和數據列，該電子表格是此圖形的基礎。將光標懸停在圖表上，並注意出現的窗口，該窗口指示
+    Copilot 生成的圖表類型。
 
-19. At this point, the predefined prompts that Copilot displays no
-    longer interest you. As such, you want to see a new set of prompts.
-    Select the **Refresh** button that appears above the prompt field.
+![](./media/image53.png)
 
-    ![](./media/image62.png)
+12. 請注意，在 Copilot
+    窗格中，預定義提示列表不再顯示。出現這種情況是因為 Copilot
+    尚不適用於數據透視表（請注意指示此問題的消息）。選擇 **Sheet
+    1**（工作表 1），這會將您返回到 Excel
+    表格。請注意預定義提示的顯示方式。
 
-20. Review the revised list of predefined prompts that now appear. The
-    following image shows examples of prompts that was displayed.
+![](./media/image54.png)
 
-    ![](./media/image63.png)
+13. 在提示字段上方顯示的預定義提示中，選擇 **Show suggestions for
+    formula columns** （顯示公式列的建議） 按鈕。
 
-21. The purpose of this exercise is to get a feel for the various types
-    of predefined actions that Copilot can perform. Therefore, select
-    different prompts to see what happens. For example:
+14. 請注意 Copilot 提供的建議。下圖顯示了 Copilot 在測試期間提供的建議。
 
-    - If a **Sort** prompt appears, select it now. Note how Copilot
-      sorted the data for you.
+![](./media/image55.png)
 
-    - If a **Bold** prompt appears, select it now. Note how Copilot
-      bolded the items in the column it mentioned and left any others
-      nonbolded.
+15. 在您收到的建議中，選擇 **Explain formula**（解釋公式）下拉箭頭。查看
+    Copilot 描述計算的說明。選擇 **+Insert Column** 按鈕將此列插入到
+    Excel 表格中。
 
-22. Again select the **Refresh** button that appears above the prompt
-    field.
+![](./media/image56.png)
 
-    ![](./media/image62.png)
+16. 請注意 Copilot 如何將此數據列添加到工作**表 1** 中 Excel
+    表格的末尾。這個功能讓您感興趣嗎？您可能想看看它提供了哪些其他公式建議。再次選擇
+    **Show suggestions for formula columns** （顯示公式列的建議）
+    按鈕。請注意這個建議。選擇 **+Insert Column** 按鈕將此建議的列插入到
+    Excel 表格中。
 
-23. Review the new set of prompts that it displays. Select
-    the **Refresh** button several times to see the different types
-    prompts that Copilot provides.
+17. 在提示字段上方顯示的預定義提示中，選擇 **How can I highlight，
+    filter， and sort data？**按鈕。
 
-24. Feel free to select any other prompts to see what Copilot does. When
-    you're done, close your Microsoft Edge browser tab.
+![](./media/image57.png)
 
-## Summary:
+18. 記下您可以執行的作列表。
 
-In this lab you used
+![](./media/image58.png)
 
-- Microsoft Copilot (Bing/Web mode) to analyze market trends
+19. 此時，您對 Copilot
+    顯示的預定義提示不再感興趣。因此，您希望看到一組新的提示。選擇提示字段上方顯示的
+    **Refresh** 按鈕。
 
-- Copilot in Loop to generate marketing campaign ideas for a new product
-  line.
+![](./media/image59.png)
 
-- Copilot in Word to combine multiple marketing reports into a cohesive
-  document.
+20. 查看現在顯示的預定義提示的修訂列表。下圖顯示了顯示的提示示例。
 
-- Copilot in Excel to analyze market trends within a spreadsheet.
+![](./media/image60.png)
 
-Through these activities, you can streamline the processes and improve
-the overall effectiveness of your marketing campaigns.
+21. 本練習的目的是瞭解 Copilot
+    可以執行的各種類型的預定義作。因此，請選擇不同的提示以查看會發生什麼。例如：
+
+    - 如果出現 **Sort** 提示，請立即選擇它。請注意 Copilot
+      如何為您對數據進行排序。
+
+    - 如果出現 **Bold** 提示，請立即選擇它。請注意 Copilot
+      如何加粗它提到的列中的項目，並保留任何其他非粗體項目。
+
+22. 再次選擇提示字段上方顯示的 **Refresh** 按鈕。
+
+![](./media/image59.png)
+
+23. 查看它顯示的新提示集。多次選擇 **Refresh** 按鈕以查看 Copilot
+    提供的不同類型的提示。
+
+24. 隨意選擇任何其他提示以查看 Copilot 的作用。完成後，關閉 Microsoft
+    Edge 瀏覽器選項卡。
+
+**總結：**
+
+在此實驗室中，您使用了
+
+- Microsoft Copilot（必應/Web 模式）分析市場趨勢
+
+- Copilot in Loop 為新產品線生成營銷活動創意。
+
+- Word 中的 Copilot，用於將多個營銷報告合併為一個有凝聚力的文檔。
+
+- Excel 中的 Copilot 用於分析電子表格中的市場趨勢。
+
+通過這些活動，您可以簡化流程並提高營銷活動的整體效果。
