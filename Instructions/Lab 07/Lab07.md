@@ -1,666 +1,432 @@
-# Lab 07: Empower your workforce – Copilot – Operations
+**實驗室 07：為您的員工賦能 – Copilot – HR**
 
-## Objective:
+**目的：**
 
-Operations Managers can use Copilot for Microsoft 365 to streamline
-their workflow and enhance their productivity.
+借助適用於 Microsoft 365 的
+Copilot，人力資源專業人員可以簡化其工作流程並提高其核心業務流程（如招聘、入職、績效管理、員工敬業度和合規性管理）的生產力。
 
-In this lab you will use:
+在本實驗中，您將使用：
 
-- Copilot in Whiteboard to brainstorm project plan ideas for installing
-  a new boiler system.
+- Word 中的 Copilot 為新角色創建職位描述。
 
-- Copilot in Word to create a report that analyzes boiler versus furnace
-  heating systems, while also comparing the types of output that Copilot
-  can generate.
+- Word 中的 Copilot
+  分析多份簡歷並提供一份報告，比較每個候選人的優勢和劣勢，從最合格到最不合格對候選人進行排名，並提出建議。
 
-- Copilot in PowerPoint to create a presentation based on the report you
-  created that analyzes boiler and furnace heating systems.
+- Copilot in Loop 創建一組面試問題，用於面試此職位的候選人。
 
-## Exercise #1: Brainstorm project plan ideas using Copilot in Whiteboard
+**練習 \#1：在 Word 中使用 Copilot 創建職位描述**
 
-Microsoft Whiteboard is a digital canvas that allows users to
-collaborate in real-time, brainstorm ideas, and create content with
-ease. Whiteboard’s features include free-form drawing, sticky notes, and
-templates that you can customize to suit your needs. It also provides a
-space that you can use for projects, brainstorming, workshops,
-retrospectives, designing, strategic planning, and for solving problems
-that may have moving pieces or need more visuals.
+作為 Graphic Design Institute
+的人力資源經理，您開始了新高級動畫設計師的招聘流程。您的員工創建了一個文檔，其中概述了此角色的所有工作職責。在本練習中，您將使用
+Word 中的 Copilot 根據本文檔中的角色職責創建職位描述。
 
-Whiteboard can help increase
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 **Microsoft 365**
+    選項卡，請立即選擇它; 否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/) 以轉到
+    **Microsoft 365** 主頁。
 
-- Collaboration by allowing multiple users to work simultaneously in a
-  digital space, making it easy to share visuals and ideas.
+**注意：**您需要使用右側 “**Resources**” 選項卡下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）。
 
-- Productivity by providing a space to doodle, share prototype sketches,
-  or compile a list of product name ideas.
+2.  在 **Microsoft 365** 導航窗格中，選擇 **OneDrive** 將其打開。
 
-As the Operations Manager at Adatum Corporation, you're planning to
-install a new boiler into your building's heating system. However,
-before you begin the installation process, you want to use Copilot in
-Whiteboard to suggest potential steps that companies typically complete
-when updating their heating system.
+3.  瀏覽到 **C：\LabFiles** 文件夾以選擇 **Graphic Design Institute -
+    Design Team** 文檔並將其副本上傳到 **OneDrive**
 
-In this exercise, you will use Copilot in Whiteboard to suggest the
-steps needed to complete such an installation. Think of this exercise as
-basically an AI-assisted sticky-note exercise.
+**提示：** 打開並關閉文件以將其放入 Most Recently Used （MRU）
+文件列表中。
 
-1.  In your Microsoft Edge browser, open a new tab and enter the
-    following URL to go to the Microsoft 365 home
-    page: +++https://www.office.com+++
+![](./media/image1.png)
 
-2.  On the **Microsoft 365** home page, if a **Whiteboard** icon appears
-    in the left-hand navigation pane, then select it now and proceed to
-    the next step. Otherwise, select **Explore all your Apps**, and on
-    the **Apps** page, scroll down to the **Explore by
-    category** section, and in the **Productivity** tab (which should
-    display by default), select **Whiteboard**.
+**注意：**如果您已按照**準備實驗室執行**部分中的建議將所有實驗室資產上傳到
+OneDrive，則可以跳過此步驟。
 
-3.  Sign into **Microsoft Whiteboard**.
+4.  如果您在 Microsoft Edge 瀏覽器中打開了 Microsoft 365
+    選項卡，請立即選擇它;否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/)
 
-4.  On the **Whiteboard** home page, select **New Whiteboard**.
+5.  在 **Microsoft 365** 主頁中，選擇 **Microsoft
+    Word**，然後打開一個空白文檔。
 
-    ![](./media/image1.png)
+6.  在 **Draft with Copilot** （使用 Copilot 起草）
+    窗口中，輸入以下提示，但在下一步中將責任文件鏈接到提示之前，不要選擇
+    **Generate** （生成） 按鈕：
 
-5.  On the ribbon at the top of the page, select
-    the **Whiteboard** drop-down arrow. In the **Board name** field,
-    enter **Boiler installation project plan** and then select the
-    checkmark icon.
++++I'm the HR Manager at the Graphic Design Institute. We've currently
+started the hiring process for a new Senior Animation Designer. Please
+review the attached document that outlines the job responsibilities for
+this role and create a job description based on those
+responsibilities.+++ 
+![](./media/image2.png)
 
-    ![](./media/image2.png)
+7.  現在，您必須將您下載的 **Graphic Design Institute - Design Team
+    Responsibilities.docx** 文件附加到提示符中。在 **Draft with
+    Copilot** 窗口中，選擇 **Reference your content**
+    按鈕。在顯示的下拉菜單中，如果 **Graphic Design Institute - Design
+    Team Responsibilities.docx**文件顯示在文件列表中，請選擇該文件。
 
-7.  If a **Suggest content with Copilot** window appears, then proceed
-    to the next step. Otherwise, in the tray of icons that appears above
-    the taskbar at the bottom of the page, select the **Copilot** icon.
-    In the menu that appears, select **Suggest**.
+8.  選擇 **Browse files from cloud**（從雲中瀏覽文件），從 **Recent**
+    file （最近打開的文件） 列表中選擇文件，然後選擇 **Attach** （附加）
+    按鈕。如果文件未顯示在 **Recent** file （最近打開的文件）
+    列表中，請在 **Pick a file** （選取文件） 窗口中選擇導航窗格頂部的
+    **My files**
+    （我的文件），導航到存儲文件的文件夾，選擇該文件，然後選擇
+    **Attach** （附加）。
 
-    ![](./media/image3.png)
+![](./media/image3.png)
 
-8.  In the **Suggest content with Copilot** window, enter the following
-    prompt:
+9.  請注意文件在提示中的顯示方式，然後選擇 **Generate**。
 
-    ++**I'm the Operations Manager for Adatum Corporation. We're installing
-    a new boiler in our heating system. Please suggest the steps we should
-    follow to install the new boiler**.++
-    
-    ![](./media/image4.png)
+![](./media/image4.png)
 
-9.  If a **Suggest content with Copilot** window appears, then proceed
-    to the next step. However, if you receive a message indicating that
-    "**Something went wrong. Please try again.**" or "**Copilot couldn't
-    process this prompt. Please rephrase it.**" then select
-    the **Generate suggestions** arrow in the bottom corner of the
-    Copilot window.
+10. 查看職位描述文件的初稿。
 
-    ![](./media/image5.png)
+![](./media/image5.png)
 
-    Sometimes Copilot completes the process it's working on but stumbles a
-    bit before displaying the results. When you select the **Generate
-    suggestions** arrow again, it usually displays the results without
-    much delay. However, if you receive a similar message a second time,
-    then select the **Generate suggestion**s arrow a few more times. If
-    you keep receiving this error after three or four attempts, then
-    simplify the prompt by entering the following text:
+11. 您注意到，它不包括 job responsibilities
+    文檔中找到的許多詳細信息。相反，它為每個責任提供了一兩個總結性句子。要更正此缺點，請輸入以下提示並選擇前進箭頭：
 
-    ++**Please suggest the steps we should follow to install a new boiler in
-    our building's heating system**.++
-
-10. By default, Copilot generates ideas in groups of six. In
-    the **Suggest content with Copilot** window that appears, note the
-    first six ideas that it generated. Copilot gives you two options
-    here - you can either attach the ideas to your whiteboard if you're
-    satisfied with the suggestions, or you can have Copilot generate
-    more suggestions. Notice how the **Insert (6)** button indicates the
-    number of ideas that Copilot generated - in this case, 6.
-
-    ![](./media/image6.png)
++++While this job description draft is a good start, you failed to
+include most of the details found in the job responsibilities document.
+Please try again, and this time outline each responsibility area and
+select the responsibilities required of a Senior Animation Designer.+++
 
-11. While six suggestions are a good starting point, you want to dig
-    deeper into the tasks needed to install the security product, so
-    select the **Generate more** button.
-
-    ![](./media/image7.png)
-
-    **Note**: If Copilot displays an error message of any kind, then
-    select the \*\*Generate more\*\* button again. Do this any time you
-    receive an error message.
-
-12. Note how Copilot generated another six ideas, so the **Insert
-    (12)** button now displays **12**. While you can keep generating
-    more ideas, for the sake of time, let's insert the 12 ideas
-    currently presented. Select the **Insert (12)** button.
-
-    ![](./media/image8.png)
-
-13. When you select the **Insert** button, Copilot attaches the
-    suggested ideas to your whiteboard in the form of yellow sticky
-    notes.
-
-    ![](./media/image9.png)
-
-14. As with a real-world brainstorming session involving actual sticky
-    notes, you can edit a particular note, delete it, lock it from
-    future removal, and so on. In Microsoft Whiteboard, these activities
-    are supported through standard whiteboarding functionality.
-
-    If you've never used Whiteboard before, try selecting (double-click) a
-    specific note, and then in the menu bar that appears above it, you can
-    select the **Edit text** (pencil) icon or any of the other options.
-    Selecting the ellipsis icon at the end of the menu bar displays a menu
-    of more options, such as deleting the note. Again, the idea behind
-    Microsoft Whiteboard is to mimic real-world sticky-note exercises.
-    Feel free to edit a note as you wish.
-
-    ![](./media/image10.png)
-
-15. In looking at the suggested ideas, you feel they don't cover risk
-    mitigation adequately. Select the **Copilot** icon at the bottom of
-    the page and then select **Suggest** from the menu.
-
-16. In the **Suggest content with Copilot** window that appears, enter
-    the following prompt to generate more ideas about risk mitigation:
-
-    ++**Suggest ways to mitigate the risks of installing a new boiler into
-    the building's heating system**.++
-    
-    ![](./media/image11.png)
-
-17. Review the six ideas that Copilot suggested. You would like Copilot
-    to include more details, so select the **Generate more** button.
-
-18. You're satisfied with the 12 risk mitigation ideas, so select
-    the **Insert (12)** button.
-
-    ![](./media/image12.png)
-
-19. Note how the block of 12 risk mitigation ideas is selected (see the
-    outside border).
-
-    ![](./media/image13.png)
-
-20. Copilot overlays the 12 risk mitigation ideas partially over top of
-    the original 12 project plan ideas, you can select on this block of
-    ideas and move it across the screen so that it no longer overlays
-    the original 12 ideas. Don't worry about lining the two blocks up.
-    Once you organize the notes into categories in a later step, they'll
-    look nice and pretty. For now, just arrange each block so that you
-    can see all the ideas. Doing so provides the visibility needed to
-    see what areas Copilot proposed so that you can edit any of them if
-    you wish.
-
-    ![](./media/image14.png)
-
-21. You're now satisfied with the suggestions that Copilot created, and
-    you've completed all the edits that you want done to the notes. You
-    now want Copilot to organize the notes by category. Copilot
-    determines the names of the categories and automatically organizes
-    the notes accordingly. Select the **Copilot** icon at the bottom of
-    the page and then select **Categorize** from the menu.
-
-    ![](./media/image15.png)
-
-22. Note what happened. Copilot generated a set of categories and
-    reorganized the notes accordingly. Each category of notes was
-    assigned a different color to help identify the differences between
-    categories. If the rectangle containing the notes isn't as large as
-    it can be and still fit your screen, select the **Fit to
-    Screen** icon on the bottom-right corner of the page. Doing so
-    increases the size of the image until it can no longer increase it
-    anymore without it exceeding the screen size.
-
-    ![](./media/image16.png)
-
-23. Note the icon tray that appears below the organized group of notes.
-    If you're not satisfied with the categories, select
-    the **Regenerate** button on the icon tray that appears.
-
-    **Note**: You can select the **Regenerate** button as many times as
-    needed until you're satisfied with the categories that Copilot
-    provides. Select this button several times and note the changes that
-    Copilot makes each time. Besides changing category names, Copilot may
-    add or reduce the number of categories with each regeneration.
-    
-    ![](./media/image17.png)
-
-24. After regenerating the categories several times, you realize that
-    you're missing detailed steps concerning minimization of system
-    downtime. You want to ask Copilot to add more ideas to your
-    whiteboard session concerning this issue. Plus, you identified a
-    note that you want to remove. However, since you already organized
-    your ideas, you must change your whiteboard session back into the
-    editing mode that you were before you categorized the notes. To do
-    so, select the **Revert** button.
-
-25. Now that you're back into editing mode, select a note that you no
-    longer want, and then in the icon tray that appears, select the
-    ellipsis icon. Select **Delete** from the menu that appears.
-
-26. To have Copilot generate more ideas, select the **Copilot** icon at
-    the bottom of the page and then select **Suggest** from the menu.
-
-27. In the **Suggest content with Copilot** window that appears, enter
-    the following prompt to generate more ideas about minimizing system
-    down-time:
-
-    ++**Suggest ways to limit heating system downtime when installing a new
-    boiler**.++
-
-28. Review the six ideas that Copilot suggested. You're satisfied with
-    these ideas, so select the **Insert (6)** button.
-
-29. Note how the block of six notes is highlighted with a line around
-    the block. This block of notes is known as a note grid. You can move
-    or resize a note grid just like any other element on your
-    whiteboard. As you resize a note grid, the sizes of all the sticky
-    notes inside it adjust accordingly. If the block of six notes
-    overlays on top of one of the blocks of notes, select one of the
-    outside lines around the note grid and drag the entire block of six
-    notes to the side so that it doesn't overlay any of the previous
-    notes. If you run out of space on the screen and part of the block
-    falls off the screen, select the **Fit to Screen** icon on the
-    bottom-right corner of the page.
-
-30. You're ready to have Copilot organize the sticky notes, which
-    include 18 notes - a block of 12 notes and a block of six notes.
-    Select the **Copilot** icon at the bottom of the page and then
-    select **Categorize** from the menu. In the **Categorize selected
-    notes** window, select the **Categorize** button.
-
-31. Sometimes, the rectangle containing the notes isn't sized as large
-    as it can be, leaving open white space all around your canvas. In
-    this situation, the text size of the notes is often small and
-    difficult to read. If this sizing issue occurs, select the **Fit to
-    Screen** icon on the bottom-right corner of the page. Doing so
-    increases the size of the image. If you keep selecting this button,
-    it eventually reaches a point where it can no longer increase the
-    size of the rectangle without it exceeding the screen size. Any
-    further selection of this icon has no effect on the rectangle.
-
-32. Review the categories. In the Copilot icon tray that appears below
-    the rectangle, you can select the **Regenerate** button to create a
-    new set of categories. In fact, select the **Regenerate** button
-    several times to see how the categories change. Once you’re
-    satisfied with the results, select the **Keep it** button.
-
-33. Note how each category of sticky notes is a different color. You
-    realize that you would like a short summary of the brainstorming
-    session added to your whiteboard content. To do so, select
-    the **Copilot** icon at the bottom of the page and then
-    select **Summarize** from the menu. Copilot generates a short
-    summary of the main themes from this whiteboarding session. Scroll
-    down to review the entire **Summary** window. You're happy with the
-    results, so select **Keep it**.
-
-    ![](./media/image18.png)
-
-34. Select the **Fit to Screen** icon on the bottom-right corner of the
-    page to fit all the sticky notes and the session summary onto the
-    entire screen.
-
-    ![](./media/image19.png)
-
-## Exercise #2: Compare reporting results using Copilot in Word
-
-As the Operations Manager at Adatum Corporation, you discovered that the
-current boiler system that heats the company's 50-year-old office
-building needs significant repair, if not outright replacement. You feel
-that this situation may be the opportune time to convert your heating
-system from the existing boiler system to a more energy-efficient
-furnace system. However, you're not familiar with the differences
-between the two types of heating systems. You want to investigate the
-situation with Copilot in Word and create a report that you can present
-to management.
-
-**Note**: You've heard that Copilot in Word can generate reports for
-you, but you haven't used it yet. As such, you aren't sure what kind of
-reporting it provides. You want to take this opportunity to not only
-create your report, but also investigate Copilot's reporting features.
-So, here's your plan:
-
-- You previously identified several questions that you want Copilot to
-  investigate regarding boiler versus furnace heating systems.
-
-- You plan to have Copilot create one report that covers all those
-  questions.
-
-- You then plan to ask Copilot each of those questions individually so
-  that you can see each response.
-
-- You can then compare the report that Copilot creates versus the
-  individual answers that it generates for each question. In the latter
-  scenario, you could copy and paste each answer into a document to
-  create your own report if you wish, or to supplement an existing
-  document.
-
-The purpose of this exercise is to show how Copilot in Word provides a
-different level of response depending on which modality you use - either
-in the Copilot pane or when creating a new document.
-
-1.  If you have a Microsoft 365 tab open in the Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://www.office.com+++
-
-    Note: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources** tab on     the right.
-    
-2.  With your plan in mind, you decide to first use Copilot in Word to
-    create a report that addresses all your questions. On the **Microsoft
-    365** navigation pane select **Microsoft Word**, and then open a blank document.
-
-3.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt and select
-    the **Generate** button:
-
-    ++**I'm the Operations Manager for Adatum Corporation. We're thinking
-    about possibly replacing our building's current boiler system with a
-    furnace system. Write a report describing what type of boiler systems
-    are used in most commercial buildings, and include what considerations
-    I need to take into account to change from an existing boiler system
-    to a furnace system, the average cost of transitioning from a boiler
-    system to a furnace system in a commercial two-story building built in
-    the 1970s, whether changing from a boiler system to a furnace system
-    will have any effect on our current air conditioning system, and the
-    average defect rates for boiler systems versus furnace systems**.++
-    
-    ![](./media/image20.png)
-
-4.  Review the report that Copilot generated. Note the level of detail
-    in each area of interest. Since you want to save this document for
-    the next Use Case exercise, select the **Keep it** button on the
-    Copilot tray and then save the document.
-
-    ![](./media/image21.png)
-
-    **Note**: Make sure you save the report since you will be usingg it in the next
-    exercise.
-
-5.  The prompt you entered to create the report included five requests.
-    You now want to ask Copilot each of those five questions
-    individually. Select **Copilot** on the Word ribbon, which opens
-    the **Copilot** pane.
-
-6.  In the **Copilot** pane, in the prompt field at the bottom of the
-    pane, enter the following question and then select
-    the **Send** arrow:
-
-    ++**What type of boilers do most buildings use as part of their heating
-    systems**?++
-    
-    ![](./media/image22.png)
-
-7.  Review the answer. While you can select the **Copy** option if you
-    want to paste the response into the document, for this training
-    you're just going to select more prompts to see the responses that
-    you receive.
-
-    ![](./media/image23.png)
-
-8.  Enter separate prompts for each of the remaining four questions:
-
-    - **What considerations do I need to take into account to change from an
-      existing boiler system to a furnace system in a commercial building?**
-    
-    - **What is an average cost for transitioning from a boiler system to a
-      furnace system in a commercial two-story building built in the
-      1970s?**
-    
-    - **if we change from a boiler system to a furnace system, will it have
-      any effect on our current air conditioning system?**
-    
-    - **What are the average defect rates for boiler systems versus furnace
-      systems?**
-
-    ![](./media/image24.png)
-
-    ![](./media/image25.png)
-
-9.  Note how Copilot answered each of your questions, but it didn't
-    insert any of the answers into the current document. While you can
-    copy and paste each answer into the document, it seems apparent that
-    just having Copilot create the report is more efficient.
-
-10. Here are some pointers to reflect on the responses when you used
-    Copilot in Word
-
-    - How does the level of information for each reporting method compare to
-      one another?
-    
-        Compare the level of information provided when Copilot in Word created
-        a report versus the answers it provided when you asked the questions
-        individually in the Copilot pane.
-    
-    - What did you notice?
-    
-        When you ask Copilot to create a report, it usually provides richer
-        responses that it organizes into an attractive looking report.
-        Conversely, when you ask Copilot to answer questions individually in
-        the Copilot pane, it doesn't return the level of detail as the report,
-        although it does allow you to copy and paste the responses into a
-        document. However, doing so may require you to reformat the inserted
-        answers to clean up any formatting issues.
-
-## Exercise #3: Create a presentation comparing heating systems using Copilot in PowerPoint
-
-Proficiency in using Copilot in PowerPoint is a strategic skill for
-professionals aiming to elevate the impact of their presentations.
-Copilot in PowerPoint serves as an intelligent collaborator, offering
-real-time suggestions and enhancements as Operation Managers craft their
-presentations.
-
-As the Operations Manager at Adatum Corporation, you discovered that the
-current boiler system that heats the company's 50-year-old office
-building is in need of significant repair, if not outright replacement.
-You feel that this moment may be the opportune time to convert your
-heating system from the existing boiler system to a more
-energy-efficient furnace system.
-
-In this exercise, you ask Copilot in PowerPoint to create a presentation
-based on **Comparing boiler and furnace heating systems** report.Your
-goal is to get Adatum's management team up to speed on the two types of
-heating systems, including with the pros and cons of each, before you
-contact a Heating, Ventilation, and Air Conditioning (HVAC) company and
-formally start this project.
-
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
- 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.   
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Comparing boiler and furnace heating systems          report** document to **OneDrive**.
-
-    **Tip**: open and close the file to get it in your Most Recently Used (MRU) file list.
-
-    ![](./media/image26.png)
-
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-    
-4.  On the **Microsoft 365** home page, select the **PowerPoint** icon
-    in the navigation pane on the left.
-
-5.  In **PowerPoint**, open a new blank presentation.
-
-6.  On the right side of the PowerPoint ribbon, select
-    the **Copilot** option.
-
-    ![](./media/image27.png)
-
-7.  In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Create presentation
-    from file** prompt.
-
-8.  In the prompt field at the bottom of the **Copilot** pane, Copilot
-    automatically enters the text: **Create presentation from file /**.
-    The forward slash is the universal Copilot indicator to enter a link
-    to a file. In this case, it triggers Copilot to open
-    a **Suggestions** window that displays three of the most recently
-    used files.
-
-    ![](./media/image28.png)
-
-      - If your file appears here, then select it now and proceed to the next
-        step.
-      
-      - If the file isn't one of the three being displayed, select the right
-        arrow (**\>**) in the upper right corner of the **Suggestions** window
-        to see an expanded MRU file list. If the file appears here, then
-        select it now and proceed to the next step.
-      
-      - If you don't see your file in the expanded MRU list, then you must
-        copy the link to the report and paste it in the prompt field. To do
-        so:
-      
-        1.  Select the **Microsoft 365** browser tab and select **Word** in
-            the navigation pane.
-      
-        2.  In the **Word** home page, in the list of recent files, select the
-            report to open it in Word.
-      
-        3.  In the report in Word, on the far-right above the ribbon, select
-            the **Share** button. In the drop-down menu that appears,
-            select **Copy Link**. Wait for the **Link copied** window to
-            appear, which is your assurance that the link to the file was
-            copied to your clipboard.
-      
-        4.  Switch to your **PowerPoint** tab, and at the bottom of
-            the **Copilot** pane, the prompt field should still be
-            displaying **Create presentation from file /**. Position your
-            cursor after the forward slash (**/**) and then paste in
-            (**Ctrl+V**) the link to the report.
-
-9.  Note how the file appears in the prompt field. Select
-    the **Send** icon in the prompt field.
-
-10. This prompt triggered Copilot to create a slide presentation based
-    on the document. In doing so, it first displayed the outline of the
-    presentation in the Copilot pane. Then it displayed a separate
-    window showing a bulleted list of some of the changes that it made
-    to the presentation based on the document.
-
-    ![](./media/image29.png)
-
-11. You're now free to review the slides and make any necessary updates.
-    Pay special attention to the changes that Copilot made based on the
-    document. You can use the **Designer** tool to adjust the layouts.
-
-    ![](./media/image30.png)
-
-12. Review the speaker notes that Copilot added to each slide in the
-    presentation. Verify they call out the points that you want to make
-    during the presentation.
-
-    ![](./media/image31.png)
-
-13. Try using Copilot to update the presentation. Let's begin by adding
-    an image to a slide. Find a slide without an image and enter the
-    following prompt (don't forget to replace \[enter slide number
-    here\] with the number of the slide you picked):
-
-    ++**Add an image to slide \[enter slide number here\]**. **The image
-    should contain a picture related to the slide contents**.++
-    
-    ![](./media/image32.png)
-
-14. You also notice that there isn't any content in the presentation
-    related to the expected lifespan for each type of heating system.
-    You want Copilot to research this topic and then add it into the
-    presentation. Enter the following prompt:
-
-    ++**What is the average lifespan of a boiler heating system versus a
-    furnace heating system**?++
-
-    ![](./media/image33.png)
-
-15. You now want Copilot to add this content to a slide. Select the
-    slide towards the beginning of the presentation that lists the types
-    of boiler systems. Then enter the following prompt (don't forget to
-    replace \[enter slide number here\] with the number of the slide you
-    picked):
-
-    ++**Add this lifespan content to slide \[enter slide number here\]**.++
-    
-    ![](./media/image34.png)
-
-16. What did Copilot do? Did it do something like adding "**Lifespan
-    content**" to the top of the slide, overlaying it on top of the
-    existing content on the slide? Or did it do something similar?
-
-17. The prompt didn't work as expected. Remove whatever was added to the
-    slide.
-
-    ![](./media/image35.png)
-
-18. Now try it again, but this time ask Copilot to find the lifespan
-    content and add it to the slide all in one prompt. This time, enter
-    the following prompt:
-
-    ++**Add content about the average lifespan of a boiler heating system
-    versus a furnace heating system to slide \[enter slide number
-    here\].**++
-    
-    ![](./media/image36.png)
-
-19. Did this work better? You just have to rework your prompts if
-    Copilot doesn't do exactly what you wanted.
-
-20. You notice that there isn't a slide at the end for a
-    Question-and-Answer (Q&A) session. To correct this situation, enter
-    the following prompt:
-
-    ++**Add a Q&A slide at the very end of the presentation with an
-    appropriate image**.++
-    
-    ![](./media/image37.png)
-
-21. Review the new slide that was created. Upon seeing this slide, you
-    would like Copilot to create a list of possible questions and add
-    them to the speaker notes for the Q&A slide. Enter the following
-    prompt:
-
-    ++**Create a list of five questions that may be asked during the Q&A
-    session and add them to the speaker notes in the Q&A slide**.++
-
-22. How did Copilot respond when you tried this prompt? Did it add five
-    questions to the speaker notes for the Q&A slide? If so, then
-    congratulations!
-
-    **Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one below.
-    
-    ![](./media/image38.png)
-    
-    Please try rephrasing the prompt or use the suggested prompts like the one below.
-
-    ![](./media/image39.png)
-    
-24. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown     in the screenshot) 
-
-    ![](./media/image40.png)
-
-
-25. Click Send to check what happens.
-
-    ![](./media/image41.png)
-
-    Copilot has added a Q&A slide as instructed.
-
-26. Now try with another prompt:
-
-    **Add a slide about** what the audience may ask about the presentation
-   
-27.	Once you are done with final presentation you can save for future reference or discard this presentation.
-    
-## Summary:
-
-In this lab you used:
-
-- Copilot in Whiteboard to generate and organize project plan ideas for
-  the installation of a new boiler system, fostering collaborative and
-  creative planning.
-
-- Copilot in Word to create a detailed report and compared the types of
-  output that Copilot can generate, showcasing its versatility in
-  content creation.
-
-- Leveraged Copilot in PowerPoint to transform a report into a visually
-  engaging presentation, highlighting key findings and comparisons for
-  effective communication.
+![](./media/image6.png)
+
+12. 審閱第二稿。
+
+![](./media/image7.png)
+
+13. 同樣，您認為 Copilot
+    應該提供更多詳細信息。輸入以下提示，看看是否可以使其更具體：
+
++++This job description draft is better, but it still lacks the details
+that I'm looking for. The job responsibilities document outlined
+detailed responsibilities for each area. Include those details in this
+job description. Be as specific as you can.+++
+
+14. 查看結果後，您會想起這句話，“小心你的願望”第三稿中的職責清單很長;事實上，對於可行的職位描述文件來說可能太長了。此時，您需要查看以前的草稿，看看較早的草稿是否比較長的草稿更可取。在
+    Copilot
+    窗口中，就在提示字段上方，記下文檔的當前版本草稿。在本例中，您使用的是
+    3 選秀 3。要查看較早的草稿，請選擇後退箭頭 （\<）
+    以返回到第二個草稿，然後返回第一個草稿。使用前進箭頭 （\>）
+    可返回到最新的草稿。
+
+![](./media/image8.png)
+
+在這種情況下，請返回到第二稿。再次查看職責列表。雖然它不像第三稿中的列表那樣廣泛，但它看起來更簡潔，並且仍然為求職者提供了足夠的信息，讓他們瞭解這個高級動畫設計師角色對他們的期望。您認為第二稿比最終稿更可取，因此您選擇使用這個稿。在
+Copilot 窗口中，選擇 **Keep it** 按鈕。
+
+15. 您已準備好繼續閱讀此職位描述文檔，因此請將其保存到您的OneDrive
+    帳戶，文件名為 **Graphic Design Institute - Job
+    descriptions.docx**。
+
+![](./media/image9.png)
+
+**注意：**保存此文檔非常重要，因為您將在下一個練習中使用它。
+
+**練習 \#2：在 Word 中使用 Copilot 分析簡歷並提出建議**
+
+在上一個練習中，您瞭解了 Word 中的 Copilot 如何幫助 HR
+專業人員製作職位描述。在本練習中，您將學習如何自動化簡歷篩選過程的初始階段，以便從大量申請人中快速確定最合適的候選人。
+
+**注意：**當您要求 Copilot
+生成文檔或應用某種類型的更改時，它有時可能會開始顯示草稿，然後停止。如果您遇到這種情況，請選擇
+**Regenerate** （重新生成）
+按鈕以使其生成新草稿，或者重新表述您的提示並重試。
+
+![](./media/image10.png)
+
+作為 Graphic Design Institute 的人力資源經理，您開始根據 Web
+和公司內部員工網站上的招聘信息收到新高級動畫設計師職位的潛在候選人的簡歷。現在，您將在
+Word 中使用 Copilot
+來篩選您收到的一批針對該職位的簡歷，並提供有關哪些候選人有資格參加求職面試的建議。
+
+在上一個練習結束時，您保存了您創建的職位描述文件。系統指示您將文件另存為
+**Graphic Design Institute - Job
+descriptions.docx**。如果文件是用其他文件名保存的，請記住您所使用的名稱，以便在本練習中找到該文件。
+
+1.  如果您在 Microsoft Edge 瀏覽器中打開了 **Microsoft 365**
+    選項卡，請立即選擇它;否則，請打開一個新選項卡並輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/)
+
+**注意：**您需要使用右側 “**Resources**” 選項卡下提供的 **Microsoft 365
+憑據**登錄（如果出現提示）。
+
+2.  在 **Microsoft 365** 導航窗格中，選擇 **OneDrive** 將其打開。
+
+3.  瀏覽到 **C：\LabFiles** 文件夾，選擇以下文檔的副本並將其上傳到
+    **OneDrive**，
+
+    - **簡歷- Patti Fernandez**
+
+    - **簡歷- Nestor Wilke**
+
+    - **簡歷- Holly Dickson**
+
+    - **簡歷- Alex Wilber** 。
+
+**注意：**如果您已按照**準備實驗室執行**中的建議將所有實驗室資產上傳到
+OneDrive，則可以跳過此步驟。
+
+4.  在本練習中，您將從 Most Recently Used （MRU）
+    文件列表中訪問文檔。若要使文件顯示在 MRU
+    列表中，請打開每個文檔，然後將其關閉。打開和關閉 OneDrive
+    中的四個簡歷文件。
+
+5.  在 **Microsoft 365** 導航窗格中，選擇 **Microsoft
+    Word，**然後打開一個新的空白文檔。
+
+6.  在空白文檔頂部顯示的 **Draft with Copilot**
+    窗口中，輸入以下提示，但暫時不要提交提示。您必須在下一步中將文件附加到提示符中：
+
++++I'm the Hiring Manager for Graphic Design Institute. We're hiring for
+the position of Senior Animation Designer. Please create a report that
+compares the attached resumes to the requirements for a Senior Animation
+Designer in the attached job description file and rank the candidates
+from most qualified to least qualified. Thank you!+++
+
+![](./media/image11.png)
+
+7.  現在，您必須將您在上一個練習結束時保存到 OneDrive 帳戶的 **Graphic
+    Design Institute - Job descriptions.docx** 文件附加到提示中。在
+    **Draft with Copilot** 窗口中，選擇 **Reference your content**
+    按鈕。在顯示的下拉菜單中，如果任務描述文件顯示在文件列表中，請選擇它。否則，請選擇
+    **Browse files from
+    cloud**（從雲中瀏覽文件），找到您在上一個練習中保存到 OneDrive
+    賬戶的職位描述文件，然後選擇
+    **Attach**（附加）按鈕。請注意文件在提示符中的顯示方式。
+
+8.  對您下載的四份簡歷中的每一份重複上一步。請注意當您嘗試附加第三份簡歷時會發生什麼情況。Copilot
+    將顯示一條消息，指示您最多只能將三個文件包含在提示符中。由於您必須包含為
+    Copilot
+    提供工作要求的工作描述文件，因此您只能使用此初始提示提交其中兩份簡歷。
+
+![](./media/image12.png)
+
+9.  由於您將任務描述文件和前兩個簡歷附加到提示符中，因此請選擇
+    **Generate**（生成）。此時，Copilot
+    從職位描述文件和前兩個簡歷中提取相關信息，並創建簡歷比較報告。此時，您處於
+    Copilot 草稿模式。
+
+10. 查看此初稿的結果。
+
+![](./media/image13.png)
+
+**注意：**查看 **Draft with Copilot** 窗口，請注意它不包含 **Attach**
+按鈕。一旦您像現在一樣處於草稿模式，Copilot
+就不允許您將更多文件附加到後續提示中。您可以使用提示字段修改文檔，但不能再附加其他文件。在繼續執行後續步驟時，請牢記此要求。當前草稿僅比較前兩份簡歷。要將剩餘兩份簡歷與當前草稿中的兩份簡歷進行比較，您必須保留此報表的草稿，然後創建第二份報表，將剩餘兩份簡歷與您剛剛創建的文檔進行比較。
+
+11. 您現在正在查看報告的初稿，該草稿將前兩份簡歷與職位描述文件進行了比較。Copilot
+    使您能夠重新生成任意數量的草稿，直到找到您喜歡的草稿。即使您認為此初稿看起來不錯，也請選擇
+    **Draft with Copilot** 窗口中的 **Regenerate** 按鈕，讓 Copilot
+    創建第二個草稿。
+
+![](./media/image14.png)
+
+12. 重新生成時，您可能會遇到 “Something went wrong”
+    錯誤消息。關閉並嘗試重新生成比較報告，直到獲得重新生成的報告。
+
+13. 查看 Copilot
+    創建的第二個草稿。在現實世界中，您可以重複此過程，直到您對特定草稿感到滿意為止。如果要返回以前的草稿以將其與較新的草稿進行比較，請選擇前進
+    （\>） 和後退 （\<）
+    箭頭以在草稿中來回切換。比較您創建的兩個草稿，並確保顯示您喜歡的草稿（它是
+    **2 個中的 1 個**或 **2 個中的 2 個**）。找到要使用的草稿後，選擇
+    **Keep it** （保留） 按鈕。
+
+![](./media/image15.png)
+
+**注意：**當您選擇 **Keep it，**Copilot 將從草稿模式變為普通的 Microsoft
+Word 模式。它還會自動將 **Report Comparison** 文檔保存到您的 OneDrive
+帳戶。
+
+14. 您現在已準備好讓 Copilot
+    審核最後兩份簡歷。但是，如前面的步驟所示，您必須將其餘兩份簡歷與您剛剛創建的
+    **Report Comparison**
+    文檔進行比較，該文檔比較了前兩份簡歷。為此，您必須打開一個新的 Word
+    文檔。由於您仍在瀏覽器中的 **Word** 選項卡中，並顯示當前的 **Report
+    Comparison** 文檔，因此請在 **Word** 功能區上方的菜單中選擇
+    **File**，然後在 **Home** 頁面上，選擇 **New** 部分下的 **Blank
+    document**。這樣做會在瀏覽器中打開一個新選項卡以及一個新的 Word
+    文檔。
+
+15. 在 **Draft with Copilot** （使用 Copilot 起草）
+    窗口中，輸入以下提示，但不要提交。在下一步中，您必須將其餘兩個簡歷文件和第一個
+    **Report Comparison** 報告附加到提示中：
+
++++That was a good start. Please create a report that compares the
+attached resumes to the prior resume comparison report (attached) and
+rank the candidates from most qualified to least qualified. Thank
+you!+++
+
+16. 現在，您必須附加剛剛創建的報告，該報告比較了前兩份簡歷以及其餘兩份簡歷。在上一步中輸入提示後，在
+    **Draft with Copilot** 窗口中選擇 **Reference your content**
+    按鈕。在顯示的下拉菜單中，您創建的 **Report Comparison of Resumes**
+    文檔應顯示在文件列表的頂部。選擇此文檔。
+
+17. 在 **Draft with Copilot** 窗口中，選擇 **Reference your content**
+    按鈕。在出現的下拉菜單中，您需要附加其餘兩份簡歷中的一份。如果您在文件列表中看到其中一個文件，請選擇它。否則，請選擇
+    **Browse files from
+    cloud**（從雲中瀏覽文件），找到其餘兩個簡歷中的一個（如果您滾動瀏覽
+    **Recent**
+    file（最近打開的文件）列表，您應該會看到它），選擇它，然後選擇
+    **Attach**（附加）按鈕。重複此過程以選擇最後剩餘的簡歷。
+
+![](./media/image16.png)
+
+18. 將第一份報告比較報告和其餘兩份簡歷附加到提示後，選擇 “**Draft with
+    Copilot**” 窗口中的 “**Generate**” 按鈕。
+
+**注意：**在生成包含連續簡歷的比較報告時，您可能會遇到 “Something went
+wrong” 錯誤消息。關閉並嘗試生成比較報告，直到您獲得報告。
+
+19. Copilot
+    應比較前兩份簡歷和最後兩份簡歷，並提供候選人的排名列表。此時，您可以重新生成新草稿或要求
+    Copilot
+    進行任何更改。對於此培訓練習，您決定對報告感到滿意，因此請選擇
+    **Keep it** （保留） 按鈕。
+
+![](./media/image17.png)
+
+20. 此時，Copilot
+    生成了兩個報告比較文件，其中第二個是比較所有四個候選人的最終報告。如果您必須在現實世界中使用
+    Word 中的 Copilot 執行類似作，請記住此方案。您可以在 Microsoft Edge
+    瀏覽器中關閉此選項卡。
+
+**練習 #3：在 Loop 中使用 Copilot 創建面試問題**
+
+使用 Copilot in
+Loop，您可以創建工作區和頁面，使用智能搜索和模板添加相關內容，並與他人共享您的工作。Loop
+中的 Copilot
+可以提出想法並幫助啟動項目，當您發現自己陷入困境時，可以更輕鬆地開始。它可以起草文本、創建表格，甚至快速回答問題。
+
+Copilot in Loop 可以在人力資源體驗的許多方面協助人力資源專業人員 -
+從招聘流程到管理員工，到處理重要文件，再到管理內部通信。
+
+在本練習中，您將使用 Loop 中的 Copilot
+來幫助完成新角色的招聘流程。雖然您在上一個練習中使用了 Word 中的 Copilot
+來篩選簡歷，但您將使用 Copilot in Loop
+為頂級應聘者創建面試問題列表。在本練習中，您可以檢查 Copilot in Loop
+是否可以根據您的指示修改問題列表。
+
+1.  如果您在選項卡中打開了 **Microsoft
+    365**，請繼續執行下一步。否則，請在 **Microsoft Edge**
+    瀏覽器中打開一個新選項卡，然後輸入以下
+    URL：+++[https://www.office.com+++](https://www.office.com+++/)
+
+2.  在 **Microsoft 365** 中，如果它出現在左側導航窗格中，請選擇
+    **Loop**。如果它未顯示在導航窗格中，請選擇 **App Launcher**，然後在
+    **Apps** 頁面上向下滾動以找到 **Loop**，然後選擇它。
+
+![](./media/image18.png)
+
+3.  如果您看到 **Sign-in** （登錄） 按鈕，請使用用戶憑證登錄。
+
+![](./media/image19.png)
+
+**注意：**登錄後，關閉 Loop 瀏覽器窗口，然後再次從 Apps 頁面打開 Loop。
+
+4.  在 **Microsoft Loop** 中，默認情況下會顯示 **Workspaces**
+    選項卡。要為此項目創建新工作區，請選擇 “**Getting started**” 旁邊的
+    “**+**” ，然後選擇 “**+New workspace**”按鈕。
+
+![](./media/image20.png)
+
+5.  在 **Create a new workspace** （創建新工作區） 窗口中，輸入
+    **Interview questions** （訪談問題）
+    作為您的工作區名稱，然後選擇顯示的 **Continue** （繼續） 或
+    **Create** （創建） 按鈕（取決於您的 Loop 版本）。
+
+6.  在 **Add files to your workspace** （將文件添加到工作區）
+    窗口中（根據您的 Loop 版本，此窗口可能會顯示 **Workspace
+    Switcher**），選擇 **Create workspace**（創建工作區）。
+
+7.  您現在位於新工作區的第一頁中。頁面名稱當前為
+    **Untitled**。請注意，頁面 （Untitled）
+    也顯示在左側導航窗格中。在頁面的主體中，選擇 **Untitled** （無標題）
+    字段，然後將頁面名稱更改為：**15 interview questions for the Senior
+    Animation Designer
+    role**。請注意頁面名稱在導航窗格中的自動更新方式。
+
+![](./media/image21.png)
+
+8.  在 **Just start typing...**字段中，輸入正斜杠 （**/**）。
+
+![](./media/image22.png)
+
+9.  在顯示的下拉菜單中，在菜單頂部的 **Copilot** 部分下，選擇 **Draft
+    page content**。
+
+10. 在出現的 **Copilot** 窗口中，輸入以下提示並選擇 **Submit** 圖標：
+
+++**Create a list of the 15 best interview questions that should be
+asked to candidates applying for a new Senior Animation Designer role at
+the Graphic Design Institute**.++
+
+![](./media/image23.png)
+
+**注意：**有時，您可能看不到帶有 Create、Brainstorm、Blueprint 和
+Describe 選項的 **Copilot**
+窗口。如果您遇到此類異常，請關閉工作區並重試。
+
+11. 查看問題列表。
+
+![](./media/image24.png)
+
+12. 您覺得這個初始列表是一個好的開始，但您注意到缺少一些類型的問題。在顯示的
+    Copilot 窗格中，輸入以下提示：
+
+++**Add a question about having failed at a project and what they
+learned from it**.++
+
+![](./media/image25.png)
+
+13. 查看 Loop 創建的新問題。
+
+![](./media/image26.png)
+
+14. 在最後一次瀏覽列表後，您意識到它包含的關於領導力的問題很少，如果有的話。要更正此情況，請輸入以下提示符：
+
+++**As a Senior Animation Designer, the candidate is expected to lead
+their design team on projects. Ask them to talk about a couple of their
+most significant experiences in leading other design team members, and
+what their leadership style is**.++
+
+![](./media/image27.png)
+
+15. 請注意 Loop
+    中發生的事情。當您請求更改而沒有明確要求它更新當前頁面時，Copilot
+    可能會打開一個新頁面並在其中進行更改，而不是在當前頁面中進行更改，就像在上一個提示中所做的那樣。執行此作時，請注意它在
+    Copilot 窗格中如何跟蹤提示，最近的提示顯示在窗格頂部。
+
+選擇上一個提示。請注意頁面上的內容如何以較淺的字體顯示。此外，嘗試選擇
+**Rewrite with Copilot** 提示字段。Copilot
+禁用此字段，因為它不是當前頁面。當前頁面也稱為活動頁面。現在選擇最新的提示並注意內容的清除方式，指示此頁面是當前頁面或活動頁面。您只能修改活動頁面，因此在此頁面上，您可以選擇
+**Rewrite with Copilot** 提示字段。
+
+![](./media/image28.png)
+
+16. 讓我們再做一個更改。您不確定當前的問題列表是否足夠。為了安全起見，您決定詢問
+    Loop 中的 Copilot 推薦更多問題。輸入以下提示：
+
+++**Are there any other questions that you think should be added to the
+list**?++
+
+17. 請注意 Copilot in Loop 生成的最終問題列表。
+
+![](./media/image29.png)
+
+18. 現在，在面試候選人時，您有各種各樣的問題可供選擇。借助
+    Loop，您可以知道 HR 團隊中的其他人可以在同一 Loop
+    組件上實時查看這些問題，即使他們使用不同的應用程序和設備。.
+
+**總結:**
+
+在本實驗中，您將：
+
+- 在 Word 中使用 Copilot 為組織中的新角色創建職位描述。
+
+- 分析多份簡歷並生成一份報告，比較每位候選人的優勢和劣勢，從最合格到最不合格對候選人進行排名，並使用
+  Word 中的 Copilot 提出建議。
+
+- 起草了一組面試問題，用於使用 Copilot in Loop 面試職位的候選人。
