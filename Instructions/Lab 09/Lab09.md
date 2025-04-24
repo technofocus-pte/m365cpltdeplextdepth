@@ -1,205 +1,252 @@
-# Lab 09: Create AI plugin actions for Microsoft Copilot (Preview)
+# 실습 09: OneDrive에서 생성된 새 파일을 추적하는 자율 에이전트 빌드하기
 
-## Objective:
+**소개**
 
-AI Plugins can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating different types of AI Plugins.
+조직의 Business용 OneDrive에서 여러 파일이 생성되어 관리자가 파일을
+추적하기가 어려워졌습니다.
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+**목표**
 
-## Exercise #1: Generate content or extract insights with AI Builder dynamic prompts
+새로 추가된 파일의 세부 정보를 파일 세부 정보 추적기에 입력하는 자율
+에이전트를 빌드합니다. 이렇게 하면 파일 추가 추적 문제가 해결되고 파일
+세부 정보 추적기에 새로 생성된 모든 파일의 세부 정보가 표시됩니다.
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    tenant credentials if not already logged in.
+## 연습 1: 환경을 설정하기
 
-2.  Select **Library** on the side navigation pane. Select **+ Add an
-    item**.
+### 작업1: OneDrive를 설정하기
+
+1.  브라우저를 열고 +++로 이동하세요. **Resources** 탭에서 자격 증명을
+    사용하여 **Sign in** 하세요
 
 ![](./media/image1.png)
 
-3.  Select **Copilot for Microsoft 365** in the **Which Copilot would
-    you like to extend? (preview)** dialog.
+2.  왼쪽 메뉴에서 **OneDrive**를 선택하세요.
 
 ![](./media/image2.png)
 
-4.  Select **Prompt** in the New action menu that appears.
+3.  왼쪽 상단의 **+** 기호를 클릭하고**Files upload**를 선택하세요.
 
 ![](./media/image3.png)
 
-5.  Name it as +++**Dynamic prompt**+++. Select **Summarize text**.
+4.  **C:\LabFiles**에서 **File details.xlsx** 파일을 선택하고**Open**를
+    선택하세요.
 
 ![](./media/image4.png)
 
-6.  It will add a prompt with a dynamic value **input text**.
+5.  파일이 업로드되면 창에 성공 메시지가 나타납니다.
 
 ![](./media/image5.png)
 
-7.  Click on the **Input** under Prompt Settings add the below content
-    in the Sample data.
-```
-Meet comfortably and confidently with customizable meeting views
+6.  왼쪽 메뉴에서 **My files**을 클릭하면 새 파일을 사용할 수 있음을
+    확인할 수 있습니다.
 
-The meeting stage, or gallery, is at the core of the virtual meeting
-experience and can either hinder or enhance meeting efficiency
-depending on your needs. We’re excited to share how we’re evolving the
-default gallery experience in Teams meetings to give you a simpler,
-more predictable meeting presence—while enabling more controls that
-let you personalize the view to suit your preferences.
-
-First, let’s look at the new default gallery experience that will be
-applicable to all. The new gallery will place everyone in tiles of
-equal size (16:9 ratio) whether their video is turned on or off.
-Additionally, the new default gallery layout will be more consistent
-and predictable for all meetings, regardless of size and content
-shared.
-
-And when a Teams Room joins the meeting, the video of the room
-automatically enlarges, bridging the gap between remote and in-room
-participants. Remote attendees enjoy a clearer view and better
-connection, easily spotting who is speaking. Want a custom view?
-Simply tweak the tile size to your preference from the more options
-(...) menu by hovering on the room name. It's seamless, inclusive, and
-ensures everyone can be seen, no matter where they are.
-
-Next, let’s look at the controls that help you customize every
-meeting view to suit your needs.
-
-While the default gallery size for meetings will be 16 participants,
-you can customize the number of participants visible on your screen to
-best fit your preference. You can choose from 4, 9, 16, and 49
-participants visible on the screen for gallery size.
-
-There are still a few default configurations that AI will optimize
-for to improve engagement and efficiency. For virtual participants,
-these are prioritizing those that have a raised hand and prioritizing
-the active speaker, enhancing their visibility so comments are not
-missed.
-```
 ![](./media/image6.png)
 
-8.  Click on **Test prompt**.
+### 작업 2: Copilot Studio 시험을 활성화하기
 
-> ![](./media/image7.png)
+1.  새 탭에서
+    +++[https://copilotstudio.microsoft.com/+++](https://copilotstudio.microsoft.com/**+++)를
+    여세요
 
-9.  Notice that the Prompt response, summarizing the text is generated.
+2.  실습 VM에서 **Resources** 탭에 제공된 **Credentials** 로
+    로그인하세요.
 
-> ![](./media/image8.png)
+![](./media/image1.png)
 
-10. Click on **Finalize prompt**.
+3.  로그인한 후 **Welcome to Microsoft Copilot Studio**페이지에서 국가를
+    **United States**로 그대로 두고 **Get Started**을 클릭하세요.
+
+![](./media/image7.png)
+
+4.  **Welcome** 화면에서 **Skip** 를 선택하세요.
+
+![](./media/image8.png)
+
+## 연습 2: 자율 에이전트 구축하고 테스트하기
+
+### 작업 1: Copilot Studio에서 에이전트를 생성하기
+
+1.  열리는 에이전트 생성 페이지에서 **Skip to configure** 옵션을
+    클릭하세요.
 
 ![](./media/image9.png)
 
-11. Click on **Create prompt action**.
+2.  에이전트 생성 창에서 아래 세부 정보를 입력하고 **Create**을
+    클릭하세요.
+
+    - **Name** - +++New file tracker agent+++
+
+    - **Description** - +++This agent will update the File details
+      tracker placed in the OneDrive, each time a new file is created in
+      the OneDrive+++
 
 ![](./media/image10.png)
 
-12. It gets listed in the **Library.**
+### 작업 2: 에이전트에 트리거를 추가하기
 
-13. After you create your action, enable it for use in Microsoft
-    Copilot.
-
-## Exercise \#2: Create Custom automation with Power Automate flows
-
-Power Automate flow plugins let you define flows that can be called from
-AI surfaces in Power Platform. Flow plugins use the new **Run from
-Copilot** trigger and **Respond to Copilot** action to define custom
-processes that can be invoked with natural language.
-
-**To create automation plugins:**
-
-1.  Select **+ Add action**. Select **Flow** in the New action menu that
-    open up.
+1.  에이전트가 생성되면 아래로 스크롤하여 **Trigger **섹션을 찾으세요.
+    **+ Add trigger**를 선택하세요.
 
 ![](./media/image11.png)
 
-2.  The flow editor automatically opens with the **Run from
-    Copilot** trigger and **Respond to Copilot** action present. Rename
-    the flow as +++**Get Weather forecast for next day**+++
+2.  **Turn on generative orchestration to continue** 대화상자에서**Turn
+    it on**를 선택하세요. 트리거를 추가하려면 이 옵션을 켜기로 설정해야
+    합니다.
 
 ![](./media/image12.png)
 
-3.  Click on the **Run a flow from Copilot** node. The details pane
-    opens up. Click on **+ Add an input**.
+3.  Add trigger 메뉴에서 **When a file is created** 트리거를 선택하세요.
 
 ![](./media/image13.png)
 
-4.  Select Text and name it as **City**.
-
-5.  Similarly, add another input of type **Number** and name it as
-    **Zipcode**.
+4.  **Add trigger** 화면에Continue를 선택하세요.
 
 ![](./media/image14.png)
 
-6.  Click on the **+** symbol between **Run a flow from Copilot** and
-    the **Respond to Copilot** nodes and select **Add an action**.
+5.  다음 화면에서 **Trigger name** 이 채워져 있는지 확인하세요.
+    **Microsoft Copilot Studio** 및 **OneDrive for Business** 대한
+    **connections** 이 설정될 때까지 기다리세요 (이러한 각 커넥터에 대해
+    녹색 체크 표시가 표시됨).
+
+**Next**를 클릭하세요.
 
 ![](./media/image15.png)
-7.  Select **MSN Weather**.
+
+6.  다음 세부 정보를 선택하세요.
+
+    - **Folder** – Root
+
+    - **Include subfolders** – Yes
+
+다른 필드는 기본값으로 두고 **Create trigger**를 선택하세요.
 
 ![](./media/image16.png)
 
-8.  Select **Get the forecast for tomorrow** option.
-
 ![](./media/image17.png)
 
-9.  Add the **City** and **Zipcode** input parameters to **Location**.
+7.  트리거가 생성해지면 **Time to test your trigger**메시지가
+    표시됩니다. **Close**. 구현된 기능을 가져오기 위해 트리거의 기본
+    흐름을 약간 조정한 다음 테스트할 것입니다.
 
 ![](./media/image18.png)
 
 ![](./media/image19.png)
 
-10. Click on **Respond to copilot** action and select **Add an output**.
+### 작업 3: 트리거에 로직을 추가하기
 
-11. Add a Text output variable and name it as +++**Weather
-    condition**+++. Add the output variable **Conditions**.
+1.  **New file track agent** 페이지에서 트리거 섹션으로 스크롤하세요.
+
+2.  **When a file is created**트리거에 대한 점 3개를 클릭하고 **Edit in
+    Power Automate**을 선택하세요
 
 ![](./media/image20.png)
 
-12. Click on **Save**.
+3.  **When the file is created** 와 **Sends a prompt action** 사이의
+    **+** 아이콘을 선택하고 **Add an action**를 선택하세요.
 
 ![](./media/image21.png)
 
-13. Click on **Test**.
+4.  +++add a row+++를 찾고**Add a row into the table**를 선택하세요.
 
 ![](./media/image22.png)
 
-**Note:** This might take some time to get reflected. Wait for 5 to 10
-minutes if you are not able to start the flow after clicking on
-**Test**.
+5.  각 행에 대해 아래 값을 선택하고 **Save**을 클릭하세요.
 
-14. In the **Test Flow** pane, select the checkbox for **Manually** and
-    then click on **Next**.
+|                  |                                       |
+|------------------|---------------------------------------|
+| Property         | Value                                 |
+| Location         | OneDrive for Business                 |
+| Document Library | OneDrive                              |
+| File             | File details.xlsx                     |
+| Table            | Table1                                |
+| Date Time Format | Serial Number                         |
+| File ID          |  **File identifier**변수를 선택하세요 |
+| File Name        | **File name**변수를 선택하세요        |
+| File Path        | **File path**변수를 선택하세요        |
 
 ![](./media/image23.png)
-
-15. In the **Run flow** panel, select **MSN Weather** and click on
-    **Continue**.
-
+>
 ![](./media/image24.png)
 
-16. Enter +++**Redmond**+++ for city and +++**98004**+++ for **Zipcode**
-    and select **Run flow**.
+6.  이제 흐름이 아래 스크린샷과 같이 표시됩니다.
 
 ![](./media/image25.png)
 
-17. Once the execution is completed, a success message is obtained.
-    Click on **Done**.
+7.  **New designer toggle**를 클릭하세요.
 
 ![](./media/image26.png)
 
-**Note:** The AI uses the title and description of the flow to determine
-when to invoke the flow plugins. Ensure your flows run correctly, as
-only tested flows show up as available plugins in Microsoft Copilot.
-
-18. The created flow is listed in the **Library**.
+8.  **Save draft**를 선택하세요.
 
 ![](./media/image27.png)
 
-19. After you create your action, enable it for use in Microsoft
-    Copilot.
+9.  플로우를 게시하기 위해 **Publish**를 선택하세요
 
-## Summary:
+![](./media/image28.png)
 
-In this lab, we have learnt to create **AI actions**.
+### 작업 4: 트리거를 게시하기
+
+1.  Copilot Studio로 돌아가서 **Settings**을 선택하세요.
+
+![](./media/image29.png)
+
+2.  **Generative AI** -\> **Using generative AI in conversations**를
+    선택하세요. 아직 선택하지 않은 경우 **Generative**를 선택한
+    후**Save**를 클릭하세요.
+
+![](./media/image30.png)
+
+3.  **Security** -\> **Authentication** -\> **No authentication**를
+    선택하고**Save**를 클릭하세요.
+
+![](./media/image31.png)
+
+4.  확인 대화 상자에서 **Save **을 선택하세요.
+
+![](./media/image32.png)
+
+5.  Settings창을 닫으세요.
+
+![](./media/image33.png)
+
+6.  이제 에이전트를 게시하기 위해 **Publish **를 선택하세요.
+
+![](./media/image34.png)
+
+7.  확인 대화 상자에서 **Publish**를 선택하세요.
+
+![](./media/image35.png)
+
+### 작업 5: 트리거를 테스트하기
+
+1.  브라우저에서 **OneDrive**로 이동하세요. **+**를 클릭하고 **Word
+    document**를 선택하세요**.**
+
+![](./media/image36.png)
+
+2.  문서에 **name**을 지정하고 **Create**를 선택하세요.
+
+![](./media/image37.png)
+
+3.  개인 정보 보호 옵션을 닫기 위해 **Close**를 클릭하세요.
+
+![](./media/image38.png)
+
+4.  이와 비슷하게 몇 개의 파일을 더 추가하세요.
+
+5.  이제 OneDrive**에서 File details.xlsx 열고** 생성된 파일의 세부
+    정보가 추적기에 추가되었는지 확인하세요. **참고**: 필요에 따라
+    Resources 탭에서 자격 증명을 사용하여 로그인하세요.
+
+![](./media/image39.png)
+
+6.  OneDrive에서 파일이 생성해지면 트리거가 호출되어 **파일이 추가**되고
+    추적기가 업데이트될 때 흐름을 실행하세요.
+
+7.  Copilot Studio의 활동 탭에서 자율 에이전트의 세부 정보를 확인할 수도
+    있습니다.
+
+**요약**
+
+이 실습에서는 Copilot Studio에서 자율 에이전트를 생성, 게시 및
+테스트하는 방법을 배웠습니다.
