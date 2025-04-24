@@ -1,95 +1,91 @@
-# Lab 0: Preparing for the lab execution
+**실습 0: 실습 실행을 준비하기**
 
-## Log into your Lab Virtual Machine
+**실습 Virtual Machine로 로그인하기**
 
-On the Log-in screen, select **Admin** account in the lower left
-corner of the screen to sign-in to the lab virtual machine using the
-credentials provided under **Win 11 Base23B-22H2** in the **Resources
-tab** on the right (see screenshot).
- 
-<span class="mark">**Note**: Do not use the **Student** login</span>.
+로그인 화면에서 왼쪽 아래 모서리에서 **Admin** 계정을 선택하여 오른쪽의
+**Resources tab** 에서 **Win 11 Base23B-22H2**에 제공된 자격 증명을
+사용하여 실습 virtual machine 에 로그인하세요 (스크린샷 참조).
+
+**참고**: **Student** 로그인 사용하지 마세요.
 
 ![](./media/image1.png)
 
-## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
+**Microsoft 365 구독 설정을 완료하고Microsoft 365용 Copilot에
+액세스하기**
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
+1.  Edge 브라우저에서 Microsoft 365 탭이 열려 있으면 지금 선택하세요.
+    그렇지 않으면 새 탭을 열고 다음을 입력하세요.
     URL: +++https://portal.office.com+++
-    
-2.  <span class="mark">Use the **Microsoft 365 Credentials** provided under Azure Portal section in the **Resources tab** on     the right (see screenshot) to sign-in</span>.
 
-    ![](./media/image3.png)
+2.  오른쪽 **Resource tab**의 Azure Portal 섹션에 제공된 **Microsoft 365
+    Credentials** (스크린샷 참조)을 사용하여 로그인하세요.
 
-    ![](./media/image4.png)
+![](./media/image2.png)
 
-    You will now be able to access all the Microsoft 365 applications and
-    will have access to Copilot for Microsoft 365.
+![](./media/image3.png)
 
-## Access and launch Microsoft 365 applications
+이제 모든 Microsoft 365 애플리케이션에 액세스할 수 있으며 Microsoft
+365용 Copilot에 액세스할 수 있습니다.
 
-You can access and launch the productivity applications from:
+**Microsoft 365 애플리케이션을 액세스하고 실행하기**
 
-- **Apps icon** (in the navigation pane on the left)
+다음에서 생산성 애플리케이션에 액세스하고 실행할 수 있습니다:
 
-- **View more Apps** link (in the navigation pane on the left)
+- **Apps icon** (왼쪽의 탐색 창에서)
 
-- **App Launcher** (available in the top left just above the left navigation
-  pane)
+- **View more Apps** 링크 (왼쪽의 탐색 창에서)
 
-1.  To launch an application from **Apps** icon:
+- **App Launcher** (왼쪽 상단, 왼쪽 탐색 창 바로 위에)
 
-    In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you
-    need to work with.
+1.  **Apps** 아이콘에서 애플리케이션을 시작하기:
 
-    ![](./media/image10.png)
-    
-2.  To launch an application from **View more Apps:**:
+작업해야 하는 Office 애플리케이션을 선택하고 열기 위해 왼쪽 아래의 탐색
+창에서 **Apps** 아이콘을 선택하세요.
 
-    In the navigation pane on the lower left, select **View more Apps**
-    (ellipsis **…** icon) to select and open the office applications you
-    need to work with.
+![](./media/image4.png)
 
-    ![](./media/image8.png)
+2.  **View more Apps**에서 애플리케이션을 시작하기**:**:
 
-3.  To launch an application from **App launcher**:
+작업해야 하는 Office 애플리케이션을 선택하고 열기 위해 왼쪽 아래의 탐색
+창에서 **View more Apps** (줄임표 **...** 아이콘)을 사용하세요.
 
-    The Microsoft 365 app launcher is a menu of apps and services that you
-    are licensed for, and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switching
-    between your apps easy by highlighting your recently used apps, and
-    providing quick access to your recent online Office documents.
+![](./media/image5.png)
 
-    ![](./media/image9.png)
+3.  **App launcher**에서 애플리케이션을 시작하기:
 
-    **Note**: If you do not find an application in the pop-up, then select
-    **More apps** icon to select the same.
+Microsoft 365 App launcher는 라이선스가 부여된 앱 및 서비스의 메뉴이며
+Microsoft365 페이지에서 앱 시작 관리자 아이콘을 선택하면 열립니다. App
+launcher를 사용하면 최근에 사용한 앱을 강조 표시하고 최근 온라인 Office
+문서에 빠르게 액세스할 수 있으므로 앱을 쉽게 열고 앱 간에 전환할 수
+있습니다.
 
-## Upload lab assets to OneDrive
+![](./media/image6.png)
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
-    
-<span class="mark">**Note**: When you need to reference a file (a Word
-document, an Excel file, etc) into a Copilot prompt, the file MUST be
-saved in a OneDrive account. You can't link to a locally stored file
-on your PC.</span>
+**참고**: 팝업에서 애플리케이션을 찾지 못하면 **More apps** 아이콘을
+선택하여 동일한 애플리케이션을 선택하세요.
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
-    
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive. 
+**OneDrive에 실습 자산 업로드하기**
 
-    **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the
-    particular lab.
+이 실습 세션에서 사용할 실습 자산 (참조 문서)는 **C:\LabFiles**에
+있습니다**.**
 
-    ![](./media/image5.png)
-        
+**참고**: 파일(Word 문서, Excel 파일 등)을 Copilot 프롬프트에 참조해야
+하는 경우 파일을 OneDrive 계정에 저장해야 합니다. PC에 로컬로 저장된
+파일에 연결할 수 없습니다.
 
-    ![](./media/image6.png)
-        
+1.  Microsoft 365 탐색 창에서 OneDrive를 선택하여 여세요.
 
-    ![](./media/image7.png)
+2.  **C:\LabFiles** 폴더로 이동하여 문서 사본을 선택하고 OneDrive에
+    업로드하세요.
 
-    Now you will have the document(s) in **OneDrive** to work with
-    **Copilot for Microsoft 365** labs.
+**참고**: 모든 문서의 사본을 업로드하거나 특정 실습과 관련된 문서를
+업로드하도록 선택할 수 있습니다.
+
+![](./media/image7.png)
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+
+이제 **OneDrive**에 문서를 사용하여 **Copilot for Microsoft 365** 실습을
+사용할 수 있습니다.
