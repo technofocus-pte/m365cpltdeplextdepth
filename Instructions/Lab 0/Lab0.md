@@ -1,95 +1,104 @@
-# Lab 0: Preparing for the lab execution
+**Laboratorio 0: Preparación para la ejecución del laboratorio**
 
-## Log into your Lab Virtual Machine
+**Inicie sesión en su máquina virtual de laboratorio**
 
-On the Log-in screen, select **Admin** account in the lower left
-corner of the screen to sign-in to the lab virtual machine using the
-credentials provided under **Win 11 Base23B-22H2** in the **Resources
-tab** on the right (see screenshot).
- 
-<span class="mark">**Note**: Do not use the **Student** login</span>.
+En la pantalla de inicio de sesión, seleccione la cuenta **Admin** en la
+esquina inferior izquierda de la pantalla para iniciar sesión en la
+máquina virtual de laboratorio utilizando las credenciales
+proporcionadas en **Win 11 Base23B-22H2** en la **pestaña Resources** de
+la derecha (véase la captura de pantalla).
+
+**Nota**: No utilice el inicio de sesión de **Student**.
 
 ![](./media/image1.png)
 
-## Complete setting up Microsoft 365 subscription and access Copilot for Microsoft 365
+**Complete la configuración de la suscripción a Microsoft 365 y acceda a
+Copilot para Microsoft 365**
 
-1.  If you have a Microsoft 365 tab open in your Edge browser, then
-    select it now; otherwise, open a new tab and enter the following
-    URL: +++https://portal.office.com+++
-    
-2.  <span class="mark">Use the **Microsoft 365 Credentials** provided under Azure Portal section in the **Resources tab** on     the right (see screenshot) to sign-in</span>.
+1.  Si tiene una pestaña de Microsoft 365 abierta en su navegador Edge,
+    selecciónela ahora; de lo contrario, abra una nueva pestaña e
+    ingrese la siguiente
+    URL: +++[https://portal.office.com+++](https://portal.office.com+++/)
 
-    ![](./media/image3.png)
+2.  Utilice las **credenciales de Microsoft 365** proporcionadas en la
+    sección Azure Portal de la **pestaña Resources** de la derecha
+    (véase la captura de pantalla) para iniciar sesión.
 
-    ![](./media/image4.png)
+![](./media/image2.png)
 
-    You will now be able to access all the Microsoft 365 applications and
-    will have access to Copilot for Microsoft 365.
+![](./media/image3.png)
 
-## Access and launch Microsoft 365 applications
+Ahora podrá acceder a todas las aplicaciones de Microsoft 365 y tendrá
+acceso a Copilot para Microsoft 365.
 
-You can access and launch the productivity applications from:
+**Acceda y ejecute las aplicaciones de Microsoft 365**
 
-- **Apps icon** (in the navigation pane on the left)
+Puede acceder e iniciar las aplicaciones de productividad desde:
 
-- **View more Apps** link (in the navigation pane on the left)
+- **El icono Apps** (en el panel de navegación de la izquierda)
 
-- **App Launcher** (available in the top left just above the left navigation
-  pane)
+- El enlace **View more Apps**  (en el panel de navegación de la
+  izquierda)
 
-1.  To launch an application from **Apps** icon:
+- **App Launcher** (disponible en la parte superior izquierda, justo
+  encima del panel de navegación izquierdo)
 
-    In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you
-    need to work with.
+1.  Para ejecutar una aplicación desde el icono **Apps**:
 
-    ![](./media/image10.png)
-    
-2.  To launch an application from **View more Apps:**:
+En el panel de navegación de la parte inferior izquierda, seleccione el
+icono **Apps** para seleccionar y abrir las aplicaciones de office con
+las que necesite trabajar.
 
-    In the navigation pane on the lower left, select **View more Apps**
-    (ellipsis **…** icon) to select and open the office applications you
-    need to work with.
+![](./media/image4.png)
 
-    ![](./media/image8.png)
+2.  Para ejecutar una aplicación desde **View more Apps:**
 
-3.  To launch an application from **App launcher**:
+En el panel de navegación de la parte inferior izquierda,
+seleccione **View more Apps** (icono de la elipsis **.**..) para
+seleccionar y abrir las aplicaciones de office con las que necesite
+trabajar.
 
-    The Microsoft 365 app launcher is a menu of apps and services that you
-    are licensed for, and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switching
-    between your apps easy by highlighting your recently used apps, and
-    providing quick access to your recent online Office documents.
+![](./media/image5.png)
 
-    ![](./media/image9.png)
+3.  Para ejecutar una aplicación desde el **App launcher**:
 
-    **Note**: If you do not find an application in the pop-up, then select
-    **More apps** icon to select the same.
+El iniciador de aplicaciones de Microsoft 365 es un menú que muestra
+todas las apps y servicios para los que tienes licencia. Se abre al
+seleccionar el ícono del lanzador en la página de Microsoft 365. Esta
+herramienta facilita el acceso y cambio entre aplicaciones, destacando
+sus apps usadas recientemente y proporcionando acceso rápido a sus
+documentos recientes de Office en línea.
 
-## Upload lab assets to OneDrive
+![](./media/image6.png)
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
-    
-<span class="mark">**Note**: When you need to reference a file (a Word
-document, an Excel file, etc) into a Copilot prompt, the file MUST be
-saved in a OneDrive account. You can't link to a locally stored file
-on your PC.</span>
+**Nota**: Si no encuentra una aplicación en la ventana emergente,
+seleccione el icono **More apps** para seleccionar la misma.
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
-    
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the document(s) to OneDrive. 
+**Suba los activos del laboratorio a OneDrive**
 
-    **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the
-    particular lab.
+Los activos de laboratorio (documentos de referencia) que utilizará en
+esta sesión práctica de laboratorio están disponibles
+en **C:\LabFiles.**
 
-    ![](./media/image5.png)
-        
+**Nota**: Cuando necesite hacer referencia a un archivo (un documento de
+Word, un archivo de Excel, etc.) en un prompt de Copilot, el archivo
+DEBE estar guardado en una cuenta de OneDrive. No puede hacer referencia
+a un archivo almacenado localmente en su PC.
 
-    ![](./media/image6.png)
-        
+1.  En el panel de navegación de Microsoft 365, seleccione OneDrive para
+    abrirlo.
 
-    ![](./media/image7.png)
+2.  Vaya a la carpeta **C:\LabFiles** para seleccionar y subir una copia
+    del documento o documentos a OneDrive.
 
-    Now you will have the document(s) in **OneDrive** to work with
-    **Copilot for Microsoft 365** labs.
+**Nota**: Puede optar por cargar una copia de todos los documentos o el
+documento o documentos relacionados con el laboratorio en particular.
+
+![](./media/image7.png)
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+
+Ahora tendrá el documento o documentos en **OneDrive** para trabajar con
+laboratorios de **Copilot para Microsoft 365**.
