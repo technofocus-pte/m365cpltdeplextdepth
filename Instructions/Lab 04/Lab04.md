@@ -1,666 +1,754 @@
-# Lab 04: Empower your workforce – Copilot – Marketing
+**Lab 04: Stärken Sie Ihre Belegschaft – Copilot – Marketing**
 
-## Objective:
+**Ziel:**
 
-Marketing professionals can utilize Copilot for Microsoft 365 to
-generate content for their campaigns, improve productivity, get insights
-into their campaigns, collaborate more effectively and automating
-repetitive tasks such as formatting, adding charts and graphs, and even
-proofreading documents.
+Microsoft Copilot (innerhalb von Bing) ist ein generativer KI-Dienst,
+der auf Daten aus dem öffentlichen Web basiert, die nur im Microsoft
+Bing-Suchindex enthalten sind. Es hat keinen Zugriff auf
+organisatorische Ressourcen oder Inhalte innerhalb von Microsoft 365
+Graph.
+
+Als Direktor für Marktforschung bei Tailspin Toys möchten Sie eine
+Marktanalyse der Spielzeugindustrie durchführen, um sie dem Senior
+Leadership Team (SLT) des Unternehmens zur Verfügung zu stellen. Ihr
+Ziel ist es, die neuesten Trends, Verbraucherpräferenzen und die
+beliebtesten Spielzeuge auf dem Markt zu identifizieren.
+
+In dieser Übung verwenden Sie die Microsoft Copilot-Chatfunktion in
+Bing. Wenn Sie Microsoft Copilot verwenden, ist es wichtig, beim
+Erstellen Ihrer Eingabeaufforderungen Kontext und Ressourcen
+bereitzustellen. Die Qualität der Antwort hängt davon ab, wie Sie die
+Anfrage formulieren, indem Sie die Tipps befolgen und den richtigen
+Gesprächsstil auswählen (entweder kreativer, ausgewogener oder
+präziser).
 
-In this lab you will use:
+- Öffnen Sie in **Microsoft Edge** einen neuen Tab und geben Sie die
+  folgende URL ein: +++[**https://bing.com+++**](https://bing.com+++/)
+
+- Wählen Sie in **Microsoft Bing** in der Liste der Registerkarten oben
+  auf der Seite **Copilot** aus. Dadurch wird Microsoft Copilot
+  geöffnet.
+
+![](./media/image1.png)
+
+**Hinweis:** Wenn Sie die Liste der Registerkarten oben auf der Seite
+nicht sehen, führen Sie die folgenden Schritte aus, um die Liste der
+Registerkarten anzuzeigen.
+
+- Stellen Sie sicher, dass Sie sich mit dem Microsoft
+  **365-Anmeldeinformationen** angemeldet haben (verfügbar auf der
+  Registerkarte **Resource**).
 
-- Microsoft Copilot (Bing/Web mode) to analyze market trends, provide
-  sales forecasts, and identify new sales opportunities.
+![](./media/image2.png)
+
+- Aktivieren Sie die Option **Show menu bar** (rot hervorgehoben)
+
+![](./media/image3.png)
+
+![](./media/image4.png)
+
+3.  Wählen Sie nun **Copilot** aus. Dadurch wird Microsoft Copilot
+    geöffnet.
 
-- Copilot in Loop to generate marketing campaign ideas for a new product
-  line.
+![](./media/image5.png)
 
-- Copilot in Word to combine multiple marketing reports.
+4.  Beachten Sie auf der **Copilot-**Seite den Umschalter oben auf der
+    Seite, mit dem Sie entweder **Work oder Web** auswählen können.
+    Obwohl es sich bei Ihrer Anfrage um eine arbeitsbezogene Aufgabe
+    handelt, benötigen Sie Copilot, um auf das Internet zuzugreifen, um
+    seine Marktanalyse der Spielzeugindustrie durchzuführen. Wählen Sie
+    bei Bedarf den Umschalter **Web** aus.
 
-- Copilot in Excel to analyze market trends in a spreadsheet.
+![](./media/image6.png)
+
+![](./media/image7.png)
 
-## Exercise #1: Conduct market analysis using Microsoft Copilot
+**Hinweis**: Der in der vorherigen Copilot-Version wurden vorhandene
+Konversationstönwähler, **More Creative -More Balanced- More Precise**
+in der neuesten Version weggelassen.
 
-Microsoft Copilot (within Bing) is a generative AI service grounded in
-data from the public web in the Microsoft Bing search index only. It
-doesn't have access to organizational resources or content within the
-Microsoft 365 Graph.
+5.  Geben Sie im Eingabeaufforderungsfeld die folgende
+    Eingabeaufforderung ein, und wählen Sie dann das Symbol **Send**
+    aus:
 
-As the Director for Market Research at Tailspin Toys, you want to
-conduct a market analysis of the toy industry to provide to the
-company's Senior Leadership Team (SLT). Your goal is to identify the
-latest trends, consumer preferences, and the most popular toys in the
-market.
+++**I'm the Director for Market Research for Tailspin Toys, a U.S. based
+toy manufacturer. Conduct a market analysis of the toy industry to
+identify sales figures, the latest trends, consumer preferences, and the
+most popular toys in the market**.++
+
+![](./media/image8.png)
 
-In this exercise you will utilize the Microsoft Copilot chat
-functionality in Bing. When you use Microsoft Copilot, it's important to
-provide context and resources when you craft your prompts. The quality
-of the response is a function of how you craft the request by following
-the tips and choosing the right conversation style (either More
-Creative, More Balanced, or More Precise).
+6.  Überprüfen Sie die Marktanalyse, die Copilot erstellt hat. Sie
+    stellen fest, dass eine allgemeine Anfrage wie die von Ihnen
+    eingereichte grundlegende Informationen wie Markttrends,
+    Verbraucherpräferenzen und Spielzeugtrends enthält. Sie sind aber
+    auch daran interessiert, Daten über die Spielwarenindustrie zu
+    sammeln, einschließlich Marktanteile und Kundenfeedback. Sie haben
+    festgestellt, dass Sie in Ihrer vorherigen Aufforderung etwas zu
+    vage waren, da Sie es versäumt haben, diese spezifischen
+    Informationen anzufordern. Sie erinnern sich an die
+    Best-Practice-Vorschläge aus Ihrem früheren Training - Seien Sie
+    höflich und iterieren, iterieren, iterieren. Geben Sie die folgende
+    Eingabeaufforderung ein, um die Marktanalyse zu ändern:
+
+++**That analysis was great. However, I'm also interested in including
+data on the toy industry, including market share and consumer feedback.
+Please amend your prior analysis to include this information.
+Thanks**!++
+
+![](./media/image9.png)
+
+\<![](./media/image10.png)
+
+7.  Sie merken, dass Sie dem Ziel näherkommen, aber es fehlen noch
+    einige wichtige Informationen. Nachdem Sie Ihre vorherigen
+    Eingabeaufforderungen überprüft haben, haben Sie festgestellt, dass
+    Sie Copilot Ihr Gesamtziel, den Umfang der Analyse und die
+    benötigten Daten zur Verfügung gestellt haben. Sie haben es jedoch
+    versäumt, Copilot zu bitten, all diese Informationen zu analysieren,
+    damit Sie fundierte Entscheidungen über den Geschäftsplan von
+    Tailspin Toys für das kommende Jahr treffen können. Um diesen Mangel
+    zu beheben, geben Sie die folgende Eingabeaufforderung ein:
+
+++**I think all the data is complete. With all the information that you
+captured, please analyze the data and identify patterns, trends, and
+insights that can help me determine what Tailspin Toy's business plan
+should be for the upcoming year**++
+
+![](./media/image11.png)
+
+![](./media/image12.png)
+
+8.  Sie mögen die Informationen, die Copilot bereitgestellt hat, sehr.
+    Da dieses Projekt jedoch Ihre erste Gelegenheit ist, einen
+    Marktanalysebericht für die SLT Ihres Unternehmens bereitzustellen,
+    sind Sie sich nicht sicher, ob Sie alles abdecken, was für sie von
+    Interesse sein könnte. Sie entscheiden sich dafür, dass Copilot
+    Ihnen hilft, festzustellen, ob Ihnen etwas fehlt. Geben Sie die
+    folgende Eingabeaufforderung ein:
+
+++**Please analyze the data in this market analysis and business plan.
+Is there any other information that a toy company would typically
+request for market analysis and business plans that I failed to request?
+If so, can you please amend your responses to include this information.
+Thank you**!++
+
+![](./media/image13.png)
+
+![](./media/image14.png)
+
+9.  Basierend auf den Informationen, die Copilot bereitstellt, stellen
+    Sie fest, dass Sie die Effektivität Ihrer Berichte wirklich
+    maximieren können, indem Sie Copilot eine Analyse dieser Bereiche
+    einbeziehen. Um Ihren Berichten den letzten Schliff zu geben, geben
+    Sie die folgende Eingabeaufforderung ein:
+
+++**Please amend the market analysis to include an analysis of each of
+these areas for the Toy industry. Also update the business plan that you
+created for Tailspin Toys based on these insights. Thanks**!++
+
+![](./media/image15.png)
+
+![](./media/image16.png)
+
+10. Die Marktanalyse und der Businessplan, die Copilot für Sie erstellt
+    hat, basieren auf einem vordefinierten Gesprächsstil. Es ist ideal
+    für Benutzer, die ein Gleichgewicht zwischen Präzision und
+    Kreativität suchen.
+
+Wenn Sie neugierig sind, wie die Berichte mit dem **More Creative** Stil
+(Antworten, die einfallsreicher und kreativer sind) aussehen würden,
+können Sie Ihre Eingabeaufforderungen anpassen, um den Ton oder den
+Fokus manuell festzulegen, je nachdem, ob Sie präzise, kreative oder
+ausgewogene Ausgaben wünschen:
 
-1.  In **Microsoft Edge**, open a new tab and enter the following
-    URL: +++https://bing.com+++
+**Zu beachtende Punkte**:
+
+- **Für präzise Antworten**: Verwenden Sie klare, spezifische und
+  detailorientierte Aufforderungen. Geben Sie an, dass Sie sachliche,
+  prägnante Antworten mit Schwerpunkt auf Genauigkeit wünschen.
+
+- **Für kreative Antworten**: Verwenden Sie offene, explorative oder
+  fantasievolle Aufforderungen. Fördern Sie das Brainstorming oder
+  schlagen Sie Lösungen vor, bei denen Originalität erforderlich ist.
+
+- **Für ausgewogene Antworten:** Verwenden Sie mäßig offene
+  Aufforderungen, die eine Mischung aus sachlichen Details und etwas
+  Kreativität erfordern. Sie können sowohl analytischen als auch
+  explorativen Input anfordern.
 
-2.  In **Microsoft Bing**, in the list of tabs across the top of the
-    page, select **Copilot**. Doing so opens Microsoft Copilot.
+**Exportieren einer Copilot-Antwort**
 
-    ![](./media/image1.png)
+Wenn Sie Microsoft Copilot in Bing verwenden, um verschiedene Dinge zu
+recherchieren oder verschiedene Fragen zu beantworten, entscheiden Sie
+möglicherweise, dass eine Antwort so gut ist, dass Sie sie zum späteren
+Nachschlagen speichern möchten.
 
-3.  On the **Copilot** page, note the toggle switch at the top of the
-    page that allows you to select either **Work** or **Web**. While
-    your request is a work-related task, you need Copilot to access the
-    Web to conduct its market analysis of the Toy industry. If
-    necessary, select the **Web** toggle switch.
+Wählen Sie am unteren Rand der endgültigen Antwort von Copilot die
+Schaltfläche **Copy** aus, um die Antwort zu kopieren und die kopierte
+Antwort in einen Texteditor einzufügen. Wenn Sie mehrere Antworten in
+einem einzigen Dokument konsolidieren möchten, müssen Sie jede Antwort
+manuell kopieren und in einen Texteditor einfügen und die Datei
+speichern.
 
-    ![](./media/image2.png)
+**Hinweis**: Sie sehen die Schaltfläche **Edit in Pages,** die mehr
+Funktionalität bietet und die Zusammenarbeit im Team erleichtert. In
+**Edit in Pages** wird in dieser Übung nicht verwendet. Eine separate
+Lab-Übung ist in Lab \#06 enthalten.
+
+![](./media/image17.png)
+
+**Übung \#2: Brainstorming von Ideen für Marketingkampagnen mit Copilot
+in Loop**
+
+Sie können Copilot in Loop verwenden, um neue Marketingstrategien zu
+entwickeln, Kampagnen zu planen und Inhalte zu entwickeln. Copilot in
+Loop kann Ihnen helfen, Ideen für Blog-Posts, Artikel und andere
+Inhaltstypen zu generieren. Sie können Themen und den gewünschten
+Inhaltsstil eingeben, und Copilot kann Eingabeaufforderungen
+vorschlagen, die Ihnen den Einstieg erleichtern.
+
+In der vorherigen Übung führte Tailspin Toys eine Marktanalyse der
+Spielzeugindustrie durch. Auf der Grundlage dieser Analyse beschloss das
+Unternehmen, eine neue Linie von Outdoor-Spielzeug einzuführen. Als
+Marketing Program Manager bei Tailspin Toys haben Sie die Aufgabe,
+Marketingkampagnen für diese neue Spielzeuglinie zu erstellen. In dieser
+Übung verwenden Sie Copilot in Loop, um Ideen für eine Marketingkampagne
+zu entwickeln, die auf diese neue Produktlinie ausgerichtet ist.
+
+1.  Wählen Sie in **Microsoft 365 Loop** aus**,** wenn sie im linken
+    Navigationsbereich angezeigt wird. Wenn es dort nicht angezeigt
+    wird, wählen Sie oben links direkt über dem **Microsoft
+    365-Navigationsbereich** **App Launcher** aus.
+
+![](./media/image18.png)
+
+2.  Scrollen Sie auf der Seite **Apps** nach unten, um **Loop** zu
+    suchen, und wählen Sie es dann aus.
 
-4.  Below the list of predefined prompt examples, you can choose a
-    conversation style. Select the **More Balanced** option if it isn't
-    already selected by default.
+**Hinweis**: Wenn **Loop** auf der Seite "Apps" nicht aufgeführt ist,
+wählen Sie **More Apps** aus**.**
 
-    ![](./media/image3.png)
+![](./media/image19.png)
 
-5.  In the prompt field, enter the following prompt and then select
-    the **Submit** icon:
+3.  Wenn die Schaltfläche **Sign In** angezeigt wird, melden Sie sich
+    mit den Benutzeranmeldeinformationen an.
 
-    ++**I'm the Director for Market Research for Tailspin Toys, a U.S. based
-    toy manufacturer. Conduct a market analysis of the toy industry to
-    identify sales figures, the latest trends, consumer preferences, and
-    the most popular toys in the market**.++
+![](./media/image20.png)
 
-    ![](./media/image4.png)
+**Hinweis**: Schließe nach der Anmeldung das Loop-Browserfenster und
+öffne Loop erneut auf der Apps-Seite.
 
-6.  Accept the **Terms of use and policy** to proceed further.
+4.  In **Microsoft Loop** wird die Registerkarte **Workspaces**
+    standardmäßig angezeigt. Wenn Sie einen neuen Arbeitsbereich für
+    dieses Projekt erstellen möchten, wählen Sie oben links im
+    Navigationsmenü **+** aus, und wählen Sie dann die Schaltfläche
+    +**New Workspaces** aus.
 
-    ![](./media/image5.png)
+![](./media/image21.png)
 
-7.  Review the market analysis that Copilot generated. You realize that
-    a general request such as the one you submitted provides basic
-    information such as market trends, consumer preferences, and toy
-    trends. However, you're also interested in gathering data on the toy
-    industry, including market share and consumer feedback. You realized
-    that you were a little too vague in your prior prompt since you
-    failed to request this specific information. You remember the best
-    practice suggestions from your earlier training - Be polite and
-    iterate, iterate, iterate. Enter the following prompt to amend the
-    market analysis:
-
-    ++**That analysis was great. However, I'm also interested in including
-    data on the toy industry, including market share and consumer
-    feedback. Please amend your prior analysis to include this
-    information. Thanks**!++
-
-    ![](./media/image6.png)
-
-    ![](./media/image7.png)
-
-    ![](./media/image8.png)
-
-8.  You realize that you're getting closer to your goal, but you're
-    still missing some key information. After reviewing your prior
-    prompts, you realized that you provided Copilot with your overall
-    objective, the scope of the analysis, and the data that you needed.
-    However, you failed to ask Copilot to analyze all this information
-    so that you can make informed decisions on Tailspin Toys’ business
-    plan for the upcoming year. To correct this shortcoming, enter the
-    following prompt:
-
-    ++**I think all the data is complete. With all the information that you
-    captured, please analyze the data and identify patterns, trends, and
-    insights that can help me determine what Tailspin Toy's business plan
-    should be for the upcoming year**.++
-
-    ![](./media/image9.png)
-
-    ![](./media/image10.png)
-
-9.  You really like the information that Copilot provided. However,
-    since this project is your first opportunity to provide a market
-    analysis report to your company's SLT, you're not sure if you're
-    covering everything that might be of interest to them. You decide to
-    have Copilot help you determine if you're missing anything. Enter
-    the following prompt:
-
-    ++**Please analyze the data in this market analysis and business plan.
-    Is there any other information that a toy company would typically
-    request for market analysis and business plans that I failed to
-    request? If so, can you please amend your responses to include this
-    information. Thank you**!++
-
-    ![](./media/image11.png)
-
-    ![](./media/image12.png)
-
-10. Based on the information that Copilot provides, you realize that you
-    can really maximize the effectiveness of your reports by having
-    Copilot include an analysis of these areas. To put the finishing
-    touch on your reports, enter the following prompt:
-
-    ++**Please amend the market analysis to include an analysis of each of
-    these areas for the Toy industry. Also update the business plan that
-    you created for Tailspin Toys based on these insights. Thanks**!++
-
-    ![](./media/image13.png)
-
-    ![](./media/image14.png)
-
-11. The market analysis and business plan that Copilot generated for you
-    was based on a **More Balanced** conversation style. It's ideal for
-    users who want a balance between precision and creativity. This
-    style provides responses that are longer and more descriptive than
-    the **More Precise** style. As for your reports, you wanted longer
-    and more descriptive responses, since you felt that your SLT expects
-    that level of detail. However, you're curious as to how the reports
-    would look using the **More Creative** style. This style provides
-    responses that are more imaginative and creative.
-
-    ![](./media/image15.png)
-
-12. Let's explore how Copilot's responses would be different using
-    the **More Creative** style. Open a new tab in your **Microsoft
-    Edge** browser and enter the following
-    URL: +++https://bing.com+++
-
-13. In **Microsoft Bing**, select **Copilot** to open Microsoft Copilot.
-
-14. On the **Copilot** page, you still want to be in **Web** mode, but
-    this time you decide to try the **More Creative** conversation
-    style. Repeat steps 4-10. Copy and paste in each prompt. Pay
-    particular attention to the tone that Copilot uses when responding
-    to each prompt. Also note how each response is different from its
-    corresponding response that was based on the **More
-    Balanced** conversation style.
-
-## Export a Copilot response
-
-When you use Microsoft Copilot in Bing to research different things or
-answer different questions, you may decide that a response is so good
-that you want to export it just to save it for future reference. 
-
-1. Select Copy button at the bottom of a prompt response to copy the response and paste the copied response in a text          editor.
-
-    ![](./media/image16.png)
-
-    If you want to consolidate multiple responses into a single document, you need to manually copy and paste each response     in a text editor.
-   
-## Exercise #2: Brainstorm marketing campaign ideas using Copilot in Loop
-
-You can use Copilot in Loop to brainstorm new marketing strategies, plan
-campaigns, and develop content. Copilot in Loop can help you generate
-ideas for blog posts, articles, and other content types. You can input
-topics and desired content style, and Copilot can suggest prompts to
-help you get started.
-
-In the previous exercise, Tailspin Toys conducted a market analysis of
-the toy industry. Based on that analysis, the company decided to
-introduce a new line of outdoor toys. As a Marketing Program Manager at
-Tailspin Toys, you are tasked with creating marketing campaigns for this
-new line of toys. In this exercise, you will use Copilot in Loop to
-brainstorm ideas for a marketing campaign targeted at this new product
-line.
-
-1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
-
-    ![](./media/image21.png)
-
-2.  In the **Apps** page, scroll down to locate **Loop** and then select
-    it.
-
-    **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**
-
-    ![](./media/image22.png)
-
-3.  If you see the **Sign-in** button, sign-in using the user
-    credentials.
-
-    ![](./media/image23.png)
-
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
-
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
-
-    ![](./media/image24.png)
-
-5.  In the **Create a new workspace** window, enter **Outdoor toy line
-    Marketing Campaign** for your workspace name and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
-
-    ![](./media/image25.png)
-
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
-
-    ![](./media/image26.png)
-
-7.  You're now on the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to **Ideas for Outdoor toy campaigns**. Note how the page name
-    is automatically updated in the navigation pane.
-
-    ![](./media/image27.png)
-
-    ![](./media/image28.png)
-
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
-
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
-
-    ![](./media/image29.png)
-
-10. In the **Copilot** window that appears, note the row of buttons that
-    appears below the prompt field. Select each button
-    (**Create**, **Brainstorm**, **Blueprint**, and **Describe**). When
-    doing so, note how it prefills the prompt field with an example of
-    the type of task that Copilot can assist with. Since this exercise
-    deals with brainstorming, select the **Brainstorm** button.
-
-    ![](./media/image30.png)
-
-11. Note how Copilot prefills the prompt field with a brainstorming
-    suggestion. In fact, select the **Brainstorm** button multiple
-    times. Note how it suggests a new brainstorming prompt each time.
-    Copilot loops through seven different brainstorming examples, and
-    then starts back over. The purpose of these examples is to give you
-    an idea as to the eclectic types of things that Copilot can help you
-    brainstorm. For this exercise, enter the following prompt field and
-    select the **Submit** icon:
-
-    ++**Brainstorm 10 ideas for a marketing campaign for a new line of outdoor
-    toys**.++
-
-    ![](./media/image31.png)
-
-12. Review the generated list of ideas. Rather than having all the
-    information in a paragraph or list form, you prefer to summarize it
-    in a table. Plus, you also want Copilot to provide more specific
-    details for each idea.
-
-    ![](./media/image32.png)
-
-13. In the **Copilot** pane that appears, enter the following prompt in
-    the **Rewrite with Copilot** field and select the **Submit** icon:
-
-    ++**That looks good. However, please rewrite the report by placing the
-    information in a table and provide more specific details for each
-    idea**.++
-
-    ![](./media/image33.png)
-
-    ![](./media/image34.png)
-
-14. Note how Copilot changed the formatting of the report. You now want
-    Copilot to add another idea to the table titled **Supermarket store
-    promotions**. To do so, enter the following prompt:
-
-    ++**Add an idea for Supermarket store promotions**.++
-
-    ![](./media/image35.png)
-    
-    ![](./media/image36.png)
-
-15. When you ask Copilot to add a new idea, it may add it into a new
-    table, or it may add it to the end of the current table. Either way,
-    you decide after further reflection that promoting outdoor toys in a
-    supermarket is a lousy idea, and you no longer want it included in
-    the list. So how can you undo what you just did?
-
-    To the right of the table (either your original table or a new one
-    with just the **Supermarket store promotions** idea), note how Copilot
-    tracks each of your prompts. The prompts are displayed from the most
-    recent prompt down to the first prompt, in sequential order. More
-    importantly, note how each prompt includes an **Undo** icon. If you're
-    unhappy with the results of a prompt, you can undo it to go back to
-    the version of the draft before that prompt. Since you've decided that
-    you no longer want to include **Supermarket store promotions** in the
-    table, select the **Undo** icon for that prompt.
-
-    ![](./media/image37.png)
-
-16. After selecting the **Undo** icon, note how Copilot deleted the
-    prompt and returned you to the draft following the second prompt
-    that put the ideas in a table. At this point, you're ready to have
-    Copilot sort the ideas from best to worst. Enter the following
-    prompt to sort the ideas:
-
-    ++**Please sort the ideas in the table starting from most effective to
-    least effective**.++
-
-    **Note:** Locate the **Sort** icon (the up and down arrows) that
-    appears in the icon tray above the list of ideas. This option simply
-    sorts the ideas in alphabetical sequence. You can perform the sort on
-    either the name of each **Idea** or the first word in
-    each **Details** field.
-
-17. After reviewing the sorted ideas, you decide to make one final
-    change. You want Copilot to replace the least effective idea with a
-    campaign event titled **Seasonal Promotions**. You think it's a
-    natural fit for a new toy line that focuses on outdoor products. To
-    do so, enter the following prompt:
-
-    ++**Please replace the final idea in the table with Seasonal Promotions**.++
-
-    ![](./media/image38.png)
-
-    ![](./media/image39.png)
-
-18. When it's time to present the list of marketing campaign ideas that
-    you brainstormed with the help of Copilot in Loop, you can access
-    the **Ideas for Outdoor toy campaigns** workspace that Loop
-    automatically saved.
-
-## Exercise #3: Consolidate multiple marketing reports using Copilot in Word
-
-Copilot in Word, an AI-powered writing assistant, can help you rewrite
-existing content, or even transform selected content into a table.
-
-As the Latin America (LATAM) Marketing Director for Contoso Beverage, a
-division of Contoso, Ltd., your product manager provided you with three
-separate reports involving the company's Mystic Spice Premium Chai Tea
-beverage. However, you’re finding it difficult to analyze the
-information, since you’re constantly jumping back and forth between
-documents.
-
-You decide to combine the reports into a single LATAM Market Analysis
-report for Mystic Spice Premium Chai Tea. In this exercise you will use
-Copilot to creates the combined report, review it and possibly update it
-with other information that Copilot can find on the Chai Tea market in
-Latin America.
-
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
-
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
-
-    ![](./media/image40.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the following documents to OneDrive.
+5.  Im **Create a new workspace** Fenster, geben Sie+++**Outdoor toy
+    line Marketing Campaign**+++ für den Namen Ihres Arbeitsbereichs und
+    wählen Sie dann entweder die **Schaltfläche Continue** oder
+    **Cretae** aus, die angezeigt wird (abhängig von Ihrer
+    Loop-Version).
+
+![](./media/image22.png)
+
+6.  Wählen Sie im Fenster **Add files to your workspace** (je nach
+    Loop-Version wird in diesem Fenster möglicherweise **Workspace
+    Switcher** angezeigt) die Option **Create** aus.
+
+![](./media/image23.png)
+
+7.  Du befindest dich jetzt auf der ersten Seite deines neuen
+    Arbeitsbereichs. Der Name der Seite ist derzeit **Untitled**.
+    Beachten Sie, dass die Seite (Untitled) auch im linken
+    Navigationsbereich angezeigt wird. Wählen Sie im Hauptteil der Seite
+    das Feld **Untitled** aus und ändern Sie den Namen der Seite in
+    +++**Ideas for Outdoor toy campaigns**+++. Beachten Sie, wie der
+    Seitenname im Navigationsbereich automatisch aktualisiert wird.
+
+![](./media/image24.png)
+
+![](./media/image25.png)
+
+8.  In der Datei **Just start typing...** einen Schrägstrich ein
+    **(/)**.
+
+9.  Wählen Sie im angezeigten Dropdown-Menü unter dem Abschnitt
+    **Copilot** oben im Menü die Option **Draft page content**.
+
+![](./media/image26.png)
+
+10. Beachten Sie im angezeigten Copilot-Fenster die Reihe der
+    Schaltflächen, die unter dem Eingabeaufforderungsfeld angezeigt
+    werden. Wählen Sie die einzelnen Schaltflächen aus
+    (**Create**, **Brainstorm**, **Blueprint**, and **Describe).**
+    Beachten Sie dabei, wie das Eingabeaufforderungsfeld mit einem
+    Beispiel für die Art der Aufgabe ausgefüllt wird, bei der Copilot
+    helfen kann. Da es in dieser Übung um Brainstorming geht, wählen Sie
+    die Schaltfläche **Brainstorming** aus.
+
+![](./media/image27.png)
+
+11. Beachten Sie, wie Copilot das Eingabeaufforderungsfeld mit einem
+    Brainstorming-Vorschlag vorausfüllt. Wählen Sie die Schaltfläche
+    **Brainstorming** mehrmals aus. Beachten Sie, wie jedes Mal eine
+    neue Brainstorming-Aufforderung vorgeschlagen wird. Copilot
+    durchläuft sieben verschiedene Brainstorming-Beispiele und beginnt
+    dann wieder von vorne. Der Zweck dieser Beispiele besteht darin,
+    Ihnen eine Vorstellung davon zu geben, welche vielseitigen Arten von
+    Dingen Copilot beim Brainstorming unterstützen kann. Geben Sie für
+    diese Übung das folgende Eingabeaufforderungsfeld ein, und wählen
+    Sie das Symbol **Send** aus:
+
+++**Brainstorm 10 ideas for a marketing campaign for a new line of
+outdoor toys**.++
+
+![](./media/image28.png)
+
+12. Überprüfen Sie die generierte Liste der Ideen. Anstatt alle
+    Informationen in Absatz- oder Listenform zu haben, ziehen Sie es
+    vor, sie in einer Tabelle zusammenzufassen. Außerdem möchten Sie,
+    dass Copilot für jede Idee spezifischere Details bereitstellt.
+
+![](./media/image29.png)
+
+13. Geben Sie im angezeigten **Copilot-**Bereich die folgende
+    Eingabeaufforderung in das Feld **Rewrite with Copilot** ein, und
+    wählen Sie das Symbol **Send** aus**:**
+
+++**That looks good. However, please rewrite the report by placing the
+information in a table and provide more specific details for each
+idea**.++
+
+![](./media/image30.png)
+
+![](./media/image31.png)
+
+14. Beachten Sie, wie Copilot die Formatierung des Berichts geändert
+    hat. Sie möchten nun, dass Copilot der Tabelle mit dem Titel
+    **Supermarket store promotions** eine weitere Idee hinzufügt. Geben
+    Sie dazu die folgende Eingabeaufforderung ein:
+
+++**Add an idea for Supermarket store promotions**.++
+
+![](./media/image32.png)
+
+![](./media/image33.png)
+
+15. Wenn Sie Copilot bitten, eine neue Idee hinzuzufügen, wird sie
+    möglicherweise in eine neue Tabelle eingefügt oder am Ende der
+    aktuellen Tabelle hinzugefügt. In jedem Fall entscheiden Sie nach
+    reiflicher Überlegung, dass es eine schlechte Idee ist, für
+    Outdoor-Spielzeug in einem Supermarkt zu werben, und Sie möchten es
+    nicht mehr in die Liste aufnehmen. Wie können Sie also das
+    rückgängig machen, was Sie gerade getan haben?
+
+Beachten Sie rechts neben der Tabelle (entweder Ihre ursprüngliche
+Tabelle oder eine neue Tabelle, die nur die Idee **Supermarket store
+promotions** enthält), wie Copilot jede Ihrer Eingabeaufforderungen
+verfolgt. Die Eingabeaufforderungen werden von der letzten
+Eingabeaufforderung bis zur ersten Eingabeaufforderung in sequenzieller
+Reihenfolge angezeigt. Noch wichtiger ist, dass jede Eingabeaufforderung
+ein **Undo** enthält**.** Wenn Sie mit den Ergebnissen einer
+Eingabeaufforderung nicht zufrieden sind, können Sie sie rückgängig
+machen, um zur Version des Entwurfs vor dieser Eingabeaufforderung
+zurückzukehren. Da Sie sich entschieden haben, dass Sie keine
+**Supermarket store promotions** mehr in die Tabelle aufnehmen möchten,
+wählen Sie das Symbol **Undo** für diese Eingabeaufforderung aus.
+
+![](./media/image34.png)
+
+16. Nachdem Sie das Symbol **Undo** ausgewählt haben, beachten Sie, wie
+    Copilot die Eingabeaufforderung gelöscht und Sie nach der zweiten
+    Eingabeaufforderung, in der die Ideen in einer Tabelle abgelegt
+    wurden, zum Entwurf zurückgekehrt sind. An diesem Punkt sind Sie
+    bereit, Copilot die Ideen von den besten bis zu den schlechtesten
+    sortieren zu lassen. Geben Sie die folgende Eingabeaufforderung ein,
+    um die Ideen zu sortieren:
+
+++**Please sort the ideas in the table starting from most effective to
+least effective**.++
+
+**Hinweis:** Suchen Sie das Symbol **Sort** (die Pfeile nach oben und
+unten), das in der Symbolleiste über der Liste der Ideen angezeigt wird.
+Diese Option sortiert die Ideen einfach in alphabetischer Reihenfolge.
+Sie können die Sortierung entweder nach dem Namen jeder **Idea** oder
+nach dem ersten Wort in jedem **Detailfeld** durchführen.
+
+17. Nachdem Sie die sortierten Ideen überprüft haben, entscheiden Sie
+    sich für eine letzte Änderung. Sie möchten, dass Copilot die am
+    wenigsten effektive Idee durch ein Kampagnenereignis mit dem Titel
+    **Seasonal Promotions** ersetzt. Du denkst, es passt perfekt zu
+    einer neuen Spielzeuglinie, die sich auf Outdoor-Produkte
+    konzentriert. Geben Sie dazu die folgende Eingabeaufforderung ein:
+
+++**Please replace the final idea in the table with Seasonal
+Promotions**.++
+
+![](./media/image35.png)
+
+![](./media/image36.png)
+
+18. Wenn es an der Zeit ist, die Liste der Ideen für Marketingkampagnen
+    zu präsentieren, die Sie mit Hilfe von Copilot in Loop erstellt
+    haben, können Sie auf den **Ideas for Outdoor toy
+    campaigns** zugreifen, den Loop automatisch gespeichert hat.
+
+**Übung \#3: Konsolidieren mehrerer Marketingberichte mit Copilot in
+Word**
+
+Copilot in Word, ein KI-gestützter Schreibassistent, kann Ihnen dabei
+helfen, vorhandene Inhalte neu zu schreiben oder sogar ausgewählte
+Inhalte in eine Tabelle umzuwandeln.
+
+Als Marketingdirektor für Lateinamerika (LATAM) bei Contoso Beverage,
+einem Geschäftsbereich von Contoso, Ltd., hat Ihnen Ihr Produktmanager
+drei separate Berichte zum Mystic Spice Premium Chai Tea-Getränk des
+Unternehmens zur Verfügung gestellt. Es fällt Ihnen jedoch schwer, die
+Informationen zu analysieren, da Sie ständig zwischen Dokumenten hin-
+und herspringen.
+
+Sie entscheiden sich, die Berichte in einem einzigen
+LATAM-Marktanalysebericht für Mystic Spice Premium Chai Tea zu
+kombinieren. In dieser Übung verwenden Sie Copilot, um den kombinierten
+Bericht zu erstellen, ihn zu überprüfen und möglicherweise mit anderen
+Informationen zu aktualisieren, die Copilot auf dem Chai-Tee-Markt in
+Lateinamerika finden kann.
+
+1.  Wenn Sie ein Microsoft 365-Tab in Ihrem Microsoft Edge-Browser
+    geöffnet haben, wählen Sie ihn jetzt aus. Andernfalls öffnen Sie
+    einen neuen Tab, und geben Sie die folgende URL ein:
+    +++[https://www.office.com+](https://www.office.com+++/)++, um zur
+    Microsoft 365-Startseite zu gelangen.
+
+**Hinweis**: Sie müssen sich (wenn Sie dazu aufgefordert werden) mit den
+**Microsoft 365-Anmeldeinformationen** anmelden, die auf der
+Registerkarte **Resources** auf der rechten Seite bereitgestellt werden.
+
+2.  Wählen Sie im **Microsoft 365-**Navigationsbereich **OneDrive**
+    aus**,** um es zu öffnen.
+
+![](./media/image37.png)
+
+3.  Navigieren Sie zum **Ordner C:\LabFiles**, um eine Kopie der
+    folgenden Dokumente auszuwählen und auf OneDrive hochzuladen.
 
     - **Mystic Spice Premium Chai Tea product description.**
-    
+
     - **Contoso Chai Tea market trends 2023.**
-    
+
     - **Promotion Plan for Chai Tea in Latin America.**
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-    
-4.  In this exercise, you access the documents from the Most Recently
-    Used file list. To get the files to appear in the MRU list, open
-    each document and then close it. Open and close each of the three
-    files in your OneDrive.
-
-    ![](./media/image41.png)
-
-5.  In **Microsoft 365** open **Microsoft Word**, and then open a new
-    blank document.
-
-6.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt, but don't select
-    the **Generate** button until after you link the three files to the
-    prompt:
-
-    ++**I'm the LATAM Marketing Director for Contoso Beverage. Please create
-    a LATAM Market Analysis report for our Mystic Spice Premium Chai Tea
-    beverage. Combine the three attached files to create a report that
-    describes the product, analyzes the market trend for it, and includes
-    a promotion plan for Latin America**.++
-
-    ![](./media/image42.png)
-
-7.  You now must attach the three documents to the prompt. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if
-    the **Mystic Spice Premium Chai Tea product description.docx** file
-    appears in the list of files, select it. Otherwise, select **Browse
-    files from cloud**, select the file from the **Recent** file list,
-    and then select the **Attach** button. Note how the file is
-    displayed in the prompt.
-
-    ![](./media/image43.png)
-
-8. Repeat the prior step for both the **Contoso Chai Tea market trends
-    2023.docx** file and the **Promotion Plan for Chai Tea in Latin
-    America.docx** file. At this point, links to all three files should
-    appear in the prompt.
-
-    ![](./media/image44.png)
 
-9. Select **Generate**. Upon doing so, Copilot extracts the pertinent
-    information from the three files and drafts a report that combines
-    them into a single Market Analysis report for Mystic Spice Premium
-    Chai Tea.
-
-    ![](./media/image45.png)
+**Hinweis**: Wenn Sie bereits alle Lab-Ressourcen auf OneDrive
+hochgeladen haben, wie im **Preparing for the lab execution**
+vorgeschlagen, können Sie diesen Schritt überspringen.
+
+4.  In dieser Übung greifen Sie auf die Dokumente aus der Liste der
+    zuletzt verwendeten Dateien zu. Damit die Dateien in der MRU-Liste
+    angezeigt werden, öffnen Sie jedes Dokument, und schließen Sie es
+    dann. Öffnen und schließen Sie jede der drei Dateien in Ihrem
+    OneDrive.
+
+![](./media/image38.png)
+
+5.  Öffnen Sie **in** Microsoft 365 **Microsoft Word**, und öffnen Sie
+    dann ein neues leeres Dokument.
+
+6.  Geben Sie im Fenster Entwurf mit Copilot, das am oberen Rand des
+    leeren Dokuments angezeigt wird, die folgende Eingabeaufforderung
+    ein, aber wählen Sie die Schaltfläche **Generate** erst aus, nachdem
+    Sie die drei Dateien mit der Eingabeaufforderung verknüpft, haben:
+
++++**I'm the LATAM Marketing Director for Contoso Beverage. Please
+create a LATAM Market Analysis report for our Mystic Spice Premium Chai
+Tea beverage. Combine the three attached files to create a report that
+describes the product, analyzes the market trend for it, and includes a
+promotion plan for Latin America**.+++
+
+![](./media/image39.png)
+
+7.  Sie müssen nun die drei Dokumente an die Eingabeaufforderung
+    anhängen. Im **Draft with Copilot** Fenster, wählen Sie die
+    Schaltfläche **Reference your content**. Wählen Sie im angezeigten
+    Dropdown-Menü das **Produkt description.docx Datei des Mystic Spice
+    Premium Chai Tea-Produkts** in der Liste der Dateien aus. Wählen Sie
+    andernfalls **Browse files from cloud**aus, wählen Sie die Datei aus
+    der Liste **Recently used** Dateien aus, und klicken Sie dann auf
+    die Schaltfläche **Attach**. Beachten Sie, wie die Datei in der
+    Eingabeaufforderung angezeigt wird.
+
+![](./media/image40.png)
+
+8.  Wiederholen Sie den vorherigen Schritt sowohl für die **2023.docx
+    Datei "Contoso Chai Tea Market Trends**" als auch für die
+    **Promotion Plan for Chai Tea in Latin America.docx**. An dieser
+    Stelle sollten Links zu allen drei Dateien in der
+    Eingabeaufforderung angezeigt werden.
+
+![](./media/image41.png)
+
+9.  Wählen Sie **Generate** aus. Daraufhin extrahiert Copilot die
+    relevanten Informationen aus den drei Dateien und erstellt einen
+    Bericht, der sie zu einem einzigen Marktanalysebericht für Mystic
+    Spice Premium Chai Tea zusammenfasst.
+
+![](./media/image42.png)
+
+10. Nachdem Sie diesen ersten Entwurf des Marktanalyseberichts überprüft
+    haben, stellen Sie fest, dass einige wichtige Informationen fehlen.
+    Sie möchten, dass es einen Abschnitt mit dem Titel **Competitive
+    Analysis** enthält. Sie möchten, dass Copilot die Konkurrenz
+    analysiert. Geben Sie dazu die folgende Eingabeaufforderung in das
+    Copilot-Fenster am unteren Rand des Berichts ein, und wählen Sie
+    dann den Pfeil **Generate** aus:
+
+![](./media/image43.png)
+
++++**This report looks good. However, please add a section titled
+Competitive Analysis. Review the beverage companies in Latin America
+that sell Chai Tea and then provide information in this section on the
+strengths and weaknesses of these competitors, their market share, and
+their pricing strategies**.+++
+
+![](./media/image44.png)
+
+11. Nachdem Sie diesen zweiten Entwurf des Berichts überprüft haben, der
+    den neuen Abschnitt "Wettbewerbsanalyse" enthält, stellen Sie fest,
+    dass noch eine letzte Sache fehlt. Sie möchten, dass Copilot einen
+    Abschnitt zu **Distribution Channels** hinzufügt. In diesem
+    Abschnitt sollen die Vertriebskanäle analysiert werden, die für den
+    Verkauf von Chai-Tee in Lateinamerika verwendet werden. Geben Sie
+    dazu die folgende Eingabeaufforderung in das Copilot-Fenster am
+    unteren Rand des Berichts ein, und wählen Sie dann den Pfeil
+    **Generate** aus:
+
+![](./media/image45.png)
+
++++**Nice job! One last thing. Please add a section titled Distribution
+Channels. Review the distribution channels used to sell Chai Tea in
+Latin America and then provide information in this section on the types
+of retailers, wholesalers, and distributors used**.+++
+
+12. Nachdem Sie diesen neuesten Entwurf überprüft haben, der den neuen
+    Abschnitt "Vertriebskanäle" enthält, sind Sie mit dem Bericht
+    zufrieden und können ihn speichern. Wählen Sie im Copilot-Fenster am
+    unteren Rand des Dokuments die Schaltfläche **Keep it** aus, um es
+    von einem Copilot-Entwurf in ein Word-Dokument zu konvertieren.
+
+![](./media/image46.png)
+
+13. Überprüfen Sie das Dokument. Wenn Sie manuelle Änderungen vornehmen
+    möchten, können Sie dies jetzt tun. Wenn Sie damit zufrieden sind,
+    können Sie das Dokument auf Ihrem OneDrive speichern, wenn Sie es
+    zum späteren Nachschlagen aufbewahren oder einfach verwerfen
+    möchten.
 
-10. After reviewing this first draft of the Market Analysis report, you
-    recognize that it's missing some critical information. You would
-    like to see it include a section titled **Competitive Analysis**.
-    You want Copilot to analyze the competition. To do so, enter the
-    following prompt in the Copilot window at the bottom of the report
-    and then select the **Generate** arrow:
+14. Schließen Sie diese Registerkarte in Ihrem Microsoft Edge-Browser.
 
-    ![](./media/image46.png)
+**Übung \#4: Analysieren Sie eine Markttrendtabelle mit Copilot in
+Excel**
 
-    ++**This report looks good. However, please add a section titled
-    Competitive Analysis. Review the beverage companies in Latin America
-    that sell Chai Tea and then provide information in this section on the
-    strengths and weaknesses of these competitors, their market share, and
-    their pricing strategies**.++
+Copilot in Excel ist ein leistungsstarkes Tool, mit dem
+Marketingfachleute ihre Daten mühelos erstellen, bearbeiten, verstehen
+und visualisieren und Einblicke in ihr Unternehmen gewinnen können.
+
+Die AI-gestützten Funktionen von Copilot können Marketingfachleuten
+helfen, Zeit und Mühe zu sparen, indem sie sich wiederholende Aufgaben
+automatisieren (vierteljährliche Geschäftsergebnisse analysieren,
+wichtige Trends zusammenfassen, Farbcodierungen auf Tabellen anwenden,
+Modelle und Szenarien erstellen, filtern und sortieren und Diagramme per
+Mausklick hinzufügen) und wertvolle Erkenntnisse liefern, die ihnen
+helfen können, fundierte Entscheidungen zu treffen.
 
-    ![](./media/image47.png)
+Als Director of Marketing für Contoso Beverage, einen Geschäftsbereich
+von Contoso, Ltd., haben Sie eine Markttrendtabelle erhalten, in der die
+monatlichen Aktivitäten für das Produkt Chai Tea von Contoso aufgeführt
+sind. Sie möchten die Funktionen von Copilot in Excel verwenden, um den
+Bericht zu analysieren und eine detaillierte Analyse der monatlichen
+Marketingtrends bereitzustellen.
 
-11. After reviewing this second draft of the report that contains the
-    new Competitive Analysis section, you realize that one last thing is
-    missing. You want Copilot to add a section on **Distribution
-    Channels**. This section should analyze the distribution channels
-    used to sell Chai Tea in Latin America. To do so, enter the
-    following prompt in the Copilot window at the bottom of the report
-    and then select the **Generate** arrow:
+In dieser Übung verwenden Sie Copilot in Excel, um eine
+Markttrendtabelle zu analysieren, für die bereits eine Excel-Tabelle
+definiert ist.
 
-    ![](./media/image48.png)
+1.  Wenn Sie ein Microsoft 365-Tab in Ihrem Microsoft Edge-Browser
+    geöffnet haben, wählen Sie ihn jetzt aus. Andernfalls öffnen Sie
+    einen neuen Tab, und geben Sie die folgende URL ein:
+    +++[https://www.office.com+](https://www.office.com+++/)++, um zur
+    Microsoft 365-Startseite zu gelangen.
 
-    ++**Nice job! One last thing. Please add a section titled Distribution
-    Channels. Review the distribution channels used to sell Chai Tea in
-    Latin America and then provide information in this section on the
-    types of retailers, wholesalers, and distributors used**.++
+**Hinweis**: Sie müssen sich (wenn Sie dazu aufgefordert werden) mit den
+**Microsoft 365-Anmeldeinformationen** anmelden, die auf der
+Registerkarte **Resources** auf der rechten Seite bereitgestellt werden.
 
-12. After reviewing this latest draft that contains the new Distribution
-    Channels section, you're satisfied with the report and you're ready
-    to save it. In the Copilot window at the bottom of the document,
-    select the **Keep it** button to convert it from a Copilot draft to
-    a Word document.
+2.  Wählen Sie im **Microsoft 365-Navigationsbereich** **OneDrive** aus,
+    um es zu öffnen.
+
+![](./media/image37.png)
 
-    ![](./media/image49.png)
+3.  Navigieren Sie zum Ordner **C:\LabFiles**, um eine Kopie der Tabelle
+    **Contoso Chai Tea market trends 2023** auszuwählen und auf
+    **OneDrive** hochzuladen, und öffnen und schließen Sie dann die
+    Datei, um sie in Ihrer Liste der zuletzt verwendeten Dateien (MRU)
+    zu erhalten.
 
-13. Review the document. If you want to make any manual changes, you can
-    do so now. Once you're satisfied with it, feel free to save the
-    document to your OneDrive if you wish to keep it for future
-    reference, or just discard it.
+![](./media/image47.png)
 
-14. Close this tab in your Microsoft Edge browser.
+**Hinweis**: Wenn Sie bereits alle Labressourcen auf OneDrive
+hochgeladen haben, wie unter **Preparing for the lab execution**, können
+Sie diesen Schritt überspringen.
 
-## Exercise #4: Analyze a market trend spreadsheet using Copilot in Excel
+4.  Wählen Sie auf der **Microsoft 365-Startseite** das Excel-Symbol im
+    Navigationsbereich auf der linken Seite aus.
 
-Copilot in Excel is a powerful tool that can help Marketing
-professionals create, edit, understand, and visualize their data with
-ease and gain insights into their business.
+5.  Wählen Sie in **Excel** auf der Seite **File** die Option **Contoso
+    Chai Tea market trends 2023.xlsx** aus der Dateiliste aus.
 
-Copilot’s AI-powered capabilities can help Marketing professionals save
-time and effort by automating repetitive tasks (analyze quarterly
-business results, summarize key trends, apply color coding to tables,
-create models, scenarios, filter and sort, and add charts at the click
-of a mouse) and providing valuable insights that can help them make
-informed decisions.
+6.  Wählen Sie die Option **Copilot** auf der rechten Seite des
+    Menübands aus.
 
-As the Director of Marketing for Contoso Beverage, a division of
-Contoso, Ltd., you received a market trend spreadsheet showing monthly
-activity for Contoso's Chai Tea product. You want to use the features of
-Copilot in Excel to analyze the report and provide detailed analysis of
-the monthly marketing trends.
+7.  Im angezeigten Copilot-Bereich stehen mehrere vordefinierte
+    Eingabeaufforderungen zur Auswahl. Wählen Sie die Schaltfläche
+    **Show Data insights** aus.
 
-In this exercise, you will use Copilot in Excel to analyze a market
-trend spreadsheet that already has an Excel table defined.
+![](./media/image48.png)
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+![](./media/image49.png)
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+8.  Notieren Sie sich das Pivot-Diagramm, das es generiert hat. Als wir
+    diese Übung getestet haben, hat Copilot immer ein Liniendiagramm der
+    **Social Media Engagement (views) by Date** erstellt. Welche Art von
+    Diagramm hat Copilot für Sie erstellt? Wählen Sie unter dem
+    Diagramm, das Copilot für Sie erstellt hat, die Schaltfläche **+Add
+    to a new sheet**.
 
-    ![](./media/image40.png)
+![](./media/image50.png)
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso Chai Tea market trends 2023** spreadsheet to **OneDrive** and
-    then open and close the file to get it in your Most Recently Used (MRU) file list.
+9.  Obwohl Copilot sagt, dass das Diagramm zu Sheet 2 hinzugefügt wurde,
+    ist Sheet 2 in der Tabelle nicht sichtbar.
 
-    ![](./media/image50.png)
+![](./media/image51.png)
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the
-    labexecution** you can skip this step.
+10. Versuchen Sie es mit einer maximierten Excel-Tabelle und wiederholen
+    Sie Schritt 11. Die Funktion **Add to sheet function** funktionierte
+    nun einwandfrei.
 
-4.  On the **Microsoft 365** home page, select the **Excel** icon in the
-    navigation pane on the left.
+![](./media/image52.png)
 
-5.  In **Excel**, on the **File** page, select **Contoso Chai Tea market
-    trends 2023.xlsx** from the file list.
+11. Wählen Sie **Sheet 2** aus. Lesen Sie das neue Datenblatt, das
+    Copilot erstellt hat. Copilot hat sowohl das Diagramm als auch die
+    Datenspalte aus der Tabelle eingeschlossen, die die Grundlage für
+    dieses Diagramm bildete. Halten Sie den Mauszeiger über das Diagramm
+    und beachten Sie das angezeigte Fenster, das den Typ des Diagramms
+    anzeigt, das Copilot erstellt hat.
 
-6.  Select the **Copilot** option on the right side of the ribbon.
+![](./media/image53.png)
 
-7. In the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Show data
-    insights** button.
+12. Beachten Sie, dass im Copilot-Bereich die Liste der vordefinierten
+    Eingabeaufforderungen nicht mehr angezeigt wird. Diese Situation
+    tritt auf, weil Copilot noch nicht für PivotTables funktioniert
+    (beachten Sie die Meldung, die auf dieses Problem hinweist). Wählen
+    Sie **Sheet 1** aus, wodurch Sie zur Excel-Tabelle zurückkehren.
+    Beachten Sie, wie die vordefinierten Eingabeaufforderungen angezeigt
+    werden.
 
-    ![](./media/image51.png)
+![](./media/image54.png)
 
-    ![](./media/image52.png)
+13. Wählen Sie in den vordefinierten Eingabeaufforderungen, die über dem
+    Eingabeaufforderungsfeld angezeigt werden, die Schaltfläche **Show
+    suggestions for formula columns** aus.
 
-8. Note the pivot chart that it generated. When we tested this
-    exercise, Copilot always created a line graph of the **Social Media
-    Engagement (views) by Date**. What type of chart did Copilot create
-    for you? Below the chart that Copilot created for you, select
-    the **+Add to a new sheet** button.
+14. Beachten Sie den Vorschlag, den Copilot bereitstellt. Die folgende
+    Abbildung zeigt den Vorschlag, den Copilot während unserer Tests
+    gemacht hat.
 
-    ![](./media/image53.png)
-   
-9. Though Copilot says it added the chart to Sheet 2, Sheet 2 is not
-   visible in the spreadsheet.
+![](./media/image55.png)
 
-    ![](./media/image54.png)
+15. Wählen Sie in dem Vorschlag, den Sie erhalten haben, den
+    Dropdown-Pfeil **Explain formula** aus. Lesen Sie die Erklärung von
+    Copilot, die die Berechnung beschreibt. Wählen Sie die Schaltfläche
+    **+Incert Column**, um diese Spalte in Ihre Excel-Tabelle
+    einzufügen.
 
-10. Try with maximized excel sheet and repeat step 11. The **Add to
-    sheet function** worked fine now.
+![](./media/image56.png)
 
-    ![](./media/image55.png)
+16. Beachten Sie, wie Copilot diese Datenspalte am Ende Ihrer
+    Excel-Tabelle in **Sheet 1** hinzugefügt hat. Fasziniert Sie diese
+    Funktion? Vielleicht möchten Sie sehen, welche anderen
+    Formelvorschläge es bietet. Wählen Sie die Schaltfläche **Show
+    suggestions for formula columns** erneut aus. Notieren Sie sich den
+    Vorschlag. Wählen Sie die Schaltfläche **+Incert Column** aus, um
+    diese vorgeschlagene Spalte in Ihre Excel-Tabelle einzufügen.
 
-11. Select **Sheet 2**. Review the new data sheet that Copilot created.
-    Copilot included both the graph and the column of data from the
-    spreadsheet that was the basis of this graph. Hold your cursor over
-    the chart and note the window that appears which indicates the type
-    of chart that Copilot generated.
+17. Wählen Sie in den vordefinierten Eingabeaufforderungen, die über dem
+    Eingabeaufforderungsfeld angezeigt werden, die Schaltfläche **How
+    can I highlight, filter, and sort data**? aus.
 
-    ![](./media/image56.png)
+![](./media/image57.png)
 
-12. Note how in the Copilot pane, the list of predefined prompts no
-    longer appears. This situation occurs because Copilot doesn't work
-    on PivotTables yet (note the message indicating this issue).
-    Select **Sheet 1**, which returns you back to the Excel table. Note
-    how the predefined prompts appear.
+18. Beachten Sie die Liste der Aktionen, die Sie ausführen können.
 
-     ![](./media/image57.png)
+![](./media/image58.png)
 
-13. In the predefined prompts that appear above the prompt field, select
-    the **Show suggestions for formula columns** button.
+19. Zu diesem Zeitpunkt interessieren Sie die vordefinierten
+    Eingabeaufforderungen, die Copilot anzeigt, nicht mehr. Daher
+    möchten Sie einen neuen Satz von Eingabeaufforderungen sehen. Wählen
+    Sie die Schaltfläche **Refresh** aus, die über dem
+    Eingabeaufforderungsfeld angezeigt wird.
 
-14. Note the suggestion that Copilot provides. The following image shows
-    the suggestion that Copilot provided during our testing.
+![](./media/image59.png)
 
-    ![](./media/image58.png)
+20. Sehen Sie sich die überarbeitete Liste der vordefinierten
+    Eingabeaufforderungen an, die jetzt angezeigt werden. Die folgende
+    Abbildung zeigt Beispiele für Eingabeaufforderungen, die angezeigt
+    wurden.
 
-15. In the suggestion that you received, select the **Explain
-    formula** drop-down arrow. Review Copilot's explanation that
-    describes the calculation. Select the **+Insert Column** button to
-    insert this column into your Excel table.
+![](./media/image60.png)
 
-    ![](./media/image59.png)
+21. Der Zweck dieser Übung besteht darin, ein Gefühl für die
+    verschiedenen Arten von vordefinierten Aktionen zu bekommen, die
+    Copilot ausführen kann. Wählen Sie daher verschiedene
+    Eingabeaufforderungen aus, um zu sehen, was passiert. Zum Beispiel:
 
-16. Note how Copilot added this column of data to the end of your Excel
-    table in **Sheet 1**. Is this feature intriguing you? You may want
-    to see what other formula suggestions it provides. Select the **Show
-    suggestions for formula columns** button again. Note the suggestion.
-    Select the **+Insert Column** button to insert this suggested column
-    into your Excel table.
+    - Wenn eine Sortiereingabeaufforderung angezeigt wird, wählen Sie
+      diese jetzt aus. Beachten Sie, wie Copilot die Daten für Sie
+      sortiert hat.
 
-17. In the predefined prompts that appear above the prompt field, select
-    the **How can I highlight, filter, and sort data**? button.
+    - Wenn eine **fettgedruckte** Eingabeaufforderung angezeigt wird,
+      wählen Sie sie jetzt aus. Beachten Sie, wie Copilot die Elemente
+      in der erwähnten Spalte fett formatiert und alle anderen nicht
+      fett gedruckt hat.
 
-    ![](./media/image60.png)
+22. Wählen Sie erneut die Schaltfläche **Refresh** aus, die über dem
+    Eingabeaufforderungsfeld angezeigt wird.
 
-18. Note the list of actions that you can take.
+> ![](./media/image59.png)
 
-    ![](./media/image61.png)
+23. Überprüfen Sie die neuen Eingabeaufforderungen, die angezeigt
+    werden. Wählen Sie die Schaltfläche **Refresh** mehrmals aus, um die
+    verschiedenen Arten von Eingabeaufforderungen anzuzeigen, die
+    Copilot bereitstellt.
 
-19. At this point, the predefined prompts that Copilot displays no
-    longer interest you. As such, you want to see a new set of prompts.
-    Select the **Refresh** button that appears above the prompt field.
+24. Sie können andere Eingabeaufforderungen auswählen, um zu sehen, was
+    Copilot tut. Wenn Sie fertig sind, schließen Sie die Registerkarte
+    Ihres Microsoft Edge-Browsers.
 
-    ![](./media/image62.png)
+**Zusammenfassung:**
 
-20. Review the revised list of predefined prompts that now appear. The
-    following image shows examples of prompts that was displayed.
+In diesem Lab, das Sie:
 
-    ![](./media/image63.png)
+- Microsoft Copilot (Bing/Web-Modus) zur Analyse von Markttrends
 
-21. The purpose of this exercise is to get a feel for the various types
-    of predefined actions that Copilot can perform. Therefore, select
-    different prompts to see what happens. For example:
+- Copilot in Loop zur Generierung von Ideen für Marketingkampagnen für
+  eine neue Produktlinie.
 
-    - If a **Sort** prompt appears, select it now. Note how Copilot
-      sorted the data for you.
+- Copilot in Word, um mehrere Marketingberichte in einem
+  zusammenhängenden Dokument zu kombinieren.
 
-    - If a **Bold** prompt appears, select it now. Note how Copilot
-      bolded the items in the column it mentioned and left any others
-      nonbolded.
+- Copilot in Excel zur Analyse von Markttrends in einer Tabelle.
 
-22. Again select the **Refresh** button that appears above the prompt
-    field.
-
-    ![](./media/image62.png)
-
-23. Review the new set of prompts that it displays. Select
-    the **Refresh** button several times to see the different types
-    prompts that Copilot provides.
-
-24. Feel free to select any other prompts to see what Copilot does. When
-    you're done, close your Microsoft Edge browser tab.
-
-## Summary:
-
-In this lab you used
-
-- Microsoft Copilot (Bing/Web mode) to analyze market trends
-
-- Copilot in Loop to generate marketing campaign ideas for a new product
-  line.
-
-- Copilot in Word to combine multiple marketing reports into a cohesive
-  document.
-
-- Copilot in Excel to analyze market trends within a spreadsheet.
-
-Through these activities, you can streamline the processes and improve
-the overall effectiveness of your marketing campaigns.
+Durch diese Aktivitäten können Sie die Prozesse rationalisieren und die
+Gesamteffektivität Ihrer Marketingkampagnen verbessern.
