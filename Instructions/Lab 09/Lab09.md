@@ -1,205 +1,272 @@
-# Lab 09: Create AI plugin actions for Microsoft Copilot (Preview)
+# Lab 09: Erstellen eines autonomen Agents zum Nachverfolgen neuer Dateien, die in OneDrive erstellt wurden
 
-## Objective:
+**Einleitung**
 
-AI Plugins can be used to extend Microsoft Copilot, or used within a
-custom copilot as a plugin action. In this lab, we will learn about
-creating different types of AI Plugins.
+OneDrive For Business einer Organisation hat mehrere Dateien darin
+erstellt, und es ist für den Administrator schwierig geworden, den
+Überblick zu behalten.
 
-The Plugins will be available in the Microsoft Copilot in production, if
-the organization has valid license for the same.
+**Ziel**
 
-## Exercise #1: Generate content or extract insights with AI Builder dynamic prompts
+Erstellen Sie einen autonomen Agenten, um die Details der neu
+hinzugefügten Datei in den Dateidetails-Tracker einzugeben. Dadurch wird
+das Problem der Nachverfolgung der hinzugefügten Dateien behoben, und
+der Dateidetail-Tracker enthält die Details aller neu erstellten
+Dateien.
 
-1.  Login to +++**https://copilotstudio.microsoft.com/**+++ using your
-    tenant credentials if not already logged in.
+## Übung 1: Einrichten der Umgebung
 
-2.  Select **Library** on the side navigation pane. Select **+ Add an
-    item**.
+### Aufgabe 1: Einrichten von OneDrive
+
+1.  Öffnen Sie einen Browser, und navigieren Sie zu +++. **Melden Sie
+    sich** mit den Anmeldeinformationen auf der Registerkarte
+    **Resources** an.
 
 ![](./media/image1.png)
 
-3.  Select **Copilot for Microsoft 365** in the **Which Copilot would
-    you like to extend? (preview)** dialog.
+2.  Wählen Sie **OneDrive** aus dem linken Menü aus.
 
 ![](./media/image2.png)
 
-4.  Select **Prompt** in the New action menu that appears.
+3.  Klicken Sie auf das +-Symbol oben links und wählen Sie **Files
+    upload**.
 
 ![](./media/image3.png)
 
-5.  Name it as +++**Dynamic prompt**+++. Select **Summarize text**.
+4.  Wählen Sie die Datei **details.xlsx** aus **C:\LabFiles aus und**
+    wählen Sie **Open**.
 
 ![](./media/image4.png)
 
-6.  It will add a prompt with a dynamic value **input text**.
+5.  Sobald die Datei hochgeladen wurde, wird eine Erfolgsmeldung im
+    Fenster angezeigt.
 
 ![](./media/image5.png)
 
-7.  Click on the **Input** under Prompt Settings add the below content
-    in the Sample data.
-```
-Meet comfortably and confidently with customizable meeting views
+6.  Klicken Sie im linken Menü auf **My files** und Sie können sehen,
+    dass die neue Datei dort verfügbar ist.
 
-The meeting stage, or gallery, is at the core of the virtual meeting
-experience and can either hinder or enhance meeting efficiency
-depending on your needs. We’re excited to share how we’re evolving the
-default gallery experience in Teams meetings to give you a simpler,
-more predictable meeting presence—while enabling more controls that
-let you personalize the view to suit your preferences.
-
-First, let’s look at the new default gallery experience that will be
-applicable to all. The new gallery will place everyone in tiles of
-equal size (16:9 ratio) whether their video is turned on or off.
-Additionally, the new default gallery layout will be more consistent
-and predictable for all meetings, regardless of size and content
-shared.
-
-And when a Teams Room joins the meeting, the video of the room
-automatically enlarges, bridging the gap between remote and in-room
-participants. Remote attendees enjoy a clearer view and better
-connection, easily spotting who is speaking. Want a custom view?
-Simply tweak the tile size to your preference from the more options
-(...) menu by hovering on the room name. It's seamless, inclusive, and
-ensures everyone can be seen, no matter where they are.
-
-Next, let’s look at the controls that help you customize every
-meeting view to suit your needs.
-
-While the default gallery size for meetings will be 16 participants,
-you can customize the number of participants visible on your screen to
-best fit your preference. You can choose from 4, 9, 16, and 49
-participants visible on the screen for gallery size.
-
-There are still a few default configurations that AI will optimize
-for to improve engagement and efficiency. For virtual participants,
-these are prioritizing those that have a raised hand and prioritizing
-the active speaker, enhancing their visibility so comments are not
-missed.
-```
 ![](./media/image6.png)
 
-8.  Click on **Test prompt**.
+### Aufgabe 2: Aktivieren der Copilot Studio-Testversion
 
-> ![](./media/image7.png)
+1.  Öffnen Sie in einem neuen Tab
+    +++[https://copilotstudio.microsoft.com/+++](https://copilotstudio.microsoft.com/**+++).
 
-9.  Notice that the Prompt response, summarizing the text is generated.
+2.  Melden Sie sich mit den **Anmeldeinformationen** an, die auf der
+    Registerkarte **Resources** Ihrer Lab-VM bereitgestellt werden.
 
-> ![](./media/image8.png)
+![](./media/image1.png)
 
-10. Click on **Finalize prompt**.
+3.  Sobald Sie angemeldet sind, auf der Seite **Willkommen bei Microsoft
+    Copilot Studio**, verlassen Sie das Land als **United States** und
+    klicken Sie auf **Get started**.
+
+![](./media/image7.png)
+
+4.  Wählen Sie auf dem **Begrüßungsbildschirm** die Option Skip aus.
+
+![](./media/image8.png)
+
+## Übung 2: Erstellen und Testen eines autonomen Agents
+
+### Aufgabe 1: Erstellen eines Agenten in Copilot Studio
+
+1.  Klicken Sie auf die Option **Skip to configure** auf der sich
+    öffnenden Seite zur Agentenerstellung.
 
 ![](./media/image9.png)
 
-11. Click on **Create prompt action**.
+2.  Geben Sie im Bereich zur Agentenerstellung die folgenden Details ein
+    und klicken Sie auf **Create**.
+
+    - **Name** - +++New file tracker agent+++
+
+    - **Description** - +++This agent will update the File details
+      tracker placed in the OneDrive, each time a new file is created in
+      the OneDrive+++
 
 ![](./media/image10.png)
 
-12. It gets listed in the **Library.**
+### Aufgabe 2: Hinzufügen eines Triggers zum Agent
 
-13. After you create your action, enable it for use in Microsoft
-    Copilot.
-
-## Exercise \#2: Create Custom automation with Power Automate flows
-
-Power Automate flow plugins let you define flows that can be called from
-AI surfaces in Power Platform. Flow plugins use the new **Run from
-Copilot** trigger and **Respond to Copilot** action to define custom
-processes that can be invoked with natural language.
-
-**To create automation plugins:**
-
-1.  Select **+ Add action**. Select **Flow** in the New action menu that
-    open up.
+1.  Nachdem der Agent erstellt wurde, scrollen Sie nach unten, um den
+    Abschnitt **Trigger** zu finden. Wählen Sie **+ add Trigger**
+    aus**.**
 
 ![](./media/image11.png)
 
-2.  The flow editor automatically opens with the **Run from
-    Copilot** trigger and **Respond to Copilot** action present. Rename
-    the flow as +++**Get Weather forecast for next day**+++
+2.  Wählen Sie im Dialogfeld **Turn on generative orchestration to
+    continue,** die Option **Turn it on** aus. Wir müssen diese Option
+    auf ON setzen, um einen Auslöser hinzuzufügen.
 
 ![](./media/image12.png)
 
-3.  Click on the **Run a flow from Copilot** node. The details pane
-    opens up. Click on **+ Add an input**.
+3.  Wählen Sie im Menü Add Trigger den Trigger **When a file is
+    created** aus.
 
 ![](./media/image13.png)
 
-4.  Select Text and name it as **City**.
-
-5.  Similarly, add another input of type **Number** and name it as
-    **Zipcode**.
+4.  Wählen Sie im Bildschirm **Add** **Trigger** die Option Continue
+    aus.
 
 ![](./media/image14.png)
 
-6.  Click on the **+** symbol between **Run a flow from Copilot** and
-    the **Respond to Copilot** nodes and select **Add an action**.
+5.  Beachten Sie, dass im nächsten Bildschirm der **Trigger
+    name** ausgefüllt ist. Warten Sie, bis die **Verbindungen** zu
+    **Microsoft Copilot Studio** und **OneDrive for Business**
+    hergestellt sind (für jeden dieser Konnektoren wird ein grünes
+    Häkchen angezeigt.).
+
+Klicken Sie dann auf **Next**.
 
 ![](./media/image15.png)
-7.  Select **MSN Weather**.
+
+6.  Wählen Sie die folgenden Details aus.
+
+    - **Folder** – Root
+
+    - **Include subfolders** – Yes
+
+Lassen Sie die anderen Felder als Standard und wählen Sie **Create
+trigger**.
 
 ![](./media/image16.png)
 
-8.  Select **Get the forecast for tomorrow** option.
-
 ![](./media/image17.png)
 
-9.  Add the **City** and **Zipcode** input parameters to **Location**.
+7.  Nachdem der Trigger erstellt wurde, wird die Meldung **Time to test
+    your trigger** angezeigt. **Schließen** Sie es. Wir werden den
+    grundlegenden Ablauf des Triggers ein wenig optimieren, um die
+    Funktionalität zu implementieren, und sie dann testen.
 
 ![](./media/image18.png)
 
-![](./media/image19.png)
+> ![](./media/image19.png)
 
-10. Click on **Respond to copilot** action and select **Add an output**.
+### Aufgabe 3: Hinzufügen von Logik zum Trigger
 
-11. Add a Text output variable and name it as +++**Weather
-    condition**+++. Add the output variable **Conditions**.
+1.  Scrollen Sie auf der Seite **New file track agent** nach unten zum
+    Abschnitt Auslöser.
+
+2.  Klicken Sie auf die 3 Punkte neben dem Trigger **When a file is
+    created**, und wählen Sie **Edit in Power Automate** aus.
 
 ![](./media/image20.png)
 
-12. Click on **Save**.
+3.  Wählen Sie das **+**-Symbol zwischen **When the file is
+    created** und **Sends a prompt action** und wählen Sie **Add an
+    action** aus.
 
 ![](./media/image21.png)
 
-13. Click on **Test**.
+4.  Suchen Sie nach +++add a row+++ und wählen Sie **Add a row into the
+    table** aus.
 
 ![](./media/image22.png)
 
-**Note:** This might take some time to get reflected. Wait for 5 to 10
-minutes if you are not able to start the flow after clicking on
-**Test**.
+5.  Wählen Sie für jede Zeile die folgenden Werte aus und klicken Sie
+    auf **Save**.
 
-14. In the **Test Flow** pane, select the checkbox for **Manually** and
-    then click on **Next**.
+|                  |                                         |
+|------------------|-----------------------------------------|
+| Property         | Value                                   |
+| Location         | OneDrive for Business                   |
+| Document Library | OneDrive                                |
+| File             | File details.xlsx                       |
+| Table            | Table1                                  |
+| Date Time Format | Serial Number                           |
+| File ID          | Select the variable **File identifier** |
+| File Name        | Select the variable **File name**       |
+| File Path        | Select the variable **File path**       |
 
-![](./media/image23.png)
+> ![](./media/image23.png)
+>
+> ![](./media/image24.png)
 
-15. In the **Run flow** panel, select **MSN Weather** and click on
-    **Continue**.
-
-![](./media/image24.png)
-
-16. Enter +++**Redmond**+++ for city and +++**98004**+++ for **Zipcode**
-    and select **Run flow**.
+6.  Der Ablauf sieht nun wie im folgenden Screenshot aus.
 
 ![](./media/image25.png)
 
-17. Once the execution is completed, a success message is obtained.
-    Click on **Done**.
+7.  Klicken Sie auf das Symbol **New designer toggle**.
 
 ![](./media/image26.png)
 
-**Note:** The AI uses the title and description of the flow to determine
-when to invoke the flow plugins. Ensure your flows run correctly, as
-only tested flows show up as available plugins in Microsoft Copilot.
-
-18. The created flow is listed in the **Library**.
+8.  Wählen Sie **Save draft** aus.
 
 ![](./media/image27.png)
 
-19. After you create your action, enable it for use in Microsoft
-    Copilot.
+9.  Wählen Sie **Publish** aus, um den Flow zu veröffentlichen.
 
-## Summary:
+![](./media/image28.png)
 
-In this lab, we have learnt to create **AI actions**.
+### Aufgabe 4: Veröffentlichen des Triggers
+
+1.  Wählen Sie im Copilot Studio **Settings** aus.
+
+![](./media/image29.png)
+
+2.  Wählen Sie **Generative AI** -\> **Using generative AI in
+    conversations**. Falls noch nicht ausgewählt, wählen Sie
+    **Generativ** und klicken Sie dann auf **Save**.
+
+![](./media/image30.png)
+
+3.  Wählen Sie **Security** -\> **Authentication** -\> **No
+    authentication** und klicken Sie dann auf **Save**.
+
+![](./media/image31.png)
+
+4.  Wählen Sie im Bestätigungsdialog **Save** aus.
+
+![](./media/image32.png)
+
+5.  Schließen Sie den Bereich Settings.
+
+![](./media/image33.png)
+
+6.  Wählen Sie nun **Publish** aus, um den Agenten zu veröffentlichen.
+
+![](./media/image34.png)
+
+7.  Wählen Sie im Bestätigungsdialog **Publish** aus.
+
+![](./media/image35.png)
+
+### Aufgabe 5: Testen des Triggers
+
+1.  Navigieren Sie im Browser zurück zu **OneDrive**. Klicken Sie auf
+    **+** und wählen Sie **Word-Dokument** aus.
+
+![](./media/image36.png)
+
+2.  Geben Sie dem Dokument einen **Namen**, und wählen Sie **Create**
+    aus.
+
+![](./media/image37.png)
+
+3.  Klicken Sie auf **Close**, um die Datenschutzoption zu schließen.
+
+![](./media/image38.png)
+
+4.  Fügen Sie auf ähnliche Weise einige weitere Dateien hinzu.
+
+5.  **Öffnen Sie** nun die **Datei details.xlsx** von OneDrive und
+    beobachten Sie, dass die Details der erstellten Dateien zum Tracker
+    hinzugefügt werden. **Hinweis**: Melden Sie sich mit Ihren
+    Anmeldeinformationen auf der Registerkarte "Ressourcen" an, wie
+    erforderlich.
+
+![](./media/image39.png)
+
+6.  Wenn die Datei in OneDrive erstellt wird, wird der Trigger
+    aufgerufen, der wiederum den Flow ausführt, **When a file is
+    added** und den Tracker aktualisiert.
+
+7.  Sie können die Details des autonomen Agenten auch auf der
+    Registerkarte "Aktivität" in Copilot Studio überprüfen.
+
+**Zusammenfassung**
+
+In diesem Lab haben wir gelernt, einen autonomen Agenten aus Copilot
+Studio zu erstellen, zu veröffentlichen und zu testen.
