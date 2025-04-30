@@ -1,467 +1,526 @@
-# Lab 02: Empower your workforce – Copilot - Sales
-<span class="mark"></span>
+**Laboratório 02: Capacite sua força de trabalho - Copilot - Vendas**
 
-Copilot for Microsoft 365 serves as an AI-powered writing assistant. It
-understands context, suggests phrases, and helps generate content, all
-of which can enhance the quality of your work. In this lab, you will
+O Copilot for Microsoft 365 funciona como um assistente de redação
+alimentado por AI. Ele entende o contexto, sugere frases e ajuda a gerar
+conteúdo, tudo isso para aprimorar a qualidade do seu trabalho. Neste
+laboratório, você irá:
 
-- Use Copilot in Loop to create a market research report.
+- Usar o Copilot in Loop para criar um relatório de pesquisa de mercado.
 
-- Use Copilot in PowerPoint to create and customize a sales
-  presentation.
+- Usar o Copilot no PowerPoint para criar e personalizar uma
+  apresentação de vendas.
 
-- Use Copilot in Word to compare three supplier agreements, identify the
-  differences, and provide recommended actions.
+- Usar o Copilot no Word para comparar três contratos de fornecedores,
+  identificar as diferenças e fornecer ações recomendadas.
 
-## Exercise #1: Create a market research report using Copilot in Loop
+**Exercício 1: Crie um relatório de pesquisa de mercado usando o Copilot
+in Loop**
 
-You're the VP of Sales for VanArsdel Ltd, an OEM of plastic components,
-whose primary market is the agriculture equipment industry. However,
-senior leadership is interested in possibly moving into the automotive
-market. Given the heavy competition from existing plastic manufacturers
-who already monopolize this sector, you need to determine if there's a
-space available for your company to become a viable player.
+Você é o vice-presidente de vendas da VanArsdel Ltd, um OEM de
+componentes plásticos, cujo principal mercado é o setor de equipamentos
+agrícolas. No entanto, a liderança sênior está interessada na
+possibilidade de expandir para o mercado automotivo. Dada o alto nível
+de concorrência de fabricantes de plástico que já monopolizam esse
+setor, você precisa determinar se há espaço disponível para que sua
+empresa se torne um competidor viável.
 
-In this exercise, you will use Copilot in Loop to
+Neste exercício, você usará o Copilot in Loop para:
 
-- Research a potential new sales market for your company's products and
-  create a market research report that outlines its findings.
+- Pesquisar um novo mercado potencial de vendas para os produtos de sua
+  empresa e criar um relatório de pesquisa de mercado que descreva suas
+  descobertas.
 
-- Change the format of the report by placing the content in a table.
+- Alterar o formato do relatório, organizando o conteúdo em uma tabela.
 
-- Make a final recommendation as to whether your company should move
-  into that market.
+- Fazer uma recomendação final sobre se sua empresa deve entrar nesse
+  mercado.
 
-1.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear there, then select **App Launcher** on the top left just above the **Mocrosoft        365** navigation pane,
+1.  No **Microsoft 365**, selecione **Loop** se ele aparecer no painel
+    de navegação à esquerda. Caso contrário, selecione **App Launcher**
+    no canto superior esquerdo, logo acima do painel de navegação do
+    **Microsoft 365**.
 
-    ![](./media/image1.png)
+![](./media/image1.png)
 
-2.  In the **Apps** page, scroll down to locate **Loop** and then select it. 
+**Observação**: Se você não vir o **Loop** listado na página
+Aplicativos, selecione **More apps**.
+![](./media/image2.png)
 
-    **Note**: If you don't see **Loop** listed in the Apps paf=ge, select **More apps**.
+2.  Na página **Apps**, role para baixo até localizar **Loop** e, em
+    seguida, selecione-o.
 
-    ![](./media/image2.png)
+![](./media/image3.png)
 
-3.  If you see the **Sign-in** button, sign-in using the credentials provided under **Microsoft 365 Credentials** in the
-    **Resources** tab.
+3.  Se você vir o botão Sign-in, entre usando as credenciais fornecidas
+    nas Credenciais do Microsoft 365 na guia Resources.
 
-    ![Loop Sign-in page](./media/image3.png)
+![](./media/image4.png)
 
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
+**Observação**: Depois de fazer login, feche a janela do navegador do
+Loop e abra novamente o Loop na página Aplicativos.
 
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
+4.  No **Microsoft Loop**, a guia **Workspaces** é exibida por padrão.
+    Se quiser criar um novo workspace para este projeto, selecione + no
+    canto superior esquerdo, ao lado de **Getting started** e, em
+    seguida, selecione o botão **+New workspace**.
 
-    ![Workspaces-Geeting started](./media/image4.png)
+![](./media/image5.png)
 
-5.  In the **Create a new workspace** window, enter **VanArsdel
-    research** for your workspace name, and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
+![](./media/image6.png)
 
-    ![Create a new workspace window](./media/image5.png)
+5.  Na janela  **Create a new workspace**, digite +++VanArsdel
+    research+++ como nome do workspace e, em seguida, selecione o botão
+    **Continue** ou **Create** que aparece (dependendo da versão do
+    Loop).
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+![](./media/image7.png)
 
-    ![Add files to your workspace](./media/image6.png)
+6.  Na janela **dd files to your workspace** (dependendo da sua versão
+    do Loop, essa janela pode exibir **Workspace Switcher**), selecione
+    **Create**.
 
-7.  You're now on the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to **Market research**. Note how the page name is automatically
-    updated in the navigation pane.
+![](./media/image8.png)
 
-    ![First page for your new workspace](./media/image7.png)
-
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
-
-    ![](./media/image8.png)
-
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
-
-10. In the **Copilot** window that appears, note the row of buttons that
-    appears below the prompt field. Select each button. When doing so,
-    note how it prefills the prompt field with an example of the type of
-    task that Copilot can assist with.
-
-11. You're now going to enter your own prompt. In the prompt field,
-    enter the following prompt and select the **Submit** icon:
-
-    ++**As the VP for Sales for an OEM in the plastics manufacturing
-    industry, please research the market for plastic components in the
-    automotive industry. Provide information on target audience, market
-    size, competition, trends, regulations, and distribution channels**.++
-
+7.  Agora você está na primeira página do seu novo workspace. O nome da
+    página atualmente é **Untitled**. Observe que a página (Untitled)
+    também aparece no painel de navegação esquerdo. No corpo principal
+    da página, selecione o campo **Untitled** e altere o nome da página
+    para **Market research**. Observe como o nome da página é
+    automaticamente atualizado no painel de navegação.
     ![](./media/image9.png)
 
-12. If you receive an error saying that something went wrong, copy and
-    paste in the prior prompt and submit it again.
+8.  No campo **Just start typing**... (Comece a digitar...), digite uma
+    barra (/).
 
-    ![](./media/image10.png)
+![](./media/image10.png)
 
-13. Review the generated report. Rather than having all the information
-    in paragraph form, you prefer to summarize it in a table. In
-    the **Copilot** pane that appears, enter the following prompt in
-    the **Rewrite with Copilot** field and select the **Submit** icon:
+9.  No menu suspenso que aparece, na seção **Copilot,** localizada na
+    parte superior do menu, selecione **Draft page content**.
 
-    ++**Rewrite the report by placing the information in a table**.++
-    
-    ![](./media/image11.png)
+10. Na janela do **Copilot** que aparece, observe a linha de botões que
+    aparece abaixo do campo de prompt. Selecione cada botão. Ao fazer
+    isso, observe como ele preenche automaticamente o campo de prompt
+    com um exemplo do tipo de tarefa que o Copilot pode ajudar a
+    executar.
 
-14. Note how Copilot changed the formatting of the report. You now want
-    Copilot to make a final recommendation as to whether moving into
-    this market is a viable option for VanArsdel. Enter the following
+11. Agora você vai inserir seu próprio prompt. No campo de prompt,
+    digite o seguinte prompt e selecione o ícone **Submit**:
+
++++As the VP for Sales for an OEM in the plastics manufacturing
+industry, please research the market for plastic components in the
+automotive industry. Provide information on target audience, market
+size, competition, trends, regulations, and distribution channels.+++
+
+![](./media/image11.png)
+
+12. Se você receber um erro informando que algo deu errado, copie e cole
+    o prompt anterior e envie-o novamente.
+
+![](./media/image12.png)
+
+13. Revise o relatório gerado. Em vez de ter todas as informações em
+    forma de parágrafo, você prefere resumi-las em uma tabela. No painel
+    do **Copilot** que aparece, digite o seguinte prompt no campo
+    **Rewrite with Copilot** e selecione o ícone **Submit**:
+
++++Rewrite the report by placing the information in a table.+++ 
+
+![](./media/image13.png)
+
+14. Observe como o Copilot alterou a formatação do relatório. Agora você
+    quer que o Copilot faça uma recomendação final sobre se a entrada
+    nesse mercado é uma opção viável para a VanArsdel. Digite o seguinte
     prompt:
 
-    ++**Add a recommendation to the end of the report as to whether we
-    should move into the market**.++
++++Add a recommendation to the end of the report as to whether we should
+move into the market.+++ 
 
-    ![](./media/image12.png)
+![](./media/image14.png)
 
-15. Scroll to the bottom of the report and review Copilot's
-    recommendation.
+15. Role até o final do relatório e revise a recomendação do Copilot.
 
-    ![](./media/image13.png)
+![](./media/image15.png)
 
-## Exercise #2: Create a sales presentation using Copilot in PowerPoint
+**Exercício 2: Criar uma apresentação de vendas usando o Copilot no
+PowerPoint**
 
-With Copilot in PowerPoint, Sales professionals can focus on the content
-of their presentations, while the tool takes care of the design and
-formatting. It can
+Com o Copilot no PowerPoint, os profissionais de vendas podem se
+concentrar no conteúdo de suas apresentações, enquanto a ferramenta
+cuida do design e da formatação. O Copilot pode:
 
-- Transform existing written documents into presentation decks complete
-  with speaker notes and sources
+- Transformar documentos escritos existentes em apresentações completas
+  com anotações do instrutor e fontes
 
-- Start a new presentation from a simple prompt or outline.
+- Iniciar uma nova apresentação a partir de um prompt simples ou um
+  esboço.
 
-- Help summarize presentations, providing a bulleted summary of the key
-  points to quickly understand the content of a presentation or share
-  the main ideas with the team.
+- Resumir apresentações, fornecendo um resumo em tópicos dos principais
+  pontos para entender rapidamente o conteúdo ou compartilhar as ideias
+  principais com a equipe.
 
-As the Sales and Marketing Director at Contoso, Ltd., you need to make a
-presentation to your Sales team regarding the company's hottest selling
-product, Contoso Protein Plus shake. The presentation should analyze the
-market trend report that your Marketing team created for the product.
+Como diretor de vendas e marketing da Contoso, Ltd., você precisa
+preparar uma apresentação para sua equipe de vendas sobre o produto mais
+vendido da empresa, o shake Contoso Protein Plus. A apresentação deve
+analisar o relatório de tendências de mercado que sua equipe de
+Marketing criou para o produto.
 
-In this exercise you will use Copilot in PowerPoint to create your slide
-presentation based on the information in the **Market Trend Report -
-Protein Shake.docx** file, which you download using the provided link.
+Neste exercício, você usará o Copilot no PowerPoint para criar sua
+apresentação de slides com base nas informações do arquivo **Market
+Trend Report - Protein Shake.docx**, que você baixou usando o link
+fornecido.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
+1.  Se você tiver uma guia do Microsoft 365 aberta no navegador
+    Microsoft Edge, selecione-a agora; caso contrário, abra uma nova
+    guia e digite a seguinte URL: +++<u>https://www.office.com+++</u> 
+    para acessar a página inicial do Microsoft 365.
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+**Observação**: Você precisa fazer login (se solicitado) usando as
+**Credenciais do Microsoft 365** fornecidas na guia **Resources** à
+direita.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Market Trend Report - Protein Shake** to **OneDrive**
+2.  Navegue até a pasta **C:\LabFiles** para selecionar e carregar uma
+    cópia do arquivo **Market Trend Report - Protein Shake** para o
+    **OneDrive**
 
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as instructed in **Preparing for the lab
-    execution** section (**Lab 0**), you can skip this step.
+**Observação**: Se você já carregou todos os ativos do laboratório para
+o **OneDrive**, conforme instruído na seção **Preparing for the lab
+execution** (**Lab 0**), você pode pular esta etapa.
 
-3.  Open and close the file **Market Trend Report - Protein Shake.docx** (which you uploaded to OneDrive) to get it in your
-    Most Recently Used (MRU) file list
-  
-4.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In PowerPoint, open a new blank presentation.
+3.  Abra e feche o arquivo **Market Trend Report - Protein Shake.docx**
+    (que você carregou no OneDrive) para que ele apareça na lista de
+    arquivos Most Recently Used (MRU)
 
-5.  Select the **Copilot** icon on the right end of the ribbon. In
-    the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from. Select the **Create presentation
-    from file** prompt.
+4.  No painel de navegação do **Microsoft 365**, selecione
+    **PowerPoint**. No PowerPoint, abra uma nova apresentação em branco.
 
-    ![](./media/image15.png)
-
-    Above the prompt field at the bottom of the **Copilot** pane,
-    a **Suggestions** window appears that contains the three most recently
-    used files. If the **Market Trend Report - Protein Shake.docx** file
-    appears in the MRU list, then select it.
-
-6.  Otherwise, open the file in **Word**, select the **Share** button
-    above the ribbon, select the **Copy Link** option from the drop-down
-    menu, and then in this prompt field in the **Copilot** pane
-    in **PowerPoint**, paste in the link following the forward slash
-    (**Create presentation from file /**). Select the **Send** icon.
-
+5.  Selecione o ícone do **Copilot** (destacando em vermelho, conforme
+    mostrado na captura de tela). No painel **Copilot** que aparece,
+    vários prompts predefinidos estão disponíveis para você escolher.
+    Selecione selecione o prompt **Create presentation from file**.
+     
     ![](./media/image16.png)
 
-7.  This prompt triggered Copilot to create a slide presentation based
-    on the document. In doing so, it first displayed the outline of the
-    presentation. Then it displayed a separate window showing a bulleted
-    list of some of the changes that it made to the presentation based
-    on the document.
+![](./media/image17.png)
+
+![](./media/image18.png)
+
+Acima do campo de prompt na parte inferior do painel do **Copilot**, uma
+janela **Suggestions** pode aparecer, contendo os três arquivos usados
+mais recentemente. Se o arquivo **Market Trend Report - Protein
+Shake.docx** aparecer na lista MRU, selecione-o.
+
+6.  Caso contrário, você pode anexar o documento de referência usando a
+    opção Attach cloud files, conforme mostrado na captura de
+    tela. ![](./media/image19.png)
 
-    ![](./media/image17.png)
+![](./media/image20.png)
+
+**Observação**: Você também pode anexar o documento de referência usando
+o link para o documento. Para obter o link, abra o arquivo no **Word**,
+selecione o botão **Share** acima da **faixa de opções**, escolha a
+opção **Copy Link** no menu suspenso e, em seguida, cole o link no campo
+de prompt do painel do **Copilot** no **PowerPoint**, logo após a barra
+(**Create presentation from file /**). Selecione o ícone **Send**.
+
+![](./media/image21.png)
+
+7.  O Copilot acionou a criação da apresentação de slides com base no
+    documento. Primeiro, ele exibiu o esboço da apresentação. Em
+    seguida, mostrou uma janela separada com uma lista em tópicos
+    destacando algumas das alterações feitas na apresentação, tomando
+    como base o documento.
+
+![](./media/image22.png)
 
-8. Review the slides once Copilot finished creating the presentation.
-   To review the speaker notes, select the **View** tab and then select
-   the **Notes** button if it isn't selected already. If it's already
-   selected and you can't see the notes, then drag the bottom of the
-   slide window up to show the notes. Verify the speaker notes include
-   the key points that you want to make during the presentation.
+8.  Revise os slides quando o Copilot terminar de criar a apresentação.
+    Para revisar as anotações do palestrante, selecione a guia  **View**
+    e, em seguida, selecione o botão **Notes**, se ele ainda não estiver
+    selecionado. Se ele já estiver selecionado e você não puder ver as
+    anotações, arraste a parte inferior da janela do slide para cima
+    para mostrar as anotações. Verifique se as anotações do palestrante
+    incluem os pontos principais que você deseja abordar durante a
+    apresentação.
 
-    ![](./media/image18.png)
+![](./media/image23.png)
 
-9. Select the **Home** tab and then select the **Designer** button,
-   which appears to the left of the **Copilot** button.
-   The **Designer** pane offers samples of different designs for the
-   current slide being displayed. Change to a different slide in the
-   presentation and note how the **Designer** pane generates different
-   design options for that slide.
+9.  Selecione a guia **Home** e, em seguida, selecione o botão
+    **Designer**, que aparece à esquerda do botão Copilot. O painel
+    **Designer** oferece amostras de diferentes designs para o slide
+    atual que está sendo exibido. Mude para um slide diferente na
+    apresentação e observe como o painel **Designer** gera diferentes
+    opções de design para esse slide.
 
-    ![](./media/image19.png)
+![](./media/image24.png)
 
-10. Select one of the design options to have PowerPoint replace the
-    current slide with the new design. This feature isn't
-    Copilot-related. It's available in PowerPoint when you have a
-    Microsoft 365 subscription.
+10. Selecione uma das opções de design para que o PowerPoint substitua o
+    slide atual pelo novo design. Esse recurso não está relacionado ao
+    Copilot. Ele está disponível no PowerPoint quando você tem uma
+    assinatura do Microsoft 365.
 
-    ![](./media/image20.png)
+![](./media/image25.png)
 
-11. Now let's see what else Copilot can do. Select
-    the **Copilot** button to open the **Copilot** pane. In
-    the **Copilot** pane, note the section that says **Here are some
-    things you can try**. Copilot displays several tasks that it can
-    perform on the presentation. Select the **Organize this
-    presentation** button.
+11. Agora vamos ver o que mais o Copilot pode fazer. Selecione o botão
+    **Copilot** para abrir o painel **Copilot**. No painel **Copilot**,
+    observe a seção que diz **Here are some things you can try**. O
+    Copilot fornece prompts predefinidos que você pode usar para
+    executar várias tarefas na apresentação. Selecione o ícone **View
+    Prompts** e selecione **Organize your thoughts** (destacado em
+    vermelho). **Observação:** Você precisa rolar lentamente para baixo
+    para localizar o prompt (mostrado na captura de tela).
 
-    ![](./media/image21.png)
+![](./media/image26.png)
 
-12. Review what Copilot did in organizing the presentation. For example,
-    it may have grouped the slides into sections and then added some new
-    section title slides. If so, locate the new slides that it created
-    and review them.
+![](./media/image27.png)
 
-    ![](./media/image22.png)
+12. Analise o que o Copilot fez ao organizar a apresentação. Por
+    exemplo, ele pode ter agrupado os slides em seções e, em seguida,
+    adicionado alguns novos slides de título de seção. Nesse caso,
+    localize os novos slides que ele criou e revise-os.
 
-13. Above the prompt field, Copilot displays questions related to the
-    presentation. The purpose of these questions is two-fold. You can
+![](./media/image28.png)
 
-    - Select a question and have Copilot generate an answer, which you can
-      then copy and paste into the speaker notes for an applicable slide.
+13. Acima do campo de prompt, o Copilot exibe perguntas relacionadas à
+    apresentação. A finalidade dessas perguntas é dupla. Você pode:
 
-    - Create a Question and Answer (Q&A) slide and copy and paste in the
-      answers to all these questions in the speaker notes.
+    - Selecionar uma pergunta, permitindo que o Copilot gere uma
+      resposta, a qual você pode copiar e colar nas anotações do
+      instrutor para um slide aplicável.
 
-    In doing so, you can use these questions and answers to prepare for the
-    Q&A portion of the presentation. For example, it may have a button that
-    asks something like: **What caused the rise in demand for Contoso
-    Protein Plus**? Or it may ask something like: **What are the key factors
-    behind the hype of Contoso Protein Plus**? Review the questions that you
-    see, and select one of them to see what happens.
+    - Criar um slide de perguntas e respostas (Q&A) e copiar e colar
+      todas as respostas dessas perguntas nas anotações do palestrante.
 
-    ![](./media/image23.png)
+Ao fazer isso, você pode usar estas perguntas e respostas para se
+preparar para a sessão de perguntas e respostas durante a apresentação.
+Por exemplo, pode haver um botão com perguntas como: **What caused the
+rise in demand for Contoso Protein Plus?** Ou ele pode perguntar algo
+como: **What are the key factors behind the hype of Contoso Protein
+Plus?** Revise as perguntas exibidas e selecione uma delas para ver o
+que acontece.
 
-14. When you select any of these questions, Copilot generates an answer
-    to the question and provides a **Copy** option at the bottom of the
-    answer window. In doing so, you can select the **Copy** option and
-    then paste this answer in the speaker notes for any slide in which
-    this text would make an appropriate note. Try it now. Select a
-    question, copy the answer, then go to an appropriate slide and in
-    the speaker notes, enter **Ctrl+V** to paste in the note.
+![](./media/image29.png)
 
-    ![](./media/image24.png)
+14. Ao selecionar uma dessas perguntas, o Copilot gera uma resposta para
+    a pergunta e fornece a opção **Copy** na parte inferior da janela de
+    resposta. Dessa forma, você pode selecionar a opção **Copy** e
+    depois colar essa resposta nas anotações do palestrante para
+    qualquer slide em que esse texto seja uma anotação apropriada.
+    Experimente agora. Selecione uma pergunta, copie a resposta gerada,
+    vá para um slide apropriado e, nas anotações do palestrante,
+    pressione **Ctrl+V** para colar a anotação.
 
-    ![](./media/image25.png)
+![](./media/image30.png)
 
-15. Note the **Refresh** button that appears between the suggested
-    questions and the prompt field. Select this **Refresh** button.
+![](./media/image31.png)
 
-    ![](./media/image26.png)
+15. Observe o botão **Refresh** que aparece entre as perguntas sugeridas
+    e o campo de prompt. Selecione esse botão **Refresh**.
 
-    In doing so, note how Copilot generated a new set of questions. You
-    can continue to refresh the questions by selecting
-    the **Refresh** button until you see a question that you want to
-    address in the presentation. You can then select the question, copy
-    the Copilot-generated answer, and paste it into the speaker notes of
-    the slide of your choosing. Once Copilot can't think of any new
-    questions to offer, it starts repeating the list of questions from the
-    start.
+![](./media/image32.png)
 
-16. You now want Copilot to create a slide at the end of the
-    presentation for a Q&A session. Enter the following prompt and
-    select the **Send** icon:
+Ao fazer isso, observe como o Copilot gerou um novo conjunto de
+perguntas. Você pode continuar atualizando as perguntas selecionando o
+botão **Refresh** até encontrar uma questão que deseja abordar na
+apresentação. Depois, você pode selecionar a pergunta, copiar a resposta
+gerada pelo Copilot, e colá-la nas anotações do instrutor no slide de
+sua escolha. Quando o Copilot não conseguir gerar novas perguntas, ele
+começará a repetir a lista de perguntas desde o início.
 
-    ++**Add a slide at the end of the presentation for Q&A**.++
+16. Agora, você quer que o Copilot crie um slide no final da
+    apresentação para uma sessão de Perguntas e Respostas. Digite o
+    seguinte prompt e selecione o ícone **Send**:
 
-    ![](./media/image27.png)
++++Add a slide at the end of the presentation for Q&A.+++
 
-    **Note**: Copilot may display some exception (remember that Copilot is still a work in progress) like the one below.
+![](./media/image33.png)
 
-    ![](./media/image36.png)
+**Observação**: O Copilot pode exibir alguma exceção, como a que está
+abaixo.
 
-    Please try rephrasing the prompt or use the suggested prompts like the one below:
+![](./media/image34.png)
 
-    ![](./media/image37.png)
+Tente reformular o prompt ou use os prompts sugeridos, como o abaixo:
 
-18. Select the command **Add a slide about** and append the following Q&A at the very end of the presentation (as shown in      the screenshot).
+![](./media/image35.png)
 
-     ![](./media/image38.png)
-   
-20. Click **Send** to check what happens.
+17. Selecione o comando **Add a slide about** e anexe as seguintes
+    perguntas e respostas no final da apresentação (conforme mostrado na
+    captura de tela).
 
-    ![](./media/image39.png)
+![](./media/image36.png)
 
-    Copilot has added a Q&A slide as instructed. Review the Q&A slide that Copilot created.
-    
-29. Review the Q&A slide that Copilot created. Now try one final thing.
-    You decide to compile a list of potential questions that you can
-    prepare for during the Q&A session. Enter the following prompt to
-    see if Copilot can add all of its suggested questions to the speaker
-    notes on the Q&A slide:
+18. Clique em **Send** para ver o que acontece.
 
-    ++**In the speaker notes of the Q&A slide that you just created, add a
-    list of possible questions that may be asked regarding this
-    presentation**.++
+![](./media/image37.png)
 
-21. If Copilot returns a message indicating that it was unable to
-    generate the slide, try entering the prompt again. Sometimes when
-    Copilot can't complete a task, a good practice is to repeat the
-    request.
+O Copilot adicionou um slide de perguntas e respostas conforme as
+instruções. Revise o slide de perguntas e respostas que o Copilot criou.
 
-    ![](./media/image28.png)
+19. Revise o slide de perguntas e respostas que o Copilot criou. Agora
+    tente uma última coisa. Você decide compilar uma lista de possíveis
+    perguntas que podem ser feitas durante a sessão de perguntas e
+    respostas. Digite o prompt a seguir para ver se o Copilot consegue
+    adicionar todas as perguntas sugeridas às anotações do instrutor no
+    slide de perguntas e respostas:
 
-    ![](./media/image29.png)
++++In the speaker notes of the Q&A slide that you just created, add a
+list of possible questions that may be asked regarding this
+presentation.+++ 
 
-    If Copilot is unable to complete this task, then it just shows it may
-    not be able to complete everything that you want at this point in
-    time. This scenario is another example of the best practice that you
-    need to be aware of: Understand Copilot's limitations.
+20. Se o Copilot retornar uma mensagem indicando que não conseguiu gerar
+    o slide, tente digitar o prompt novamente. Às vezes, quando o
+    Copilot não consegue concluir uma tarefa, uma boa prática é repetir
+    a solicitação.
 
-22. Now try this workaround. Enter the following prompt that asks it to
-    generate a list of questions:
+![](./media/image38.png)
 
-    ++**What kind of questions do you think participants may ask during the
-    Q&A session**?++
+![](./media/image39.png)
 
-    ![](./media/image30.png)
+Se o Copilot não conseguir concluir essa tarefa, isso apenas mostra que
+ele pode não ser capaz de concluir tudo o que você deseja nesse momento.
+Esse cenário é outro exemplo da prática recomendada da qual você precisa
+estar ciente: Compreender as limitações do Copilot.
 
-23. Review the questions that Copilot created. Select
-    the **Copy** button at the bottom of the window, and then paste them
-    (**Ctrl+V**) into the speaker notes of the Q&A slide.
+21. Agora tente esta solução alternativa. Digite o prompt a seguir que
+    solicita a geração de uma lista de perguntas:
 
-    ![](./media/image31.png)
++++What kind of questions do you think participants may ask during the
+Q&A session?+++ 
 
-    **Note**: Copilot may display some exception. Please try using the suggested prompts as in **step #16**
+![](./media/image40.png)
 
-    While the remaining training exercises in this module don't use this
-    presentation, you can either discard it or save it if you to retain a
-    copy for future reference.
+22. Revise as perguntas que o Copilot criou. Selecione o botão **Copy**
+    na parte inferior da janela e, em seguida, vá até o slide de
+    perguntas e respostas, pressione (Ctrl+V) para colar nas anotações
+    do instrutor.
 
-## Exercise #3: Compare supplier agreements using Copilot in Word
+![](./media/image41.png)
 
-Salespeople need right information at the right time to build strong
-relationships with their customers, take actions based on insights, and
-close deals faster. Copilot in Word can help them bring in specific
-information from other documents into their content, generate summaries,
-ask questions about their document, provide ideas about specific topics,
-and transform text into tables, or provide suggestions for ways to
-rewrite content.
+**Observação**: O Copilot pode exibir alguma exceção. Tente usar os
+prompts sugeridos na etapa 16
 
-You're the new Sales Manager for Northwind Traders, a supplier of
-various grocery and beverage products. You're concerned about the
-supplier agreements that are currently in place with several of
-Northwind's top customers. Your predecessor negotiated these agreements,
-so you aren't familiar with the terms and conditions that were
-previously agreed upon with these customers.
+Embora os exercícios de treinamento restantes neste módulo não usem essa
+apresentação, você pode descartá-la ou salvá-la se quiser manter uma
+cópia para referência futura.
 
-In this exercise, you will
+**Exercício 3: Comparar contratos de fornecedores usando o Copilot no
+Word**
 
-  - Provide Copilot in Word with three supplier agreement documents.
+Os vendedores precisam das informações certas no momento certo para
+construir relacionamentos sólidos com seus clientes, tomar medidas
+baseadas em insights e fechar negócios mais rapidamente. O Copilot in
+Word pode ajudar trazendo informações específicas de outros documentos
+para o seu conteúdo, gerando resumos, respondendo perguntas sobre seu
+documento, fornecendo ideias sobre tópicos específicos, transformando
+textos em tabelas, e sugerindo formas de reescrever o conteúdo.
 
-  - Ask it to create a report that compares the terms and conditions
-    negotiated with each customer.
+Você é o novo Gerente de Vendas da Northwind Traders, um fornecedor de
+produtos de mercearia e bebidas. Você está preocupado com os acordos com
+fornecedores atualmente vigentes com os principais clientes da empresa.
+Seu antecessor negociou esses contratos, e você não está familiarizado
+com os termos e condições previamente acordados com esses clientes.
 
-  - Ask Copilot to provide recommendations for renegotiating each
-    agreement.
+Neste exercício, você deverá:
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab          and enter the following URL:+++https://www.office.com+++ to go to the Microsoft 365 home page.
+- Fornecer ao Copilot no Word três documentos de contratos com
+  fornecedores.
 
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**
-    tab on the right.
+- Solicitar um relatório que compare os termos e condições negociados
+  com cada cliente.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    the following documents to OneDrive.
+- Pedir recomendações ao Copilot para renegociar cada acordo.
 
-      - **Contoso Supplier Agreement**
+1.  Se você tiver uma guia do Microsoft 365 aberta no navegador
+    Microsoft Edge, selecione-a agora; caso contrário, abra uma nova
+    guia e digite o seguinte
+    [URL:+++https://www.office.com](URL:+++https://www.office.com)<u>+++</u>
+    para acessar a página inicial do Microsoft 365.
 
-      - **Tailwind Traders Supplier Agreement**
+> **Observação**: Você precisa fazer login (se solicitado) usando as
+> **Credenciais do Microsoft 365** fornecidas na guia **Resources** à
+> direita.
 
-      - **Wide World Importers Supplier Agreement**
+2.  Navegue até a pasta **C:\LabFiles** para selecionar e carregar uma
+    cópia dos seguintes documentos no OneDrive.
 
-    **Note**: You can skip this step, if you have already uploaded a copy of all the documents (that you will be using in
-    this hands-on lab session from **C:\LabFiles** as instructed in **Lab 0**).
-  
-3.  In this exercise, you access the documents from the Most Recently
-    Used file list. To get the files to appear in the MRU list, open
-    each document and then close it. Open and close each of the three
-    files in your OneDrive account.
+    - **Contoso Supplier Agreement **
 
-    ![](./media/image32.png)
+    - **Tailwind Traders Supplier Agreement **
 
-4.  In **Microsoft 365**, open **Microsoft Word** and then open a new
-    blank document.
+    - **Wide World Importers Supplier Agreement **
 
-9.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt:
+> **Observação**: Você pode pular esta etapa se já tiver feito upload de
+> uma cópia de todos os documentos (que serão usados nesta sessão de
+> laboratório prático em **C:\LabFiles**, conforme instruído no
+> **Laboratório 0**).
 
-    ++**I'm the Sales Manager for Northwind Traders, a supplier of various
-    grocery and beverage products. Please create a report that compares the
-    supplier agreements for three of our customers**. **Provide a
-    recommendation on contract renewals that can provide Northwind Traders
-    with more favorable terms. The supplier agreements for these three
-    customers are attached**. **Thank you**!++
+3.  Para acessar os documentos na lista de arquivos Most Recently Used
+    (MRU), abra e feche cada um dos três arquivos no seu OneDrive.
 
-    ![](./media/image33.png)
+![](./media/image42.png)
 
-    You now must attach the three supplier agreements to the prompt. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if the **Contoso
-    Supplier Agreement** appears in the list of files, select it.
-    Otherwise, select **Browse files from cloud**, select the **Contoso
-    Supplier Agreement** from the **Recent** file list, and then select
-    the **Attach** button. Note how the file is displayed in the prompt.
+4.  No **Microsoft 365**, abra o **Microsoft Word** e, em seguida, abra
+    um novo documento em branco.
 
-    Repeat the prior step for both the **Tailwind Traders Supplier
-    Agreement** and the **Wide World Importers Supplier Agreement**. At
-    this point, links to all three files should be included in the prompt.
+5.  Na janela **Draft with Copilot** que aparece na parte superior do
+    documento em branco, digite o seguinte prompt:
 
-10.  Select **Generate**. At this point, Copilot extracts the pertinent
-    information from the three supplier agreements drafts a report
-    comparing them.
++++I'm the Sales Manager for Northwind Traders, a supplier of various
+grocery and beverage products. Please create a report that compares the
+supplier agreements for three of our customers. Provide a recommendation
+on contract renewals that can provide Northwind Traders with more
+favorable terms. The supplier agreements for these three customers are
+attached. Thank you!+++
 
-     ![](./media/image34.png)
+![](./media/image43.png)
 
-11. After reviewing the comparison document, you aren't pleased with the
-    results. You would like to see Copilot try again and generate a new
-    version. In the Copilot window that appears at the end of the
-    document, select the **Regenerate** button, which appears next to
-    the **Keep it** button. You can repeat this step as many times as
-    necessary until Copilot creates a version of this report that you
-    approve. For this exercise, repeat this step several times to see
-    the various formats that Copilot delivers. Also note how some
-    information may be included in one version of the report that's not
-    in others.
+Anexe os três documentos de acordos ao prompt. Na janela **Draft with
+Copilot**, selecione **Reference your content**. No menu suspenso que
+aparece, se o arquivo **Contoso Supplier Agreement** estiver na lista de
+arquivos, selecione-o. Caso contrário, escolha **Browse files from
+cloud**, selecione **Contoso Supplier Agreement** na lista **Recent**, e
+clique no botão **Attach**. Observe como o arquivo é exibido no prompt.
 
-    Once you're satisfied with a version of the report, select the **Keep it** button.
+Repita este passo para os arquivos **Tailwind Traders Supplier
+Agreement** e **Wide World Importers Supplier Agreement**. Neste ponto,
+os links para os três arquivos devem estar incluídos no prompt..
 
-12. Once you're done with this document, save it to your **OneDrive**, so
-    you can close this tab in your Microsoft Edge browser.
+6.  Selecione **Generate** para que o Copilot extraia as informações
+    pertinentes dos três acordos e redija um relatório comparativo.
 
-# Summary:
-  In this lab, you explored the capabilities of Copilot for Microsoft 365 as an AI-powered writing assistant and
-  -  Utilized Copilot in Loop to draft a detailed market research report that involved organizing data, generating
-     insights, and creating a cohesive and informative report.
-     
-  -  Leveraged Copilot in PowerPoint to design a compelling sales presentation to generate slides, customize content, and 
-     ensure that the presentation effectively communicates key sales messages.
-     
-  -  Used Copilot in Word to analyze and compare three supplier agreements to identify differences between the agreements
-     and provide recommended actions based on the comparison.
+![](./media/image44.png)
+
+7.  Agora que você revisou o documento comparativo, percebeu que os
+    resultados não atenderam às suas expectativas. Você gostaria que o
+    Copilot tentasse novamente e gerasse uma nova versão. Na janela do
+    Copilot que aparece no final do documento, selecione o botão
+    **Regenerate**, que aparece ao lado do botão **Keep it**. Você pode
+    repetir essa etapa quantas vezes forem necessárias até que o Copilot
+    crie uma versão desse relatório que você aprove. Para este
+    exercício, repita essa etapa várias vezes para ver os vários
+    formatos que o Copilot fornece. Observe também como algumas
+    informações podem estar incluídas em uma versão do relatório que não
+    está em outras.
+
+Quando estiver satisfeito com uma versão do relatório, selecione o botão
+**Keep it**.
+
+8.  Quando terminar de ler o documento, salve-o no **OneDrive** para
+    poder fechar essa guia no navegador Microsoft Edge.
+
+**Resumo:**
+
+Neste laboratório, você explorou as capacidades do Copilot for Microsoft
+365 como um assistente de escrita com AI, incluindo:
+
+- Utilização do Copilot in Loop para criar um relatório detalhado de
+  pesquisa de mercado, organizando dados, gerando insights e criando um
+  relatório informativo e coeso.
+
+- Aproveitamento do Copilot in PowerPoint para desenvolver uma
+  apresentação de vendas impactante, gerando slides, personalizando o
+  conteúdo e garantindo que a apresentação comunique efetivamente as
+  principais mensagens de vendas.
+
+- Uso do Copilot in Word para analisar e comparar três acordos de
+  fornecedores, identificando as diferenças entre os contratos e
+  fornecendo ações recomendadas para renegociação.
