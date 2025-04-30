@@ -1,573 +1,634 @@
-# Lab 03: Empower your workforce – Copilot-IT
+**Laboratório 03: Capacite sua força de trabalho - Copilot- TI**
 
-## Objective:
+**Objetivo:**
 
-Copilot for Microsoft 365 serves as an AI-powered writing assistant
-understands context, suggests phrases, and helps generate content, all
-of which can enhance the quality of your work. In this lab, you will
-use:
+O Copilot para Microsoft 365 funciona como um assistente de redação com
+tecnologia de IA que entende o contexto, sugere frases e ajuda a gerar
+conteúdo, o que pode melhorar a qualidade do seu trabalho. Neste
+laboratório, você usará:
 
-- Microsoft Copilot to summarize the information in a product spec and
-  create a project plan to implement the product.
+- Microsoft Copilot para resumir as informações em uma especificação de
+  produto e criar um plano de projeto para implementar o produto.
 
-- Copilot in PowerPoint to create a presentation based on the project
-  plan that you created.
+- Copilot no PowerPoint para criar uma apresentação com base no plano de
+  projeto que você criou.
 
-- Copilot in Word to modify a technical specification report.
+- Copilot no Word para modificar um relatório de especificação técnica.
 
-## Exercise #1: Create a project plan using Microsoft Copilot
+**Exercício 1: Criar um plano de projeto usando o Microsoft Copilot**
 
-With Microsoft Copilot seamlessly integrates into Microsoft 365 and
-offers a robust platform for IT professionals to enhance teamwork, share
-insights, and accelerate problem-solving within the IT ecosystem. It
-enables IT professionals to connect instantly, share information, and
-coordinate efforts efficiently.
+O Microsoft Copilot integra-se perfeitamente ao Microsoft 365 e oferece
+uma plataforma robusta para que os profissionais de TI aprimorem o
+trabalho em equipe, compartilhem insights e acelerem a solução de
+problemas no ecossistema de TI. Ele permite que os profissionais de TI
+se conectem instantaneamente, compartilhem informações e coordenem
+esforços com eficiência.
 
-As the Director of IT at Adatum Corporation, you've been reviewing a
-product specification report for the Contoso CipherGuard Sentinel X7
-network security product. You plan to install this product, which
-provides advanced security protection that is far beyond anything Adatum
-has today.
+Como diretor de TI da Adatum Corporation, você está analisando um
+relatório de especificação de produto para o produto de segurança de
+rede Contoso CipherGuard Sentinel X7. Você planeja instalar esse
+produto, que oferece uma proteção de segurança avançada que vai muito
+além de tudo o que a Adatum tem hoje.
 
-In this exercise you will use Microsoft Copilot in Bing
+Neste exercício, você usará o Microsoft Copilot no Bing para:
 
-- Analyze a product specification report for a new network security
-  product that you plan to install.
+- Analisar um relatório de especificação de produto para um novo produto
+  de segurança de rede que você planeja instalar.
 
-- Update the project plan with information from the product spec report.
+- Atualizar o plano do projeto com informações do relatório de
+  especificações do produto.
 
-**Note**: At the end of this exercise, you must save your project plan
-to your OneDrive account. The next exercise uses this file.
+**Observação**: Ao final deste exercício, você deve salvar o plano do
+projeto na sua conta do OneDrive. O próximo exercício usará este
+arquivo.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**   
-    tab on the right.
+1.  Se você tiver uma guia do Microsoft 365 aberta no navegador
+    Microsoft Edge, selecione-a agora; caso contrário, abra uma nova
+    guia e digite o seguinte URL: +++<u>https://www.office.com+++</u> 
+    para acessar a página inicial do **Microsoft 365**.
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
+**Observação**: Você precisa fazer login (se solicitado) usando as
+**Credenciais do Microsoft 365** fornecidas na guia **Resources** à
+direita.
 
-    ![](./media/image1.png)
+2.  Abra o **OneDrive**. Navegue até a pasta **C:\LabFiles** para
+    selecionar e carregar uma cópia do **Contoso CipherGuard Product
+    Specification report.docx** no **OneDrive**.
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso CipherGuard Product Specification report** document to **OneDrive**.
+**Observação**: Você pode pular esta etapa se já tiver feito upload de
+uma cópia de todos os documentos (que serão usados nesta sessão de
+laboratório prático em **C:\LabFiles**, conforme instruído no
+**Laboratório 0**).
 
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
+3.  Abra e feche o arquivo **Contoso CipherGuard Product Specification
+    report.docx** (que você carregou no **OneDrive**) para colocá-lo na
+    sua lista de arquivos Most Recently Used (MRU) file list.
 
-4.  In this exercise, you access the document from the MRU file list. To
-    get the file to appear in the MRU list, open the document and then
-    close it.
+![](./media/image1.png)
 
-    ![](./media/image2.png)
+4.  No **Microsoft Edge**, navegue até o Microsoft Bing digitando a
+    seguinte
+    URL: +++[https://bing.com+++]
 
-5.  In **Microsoft Edge**, navigate to Microsoft Bing by entering the
-    following URL: +++https://bing.com+++
+![](./media/image2.png)
 
-    ![](./media/image3.png)
+5.  Na **página inicial do Microsoft Bing**, na lista de guias que
+    aparecem na parte superior da página, selecione **Copilot.** Ao
+    fazer isso, o **Microsoft Copilot** será aberto.
 
-6.  On the **Microsoft Bing home page**, in the list of tabs that appear
-    across the top of the page, select **Copilot**. Doing so
-    opens **Microsoft Copilot**.
+![](./media/image3.png)
 
-    ![](./media/image4.png)
+**Observação:** Se você não vir a lista de guias na parte superior da
+página, siga as etapas abaixo para visualizar a lista de guias.
 
-7.  On the **Copilot** page, in the **Work/Web** toggle switch at the
-    top of the page, select **Work**.
+- Verifique se você fez login usando as **credenciais do Microsoft 365**
+  (disponíveis na guia **Resources**).
 
-8. By default, the **Work** option limits Copilot's reach to your
-    Microsoft 365 organizational data. However, since you also want
-    Copilot to access the public web guidelines on installing a
-    corporate network security product, you must enable the **Web
-    content** plugin. To do so, in the prompt field at the bottom of the
-    page, you should notice two icons - the paper clip icon, which is to
-    attach files, and an icon of stacked blocks. This latter icon is the
-    Plugins icon. Select this **Plugins** icon.
+![](./media/image4.png)
 
-    ![](./media/image5.png)>
+- Ative a opção **Show menu bar** (destacada em vermelho)
 
-    ![](./media/image6.png)
+![](./media/image5.png)
 
-9. You're now ready to use Copilot. Enter the following prompt, which
-    directs Copilot to access public web data through the **Web
-    content** plugin to Microsoft Copilot, and then select
-    the **Submit** arrow in the bottom corner of the prompt field:
+![](./media/image6.png)
 
-    ++**I'm the Director of IT at Adatum Corporation. Create a project plan
-    for installing a new network security product into a corporate
-    network. Base this plan on IT industry guidelines for installing
-    network security products**.++
+6.  Agora, selecione **Copilot.** Ao fazer isso, o **Microsoft Copilot**
+    será aberto.
 
-    ![](./media/image7.png)
+7.  Na página do **Copilot**, no botão de alternância **Work/Web** na
+    parte superior da página, selecione **Work**.
 
-10. Review the project plan that Copilot created.
-
-    ![](./media/image8.png)
-
-11. You aren't satisfied that it encompasses all the areas that it
-    should. Enter the following prompt to have it amend its plan by
-    including areas of specific interest to you. If any of the areas
-    included in this prompt are already in Copilot's previous response,
-    then remove them from this prompt so that Copilot doesn't duplicate
-    them:
-
-    ++**While that was a good start, I feel like it's missing important
-    areas. Please add the following items to the existing list: testing
-    and QA, training, communication, document and reporting, stakeholder
-    analysis, project timeline, and risk assessment and mitigation**.++
-
-    ![](./media/image9.png)
-
-    ![](./media/image10.png)
-
-12. Review the amended project plan. You're happy with the breadth of
-    topics covered, so now you want Copilot to update the plan with
-    information from the product spec for the Contoso CipherGuard
-    Sentinel X7 security product. Enter the following prompt, but don't
-    submit it yet as you must first link the file to the prompt in the
-    next step:
-
-    ++**This version looks better. Please review the attached file, which is
-    a product specification for the Contoso CipherGuard Sentinel X7
-    security product, and update your project plan with information from
-    this product spec**.++
-
-    ![](./media/image11.png)
-
-13. In the prompt field, enter a space after the prompt and then type a
-    forward slash (/). You must enter the space before the forward slash
-    so that Copilot recognizes it as a request to attach something to
-    the prompt. Your next step depends on whether Copilot opens a window
-    for you to select the file:
-
-    - If Copilot opens a window after you entered the forward slash (/),
-      then select the **Files** tab. Doing so displays the list of MRU
-      files. Select the **Contoso CipherGuard Product Specification** file
-      and then select the **Submit** icon.
-
-    - If Copilot didn't do anything after you entered the forward slash (/),
-      then you'll have to copy and paste in the link to the **Contoso
-      CipherGuard Product Specification** file. To do so, locate the file in
-      your OneDrive account, open it in **Word**, select
-      the **Share** button that appears above the Word ribbon, select **Copy
-      link** in the drop-down menu that appears, and then back in this
-      prompt field, paste in the link following the forward slash and select
-      the **Submit** icon.
-
-    ![](./media/image12.png)
-    
-      <span class="mark">**Note**: If Copilot is not able to directly access
-      or review documents, Sign-out of the logged in user and sign-in once
-      again</span>.
-
-    ![](./media/image13.png)
-
-14. Continue from **step 9** once again.
-
-    ![](./media/image14.png)
-
-    <span class="mark">**Note**: If you are unable to view and reference
-    **Contoso CipherGuard Product Specification** document, then proceed
-    to the next exercise. The project plan document is made available for
-    you to proceed with the remaining lab activity</span>
-
-    ![](./media/image15.png)
-
-15. Review how Copilot inserted features from the product spec into the
-    project plan.
-
-    ![](./media/image16.png)
-16. While this looks good, you feel that the project plan is lacking in
-    specific details. To address this issue, enter the following prompt:
-
-    ++**We're almost there. Please break down each item on the report into
-    multiple detailed steps**.++
-
-    ![](./media/image17.png)
-
-17. Review the results.
-
-    ![](./media/image18.png)
-
-18. Now that the project plan is created, you MUST save it to a Word
-    document. **You'll use this project plan document in the next
-    exercise**. At the bottom of Copilot's final response, select the **Copy** button to copy and paste the response in a 
-    **Word** document.
-
-    ![](./media/image19.png)
-
-
-19. Save the file as **Contoso CipherGuard project plan.docx** in your OneDrive that contains the product 
-    specification document that you used in this exercise. You'll use this file in the next exercise.
-
-    ![](./media/image21.png)
-
-## Exercise #2: Create a project plan presentation using Copilot in PowerPoint
-
-Copilot in PowerPoint serves as an intelligent collaborator, offering
-real-time suggestions and enhancements as IT professionals craft their
-presentations to:
-
-  - Present their ideas or proposals to their team or management.
-  
-  - Train new employees or demonstrate new software or hardware to
-    clients.
-  
-  - Explain complex technical concepts to nontechnical audiences, such as
-    stakeholders or investors.
-  
-  - Showcase their work or promote their services to potential clients.
-
-With Copilot in PowerPoint, you can create a presentation from an
-existing Word document. When you provide Copilot in PowerPoint with the
-link to your Word document, it can generate slides, apply layouts, and
-choose a theme for you.
-
-In this exercise, you use Copilot in PowerPoint to create a slide
-presentation based on the project plan you created in the prior
-exercise. You want to use this presentation to explain the project plan
-to your IT staff, and ultimately to corporate management.
-
-<span class="mark">**Note**: If you completed the prior exercise and
-created a **Contoso CipherGuard project plan.docx** file, then ensure
-that you saved it to your OneDrive account and proceed to the next
-step. However, if you were unable to create this project plan in the
-prior exercise, then upload a copy of the document **Contoso CipherGuard project plan.docx** available in **C:\LabFiles**.</span>
-
-1.  If you have a Microsoft 365 tab open in your Edge browser, then select it now; otherwise, open a new tab and enter the following URL: ++https://www.office.com++ to go     to Microsoft 365 home page.
-    
-    **Note**: If you already have a Microsoft 365 tab open in your Edge browser, then select it now.
-
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-
-    ![](./media/image1.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Contoso CipherGuard Product Specification report** document to **OneDrive**.
-
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-    
-4.  Open and close the file Contoso CipherGuard project plan.docx (which you saved to OneDrive) to get it in your
-    Most Recently Used (MRU) file list.
-    
-5.  On the **Microsoft 365** navigation pane, select **PowerPoint**. In
-    PowerPoint, open a new blank presentation.
-
-6.  Select the **Copilot** option on the right side of the ribbon. In
-    the **Copilot** pane that appears, several predefined prompts are
-    available for you to choose from.
-
-    ![](./media/image22.png)
-
-7.  Select the **Create presentation from file** prompt.
-
-    ![](./media/image23.png)
-
-8.  In the prompt field at the bottom of the **Copilot** pane, Copilot
-    automatically enters the text: **Create presentation from file /**.
-    The forward slash is the universal Copilot indicator to enter a link
-    to a file. In this case, it triggers Copilot to open
-    a **Suggestions** window that displays three of the most recently
-    used files.
-
-    - If your file appears here, then select it now and proceed to the next
-      step.
-    
-    - If the file isn't one of the three being displayed, select the right
-      arrow (**\>**) in the upper right corner of the **Suggestions** window
-      to see an expanded MRU file list. If the file appears here, then
-      select it now and proceed to the next step.
-    
-    - If you don't see your file in the expanded MRU list, then you must
-      copy the link to the report and paste it in the prompt field. To do
-      so:
-
-      1.  Select the **Microsoft 365** browser tab and select **Word** in
-          the navigation pane.
-    
-      2.  In the **Word** home page, in the list of recent files, select the
-          report to open it in Word.
-    
-      3.  In the report in Word, on the far-right above the ribbon, select
-          the **Share** button. In the drop-down menu that appears,
-          select **Copy Link**. Wait for the **Link copied** window to
-          appear, which is your assurance that the link to the file is
-          copied to your clipboard.
-    
-      4.  Switch to your **PowerPoint** tab, and at the bottom of
-          the **Copilot** pane, the prompt field should still be
-          displaying **Create presentation from file /**. Position your
-          cursor after the forward slash (**/**) and then paste in
-          (**Ctrl+V**) the link to the report.
-
-9. Note how the file appears in the prompt field. Select
-    the **Send** icon in the prompt field. This prompt triggered Copilot
-    to create a slide presentation based on the document. In doing so,
-    it first displayed the outline of the presentation. Then it
-    displayed a separate window showing a bulleted list of some of the
-    changes that it made to the presentation based on the document.
-
-    ![](./media/image24.png)
-
-10. You're now free to review the slides and make any necessary updates.
-    Pay special attention to the changes the Copilot made based on the
-    document. You can use the **Designer** tool to adjust the layouts
-
-    ![](./media/image25.png)
-
-11. You notice that there isn't a slide at the end for a Question and
-    Answer (Q&A) session. To correct this oversight, enter the following
+8.  Por padrão, a opção **Work** limita o alcance do Copilot aos seus
+    dados organizacionais do Microsoft 365. No entanto, como você também
+    deseja que o Copilot acesse as diretrizes públicas da web sobre a
+    instalação de um produto de segurança de rede corporativa, é
+    necessário ativar o plug-in **Web content**. Para isso, no campo de
+    prompt na parte inferior da página, você deve observar dois ícones:
+    o ícone de clipe de papel, que serve para anexar arquivos, e um
+    ícone de blocos empilhados. Esse último ícone é o ícone Plugins.
+
+![](./media/image7.png)
+
+9.  Selecione o ícone **Plugins** e ative o plug-in **Web content**.
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+
+10. Agora você está pronto para usar o Copilot. Digite o prompt a
+    seguir, que direciona o Copilot para acessar dados públicos da web
+    por meio do plug-in **Web content** no Microsoft Copilot e, em
+    seguida, selecione a seta **Submit** no canto inferior do campo de
     prompt:
 
-    ++**Add a Q&A slide at the very end of the presentation with an
-    appropriate image**.++
+**++I'm the Director of IT at Adatum Corporation. Create a project plan
+for installing a new network security product into a corporate network.
+Base this plan on IT industry guidelines for installing network security
+products.++ **
 
-    ![](./media/image26.png)
+![](./media/image10.png)
 
-12. Review the new slide that was created. You don't like the image that
-    Copilot used for this slide, so enter the following prompt asking
-    Copilot to change the image:
+11. Revise o plano de projeto que o Copilot criou.
 
-    **I don't like the image you used on the Q&A slide. Please replace it with a different image**.
+![](./media/image11.png)
 
-    ![](./media/image27.png)
+12. Se você sente que o plano gerado pelo Copilot não abrange todas as
+    áreas essenciais, você pode solicitar ajustes! Insira o seguinte
+    prompt, pedindo ao Copilot para alterar seu plano e incluir áreas de
+    interesse específico. Se alguma das áreas incluídas nesta
+    solicitação já estiver na resposta anterior do Copilot remova essas
+    áreas do prompt para evitar duplicações:
 
-13. What response did you receive? Sometimes Copilot didn't replace the
-    image and it returned the following message.
+**++While that was a good start, I feel like it's missing important
+areas. Please add the following items to the existing list: testing and
+QA, training, communication, document and reporting, stakeholder
+analysis, project timeline, and risk assessment and mitigation.++**
 
-    ![](./media/image28.png)
+![](./media/image12.png)
 
-    <span class="mark">**Note**: Copilot may display some exception (remember that Copilot is still a work in progress)   
-    like the one above.</span>
+![](./media/image13.png)
 
-14. Please try rephrasing the prompt or use the suggested prompts like the one below:
+13. Revise o plano de projeto alterado. Você está satisfeito com a
+    amplitude dos tópicos abordados, então agora você quer que o Copilot
+    atualize o plano com informações da especificação do produto de
+    segurança Contoso CipherGuard Sentinel X7. Digite o seguinte prompt,
+    mas não o envie ainda, pois você deve primeiro vincular o arquivo ao
+    prompt na próxima etapa:
 
-    ![](./media/image29.png)
+**++This version looks better. Please review the attached file, which is
+a product specification for the Contoso CipherGuard Sentinel X7 security
+product, and update your project plan with information from this product
+spec.++ **
 
-15. Select the command **Add a slide about** and append the following **Q&A at the very end of the presentation** (as shown
-    in the screenshot)
+![](./media/image14.png)
 
-    ![](./media/image30.png)
+14. No campo de prompt, insira um espaço após o prompt e, em seguida,
+    digite uma barra (/). Você deve inserir o espaço antes da barra para
+    que o Copilot reconheça que se trata de uma solicitação para anexar
+    algo ao prompt. Seu próximo passo depende de Copilot abrir uma
+    janela para você selecionar o arquivo:
 
-16. Click Send to check what happens. Copilot has added a Q&A slide as instructed.
+    - Se o Copilot abrir uma janela após você inserir a barra (/), então
+      selecione a aba **Files**. Ao fazer isso, será exibida a lista de
+      arquivos MRU. Selecione o arquivo **Contoso CipherGuard Product
+      Specification** e, em seguida, clique no ícone **Submit**.
 
-17. Now try with another prompt:
+![](./media/image15.png)
 
-    **Add a slide about** what the audience may ask about the presentation
-    
-18. Once you are done with final presentation you can save for future reference or discard this presentation
-       
-19. Regardless how the last few steps went in dealing with the Q&A
-    slide, you decide to move forward and try one last thing. In
-    reviewing the presentation, you decide that you want to change the
-    theme of the presentation to something more appropriate due to the
-    technical nature of the topic. Enter the following prompt:
+- Se o Copilot não realizou nenhuma ação após você inserir a barra (/),
+  então será necessário copiar e colar o link do arquivo **Contoso
+  CipherGuard Product Specification**. Para fazer isso, localize o
+  arquivo em sua conta do OneDrive, abra-o no **Word**, selecione o
+  botão **Share** localizado acima da faixa de opções do Word, no menu
+  suspenso, selecione **Copy link** e, em seguida, de volta a esse campo
+  de prompt, cole o link após a barra e selecione o ícone **Submit**.
 
-    ++**Change the theme of this presentation to something more technical**.++ 
+![](./media/image16.png)
 
-    ![](./media/image31.png)
+**Observação**: Se o Copilot não puder acessar ou revisar documentos
+diretamente, saia do usuário conectado e entre novamente e, em seguida,
+continue a partir da **etapa 9** mais uma vez.
 
-21. Note Copilot's response.
+![](./media/image17.png)
 
-    ![](./media/image32.png)
+**Observação**: Se você não conseguir visualizar e referenciar o
+documento **Contoso CipherGuard Product Specification**, então prossiga
+para o próximo exercício. O documento do plano de projeto está
+disponível para que você continue com as próximas atividades do
+laboratório.
 
-    This scenario is one of those situations to remember the prompting
-    best practice: **Understand Copilot's limitations**. In this case, it
-    isn't an understanding of a limitation as much as it's an
-    understanding as to how Copilot works. In this case, Copilot points
-    you to an existing PowerPoint feature rather than duplicating what
-    that feature does.
+15. Agora, revise como o Copilot inseriu as características do produto
+    no plano de projeto.
 
-22. While the remaining training exercises in this module don't use this
-    presentation, you can either discard it or save it if you want it
-    for future reference.
+![](./media/image18.png)
 
-## Exercise #3: Update a technical report using Copilot in Word
-
-Copilot in Word can help IT professionals save time and effort when
-creating documents. It can help you generate content, rewrite text, and
-provide helpful suggestions. With its AI-powered writing assistance,
-Copilot can help you create documents more efficiently and effectively.
-
-When you create a new document or work on an existing one, Copilot can
-help you in different ways.
-
-- In a new, blank document or when you want to add content to an
-  existing document, you can tell Copilot what you want to write about,
-  and it generates the content accordingly.
-
-- In a document with existing content, Copilot can help you transform
-  the content. It can rewrite selected content, or even transform
-  selected content into a table.
-
-In this exercise, you will use Copilot in Word to update an existing
-document. You direct Copilot to add new text, rewrite existing text, and
-transform text into a table.
-
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
-
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it.
-
-    ![](./media/image1.png)
-
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of
-    **Trey Research - VPN Technical Overview** document to **OneDrive**.
-
-    **Note**: If you have already uploaded all the lab assets to **OneDrive** as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-
-4.  Open and close the file **Trey Research - VPN Technical Overview.docx** (which you uploaded to OneDrive) to get it in       your Most Recently Used (MRU) file list
-  
-5.  On the **Microsoft 365** navigation pane, select **Microsoft Word** to open it.
-
-6.  Open the **Trey Research - VPN Technical Overview.docx** file.
-
-    ![](./media/image33.png)
-
-7.  On the **Word** ribbon, select the **Copilot** button to open the
-    Copilot pane.
-
-    ![](./media/image34.png)
-
-8.  In the **Copilot** pane, enter the following prompt and then select
-    the arrow (**Send**) icon:
-
-    ++**Write a new section for this document about the types of VPNs. Discuss
-    the pros and cons of each type. This content is for a technical
-    audience, so please provide specific details**.++
-
-    ![](./media/image35.png)
-
-9. Copilot doesn't add new content directly into a document. It
-    displays the content in a response window in the Copilot pane.
-    However, it does provide a **Copy** button at the bottom of each
-    response window, so select the **Copy** button to copy its contents
-    to your clipboard. In looking at the document, you decide to paste
-    the contents below the opening paragraph. Paste the contents in now.
-
-    > **Tip**: When you select the **Copy** button for a response window, it
-    > copies ALL the content, including Copilot's comments that are intended
-    > for you. These types of comments are typically at the start and end of
-    > the response. Make sure you remove these comments once you paste the
-    > response into your document. Chances are, the font and font size of
-    > the new content won't match the existing font and size used throughout
-    > the document. As such, you must change them to match.
-
-10. Upon further review, you notice that there's no mention of security
-    policies related to VPN usage. This topic is a key area that you
-    want included, so enter the following prompt:
-
-    ++**Please write a new section for this document about security policies
-    related to VPN usage. This content is for a technical audience, so
-    please provide specific details**.++
-
-    ![](./media/image36.png)
-
-11. Copy and paste the content from this response into the document.
-    Place it just before the **Risks and mitigations** section, and then
-    edit the content as needed. If necessary, add a heading for this
-    section titled **Security policies related to VPN usage**.
-
-    ![](./media/image37.png)
-
-12. When you reviewed the report, you also identified one area of
-    content that you felt needed to be rewritten. In the section
-    on **Risks and mitigations**, the first bullet covers both home and
-    enterprise VPNs. You want it to only address enterprise VPNs.
-    However, given the way in which the content is written, it doesn't
-    appear to be an easy fix. You decide to have Copilot rewrite the
-    content for you.
-
-    **Tip**: To have Copilot rewrite content, you must first highlight the
-    content that you want Copilot to rewrite.
-
-13. Highlight the content in the first bullet of the **Risks and
-    mitigation** section, and then enter the following prompt:
-
-    ++**The highlighted content discusses the risks of using VPNs in both
-    home and enterprise networks. Remove the content related to home
-    networks and focus solely on the risks of VPNs in enterprise
-    networks**.++
-    
-    ![](./media/image38.png)
-
-14. Check Copilot's response. Sometimes this rewrite functionality
-    didn't work. When it didn't work, Copilot returned the following
-    response. If this situation occurs, copy and paste in your prompt
-    and try it again (remember, iterate, iterate, iterate).
-
-    ![](./media/image39.png)
-
-15. After you make a final review of the document, you decide that the
-    sections on the Pros and Cons of implementing VPNs would look better
-    in a table rather than as bulleted lists. Since you highlighted a
-    section to be rewritten, you decide to highlight these two sections.
-    Highlight both sections and then enter the following prompt:
-
-    ++**Please rewrite the highlighted content by placing it in a table**.++
-
-    ![](./media/image40.png)
-
-16. Note the Copilot response.
-
-    ![](./media/image41.png)
-
-17. Reformatting content into a table is different than rewriting
-    content. Instead of highlighting the content that you want placed in
-    a table, you must describe in your prompt what sections of content
-    you want included in the table. This time, enter the following
+16. Embora pareça bom, você acha que o plano do projeto carece de
+    detalhes específicos. Para resolver esse problema, digite o seguinte
     prompt:
 
-    ++**Place the content from the Pros and Cons of implementing VPNs into a table**.++
-    
-    ![](./media/image42.png)
+**++We're almost there. Please break down each item on the report into
+multiple detailed steps.++**
 
-18. Note the Copilot response. Instead of rewriting or replacing the
-    existing content in the document with a table, it displays the table
-    in its response. It's up to you to replace the content by copying
-    and pasting the table into the document. In the response, select
-    the **Copy** button, and then in the document, highlight the Pros
-    and Cons sections and paste in the table. Make sure you add a
-    section heading before the table that says: **Pros and Cons of
-    implementing VPNs.** Chances are, you'll also need to change the
-    font and font size of the table content to match the existing font
-    and size used throughout the document.
+![](./media/image19.png)
 
-    ![](./media/image43.png)
+17. Analise os resultados.
 
-19. At this point, you feel the document is complete. However, to play
-    it safe, you decide to ask Copilot if it feels the document should
-    include any other information. Enter the following prompt:
+![](./media/image20.png)
 
-    ++**Is there anything missing in this document that you would recommend adding?**.++
+18. Agora que o plano do projeto foi criado, você DEVE salvá-lo em um
+    documento do Word. **Você usará esse documento de plano de projeto
+    no próximo exercício**. Na parte inferior da resposta final do
+    Copilot, selecione o botão **Copy** para copiar o conteúdo.
 
-    ![](./media/image44.png)
+**Observação**: Você verá um botão **Edit in Pages** que oferece mais
+funcionalidades e facilita a colaboração da equipe. No entanto, não
+usaremos o **Edit in Pages** neste exercício. Um exercício de
+laboratório separado está incluído no Lab 06 para explorar essa
+funcionalidade. 
+![](./media/image21.png)
 
-20. Note the Copilot response. In our testing, it told us that nothing
-    was missing. Try again to see if Copilot provides a different
-    response.
+Abra um documento do Word em branco em um navegador e cole a resposta.
 
-    ![](./media/image45.png)
+![](./media/image22.png)
 
-21. If Copilot recommended that you add more content to your document,
-    create a prompt that asks it to do so. You can then copy and paste
-    the new content into your document.
+Ao colar o conteúdo copiado, você verá o menu de contexto **Paste
+options**. Você pode usar a opção **Keep Source formatting**.
+![](./media/image23.png)
 
-## Summary:
+![](./media/image24.png)
 
-In this lab, you explored how Copilot for Microsoft 365 enhances the
-quality of your work by
+19. Clique no campo de nome do arquivo no canto superior esquerdo
+    (conforme mostrado na captura de tela) e renomeie o arquivo como
+    +++Contoso CipherGuard project plan.docx+++ em seu **OneDrive**.
+    Você usará esse arquivo no próximo exercício.
 
-- Using Microsoft Copilot to distil the key information from a product
-  specification document and develop a comprehensive project plan for
-  implementing the product.
+![](./media/image25.png)
 
-- Leveraging Copilot in PowerPoint to design a presentation based on the
-  project plan you created, ensuring it is visually appealing and
-  effectively communicates the plan's details.
+![](./media/image26.png)
 
-- Utilizing Copilot in Word to revise and enhance a technical
-  specification report, improving clarity, coherence, and overall
-  quality.
+![](./media/image27.png)
+
+**Exercício 2: Criar uma apresentação de plano de projeto usando o
+Copilot no PowerPoint**
+
+O Copilot no PowerPoint atua como um colaborador inteligente, oferecendo
+sugestões em tempo real e aperfeiçoamentos enquanto os profissionais de
+TI criam suas apresentações para:
+
+- Apresentar suas ideias ou propostas para sua equipe ou gerência.
+
+- Treinar novos funcionários ou demonstrar novos softwares ou hardwares
+  aos clientes.
+
+- Explicar conceitos técnicos complexos para públicos não técnicos, como
+  partes interessadas ou investidores.
+
+- Exibir seu trabalho ou promover seus serviços para clientes em
+  potencial.
+
+Com o Copilot no PowerPoint, você pode criar uma apresentação a partir
+de um documento existente do Word. Quando você fornece ao Copilot no
+PowerPoint o link para o seu documento do Word, ele pode gerar slides,
+aplicar layouts e escolher um tema para você.
+
+Neste exercício, você usa o Copilot no PowerPoint para criar uma
+apresentação de slides com base no plano de projeto que criou no
+exercício anterior. Você deseja usar essa apresentação para explicar o
+plano do projeto à sua equipe de TI e, por fim, à gerência corporativa.
+
+**Observação**: Se você concluiu o exercício anterior e criou um arquivo
+Contoso CipherGuard project plan.docx, certifique-se de que o salvou em
+sua conta do OneDrive e prossiga para a próxima etapa. No entanto, se
+você não conseguiu criar esse plano de projeto no exercício anterior,
+carregue uma cópia do documento Contoso CipherGuard project plan.docx
+disponível em C:\LabFiles.
+
+1.  Se você tiver uma guia do Microsoft 365 aberta no navegador Edge,
+    selecione-a agora; caso contrário, abra uma nova guia e digite a
+    seguinte
+    URL: +++[https://www.office.com+++] para acessar a página inicial do **Microsoft 365**.
+
+2.  Abra e feche o arquivo **Contoso CipherGuard project plan.docx**
+    (que você salvou no OneDrive) para colocá-lo na sua lista de
+    arquivos Most Recently Used (MRU)
+
+3.  No painel de navegação do **Microsoft 365**, selecione
+    **PowerPoint**. No PowerPoint, abra uma nova apresentação em branco.
+
+4.  Selecione o ícone do **Copilot** (destacado em vermelho, conforme
+    mostrado na captura de tela). Na janela do **Copilot** que
+    aparecerá, você verá vários prompts predefinidos disponíveis para
+    escolha.
+
+![](./media/image28.png)
+
+![](./media/image29.png)
+
+5.  Selecione o prompt **Create presentation from file**.
+
+![](./media/image30.png)
+
+6.  No campo de prompt na parte inferior do painel do **Copilot**, o
+    Copilot insere automaticamente o texto: **Criar apresentação a
+    partir do arquivo /**. A barra é o indicador universal do Copilot
+    para inserir um link para um arquivo. Nesse caso, ela aciona o
+    Copilot para abrir uma janela **Suggestions** que exibe três dos
+    arquivos usados mais recentemente.
+
+    - Se o seu arquivo aparecer aqui, selecione-o agora e prossiga para
+      a próxima etapa.
+
+    - Se o arquivo não for um dos três que estão sendo exibidos,
+      selecione a seta para a direita (\>) no canto superior direito da
+      janela **Suggestions** para ver uma lista expandida de arquivos
+      MRU. Se o arquivo aparecer nessa lista, selecione-o agora e
+      prossiga para a próxima etapa.
+
+    - Se você não visualizar seu arquivo na lista MRU expandida, será
+      necessário copiar o link do relatório e colá-lo no campo de
+      prompt. Para fazer isso:
+
+a\. Selecione a guia do navegador do **Microsoft 365** no seu navegador
+e clique em **Word** na barra de navegação.
+
+b\. Na página inicial do **Word**, localize a lista de arquivos recentes
+e abra o relatório.
+
+c\. No relatório no Word, na extrema direita acima da faixa de opções,
+selecione o botão **Share**. No menu suspenso, selecione **Copy Link**.
+Aguarde até que a janela **Link copied** apareça—isso confirma que o
+link foi copiado para sua área de transferência.
+
+d\. Mude para a guia **PowerPoint** e, na parte inferior do painel
+**Copilot**, o campo de prompt ainda deve estar exibindo **Create
+presentation from file** /, posicione o cursor após a barra (/) e cole
+(**Ctrl+V**) o link do relatório.
+
+7.  Observe como o arquivo aparece no campo de prompt. Selecione o ícone
+    **Send** no campo de prompt. Este prompt instruirá o Copilot a criar
+    uma apresentação de slides baseada no documento. Primeiro, ele
+    exibirá um esboço da apresentação e, em seguida, abrirá uma janela
+    separada com uma lista de alterações feitas na apresentação, baseada
+    no conteúdo do relatório**.**
+
+![](./media/image31.png)
+
+8.  Agora você pode revisar os slides e fazer as atualizações
+    necessárias. Preste especial atenção às mudanças que o Copilot
+    realizou com base no documento. Você pode utilizar a ferramenta
+    **Designer** para ajustar os layouts.
+
+![](./media/image32.png)
+
+9.  Você percebe que não há um slide no final para uma sessão de
+    Perguntas e Respostas (Q&A).
+
++++Add a Q&A slide at the very end of the presentation with an
+appropriate image.+++ 
+
+![](./media/image33.png)
+
+10. Revise o novo slide que foi criado. Você não gostou da imagem que o
+    Copilot usou para esse slide, então digite o seguinte prompt
+    solicitando ao Copilot para alterar a imagem:
+
++++I don't like the image you used on the Q&A slide. Please replace it
+with a different image.+++ 
+
+![](./media/image34.png)
+
+11. Qual foi a resposta que você recebeu? Às vezes, o Copilot não
+    substituiu a imagem e retornou a seguinte mensagem:
+
+![](./media/image35.png)
+
+**Observação:** O Copilot pode exibir alguma exceção (lembre-se de que o
+Copilot ainda está em andamento), como mencionado acima.
+
+12. Tente reformular o prompt ou use os prompts sugeridos, como o
+    abaixo.
+
+![](./media/image36.png)
+
+13. Selecione o comando **Add a slide about** e anexe as seguintes
+    +++Q&A at the very end of the presentation+++ (conforme mostrado na
+    captura de tela)
+
+![](./media/image37.png)
+
+14. Clique em Send para ver o que acontece. O Copilot adicionou um slide
+    de perguntas e respostas conforme as instruções.
+
+15. Agora tente com outro prompt:
+
+**Adicione um slide** sobre o que o público pode perguntar sobre a
+apresentação.
+
+16. Quando terminar a apresentação final, você poderá salvar para
+    referência futura ou descartar essa apresentação
+
+17. Independentemente de como foram as últimas etapas ao lidar com o
+    slide de perguntas e respostas, você decide seguir adiante e tentar
+    uma última coisa. Ao revisar a apresentação, você decide que deseja
+    alterar o tema da apresentação para algo mais apropriado devido à
+    natureza técnica do tópico. Digite o seguinte prompt:
+
++++Change the theme of this presentation to something more technical+++ 
+
+![](./media/image38.png)
+
+18. Observe a resposta do copilot.
+
+![](./media/image39.png)
+
+Neste cenário, é importante lembrar a melhor prática de prompts:
+**Entender as limitações do Copilot**. Neste caso, não se trata apenas
+de reconhecer uma limitação, mas sim de entender como o Copilot opera.
+Em situações como essa, o Copilot pode direcioná-lo para um recurso
+existente do PowerPoint, ao invés de replicar uma funcionalidade que já
+está disponível no programa.
+
+19. Embora os exercícios de treinamento restantes deste módulo não usem
+    essa apresentação, você pode descartá-la ou salvá-la se quiser
+    usá-la como referência futura.
+
+**Exercício 3: Atualizar um relatório técnico usando o Copilot no Word**
+
+O Copilot no Word pode ajudar os profissionais de TI a economizar tempo
+e esforço na criação de documentos. Ele pode ajudá-lo a gerar conteúdo,
+reescrever texto e fornecer sugestões úteis. Com sua assistência de
+escrita alimentado por AI, o Copilot pode ajudá-lo a criar documentos
+com mais eficiência e eficácia.
+
+Quando você cria um novo documento ou trabalha em um documento
+existente, o Copilot pode ajudá-lo de várias maneiras.
+
+- Em um documento novo, em branco, ou quando quiser adicionar conteúdo a
+  um documento existente, você pode informar ao Copilot sobre o que
+  deseja escrever, e ele gera o conteúdo de acordo.
+
+- Em um documento com conteúdo existente, o Copilot pode ajudá-lo a
+  transformar o conteúdo. Ele pode reescrever o conteúdo selecionado ou
+  até mesmo transformá-lo em uma tabela.
+
+Neste exercício, você usará o Copilot no Word para atualizar um
+documento existente. Você instrui o Copilot a adicionar novo texto,
+reescrever o texto existente e transformar o texto em uma tabela.
+
+1.  Se você tiver uma guia do Microsoft 365 aberta no navegador
+    Microsoft Edge, selecione-a agora; caso contrário, abra uma nova
+    guia e digite A seguinte URL: +++https://www.office.com/+++ para
+    acessar a página inicial do **Microsoft 365**.
+
+**Observação**: Você precisa fazer login (se solicitado) usando as
+**Credenciais do Microsoft 365** fornecidas na guia **Resources** à
+direita.
+
+2.  Navegue até a pasta **C:\LabFiles** para selecionar e carregar uma
+    cópia de **Trey Research - VPN Technical Overview.docx** no
+    **OneDrive**.
+
+**Observação**: Você pode pular esta etapa se já tiver feito upload de
+uma cópia de todos os documentos (que serão usados nesta sessão de
+laboratório prático em **C:\LabFiles**, conforme instruído no
+**Laboratório 0**).
+
+3.  Abra e feche o arquivo **Trey Research - VPN Technical
+    Overview.docx** (que você carregou no **OneDrive**) para colocá-lo
+    na lista de arquivos Most Recently Used (MRU).
+
+4.  No **Microsoft 365**, abra o **Microsoft Word**.
+
+5.  Abra o arquivo **Trey Research - VPN Technical Overview.docx.**
+
+![](./media/image40.png)
+
+6.  Na faixa de opções do **Word**, selecione o botão **Copilot** para
+    abrir o painel do Copilot.
+
+![](./media/image41.png)
+
+7.  No painel do **Copilot**, digite o seguinte prompt e selecione o
+    ícone de seta (**Send**):
+
++++Write a new section for this document about the types of VPNs.
+Discuss the pros and cons of each type. This content is for a technical
+audience, so please provide specific details+++
+
+![](./media/image42.png)
+
+8.  O Copilot não adiciona novo conteúdo diretamente a um documento. Em
+    vez disso, ele exibe o conteúdo em uma janela de resposta no painel
+    do Copilot. No entanto, ele fornece um botão **Copy** na parte
+    inferior de cada janela de resposta, selecione o botão **Copy** para
+    copiar o conteúdo para sua área de transferência. Ao revisar o
+    documento, você decide colar o conteúdo abaixo do parágrafo de
+    abertura. Cole o conteúdo agora.
+
+Dica: Ao selecionar o botão **Copy** em uma janela de resposta, ele
+copia TODO o conteúdo, incluindo comentários do Copilot voltados para
+você. Esses comentários geralmente aparecem no início e no final da
+resposta. Certifique-se de remover esses comentários ao colar a resposta
+no documento. Provavelmente, o tamanho e o tipo de fonte do novo
+conteúdo podem não corresponder ao padrão usado no documento. Portanto,
+ajuste-os para garantir consistência.
+
+9.  Após uma análise mais detalhada, você percebe que não há menção às
+    políticas de segurança relacionadas ao uso da VPN. Esse tópico é uma
+    área importante que você deseja incluir, portanto, digite o seguinte
+    prompt:
+
++++Please write a new section for this document about security policies
+related to VPN usage. This content is for a technical audience, so
+please provide specific details.+++ 
+
+![](./media/image43.png)
+
+10. Copie e cole o conteúdo desta resposta no documento. Coloque-o logo
+    antes da seção **Risks and mitigations** e, em seguida, edite o
+    conteúdo conforme necessário. Se necessário, adicione um título para
+    esta seção chamado **Security policies related to VPN usage**.
+
+![](./media/image44.png)
+
+11. Ao revisar o relatório, você também identificou uma área de conteúdo
+    que achava que precisava ser reescrita. Na seção sobre **Risks and
+    mitigations**, o primeiro item abrange VPNs domésticas e
+    corporativas. Você deseja que ele trate apenas das VPNs
+    corporativas. Entretanto, dada a forma como o conteúdo está escrito,
+    não parece ser uma solução fácil. Você decide solicitar ao Copilot
+    que reescreva o conteúdo para você.
+
+**Dica**: Para que o Copilot reescreva o conteúdo, você deve primeiro
+destacar o conteúdo que deseja que o Copilot reescreva.
+
+12. Destaque o conteúdo do primeiro item da seção **Risks and
+    mitigations** e digite o seguinte prompt:
+
++++The highlighted content discusses the risks of using VPNs in both
+home and enterprise networks. Remove the content related to home
+networks and focus solely on the risks of VPNs in enterprise
+networks+++ 
+
+![](./media/image45.png)
+
+13. Verifique a resposta do Copilot. Às vezes, essa funcionalidade de
+    reescrita não funciona. Quando não funcionar, o Copilot retornará a
+    resposta a seguir. Se essa situação ocorrer, copie e cole em seu
+    prompt e tente novamente (lembre-se, itere, itere, itere).
+
+![](./media/image46.png)
+
+14. Após revisar o documento, você percebe que as seções sobre Prós e
+    Contras da implementação de VPNs ficariam melhores em uma tabela do
+    que em listas com marcadores. Como você já destacou uma seção para
+    ser reescrita, decide destacar essas duas seções também. Destaque
+    ambas as seções e, em seguida, insira o seguinte prompt:
+
++++Please rewrite the highlighted content by placing it in a table.+++ 
+
+![](./media/image47.png)
+
+15. Observe a resposta do Copilot.
+
+![](./media/image48.png)
+
+16. Reformatar o conteúdo em uma tabela é diferente de reescrever o
+    conteúdo. Em vez de destacar o conteúdo que deseja colocar em uma
+    tabela, você deve descrever no prompt quais seções de conteúdo
+    deseja incluir na tabela. Dessa vez, digite o seguinte prompt:
+
++++Place the content from the Pros and Cons of implementing VPNs into a
+table.+++ 
+
+![](./media/image49.png)
+
+17. Observe a resposta do Copilot. Em vez de reescrever ou substituir o
+    conteúdo existente no documento por uma tabela, ele exibe a tabela
+    em sua resposta. Cabe a você substituir o conteúdo copiando e
+    colando a tabela no documento. Na resposta, selecione o botão
+    **Copy** e, em seguida, no documento, destaque as seções Prós e
+    Contras e cole a tabela no documento. Certifique-se de adicionar um
+    título de seção antes da tabela chamado: **Pros and Cons of
+    implementing VPNs**. Provavelmente, você também precisará alterar a
+    fonte e o tamanho da fonte do conteúdo da tabela para que
+    correspondam à fonte e ao tamanho existentes usados em todo o
+    documento.
+
+![](./media/image50.png)
+
+18. Nesse ponto, você acha que o documento está completo. Entretanto,
+    por segurança, você decide perguntar ao Copilot se ele acha que o
+    documento deve incluir outras informações. Digite o seguinte prompt:
+
++++Is there anything missing in this document that you would recommend
+adding?+++
+
+![](./media/image51.png)
+
+19. Observe a resposta do Copilot. Em nossos testes, ele nos disse que
+    nada estava faltando. Tente novamente para ver se o Copilot fornece
+    uma resposta diferente.
+
+![](./media/image52.png)
+
+20. Se o Copilot recomendar que você adicione mais conteúdo ao
+    documento, crie um prompt que peça a ele para fazer isso. Em
+    seguida, você pode copiar e colar o novo conteúdo no documento.
+
+**Resumo:**
+
+Neste laboratório, você explorou como o Copilot for Microsoft 365
+melhora a qualidade do seu trabalho ao
+
+- Usar o Microsoft Copilot para extrair as principais informações de um
+  documento de especificação de produto e desenvolver um plano de
+  projeto abrangente para a implementação do produto.
+
+- Aproveitar o Copilot no PowerPoint para projetar uma apresentação com
+  base no plano de projeto que você criou, garantindo que ela seja
+  visualmente atraente e comunique efetivamente os detalhes do plano.
+
+- Utilizar o Copilot no Word para revisar e aprimorar um relatório de
+  especificação técnica, melhorando a clareza, a coerência e a qualidade
+  geral.
