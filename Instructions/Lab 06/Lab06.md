@@ -1,508 +1,319 @@
-# Lab 06: Empower your workforce – Copilot – HR
+**Laboratório 06: Capacite a colaboração da equipe e a criação de
+conteúdo com o Copilot Pages**
 
-## Objective:
+**Objetivos:**
 
-With Copilot for Microsoft 365 HR professionals can streamline their
-workflow and enhance their productivity in their core business processes
-such as recruitment, onboarding, performance management, employee
-engagement and compliance management.
+Neste laboratório, você usará o Microsoft Copilot no **Microsoft 365
+Apps** para
 
-In this lab, you will use:
+- Gerar e editar conteúdo.
 
-- Copilot in Word to create a job description for a new role.
+- Refinir e aprimorar o conteúdo gerado usando os recursos do
+  **Microsoft 365 Pages.**
 
-- Copilot in Word to analyze multiple resumes and provide a report
-  comparing the strengths and weaknesses of each candidate, rank the
-  candidates from most qualified to least, and make a recommendation.
+- acioCompartilhar e colaborar no **Microsoft 365 Pages** com uma equipe
+  para obter produtividade contínua.
 
-- Copilot in Loop to create a set of interview questions for
-  interviewing candidates for this role.
+- Reacessar e gerenciar páginas a partir do módulo **Microsoft 365
+  Pages**.
 
-## Exercise #1: Create a job description using Copilot in Word
+**Cenário**: Você faz parte da equipe de consultoria de TI da Fabrikam.
+A Trey Research, uma empresa farmacêutica de rápido crescimento, entrou
+em contato para obter orientação sobre a implementação de uma Virtual
+Private Network (VPN) para melhorar o acesso remoto seguro de seus
+funcionários e parceiros. A Trey Research opera globalmente, exigindo
+soluções escaláveis que protejam dados de pesquisa confidenciais e
+garantam conformidade com as regulamentações do setor.
 
-As the HR Manager at Graphic Design Institute, you started the hiring
-process for a new Senior Animation Designer. Your staff created a
-document that outlines all the job responsibilities for this role. In
-this exercise you will use Copilot in Word to create a job description
-based on the role responsibilities in this document.
+Sua tarefa é entregar um Documento Executivo de Visão Geral resumindo os
+requisitos da VPN da Trey Research, possíveis soluções e os principais
+benefícios da adoção da arquitetura VPN recomendada pela Contoso.
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new tab      and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+**Principais recursos a serem explorados durante o laboratório:**
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it. 
-    
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of **Graphic Design
-    Institute - Design Team** document to **OneDrive**
+- **Conteúdo persistente:** Entenda como o Copilot Pages permite que
+  você torne as respostas geradas por AI mais duráveis e editáveis.
 
-    **Tip**: Open and close the file to get it in your Most Recently Used (MRU) file list.
-    
-    ![](./media/image1.png)
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** section you can skip this step.
-  
-4.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://www.office.com+++
+- **Edição colaborativa:** Observe as alterações em tempo real enquanto
+  os membros da equipe interagem com o conteúdo, demonstrando as
+  capacidades de colaboração simultânea.
 
-5.  In **Microsoft 365** home page, select **Microsoft Word**,and then open a blank
-    document.
+- **Estruturação de conteúdo com o menu "/":** Use o menu "/" para
+  adicionar diferentes tipos de conteúdo, como títulos, tabelas e
+  imagens, ajudando a estruturar o documento de forma eficaz.
 
-6.  In the **Draft with Copilot** window, enter the following prompt,
-    but don't select the **Generate** button until after you link the
-    responsibilities file to the prompt in the next step:
+**Observação:** Você usará o documento **Trey Research - VPN Technical
+Overview** como referência, compartilhado pela Trey Research.
 
-    ++**I'm the HR Manager at the Graphic Design Institute. We've currently
-    started the hiring process for a new Senior Animation Designer. Please
-    review the attached document that outlines the job responsibilities
-    for this role and create a job description based on those
-    responsibilities**.++
+**Exercício 1: Criar uma Página do Copilot**
 
-7.  You now must attach to the prompt the **Graphic Design Institute -
-    Design Team Responsibilities.docx** file that you downloaded. In
-    the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, if
-    the **Graphic Design Institute - Design Team
-    Responsibilities.docx** file appears in the list of files, select
-    it.
+O documento de referência compartilhado pela Trey Research contém
+informações-chave sobre as operações da Trey Research, a infraestrutura
+de TI existente e as necessidades de VPN. Como consultor de soluções de
+infraestrutura, você usará esse documento como referência para elaborar
+a proposta.
 
-    ![](./media/image2.png)
+**Tarefa 1: Obter o documento de referência listado na lista de Most
+Recently Used (MRU) file list.**
 
-8.  Select **Browse files from cloud**, select the file from
-    the **Recent** file list, and then select the **Attach** button. If
-    the file doesn't appear in the **Recent** file list, select **My
-    files** at the top of the navigation pane in the **Pick a
-    file** window, navigate to the folder where you stored the file,
-    select the file and then select **Attach**.
+1.  Se você tiver uma guia do Microsoft 365 aberta no seu navegador
+    Microsoft Edge, selecione-a agora; caso contrário, abra uma nova
+    guia e insira o seguinte URL:
+    +++[https://www.office.com+++ to]() para acessar a página inicial do
+    Microsoft 365.
 
-    ![](./media/image3.png)
+**Note**: Você precisa fazer login (se solicitado) usando as
+**credenciais do Microsoft 365** fornecidas na guia **Resources** à
+direita.
 
-9.  Note how the file is displayed in the prompt and
-    select **Generate**.
+2.  No painel de navegação do **Microsoft 365**, selecione **OneDrive**
+    para abri-lo.
 
-    ![](./media/image4.png)
+![](./media/image1.png)
 
-10. Review the first draft of the job description document.
+3.  Navegue até a pasta **C:\LabFiles** para selecionar e carregar uma
+    cópia do documento **Trey Research - VPN Technical
+    Overview document** para o **OneDrive**.
 
-    ![](./media/image5.png)
+**Observação**: Se você já carregou todos os ativos de laboratório no
+**OneDrive,** conforme sugerido na seção **Preparing for the lab
+execution**, ignore esta etapa.
 
-11. You note that it doesn't include many of the details found in the
-    job responsibilities document. Instead, it provides a summarized
-    sentence or two for each responsibility. To correct this
-    shortcoming, enter the following prompt and select the forward
-    arrow:
+4.  Abra e feche o arquivo **Trey Research - VPN Technical
+    Overview.docx** (que você carregou no OneDrive) para colocá-lo em
+    sua lista de arquivos Most Recently Used (MRU).
 
-    ++**While this job description draft is a good start, you failed to
-    include most of the details found in the job responsibilities
-    document. Please try again, and this time outline each responsibility
-    area and select the responsibilities required of a Senior Animation
-    Designer**.++
-    ![](./media/image6.png)
+**Tarefa 2: Acessar o Copilot e iniciar uma conversa**
 
-12. Review the second draft.
+1.  Se você tiver uma guia do Microsoft 365 aberta no navegador
+    Microsoft Edge, selecione-a agora; caso contrário, abra uma nova
+    guia e insira a seguinte URL:
+    +++[https://www.office.com+++](https://www.office.com+++/) para
+    acessar a página inicial do **Microsoft 365.**
 
-    ![](./media/image7.png)
+2.  No painel de navegação do **Microsoft 365**, selecione **Teams**
+    para abri-lo.
 
-13. Again, you feel that Copilot should provide more details. Enter the
-    following prompt to see if you can get it to be more specific:
+![](./media/image2.png)
 
-    ++**This job description draft is better, but it still lacks the details
-    that I'm looking for. The job responsibilities document outlined
-    detailed responsibilities for each area. Include those details in this
-    job description. Be as specific as you can**.++
+Aguarde enquanto o processo de configuração é concluído.
 
-14. After reviewing the results, you're reminded of the saying, "Be
-    careful what you wish for" The list of responsibilities in this
-    third draft is long; in fact, maybe too long for a workable job
-    description document. At this point, you want to review the previous
-    drafts to see if the earlier ones are maybe preferable to this
-    longer one. In the Copilot window, just above the prompt field, note
-    the draft of the current version of the document. In this case,
-    you're on draft 3 of 3. To review an earlier draft, select the
-    backward arrow (\<) to go back to the second and then first drafts.
-    Use the forward arrows (\>) to go back to the latest drafts.
+3.  Selecione \*\*Chat\*\* e abra o \*\*Copilot\*\*
 
-    ![](./media/image8.png)
+![](./media/image3.png)
 
-    ![](./media/image9.png)
+4.  Inicie um chat com o **Copilot** inserindo o seguinte prompt.
 
-    In this case, go back to the second draft. Review the list of
-    responsibilities again. While it's not as extensive as the list in the
-    third draft, it looks cleaner and still provides sufficient
-    information for a job candidate to understand what is expected of them
-    in this Senior Animation Designer role. You decide that the second
-    draft is preferable to the final draft, so you elect to use this one.
-    In the Copilot window, select the **Keep it** button.
+++Create a summary of the key VPN needs for Trey Research, focusing on
+secure remote access and compliance with industry standards.++
 
-15. You're ready to move forward with this job description document, so
-    save it to your OneDrive account with the file name of **Graphic
-    Design Institute - Job descriptions.docx.**
+Observação: na página do **Copilot**, no botão de alternância
+**Work/Web** na parte superior da página, **Work** será selecionado por
+padrão.
 
-    ![](./media/image10.png)
+![](./media/image4.png)
 
-    <span class="mark">**Note:** It's important that you save this
-    document since you will be using it in the next exercise.</span>
+5.  Agora você anexará o documento de referência compartilhado pela Trey
+    Research para começar a redigir o conteúdo do resumo executivo.
+    Selecione o ícone **Attach** (Clipe de papel) para fazer referência
+    ao documento.
 
-## Exercise #2: Analyze resumes and make a recommendation using Copilot in Word
+![](./media/image5.png)
 
-In the previous exercise, you learned how Copilot in Word can assist HR
-professionals in crafting a job description. In this exercise, you will
-learn how you can automate the initial stages of the resume screening
-process to quickly identify the most suitable candidates from large
-pools of applicants.
+6.  Selecione o documento **Trey Research – VPN Technical Overview.**
 
-<span class="mark">**Note**: When you ask Copilot to generate a document
-or apply some type of change, it may sometimes start to display the
-draft and then stop. If this situation happens to you, select
-the **Regenerate** button to have it generate a new draft, or rephrase
-your prompt and try again.</span>
+![](./media/image6.png)
+
+**Observação:** Se o arquivo não estiver listado na lista pop-up, tente
+novamente selecionando o ícone **Attach**
+
+7.  Você verá o documento selecionado anexado na caixa de **prompt**.
+    Clique no ícone **Send** para que o Copilot comece a gerar o
+    conteúdo.
+
+![](./media/image7.png)
+
+8.  O Copilot examinará o documento de referência e começará a gerar o
+    conteúdo.
+
+![](./media/image8.png)
+
+![](./media/image9.png)
+
+9.  Quando o Copilot concluir a geração do conteúdo de rascunho, você
+    verá o botão **Edit in Pages** no final do conteúdo gerado.
+
+![](./media/image10.png)
+
+10. Uma referência a essa nova **Copilot Page** é adicionada
+    automaticamente no chat para facilitar o acesso.
 
 ![](./media/image11.png)
 
-As the HR Manager at Graphic Design Institute, you started receiving
-resumes from probable candidate for a new Senior Animation Designer
-position based on the job posting on the web and the company's internal
-employee website. You will now use Copilot in Word to screen a batch of
-resumes that you received for the role and provide a recommendation as
-to which of the candidates qualifies for a job interview.
+**Tarefa 3: Explorar os recursos da página**
 
-At the end of the previous exercise, you saved the job description file
-that you created. You were instructed to save the file as **Graphic
-Design Institute - Job descriptions.docx**. If it is saved with a
-different file name, then remember the name that you used so that you
-can locate the file in this exercise.
+1.  Você pode renomear o chat de acordo com suas necessidades.
+    ![](./media/image12.png)
 
-1.  If you have a **Microsoft 365** tab open in your Microsoft Edge browser, then select it now; otherwise, open a new          tab and enter the following URL: +++https://www.office.com+++
-    
-    **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the **Resources**        tab on the right.
+> **Observação**: O nome do chat do Copilot não pode ter mais de 30
+> caracteres.
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to open it..
+![](./media/image13.png)
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy of the following documents to **OneDrive**,
-    - **Resume - Patti Fernandez**
-    - **Resume - Nestor Wilke**
-    - **Resume - Holly Dickson**
-    - **Resume - Alex Wilber** .
-    
-    **Note**: If you have already uploaded all the lab assets to OneDrive as suggested in **Preparing for the lab
-    execution** you can skip this step.
-    
-5.  In this exercise, you access the documents from the Most Recently
-    Used (MRU) file list. To get the files to appear in the MRU list,
-    open each document and then close it. Open and close each of the
-    four resume files in your OneDrive.
+2.  Você pode clicar no ícone **Painel** (Recolher/Expandir) para
+    expandir o painel de chat do Copilot e abrir espaço para visualizar
+    o conteúdo em uma seção separada. Verifique se a página abre à
+    direita, lado a lado com o painel de chat. A resposta é
+    automaticamente copiada e formatada, incluindo qualquer visualização
+    de link ou blocos de código.
 
-    [](./media/image12.png)
+![](./media/image14.png)
 
-6.  On the **Microsoft 365** navigation pane, select **Microsoft Word**, and then open a new
-    blank document.
+3.  Clique no botão **Edit in Pages** para visualizar o conteúdo gerado
+    em uma seção separada à direita
 
-7.  In the **Draft with Copilot** window that appears at the top of the
-    blank document, enter the following prompt, but don't submit the
-    prompt just yet. You must attach the files to the prompt in the next
-    step:
+![](./media/image15.png)
 
-    ++**I'm the Hiring Manager for Graphic Design Institute. We're hiring
-    for the position of Senior Animation Designer. Please create a report
-    that compares the attached resumes to the requirements for a Senior
-    Animation Designer in the attached job description file and rank the
-    candidates from most qualified to least qualified. Thank you**!++
-    
-    ![](./media/image13.png)
+![](./media/image16.png)
 
-6.  You now must attach to the prompt the **Graphic Design Institute -
-    Job descriptions.docx** file that you saved to your OneDrive account
-    at the end of the prior exercise. In the **Draft with
-    Copilot** window, select the **Reference your content** button. In
-    the drop-down menu that appears, if the job description file appears
-    in the list of files, select it. Otherwise, select **Browse files
-    from cloud**, locate the job description file that you saved to your
-    OneDrive account in the prior exercise, and then select
-    the **Attach** button. Note how the file is displayed in the prompt.
+**Exercício 2: Adicionar e refinar o conteúdo da página**
 
-7.  Repeat the prior step for each of the four resumes that you
-    downloaded. Note what happens when you attempt to attach the third
-    resume. Copilot displays a message indicating that you can only
-    include up to three files to a prompt. Since you had to include the
-    job description file that provides Copilot with the job
-    requirements, you can only submit two of the resumes with this
-    initial prompt.
+Neste exercício, você continuará interagindo com o Copilot no chat.
+Quando novos insights forem gerados, clique em **Edit in Pages (Editar
+em páginas** ) para adicioná-los à página atual. Essas atualizações
+serão anexadas à parte inferior da página (que você está visualizando no
+lado direito do painel de chat)
 
-    ![](./media/image14.png)
+**Tarefa 1: Continuar a conversa no chat**
 
-8.  Since you attached the job description file and the first two
-    resumes to the prompt, select **Generate**. At this point, Copilot
-    extracts the pertinent information from the job description file and
-    the first two resumes and creates a Resume Comparison report. At
-    this point, you're in Copilot draft mode.
+1.  Na janela de chat, forneça mais instruções para refinar o conteúdo.
+    Agora você pedirá ao Copilot que compare três tecnologias de VPN,
+    concentrando-se em seus prós e contras em relação às necessidades da
+    Trey Research. Digite o seguinte prompt e clique em **Send.**
 
-9.  Review the results of this first draft.
+++Compare three VPN technologies based on scalability, security, and
+cost-effectiveness.++
 
-    ![](./media/image15.png)
+![](./media/image17.png)
+**Observação:**
+Você também pode tentar com o seguinte prompt.
 
-    **Note**: Take a look at the **Draft with Copilot** window and note
-    that it doesn't include an **Attach** button. Once you're in draft
-    mode like you currently are, Copilot doesn't allow you to attach any
-    more files to subsequent prompts. You can use the prompt field to
-    modify the document, but you can no longer attach another file. Keep
-    this requirement in mind as you proceed through the next steps. This
-    current draft only compares the first two resumes. To compare the
-    remaining two resumes to the two that are in the current draft, you
-    must keep a draft of this report, and then create a second report that
-    compares the two remaining resumes to the document that you just
-    created.
+++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
+VPN, IPsec VPN) based on scalability, security features, ease of
+deployment, and cost.++
 
-10. You're now looking at the first draft of the report that compares
-    the first two resumes to the job description file. Copilot gives you
-    the ability to regenerate however many drafts you want until you
-    find one that you prefer. Even if you think this first draft looks
-    okay, select the **Regenerate** button in the **Draft with
-    Copilot** window to have Copilot create a second draft.
+1.  O Copilot gerará novos insights com os detalhes da
+    comparação. ![](./media/image18.png)
 
-    ![](./media/image16.png)
+![](./media/image19.png)
 
-11. When regenerating, you may come across the “Something went wrong”
-    error message. Dismiss and try regenerating the comparison report
-    until you get the regenerated report.
+3.  Clique em **Edit in Pages** para anexar os detalhes dessa comparação
+    à página existente.
 
+> ![](./media/image20.png)
 
-12. Review the second draft that Copilot created. In the real world, you
-    can repeat this process until you're satisfied with a specific
-    draft. If you want to go back to a previous draft to compare it to a
-    more recent draft, select the forward (\>) and backward (\<) arrows
-    to go back and forth through the drafts. Compare the two drafts that
-    you created and make sure the one you prefer is displayed (it will
-    either be **1 of 2** or **2 of 2**). When you find a draft that you
-    want to use, select the **Keep it** button.
+**Tarefa 2: Editar diretamente na página**
 
-    ![](./media/image17.png)
+1.  Clique em qualquer lugar da página para começar a digitar e refinar
+    o conteúdo. Digite **"/** ” para abrir um menu de opções de
+    conteúdo, como títulos, marcadores, tabelas ou imagens, para obter
+    um layout mais estruturado e envolvente.
 
-    **Note**: When you select **Keep it**, Copilot moves from draft mode
-    into normal Microsoft Word mode. It also automatically saves
-    the **Report Comparison** document to your OneDrive account.
+> ![](./media/image21.png)
 
-13. You're now ready to have Copilot review the final two resumes.
-    However, as the earlier step indicated, you must compare the
-    remaining two resumes to the **Report Comparison** document that you
-    just created that compared the first two resumes. To do so, you must
-    open a new Word document. Since you're still in the **Word** tab in
-    your browser with the current **Report Comparison** document being
-    displayed, select **File** in the menu above the **Word** ribbon,
-    and then on the **Home** page, select **Blank document** under
-    the **New** section. Doing so opens a new tab in your browser along
-    with a new Word document.
-
-14. In the **Draft with Copilot** window, enter the following prompt,
-    but don't submit it. You must attach the remaining two resume files
-    and the first **Report Comparison** report to the prompt in the next
-    step:
-
-    ++**That was a good start. Please create a report that compares the
-    attached resumes to the prior resume comparison report (attached) and
-    rank the candidates from most qualified to least qualified. Thank
-    you**!++
-
-15. You now must attach the report that you just created that compared
-    the first two resumes, along with the remaining two resumes. After
-    entering the prompt in the prior step, select the **Reference your
-    content** button in the **Draft with Copilot** window. In the
-    drop-down menu that appears, the **Report Comparison of
-    Resumes** document that you created should appear at the top of the
-    file list. Select this document.
-
-16. In the **Draft with Copilot** window, select the **Reference your
-    content** button. In the drop-down menu that appears, you need to
-    attach one of the remaining two resumes. If you see one of the files
-    in the file list, then select it. Otherwise, select **Browse files
-    from cloud**, locate one of the remaining two resumes (you should
-    see it if you scroll through the **Recent** file list), select it,
-    and then select the **Attach** button. Repeat this process to select
-    the final remaining resume.
-
-    ![](./media/image18.png)
-
-17. Once you have the first Report Comparison report and the remaining
-    two resumes attached to the prompt, select the **Generate** button
-    in the **Draft with Copilot** window.
-
-    **Note**: When generating comparison reports with successive resumes,
-    you may come across the “Something went wrong” error message. Dismiss
-    and try generating the comparison report until you get the report.
-
-18. Copilot should compare the first two resumes and the final two
-    resumes and provide a rank list of the candidates. At this point,
-    you could regenerate a new draft or ask Copilot to make any changes.
-    For this training exercise, you decide you're satisfied with the
-    report, so select the **Keep it** button.
-
-    ![](./media/image19.png)
-
-19. At this point, Copilot generated two Report Comparison documents,
-    the second of which is the final report comparing all four
-    candidates. Keep this scenario in mind if you must do something
-    similar in the real-world using Copilot in Word. You can close this
-    tab in your Microsoft Edge browser.
-
-## Exercise #3: Create interview questions using Copilot in Loop
-
-With Copilot in Loop, you can create workspaces and pages, use
-intelligent search and templates to add relevant content, and share your
-work with others. Copilot in Loop can suggest ideas and help start
-projects, making it easier to get going when you find yourself stuck. It
-can draft texts, create tables, and even answer questions quickly.
-
-Copilot in Loop can assist HR professionals through many aspects of the
-HR experience - from the hiring process, to managing employees, to
-handling important documents, to managing internal communications.
-
-In this exercise, you will use Copilot in Loop to help with the hiring
-process for a new role. While you used Copilot in Word in the previous
-exercise to screen resumes, you will use Copilot in Loop to create a
-list of interview questions for the top candidates. During this
-exercise, you can check whether Copilot in Loop can amend the list of
-questions based on your direction.
-
-1.  If you have **Microsoft 365** open in a tab, then proceed to the
-    next step. Otherwise, open a new tab in your **Microsoft
-    Edge** browser, and then enter the following
-    URL: +++https://www.office.com+++https://www.office.com/)
-
-2.  In **Microsoft 365**, select **Loop** if it appears in the left-hand
-    navigation pane. If it doesn't appear in the navigation pane, then select **App Launcher**, and on the **Apps** page,       scroll down to locate **Loop** and then select it.
-
-    ![](./media/image20.png)
-
-3.  If you see the **Sign-in** button, sign-in using the user
-    credentials.
-
-    ![](./media/image21.png)
-
-    **Note**: After signing in, close the Loop browser window and once
-    again open Loop from the Apps page.
-
-4.  In **Microsoft Loop**, the **Workspaces** tab is displayed by
-    default. You want to create a new workspace for this project,
-    select **+** next to **Getting started**, and then select **+New
-    workspace** button.
-
+2.  Passe o mouse sobre um bloco de conteúdo e selecione o menu Kebab (3
+    pontos verticais em uma matriz paralela - semelhante a um item
+    espetado) para ver as opções de Copiar link da página, Mover bloco e
+    Excluir.
     ![](./media/image22.png)
 
-5.  In the **Create a new workspace** window, enter **Interview
-    questions** for your workspace name, and then select either
-    the **Continue** or **Create** button that appears (depending on
-    your Loop version).
+**Tarefa 3: Colaborar com os membros da equipe**
 
-6.  In the **Add files to your workspace** window (depending on your
-    version of Loop, this window may say **Workspace Switcher**),
-    select **Create workspace**.
+1.  Quando a página estiver pronta para receber a contribuição da
+    equipe, clique no **ícone Share** no canto superior direito e
+    selecione **“Copy component”**.
 
-7.  You're now in the first page for your new workspace. The name of the
-    page is currently **Untitled**. Note the page (Untitled) also
-    appears in the left-hand navigation pane. In the main body of the
-    page, select in the **Untitled** field and change the name of the
-    page to: **15 interview questions for the Senior Animation Designer
-    role**. Note how the page name is automatically updated in the
-    navigation pane.
+![](./media/image23.png)
 
-    ![](./media/image23.png)
+2.  Cole esse link em um **Teams channel** ou em um e-mail do
+    **Outlook**, permitindo que os membros da equipe acessem a página e
+    colaborem com você.
 
-8.  In the **Just start typing...** field, enter a forward
-    slash **(/)**.
+**Observação**: este ambiente de laboratório é implementado com
+funcionalidade restrita. Portanto, você não poderá usar o Teams e o
+Outlook de forma colaborativa, o que poderia ser feito em uma rede
+corporativa.
 
-    ![](./media/image24.png)
+**Exercício 3: Revisitando e acessando páginas salvas**
 
-9.  In the drop-down menu that appears, under the **Copilot** section at
-    the top of the menu, select **Draft page content**.
+A qualquer momento, você pode voltar à mensagem de chat original em que
+o link da Copilot Page foi criado pela primeira vez.
 
-10. In the **Copilot** window that appears, enter the following prompt
-    and select the **Submit** icon:
+**Tarefa 1:** **Localizar sua página no Microsoft365.com**
 
-    ++**Create a list of the 15 best interview questions that should be
-    asked to candidates applying for a new Senior Animation Designer role
-    at the Graphic Design Institute**.++
+1.  Vá para a guia **Pages** no **Microsoft365.com**
 
-    ![](./media/image25.png)
+![](./media/image24.png)
 
-    <span class="mark">**Note**: Sometimes, you may not see the
-    **Copilot** window with Create, Brainstorm, Blueprint and Describe
-    options. If you are experiencing such exceptions, close the workspace
-    and try once again.</span>
+2.  Aqui, você verá todas as **Copilot Pages** que criou, organizadas
+    para fácil
+    acesso. ![](./media/image25.png)
 
-11. Review the list of questions.
+**Tarefa 2: Fazer edições adicionais ou compartilhar atualizações**
 
-    ![](./media/image26.png)
+Abra a página salva para fazer mais edições, adicionar atualizações ou
+compartilhar novamente o link da página para colaboração contínua com
+membros novos ou existentes da equipe.
 
-12. You feel this initial list is a good start, but you notice a few
-    types of questions are missing. In the Copilot pane that appears,
-    enter the following prompt:
+1.  Ao passar o mouse sobre o conteúdo textual, você verá o menu
+    **Kebab** e o ícone de **Chat** \*\*.\*\*
 
-    ++**Add a question about having failed at a project and what they
-    learned from it**.++
-    
-    ![](./media/image27.png)
+![](./media/image26.png)
 
-13. Review the new question that Loop created.
+2.  Agora, edite a página diretamente. Clique na página e digite para
+    adicionar ou alterar o conteúdo. Agora, você digitará o seguinte
+    prompt (para inserir um gráfico que mostra as taxas de adesão à VPN)
+    e clicará em **Send.**
 
-    ![](./media/image28.png)
+++Insert a chart showing VPN adoption rates in pharmaceutical
+industries.++
 
-14. After scanning the list one last time, you realize that it includes
-    few, if any questions about leadership. To correct this situation,
-    enter the following prompt:
+![](./media/image27.png)
 
-    ++**As a Senior Animation Designer, the candidate is expected to lead
-    their design team on projects. Ask them to talk about a couple of
-    their most significant experiences in leading other design team
-    members, and what their leadership style is**.++
-    
+1.  O Copilot gerará e exibirá o gráfico com o trecho de código.
+
+![](./media/image28.png)
+
+3.  Feche a janela do **Copilot chat** e selecione **Preview** para
+    continuar. 
     ![](./media/image29.png)
 
-15. Note what happened in Loop. When you request a change without
-    specifically asking it to update the current page, Copilot may open
-    a new page and make the change there rather than in the current
-    page, as it did in the prior prompt. When it does so, note how in
-    the Copilot pane it tracks the prompts, with the most recent prompt
-    appearing at the top of the pane.
+4.  Agora você finalizará o rascunho para deixá-lo pronto para a equipe
+    de liderança da Trey Research.
 
-    Select a previous prompt. Note how the content on the page appears in
-    a lighter font. Also attempt to select the **Rewrite with
-    Copilot** prompt field. Copilot disables this field since it's not the
-    current page. The current page is also referred to as the active page.
-    Now select the latest prompt and note how the content is clear,
-    indicating this page is the current, or active page. You can only
-    amend the active page, which is why on this page, you can select into
-    the **Rewrite with Copilot** prompt field.
-    
-    ![](./media/image30.png)
+Você usará o seguinte prompt para finalizar o documento.
 
-16. Let's make one more change. You're unsure as to whether the current
-    list of questions is sufficient. To play it safe, you decide to ask
-    Copilot in Loop to recommend some more questions. Enter the
-    following prompt:
+++Format the executive summary to highlight the top three benefits of
+Contoso’s VPN recommendation.++
 
-    ++**Are there any other questions that you think should be added to the
-    list**?++
+![](./media/image30.png)
 
-17. Note the final list of questions that Copilot in Loop generated.
+![](./media/image31.png)
 
-    ![](./media/image31.png)
+1.  Você garantirá que todas as edições estejam completas e salvará a
+    página com um nome apropriado, pronta para ser apresentada ou
+    compartilhada.
 
-18. You now have a vast assortment of questions to choose from when
-    interviewing your candidates. And with Loop, you know that others on
-    your HR team can see these questions in real-time on the same Loop
-    component, even if they're using different apps and devices.
+**Resumo:**
 
-## Summary:
+Neste laboratório, você aplicou as seguintes habilidades:
 
-In this lab, you:
+- Usar o Copilot para criar, refinar e compartilhar conteúdo com
+  eficiência.
 
-- Created a a job description for a new role in your organization using
-  Copilot in Word.
+- Utilizar os recursos interativos e colaborativos do M365 Pages para
+  aprimorar o trabalho em equipe.
 
-- Analyzed multiple resumes and generated a report comparing the
-  strengths and weaknesses of each candidate, rank the candidates from
-  most qualified to least, and make a recommendation using Copilot in
-  Word.
-
-- Drafted a set of interview questions for interviewing candidates for a
-  job role using Copilot in Loop.
+Você pode usar o Copilot em cenários do mundo real integrando o
+Microsoft 365 Copilot aos fluxos de trabalho diários para produtividade
+e colaboração.
