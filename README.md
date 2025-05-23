@@ -24,25 +24,25 @@ to specific business roles (Executives, Sales, Marketing, Finance, IT,
 HR, and Operations) that bring the theoretical knowledge into practical
 application.
 
-- **Lab 01**: Empower your Workforce - Copilot-Executives
+- **Lab 01**: Innovate with Microsoft 365 Copilot and build your own agents
 
-- **Lab 02**: Empower your workforce - Copilot-Sales
+- **Lab 02**: Create and configure an agent in Copilot Chat
 
-- **Lab 03**: Empower your workforce - Copilot-IT
+- **Lab 03**: Enhance employee productivity with pre-built agents
 
-- **Lab 04**: Empower your workforce - Copilot-Marketing
+- **Lab 04**: Empower your sales workforce with Microsoft 365 Copilot
 
-- **Lab 05**: Empower your workforce -Copilot-Finance
+- **Lab 05**: Empower Team Collaboration and Content Creation with Copilot Pages
 
-- **Lab 06**: Empower Team Collaboration and Content Creation with Copilot Pages
+- **Lab 06**: Extend Microsoft 365 Copilot Chat with a HR Agent built using Microsoft Copilot Studio
 
-- **Lab 07**: Empower your workforce - Copilot-HR
+- **Lab 07**: Build a poetic declarative agent using Microsoft 365 Agents Toolkit
 
-- **Lab 08**: Empower your workforce - Copilot-Operations
+- **Lab 08**: Create a Career guidance SharePoint agent
 
-- **Lab 09**: Build an autonomous agent to track new files created in OneDrive
+- **Lab 09**: Build an autonomous agent and implement agent flows to Streamline IT Support Operations using Copilot Studio
 
--  **Lab 10**: Implement prompt action for a quiz generation agent’s topic
+- **Lab 10**: Implement prompt action to generate quiz questions based on a topic
 
 During these exercises, you'll use Copilot in various Microsoft 365 apps
 such as Word, PowerPoint, and Outlook to perform common business tasks
