@@ -1,6 +1,6 @@
 ## Innovate with Microsoft 365 Copilot and build your own agents
 
-Welcome to the **Copilot for M365 - Deploy and Extend - Depth Workshop**
+Welcome to the **Innovate with Microsoft 365 Copilot and build your own agents- Depth Workshop**
 designed to empower you with the full potential of Copilot for Microsoft 365. 
 
 This workshop covers:
