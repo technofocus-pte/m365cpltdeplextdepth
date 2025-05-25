@@ -1,28 +1,19 @@
 ## Innovate with Microsoft 365 Copilot and build your own agents
 
 Welcome to the **Innovate with Microsoft 365 Copilot and build your own agents- Depth Workshop**
-designed to empower you with the full potential of Copilot for Microsoft 365. 
+designed to empower you with the full potential of Microsoft 365 Copilot. 
 
 This workshop covers:
 
-- **Practical Usage**: Learn how to effectively use Copilot across
-  Microsoft 365 apps to enhance productivity.
+- **Practical Usage**: Learn how to use Copilot Chat, Microsoft 365 Copilot and Copilot Studio to create intelligent, role-specific agents that streamline daily work and boost productivity.
 
-- **Best Practices**: Discover tips for building effective prompts and
-  utilizing Copilot to its fullest potential.
+- **Best Practices**: Discover techniques for designing effective prompts, building engaging agents, and using Copilot tools to maximize business impact.
 
-- **Extending Capabilities**: Explore how to extend Copilot's
-  functionality with plugins.
+- **Extending Capabilities**: Explore how to build autonomous agents, integrate SharePoint and Copilot Pages, and extend Copilot functionality with the Agents Toolkit and Copilot Studio.
 
-This workshop is designed to provide you with real-world skills to
-harness the power of Copilot for Microsoft 365 in your daily tasks. By
-the end of this workshop, you will be well-equipped to leverage Copilot to
-boost productivity and efficiency within your organization.
+This workshop is designed to give you practical, hands-on experience building and deploying AI-powered agents using Microsoft 365 Copilot and Copilot Studio. By the end of this workshop, you’ll be ready to apply Copilot innovations to solve business challenges and increase productivity across departments.
 
-In this workshop, you will execute the following hands-on labs tailored
-to specific business roles (Executives, Sales, Marketing, Finance, IT,
-HR, and Operations) that bring the theoretical knowledge into practical
-application.
+In this workshop, you will execute the following hands-on labs, tailored to business scenarios in HR, IT, Sales, Collaboration, Learning & Development, and Operations.
 
 - **Lab 01**: Innovate with Microsoft 365 Copilot and build your own agents
 
@@ -44,9 +35,6 @@ application.
 
 - **Lab 10**: Implement prompt action to generate quiz questions based on a topic
 
-During these exercises, you'll use Copilot in various Microsoft 365 apps
-such as Word, PowerPoint, and Outlook to perform common business tasks
-relevant to each role.
+During these labs, you'll gain real-world experience using Copilot within Microsoft 365 apps and platforms like Word, Teams, SharePoint, and Copilot Studio to design intelligent agents that improve employee experience, enhance operations, and unlock new AI capabilities.
 
-Let's dive in and start transforming the way you work with Microsoft
-365!
+Let’s dive in and unlock the next level of workplace innovation with Microsoft 365 Copilot!
