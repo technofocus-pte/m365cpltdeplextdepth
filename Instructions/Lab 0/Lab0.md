@@ -19,12 +19,11 @@ tab** on the right (see screenshot).
 2.  Use the **Credentials** provided under Azure Portal section in
     the **Resources tab** on the right (see screenshot) to sign-in.
 
-> ![](./media/image2.png)
->
-> ![](./media/image3.png)
+    ![](./media/image2.png)
 
-You will now be able to access all the Microsoft 365 applications and
-will have access to Microsoft 365 Copilot app and Copilot chat.
+    ![](./media/image3.png)
+
+    You will now be able to access all the Microsoft 365 applications and will have access to Microsoft 365 Copilot app and Copilot chat.
 
 ## 3.  Access and launch Microsoft 365 applications
 
@@ -37,23 +36,20 @@ You can access and launch the productivity applications from:
 
 1.  To launch an application from **Apps** icon:
 
-> In the navigation pane on the lower left, select **Apps** icon to
-> select and open the office applications you need to work with.
->
-> ![](./media/image4.png)
+    In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you need to work with.
+
+    ![](./media/image4.png)
 
 2.  To launch an application from **App launcher**:
 
-> The Microsoft 365 app launcher is a menu of apps and services that you
-> are licensed for and opens when you select the app launcher icon on
-> Microsoft365 page. The App launcher makes opening and switching
-> between your apps easy by highlighting your recently used apps and
-> providing quick access to your recent online Office documents.
->
-> ![](./media/image5.png)
->
-> **Note**: If you do not find an application in the pop-up, then click
-> **Get More Apps** or **All apps** to select the same.
+    The Microsoft 365 app launcher is a menu of apps and services that you are licensed for and opens when you select the app launcher icon on
+    Microsoft365 page. The App launcher makes opening and switchingbetween your apps easy by highlighting your recently used apps and
+    providing quick access to your recent online Office documents.
+
+    ![](./media/image5.png)
+
+    **Note**: If you do not find an application in the pop-up, then click
+    **Get More Apps** or **All apps** to select the same.
 
 ## 4.  Upload lab assets to OneDrive
 
@@ -69,17 +65,15 @@ account. You can't link to a locally stored file on your PC.
 2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
     the document(s) to OneDrive.
 
-> **Note**: You can either choose to upload a copy of all the documents
-> or the document(s) related to the particular lab.
->
-> ![](./media/image6.png)
->
-> ![](./media/image7.png)
->
-> ![](./media/image8.png)
->
-> Now you will have the document(s) in **OneDrive** to work
-> with **Microsoft 365 Copilot** labs.
+    **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the particular lab.
+
+    ![](./media/image6.png)
+
+    ![](./media/image7.png)
+
+    ![](./media/image8.png)
+
+    Now you will have the document(s) in **OneDrive** to work with **Microsoft 365 Copilot** labs.
 
 ## 5.  Create document library (Teams channel) and upload knowledge sources
 
