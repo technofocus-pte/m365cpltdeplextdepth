@@ -1,4 +1,4 @@
-# Lab 04: Empower your Sales workforce – Microsoft 365 Copilot
+# Lab 04: Empower your Sales workforce with Microsoft 365 Copilot
 
 Copilot for Microsoft 365 serves as an AI-powered writing assistant. It
 understands context, suggests phrases, and helps generate content, all
