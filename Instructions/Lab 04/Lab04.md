@@ -1,4 +1,4 @@
-# Lab 04: Empower your Sales workforce with Microsoft 365 Copilot
+# Lab 04: Empower your sellers with Microsoft 365 Copilot
 
 Copilot for Microsoft 365 serves as an AI-powered writing assistant. It
 understands context, suggests phrases, and helps generate content, all
@@ -6,8 +6,7 @@ of which can enhance the quality of your work. In this lab, you will
 
 - Use Copilot in Loop to create a market research report.
 
-- Use Copilot in PowerPoint to create and customize a sales
-  presentation.
+- Use Copilot in PowerPoint to create and customize a sales presentation.
 
 - Use Copilot in Word to compare three supplier agreements, identify the
   differences, and provide recommended actions.
