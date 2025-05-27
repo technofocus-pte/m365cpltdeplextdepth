@@ -11,7 +11,7 @@ You will use Copilot Studio Agent Builder:
   Studio Agent Builder
 
 **Note**: The availability of the **Describe** tab is based on [**geographic availability and language
-support**](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+support**] (https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 If the **Describe** tab isn't supported in your region or preferred language, you can manually build your agent through the **Configure** tab.
 
 - Customize agent instructions, knowledge source and starter prompts.
@@ -89,35 +89,32 @@ you need to define the agent's name, description, and purpose.
 
 1.  Switch to the Configure tab in the Agent Builder.
 
-> ![](./media/image11.png)
+    ![](./media/image11.png)
 
 2.  You can configure the agent's behavior settings, including response
     tone and interaction style. In this exercise you will proceed with
     the default instructions.
 
-> ![](./media/image12.png)
+    ![](./media/image12.png)
 
 3.  You will now set up the knowledge sources the agent will use, such
     as specific SharePoint sites, document libraries, and web sites. In
     this exercise you will use a website as knowledge source to ground
     the agent responses.
 
-> Populate +++**https://learn.microsoft.com/en-us/training/**+++ and hit
-> enter.
->
-> ![](./media/image13.png)
->
-> ![](./media/image14.png)
->
-> **Note**: The website URL can’t be more than two levels deep. Also,
-> the agent will search public websites if you don’t add a URL, and you
-> turn web search on.
->
-> ![](./media/image15.png)
+    Populate +++**https://learn.microsoft.com/en-us/training/**+++ and hit enter.
+
+    ![](./media/image13.png)
+
+    ![](./media/image14.png)
+
+    **Note**: The website URL can’t be more than two levels deep. Also, the agent will search public websites if you don’t add a URL, and you turn web search on.
+
+    ![](./media/image15.png)
 
 4.  The configuration changes will be auto saved.
 
-> ![](./media/image16.png)
+    ![](./media/image16.png)
 
 5.  You have now completed configuring agent with customized settings
     tailored to your organization's needs. You will now ensure the agent
@@ -128,63 +125,52 @@ you need to define the agent's name, description, and purpose.
 You will now test whether the agent responds based on the configuration
 settings.
 
-1.  You will now input the following prompt to assess the agent's
-    response.
+1.  You will now input the following prompt to assess the agent's response.
 
-> +++**List the popular learning paths and modules offered by
-> Microsoft**+++
->
-> ![](./media/image17.png)
+    ++**List the popular learning paths and modules offered by Microsoft**++.
+
+    ![](./media/image17.png)
 
 2.  You can check the response by comparing it with the information
     available in the URL entered used as knowledge source.
 
-> ![](./media/image18.png)
+    ![](./media/image18.png)
 
 3.  You can also test the response by entering some irrelevant prompt.
 
-> +++**Help me with instructions for baking cakes**+++
->
-> ![](./media/image19.png)
->
-> The agent avoided providing answer based on the instruction “Avoid
-> discussing topics unrelated to Microsoft learning paths and modules”.
->
-> **Note**: The default instruction set in your case may be different.
-> Please ensure that the instructions are properly configured to make
-> the agent avoid providing the answer.
+    ++**Help me with instructions for baking cakes**++
 
-4.  Return to the **Configure tab** to edit the agent's settings,
-    instructions, or knowledge sources as needed.
+    ![](./media/image19.png)
 
-5.  Once you are satisfied, click **Create** on the top right to publish
-    the agent.
+    The agent avoided providing answer based on the instruction “Avoid discussing topics unrelated to Microsoft learning paths and modules”.
 
-> ![](./media/image20.png)
->
-> ![](./media/image21.png)
+    **Note**: The default instruction set in your case may be different. Please ensure that the instructions are properly configured to make the agent avoid providing the answer.
+
+4.  Return to the **Configure tab** to edit the agent's settings, instructions, or knowledge sources as needed.
+
+5.  Once you are satisfied, click **Create** on the top right to publish the agent.
+
+    ![](./media/image20.png)
+
+    ![](./media/image21.png)
 
 6.  Your LearnAssist Buddy agent is successfully created.
 
-> ![](./media/image22.png)
+    ![](./media/image22.png)
 
 ## Exercise 4: Managing and Sharing the Agent
 
 You will now deploy the agent within your organization and manage its
 accessibility.
 
-1.  Share the agent with specific users or groups by setting appropriate
-    permissions.
+1.  Share the agent with specific users or groups by setting appropriate permissions.
 
-> ![](./media/image23.png)
->
-> ![](./media/image24.png)
+    ![](./media/image23.png)
 
-2.  Make iterative improvements based on user feedback and performance
-    metrics.
+    ![](./media/image24.png)
 
-**  
-**
+2.  Make iterative improvements based on user feedback and performance metrics.
+
 
 ## Try yourself:
 
@@ -193,13 +179,13 @@ accessibility.
 - Map the knowledge source to document library that you created in “Lab
   0 - Preparing for lab execution”
 
-![](./media/image25.png)
+  ![](./media/image25.png)
 
-![](./media/image26.png)
+  ![](./media/image26.png)
 
-![](./media/image27.png)
+  ![](./media/image27.png)
 
-![](./media/image28.png)
+  ![](./media/image28.png)
 
 - Test the agent by asking relevant product related prompts to check its
   functioning.
