@@ -11,7 +11,7 @@ You will use Copilot Studio Agent Builder:
   Studio Agent Builder
 
 **Note**: The availability of the **Describe** tab is based on [**geographic availability and language
-support**] (https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+support**](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
 If the **Describe** tab isn't supported in your region or preferred language, you can manually build your agent through the **Configure** tab.
 
 - Customize agent instructions, knowledge source and starter prompts.
