@@ -14,7 +14,7 @@ tab** on the right (see screenshot).
 ## 2.  Complete setting up Microsoft 365 subscription and access Microsoft 365 Copilot
 
 1.  Open Microsoft Edge browser and enter the following
-    URL: +++<https://portal.office.com>+++
+    URL: +++https://portal.office.com+++
 
 2.  Use the **Credentials** provided under Azure Portal section in
     the **Resources tab** on the right (see screenshot) to sign-in.
