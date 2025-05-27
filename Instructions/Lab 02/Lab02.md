@@ -102,7 +102,7 @@ you need to define the agent's name, description, and purpose.
     this exercise you will use a website as knowledge source to ground
     the agent responses.
 
-    Populate +++**https://learn.microsoft.com/en-us/training/**+++ and hit enter.
+    Populate +++**https://learn.microsoft.com/en-us/training**+++ and hit enter.
 
     ![](./media/image13.png)
 
