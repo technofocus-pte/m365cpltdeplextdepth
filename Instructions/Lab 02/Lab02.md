@@ -36,7 +36,7 @@ create a basic agent.
     ![](./media/image1.png)
 
 3.  If, for some reason, “**Something went wrong”** message appears,
-    click **Refresh** to open Copilot app.
+    click **Try again** (twice) to open Copilot app.
 
     ![](./media/image2.png)
 
