@@ -15,7 +15,7 @@ This workshop is designed to give you practical, hands-on experience building an
 
 In this workshop, you will execute the following hands-on labs, tailored to business scenarios in HR, IT, Sales, Collaboration, Learning & Development, and Operations.
 
-- **Lab 01**: Innovate with Microsoft 365 Copilot and build your own agents
+- **Lab 01**: Drive event planning with Microsoft 365 Copilot Chat
 
 - **Lab 02**: Create and configure an agent in Copilot Chat
 
