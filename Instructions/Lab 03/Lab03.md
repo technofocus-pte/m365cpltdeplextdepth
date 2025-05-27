@@ -1,4 +1,4 @@
-# Lab 03 - Lab 03 - Enhance employee productivity with pre-built agents
+# Lab 03 - Enhance employee productivity with pre-built agents
 
 ## Objective
 
