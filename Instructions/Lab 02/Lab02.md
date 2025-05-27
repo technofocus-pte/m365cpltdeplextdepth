@@ -53,11 +53,11 @@ create a basic agent.
 6.  In the **Describe tab**, enter the description of the agent's
     purpose in natural language description.
 
-    In this exercise you will enter +++**An agent that assists users in finding popular learning paths and modules from Microsoft**+++.
+    In this exercise you will enter ++**An agent that assists users in finding popular learning paths and modules from Microsoft**++.
 
     ![](./media/image6.png)
 
-7.  Click Submit to create the agent.
+7.  Click Submit to preview the draft agent.
 
 8.  A draft agent with initial configurations set will get auto saved.
     Review the auto-generated fields and make necessary adjustments. In
