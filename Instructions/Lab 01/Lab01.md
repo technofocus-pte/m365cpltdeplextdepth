@@ -37,7 +37,7 @@ innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
     ![](./media/image1.png)
 
 3.  If, for some reason, “**Something went wrong”** message appears,
-    click **Refresh** to open Copilot app.
+    click **Refresh** to open Copilot Chat.
 
     ![](./media/image2.png)
 
@@ -210,7 +210,7 @@ recommendations based on the draft.
     the following prompt, attach the reference document (from OneDrive)
     and click Submit.
 
-    ++ Analyze this planning brief and suggest improvements or missing elements that could make the event more impactful.++
+    ++Analyze this planning brief and suggest improvements or missing elements that could make the event more impactful.++
 
     ![](./media/image34.png)
 
