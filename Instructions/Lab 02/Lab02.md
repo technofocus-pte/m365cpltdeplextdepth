@@ -25,42 +25,37 @@ If the **Describe** tab isn't supported in your region or preferred language, 
 In this exercise you will use the Describe tab in Copilot Studio to
 create a basic agent.
 
-1.  Open a Microsoft Edge browser and enter the following URL:
-    +++<https://www.office.com>+++ to go to the **Microsoft 365 Copilot
-    app** (formerly office) home page.
+1.  Open a Microsoft Edge browser and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
 
-> **Note**: You need to sign-in (if prompted) using
-> the **Credentials** provided under the **Resources** tab on the right.
+    **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
 2.  Select **Copilot Chat** in the left-hand navigation pane.
 
-> Note: Sometimes the **Copilot chat** page will open by default. In
-> that case go to step \#4.
->
-> ![](./media/image1.png)
+    **Note**: Sometimes the **Copilot chat** page will open by default. In that case go to step #4.
+
+    ![](./media/image1.png)
 
 3.  If, for some reason, “**Something went wrong”** message appears,
     click **Refresh** to open Copilot app.
 
-> ![](./media/image2.png)
->
-> ![](./media/image3.png)
+    ![](./media/image2.png)
+
+    ![](./media/image3.png)
 
 4.  Click on **Create an agent**.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 5.  Copilot Studio Agent Builder will open.
 
-> ![](./media/image5.png)
+    ![](./media/image5.png)
 
 6.  In the **Describe tab**, enter the description of the agent's
     purpose in natural language description.
 
-> In this exercise you will enter +++ **An agent that assists users in
-> finding popular learning paths and modules from Microsoft** +++.
->
-> ![](./media/image6.png)
+    In this exercise you will enter +++**An agent that assists users in finding popular learning paths and modules from Microsoft**+++.
+
+    ![](./media/image6.png)
 
 7.  Click Submit to create the agent.
 
@@ -68,21 +63,21 @@ create a basic agent.
     Review the auto-generated fields and make necessary adjustments. In
     this exercise you will use the auto-generated fields as-is.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 9.  You will be prompted to confirm or suggest a name for the agent. In
     this exercise, assign the name as **LearnAssist Buddy.**
 
-> ![](./media/image8.png)
->
-> ![](./media/image9.png)
+    ![](./media/image8.png)
+
+    ![](./media/image9.png)
 
 10. You have now created an agent with basic details. You will be
     prompted to refine the instructions for the agent and make necessary
     adjustments. In this exercise you will use the default settings to
     expedite the creation process.
 
-> ![](./media/image10.png)
+    ![](./media/image10.png)
 
 ## Exercise 2: Configure Agent Details Using the Configure Tab
 
