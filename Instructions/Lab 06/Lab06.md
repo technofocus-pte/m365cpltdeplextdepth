@@ -188,7 +188,7 @@ incorrect.](./media/image29.png)
 6.  Enter +++**Contoso site+++** as the **Site name** and select
     **Next.**
 
-   ![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image30.png)
 
 7.  In the next screen, select **Create site**.
