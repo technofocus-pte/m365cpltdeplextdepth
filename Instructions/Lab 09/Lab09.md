@@ -38,17 +38,17 @@ applications.
 ### Task 1: Logging into Power Apps
 
 1.  Navigate to power apps website
-    +++<https://www.microsoft.com/en-us/power-platform/products/power-apps+++> and
+    +++https://www.microsoft.com/en-us/power-platform/products/power-apps+++ and
     click on the **Try for Free** button.
 
-![](./media/image1.png)
+    ![](./media/image1.png)
 
 2.  Enter the **Administrative Username** from the **Office 365
     Tenant** section of the **Resources** tab into the email
     field, **select** the **checkbox** and click on the **Start
     free** button.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image2.png)
 
 3.  Enter the **Administrative Password** and you will be taken to the
@@ -58,7 +58,7 @@ incorrect.](./media/image2.png)
     Save password prompt and select **No, Thanks** in the Sign in to
     Microsoft Edge pop up.
 
-\[!Note\] **Note:** If it agains prompts for the user name, password or
+    >[!Note] **Note:** If it agains prompts for the user name, password or
 any information to login, please provide the same and login.
 
 ### Task 2: Setting Up a Dataverse Table
@@ -66,32 +66,32 @@ any information to login, please provide the same and login.
 1.  Ensure that the **Dev One** environment is selected. Select it if
     not done already.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 2.  From the left navigation bar select **Tables.** In the tables
     section top bar click on the **+ New table** and then
     select **Create new tables**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image4.png)
 
 3.  Select **Import an Excel file or CSV** option to create a new table.
 
-![](./media/image5.png)
+    ![](./media/image5.png)
 
 4.  Click on the **Select form device** option and select **Support
     Ticket** excel file from **C:\LabFiles** folder.
 
-![](./media/image6.png)
+    ![](./media/image6.png)
 
 5.  Select the table and click on **View data** to see the table.
 
-\[!Note\] **Note:** In this case, the table is named *Employee Technical
+    >[!Note] **Note:** In this case, the table is named *Employee Technical
 Support Record*. The name may vary with each execution. Please save the
 table name for future reference. The column name may also vary in the
 execution.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
 6.  Go to table data, select the drop down next to the **Technical Issue
@@ -99,31 +99,30 @@ incorrect.](./media/image7.png)
     as **Text** 🡪 **Multiple line** 🡪 **Plain Text** and click on
     the **Update**. The column name may be different in each case.
 
-\[!Note\] **Note:** The **column name might be slightly different**, but
+    >[!Note] **Note:** The **column name might be slightly different**, but
 it will be something similar to the issue description since it is
 Copilot generated.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image8.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image8.png)
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 7.  Select drop down next to the **Current Status** field, select **Edit
     column**, Set the Choices as +++**Unresolved**+++,
     +++**Resolved**+++, +++**Processing**+++. Set Default choice
     as **Unresolved** and click on the **Update**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image10.png)
 
 8.  From top right side click on **Save and exit** to save the table.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image11.png)
 
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to access and navigate Power Apps using office 365 admin tenant
   credentials.
@@ -146,73 +145,61 @@ agent to streamline IT workflows.
 1.  In Copilot Studio home section from top right, select
     the **environment** and choose **DevOne** environment.
 
-![](./media/image12.png)
+    ![](./media/image12.png)
 
 2.  On welcome copilot studio tab, click on the **Skip** to move
     forward.
 
-![](./media/image13.png)
+    ![](./media/image13.png)
 
 3.  From left navigation bar select **Create** and then select **New
     agent** to start creating new agent.
 
-![](./media/image14.png)
+    ![](./media/image14.png)
 
 4.  From top right corner click on **Skip to configure** button.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image15.png)
 
 5.  Enter **Name, Description and Instruction** of the agent as given
     below and click on **Create** button.
 
-> **Name:** +++Contoso IT Support Agent+++
->
-> **Description:** +++Create a Contoso IT Support Agent which transforms
-> IT support at Contoso Solutions by providing instant troubleshooting
-> for common issues, automating ticket creation for unresolved problems,
-> and storing all interactions in Dataverse. This solution enhances
-> response times, reduces manual workloads, and boosts employee
-> productivity.+++
->
-> **Instruction:** +++Create the Copilot Agent and configure it to
-> handle IT support operations. Add a knowledge source containing
-> solutions for common IT issues like hardware troubleshooting,
-> connectivity, and software glitches. Set up a trigger to detect
-> incoming emails from employees describing unresolved issues. Create an
-> action to save these technical issues into a Dataverse table, ensuring
-> all details are stored for tracking and reporting. Test the agent to
-> validate its troubleshooting accuracy and ticket automation workflow
-> before deployment.+++
+    **Name:** +++Contoso IT Support Agent+++
+    
+    **Description:** +++Create a Contoso IT Support Agent which transforms IT support at Contoso Solutions by providing instant troubleshooting for common issues, automating ticket creation for unresolved problems, and storing all interactions in Dataverse. This solution enhances response times, reduces manual workloads, and boosts employee productivity.+++
+    
+    **Instruction:** +++Create the Copilot Agent and configure it to handle IT support operations. Add a knowledge source containing solutions for common IT issues like hardware troubleshooting, connectivity, and software glitches. Set up a trigger to detect incoming emails from employees describing unresolved issues. Create an action to save these technical issues into a Dataverse table, ensuring all details are stored for tracking and reporting. Test the agent to validate its troubleshooting accuracy and ticket automation workflow before deployment.+++
 
-![](./media/image16.png)
+
+    ![](./media/image16.png)
 
 6.  On the overview page of Contoso IT Support Agent, **Enable** the
     orchestrator for the agent.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image17.png)
 
 7.  On the overview page of the agent, **Disable** the “**Allow the AI
     to use its own general knowledge**” option.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image18.png)
 
 8.  From top right corner of the agent, click on
     the **Settings** button.
 
-![](./media/image19.png)
+    ![](./media/image19.png)
 
 9.  Then go to **Generative AI** section, select **Generative**, set
     content moderation as **Medium** and click on **Save** to save the
     setting.
 
-![](./media/image20.png)
+    ![](./media/image20.png)
 
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to access and set up Microsoft Copilot Studio.
 
@@ -236,26 +223,26 @@ ensure it effectively assists users in troubleshooting and escalation.
 1.  On the Contoso agent overview page, scroll down and click on **+ Add
     Knowledge** button.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
 
 2.  Select **Upload file** to add the lab file **Contoso Common IT
     Issue.docx** from **C:\LabFiles** folder and then click
     on **Add** to save the file.
 
-![image](./media/image22.png)
+    ![image](./media/image22.png)
 
->  ![image](./media/image23.png)
+    ![image](./media/image23.png)
 
 3.  Again, go to agent overview page, scroll down and click on **+ Add
     knowledge.**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image24.png)
 
 4.  Select **Dataverse (preview)** option as data source.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image25.png)
 
 5.  In top right corner search bar, enter and search for
@@ -263,15 +250,14 @@ incorrect.](./media/image25.png)
     Record** table. Then click on the **Next, Next** and **Add** button
     to add the knowledge source.
 
-**Note:** The **table name might be different** in your case since it is
+    >[!Note] **Note:** The **table name might be different** in your case since it is
 a Copilot generated one.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image26.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image26.png)
 
-![](./media/image27.png)
+    ![](./media/image27.png)
 
-\[!Alert\] **Important:** From the Knowledge page, ensure that the added
+    >[!Alert] **Important:** From the Knowledge page, ensure that the added
 knowledge source has been successfully uploaded. This will generally
 take 10 to 15 minutes to complete.
 
@@ -280,20 +266,20 @@ take 10 to 15 minutes to complete.
 1.  From the top bar option click on **Topics** and then click and
     open **Conversation Start** topic.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image28.png)
 
 2.  Scroll down and go to message node. Update the message after bot
     name as given below:
 
-Hello. I’m Bot Name, a virtual assistant. +++How can I help you?+++
+    Hello. I’m Bot Name, a virtual assistant. +++How can I help you?+++
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image29.png)
 
 3.  From top click on the **Save** to save the topic.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image30.png)
 
 ### Task 3: Update the Fallback Topic
@@ -301,26 +287,25 @@ incorrect.](./media/image30.png)
 1.  From the top bar option click on **Topics** and then open
     the **Fallback** topic.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image31.png)
 
 2.  Scroll down and go to message node. Update the message as given
     below:
 
-+++I’m sorry. This information is not available in my system. You can
-raise the support ticket via mail for this issue.+++
+    +++I’m sorry. This information is not available in my system. You can raise the support ticket via mail for this issue.+++
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image32.png)
 
 3.  From top right side click on the **Save** button to save the topic.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image33.png)
 
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to upload and integrate a knowledge base to enhance the bot's
   functionality.
@@ -341,31 +326,31 @@ seamless interaction and escalation.
 1.  From top right corner click on the **Test** button. Then in test
     section click on **Map** turn it **On** and then click **Refresh**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image34.png)
 
 2.  Enter the prompt +++**My printer is not working how to fix it**+++ .
     It gives the solution as per knowledge source.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image35.png)
 
 3.  Again, give the prompt +++**Two factor Authentication (2FA)
     issue**+++ .
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image36.png)
 
 4.  The 2FA issue and solution is not available in the knowledge source
     so it will go to fallback topic and return prompt related to Raise
     Ticket.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image37.png)
 
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to test and activate an AI agent for troubleshooting.
 
@@ -384,63 +369,66 @@ data in Dataverse, and notify support engineers via email.
 1.  Go to overview page of the agent, scroll down and click on **+ Add
     action**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image38.png)
 
 2.  In choose an action window, From top left side click on the **+ New
     Action** and select **New Power Automate Flow** .
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image39.png)
 
 3.  In Power automate flow, click on **When an agent calls the
     flow** and then select **Add an Input**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image40.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image41.png)
 
 4.  Select **Text** as data type of input and rename the input as
     +++**Name**+++.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image42.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image43.png)
 
 5.  With same procedure create more input as per given below details.
 
-[TABLE]
-
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image44.png)
+    |  **Input Name**  |  **Data Type**  |
+    |:-----|:------|
+    | +++ID+++   | Text   |
+    |  +++Email+++  |  Text  |
+    |  +++Details+++  |  Text  |
+    
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image44.png)
 
 6.  Below **When an agent calls the flow**, click on **(+)** sign and
     select **Add an action**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image45.png)
 
 7.  In Add an action search bar, enter +++**Add a new row**+++ . Then
     select **Add a new row** from Microsoft Dataverse section.
 
-![A screenshot of a computer program AI-generated content may be
+    ![A screenshot of a computer program AI-generated content may be
 incorrect.](./media/image46.png)
 
-Note: Sometimes, a Dataverse connection is not created automatically.
+    >[!Note] **Note:** Sometimes, a Dataverse connection is not created automatically.
 You may need to **sign in** again with your
 credentials **OAuth** authentication.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image47.png)
 
 8.  In **Table Name** section search and select +++**Employee Technical
     Support Record**+++ (or your corresponding table name created).
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image48.png)
 
 9.  Below table name select **Show all**, then click on the particular
@@ -448,116 +436,121 @@ incorrect.](./media/image48.png)
     bolt) as per the below table. The **Current Status** field should be
     selected with drop down as **Unresolved**.
 
-[TABLE]
+    |  **Section**  |   **Input Variable** |
+    |:-----|:-------|
+    | Employee Name   |  Name (Dynamic Input)  |
+    |  Email Address  | Email (Dynamic Input)   |
+    |  Employee ID  |  ID (Dynamic Input)  |
+    |  Technical Issue Description  |  Details (Dynamic Input)  |
 
-> ![A blue line on a white background AI-generated content may be
-> incorrect.](./media/image49.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image50.png)
+    ![A blue line on a white background AI-generated content may be incorrect.](./media/image49.png)
 
-10. Below Add a new row action click on (+) and select **Add an
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image50.png)
+
+11. Below Add a new row action click on (+) and select **Add an
     action**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
 11. In add an action section, enter +++**Send an email**+++ in the
     search bar and select **send an email (V2)** from office 365 outlook
     section.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image52.png)
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image53.png)
 
-12. In send an email section, Enter the below given detail in the
-    respected section:
+12. In send an email section, Enter the below given detail in the respected section:
+    
+    Replace the place holders for Name, ID, Details with the variables using dynamic content
 
-> Replace the place holders for **Name**, **ID**, **Details** with the
-> variables using dynamic content
->
-> **To**
->
-> Enter support engineer email (**Use any email ID** - It will be to
-> this id, the mail will be sent by the agent to when Support Ticket is
-> raised)
->
-> **Subject**
->
-> New Technical Support Ticket Raised
->
-> **Body**
->
-> A new technical support ticket has been raised and requires your
-> attention. Please find details below:
->
-> Employee Name: \< Name \>
->
-> Employee ID: \< ID \>
->
-> Technical Issue: \< Details \>
->
-> Thank you for your prompt attention to this matter.'
->
-> Best Regards
+    **To**
+    
+    
+    Enter support engineer email (**Use any email ID** - It will be to this id, the mail will be sent by the agent to when Support Ticket is raised) 
 
-![A screenshot of a email AI-generated content may be
+
+    **Subject**
+    
+    ```
+    New Technical Support Ticket Raised 
+    ```
+
+    **Body**
+
+    ```
+    A new technical support ticket has been raised and requires your attention. Please find details below:
+    
+    Employee Name: < Name >
+    Employee ID: < ID > 
+    Technical Issue: < Details >
+    
+    Thank you for your prompt attention to this matter.'
+    
+    Best Regards
+    ```
+
+    ![A screenshot of a email AI-generated content may be
 incorrect.](./media/image54.png)
 
 13. From top left corner rename the flow as +++**Create an Employee
     Support Ticket**+++.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image55.png)
 
 14. From top bar click on **Save draft** and then
     click **Publish**. **Close** the Power automate tab.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image56.png)
 
 15. Go back to Copilot window and click on **Refresh** button.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image57.png)
 
 16. In Choose an action window, select **Create an Employee Support
     Ticket** flow.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image58.png)
 
 17. Click on **Add action** button to add a flow.
 
-![A screenshot of a computer screen AI-generated content may be
+    ![A screenshot of a computer screen AI-generated content may be
 incorrect.](./media/image59.png)
 
 18. From the **Overview** page of the agent, under
     the **Action** section, select **Edit** to Edit the parameters of
     the action. Select the **Inputs** section.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image60.png)
 
-![A screenshot of a support ticket AI-generated content may be
+    ![A screenshot of a support ticket AI-generated content may be
 incorrect.](./media/image61.png)
 
 19. Enter the given description in the respected input field, after
     entering the description click on **Save** button.
 
-[TABLE]
+    | Section | Details |
+    |----|----|
+    | Name -- Description | +++Enter the name of the employee.+++ |
+    | ID -- Description | +++Enter the employee ID in the field.+++ |
+    | Email -- Description | +++Enter the email address of the employee from whom the email is received.+++ |
+    | Details -- Description | +++Enter the email details of the employee.+++ |
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image62.png)
->
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image63.png)
->
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image62.png)
+
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image63.png)
+
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to integrate Power Automate flows with a Copilot agent for ticket
   creation.
@@ -581,48 +574,48 @@ configure triggers and finalize the agent for deployment.
 1.  Go to overview page of the agent, scroll down and click on **+ Add
     trigger**.
 
-![A screenshot of a web page AI-generated content may be
+    ![A screenshot of a web page AI-generated content may be
 incorrect.](./media/image64.png)
 
 2.  Then from Add trigger window, select **When a new email arrives
     (V3)** trigger.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image65.png)
 
 3.  After successful connection of copilot and outlook and green tick
     appears click on **Next** button.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image66.png)
 
 4.  In folder field select folder icon and select **Inbox** folder and
     then select **Create trigger**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image67.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image68.png)
 
 5.  Close the **Time to test your trigger** prompt. On Support agent
     overview page scroll down, on trigger section click on three
     dots **(…)** and select **Edit in Power Automate.**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
 
 6.  Right click on When a new email arrives trigger and
     select **Delete**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image70.png)
 
 7.  Then click on Add a trigger, search for +++**When new email
     arrives**+++ and select **When a new email arrives** trigger
     from **Office 365 outlook** section.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image71.png)
 
 8.  Click on **Send a prompt to the specified copilot for processing**,
@@ -630,27 +623,27 @@ incorrect.](./media/image71.png)
     Employee Support Ticket flow and use content from Body From.**+++
     Replace **Body** and **From** as dynamic content variable.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image72.png)
 
 9.  **Save** and **Publish** the flow, close power automate window and
     go back to copilot window.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image73.png)
 
 10. Go to overview section and from top right corner click
     on **Publish** and again click **Publish** to publish the copilot.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image74.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image75.png)
 
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to set up triggers in Copilot to automate workflows based on email
   inputs.
@@ -673,17 +666,17 @@ trigger automated workflows effectively.
 1.  Go to overview page of agent, scroll down, click on **(…)** on
     trigger and select **Edit in power automate**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image76.png)
 
 2.  It will navigate to power automate flow, from top bar click
     on **Test** button and then select **Manually** and again click
     on **Test**.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image77.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image78.png)
 
 3.  **Send an email** to the 365 admin tenant mail id from any other
@@ -692,93 +685,88 @@ incorrect.](./media/image78.png)
     it, similar to the one in the below screenshot. Example content is
     as below
 
-> Hi Support Team,
->
-> I hope this message finds you well.
->
-> Iam Mark Brown, working as a Software Engineer at Contoso. My employee
-> ID is CONTOSO099
->
-> Issue: Monitor is completely balank and not functioning.
->
-> Kindly raise a support ticket and assist in resolving this issue at
-> the earlierst.
->
-> Thank you for your support.
->
-> Best Regards,
->
-> Mark Brown
+    ```
+    Hi Support Team,
+    
+    I hope this message finds you well.
+    Iam Mark Brown, working as a Software Engineer at Contoso. My employee ID is CONTOSO099
+    Issue: Monitor is completely balank and not functioning.
+    Kindly raise a support ticket and assist in resolving this issue at the earlierst.
+    Thank you for your support.
 
-![A screenshot of a computer AI-generated content may be
+    Best Regards,
+    Mark Brown
+    ```
+
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image79.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image80.png)
 
 4.  Navigate to copilot agent overview page, scroll down and
     select **Test trigger**.
 
-![A screenshot of a web page AI-generated content may be
+    ![A screenshot of a web page AI-generated content may be
 incorrect.](./media/image81.png)
 
 5.  Click on **Start testing**, it will start testing.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image82.png)
 
 6.  In test section click on the **Connect**, it will open the
     connection window.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image83.png)
 
 7.  Click on the **Connect** again and then select **Submit.**
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image84.png)
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image85.png)
 
 8.  Navigate to copilot studio window and re run the **Test**.
 
-![A screenshot of a web page AI-generated content may be
+    ![A screenshot of a web page AI-generated content may be
 incorrect.](./media/image81.png)
 
 9.  The support request is automatically generated.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image86.png)
 
 10. Navigate to power apps and go to Employee support ticket record
     table, and check the details.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image87.png)
 
 11. Check the Support mail which we configure in power automate flow to
     send an email. The email is automatically sent to the support team.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image88.png)
 
 12. Go to test window and writer query as user +++**Mark Brown Ticket
     Current Status**+++ . It gives the status of the issue as
     unresolved.
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image89.png)
 
 13. As Support Engineer, write a prompt in the test section. +++**I want
     to know about all Unresolved ticket**+++ .
 
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image90.png)
 
-> **Conclusion**
->
-> By completing this exercise, participants will learn:
+**Conclusion**
+
+By completing this exercise, participants will learn:
 
 - How to test the agent's functionality by simulating real-world
   scenarios.
