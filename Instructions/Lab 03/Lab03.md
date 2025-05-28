@@ -196,8 +196,7 @@ In this exercise, you will use Microsoft 365 Copilot Chat to:
 
 ### Task \#1: Create an agent using Writing coach as the template.
 
-### Task \#2: Provide the agent with a sample sentence given below and ask
-it to rephrase the tagline
+### Task \#2: Provide the agent with a sample sentence given below and ask it to rephrase the tagline
 
 - Sample: “The new employee wellness program starts next week. It’s
   really cool and we hope everyone enjoys it.”
@@ -210,8 +209,7 @@ it to rephrase the tagline
   @Writing Coach, rephrase this to be inspirational and concise.  
   @Writing Coach, explain how you improved the sentence.
 
-### Task \#3: Provide your own draft (email or LinkedIn post), and use the
-agent to fine-tune the writeup.
+### Task \#3: Provide your own draft (email or LinkedIn post), and use the agent to fine-tune the writeup.
 
 - Ask:
 
