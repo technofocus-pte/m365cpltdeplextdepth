@@ -11,6 +11,11 @@ tab** on the right (see screenshot).
 
 ![](./media/image1.png)
 
+>**Note**: Reference documents used by the lab exercises are in **C:\LabFiles**. 
+>When launching the lab environment, you may sometimes see the following message as shown in the screenshot. Click Download Files button to finish downloading the reference documents.
+>
+>![](./media/image1a.png)
+
 ## 2.  Complete setting up Microsoft 365 subscription and access Microsoft 365 Copilot
 
 1.  Open Microsoft Edge browser and enter the following
