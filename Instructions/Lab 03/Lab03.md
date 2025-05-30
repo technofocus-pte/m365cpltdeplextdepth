@@ -32,7 +32,7 @@ enhancing productivity.
 
     ![](./media/image1.png)
 
-3.  If, for some reason, “**Something went wrong”** message appears, click **Try again** to open Copilot Chat.
+3.  If, for some reason, “**Something went wrong”** message appears, click **Try again** (twice) to open Copilot Chat.
 
     ![](./media/image2.png)
 
