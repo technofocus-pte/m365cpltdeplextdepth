@@ -37,7 +37,7 @@ innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
     ![](./media/image1.png)
 
 3.  If, for some reason, “**Something went wrong”** message appears,
-    click **Try again** to open Copilot Chat.
+    click **Try again** (twice) to open Copilot Chat.
 
     ![](./media/image2.png)
 
