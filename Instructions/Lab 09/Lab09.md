@@ -775,21 +775,22 @@ incorrect.](./media/image101.png)
     not be done here due to the tenant permission restrictions. Consider
     the next Task, if you have a tenant with the permissions.
 
-## Tasks to be done in production environment
+## Task to be done in production environment
 
 In a production environment, the support ticket generation will be
 mainly mail based.
-
-This task is **not** meant to be performed in this test environment,
-since the tenant has restrictions on using the mail account. These steps
-can be added to the flow after the step 10 of the **Exercise 5:
-Automating Support Ticket Creation with Power Automate**, if you have a
-tenant which can send and receive mail.
-
-Ignore this task in this execution. This has been added purely for
-learning and understanding of the mail generation part and setting up
-the incoming mail as a trigger which will play a main part in the IT
-support operations and then testing the agent
+>[!Alert]
+>
+>This task is **not** meant to be performed in this test environment,
+>since the tenant has restrictions on using the mail account. These steps
+>can be added to the flow after the step 10 of the **Exercise 5:
+>Automating Support Ticket Creation with Power Automate**, if you have a
+>tenant which can send and receive mail.
+>
+>Ignore this task in this execution. This has been added purely for
+>learning and understanding of the mail generation part and setting up
+>the incoming mail as a trigger which will play a main part in the IT
+>support operations and then testing the agent
 
 1.  Below Add a new row action click on (+) and select **Add an
     action**.
