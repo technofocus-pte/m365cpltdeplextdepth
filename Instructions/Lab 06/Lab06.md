@@ -20,7 +20,7 @@ remaining exercises and tasks.
 
 1.  Open a browser and, using your login credentials from the
     **Resources** tab, go
-    to [https://admin.powerplatform.com](https://admin.powerplatform.com/).
+    to +++https://admin.powerplatform.com+++.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
