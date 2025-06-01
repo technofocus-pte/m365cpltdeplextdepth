@@ -143,7 +143,7 @@ incorrect.](./media/image16.png)
     ![](./media/image17.png)
 
 4.  Click on the **Select form device** option and select **Support
-    Ticket** excel file from **C:\LabFiles** folder.
+    Ticket** excel file from **C:\Autonomous agent\LabFiles** folder.
 
     ![](./media/image18.png)
 
@@ -326,7 +326,7 @@ ensure it effectively assists users in troubleshooting and escalation.
 incorrect.](./media/image39.png)
 
 2.  Select **Upload file** to add the lab file **Contoso Common IT
-    Issue.docx** from **C:\LabFiles** folder and then click
+    Issue.docx** from **C:\Autonomous agent\LabFiles** folder and then click
     on **Add** to save the file.
 
     ![A screenshot of a computer AI-generated content may be
