@@ -152,7 +152,7 @@ parentheses.+++
     +++Science+++ and then select **+ Add input** -\> **Text** to add
     the next input.
 
-    ![](./media/image16.png)
+     ![](./media/image16.png)
 
 11. Enter the name as +++format+++ and enter sample data such as
     +++bullet points+++
