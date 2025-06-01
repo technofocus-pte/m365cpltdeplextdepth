@@ -6,6 +6,8 @@ Prompt actions are one of the ways to extend Microsoft Copilots. They do this by
 
 In this lab, you will learn to create a prompt action for a quiz generation topic which will generate quiz questions based on a given topic.
 
+Estimated duration - 40 minutes
+
 ## Exercise 1: Use natural language to create an agent
 
 1.  Open a browser and login to +++https://copilotstudio.microsoft.com/+++ and login with the
