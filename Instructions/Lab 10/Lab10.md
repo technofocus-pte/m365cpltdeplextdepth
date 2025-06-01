@@ -115,9 +115,11 @@ topic node
 
 3.  Click on the **+** symbol below the Trigger node. Select the **Add an action** option and select **New prompt (default AI model)** option under that.
 
-    ![](./media/image12a.png)
+    ![image](https://github.com/user-attachments/assets/01e47569-73ec-4246-979d-86d05cac15db)
 
-    ![](./media/image12b.png)
+
+    ![image](https://github.com/user-attachments/assets/7352e083-01d0-401c-9b7b-4f4263ee9632)
+
 
 5.  The Prompt dialog will appear, and you may see a flyout appear that
     will guide you on how to create your prompt. Select **Next** to go
