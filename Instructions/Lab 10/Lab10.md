@@ -1,5 +1,11 @@
 # Lab 10: Implement prompt action for a quiz generation agent’s topic
 
+**Objective :** 
+
+Prompt actions are one of the ways to extend Microsoft Copilots. They do this by creating business specific natural language actions. The actions are interpreted by the GPT model to perform the necessary action as instructed. These actions are wrapped within a AI plugin definition, which copilots can invoke at runtime when a matching intent or utterance is encountered.
+
+In this lab, you will learn to create a prompt action for a quiz generation topic which will generate quiz questions based on a given topic.
+
 ## Exercise 1: Use natural language to create an agent
 
 1.  Open a browser and login to +++https://copilotstudio.microsoft.com/+++ and login with the
