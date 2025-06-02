@@ -5,9 +5,9 @@
 In this lab, you will use Microsoft 365 Copilot within **Microsoft 365 Apps** to
 
 - Generate and edit content.
-- Refine and enhance generated content using **Microsoft 365 Pages** features.
-- Share and collaborate on **Microsoft 365 Pages** with a team for seamless productivity.
-- Re-access and manage pages from the Pages module in **Microsoft 365**.
+- Refine and enhance generated content using **Microsoft 365 Copilot Pages** features.
+- Share and collaborate on **Microsoft 365 Copilot Pages** with a team for seamless productivity.
+- Re-access and manage pages from the Pages module in **Microsoft 365 Copilot**.
 
 **Scenario**: You are part of Fabrikam's IT consulting team. Trey
 Research, a fast-growing pharmaceutical research company, has reached
