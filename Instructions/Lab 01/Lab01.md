@@ -25,8 +25,7 @@ In this exercise you will ground the summit content relevant to 2025
 innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
 
 1.  Open a Microsoft Edge browser and enter the following URL:
-    +++https://www.office.com+++ to go to the **Microsoft 365 Copilot
-    app** (formerly office) home page.
+    +++https://m365.cloud.microsoft+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
 
     **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
