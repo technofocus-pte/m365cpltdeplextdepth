@@ -41,38 +41,39 @@ create a basic agent.
     ![](./media/image2.png)
 
     ![](./media/image3.png)
-
-4.  Click on **Create an agent**.
+    **Note**: Copilot Chat user interface may appear different when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
+    ![](./media/image3a.png)
+5.  Click on **Create an agent**.
 
     ![](./media/image4.png)
 
-5.  Copilot Studio Agent Builder will open.
+6.  Copilot Studio Agent Builder will open.
 
     ![](./media/image5.png)
 
-6.  In the **Describe tab**, enter the description of the agent's
+7.  In the **Describe tab**, enter the description of the agent's
     purpose in natural language description.
 
     In this exercise you will enter ++**An agent that assists users in finding popular learning paths and modules from Microsoft**++.
 
     ![](./media/image6.png)
 
-7.  Click Submit to preview the draft agent.
+8.  Click Submit to preview the draft agent.
 
-8.  A draft agent with initial configurations set will get auto saved.
+9.  A draft agent with initial configurations set will get auto saved.
     Review the auto-generated fields and make necessary adjustments. In
     this exercise you will use the auto-generated fields as-is.
 
     ![](./media/image7.png)
 
-9.  You will be prompted to confirm or suggest a name for the agent. In
+10.  You will be prompted to confirm or suggest a name for the agent. In
     this exercise, assign the name as **LearnAssist Buddy.**
 
     ![](./media/image8.png)
 
     ![](./media/image9.png)
 
-10. You have now created an agent with basic details. You will be
+11. You have now created an agent with basic details. You will be
     prompted to refine the instructions for the agent and make necessary
     adjustments. In this exercise you will use the default settings to
     expedite the creation process.
