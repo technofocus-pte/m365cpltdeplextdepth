@@ -158,14 +158,14 @@ In this exercise you will use Copilot in PowerPoint to create your slide
 presentation based on the information in the **Market Trend Report -
 Protein Shake.docx** file, which you download using the provided link.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, 
-    open a new tab and      enter the following URL: +++https://www.office.com+++ to go to the Microsoft 
-    365 home page.
+1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge browser, then select it now; otherwise, 
+    open a new tab and enter the following URL:+++https://m365.cloud.microsoft+++ to go to the Microsoft 365 Copilot App 
+    home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
     **Resources** tab on the right.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+2.  Browse to the **C:\LabFiles\MS4019** folder to select and upload a copy of
     **Market Trend Report - Protein Shake** to **OneDrive**
 
     **Note**: If you have already uploaded all the lab assets to **OneDrive** as instructed in **Preparing 
@@ -397,14 +397,14 @@ In this exercise, you will
   - Ask Copilot to provide recommendations for renegotiating each
     agreement.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser, then select it now; otherwise, 
-    open a new tab and enter the following URL:+++https://www.office.com+++ to go to the Microsoft 365 
+1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge browser, then select it now; otherwise, 
+    open a new tab and enter the following URL:+++https://m365.cloud.microsoft+++ to go to the Microsoft 365 Copilot App 
     home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under the 
     **Resources** tab on the right.
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+2.  Browse to the **C:\LabFiles\MS4019** folder to select and upload a copy of
     the following documents to OneDrive.
 
       - **Contoso Supplier Agreement**
