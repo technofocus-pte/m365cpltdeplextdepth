@@ -114,7 +114,7 @@ lab session.
 
     ![](./media/image18.png)
 
-8.  Browse to **C:\LabFiles**
+8.  Browse to **C:\LabFiles\MS4019**
 
     ![](./media/image19.png)
 
@@ -122,7 +122,7 @@ lab session.
     Research - VPN Technical Overview** and upload to the document
     library.
 
-    ![](./media/image20.png)
+    ![](./media/image20a.png)
 
     ![](./media/image21.png)
 
