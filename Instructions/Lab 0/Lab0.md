@@ -98,7 +98,8 @@ lab session.
 
     ![](./media/image14.png)
 
-> **Note**: Wait for sometime for the files to get get pre-uploaded. If the files are visible, please proceed to **Lab 01**
+> **Note**: Wait for sometime for the files to get uploaded automatically. If the files are visible, please proceed to **Lab 01**.
+> 
 > If you don't see any files, then proceed to **step #6**
 
 6.  Select **Files**.
