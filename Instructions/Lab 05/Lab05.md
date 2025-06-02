@@ -2,7 +2,7 @@
 
 **Objectives:**
 
-In this lab, you will use Microsoft Copilot within **Microsoft 365 Apps** to
+In this lab, you will use Microsoft 365 Copilot within **Microsoft 365 Apps** to
 
 - Generate and edit content.
 - Refine and enhance generated content using **Microsoft 365 Pages** features.
@@ -44,20 +44,18 @@ document to draft the proposal.
 
 ### Task 1: Get the reference document listed in the Most Recently Used (MRU) file list.
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://www.office.com+++ to go to the Microsoft 365 home page.
-
+1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge browser, then select it now; otherwise, 
+    open a new tab and enter the following URL:+++https://m365.cloud.microsoft+++ to go to the Microsoft 365 Copilot App 
+    home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365 Credentials** provided under   
     the **Resources** tab on the right.
 
-2.  On the **Microsoft 365** navigation pane, select **OneDrive** to
-    open it.
+2.  Select **Apps** and click **OneDrive** to open it.
 
     ![](./media/image1.png)
 
-3.  Browse to the **C:\LabFiles** folder to select and upload a copy
+3.  Browse to the **C:\LabFiles\MS4019** folder to select and upload a copy
     of **Trey Research - VPN Technical Overview** document
     to **OneDrive**.
 
@@ -70,12 +68,11 @@ document to draft the proposal.
 
 ### Task 2: Access Copilot and Start a Conversation
 
-1.  If you have a Microsoft 365 tab open in your Microsoft Edge browser,
-    then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://www.office.com+++ to go to the **Microsoft 365** home page.
+1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge browser, then select it now; otherwise, 
+    open a new tab and enter the following URL:+++https://m365.cloud.microsoft+++ to go to the Microsoft 365 Copilot App 
+    home page.
 
-2.  On the **Microsoft 365** navigation pane, select **Teams** to open
-    it.
+2.  Select **Apps** and click **Teams** to open it.
 
     ![](./media/image2.png)
 
@@ -237,7 +234,7 @@ Open the saved page to make further edits, add updates, or re-share the
 page link for continued collaboration with new or existing team members.
 
 1.  When you hover over the textual content, you will see the **Kebab**
-    menu and **Chat** icon**.**
+    menu and **Chat** icon.
 
     ![](./media/image26.png)
 
