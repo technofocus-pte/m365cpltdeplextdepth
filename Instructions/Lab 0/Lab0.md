@@ -54,18 +54,16 @@ hands-on lab session are available in **C:\LabFiles.**
 file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
 account. You can't link to a locally stored file on your PC.
 
-1.  On the Microsoft 365 navigation pane, select OneDrive to open it.
+1.  On the **Apps** page, select OneDrive to open it.
+    ![](./media/image6a.png)
 
-2.  Browse to the **C:\LabFiles** folder to select and upload a copy of
+    ![](./media/image6b.png)
+2.  Browse to the **C:\LabFiles\MS4019** folder to select and upload a copy of
     the document(s) to OneDrive.
 
     **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the particular lab.
 
-    ![](./media/image6.png)
-
-    ![](./media/image7.png)
-
-    ![](./media/image8.png)
+    ![](./media/image6c.png)
 
     Now you will have the document(s) in **OneDrive** to work with **Microsoft 365 Copilot** labs.
 
