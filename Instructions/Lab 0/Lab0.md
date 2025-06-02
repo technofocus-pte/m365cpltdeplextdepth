@@ -19,42 +19,32 @@ tab** on the right (see screenshot).
 ## 2.  Complete setting up Microsoft 365 subscription and access Microsoft 365 Copilot
 
 1.  Open Microsoft Edge browser and enter the following
-    URL: +++https://portal.office.com+++
+    URL: +++https://m365.cloud.microsoft+++
 
 2.  Use the **Credentials** provided under Azure Portal section in
     the **Resources tab** on the right (see screenshot) to sign-in.
 
-    ![](./media/image2.png)
+    ![](./media/image2a.png)
 
-    ![](./media/image3.png)
+    ![](./media/image3a.png)
 
     You will now be able to access all the Microsoft 365 applications and will have access to Microsoft 365 Copilot app and Copilot chat.
 
 ## 3.  Access and launch Microsoft 365 applications
 
-You can access and launch the productivity applications from:
-
-- **Apps icon** (in the navigation pane on the left)
-
-- **App Launcher** (available in the top left just above the left
-  navigation pane)
+You can access and launch the productivity applications from **Apps icon** (in the navigation pane on the left)
 
 1.  To launch an application from **Apps** icon:
 
     In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you need to work with.
 
-    ![](./media/image4.png)
+    ![](./media/image4a.png)
 
-2.  To launch an application from **App launcher**:
+2.   If you do not find an application, then click **Install apps** or **All apps** to select the same.:
 
-    The Microsoft 365 app launcher is a menu of apps and services that you are licensed for and opens when you select the app launcher icon on
-    Microsoft365 page. The App launcher makes opening and switchingbetween your apps easy by highlighting your recently used apps and
-    providing quick access to your recent online Office documents.
+    
+    ![](./media/image4b.png)
 
-    ![](./media/image5.png)
-
-    **Note**: If you do not find an application in the pop-up, then click
-    **Get More Apps** or **All apps** to select the same.
 
 ## 4.  Upload lab assets to OneDrive
 
@@ -89,49 +79,49 @@ lab session.
 1.  On the Microsoft 365 navigation pane, select **App Launcher** and
     select **Teams**
 
-> ![](./media/image9.png)
+    ![](./media/image9.png)
 
 2.  Click **Get Started**
 
-> ![](./media/image10.png)
+    ![](./media/image10.png)
 
 3.  Select **Teams** from the navigation pane on the left.
 
-> ![](./media/image11.png)
+    ![](./media/image11.png)
 
 4.  Click **Join Team** under **Contoso Public**.
 
-> ![](./media/image12.png)
->
-> ![](./media/image13.png)
+    ![](./media/image12.png)
 
-5.  Get back to **Teams** section and select **General**. This is the
+    ![](./media/image13.png)
+
+6.  Get back to **Teams** section and select **General**. This is the
     document library where the reference documents will be uploaded.
 
-> ![](./media/image14.png)
+    ![](./media/image14.png)
 
 6.  Select **Files**.
 
-> ![](./media/image15.png)
->
-> ![](./media/image16.png)
+    ![](./media/image15.png)
 
-7.  Click **Upload** and select **Files**.
+    ![](./media/image16.png)
 
-> ![](./media/image17.png)
->
-> ![](./media/image18.png)
+8.  Click **Upload** and select **Files**.
+
+    ![](./media/image17.png)
+
+    ![](./media/image18.png)
 
 8.  Browse to **C:\LabFiles**
 
-> ![](./media/image19.png)
+    ![](./media/image19.png)
 
 9.  Select **Contoso CipherGuard Product Specification** and **Trey
     Research - VPN Technical Overview** and upload to the document
     library.
 
-> ![](./media/image20.png)
->
-> ![](./media/image21.png)
->
-> You have now created the document library and uploaded the reference documents to be used as knowledge source.
+    ![](./media/image20.png)
+
+    ![](./media/image21.png
+
+   You have now created the document library and uploaded the reference documents to be used as knowledge source.
