@@ -25,7 +25,7 @@ If the **Describe** tab isn't supported in your region or preferred language, 
 In this exercise you will use the Describe tab in Copilot Studio to
 create a basic agent.
 
-1.  Open a Microsoft Edge browser and enter the following URL: +++https://www.office.com+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
+1.  Open a Microsoft Edge browser and enter the following URL: +++https://m365.cloud.microsoft+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
 
     **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
