@@ -32,7 +32,7 @@ innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
 
 2.  Select **Copilot Chat** in the left-hand navigation pane.
 
-    Note: Sometimes the **Copilot chat** page will open by default. In that case go to step \#3.
+    Note: Sometimes the **Copilot chat** page will open by default. In that case go to step #4.
 
     ![](./media/image1.png)
 
