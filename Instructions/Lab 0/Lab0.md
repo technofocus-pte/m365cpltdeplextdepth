@@ -121,6 +121,6 @@ lab session.
 
     ![](./media/image20.png)
 
-    ![](./media/image21.png
+    ![](./media/image21.png)
 
    You have now created the document library and uploaded the reference documents to be used as knowledge source.
