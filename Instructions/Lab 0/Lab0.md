@@ -75,10 +75,9 @@ You will be using document libraries in Teams channels to upload
 knowledge resources to be used as reference documents in the hands-on
 lab session.
 
-1.  On the Microsoft 365 navigation pane, select **App Launcher** and
-    select **Teams**
+1.  On the **Apps** page, select select **Teams**
 
-    ![](./media/image9.png)
+    ![](./media/image9a.png)
 
 2.  Click **Get Started**
 
@@ -98,6 +97,9 @@ lab session.
     document library where the reference documents will be uploaded.
 
     ![](./media/image14.png)
+
+> **Note**: Wait for sometime for the files to get get pre-uploaded. If the files are visible, please proceed to **Lab 01**
+> If you don't see any files, then proceed to **step #6**
 
 6.  Select **Files**.
 
