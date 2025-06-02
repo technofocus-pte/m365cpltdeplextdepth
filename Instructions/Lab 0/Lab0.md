@@ -40,10 +40,9 @@ You can access and launch the productivity applications from **Apps icon** (in 
 
     ![](./media/image4a.png)
 
-2.   If you do not find an application, then click **Install apps** or **All apps** to select the same.:
+2. If you do not find an application, then click **Install apps** or **All apps** to select the same.:
 
-    
-    ![](./media/image4b.png)
+   ![](./media/image4b.png)
 
 
 ## 4.  Upload lab assets to OneDrive
