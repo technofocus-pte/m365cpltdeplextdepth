@@ -74,11 +74,11 @@ document to draft the proposal.
 
 2.  Select **Apps** and click **Teams** to open it.
 
-    ![](./media/image2.png)
+    ![](./media/image2a.png)
 
     Please wait while the setup process completes.
 
-3.  Select \*\*Chat\*\* and open \*\*Copilot\*\*
+3.  Select **Chat** and open **Copilot**
 
     ![](./media/image3.png)
 
