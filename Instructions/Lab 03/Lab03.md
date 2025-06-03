@@ -31,10 +31,8 @@ enhancing productivity.
 3.  If, for some reason, “**Something went wrong”** message appears, click **Try again** (twice) to open Copilot Chat.
 
     ![](./media/image2.png)
-
-    ![](./media/image3.png)
-
-    **Note**: Copilot Chat user interface may appear different(as in Step #4) when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
+    
+    **Note**: Copilot Chat user interface may appear different (as in Step #4) when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
 
 4.  Click **Create Agent** in the navigation pane depending on the
     landing page in your case.
