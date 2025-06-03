@@ -93,7 +93,7 @@ lab session.
 
     ![](./media/image13.png)
 
-6.  Get back to **Teams** section and select **General**. This is the
+5.  Get back to **Teams** section and select **General**. This is the
     document library where the reference documents will be uploaded.
 
     ![](./media/image14.png)
@@ -108,7 +108,7 @@ lab session.
 
     ![](./media/image16.png)
 
-8.  Click **Upload** and select **Files**.
+7.  Click **Upload** and select **Files**.
 
     ![](./media/image17.png)
 
