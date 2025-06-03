@@ -29,7 +29,7 @@ innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
 
     **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
-2.  **Copilot Chat** page will opne.
+2.  **Copilot Chat** page will open.
 
 3.  If, for some reason, “**Something went wrong”** message appears,
     click **Try again** (twice) to open Copilot Chat.
