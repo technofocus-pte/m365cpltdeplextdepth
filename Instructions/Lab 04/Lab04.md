@@ -31,6 +31,7 @@ In this exercise, you will use Copilot in Loop to
   into that market.
 
 1.  Open a Microsoft Edge browser and enter the following URL: +++https://m365.cloud.microsoft+++ to go to the Microsoft 365 Copilot app (formerly office) home page. Select **Apps** in the left navigation pane.
+
     **Note**: You need to sign-in (if prompted) using the Credentials provided under the Resources tab on the right.
 
     ![](./media/image1a.png)
