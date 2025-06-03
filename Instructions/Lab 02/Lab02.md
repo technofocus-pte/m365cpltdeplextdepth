@@ -35,10 +35,9 @@ create a basic agent.
     click **Try again** (twice) to open Copilot app.
 
     ![](./media/image2.png)
-
-    ![](./media/image3.png)
-
     **Note**: Copilot Chat user interface may appear different when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
+    ![](./media/image3.png)
+    
     ![](./media/image3a.png)
     
 5.  Click on **Create an agent**.
