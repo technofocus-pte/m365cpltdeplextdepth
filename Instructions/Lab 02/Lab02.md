@@ -29,12 +29,8 @@ create a basic agent.
 
     **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
-2.  Select **Copilot Chat** in the left-hand navigation pane.
-
-    **Note**: Sometimes the **Copilot chat** page will open by default. In that case go to step #4.
-
-    ![](./media/image1.png)
-
+2.  **Copilot Chat** will open.
+    
 3.  If, for some reason, “**Something went wrong”** message appears,
     click **Try again** (twice) to open Copilot app.
 
