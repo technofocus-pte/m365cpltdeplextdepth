@@ -29,7 +29,7 @@ create a basic agent.
 
     **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
-2.  **Copilot Chat** will open.
+2.  **Copilot Chat** page will open.
     
 3.  If, for some reason, “**Something went wrong”** message appears,
     click **Try again** (twice) to open Copilot app.
