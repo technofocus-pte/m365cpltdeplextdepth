@@ -26,12 +26,8 @@ enhancing productivity.
 
     **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
 
-2.  Select **Copilot Chat** in the left-hand navigation pane.
-
-    **Note**: Sometimes the **Copilot chat** page will open by default. In that case go to step #3.
-
-    ![](./media/image1.png)
-
+2.  **Copilot chat** page will open.
+    
 3.  If, for some reason, “**Something went wrong”** message appears, click **Try again** (twice) to open Copilot Chat.
 
     ![](./media/image2.png)
