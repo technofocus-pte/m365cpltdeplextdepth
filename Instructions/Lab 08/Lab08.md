@@ -40,6 +40,8 @@ the documents uploaded in the SharePoint site.
 You created a SharePoint site in the earlier lab. In this exercise, you
 will create an agent from it.
 
+>[!Alert] This will work as such if you are working on the labs continuously from Lab 6. Else, please redo the **Exercise 4 - Create SharePoint site of Lab 6** and continue the steps in this lab guide below.
+
 1.  Open the SharePoint site(use the url that you noted down in the
     earlier lab).
 
