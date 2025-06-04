@@ -54,7 +54,7 @@ incorrect.](./media/image6.png)
 In this exercise you are going to create a declarative agent with
 Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
 
-1.  Login to <https://https://copilotstudio.microsoft.com/> using the
+1.  Login to +++https://https://copilotstudio.microsoft.com+++ using the
     login credentials from the **Resources** tab.
 
     ![](./media/image7.png)
