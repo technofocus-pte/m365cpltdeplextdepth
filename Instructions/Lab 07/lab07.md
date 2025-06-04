@@ -77,7 +77,7 @@ incorrect.](./media/image9.png)
 In this task, we will test the declarative agent that we have created.
 
 1.  Navigate to the Copilot application with the
-    URL <https://m365.cloud.microsoft/chat>.
+    URL +++https://m365.cloud.microsoft/chat+++.
 
 2.  In the top left, **select** the **conversation drawer icon**.
 
