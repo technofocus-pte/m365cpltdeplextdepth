@@ -80,7 +80,7 @@ incorrect.](./media/image5.png)
 incorrect.](./media/image6.png)
 
 3.  Select the **Career Path Options in the USA.pdf** and **Career Path
-    Options.docx** from **C:\LabFiles** and select **Open**.
+    Options.docx** from **C:\LabFiles\Career guidance** and select **Open**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
