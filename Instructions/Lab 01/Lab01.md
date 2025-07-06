@@ -1,246 +1,241 @@
-# Lab 01 - Drive event planning with Microsoft 365 Copilot Chat
+# 实验室 01 - 使用 Microsoft 365 Copilot Chat 推动事件规划
 
-## Objective:
+**目的：**
 
-You are an event planning consultant with Contoso Shoppee — a global
-consumer goods distributor. They are planning to host a high-impact
-Client Innovation Summit to showcase upcoming digital solutions, foster
-customer loyalty, and gather strategic input from key clients.
+您是全球消费品分销商 Contoso Shoppee
+的活动策划顾问。他们计划举办一场高影响力的客户创新峰会，以展示即将推出的数字解决方案，提高客户忠诚度，并收集关键客户的战略意见。
 
-In this lab you will use Microsoft 365 Copilot Chat in Web Mode to:
+在本实验中，你将在 Web 模式下使用 Microsoft 365 Copilot 聊天来：
 
-- Research market trends
+- 研究市场趋势
 
-- Brainstorm summit sessions
+- 头脑风暴峰会
 
-- Create visuals and documentation
+- 创建视觉对象和文档
 
-- Draft a planning brief
+- 起草规划纲要
 
-- Upload and refine documents collaboratively
+- 协作上传和优化文档
 
-## Exercise 1: Research market trends for 2025**
+**练习 1：研究 2025 年的市场趋势\*\***
 
-In this exercise you will ground the summit content relevant to 2025
-innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
+在本练习中，您将制定与 2025 年创新趋势相关的峰会内容。您将在 Web
+模式下使用 Microsoft 365 Copilot Chat。
 
-1.  Open a Microsoft Edge browser and enter the following URL:
-    +++https://m365.cloud.microsoft+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
+1.  打开 Microsoft Edge 浏览器并输入以下
+    URL：+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) 转到
+    **Microsoft 365 Copilot 应用程序**（以前称为 Office）主页。
 
-    **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
+**注意：**您需要使用右侧 **Resources** （资源） 选项卡下提供的
+**Credentials** （凭据） 登录（如果出现提示）。
 
-2.  **Copilot Chat** page will open.
+2.  **Copilot 聊天** 页面将打开。
 
-3.  If, for some reason, “**Something went wrong”** message appears,
-    click **Try again** (twice) to open Copilot Chat.
+3.  如果由于某种原因出现 “**Something went wrong**” 消息，请单击 **Try
+    again** （两次）以打开 Copilot 聊天。
 
-    ![](./media/image2.png)
+![](./media/image1.png)
 
-    **Note**: Copilot Chat user interface may appear different when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
+**注意：**当您执行此实验室时，Copilot Chat 用户界面可能会有所不同（因为
+Microsoft 已推出新功能和更新功能以及 UI 更改，作为 Microsoft Build-2025
+活动的一部分）。
 
-    ![](./media/image3.png)
-    
-    ![](./media/image4.png)
+![](./media/image2.png)
 
-4.  In this exercise you will enter the following prompt and click **Submit** arrow.
+![](./media/image3.png)
 
-    ++What are the top three innovation trends in the consumer goods industry for 2025, and how can these shape the agenda for a client innovation summit?++
+4.  在本练习中，您将输入以下提示并单击 **Submit** arrow（提交箭头）。
 
-    ![](./media/image5.png)
+++What are the top three innovation trends in the consumer goods
+industry for 2025, and how can these shape the agenda for a client
+innovation summit?++
 
-5.  You will see the Copilot output with a short, insightful summary of
-    three trends, e.g., “AI in Supply Chain,” “Sustainable Packaging,”
-    and “Hyper-personalized Customer Experience.”
+![](./media/image4.png)
 
-    ![](./media/image6.png)
+5.  您将看到 Copilot 输出，其中包含对三个趋势的简短而有见地的总结，例如
+    “AI in Supply Chain, (供应链中的 AI)” “Sustainable Packaging,
+    (可持续包装)” 和“Hyper-personalized Customer Experience
+    (超个性化的客户体验)”。
 
-    ![](./media/image7.png)
+![](./media/image5.png)
 
-    You have now completed researching the 2025 market trends. Next you will turn these trends into a compelling event agenda that resonates with both the C-suite and client innovation teams.
+![](./media/image6.png)
 
-## Exercise 2: Brainstorm and Draft Session Ideas
+您现在已经完成了对 2025
+年市场趋势的研究。接下来，您将把这些趋势转化为引人注目的活动议程，与最高管理层和客户创新团队产生共鸣。
 
-In this exercise you will create a compelling event agenda based on the
-trends generated in the previous exercise.
+**练习 2：集思广益并起草会议想法**
 
-1.  To start with you will be creating session titles and descriptions
-    based on the trends. Use the following prompt and click Submit.
+在本练习中，您将根据上一个练习中生成的趋势创建一个引人注目的活动议程。
 
-    ++Based on these trends, suggest 5 session titles and short, energizing descriptions for a 1-day innovation summit++
+1.  首先，您将根据趋势创建会话标题和描述。使用以下提示并单击 Submit。
 
-    ![](./media/image8.png)
+++Based on these trends, suggest 5 session titles and short, energizing
+descriptions for a 1-day innovation summit++
 
-2.  Copilot will generate the session titles and descriptions as shown
-    below.
+![](./media/image7.png)
 
-    ![](./media/image9.png)
+2.  Copilot 将生成会话标题和描述，如下所示。
 
-3.  You will now make the descriptions more engaging. Use the following
-    prompt and click Submit.
+![](./media/image8.png)
 
-    ++Make these descriptions more engaging using an energetic, professional tone.++
+3.  现在，您将使描述更具吸引力。使用以下提示并单击 Submit。
 
-    ![](./media/image10.png)
+++Make these descriptions more engaging using an energetic, professional
+tone.++
 
-    ![](./media/image11.png)
+![](./media/image9.png)
 
-    ![](./media/image12.png)
+![](./media/image10.png)
 
-Next you will use Copilot Chat to create the agenda with timeline and
-logo .
+![](./media/image11.png)
 
-## Exercise 3: Create Agenda Timeline & Logo
+接下来，您将使用 Copilot Chat 创建带有时间线和徽标的议程。
 
-In this exercise you will enrich the agenda adding event day with time
-slots and create a simple visual identity for the summit handouts.
+**练习3：创建议程时间表和标志**
 
-1.  To start with you will create a timed agenda. Use the following
-    prompt and click Submit.
+在本练习中，您将丰富议程，添加活动日的时间段，并为峰会讲义创建简单的视觉识别。
 
-    ++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30 PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.++
+1.  首先，您将创建一个定时议程。使用以下提示并单击 Submit。
 
-    ![](./media/image13.png)
+++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30
+PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.++
 
-2.  You will get a professionally structured 1-day innovation summit
-    agenda as shown below.
+![](./media/image12.png)
 
-    ![](./media/image14.png)
+2.  您将获得一个结构专业的 1 天创新峰会议程，如下所示。
 
-    ![](./media/image15.png)
+![](./media/image13.png)
 
-3.  Now you will add a relevant logo. Use the following prompt and click
-    Submit.
+![](./media/image14.png)
 
-    ++Design a modern logo concept for the Contoso Client Innovation Summit 2025.++
+3.  现在，您将添加相关徽标。使用以下提示并单击 Submit。
 
-    ![](./media/image16.png)
+++Design a modern logo concept for the Contoso Client Innovation Summit
+2025.++
 
-4.  Copilot will start generating the logo with Microsoft Designer.
+![](./media/image15.png)
 
-    ![](./media/image17.png)
+4.  Copilot 将开始使用 Microsoft Designer 生成徽标。
 
-    ![](./media/image18.png)
+![](./media/image16.png)
 
-    You can also try creating a variation of the generated logo.
+![](./media/image17.png)
 
-    Next you will compile a planning brief combining the outcomes from all the previous exercises.
+您还可以尝试创建生成的商标的变体。
 
-## Exercise 4: Draft Planning Document
+接下来，您将编制一份规划简报，结合之前所有练习的结果。
 
-In this exercise you will combine all the outputs generated from the
-previous exercises.
+**练习 4：起草规划文件**
 
-1.  You will now start compiling a 1-page planning brief combining the
-    outputs generated from the previous exercises. Use the following
-    prompt and click Submit.
+在本练习中，您将组合之前练习生成的所有输出。
 
-    ++Create a 1-page planning brief for the Contoso Client Innovation Summit including: objectives, audience, session themes, and planning milestones.++
+1.  现在，您将开始编写一份 1
+    页的规划简报，其中包含之前练习生成的结果。使用以下提示并单击
+    Submit。
 
-    ![](./media/image19.png)
+++Create a 1-page planning brief for the Contoso Client Innovation
+Summit including: objectives, audience, session themes, and planning
+milestones.++
 
-2.  You will now see the compiled output generated by Copilot. 
-    ![](./media/image20.png)
+![](./media/image18.png)
 
-    ![](./media/image21.png)
+2.  您现在将看到 Copilot
+    生成的编译输出。![](./media/image19.png)
 
-3.  You can now download and view the compiled output.
+![](./media/image20.png)
 
-    ![](./media/image22.png)
+3.  您现在可以下载并查看编译后的输出。
 
-    ![](./media/image23.png)
+![](./media/image21.png)
 
-4.  Next you will add success metrics and expected outcomes to the draft
-    planning brief document. Use the following prompt and click Submit.
+![](./media/image22.png)
 
-    ++Add success metrics and expected outcomes.++
+4.  接下来，您将向规划摘要文档草案添加成功指标和预期结果。使用以下提示并单击
+    Submit。
 
-    ![](./media/image24.png)
+++Add success metrics and expected outcomes.++
 
-5.  Once the updated planning brief is generated, you can download and
-    view the updated document.
+![](./media/image23.png)
 
-    ![](./media/image25.png)
+5.  生成更新的规划概要后，您可以下载并查看更新的文档。
 
-    ![](./media/image26.png)
+![](./media/image24.png)
 
-    ![](./media/image27.png)
+![](./media/image25.png)
 
-6.  You now have the professional planning document ready for review.
-    You will use this as a reference document in the next exercise.
+![](./media/image26.png)
 
-## Exercise 5: Upload and Improve the Plan
+6.  现在，您已准备好专业规划文档以供审阅。在下一个练习中，您将将其用作参考文档。
 
-Before presenting the plan to leadership, you want to provide additional
-recommendations based on the draft.
+**练习 5：上传和改进计划**
 
-1.  You will now upload the planning brief document to OneDrive so as to
-    use it as a reference document.
+在向领导层提交计划之前，您需要根据草稿提供其他建议。
 
-2.  Click the folder icon to check if the Planning brief document is in
-    the **Downloads** folder.
+1.  现在，您将规划简报文档上传到 OneDrive，以便将其用作参考文档。
 
-    ![](./media/image28.png)
+2.  单击文件夹图标以检查 Planning brief 文档是否位于 **Downloads**
+    文件夹中。
 
-3.  Open **OneDrive** from the Microsoft 365 Copilot navigation pane.
+![](./media/image27.png)
 
-    ![](./media/image29.png)
+3.  从 Microsoft 365 Copilot 导航窗格中打开 **OneDrive**。
 
-4.  Select **My files** menu and click **Create or Upload** button.
+![](./media/image28.png)
 
-    ![](./media/image30.png)
+4.  选择 **My files** 菜单，然后单击 **Create or Upload** 按钮。
 
-5.  Select **Files upload** menu and locate the latest Planning brief
-    document and upload it to OneDrive.
+![](./media/image29.png)
 
-    ![](./media/image31.png)
+5.  选择 **Files upload** 菜单，找到最新的规划摘要文档并将其上传到
+    OneDrive。
 
-    ![](./media/image32.png)
+![](./media/image30.png)
 
-6.  You have now uploaded the latest Planning brief document to
-    OneDrive.
+![](./media/image31.png)
 
-    ![](./media/image33.png)
+6.  您现在已将最新的规划摘要文档上传到 OneDrive。
 
-7.  You will now analyse the planning brief document using Copilot. Use
-    the following prompt, attach the reference document (from OneDrive)
-    and click Submit.
+![](./media/image32.png)
 
-    ++Analyze this planning brief and suggest improvements or missing elements that could make the event more impactful.++
+7.  现在，您将使用 Copilot
+    分析规划简报文档。使用以下提示，附加参考文档（来自
+    OneDrive），然后单击 Submit。
 
-    ![](./media/image34.png)
+++Analyze this planning brief and suggest improvements or missing
+elements that could make the event more impactful.++
 
-    ![](./media/image35.png)
+![](./media/image33.png)
 
-    ![](./media/image36.png)
+![](./media/image34.png)
 
-    ![](./media/image37.png)
+![](./media/image35.png)
 
-8.  You will now see the actionable recommendations (e.g., add keynote
-    speaker details, customer testimonial opportunities, or
-    sustainability efforts) generated by Copilot.
+![](./media/image36.png)
 
-    ![](./media/image38.png)
+8.  您现在将看到 Copilot
+    生成的可作建议（例如，添加主题演讲者详细信息、客户推荐机会或可持续发展工作）。
 
-9.  You will ask Copilot to update the planning brief document with the
-    actionable recommendations.
+![](./media/image37.png)
 
-    ![](./media/image39.png)
+9.  您将要求 Copilot 使用可作的建议更新规划简报文档。
 
-    ![](./media/image40.png)
+![](./media/image38.png)
 
-10. Once Copilot finishes updating the planning brief document with the
-    actionable recommendations, you can download and view the enhanced
-    planning brief document.
+![](./media/image39.png)
 
-    ![](./media/image41.png)
+10. Copilot
+    使用可作的建议完成规划简报文档的更新后，您可以下载并查看增强的规划简报文档。
 
-    ![](./media/image42.png)
+![](./media/image40.png)
 
-    ![](./media/image43.png)
+![](./media/image41.png)
 
-Try Yourself:
+![](./media/image42.png)
 
-Play around with Pre-built prompts and the suggested prompts
+试一试：
+
+尝试使用预构建的提示和建议的提示
 
 - Can you provide a summary of the key changes made?
 
@@ -249,19 +244,19 @@ Play around with Pre-built prompts and the suggested prompts
 - Would you like a branded version with your logo and visual design
   next?
 
-    ![](./media/image44.png)
+![](./media/image43.png)
 
-    ![](./media/image45.png)
+![](./media/image44.png)
 
-## Summary
+**总结**
 
-You have now completed using Microsoft 365 Copilot Chat in web mode to
-plan a high-impact client summit, showcasing:
+您现在已完成在 Web 模式下使用 Microsoft 365 Copilot Chat
+来规划高影响力的客户峰会，展示：
 
-- Real-time market research
+- 实时市场研究
 
-- Creative brainstorming
+- 创意头脑风暴
 
-- Collaborative document creation
+- 协作文档创建
 
-- AI-assisted planning and feedback
+- AI 辅助的规划和反馈
