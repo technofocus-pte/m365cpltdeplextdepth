@@ -1,214 +1,223 @@
-# Lab 03 - Enhance employee productivity with pre-built agents
+# 实验室 03 - 使用预构建的代理提高员工工作效率
 
-## Objective
+**目的**
 
-You are a communications strategist working with Contoso Shoppee, a global leader in consumer goods distribution. The company is preparing an internal Innovation Readiness Workshop aimed at aligning teams on digital transformation goals, improving productivity tools adoption, and generating new ideas for customer engagement initiatives.
-You are asked to showcase prebuilt agents in Microsoft 365 Copilot Chat (Prompt Coach, Writing Coach, and Idea Coach) to the workshop participants to improve productivity across writing, ideation, and prompt development tasks.
+您是与消费品分销领域的全球领导者 Contoso Shoppee
+合作的通信战略分析师。该公司正在筹备一个内部创新准备研讨会，旨在使团队在数字化转型目标上保持一致，提高生产力工具的采用率，并为客户参与计划提出新的想法。系统会要求您向研讨会参与者展示
+Microsoft 365 Copilot Chat （提示教练、写作教练和创意教练）
+中的预构建代理，以提高写作、构思和提示开发任务的工作效率。
 
-In this lab you will use Microsoft 365 Copilot Chat to:
+在本实验中，您将使用 Microsoft 365 Copilot Chat 执行以下作：
 
-- Craft and refine high-quality prompts using Prompt Coach
-- Receive detailed writing feedback and enhancement tips from Writing Coach
-- Generate and organize creative ideas with Idea Coach
-- Improve prompt effectiveness for various business use cases
-- Collaborate with Copilot Chat to produce polished drafts and structured content
+- 使用Prompt coach作和优化高质量的提示
 
-## Exercise 1: Explore and Interact with Prebuilt Agents via Copilot Chat
+- 从Writing Coach接收详细的写作反馈和增强技巧
 
-In this exercise you will show how to access and interact with prebuilt
-Copilot agents (Prompt Coach, Writing Coach, and Idea Coach) using
-Microsoft 365 Copilot Chat, and understand their unique capabilities for
-enhancing productivity.
+- 使用Idea Coach生成生成和组织创意
 
-1.  Open a Microsoft Edge browser and enter the following URL:
-    +++https://m365.cloud.microsoft+++ to go to the **Microsoft 365 Copilot
-    app** (formerly office) home page.
+- 提高各种业务使用案例的及时有效性
 
-    **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
+- 与 Copilot 聊天协作，制作精美的草稿和结构化内容
 
-2.  **Copilot chat** page will open.
-    
-3.  If, for some reason, “**Something went wrong”** message appears, click **Try again** (twice) to open Copilot Chat.
+**练习 1：通过 Copilot Chat 探索预构建的代理并与之交互**
 
-    ![](./media/image2.png)
-    
-    **Note**: Copilot Chat user interface may appear different (as in Step #4) when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
+在本练习中，您将展示如何使用 Microsoft 365 Copilot 聊天访问预构建的
+Copilot
+代理（提示教练、写作教练和创意教练）并与之交互，并了解他们提高工作效率的独特功能。
 
-4.  Click **Create Agent** in the navigation pane depending on the
-    landing page in your case.
+1.  打开 Microsoft Edge 浏览器并输入以下
+    URL：+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) 转到
+    **Microsoft 365 Copilot 应用程序**（以前称为 Office）主页。
 
-    ![](./media/image4.png)
+**注意：**您需要使用右侧 **Resources** （资源） 选项卡下提供的
+**Credentials （**凭据） 登录（如果出现提示）。
 
-    ![](./media/image5.png)
+2.  **Copilot 聊天**页面将打开。
 
-5.  Copilot Studio Agent Builder will open. Wait for some time for the
-    pre-built agents list to load. Click **View all templates**.
+3.  如果由于某种原因出现 “**Something went wrong**” 消息，请单击 **Try
+    again**（两次）以打开 Copilot 聊天。
 
-    ![](./media/image6.png)
+![](./media/image1.png)
 
-    ![](./media/image7.png)
+**注意：**当您执行此实验室时，Copilot Chat
+用户界面可能会有所不同（如步骤 \#4 所示）（因为 Microsoft 已作为
+Microsoft Build-2025 活动的一部分推出了新功能和更新功能以及 UI 更改）。
 
-6.  Scroll through the list to locate the declarative agents (Prompt
-    Coach and Writing Coach) that you will use to improve Prompt Quality
-    and Refine Writing.
+4.  单击导航窗格中的 **Create Agent**
+    （创建代理），具体取决于您案例中的登录页面。
 
-7.  Select Prompt Coach
+![](./media/image2.png)
 
-    ![](./media/image8.png) 
+![](./media/image3.png)
 
-    **Note**: You can use these declarative agents as templates and customize them suiting your needs.
+5.  Copilot Studio Agent Builder
+    将打开。请等待一段时间，以便加载预构建的代理列表。单击 **View all
+    templates**（查看所有模板）。
 
-8.  In this lab You will use the Prompt coach as-is without making any
-    customizations. Click **Create** on the top right to create Prompt
-    Coach agent.
+![](./media/image4.png)
 
-    ![](./media/image9.png)
+![](./media/image5.png)
 
-    ![](./media/image10.png)
+6.  滚动列表以找到您将用于提高提示质量和优化写作的声明式代理（Prompt
+    Coach 和 Writing Coach）。
 
-    You now completed creating the **Prompt Coach**. Click **Go to agent** to open Prompt Coach agent.
+7.  选择 Prompt Coach
 
-    ![](./media/image11.png)
+![](./media/image6.png)
 
-Next you will use the Prompt coach to improve your prompt quality.
+**注意：**您可以将这些声明性代理用作模板，并根据您的需要对其进行自定义。
 
-**Exercise 2: Improve Prompt Quality with Prompt Coach in Copilot Chat**
+8.  在本实验中，您将按原样使用 Prompt
+    coach，而无需进行任何自定义。单击右上角的 **Create** 以创建 Prompt
+    Coach Agent。
 
-In this exercise you will generate a more targeted Copilot prompt for a
-market research report.
+![](./media/image7.png)
 
-1.  You will now enter a draft prompt:  
-    ++@Prompt Coach, review this prompt: “Give me insights on European retail industry.”++
+![](./media/image8.png)
 
-    ![](./media/image12.png)
+您现在已完成 **Prompt Coach** 的创建。单击 **Go to agent** （转到代理）
+以打开 Prompt Coach 代理。
 
-2.  To get started, Copilot needs you to provide with the following
-    details:
+![](./media/image9.png)
 
-- **Goal**: What is the desired outcome you want to achieve with
-  Copilot?
+接下来，您将使用 Prompt coach 来提高您的提示质量。
 
-- **Context**: Any background information or specific details that are
-  relevant to the prompt.
+**练习 2：在 Copilot Chat 中使用 Prompt Coach 提高提示质量**
 
-- **Source**: Are there any specific sources or examples you want to
-  include?
+在本练习中，您将为市场研究报告生成更具针对性的 Copilot 提示。
 
-- **Expectations**: Do you have any preferences for the format or
-  structure of the prompt?
+1.  现在，您将输入草稿提示：  
+    ++@Prompt Coach, review this prompt: “Give me insights on European
+    retail industry.”++
 
-    ![](./media/image13.png)
+![](./media/image10.png)
 
-3.  You can ask Copilot: How can I make this prompt more specific and
-    actionable?
+2.  首先，Copilot 需要您提供以下详细信息：
 
-    ![](./media/image14.png)
+- **目标：**您希望使用 Copilot 实现的预期结果是什么？
 
-4.  Copilot responds with the sample of how the prompt could be made
-    more specific and actionable.
+- **Context（上下文）：**与提示相关的任何背景信息或特定详细信息。
 
-    ![](./media/image15.png)
+- **来源：**你有什么具体的来源或例子想包括吗？
 
-5.  If you ignore and try with another blunt prompt, Copilot will insist
-    you to clarify with more details. Check the Copilot output with the
-    following prompt and click **Submit**.
+- **期望：**您对提示的格式或结构有什么偏好吗？
 
-    ++I am trying to generate a more targeted Copilot prompt for a market research report.++
+![](./media/image11.png)
 
-    ![](./media/image16.png)
+3.  您可以询问 Copilot：如何使此提示更加具体和可作？
 
-    ![](./media/image17.png)
+![](./media/image12.png)
 
-6.  You will now use the suggestions to revise your prompt and ask
+4.  Copilot 以如何使提示更加具体和可作的示例进行响应。
 
-    @Prompt Coach, evaluate this revised prompt. Is it strong enough for Copilot to return insightful output?
+![](./media/image13.png)
 
-    ++“Summarize Q1 2024 retail trends in Germany and France, including consumer behavior shifts and top-performing product categories.” @Prompt Coach, evaluate this revised prompt. Is it strong enough for Copilot to return insightful output?++
+5.  如果您忽略并尝试使用另一个生硬的提示，Copilot
+    会坚持要求您澄清更多细节。使用以下提示检查 Copilot 输出，然后单击
+    **Submit**。
 
-    ![](./media/image18.png)
+++I am trying to generate a more targeted Copilot prompt for a market
+research report.++
 
-7.  Copilot responds with the evaluation remarks and provides you with
-    suggestions. The response might be little bit different from what
-    you see in the following screenshots.
+![](./media/image14.png)
 
-    ![](./media/image19.png)
+![](./media/image15.png)
 
-    ![](./media/image20.png)
+6.  现在，您将使用这些建议来修改您的提示并询问
 
-8.  Now try with the following prompt and click Submit.
+@Prompt Coach, evaluate this revised prompt. Is it strong enough for
+Copilot to return insightful output?
 
-    ++What other data sources can I use for this analysis?++
+++“Summarize Q1 2024 retail trends in Germany and France, including
+consumer behavior shifts and top-performing product categories.” @Prompt
+Coach, evaluate this revised prompt. Is it strong enough for Copilot to
+return insightful output?++
 
-    ![](./media/image21.png)
+![](./media/image16.png)
 
-9.  Copilot responds with details about the common data sources.
+7.  Copilot
+    会回复评估评论，并为您提供建议。响应可能与你在以下屏幕截图中看到的略有不同。
 
-    ![](./media/image22.png)
+![](./media/image17.png)
 
-10. You can try with the following prompt and click Submit.
+![](./media/image18.png)
 
-    ++How can I access these reports?++
+8.  现在尝试使用以下提示并单击 Submit。
 
-    ![](./media/image23.png)
+++What other data sources can I use for this analysis?++
 
-11. Based on the evaluation remarks and data source suggestions,
-    rephrase the prompt.
+![](./media/image19.png)
 
-    Try with the following prompt and check the output:
+9.  Copilot 会响应有关常见数据源的详细信息。
 
-    ++Provide a detailed analysis of Q1 2024 retail trends in Germany and France, including consumer behavior shifts and top-performing product categories, using data from German Retail Federation (HDE) and the French Federation of Retailers (FCD).++
+![](./media/image20.png)
 
-    ![](./media/image24.png)
+10. 您可以尝试使用以下提示，然后单击 Submit。
 
-12. Check the Copilot generated response.
+++How can I access these reports?++
+ 
+![](./media/image21.png)
 
-    Now try with the following prompt and check the output:
+11. 根据评估备注和数据源建议，改写提示。
 
-    ++Provide a detailed analysis of Q1 2024 retail trends in Germany and France, including consumer behavior shifts and top-performing product categories, using data from https://www.nielson.com++
+尝试使用以下提示并检查输出：
 
-    ![](./media/image25.png)
+++Provide a detailed analysis of Q1 2024 retail trends in Germany and
+France, including consumer behavior shifts and top-performing product
+categories, using data from German Retail Federation (HDE) and the
+French Federation of Retailers (FCD).++
 
-     ![](./media/image26.png)
+![](./media/image22.png)
 
-    You have now completed generating the report on market trends with > help from Prompt Coach by crafting and refining the prompts.
+12. 检查 Copilot 生成的响应。
 
-## Try yourself:
+现在尝试使用以下提示并检查输出：
 
-## Exercise 2: Refine Writing using Writing Coach in Copilot Chat
+++Provide a detailed analysis of Q1 2024 retail trends in Germany and
+France, including consumer behavior shifts and top-performing product
+categories, using data from [https://www.nielson.com++](https://www.nielson.com++/)
 
-In this exercise, you will use Microsoft 365 Copilot Chat to:
+![](./media/image23.png)
 
-- Create an agent using Wring Coach as a template.
+![](./media/image24.png)
 
-- Refine tone, clarity, and impact of internal communication
+在 Prompt Coach
+的帮助下\>您现在已经通过制作和完善提示完成了市场趋势报告的生成。
 
-- Rephrase key messages for specific audiences (e.g., executive
-  leadership, frontline employees)
+**试一试：**
 
-- Apply Writing Coach suggestions to make content more inspirational,
-  professional, or concise
+**练习 2：使用 Copilot Chat 中的 Writing Coach 优化写作**
 
-### Task \#1: Create an agent using Writing coach as the template.
+在本练习中，您将使用 Microsoft 365 Copilot Chat 执行以下作：
 
-### Task \#2: Provide the agent with a sample sentence given below and ask it to rephrase the tagline
+- 使用 Wring Coach 作为模板创建代理。
 
-- Sample: “The new employee wellness program starts next week. It’s
+- 优化内部沟通的语气、清晰度和影响
+
+- 针对特定受众（例如，行政领导、一线员工）改写关键信息
+
+- 应用 Writing Coach 建议，使内容更鼓舞人心、更专业或更简洁
+
+**任务 \#1：使用 Writing coach 作为模板创建代理。**
+
+**任务 \#2：为代理提供下面给出的示例句子，并要求它改写标语**
+
+- 示例： “The new employee wellness program starts next week. It’s
   really cool and we hope everyone enjoys it.”
 
-- Ask:  
-  @Writing Coach, improve this message for tone, clarity, and executive
-  audience.
+- 问：  
+  @Writing Coach，改进此消息的语气、清晰度和执行受众。
 
-- Then try:  
-  @Writing Coach, rephrase this to be inspirational and concise.  
-  @Writing Coach, explain how you improved the sentence.
+- 然后尝试：  
+  @Writing Coach，请将其改写为鼓舞人心且简洁明了。  
+  @Writing Coach，请解释一下您是如何改进句子的。
 
-### Task \#3: Provide your own draft (email or LinkedIn post), and use the agent to fine-tune the writeup.
+**任务 \#3：提供您自己的草稿（电子邮件或 LinkedIn
+帖子），并使用代理来微调文章。**
 
-- Ask:
+- 问：
 
-@Writing Coach, how can I make this sound more confident and
-professional?
+@Writing Coach，我怎样才能让这听起来更自信、更专业呢？
 
-- Ask Writing Coach agent to turn your revised version into a formatted
-  message (e.g., add header, summary, call to action).
+- 要求 Writing Coach
+  代理将您的修订版本转换为格式化的消息（例如，添加标题、摘要、号召性用语）。
