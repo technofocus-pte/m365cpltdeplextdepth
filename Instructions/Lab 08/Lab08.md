@@ -1,156 +1,129 @@
+# 实验 8 - 创建职业指导 SharePoint 代理
 
-# Lab 8 - Create a Career guidance SharePoint agent
+**介绍：**
 
-**Introduction:**
+每天，大约有 20 亿个文档被添加到 Microsoft 365
+中。随着工作场所内容数量的快速增长，您需要一种快速准确的方法来筛选它并获取所需的信息。Microsoft
+SharePoint
+增强了存储、组织和共享组织内容的安全性和效率。但它提供的远不止于此。您可以使用
+AI 驱动的 SharePoint
+代理来简化工作流程并促进适合您的团队或组织的协作。SharePoint
+代理可以回答有关提问者对其具有权限的任何 SharePoint
+网站或文档库上的内容的问题。如果您对 SharePoint
+站点具有编辑权限，您甚至可以为特定任务创建代理并与您的团队共享。
 
-Every day, about 2 billion documents are added to Microsoft 365​​​​​​​. With
-the fast-growing volume of workplace content, you need a quick and
-accurate way to sift through it and get the information you need.
-Microsoft SharePoint enhances security and efficiency in storing,
-organizing, and sharing your organization's content. But it offers
-beyond that. You can use AI-powered SharePoint agents to streamline
-workflows and foster collaboration that suits your team or organization.
-SharePoint agents can answer questions about the content on any
-SharePoint site or document library that the asker has permissions with.
-If you have edit permissions on a SharePoint site, you can even create
-agents for specific tasks and share them with your team.
+SharePoint 代理
 
-SharePoint agents
+**现成的代理**
 
-**Ready-made agent**
+每个 SharePoint
+站点都附带一个“现成的代理”，该代理的作用域自动限定为该站点上的内容。这些代理的范围限定为
+SharePoint
+网站，不需要网站管理员或网站所有者进行构建。默认情况下，将显示现成的代理。 
 
-Every SharePoint site comes with a "ready-made agent", automatically
-scoped to the content on that site. These agents, scoped to the
-SharePoint site, require no building from site admins or site owners.
-The ready-made agent appears by default. 
+**定制代理**
 
-**Custom-built agent**
+对现成代理的结果不满意？使用站点编辑权限，您可以通过更改内容范围、身份和行为来轻松创建代理。
 
-Not satisfied with the result of the ready-made agent? With site editing
-permissions, you can easily create agents by changing content scope,
-identity, and behavior.
+**目的：**
 
-**Objective:**
+在本实验中，您将创建一个职业指导 SharePoint 代理，该代理使用 SharePoint
+站点中上传的文档。
 
-In this lab you will create a Career guidance SharePoint agent that uses
-the documents uploaded in the SharePoint site.
+## 练习 1：从 SharePoint 主页创建代理
 
-## Exercise 1: Create an agent from the SharePoint Home
+您在前面的实验室中创建了一个 SharePoint
+站点。在本练习中，您将从中创建一个代理。
 
-You created a SharePoint site in the earlier lab. In this exercise, you
-will create an agent from it.
+提醒：如果您从 Lab 6 开始连续进行实验，这将正常工作。否则，请重做实验 6
+的**练习 4 - 创建 SharePoint 网站**，并继续下面本实验指南中的步骤。
 
->[!Alert] This will work as such if you are working on the labs continuously from Lab 6. Else, please redo the **Exercise 4 - Create SharePoint site of Lab 6** and continue the steps in this lab guide below.
+1.  打开 SharePoint 站点（使用您在前面的实验中记下的 URL）。
 
-1.  Open the SharePoint site(use the url that you noted down in the
-    earlier lab).
+2.  选择 **Home**（主页）。
 
-2.  Select **Home**.
+![](./media/image1.png)
 
-    ![](./media/image1.png)
+3.  选择 **New -\> Agent** 以创建新代理。
 
-3.  Select **New** -> **Agent** to create a new agent.
+![](./media/image2.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image2.png)
+4.  将创建一个新代理，现在选择 **Open agent**。
 
-4.  A new agent is created and now select **Open agent**.
+![](./media/image3.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image3.png)
+5.  创建的代理将显示在站点中。
 
-5.  The created agent appears in the site.
+![](./media/image4.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image4.png)
+## 练习 2：从文档创建代理
 
-## Exercise 2: Create an agent from the documents
+在本练习中，您会将文档上传到 SharePoint 站点并从中创建代理。
 
-In this exercise, you will upload the documents to the SharePoint site
-and create an agent from it.
+1.  选择 **Documents** （文档）。
 
-1.  Select **Documents**.
+![](./media/image5.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image5.png)
+2.  选择旁边的下拉列表 **Upload** 并选择 **Files**。
 
-2.  Select the drop down next to **Upload** and select **Files**.
+![](./media/image6.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image6.png)
+3.  在 **C：\LabFiles** 的 **Career Path Options in the USA.pdf** 和
+    **Career Path Options.docx** 中选择 ，然后选择 **Open**。
 
-3.  Select the **Career Path Options in the USA.pdf** and **Career Path
-    Options.docx** from **C:\LabFiles\Career guidance** and select **Open**.
+![](./media/image7.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image7.png)
+![](./media/image8.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image8.png)
+4.  选择上传的文档，然后右键单击它，然后选择 **Create an agent**。
 
-4.  Select both the documents uploaded and right click on it and select
-    **Create an agent**.
+![](./media/image9.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image9.png)
+5.  在 New agent （新建代理） 窗口中选择 **Edit** （编辑）
+    以编辑代理的名称。
 
-5.  Select **Edit** in the New agent window to edit the name of the
-    agent.
+![](./media/image10.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image10.png)
+6.  将代理命名为 +++Career Guidance Agent+++。选择 **Save and
+    close**（保存并关闭）。
 
-6.  Name the agent as +++Career Guidance Agent+++. Select **Save and
-    close**.
+**注意：**可以通过选择左下角的 “从 Copilot Studio 添加高级自定义”
+选项，从 Copilot Studio 自定义代理。
 
-    >[!Note] **Note:** The agent can be customized from Copilot Studio by selecting
-the option, Add advanced customization from Copilot Studio option in the
-bottom left.
+![](./media/image11.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image11.png)
+7.  创建的代理将列在 **Documents**。选择它以将其打开。
 
-7.  The created agent gets listed under **Documents**. Select it to open
-    it.
+![](./media/image12.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image12.png)
+8.  通过输入 +++What are the Management career path available in the US?
+    +++
 
-8.  Test it by entering +++What are the Management career path available
-    in the US?+++
+![](./media/image13.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image13.png)
+9.  观察输出和引用。
 
-9.  Observe the output and the references.
+![](./media/image14.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image14.png)
+> ![](./media/image15.png)
 
-    ![A white rectangular object with black lines AI-generated content may be incorrect.](./media/image15.png)
+10. 选择 **Share -\> Copy link**
 
-10. Select **Share -\> Copy link**
+![](./media/image16.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image16.png)
+11. 在弹出窗口中选择 允许。
 
-11. Select Allow in the pop up.
+![](./media/image17.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image17.png)
+![](./media/image18.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image18.png)
+12. 在 “复制” 窗格的 “设置” 中，您可以选择可以与之共享代理的人员。
 
-12. In the Settings in the Copy pane, you can select, with whom the
-    agent can be shared.
+![](./media/image19.png)
 
-    ![A screenshot of a link setting AI-generated content may be
-incorrect.](./media/image19.png)
+13. 使用复制的链接从浏览器访问代理。
 
-13. Access the agent from a browser using the copied link.
+## 总结
 
-## Summary
-
-In this lab, you have learnt to create a SharePoint agent from the site
-Home and from the documents uploaded in the site.
+在本实验中，您学习了如何从网站主页和网站中上传的文档创建 SharePoint
+代理。
