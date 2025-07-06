@@ -1,215 +1,196 @@
-# Lab 7 - Build a poetic declarative agent using Microsoft 365 Agents Toolkit
+# 使用 Microsoft 365 Agents Toolkit 构建诗意的声明性代理
 
-**Objective**
+**目的**
 
-A declarative agent is a customized version of Microsoft 365 Copilot
-that allows users to create personalized experiences by declaring
-specific instructions, actions, and knowledge. This guide provides
-information about how to build a declarative agent by using Microsoft
-365 Agents Toolkit (an evolution of Teams Toolkit).
+声明性代理是 Microsoft 365 Copilot
+的自定义版本，允许用户通过声明特定说明、作和知识来创建个性化体验。本指南提供了有关如何使用
+Microsoft 365 Agents Toolkit （Teams Toolkit）
+的演变来构建声明性代理的信息。
 
-In this lab, you will build a poetic declarative agent.
+在本实验中，您将构建一个诗意的声明式代理。
 
-## Exercise 1: Create a declarative agent
+## 练习 1：创建声明性代理
 
-In this exercise, you will start with creating a basic declarative agent
-from the Visual Studio Code.
+在本练习中，您将从从 Visual Studio Code 创建基本的声明性代理开始。
 
-1.  From the VM, open **Visual Studio Code**.
+1.  在 VM 中，打开 **Visual Studio Code**。
 
-2.  Select **Extensions** from the left pane and type +++Microsoft 365
-    Agents Toolkit+++
+2.  从左窗格中选择 **Extensions** ，然后键入 +++Microsoft 365 Agents
+    Toolkit+++
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image1.png)
+![](./media/image1.png)
 
-3.  Select the **Microsoft 365 Agents Toolkit** and select **Install**
-    to install the extension.
+3.  选择 **Microsoft 365 Agents Toolkit**，然后选择 **Install** 安装
+    以安装扩展。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image2.png)
+![](./media/image2.png)
 
-4.  Select **Declarative Agent**.
+4.  选择 **Declarative Agent** （声明式代理）。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image3.png)
+![](./media/image3.png)
 
-5.  Select **No Action** to create a basic declarative agent.
+5.  选择 **No Action** （无作） 以创建基本的声明性代理。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image4.png)
+![](./media/image4.png)
 
-6.  Select **Default folder** to store your project root folder in the
-    default location.
+6.  选择 **Default folder** （默认文件夹）
+    以将项目根文件夹存储在默认位置。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image5.png)
+![](./media/image5.png)
 
-7.  Enter +++My Agent+++ as the **Application Name** and
-    press **Enter**.
+7.  输入 +++My Agent+++ 作为 **Application Name** ，然后按 **Enter**。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image6.png)
+![](./media/image6.png)
 
-8.  In the new Visual Studio Code window that opens, select **Microsoft
-    365 Agents Toolkit**.
+8.  在打开的新 Visual Studio Code 窗口中，选择 **Microsoft 365 Agents
+    Toolkit**。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image7.png)
+![](./media/image7.png)
 
-9.  Select **Provision** in the **Lifecycle** pane and then select
-    **Sign in** in the pop up that appears, to sign in to the Microsoft
-    365 account.
+9.  在 **Provision** 窗格中选择 **Lifecycle**
+    ，然后在出现的弹出窗口中选择 **Sign in** 以登录到 Microsoft 365
+    帐户。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image8.png)
+![](./media/image8.png)
 
-10. **Sign in** using the credentials from the Resources tab and close
-    the window once done.
+10. 使用 Resources （资源） 选项卡中的凭证 **Sign in**
+    ，并在完成后关闭窗口。
 
-    ![A black background with white text AI-generated content may be
-incorrect.](./media/image9.png)
+![](./media/image9.png)
 
-11. Now, the basic declarative agent creation is done.
+11. 现在，基本的声明性代理创建已完成。
 
-### Task 1: Test the agent
+### 任务 1：测试代理
 
-In this task, we will test the declarative agent that we have created.
+在此任务中，我们将测试我们创建的声明式代理。
 
-1.  Navigate to the Copilot application with the
-    URL +++https://m365.cloud.microsoft/chat+++.
+1.  导航到 <https://m365.cloud.microsoft/chat> 的 Copilot 应用程序。
 
-2.  In the top left, **select** the **conversation drawer icon**.
+2.  在左上角，**选择对话抽屉图标。**
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image10.png)
+> ![](./media/image10.png)
 
-3.  Select the declarative agent **My Agent**.
+3.  选择声明式代理 **My Agent** （我的代理）。
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image11.png)
+> ![](./media/image11.png)
 
-4.  Enter a question +++Hello! How can you help me?+++ for your
-    declarative agent and ensure that it replies with "Thanks for using
-    Microsoft 365 Agents Toolkit to create your declarative agent!"
+4.  输入问题 +++Hello! How can you help me?+++
+    您的声明性代理，并确保它回复“Thanks for using Microsoft 365 Agents
+    Toolkit to create your declarative agent!“
 
-    ![A screenshot of a chat AI-generated content may be incorrect.](./media/image12.png)
+> ![](./media/image12.png)
+>
+> 在本练习中，我们创建了一个基本的声明性代理并测试了其功能。
 
-    In this exercise, we have created a basic declarative agent and tested its functionality.
+## 练习 2：添加说明
 
-## Exercise 2: Add instructions
+在本练习中，我们将开始向在上一个练习中创建的声明式代理添加指令，并对其进行增强
 
-In this exercise, we will start adding instructions to the declarative
-agent that we created in the previous exercise and enhance it
+1.  在 Visual Studio Code 中，打开 **appPackage/instructions.txt**
+    文件并将其内容替换为以下文本。
 
-1.  From the Visual Studio Code, open
-    the **appPackage/instructions.txt** file and replace its contents
-    with the following text.
+> <span class="mark">You are a declarative agent and were created with
+> Microsoft 365 Agents Toolkit. You are an expert at creating
+> poems.</span>
+>
+> <span class="mark">Every time a user asks a question, you **must**
+> turn the answer into a poem. The poem **must** not use the quote
+> markdown and use regular text.</span>
+>
+> ![](./media/image13.png)
 
-    ```
-    You are a declarative agent and were created with Microsoft 365 Agents Toolkit. You are an expert at creating poems.
-    
-    Every time a user asks a question, you **must** turn the answer into a
-    poem. The poem **must** not use the quote markdown and use regular
-    text.
-    ```
+在置备期间，此文件的内容将插入到代理清单的指示 属性中。
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
+2.  在 Agents Toolkit 的 **Lifecycle** （生命周期） 窗格中选择
+    **Provision**（配置）。
 
-    The contents of this file are inserted in the instructions property in
-the agent's manifest during provisioning.
+![](./media/image14.png)
 
-2.  Select **Provision** in the **Lifecycle** pane of the Agents
-    Toolkit.
+3.  检查**预置**是否已**成功完成**。您可以在 Visual Studio Code
+    的右下角看到一条消息。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image14.png)
+> ![](./media/image15.png)
 
-3.  Check that the **provisioning** is completed **successfully**. You
-    can see a message at the bottom right of the Visual Studio Code.
+4.  在您重新加载页面后，声明式代理将使用您更新的说明。
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
+5.  刷新聊天页面，选择 **My Agent** 并输入 +++Do we have chocolate in
+    our food catalog? +++
 
-4.  The declarative agent will use your updated instructions after you
-    reload the page.
+![](./media/image16.png)
 
-5.  Refresh the chat page, select **My Agent** and type +++Do we have
-    chocolate in our food catalog?+++
+6.  观察代理给出一个诗意的答案。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image16.png)
+![](./media/image17.png)
 
-6.  Observe that the agent gives a poetic answer.
+7.  现在，将对话启动器添加到代理。
 
-    ![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image17.png)
+8.  打开 **appPackage/declarativeAgent.json** 文件，在
+    指示节点后添加**逗号**，按 Enter，然后粘贴以下代码。
 
-7.  Now, add conversation starters to the agent.
+"conversation_starters": \[
 
-8.  Open the **appPackage/declarativeAgent.json** file and right after
-    the instructions node add a **comma** press enter, and paste below
-    code.
+        {
 
-    ```
-    "conversation_starters": [
-            {
-                "title": "Getting Started",
-                "text": "How can I get started with Agents Toolkit?"
-            },
-            {
-                "title": "Getting Help",
-                "text": "How can I get help with Agents Toolkit?"
-            }
-        ]
-    ```
+            "title": "Getting Started",
 
-    ![A screen shot of a computer AI-generated content may be
-incorrect.](./media/image18.png)
+            "text": "How can I get started with Agents Toolkit?"
 
-9.  Select **Provision** in the Lifecycle pane of the **Microsoft 365
-    Agents Toolkit** and ensure that the provisioning gets completed
-    successfully.
+        },
 
-10. The updated conversation starters will be available in your
-    declarative agent after you **refresh** the page.
+        {
 
-11. **Refresh** the chat page to check the same.
+            "title": "Getting Help",
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image19.png)
+            "text": "How can I get help with Agents Toolkit?"
 
-## Exercise 3: Add web content
+        }
 
-In this exercise, you will add the ability to the agent to search the
-web content.
+    \]
 
-1.  Open the **appPackage/declarativeAgent.json** file and add
-    the capabilities array with the following content.
+![](./media/image18.png)
 
-    ```
-    "capabilities": [
-            {
-                "name": "WebSearch"
-            }
-        ]
-    ```
+9.  在 **Microsoft 365 代理工具包**的 生命周期 窗格中选择
+    “**Provision**” ，并确保预配成功完成。
 
-    ![A screenshot of a computer program AI-generated content may be incorrect.](./media/image20.png)
+10. **刷新**页面后，更新的对话启动器将在您的声明式代理中可用。
 
-2.  Select **Provision** in the Lifecycle pane of the **Microsoft 365
-    Agents Toolkit** and ensure that the provisioning gets completed
-    successfully.
+11. **刷新**聊天页面以检查相同的内容。
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
+![](./media/image19.png)
 
-    The declarative agent will have access to web content to generate its answers after you reload the page.
+## 练习 3：添加 Web 内容
 
-3.  Ask the agent, +++How can I build a declarative agent?+++ and
-    observe that the agent replies from the web.
+在本练习中，您将向代理添加搜索 Web 内容的功能。
 
-    ![A screenshot of a chat AI-generated content may be incorrect.](./media/image22.png)
+1.  打开 **appPackage/declarativeAgent.json** 文件并添加包含以下内容的
+    能力 数组。
 
-## Summary
+> "capabilities": \[
+>
+> {
+>
+> "name": "WebSearch"
+>
+> }
+>
+> \]
+>
+> ![](./media/image20.png)
 
-You've learnt to create the declarative agent for Microsoft 365 Copilot.
-You have also learnt to enhance the created agent with instructions and
-web content and test it at each stage.
+2.  在 **Microsoft 365 代理工具包**的 生命周期 窗格中选择
+    “**Provision**” ，并确保预配成功完成。
 
+> ![](./media/image21.png)
+>
+> 声明式代理将有权访问 Web 内容，以便在您重新加载页面后生成其答案。
+
+3.  询问代理，+++ How can I build a declarative agent? +++
+    并观察代理是否从 Web 进行回复。
+
+> ![](./media/image22.png)
+
+## 总结
+
+你已了解如何为 Microsoft 365 Copilot
+创建声明性代理。您还学习了如何使用说明和 Web
+内容来增强创建的代理，并在每个阶段对其进行测试。
