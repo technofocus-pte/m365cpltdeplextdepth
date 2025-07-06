@@ -1,129 +1,130 @@
-# Lab 0: Preparing for the lab execution
+# 实验 0：准备实验室执行
 
-## 1.  Log into your Lab Virtual Machine
+**1. 登录到 Lab Virtual Machine**
 
-On the Log-in screen, select **Admin** account in the lower left corner
-of the screen to sign-in to the lab virtual machine using the
-credentials provided under **Win 11 Base23B-22H2** in the **Resources
-tab** on the right (see screenshot).
+在 “登录” 屏幕上，选择屏幕左下角的 “**Admin** 帐户” ，以使用右侧
+“**Resources**” **选项卡** 中的 **Win 11 Base23B-22H2**
+下提供的凭据登录到实验室虚拟机（请参阅屏幕截图）。
 
-**Note**: Do not use the **Student** login.
+**注意：**请勿使用 **Student** 登录名。
 
 ![](./media/image1.png)
 
->**Note**: Reference documents used by the lab exercises are in **C:\LabFiles**. 
->When launching the lab environment, you may sometimes see the following message as shown in the screenshot. Click Download Files button to finish downloading the reference documents.
->
->![](./media/image1a.png)
+**注意：**实验练习使用的参考文档位于 **C：\LabFiles**
+中。启动实验室环境时，您有时可能会看到以下消息，如屏幕截图所示。单击
+Download Files 按钮完成参考文档的下载。
 
-## 2.  Complete setting up Microsoft 365 subscription and access Microsoft 365 Copilot
+![](./media/image2.png)
 
-1.  Open Microsoft Edge browser and enter the following
-    URL: +++https://m365.cloud.microsoft+++
+**2. 完成 Microsoft 365 订阅设置并访问 Microsoft 365 Copilot**
 
-2.  Use the **Credentials** provided under Azure Portal section in
-    the **Resources tab** on the right (see screenshot) to sign-in.
+1.  打开 Microsoft Edge 浏览器并输入以下
+    URL： +++<https://m365.cloud.microsoft>+++
 
-    ![](./media/image2a.png)
+2.  使用右侧 **Resources** （资源） **选项卡**中的 Azure 门户 部分提供的
+    **Credentials** （凭据） 登录（请参阅屏幕截图）。
 
-    ![](./media/image3a.png)
+![](./media/image3.png)
 
-    You will now be able to access all the Microsoft 365 applications and will have access to Microsoft 365 Copilot app and Copilot chat.
+![](./media/image4.png)
 
-## 3.  Access and launch Microsoft 365 applications
+您现在可以访问所有 Microsoft 365 应用程序，并可以访问 Microsoft 365
+Copilot 应用程序和 Copilot 聊天。
 
-You can access and launch the productivity applications from **Apps icon** (in the navigation pane on the left)
+**3. 访问和启动 Microsoft 365 应用程序**
 
-1.  To launch an application from **Apps** icon:
+您可以从 **Apps 图标**（位于左侧的导航窗格中）访问和启动生产力应用程序
 
-    In the navigation pane on the lower left, select **Apps** icon to select and open the office applications you need to work with.
+1.  要从 **Apps** 图标启动应用程序：
 
-    ![](./media/image4a.png)
+在左下角的导航窗格中，选择 **Apps** 图标以选择并打开您需要使用的 Office
+应用程序。
 
-2. If you do not find an application, then click **Install apps** or **All apps** to select the same.:
+![](./media/image5.png)
 
-   ![](./media/image4b.png)
+2.  如果找不到应用程序，请单击 **Install apps** 或 **All apps**
+    以选择相同的应用程序。
 
+![](./media/image6.png)
 
-## 4.  Upload lab assets to OneDrive
+**4. 将实验室资产上传到OneDrive**
 
-The lab assets (Reference documents) that you will be using in this
-hands-on lab session are available in **C:\LabFiles.**
+您将在此动手实验会话中使用的实验资源（参考文档）位于 **C：\LabFiles**
+中。
 
-**Note**: When you need to reference a file (a Word document, an Excel
-file, etc) into a Copilot prompt, the file MUST be saved in a OneDrive
-account. You can't link to a locally stored file on your PC.
+**注意：**当您需要将文件（Word 文档、Excel 文件等）引用到 Copilot
+提示符中时，该文件必须保存在 OneDrive 帐户中。您无法链接到 PC
+上本地存储的文件。
 
-1.  On the **Apps** page, select **OneDrive** to open it.
-   
-2.  Select **My files**
-    ![](./media/image6a.png)
-    
-3.  Browse to the **C:\LabFiles\MS4019** folder to select and upload a copy of
-    the document(s) to **OneDrive**.
-    ![](./media/image6b.png)
+1.  在 **Apps** 页面上，选择 **OneDrive** 将其打开。
 
-    **Note**: You can either choose to upload a copy of all the documents or the document(s) related to the particular lab.
+2.  选择 **My files** ![](./media/image7.png)
 
-    ![](./media/image6c.png)
+3.  浏览到 **C：\LabFiles\MS4019** 文件夹，选择文档副本并将其上传到
+    **OneDrive**。
+    ![](./media/image8.png)
 
-    Now you will have the document(s) in **OneDrive** to work with **Microsoft 365 Copilot** labs.
+**注意：**您可以选择上传所有文档的副本，也可以选择上传与特定练习相关的文档。
 
-## 5.  Create document library (Teams channel) and upload knowledge sources
+![](./media/image9.png)
 
-You will be using document libraries in Teams channels to upload
-knowledge resources to be used as reference documents in the hands-on
-lab session.
+现在，您将在 **OneDrive** 中拥有文档，以便与 **Microsoft 365 Copilot**
+实验室一起使用。
 
-1.  On the **Apps** page, select select **Teams**
+**5. 创建文档库（Teams 频道）并上传知识源**
 
-    ![](./media/image9a.png)
+您将使用 Teams
+频道中的文档库上传知识资源，以用作动手实验会话中的参考文档。
 
-2.  Click **Get Started**
+1.  在 “**Apps**” 页上，选择 “**Teams**”
 
-    ![](./media/image10.png)
+![](./media/image10.png)
 
-3.  Select **Teams** from the navigation pane on the left.
+2.  单击**Get Started**
 
-    ![](./media/image11.png)
+![](./media/image11.png)
 
-4.  Click **Join Team** under **Contoso Public**.
+3.  从左侧导航窗格中选择 **Teams**。
 
-    ![](./media/image12.png)
+![](./media/image12.png)
 
-    ![](./media/image13.png)
+4.  单击 **Contoso Public** 下的 **Join Team**。
 
-5.  Get back to **Teams** section and select **General**. This is the
-    document library where the reference documents will be uploaded.
+![](./media/image13.png)
 
-    ![](./media/image14.png)
+![](./media/image14.png)
 
-> **Note**: Wait for sometime for the files to get uploaded automatically. If the files are visible, please proceed to **Lab 01**.
-> 
-> If you don't see any files, then proceed to **step #6**
+5.  返回到 **Teams** 部分，然后选择
+    **General**。这是将上传参考文档的文档库。
 
-6.  Select **Files**.
+![](./media/image15.png)
 
-    ![](./media/image15.png)
+**注意：**请等待一段时间，以便文件自动上传。如果文件可见，请继续进行**实验
+01。**
 
-    ![](./media/image16.png)
+如果您没有看到任何文件，请继续执行**步骤 \#6**
 
-7.  Click **Upload** and select **Files**.
+6.  选择 **Files** （文件）。
 
-    ![](./media/image17.png)
+![](./media/image16.png)
 
-    ![](./media/image18.png)
+![](./media/image17.png)
 
-8.  Browse to **C:\LabFiles\MS4019**
+7.  单击 **Upload** 并选择 **Files** 。
 
-    ![](./media/image19.png)
+![](./media/image18.png)
 
-9.  Select **Contoso CipherGuard Product Specification** and **Trey
-    Research - VPN Technical Overview** and upload to the document
-    library.
+![](./media/image19.png)
 
-    ![](./media/image20a.png)
+8.  浏览至 **C:\LabFiles\MS4019**
 
-    ![](./media/image21.png)
+![](./media/image20.png)
 
-   You have now created the document library and uploaded the reference documents to be used as knowledge source.
+9.  选择 **Contoso CipherGuard Product Specification** 和 **Trey
+    Research - VPN Technical Overview** ，然后上传到文档库。
+
+![](./media/image21.png)
+
+![](./media/image22.png)
+
+现在，您已经创建了文档库并上传了要用作知识源的参考文档。
