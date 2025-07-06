@@ -1,196 +1,190 @@
-# Lab 02 - Create and configure an agent in Microsoft 365 Copilot chat
+# 实验 02 - 在 Microsoft 365 Copilot 聊天中创建和配置代理
 
-## Objective
+**目的**
 
-In this lab you will create and configure a Copilot agent using the
-Describe and Configure tabs.
+在本实验中，您将使用描述和配置选项卡创建和配置 Copilot 代理。
 
-You will use Copilot Studio Agent Builder:
+您将使用 Copilot Studio Agent Builder：
 
-- Create an agent using the Describe and Configure tabs in Copilot
-  Studio Agent Builder
+- 使用 Copilot Studio Agent Builder 中的 “描述” 和 “配置” 选项卡创建代理
 
-**Note**: The availability of the **Describe** tab is based on [**geographic availability and language
-support**](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
-If the **Describe** tab isn't supported in your region or preferred language, you can manually build your agent through the **Configure** tab.
+- **注： Describe** （描述） 选项卡的可用性取决于 [**geographic
+  availability and language
+  support**](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build)
+  （地理可用性和语言支持）。 如果您所在的区域或首选语言不支持
+  **Describe** （描述） 选项卡，您可以通过 **Configure** （配置）
+  选项卡手动构建代理。
 
-- Customize agent instructions, knowledge source and starter prompts.
+<!-- -->
 
-- Test and edit your agent.
+- 自定义代理说明、知识源和启动提示。
 
-- Manage and share your agent within your organization.
+- 测试和编辑您的代理。
 
-## Exercise 1: Create a Copilot Agent Using the Describe Tab
+- 在组织内管理和共享您的代理。
 
-In this exercise you will use the Describe tab in Copilot Studio to
-create a basic agent.
+**练习 1：使用 Describe 选项卡创建 Copilot 代理**
 
-1.  Open a Microsoft Edge browser and enter the following URL: +++https://m365.cloud.microsoft+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
+在本练习中，您将使用 Copilot Studio 中的 Describe 选项卡创建基本代理。
 
-    **Note**: You need to sign-in (if prompted) using the **Credentials** provided under the **Resources** tab on the right.
+1.  打开 Microsoft Edge 浏览器并输入以下 URL：
+    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) 转到
+    **Microsoft 365 Copilot 应用程序**（以前称为 Office）主页。
 
-2.  **Copilot Chat** page will open.
-    
-3.  If, for some reason, “**Something went wrong”** message appears,
-    click **Try again** (twice) to open Copilot app.
+**注意：**您需要使用右侧 **Resources （**资源） 选项卡下提供的
+**Credentials** （凭据） 登录（如果出现提示）。
 
-    ![](./media/image2.png)
+2.  **Copilot 聊天**页面将打开。
 
-    **Note**: Copilot Chat user interface may appear different when you are executing this lab (since Microsoft has rolled out new and updated features along with UI changes as part of Microsoft Build-2025 event).
-    ![](./media/image3.png)
-    
-    ![](./media/image3a.png)
-    
-4.  Click on **Create an agent**.
+3.  如果出于某种原因出现 **“Something went wrong”** 消息，请单击 **Try
+    again（**两次）以打开 Copilot 应用程序。
 
-    ![](./media/image4.png)
+![](./media/image1.png)
 
-5.  Copilot Studio Agent Builder will open.
+**注意：**当您执行此实验室时，Copilot Chat 用户界面可能会有所不同（因为
+Microsoft 已推出新功能和更新功能以及 UI 更改，作为 Microsoft Build-2025
+活动的一部分）。
 
-    ![](./media/image5.png)
+![](./media/image2.png)
 
-6.  In the **Describe tab**, enter the description of the agent's
-    purpose in natural language description.
+![](./media/image3.png)
 
-    In this exercise you will enter ++**An agent that assists users in finding popular learning paths and modules from Microsoft**++.
+4.  单击 **Create an agent**（创建代理）。
 
-    ![](./media/image6.png)
+![](./media/image4.png)
 
-7.  Click Submit to preview the draft agent.
+5.  Copilot Studio Agent Builder 将打开。
 
-8.  A draft agent with initial configurations set will get auto saved.
-    Review the auto-generated fields and make necessary adjustments. In
-    this exercise you will use the auto-generated fields as-is.
+![](./media/image5.png)
 
-    ![](./media/image7.png)
+6.  在 **Describe 选项卡**中，在 Natural language
+    描述中输入代理用途的描述。
 
-9.  You will be prompted to confirm or suggest a name for the agent. In
-    this exercise, assign the name as **LearnAssist Buddy.**
+在本练习中，您将输入 ++**An agent that assists users in finding popular
+learning paths and modules from Microsoft**++。
 
-    ![](./media/image8.png)
+![](./media/image6.png)
 
-    ![](./media/image9.png)
+7.  单击 Submit 以预览草稿代理。
 
-10. You have now created an agent with basic details. You will be
-    prompted to refine the instructions for the agent and make necessary
-    adjustments. In this exercise you will use the default settings to
-    expedite the creation process.
+8.  设置了初始配置的草稿代理将自动保存。查看自动生成的字段并进行必要的调整。在本练习中，您将按原样使用自动生成的字段。
 
-    ![](./media/image10.png)
+![](./media/image7.png)
 
-## Exercise 2: Configure Agent Details Using the Configure Tab
+9.  系统将提示您确认或建议代理的名称。在本练习中，将名称指定为
+    **LearnAssist Buddy**。
 
-In this exercise you will configure agent settings to fine-tune its
-behavior.
+![](./media/image8.png)
 
-**Note**: If you are creating an agent from Configure Tab directly, then
-you need to define the agent's name, description, and purpose.
+![](./media/image9.png)
 
-1.  Switch to the Configure tab in the Agent Builder.
+10. 您现在已经创建了一个包含基本详细信息的代理。系统将提示您完善代理的说明并进行必要的调整。在本练习中，您将使用默认设置来加快创建过程。
 
-    ![](./media/image11.png)
+![](./media/image10.png)
 
-2.  You can configure the agent's behavior settings, including response
-    tone and interaction style. In this exercise you will proceed with
-    the default instructions.
+**练习 2：使用 Configure 选项卡配置代理详细信息**
 
-    ![](./media/image12.png)
+在本练习中，您将配置代理设置以微调其行为。
 
-3.  You will now set up the knowledge sources the agent will use, such
-    as specific SharePoint sites, document libraries, and web sites. In
-    this exercise you will use a website as knowledge source to ground
-    the agent responses.
+**注意：**如果您直接从 Configure
+选项卡创建代理，则需要定义代理的名称、描述和用途。
 
-    Populate +++https://learn.microsoft.com/en-us/training+++ and hit enter.
+1.  切换到 Agent Builder 中的 Configure 选项卡。
 
-    ![](./media/image13.png)
+![](./media/image11.png)
 
-    ![](./media/image14.png)
+2.  您可以配置座席的行为设置，包括响应语气和交互样式。在本练习中，您将按照默认说明继续作。
 
-    **Note**: The website URL can’t be more than two levels deep. Also, the agent will search public websites if you don’t add a URL, and you turn web search on.
+![](./media/image12.png)
 
-    ![](./media/image15.png)
+3.  现在，您将设置代理将使用的知识源，例如特定的 SharePoint
+    站点、文档库和网站。在本练习中，您将使用网站作为知识源来为代理响应提供基础。
 
-4.  The configuration changes will be auto saved.
+填充 +++<https://learn.microsoft.com/en-us/training+++> 并按 Enter。
 
-    ![](./media/image16.png)
+![](./media/image13.png)
 
-5.  You have now completed configuring agent with customized settings
-    tailored to your organization's needs. You will now ensure the agent
-    functions as intended and make necessary adjustments.
+![](./media/image14.png)
 
-## Exercise 3: Testing and Editing the Agent
+**注意：**网站 URL 的深度不能超过两层。此外，如果您不添加
+URL，代理将搜索公共 Web 站点，并打开 Web 搜索。
 
-You will now test whether the agent responds based on the configuration
-settings.
+![](./media/image15.png)
 
-1.  You will now input the following prompt to assess the agent's response.
+4.  配置更改将自动保存。
 
-    ++**List the popular learning paths and modules offered by Microsoft**++.
+![](./media/image16.png)
 
-    ![](./media/image17.png)
+5.  您现在已经完成了使用根据组织需求定制的自定义设置配置代理。现在，您将确保代理按预期运行并进行必要的调整。
 
-2.  You can check the response by comparing it with the information
-    available in the URL entered used as knowledge source.
+**练习 3：测试和编辑代理**
 
-    ![](./media/image18.png)
+现在，您将测试代理是否根据配置设置进行响应。
 
-3.  You can also test the response by entering some irrelevant prompt.
+1.  现在，您将输入以下提示来评估代理的响应。
 
-    ++**Help me with instructions for baking cakes**++
+++**List the popular learning paths and modules offered by
+Microsoft**++.
 
-    ![](./media/image19.png)
+![](./media/image17.png)
 
-    The agent avoided providing answer based on the instruction “Avoid discussing topics unrelated to Microsoft learning paths and modules”.
+2.  您可以通过将响应与输入的用作知识源的 URL
+    中的可用信息进行比较来检查响应。
 
-    **Note**: The default instruction set in your case may be different. Please ensure that the instructions are properly configured to make the agent avoid providing the answer.
+![](./media/image18.png)
 
-4.  Return to the **Configure tab** to edit the agent's settings, instructions, or knowledge sources as needed.
+3.  您还可以通过输入一些不相关的提示来测试响应。
 
-5.  Once you are satisfied, click **Create** on the top right to publish the agent.
+++**Help me with instructions for baking cakes**++
 
-    ![](./media/image20.png)
+![](./media/image19.png)
 
-    ![](./media/image21.png)
+代理根据“避免讨论与 Microsoft
+学习路径和模块无关的主题”的说明避免提供答案。
 
-6.  Your LearnAssist Buddy agent is successfully created.
+**注意：**您的情况中的默认指令集可能有所不同。请确保正确配置说明，以使代理避免提供答案。
 
-    ![](./media/image22.png)
+4.  返回到 **Configure** （配置）
+    **选项卡**，根据需要编辑代理的设置、说明或知识源。
 
-## Exercise 4: Managing and Sharing the Agent
+5.  满意后，单击右上角的 **Create** 以发布代理。
 
-You will now deploy the agent within your organization and manage its
-accessibility.
+![](./media/image20.png)
 
-1.  Share the agent with specific users or groups by setting appropriate permissions.
+![](./media/image21.png)
 
-    ![](./media/image23.png)
+6.  您的 LearnAssist Buddy 代理已成功创建。
 
-    ![](./media/image24.png)
+![](./media/image22.png)
 
-2.  Make iterative improvements based on user feedback and performance metrics.
+**练习 4：管理和共享代理**
 
+现在，您将在组织内部署代理并管理其辅助功能。
 
-## Try yourself:
+1.  通过设置适当的权限，与特定用户或组共享代理。
 
-- Create an agent “Product Buddy” to get product details.
+![](./media/image23.png)
 
-- Map the knowledge source to document library that you created in “Lab
-  0 - Preparing for lab execution”
+![](./media/image24.png)
 
-  ![](./media/image25.png)
+2.  根据用户反馈和性能指标进行迭代改进。
 
-  ![](./media/image26.png)
+**试一试：**
 
-  ![](./media/image27.png)
+- 创建代理 “Product Buddy” 以获取产品详细信息。
 
-  ![](./media/image28.png)
+- 将数据源映射到您在“实验室 0 - 准备实验室执行”中创建的文档库
 
-- Test the agent by asking relevant product related prompts to check its
-  functioning.
+![](./media/image25.png)
 
-## Summary:
+![](./media/image26.png)
 
-You have now completed creating agents mapped with different knowledge
-sources and instruction sets to get the expected responses from the
-agents.
+![](./media/image27.png)
+
+![](./media/image28.png)
+
+- 通过询问相关产品相关提示来测试代理，以检查其功能。
+
+**总结：**
+
+您现在已经完成了创建与不同知识源和指令集映射的代理，以从代理获得预期的响应。
