@@ -1,384 +1,319 @@
+# 实验室 6 - 使用使用 Microsoft Copilot Studio 构建的 HR 代理扩展 Microsoft 365 Copilot 聊天
 
-# Lab 6 - Extend Microsoft 365 Copilot Chat with a HR Agent built using Microsoft Copilot Studio
+**目的**
 
-**Objective**
+在本实验中，您将学习如何使用使用 Microsoft Copilot Studio
+制作的声明性代理扩展 Microsoft 365 Copilot Chat。
+您还将学习如何将自定义作添加到您所做的代理。
 
-In this lab, you will learn how to extend Microsoft 365 Copilot Chat
-with a Declarative Agent made using Microsoft Copilot Studio.  You will
-also learn to add a custom action to the agent that you made.
+预计持续时间 – 45 分钟
 
-Estimated duration – 45 minutes
+## 练习 1：创建 Power Platform 环境
 
-## Exercise 1: Creating a Power Platform environment
+使用 Power
+Platform，您可以创建不同的环境，并根据您的需要轻松地在它们之间切换。环境存储应用程序、流、数据、代理等，每个环境都与任何其他环境完全隔离。在本练习中，您将创建一个新的专用环境，您将在其中执行其余的练习和任务。
 
-With the Power Platform, you can create different environments and
-easily switch between them accordingly to your needs. An environment
-stores apps, flows, data, agents, etc. and each environment is
-completely isolated from any other environment. In this exercise, you
-will create a new dedicated environment in which you will perform the
-remaining exercises and tasks.
+1.  打开浏览器，然后使用 **Resources** （资源）
+    选项卡中的登录凭证转到[https://admin.powerplatform.com](https://admin.powerplatform.com/)。
 
-1.  Open a browser and, using your login credentials from the
-    **Resources** tab, go
-    to +++https://admin.powerplatform.com+++.
+![](./media/image1.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image1.png)
+2.  选择 **Manage** ，然后在 **Environments** 下选择 + **New**。
 
-2.  Select **Manage** and then select **+ New** under **Environments**.
+![](./media/image2.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image2.png)
+3.  将 名称 提供为 +++**Dev env**+++，选择 **Type** 作为 **Developer**
+    ，然后单击 **Next**。在 **Add Dataverse** 屏幕中选择 **Save** 。
 
-3.  Provide the Name as +++**Dev env**+++, select the **Type** as
-    **Developer** and click on **Next**. Select **Save** in the **Add
-    Dataverse** screen.
+![](./media/image3.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image3.png)
+![](./media/image4.png)
 
-    ![A screenshot of a web page AI-generated content may be
-incorrect.](./media/image4.png)
+4.  新环境将创建，并在准备就绪后从 **Preparing** （正在准备） 更改为
+    **Ready** （就绪） 状态。
 
-4.  The new environment gets created and changes from **Preparing** to
-    **Ready** state once it is ready.
+![](./media/image5.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image5.png)
+![](./media/image6.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image6.png)
+## 练习 2：为 Microsoft 365 Copilot Chat 创建代理
 
-## Exercise 2 : Creating an agent for Microsoft 365 Copilot Chat
+在本练习中，你将使用 Microsoft Copilot Studio
+创建声明性代理，并将其托管在 Microsoft 365 Copilot Chat 中。
 
-In this exercise you are going to create a declarative agent with
-Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
+1.  使用 **Resources** （资源）
+    选项卡中的登录凭证登录到<https://copilotstudio.microsoft.com/>。
 
-1.  Login to +++https://https://copilotstudio.microsoft.com+++ using the
-    login credentials from the **Resources** tab.
+![](./media/image7.png)
 
-    ![](./media/image7.png)
+2.  选择我们在上一个练习中创建的 **Dev env** 环境。
 
-2.  Select the **Dev env** environment that we created in the previous
-    exercise.
+![](./media/image8.png)
 
-    ![](./media/image8.png)
+3.  要为 Microsoft 365 Copilot Chat 创建声明性代理，您需要先浏览 Copilot
+    Studio 中的代理列表，然后选择名为 **Microsoft 365 Copilot** 的代理。
 
-3.  To create a declarative agent for Microsoft 365 Copilot Chat you
-    need to first browse the list of agents in Copilot Studio and then
-    select the agent with name **Microsoft 365 Copilot**.
+4.  从左侧导航栏中选择 **Agents** ，然后从列表中选择 **Copilot for
+    Microsoft 365**。
 
-4.  Select **Agents** from the left navigation bar and select **Copilot
-    for Microsoft 365** from the list.
+![](./media/image9.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image9.png)
+5.  将打开 Microsoft Copilot Studio 的新部分。从那里，选择 **+ Add**
+    命令为 Microsoft 365 Copilot Chat 创建新代理。
 
-5.  A new section of Microsoft Copilot Studio will open. From there,
-    select the **+ Add** command to create a new agent for Microsoft 365
-    Copilot Chat.
+![](./media/image10.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image10.png)
+6.  Copilot Studio
+    要求您用自然语言描述代理的目的是什么。您可以定义代理程序要求。粘贴下面的提示以执行此作
 
-6.  Copilot Studio asks you to describe in natural language what is the
-    purpose of the agent. You can define your agent requirements. Paste
-    the prompt below to do so
+> **+++You are an agent helping employees to find information about HR
+> policies and procedures, about how to improve their career, and about
+> how to define learning pathways.+++**
 
-    **+++You are an agent helping employees to find information about HR policies and procedures, about how to improve their career, and about how to define learning pathways.+++**
+![](./media/image11.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image11.png)
+7.  当 Copilot Studio 请求时，为您的自定义代理指定名称 “Agentic
+    HR”。使用以下提示。
 
-7.  When requested by Copilot Studio, give the name "Agentic HR" to your
-    custom agent. Use the following prompt.
++++Name it as Agentic HR+++
 
-    +++Name it as Agentic HR+++
+![](./media/image12.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image12.png)
+8.  然后，按照以下说明指示 Copilot Studio 执行特定任务或目标：
 
-8.  Then, instruct Copilot Studio to have specific tasks or goals with
-    the following instruction:
+**+++Emphasize everything that helps team building, inclusion, and the
+growth mindset+++**
 
-    **+++Emphasize everything that helps team building, inclusion, and the growth mindset+++**
+![](./media/image13.png)
 
-    ![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image13.png)
+9.  然后，为您的座席定义专业语气，提供以下输入：
 
-9.  Then, define a professional tone for your agent, providing the
-    following input:
+**+++It should have a professional tone+++**
 
-    **+++It should have a professional tone+++**
+![](./media/image14.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image14.png)
+10. 描述完代理后，选择 **Create** 命令以创建实际代理。 
 
-10. Once you are done describing your agent, select
-    the **Create** command to create the actual agent. 
+![](./media/image15.png)
 
-    ![](./media/image15.png)
+![](./media/image16.png)
 
-    ![](./media/image16.png)
+## 练习 3：在 Microsoft 365 Copilot Chat 中发布代理
 
-## Exercise 3: Publishing the agent in Microsoft 365 Copilot Chat
+1.  从代理概述页面中选择 **Publish**。
 
-1.  Select **Publish** from the agent overview page.
+![](./media/image17.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image17.png)
+2.  在 **Publish agent** 屏幕中选择 **Publish**。
 
-2.  Select **Publish** in the **Publish agent** screen.
+![](./media/image18.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image18.png)
+> ![](./media/image19.png)
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
+3.  选择 **Share link** （共享链接） 下的 **Copy** （复制）
+    以复制链接，然后选择 **Done** （完成）。
 
-3.  Select **Copy** under **Share link** to copy the link and then
-    select **Done**.
+![](./media/image20.png)
 
-    ![](./media/image20.png)
+4.  打开一个新选项卡并粘贴复制的 URL。选择 **Add** 将 **Agentic HR**
+    添加到您的列表代理。
 
-4.  Open a new tab and paste the copied url. Select **Add** to add the
-    **Agentic HR** to your list agents.
+![](./media/image21.png)
 
-    ![](./media/image21.png)
+![](./media/image22.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image22.png)
+5.  在简介屏幕中选择 **Skip**。
 
-5.  Select **Skip** in the introduction screen.
+![](./media/image23.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image23.png)
+6.  现已添加 **Agentic HR** 代理。
 
-6.  The **Agentic HR** agent is now added.
+![](./media/image24.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image24.png)
+## 练习 4：创建 SharePoint 站点
 
-## Exercise 4: Create SharePoint site
+1.  在新浏览器中，导航到 +++https://m365.cloud.microsoft/chat/+++
+    从左侧窗格中选择 **Apps** ，然后在加载应用程序后选择
+    **SharePoint**。
 
-1.  In a new browser, navigate to +++https://m365.cloud.microsoft/chat/+++ Select **Apps** from the left pane and then select **SharePoint** once the Apps are loaded.
+> ![](./media/image25.png)
 
-    ![](./media/image25.png)
+2.  从 SharePoint 页面中选择 **+ Create** 站点。
 
-2.  Select **+ Create** site from the SharePoint page.
+![](./media/image26.png)
 
-    ![A screenshot of a browser AI-generated content may be
-incorrect.](./media/image26.png)
+3.  从 **Select the site type** （选择站点类型） 页中选择
+    **Communication site** （通信站点）。
 
-3.  Select **Communication** site from the **Select the site type**
-    page.
+![](./media/image27.png)
 
-    ![A screenshot of a web page AI-generated content may be
-incorrect.](./media/image27.png)
+4.  选择要使用的**模板**。
 
-4.  Select a **template** to be used.
+![](./media/image28.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image28.png)
+5.  选择 **Use template**（使用模板）。
 
-5.  Select **Use template**.
+![](./media/image29.png)
 
-    ![A screenshot of a website AI-generated content may be
-incorrect.](./media/image29.png)
+6.  输入 +++**Contoso site**+++ 作为 **Site name**
+    （站点名称），然后选择 **Next** （下一步）。
 
-6.  Enter +++**Contoso site+++** as the **Site name** and select
-    **Next.**
+![](./media/image30.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image30.png)
+7.  在下一个屏幕中，选择 **Create site** （创建站点）。
 
-7.  In the next screen, select **Create site**.
+![](./media/image31.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image31.png)
+8.  创建后，记下此站点的 **url**。
 
-8.  Once created, note down the **url** of this site.
+![](./media/image32.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image32.png)
+9.  从菜单栏中选择 **Documents**。选择 **Upload -\> Files**
 
-9.  Select **Documents** from the menu bar. Select **Upload -\> Files**
+![](./media/image33.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image33.png)
+10. 从 **C：\LabFiles** 中选择要上传
+    **Sample-list-of-candidates.xlsx**文件。
 
-10. Select **Sample-list-of-candidates.xlsx** file from **C:\LabFiles**
-    to be uploaded.
+![](./media/image34.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image34.png)
+## 练习 5：向代理添加作
 
-## Exercise 5: Adding an action to the agent
+在本练习中，您将向您创建的代理添加自定义作。在 Microsoft Copilot Studio
+中，为 Microsoft 365 Copilot Chat
+创建代理时，您可以添加四种不同类型的作：
 
-In this exercise you are going to add a custom action to the agent that
-you made. In Microsoft Copilot Studio, when making agents for Microsoft
-365 Copilot Chat, you can add four different types of actions:
+- 新建提示：允许使用通过自然语言编写的提示构建的 AI 作。
 
-- New prompt: allows consuming an AI action built using a prompt written
-  in natural language.
+- 新的 Power Automate 流：允许使用 Power Automate 流。
 
-- New Power Automate flow: allows consuming a Power Automate flow.
+- 新建自定义连接器：允许使用 Power Platform 自定义连接器。
 
-- New custom connector: allows consuming a Power Platform custom
-  connector.
+- 新的 REST API：允许使用外部 REST API...
 
-- New REST API: allows consuming an external REST API.
+1.  要添加新作，请在代理配置面板的 **Actions** （作） 部分中选择 **+ Add
+    action** （添加作）。
 
-1.  To add a new action, select **+ Add action** in
-    the **Actions** section of the agent's configuration panel.
+![](./media/image35.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image35.png)
+2.  选择 **List rows present in a table**（Excel online） 选项，然后选择
+    **Next**。
 
-2.  Select **List rows present in a table**(Excel online) option and
-    select **Next.**
+![](./media/image36.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image36.png)
+![](./media/image37.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image37.png)
+3.  在 **List rows in a table** （列出表中存在的行）
+    屏幕中，提供以下详细信息，然后选择 **Add action** （添加作）。
 
-3.  In the **List rows present in a table** screen, provide the below
-    details and select **Add action**.
+姓名- +++List HR candidates+++
 
-    Name - +++List HR candidates+++
-   
-    Description – +++List candidates for HR role+++
+描述 – +++List candidates for HR role+++
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image38.png)
+![](./media/image38.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image39.png)
+![](./media/image39.png)
 
-4.  Once the action is added, click on it to open and edit it.
+4.  添加作后，单击它以打开并编辑它。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image40.png)
+![](./media/image40.png)
 
-5.  Select the **Inputs** section.
+5.  选择 **Inputs** 部分。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image41.png)
+![](./media/image41.png)
 
-6.  Select **Set as a value** under **How will the agent fill this
-    input** for each of the input argument.
+6.  在 **How will the agent for each of the input
+    argument**（代理将如何为每个输入参数填充此输入）下选择 **Set as a
+    value**（设置为值）。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image42.png)
+![](./media/image42.png)
 
-7.  Select **Confirm** in changing the input settings dialog.
+7.  在更改输入设置对话框中选择 **Confirm**。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image43.png)
+![](./media/image43.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image44.png)
+![](./media/image44.png)
 
-8.  Provide the below values for each input.
+8.  为每个输入提供以下值。
 
-    **Location** – The Contoso site url that you saved in the earlier exercise.
-   
-    Document Library – +++**Documents**+++
-   
-    ile – +++**Sample-list-of-candidates.xlsx**+++
-   
-    Table – +++**Candidates_Table**+++
+**Location （位置） –** 您在前面的练习中保存的 Contoso 站点 URL。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image45.png)
+文档库 – +++**Documents**+++
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image46.png)
+文件 – +++**Sample-list-of-candidates.xlsx**+++
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image47.png)
+牌桌 – +++**Candidates_Table**+++
 
-9.  Once all the updates are done, select **Save**.
+![](./media/image45.png)
 
-    ![═䮴Ȏ AI-generated content may be incorrect.](./media/image48.png)
+![](./media/image46.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image49.png)
+![](./media/image47.png)
 
-10. Select **Publish** to publish the agent.
+9.  完成所有更新后，选择 **Save** （保存）。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image50.png)
+![](./media/image48.png)
 
-11. Select **Publish** again.
+![](./media/image49.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image51.png)
+10. 选择 **Publish** （发布） 以发布代理。
 
-12. **Copy** the url and **open** it from a browser.
+![](./media/image50.png)
 
-    ![A screenshot of a computer program AI-generated content may be
-incorrect.](./media/image52.png)
+11. 再次选择 **Publish** （发布）。
 
-13. This time, it will give an option to **Update now** since it is
-    already added. Select it.
+![](./media/image51.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image53.png)
+12. **复制** URL 并从浏览器中**打开**它。
 
-14. Select **Open** once it is updated.
+![](./media/image52.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image54.png)
+13. 这一次，它将提供一个选项 **Update now** 因为它已经添加。选择它。
 
-15. In the Agentic HR agent screen, send the below message.
+![](./media/image53.png)
 
-    +++Show me a list of candidates for HR with role “HR Director” or ”HR
-   Manager”+++
-   
-    ![A screenshot of a computer AI-generated content may be
-   incorrect.](./media/image55.png)
+14. 选择 **Open** 更新后。
 
-16. In the Data to be shared with Agentic HR message, select **Allow
-    once** option.
+![](./media/image54.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image56.png)
+15. 在 Agentic HR 代理屏幕中，发送以下消息。
 
-17. If it asks you to sign in, select the **Sign in to Agentic HR**
-    option and then select **Connect** in the next screen.
++++Show me a list of candidates for HR with role “HR Director” or ”HR
+Manager”+++
 
-    ![A screenshot of a computer AI-generated content may be
-   incorrect.](./media/image57.png)
-   
-    ![A screenshot of a computer AI-generated content may be
-   incorrect.](./media/image58.png)
+![](./media/image55.png)
 
-18. Select **Submit** once connected.
+16. 在 Data to be shared with Agentic HR 消息中，选择 **Allow once**
+    选项。
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image59.png)
+![](./media/image56.png)
 
-    ![A screenshot of a chat AI-generated content may be
-incorrect.](./media/image60.png)
+17. 如果系统要求您登录，请选择 “**Sign in to Agentic HR**”
+    选项，然后在下一个屏幕中选择 “**Connect**” 。
 
-19. Now, resend the below message to the agent.
+![](./media/image57.png)
 
-    +++Show me a list of candidates for HR with role “HR Director” or ”HR
-   Manager”+++
-   
-    ![A screenshot of a computer AI-generated content may be
-   incorrect.](./media/image61.png)
+![](./media/image58.png)
 
-20. You will then receive the requested list
+18. 连接后选择 **Submit** （提交）。
 
-    ![](./media/image62.png)
+![](./media/image59.png)
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image63.png)
+![](./media/image60.png)
 
-## Summary
+19. 现在，将以下消息重新发送给代理。
 
-In this lab, you have successfully learnt, how to use custom connectors
-in Copilot Studio.
++++Show me a list of candidates for HR with role “HR Director” or ”HR
+Manager”+++
+
+![](./media/image61.png)
+
+20. 然后，您将收到请求的列表
+
+![](./media/image62.png)
+
+![](./media/image63.png)
+
+## 总结
+
+在本实验中，您已成功学习了如何在 Copilot Studio 中使用自定义连接器。
