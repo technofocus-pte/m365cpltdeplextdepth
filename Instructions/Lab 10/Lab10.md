@@ -1,257 +1,251 @@
-# Lab 10: Implement prompt action for a quiz generation agent’s topic
+# 实验 10：为测验生成代理的主题实施提示作
 
-**Objective :** 
+**目的：**
 
-Prompt actions are one of the ways to extend Microsoft Copilots. They do this by creating business specific natural language actions. The actions are interpreted by the GPT model to perform the necessary action as instructed. These actions are wrapped within a AI plugin definition, which copilots can invoke at runtime when a matching intent or utterance is encountered.
+提示作是扩展 Microsoft Copilot
+的方法之一。他们通过创建特定于业务的自然语言作来实现这一点。GPT
+模型会解释这些作，以按照指示执行必要的作。这些作包装在 AI
+插件定义中，当遇到匹配的意图或话语时，Copilot 可以在运行时调用该定义。
 
-In this lab, you will learn to create a prompt action for a quiz generation topic which will generate quiz questions based on a given topic.
+在本实验中，您将学习为测验生成主题创建提示作，该作将根据给定主题生成测验问题。
 
-Estimated duration - 40 minutes
+## **练习 1：使用自然语言创建代理**
 
-## Exercise 1: Use natural language to create an agent
+1.  打开浏览器并登录到
+    +++<https://copilotstudio.microsoft.com/+++>，并使用 Resources
+    （资源） 选项卡中的凭据登录（如果您尚未进入该页面）。
 
-1.  Open a browser and login to +++https://copilotstudio.microsoft.com/+++ and login with the
-    credentials from the Resources tab if you are not in that page
-    already.
+![](./media/image1.png)
 
-    ![](./media/image1.png)
+2.  如果您已经在 Copilot Studio 页面上，请单击 **Home** 以转到主页。
 
-2.  If you are already on the Copilot Studio page, click on **Home** to
-    go to the Home page.
+![](./media/image2.png)
 
-    ![](./media/image2.png)
+3.  在主页上，在 描述您的代理 创建它的文本区域中，输入 +++ I want you to
+    be a question and answering assistant that can answer common
+    questions from users using the content of a website +++，然后单击
+    **Send**。
 
-3.  On the Home page, in the text area under Describe your agent to
-    create it, enter +++I want you to be a question and answering assistant that can answer common  questions from users using the content of a website+++ and click on **Send**.
+![](./media/image3.png)
 
-    ![](./media/image3.png)
+4.  它可能会建议代理的名称。要么接受它，要么提供你自己的名字。
 
-4.  It might suggest a name for the agent. Either accept it or provide
-    your own name.
+5.  提供有关代理功能的其他详细信息，如下所示。
 
-5.  Give other details regarding the functions of the agent like below.
+> +++help answer common product and support questions using the content
+> of a website, and help answer HR questions from an uploaded file+++
 
-    +++help answer common product and support questions using the content of a website, and help answer HR questions from an uploaded file+++
+6.  为将用作知识源的网站提供
+    +++[www.microsoft.com+++](http://www.microsoft.com+++/) 。
 
-6.  Provide +++www.microsoft.com+++ for the website that will be used a
-    sknowledge source.
+![](./media/image4.png)
 
-    ![](./media/image4.png)
+7.  完成提供说明后，单击 **Create** 创建您的代理。
 
-7.  Once done with giving instructions, click on **Create** to create
-    your agent.
+![](./media/image5.png)
 
-    ![](./media/image5.png)
+8.  代理随即创建并打开详细信息。滚动页面以了解代理已根据您提供的说明创建。
 
-8.  The agent gets created and opens up with the details. Scroll through
-    the page to understand that the agent has been created with the
-    instructions you have provided for it.
+![](./media/image6.png)
 
-    ![](./media/image6.png)
+![](./media/image7.png)
 
-    ![](./media/image7.png)
+9.  单击 **Test** 图标以测试代理。输入 ++What is Copilot
+    Studio+++，然后按 **Enter**。
 
-9.  Click on **Test** icon to Test the agent. Enter +++What is Copilot Studio+++ and hit **Enter**.
+![](./media/image8.png)
 
-    ![](./media/image8.png)
+10. 输入 +++What is the latest Xbox model?+++
 
-10. Enter +++What is the latest xbox model?+++
+![](./media/image9.png)
 
-    ![](./media/image9.png)
+> 对于上述两个步骤，您将从代理那里获得一个通用的答案，因为代理将使用其常识。
 
-For both the above steps, you will get an answer from the agent which
-will be a generic one since the agent will be using its general
-knowledge.
+## **练习 2：为生成式答案的主题创建提示作**
 
-## Exercise 2: Create a Prompt action for a Topic for generative answers
+作可用于扩展代理的功能。您可以在 Microsoft Copilot Studio
+中向代理添加多种类型的作：
 
-Actions can be used to extend the capabilities of agents. You can add
-multiple types of actions to your agents in Microsoft Copilot Studio:
+- **预构建的连接器作，**使用 Power Platform
+  连接器访问来自其他系统的数据，例如 Salesforce、Zendesk、MailChimp 和
+  GitHub 等流行的企业产品。
 
-- **Prebuilt connector action**, which use Power Platform connectors to
-  access data from other systems, such as popular enterprise products
-  like Salesforce, Zendesk, MailChimp, and GitHub.
+- **自定义连接器作，**其中可以构建连接器来访问来自公共或私有 API
+  的数据。
 
-- **Custom connector action**, where a connector can be built to access
-  data from public or private APIs.
+- **Power Automate 云端流，**使用 Power Automate
+  云端流来执行作、检索和处理数据。
 
-- **Power Automate cloud flow**, which use Power Automate cloud flows to
-  perform actions, retrieve and work with data.
+- **AI Builder 提示，**它使用 AI Builder
+  和自然语言理解来定位您业务中的特定场景和工作流。
 
-- **AI Builder prompts**, which use AI Builder and natural language
-  understanding to target the specific scenarios and workflows within
-  your business.
+- **Bot Framework
+  技能，**它使用概述技能可以执行的作的技能清单，包括其输入和输出参数、技能的终结点以及技能的调度模型。
 
-- **Bot Framework skill**, which use the skill manifest that outlines
-  the actions the skill can perform, including its input and output
-  parameters, the skill's endpoints, and dispatch models for the skill.
+在本练习中，您将学习如何向主题节点添加作提示
 
-In this exercise, you will learn how to add a prompt to action to a
-topic node
+1.  在您的代理中，选择 **Topics** 选项卡，选择 **+ Add a topic** 并选择
+    **From blank**。
 
-1.  In your agent select the **Topics** tab, select **+ Add a
-    topic** and select **From blank**.
+![](./media/image10.png)
 
-    ![](./media/image10.png)
+2.  将主题的名称输入为 +++ Generate questions for a quiz +++。在触发器的
+    Phrases 下选择 **Edit** 超链接。至少需要输入 5 个触发短语
 
-2.  Enter the name for the Topic as +++Generate questions for a quiz+++.
-    Select the **Edit** hyperlink under Phrases in the trigger. A
-    minimum of 5 trigger phrases needs to be entered
+> 逐个添加以下短语。添加每个短语，然后选择 + 选项以添加触发器。
+>
+> +++create a number of questions for a quiz based on a topic and format
+> the quiz based on the instruction provided+++
+>
+> +++creates a quiz with a number of questions based on the topic
+> provided and formats the quiz+++
+>
+> +++generate a quiz with a number of questions using the topic provide
+> and format the questions+++
+>
+> +++creates questions for a quiz on a specific topic and format+++
+>
+> +++format a quiz by a number of questions based on the topic
+> provided+++
+>
+> 选择右上角的 **Save** 以保存主题。
 
-    Add the below phrases one by one. Add each phrase and select + option to
-    add the trigger.
+![](./media/image11.png)
 
-    +++create a number of questions for a quiz based on a topic and format the quiz based on the instruction provided+++
+3.  单击 Trigger 节点下方的 + 符号。选择 **Add an action**
+    选项，然后选择 **New prompt （default AI model）** 选项。
 
-    +++creates a quiz with a number of questions based on the topic provided and formats the quiz+++
+![](./media/image12.png)
 
-    +++generate a quiz with a number of questions using the topic provide and format the questions+++
+![](./media/image13.png)
 
-    +++creates questions for a quiz on a specific topic and format+++
+4.  此时将显示 Prompt （提示）
+    对话框，并且您可能会看到一个浮出控件，该浮出控件将指导您如何创建提示。选择
+    **Next** 浏览指南。
 
-    +++format a quiz by a number of questions based on the topic provided+++
+5.  我们将创建提示，该提示将为测验生成问题。将提示的名称输入为 +++Quiz
+    Generator+++。
 
-    Select **Save** on the top right to save the topic.
+6.  将以下内容粘贴到 Prompt 字段中。
 
-    ![](./media/image11.png)
+> +++Generate a quiz with \[number\] questions to cover this \[topic\].
+> Decide on the format, such as multiple-choice questions or true/false
+> statements. Use this \[format\]. Designate the correct answer within
+> parentheses.+++
+>
+> 展开 **Input** 部分，然后选择 **+ Add input**。
 
-3.  Click on the **+** symbol below the Trigger node. Select the **Add an action** option and select **New prompt (default AI model)** option under that.
+![](./media/image14.png)
 
-    ![image](https://github.com/user-attachments/assets/01e47569-73ec-4246-979d-86d05cac15db)
+7.  选择 **Text** 在下面 **Add input** 选项。
 
+![](./media/image15.png)
 
-    ![image](https://github.com/user-attachments/assets/7352e083-01d0-401c-9b7b-4f4263ee9632)
+8.  输入名称 +++number+++，然后输入示例数据，例如 +++5+++。选择 **+ Add
+    input -\> Text** 以添加下一个输入。
 
+![](./media/image16.png)
 
-5.  The Prompt dialog will appear, and you may see a flyout appear that
-    will guide you on how to create your prompt. Select **Next** to go
-    through the guide.
+9.  将名称输入为 +++topic+++ 并输入示例数据，例如
+    +++Science+++，然后选择 **+ Add input -\> Text 以添加下一个输入**。
 
-6.  We'll create prompt that will generate questions for a quiz. Enter
-    the name for the prompt as +++Quiz Generator+++.
+\![\](./media/image16.png)
 
-7.  Paste the below content in the Prompt field.
+11. 输入名称 +++format+++ 并输入示例数据，例如 +++bullet points+++
 
-    +++Generate a quiz with [number] questions to cover this [topic].
-Decide on the format, such as multiple-choice questions or true/false
-statements. Use this [format]. Designate the correct answer within
-parentheses.+++
+![](./media/image17.png)
 
-    Expand the **Input** section and select **+ Add input**.
+12. 现在，我们已经添加了输入名称和示例数据。接下来，需要将输入插入到提示符中。在提示符中，突出显示
+    **\[number\]** 并选择 **+ Add** ，然后**在提示**符下选择
+    **number**。number 的输入现已作为输入添加到提示符中。
 
-    ![](./media/image13.png)
+![](./media/image18.png)
 
-8.  Select **Text** under the **Add input** option.
+![](./media/image19.png)
 
-    ![](./media/image14.png)
+13. 对其余输入重复相同的步骤。
 
-9.  Enter the name as +++number+++ and enter sample data such as
-    +++5+++. Select **+ Add input** -\> **Text** to add the next input.
+14. 将所有输入添加到提示符后，单击 **Test
+    prompt**（测试提示符）并观察提示符响应。
 
-    ![](./media/image15.png)
+![](./media/image20.png)
 
-10.  Enter the name as +++topic+++ and enter sample data such as
-    +++Science+++ and then select **+ Add input** -\> **Text** to add
-    the next input.
+15. 选择 **Save** 以保存提示。
 
-     ![](./media/image16.png)
+![](./media/image21.png)
 
-11. Enter the name as +++format+++ and enter sample data such as
-    +++bullet points+++
+16. 提示作节点现在将显示在 Topic 的创作画布中。接下来，需要定义 input
+    参数的值，以便代理程序填充它们。选择\>图标
 
-    ![](./media/image17.png)
+![](./media/image22.png)
 
-12. Now that we have added the input names and example data. Next, the
-    inputs need to be inserted into the prompt. In the Prompt, highlight **[number]** and select **+ Add** and select **number** under **In your prompt**. The input of
-    number has now been added to the prompt as an input.
+17. 选择 **System** 选项卡，然后选择 **Acivity.Text**
+    作为作的输入值，以使用用户的整个响应并标识格式值。
 
-    ![](./media/image18.png)
+![](./media/image23.png)
 
-    ![](./media/image19a.png)
+18. 对提示作的其余输入参数重复相同的作。
 
-13. Repeat the same steps for the remaining inputs.
+![](./media/image24.png)
 
-14. Once all the inputs are added to the prompt, click on **Test
-    prompt** and observe the prompt response.
+19. 接下来，我们需要定义 prompt作的 output
+    变量。这样，就可以在主题的下游引用响应。选择 **\>** 图标，然后在
+    **Custom** 选项卡中，选择 **Create new** 并将变量命名为
+    +++**VarQuizQuestionsResponse**+++。
 
-    ![](./media/image20.png)
+![](./media/image25.png)
 
-15. Select **Save** to save the prompt.
+![](./media/image26.png)
 
-    ![](./media/image21a.png)
+20. 在 Prompt作下，选择 + 图标以添加新节点，然后选择 **Send a
+    message**。选择 {**x**} 变量图标。
 
-16. The prompt action node will now appear in the authoring canvas of
-    the Topic. Next, the values of the input parameter need to be
-    defined in order for the agent to populate them. Select
-    the **\>** icon
+![](./media/image27.png)
 
-    ![](./media/image22.png)
+21. 选择变量 **VarQuizQuestionsResponse.text**。这会将提示作响应的
+    文本属性添加到 send a message 节点。选择 **Save** （保存）
+    以保存您的主题。
 
-17. Select the **System** tab and select the **Acivity.Text** as the
-    input value for the action to use the user’s entire response and
-    identify the format value.
+![](./media/image28.png)
 
-    ![](./media/image23.png)
+22. 接下来需要更新 Topic details （主题详细信息）
+    ，当启用生成模式时，您的代理将使用该详细信息将主题与用户的意图相关联。选择
+    **Details** （详细信息） 并输入以下内容。
 
-18. Repeat the same for the remaining input parameters of the prompt
-    action.
+    - 显示名称 - +++generate questions for a quiz+++
 
-    ![](./media/image24.png)
+    - 描述 - +++This topic creates questions for a quiz based on the
+      number of questions, the topic and format provided by the user+++
 
-19. Next, we need to define the output variable of the prompt action.
-    This is so that the response can be referenced downstream in the
-    topic. Select the **\>** icon and in the **Custom** tab,
-    select **Create new** and and name the variable as +++**VarQuizQuestionsResponse**+++. 
+选择 **Save** （保存） 以保存您的主题。
 
-    ![](./media/image25.png)
+![](./media/image29.png)
 
-    ![](./media/image26.png)
+23. 现在，需要启用 **Generative mode** （生成模式）
+    设置，代理才能使用提示作调用主题。为您的代理选择
+    **Settings**（设置）。
 
-20. Below the Prompt action, select the **+** icon to add a new node and
-    select **Send a message**. Select the **{x}** variable icon.
+![](./media/image30.png)
 
-    ![](./media/image27.png)
+24. 选择 **Generative AI** （生成式 AI） 设置，然后选择 **Generate
+    （preview）** （生成（预览）），然后选择 **Save** （保存）。
 
-21. Select the variable **VarQuizQuestionsResponse.text**. This will add
-    the text property of the prompt action response to the send a
-    message node. Select **Save** to save your topic.
+![](./media/image31.png)
 
-    ![](./media/image28.png)
+25. 现在我们准备好测试代理。在测试窗格中，选择**刷新**图标。然后输入以下问题并观察输出。
 
-22. The Topic details needs to be updated next which will be used by
-    your agent to associate the topic with the user's intent when
-    Generative mode is enabled. Select **Details** and enter the following.
++++Create 5 questions for a quiz based on geography and format the quiz
+as multi choice+++
 
-    - Display name - +++generate questions for a quiz+++
+> ![](./media/image32.png)
+>
+> ![](./media/image33.png)
 
-    - Description - +++This topic creates questions for a quiz based on the number of questions, the topic and format provided by the user+++
+**总结**
 
-    Select **Save** to save your topic.
+在本实验中，我们学习了如何通过创建自定义提示来为主题创建提示作并对其进行测试。
 
-    ![](./media/image29.png)
+m365cpltdeplextdepth/Instructions/Lab 10/Lab10.md at
+m365cpltdeplextdepth-Dec2K24 · technofocus-pte/m365cpltdeplextdepth
 
-23. Now, the **Generative mode** setting needs to be enabled for the
-    agent to call the topic with the prompt action. Select **Settings**
-    for your agent.
-
-    ![](./media/image30.png)
-
-24. Select the **Generative AI** setting and select **Generate
-    (preview)** followed by selecting **Save**.
-
-    ![](./media/image31.png)
-
-25. Now we are ready to test the agent. In the test pane, select
-    the **refresh** icon. Then enter the following question and observe
-    the output.
-
-    +++Create 5 questions for a quiz based on geography and format the quiz as multi choice+++
-
-    ![](./media/image32.png)
-
-    ![](./media/image33.png)
-
-## Summary
-
-In this lab, we have learnt how to create a prompt action for a topic by
-creating a custom prompt and test it.
+ 
