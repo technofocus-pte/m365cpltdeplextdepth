@@ -1,93 +1,97 @@
-# 使用 Microsoft 365 Agents Toolkit 构建诗意的声明性代理
+# 실습: Microsoft 365 에이전트 도구 키트를 사용하여 시적 선언 에이전트 구축하기
 
-**目的**
+**목표**
 
-声明性代理是 Microsoft 365 Copilot
-的自定义版本，允许用户通过声明特定说明、作和知识来创建个性化体验。本指南提供了有关如何使用
-Microsoft 365 Agents Toolkit （Teams Toolkit）
-的演变来构建声明性代理的信息。
+선언적 에이전트는 사용자가 특정 지침, 작업 및 지식을 선언하여 개인화된
+환경을 만들 수 있도록 하는 Microsoft 365 Copilot의 사용자 지정
+버전입니다. 이 가이드에서는 Microsoft 365 Agents Toolkit(Teams Toolkit의
+발전된 버전)을 사용하여 선언적 에이전트를 구축하는 방법에 대한 정보를
+제공합니다.
 
-在本实验中，您将构建一个诗意的声明式代理。
+이 실습에서는 시적 선언적 에이전트를 구축합니다.
 
-## 练习 1：创建声明性代理
+## 연습 1: 선언적 에이전트 만들기
 
-在本练习中，您将从从 Visual Studio Code 创建基本的声明性代理开始。
+이 연습에서는 Visual Studio Code에서 기본 선언적 에이전트를 만드는
+것으로 시작합니다.
 
-1.  在 VM 中，打开 **Visual Studio Code**。
+1.  VM에서 **Visual Studio Code**를 엽니다.
 
-2.  从左窗格中选择 **Extensions** ，然后键入 +++Microsoft 365 Agents
-    Toolkit+++
+2.  왼쪽 창에서 **Extensions**을 선택하고 +++Microsoft 365 Agents
+    Toolkit+++을 입력합니다.
 
 ![](./media/image1.png)
 
-3.  选择 **Microsoft 365 Agents Toolkit**，然后选择 **Install** 安装
-    以安装扩展。
+3.  **Microsoft 365 Agents Toolkit**를 선택하고 **Install**를 선택하여
+    확장 프로그램을 설치합니다.
 
 ![](./media/image2.png)
 
-4.  选择 **Declarative Agent** （声明式代理）。
+4.  **Declarative Agent**를 선택합니다.
 
 ![](./media/image3.png)
 
-5.  选择 **No Action** （无作） 以创建基本的声明性代理。
+5.  기본 선언적 에이전트를 만들려면 **No Action** 을 선택합니다.
 
 ![](./media/image4.png)
 
-6.  选择 **Default folder** （默认文件夹）
-    以将项目根文件夹存储在默认位置。
+6.  **Default folder** 를 선택하여 프로젝트 루트 폴더를 기본 위치에
+    저장합니다.
 
 ![](./media/image5.png)
 
-7.  输入 +++My Agent+++ 作为 **Application Name** ，然后按 **Enter**。
+7.  **Application Name**으로 +++My Agent+++를 입력하고 **Enter**를
+    누릅니다.
 
 ![](./media/image6.png)
 
-8.  在打开的新 Visual Studio Code 窗口中，选择 **Microsoft 365 Agents
-    Toolkit**。
+8.  새로 열리는 Visual Studio Code 창에서 **Microsoft 365 Agents
+    Toolkit**을 선택합니다.
 
 ![](./media/image7.png)
 
-9.  在 **Provision** 窗格中选择 **Lifecycle**
-    ，然后在出现的弹出窗口中选择 **Sign in** 以登录到 Microsoft 365
-    帐户。
+9.  **Lifecycle** 창에서 **Provision**을 선택한 다음, 나타나는 팝업에서
+    로그인을 선택하여 Microsoft 365 계정에 **Sign in**합니다.
 
 ![](./media/image8.png)
 
-10. 使用 Resources （资源） 选项卡中的凭证 **Sign in**
-    ，并在完成后关闭窗口。
+10. Resources탭의 자격 증명을 사용하여 로그인한 후 창을 닫습니다.
 
 ![](./media/image9.png)
 
-11. 现在，基本的声明性代理创建已完成。
+11. 이제 기본적인 선언적 에이전트 생성이 완료되었습니다.
 
-### 任务 1：测试代理
+### 작업 1: 에이전트 테스트하기
 
-在此任务中，我们将测试我们创建的声明式代理。
+이 작업에서는 생성한 선언적 에이전트를 테스트합니다.
 
-1.  导航到 <https://m365.cloud.microsoft/chat> 的 Copilot 应用程序。
+1.  URL <https://m365.cloud.microsoft/chat>을 사용하여 Copilot
+    애플리케이션으로 이동합니다.
 
-2.  在左上角，**选择对话抽屉图标。**
+2.  왼쪽 상단에서 **conversation drawer icon**을 선택합니다.
 
 > ![](./media/image10.png)
 
-3.  选择声明式代理 **My Agent** （我的代理）。
+3.  선언적 에이전트인 **My Agent**를 선택합니다.
 
 > ![](./media/image11.png)
 
-4.  输入问题 +++Hello! How can you help me?+++
-    您的声明性代理，并确保它回复“Thanks for using Microsoft 365 Agents
-    Toolkit to create your declarative agent!“
+4.  선언적 에이전트에 대한 질문 +++Hello! How can you help me?+++를
+    입력하고 "Thanks for using Microsoft 365 Agents Toolkit to create
+    your declarative agent!"라는 답글이 있는지 확인하세요.
 
 > ![](./media/image12.png)
 >
-> 在本练习中，我们创建了一个基本的声明性代理并测试了其功能。
+> 이 연습에서는 기본적인 선언적 에이전트를 만들고 기능을
+> 테스트했습니다..
 
-## 练习 2：添加说明
+## 연습 2: 명령어 추가하기
 
-在本练习中，我们将开始向在上一个练习中创建的声明式代理添加指令，并对其进行增强
+이 연습에서는 이전 연습에서 만든 선언적 에이전트에 명령어를 추가하고
+개선해 보겠습니다.
 
-1.  在 Visual Studio Code 中，打开 **appPackage/instructions.txt**
-    文件并将其内容替换为以下文本。
+1.  Visual Studio Code에서 **appPackage/instructions.txt** 파일을 열고
+    내용을 다음 텍스트로 바꿉니다.
 
 > <span class="mark">You are a declarative agent and were created with
 > Microsoft 365 Agents Toolkit. You are an expert at creating
@@ -99,33 +103,34 @@ Microsoft 365 Agents Toolkit （Teams Toolkit）
 >
 > ![](./media/image13.png)
 
-在置备期间，此文件的内容将插入到代理清单的指示 属性中。
+이 파일의 내용은 프로비저닝 중에 에이전트 매니페스트의 'instructions'
+속성에 삽입됩니다.
 
-2.  在 Agents Toolkit 的 **Lifecycle** （生命周期） 窗格中选择
-    **Provision**（配置）。
+2.  에이전트 툴킷의 **Lifecycle**창에서 **Provision**을 선택합니다.
 
 ![](./media/image14.png)
 
-3.  检查**预置**是否已**成功完成**。您可以在 Visual Studio Code
-    的右下角看到一条消息。
+3.  **Provisioning**이 성공적으로 완료되었는지 확인하세요. Visual Studio
+    Code 오른쪽 하단에 메시지가 표시됩니다.
 
 > ![](./media/image15.png)
 
-4.  在您重新加载页面后，声明式代理将使用您更新的说明。
+4.  페이지를 새로 고침하면 선언적 에이전트가 업데이트된 지침을
+    사용합니다.
 
-5.  刷新聊天页面，选择 **My Agent** 并输入 +++Do we have chocolate in
-    our food catalog? +++
+5.  채팅 페이지를 새로 고침하고 **My Agent**를 선택한 후 type +++Do we
+    have chocolate in our food catalog?+++을 입력합니다.
 
 ![](./media/image16.png)
 
-6.  观察代理给出一个诗意的答案。
+6.  에이전트가 시적인 답변을 하는 것을 살펴보세요.
 
 ![](./media/image17.png)
 
-7.  现在，将对话启动器添加到代理。
+7.  이제 에이전트에 대화 시작 요소를 추가합니다.
 
-8.  打开 **appPackage/declarativeAgent.json** 文件，在
-    指示节点后添加**逗号**，按 Enter，然后粘贴以下代码。
+8.  **appPackage/declarativeAgent.json** 파일을 열고 지침 노드 바로 뒤에
+    쉼표를 추가하고 Enter 키를 누른 후 아래 코드를 붙여넣습니다.
 
 "conversation_starters": \[
 
@@ -149,21 +154,22 @@ Microsoft 365 Agents Toolkit （Teams Toolkit）
 
 ![](./media/image18.png)
 
-9.  在 **Microsoft 365 代理工具包**的 生命周期 窗格中选择
-    “**Provision**” ，并确保预配成功完成。
+9.  **Microsoft 365 Agents Toolkit**의 Lifecycle창에서 **Provision**을
+    선택하고 프로비저닝이 성공적으로 완료되었는지 확인하세요.
 
-10. **刷新**页面后，更新的对话启动器将在您的声明式代理中可用。
+10. 페이지를 새로 고치면 업데이트된 대화 시작 도구가 선언적 에이전트에
+    표시됩니다.
 
-11. **刷新**聊天页面以检查相同的内容。
+11. 채팅 페이지를 **새로 고쳐** 동일한 내용을 확인합니다.
 
 ![](./media/image19.png)
 
-## 练习 3：添加 Web 内容
+## 연습 3: 웹 콘텐츠 추가하기
 
-在本练习中，您将向代理添加搜索 Web 内容的功能。
+이 연습에서는 에이전트에 웹 콘텐츠를 검색하는 기능을 추가합니다.
 
-1.  打开 **appPackage/declarativeAgent.json** 文件并添加包含以下内容的
-    能力 数组。
+1.  **appPackage/declarativeAgent.json**  파일을 열고 다음 내용이 포함된
+    기능 배열을 추가합니다.
 
 > "capabilities": \[
 >
@@ -177,20 +183,19 @@ Microsoft 365 Agents Toolkit （Teams Toolkit）
 >
 > ![](./media/image20.png)
 
-2.  在 **Microsoft 365 代理工具包**的 生命周期 窗格中选择
-    “**Provision**” ，并确保预配成功完成。
+2.  **Microsoft 365 Agents Toolkit**의 Lifecycle 창에서 **Provision**을
+    선택하고 프로비저닝이 성공적으로 완료되는지 확인합니다.
 
 > ![](./media/image21.png)
 >
-> 声明式代理将有权访问 Web 内容，以便在您重新加载页面后生成其答案。
+> 선언적 에이전트는 페이지를 새로 고침한 후 웹 콘텐츠에 접근하여 답변을
+> 생성합니다.
 
-3.  询问代理，+++ How can I build a declarative agent? +++
-    并观察代理是否从 Web 进行回复。
+3.  에이전트에게 "++++ How can I build a declarative agent?+++ "라고
+    질문하고 에이전트가 웹에서 답변하는지 확인합니다.
 
 > ![](./media/image22.png)
 
-## 总结
+## 요약
 
-你已了解如何为 Microsoft 365 Copilot
-创建声明性代理。您还学习了如何使用说明和 Web
-内容来增强创建的代理，并在每个阶段对其进行测试。
+## Microsoft 365 Copilot용 선언적 에이전트를 만드는 방법을 배웠습니다. 또한, 생성된 에이전트에 지침과 웹 콘텐츠를 추가하여 개선하고 각 단계에서 테스트하는 방법도 배웠습니다.
