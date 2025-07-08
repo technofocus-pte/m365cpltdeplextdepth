@@ -1,131 +1,136 @@
-# 使用 Microsoft 365 Agents Toolkit 构建诗意的声明性代理
+# **Microsoft 365 Agents Toolkit を使用して詩的な宣言型エージェントを構築する**
 
 **目的**
 
-声明性代理是 Microsoft 365 Copilot
-的自定义版本，允许用户通过声明特定说明、作和知识来创建个性化体验。本指南提供了有关如何使用
-Microsoft 365 Agents Toolkit （Teams Toolkit）
-的演变来构建声明性代理的信息。
+宣言型エージェントは、Microsoft 365 Copilot のカスタマイズ
+バージョンであり、ユーザーは特定の指示、アクション、知識を宣言することでパーソナライズされたエクスペリエンスを作成できます。このガイドでは、Microsoft
+365 Agents Toolkit (Teams Toolkit の進化版)
+を使用して宣言型エージェントを構築する方法について説明します。
 
-在本实验中，您将构建一个诗意的声明式代理。
+このラボでは、詩的な宣言型エージェントを作成します。
 
-## 练习 1：创建声明性代理
+## **演習 1: 宣言型エージェントを作成する**
 
-在本练习中，您将从从 Visual Studio Code 创建基本的声明性代理开始。
+この演習では、まず Visual Studio Code
+から基本的な宣言型エージェントを作成します。
 
-1.  在 VM 中，打开 **Visual Studio Code**。
+1.  VM から **Visual Studio Code** を開きます。
 
-2.  从左窗格中选择 **Extensions** ，然后键入 +++Microsoft 365 Agents
-    Toolkit+++
+2.  左側のウィンドウから \[**拡張機能**\] を選択し、「+++Microsoft 365
+    Agents Toolkit+++」と入力します
 
 ![](./media/image1.png)
 
-3.  选择 **Microsoft 365 Agents Toolkit**，然后选择 **Install** 安装
-    以安装扩展。
+3.  **Microsoft 365 Agents Toolkit** を選択し、**\[Install\]**
+    を選択して拡張機能をインストールします。
 
 ![](./media/image2.png)
 
-4.  选择 **Declarative Agent** （声明式代理）。
+4.  「**Declarative Agent」**を選択します。
 
 ![](./media/image3.png)
 
-5.  选择 **No Action** （无作） 以创建基本的声明性代理。
+5.  \[**No Action**\]
+    を選択して、基本的な宣言型エージェントを作成します。
 
 ![](./media/image4.png)
 
-6.  选择 **Default folder** （默认文件夹）
-    以将项目根文件夹存储在默认位置。
+6.  \[**Default folder**\] を選択して、プロジェクトのルート
+    フォルダーを既定の場所に保存します。
 
 ![](./media/image5.png)
 
-7.  输入 +++My Agent+++ 作为 **Application Name** ，然后按 **Enter**。
+7.  \[**Application Name\] に「+++My Agent+++」と入力し** 、**Enter
+    キーを押します**。
 
 ![](./media/image6.png)
 
-8.  在打开的新 Visual Studio Code 窗口中，选择 **Microsoft 365 Agents
-    Toolkit**。
+8.  開いた新しい Visual Studio Code ウィンドウで、\[**Microsoft 365
+    Agents Toolkit\]** を選択します。
 
 ![](./media/image7.png)
 
-9.  在 **Provision** 窗格中选择 **Lifecycle**
-    ，然后在出现的弹出窗口中选择 **Sign in** 以登录到 Microsoft 365
-    帐户。
+9.  **\[Lifecycle\]** ウィンドウで **\[Provision**\]
+    を選択し、表示されるポップアップで \[**Sign in**\]
+    を選択して、Microsoft 365 アカウントにサインインします。
 
 ![](./media/image8.png)
 
-10. 使用 Resources （资源） 选项卡中的凭证 **Sign in**
-    ，并在完成后关闭窗口。
+10. \[リソース\]
+    タブの資格情報を使用して**サインイン**し、完了したらウィンドウを閉じます。
 
 ![](./media/image9.png)
 
-11. 现在，基本的声明性代理创建已完成。
+11. これで、基本的な宣言型エージェントの作成が完了しました。
 
-### 任务 1：测试代理
+### **タスク 1: エージェントのテスト**
 
-在此任务中，我们将测试我们创建的声明式代理。
+このタスクでは、作成した宣言型エージェントをテストします。
 
-1.  导航到 <https://m365.cloud.microsoft/chat> 的 Copilot 应用程序。
+1.  URL <https://m365.cloud.microsoft/chat>で Copilot
+    アプリケーションに移動します。
 
-2.  在左上角，**选择对话抽屉图标。**
+2.  左上の **conversation drawer iconを選択します**。
 
 > ![](./media/image10.png)
 
-3.  选择声明式代理 **My Agent** （我的代理）。
+3.  宣言型エージェント \[**My Agent\] を選択します**。
 
 > ![](./media/image11.png)
 
-4.  输入问题 +++Hello! How can you help me?+++
-    您的声明性代理，并确保它回复“Thanks for using Microsoft 365 Agents
-    Toolkit to create your declarative agent!“
+4.  質問を入力してください +++Hello! How can you help me?+++、「Thanks
+    for using Microsoft 365 Agents Toolkit to create your declarative
+    agent!」と返信することを確認します。
 
 > ![](./media/image12.png)
 >
-> 在本练习中，我们创建了一个基本的声明性代理并测试了其功能。
+> この演習では、基本的な宣言型エージェントを作成し、その機能をテストしました。
 
-## 练习 2：添加说明
+## **演習 2: 指示を追加する**
 
-在本练习中，我们将开始向在上一个练习中创建的声明式代理添加指令，并对其进行增强
+この演習では、前の演習で作成した宣言型エージェントに指示を追加し、拡張します
 
-1.  在 Visual Studio Code 中，打开 **appPackage/instructions.txt**
-    文件并将其内容替换为以下文本。
+1.  Visual Studio Code から **appPackage/instructions.txt**
+    ファイルを開き、その内容を次のテキストに置き換えます。
 
-> <span class="mark">You are a declarative agent and were created with
-> Microsoft 365 Agents Toolkit. You are an expert at creating
-> poems.</span>
+> <span class="mark">宣言型エージェントであり、Microsoft 365 Agents
+> Toolkit を使用して作成されました。あなたは詩を作る専門家です。</span>
 >
-> <span class="mark">Every time a user asks a question, you **must**
-> turn the answer into a poem. The poem **must** not use the quote
-> markdown and use regular text.</span>
+> <span class="mark">ユーザーが質問するたびに、その
+> 答えを詩に変える必要があります。詩は
+> 引用符を使用し、通常のテキストを使用して**はなりません**。</span>
 >
 > ![](./media/image13.png)
 
-在置备期间，此文件的内容将插入到代理清单的指示 属性中。
+このファイルの内容は、プロビジョニング中にエージェントのマニフェストの
+instructions プロパティに挿入されます。
 
-2.  在 Agents Toolkit 的 **Lifecycle** （生命周期） 窗格中选择
-    **Provision**（配置）。
+2.  Agents Toolkit の **\[Lifecycle**\] ペインで \[**Provision**\]
+    を選択します。
 
 ![](./media/image14.png)
 
-3.  检查**预置**是否已**成功完成**。您可以在 Visual Studio Code
-    的右下角看到一条消息。
+3.  プロビジョニングが正常に完了したことを確認します。Visual Studio Code
+    の右下にメッセージが表示されます。
 
 > ![](./media/image15.png)
 
-4.  在您重新加载页面后，声明式代理将使用您更新的说明。
+4.  宣言型エージェントは、ページを再読み込みした後、更新された指示を使用します。
 
-5.  刷新聊天页面，选择 **My Agent** 并输入 +++Do we have chocolate in
-    our food catalog? +++
+5.  チャットページを更新し、「**My Agent**」を選択して、「+++Do we have
+    chocolate in our food catalog?+++」と入力します。
 
 ![](./media/image16.png)
 
-6.  观察代理给出一个诗意的答案。
+6.  エージェントが詩的な答えを出すのを観察します。
 
 ![](./media/image17.png)
 
-7.  现在，将对话启动器添加到代理。
+7.  次に、エージェントに会話のスターターを追加します。
 
-8.  打开 **appPackage/declarativeAgent.json** 文件，在
-    指示节点后添加**逗号**，按 Enter，然后粘贴以下代码。
+8.  **appPackage/declarativeAgent.json** ファイルを開き、instructions
+    ノードの直後に**コンマ**を追加して Enter
+    キーを押し、コードの下に貼り付けます。
 
 "conversation_starters": \[
 
@@ -149,21 +154,23 @@ Microsoft 365 Agents Toolkit （Teams Toolkit）
 
 ![](./media/image18.png)
 
-9.  在 **Microsoft 365 代理工具包**的 生命周期 窗格中选择
-    “**Provision**” ，并确保预配成功完成。
+9.  Microsoft 365 Agents Toolkit **の \[ライフサイクル\] ウィンドウで**
+    \[**Provision\] を選択し**
+    、プロビジョニングが正常に完了したことを確認します。
 
-10. **刷新**页面后，更新的对话启动器将在您的声明式代理中可用。
+10. 更新された会話のスターターは、ページを更新した後、宣言型エージェントで使用できるようになります
+    。
 
-11. **刷新**聊天页面以检查相同的内容。
+11. チャットページを更新して同じことを確認してください。
 
 ![](./media/image19.png)
 
-## 练习 3：添加 Web 内容
+## **演習 3: Web コンテンツを追加する**
 
-在本练习中，您将向代理添加搜索 Web 内容的功能。
+この演習では、エージェントが Web コンテンツを検索する機能を追加します。
 
-1.  打开 **appPackage/declarativeAgent.json** 文件并添加包含以下内容的
-    能力 数组。
+1.  **appPackage/declarativeAgent.json** ファイルを開き、次の内容を含む
+    capabilities 配列を追加します。
 
 > "capabilities": \[
 >
@@ -177,20 +184,20 @@ Microsoft 365 Agents Toolkit （Teams Toolkit）
 >
 > ![](./media/image20.png)
 
-2.  在 **Microsoft 365 代理工具包**的 生命周期 窗格中选择
-    “**Provision**” ，并确保预配成功完成。
+2.  **Microsoft 365 Agents Toolkit の \[ライフサイクル\] ウィンドウで**
+    \[**Provision\]**
+    を選択し、プロビジョニングが正常に完了したことを確認します。
 
 > ![](./media/image21.png)
 >
-> 声明式代理将有权访问 Web 内容，以便在您重新加载页面后生成其答案。
+> 宣言型エージェントは、ページを再読み込みした後、Webコンテンツにアクセスして回答を生成できます。
 
-3.  询问代理，+++ How can I build a declarative agent? +++
-    并观察代理是否从 Web 进行回复。
+3.  エージェントに +++How can I build a declarative
+    agent?+++と尋ね、エージェントが Web から応答することを確認します。
 
 > ![](./media/image22.png)
 
-## 总结
+## **概要**
 
-你已了解如何为 Microsoft 365 Copilot
-创建声明性代理。您还学习了如何使用说明和 Web
-内容来增强创建的代理，并在每个阶段对其进行测试。
+Microsoft 365 Copilot
+の宣言型エージェントを作成する方法を学習しました。また、作成したエージェントを指示とWebコンテンツで強化し、各ステージでテストする方法も学びました。
