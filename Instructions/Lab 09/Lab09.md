@@ -1,129 +1,943 @@
-# 实验 8 - 创建职业指导 SharePoint 代理
+# ラボ 9 - Copilot Studio を使用した Autonomous Copilot Agent による IT サポート業務の効率化
 
-**介绍：**
+**所要時間: 60 分**
 
-每天，大约有 20 亿个文档被添加到 Microsoft 365
-中。随着工作场所内容数量的快速增长，您需要一种快速准确的方法来筛选它并获取所需的信息。Microsoft
-SharePoint
-增强了存储、组织和共享组织内容的安全性和效率。但它提供的远不止于此。您可以使用
-AI 驱动的 SharePoint
-代理来简化工作流程并促进适合您的团队或组织的协作。SharePoint
-代理可以回答有关提问者对其具有权限的任何 SharePoint
-网站或文档库上的内容的问题。如果您对 SharePoint
-站点具有编辑权限，您甚至可以为特定任务创建代理并与您的团队共享。
+**目的**
 
-SharePoint 代理
+このラボの目的は、参加者が自律的な Copilot
+エージェントを作成することで、Contoso Solutions での IT
+サポート業務を効率化できるようにすることです。参加者は、Microsoft
+Copilot Studio の設定、IT サポート エージェントの構成、Power Apps と
+Dataverse の統合、ナレッジ ベースによるボットの機能の強化、Power
+Automate
+を使用したチケット作成の自動化について学習します。このハンズオンラボでは、ITワークフローを改善し、手作業を減らし、サポート効率を向上させるスキルをユーザーに身に付けさせます。
 
-**现成的代理**
+**解決**
 
-每个 SharePoint
-站点都附带一个“现成的代理”，该代理的作用域自动限定为该站点上的内容。这些代理的范围限定为
-SharePoint
-网站，不需要网站管理员或网站所有者进行构建。默认情况下，将显示现成的代理。 
+参加者は、Microsoft Copilot Studio を使用してカスタマイズされた Contoso
+IT サポート エージェントを作成し、一般的な IT
+問題を処理するように構成し、サポート データを格納するために Dataverse
+と統合します。開発環境を設定し、ナレッジ
+ソースを追加し、ボットの会話フローを洗練して、ユーザーとの対話を改善します。Power
+Apps を活用することで、参加者は IT サポート レコードを管理するための
+Dataverse テーブルを作成します。Power Automate
+を使用すると、チケットの作成と未解決の問題のメール通知が自動化されます。最後に、参加者はエージェントをテストして、トラブルシューティングの精度とワークフローの自動化を検証し、シームレスなITサポート運用を確保します。
 
-**定制代理**
+## 演習 1: Power Apps の使用を開始する
 
-对现成代理的结果不满意？使用站点编辑权限，您可以通过更改内容范围、身份和行为来轻松创建代理。
+この演習では、参加者に Power Apps と Dataverse
+を紹介します。目標は、Power Apps にログインし、作業環境を設定し、Excel
+ファイルからデータをインポートして Dataverse
+テーブルを作成することです。参加者は、データ駆動型アプリケーションを操作するための基本的なスキルを習得します。
 
-**目的：**
+### **タスク 1: Power Apps へのログイン**
 
-在本实验中，您将创建一个职业指导 SharePoint 代理，该代理使用 SharePoint
-站点中上传的文档。
-
-## 练习 1：从 SharePoint 主页创建代理
-
-您在前面的实验室中创建了一个 SharePoint
-站点。在本练习中，您将从中创建一个代理。
-
-提醒：如果您从 Lab 6 开始连续进行实验，这将正常工作。否则，请重做实验 6
-的**练习 4 - 创建 SharePoint 网站**，并继续下面本实验指南中的步骤。
-
-1.  打开 SharePoint 站点（使用您在前面的实验中记下的 URL）。
-
-2.  选择 **Home**（主页）。
+1.  Power Apps の Web サイト
+    +++<https://www.microsoft.com/en-us/power-platform/products/power-apps+++>
+    に移動し、\[**Try for Free**\] ボタンをクリックします。
 
 ![](./media/image1.png)
 
-3.  选择 **New -\> Agent** 以创建新代理。
+2.  「**リソース**」タブの**「Office 365 Tenant**」セクション
+    から「**管理ユーザー名**」を
+    メールフィールドに入力し、チェックボックスを選択して「**Start
+    free**」ボタンをクリックします 。
 
 ![](./media/image2.png)
 
-4.  将创建一个新代理，现在选择 **Open agent**。
+3.  **管理パスワード** を入力する と、Power Apps ホーム
+    ページに移動します。
+
+4.  \[サインインしたままにする\]ダイアログで\[Yes\]を選択し
+    、\[パスワードの保存\]プロンプトで\[了解しました\]を選択し、\[MicrosoftEdgeにサインイン\]ポップアップで\[**No,
+    Thanks** \]を選択します。
+
+\[!注意\]**注:**ユーザー名、パスワード、またはログインするための情報を再度入力する場合は、同じ情報を入力してログインしてください。
+
+### **タスク 2: 開発者環境設定の更新**
+
+1.  ログイン資格情報を使用して、+++https://admin.powerplatform.microsoft.com/home+++
+    で Power Platform 管理センターにログインします。
 
 ![](./media/image3.png)
 
-5.  创建的代理将显示在站点中。
+2.  左側のウィンドウから **Manage**を選択し、環境
+    で**+New**を選択します。
 
 ![](./media/image4.png)
 
-## 练习 2：从文档创建代理
-
-在本练习中，您会将文档上传到 SharePoint 站点并从中创建代理。
-
-1.  选择 **Documents** （文档）。
+3.  環境名を **+++Dev One+++** として指定し、種類 **を Developer**
+    として選択し、**Next**を選択します。
 
 ![](./media/image5.png)
 
-2.  选择旁边的下拉列表 **Upload** 并选择 **Files**。
+4.  Dataverse の追加 ダイアログで **Save**を選択します。
 
 ![](./media/image6.png)
 
-3.  在 **C：\LabFiles** 的 **Career Path Options in the USA.pdf** 和
-    **Career Path Options.docx** 中选择 ，然后选择 **Open**。
+5.  環境が Ready になったら、作成した **Dev One** 環境を選択します。
 
 ![](./media/image7.png)
 
+6.  \[**Edit\]をクリックして**設定を編集します。
+
 ![](./media/image8.png)
 
-4.  选择上传的文档，然后右键单击它，然后选择 **Create an agent**。
+7.  編集ウィンドウで、管理モードを \[**ON**\]
+    に切り替え、**Save**を選択します。
 
 ![](./media/image9.png)
 
-5.  在 New agent （新建代理） 窗口中选择 **Edit** （编辑）
-    以编辑代理的名称。
-
 ![](./media/image10.png)
-
-6.  将代理命名为 +++Career Guidance Agent+++。选择 **Save and
-    close**（保存并关闭）。
-
-**注意：**可以通过选择左下角的 “从 Copilot Studio 添加高级自定义”
-选项，从 Copilot Studio 自定义代理。
 
 ![](./media/image11.png)
 
-7.  创建的代理将列在 **Documents**。选择它以将其打开。
+8.  編集した変更を保存したら、\[**Settings**\] を選択します。
 
 ![](./media/image12.png)
 
-8.  通过输入 +++What are the Management career path available in the US?
-    +++
+9.  \[**Product -\> Features\] を選択します**。
 
 ![](./media/image13.png)
 
-9.  观察输出和引用。
+10. 機能 **で、Dataverse searchと Single table searchオプションを オン
+    に**切り替え、**Saveを選択します**。
 
-![](./media/image14.png)
+![](./media/imagesrc="./media/image14.png" style="width:6.26806in;height:4.07222in".png)
 
-> ![](./media/image15.png)
+### タスク 3: Dataverse テーブルの設定
 
-10. 选择 **Share -\> Copy link**
+1.  右上の **Dev One** 環境を選択します。
+
+![](./media/image15.png)
+
+2.  左側のナビゲーションバーから、「**Tables」を選択します。** テーブル
+    セクションのトップ バーで、 **\[+ New table**\] をクリックし、
+    \[**Create new tables\]** を選択します。
 
 ![](./media/image16.png)
 
-11. 在弹出窗口中选择 允许。
+3.  \[**Import an Excel file or CSV**\]
+    オプションを選択して、新しいテーブルを作成します。
 
 ![](./media/image17.png)
+4.  \[**Select from
+    device\]**オプションをクリックし、**C:\LabFiles**フォルダから**Support
+    Ticket**のExcelファイルを選択します。
 
 ![](./media/image18.png)
-
-12. 在 “复制” 窗格的 “设置” 中，您可以选择可以与之共享代理的人员。
+5.  次の画面で **\[Import**\] を選択します。
 
 ![](./media/image19.png)
 
-13. 使用复制的链接从浏览器访问代理。
+6.  テーブルを選択し、\[**View
+    data\]**をクリックしてテーブルを表示します。
 
-## 总结
+\[!注**\]注:**この場合、テーブルの名前は*Employee Technical Support
+Record*です。名前は実行のたびに異なる場合があります。後で参照できるように、テーブル名を保存してください。列名も実行によって異なる場合があります。
 
-在本实验中，您学习了如何从网站主页和网站中上传的文档创建 SharePoint
-代理。
+![](./media/image20.png)
+
+7.  テーブルデータに移動し、\[**Technical Issue
+    Description\]**フィールドの横にあるドロップダウンを選択し**、\[**Edit
+    coulmn**\]**を選択し、データタイプを**\[Text** 🡪 **Multiple
+    line** 🡪 **Plain
+    Text**に設定し、\[**update\]**をクリックします。列名は、それぞれ異なる場合があります。
+
+\[!注\] **注:** **列名は若干異なる場合があります**が、Copilot
+で生成されるため、問題の説明に似た名前になります。
+
+> ![](./media/image21.png)
+
+![](./media/image22.png)
+8.  \[**Current Status\]**
+    フィールドの横にあるドロップダウンを選択し、\[**Edit column\]**
+    を選択し、選択肢を+++**Unresolved**+++, +++**Resolved**+++,
+    +++**Processing**+++に設定します。デフォルトの選択肢を**未解決に設定し、\[Update\]をクリックします**。
+
+![](./media/image23.png)
+
+9.  右上の「**Save and exit」をクリックして**、テーブルを保存します。
+
+![](./media/image24.png)
+
+### タスク 4: OneDrive にファイルを追加する
+
+1.  Power Apps ページの左上から、メニューを選択し、OneDrive
+    を選択します。
+
+![](./media/image25.png)
+
+2.  \[**My files** -\> **+ Add new**\] を選択します。
+
+> ![](./media/image26.png)
+3.  \[**Files upload\]** を選択します。
+
+![](./media/image27.png)
+
+4.  C:\LabFiles**からIT Support.xlsxを選択します**。
+
+![](./media/image28.png)
+
+5.  このファイルは、後の演習で使用します。
+
+![](./media/image29.png)
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します：
+
+- Office 365 管理者テナントの資格情報を使用して Power Apps
+  にアクセスし、ナビゲートする方法。
+
+- データをインポートして Dataverse テーブルを作成および構成する手順。
+
+- アプリ開発ワークフローをサポートするための環境設定に関する実践的な知識。
+
+## 演習 2: Contoso IT サポート エージェントの作成
+
+この演習では、Microsoft Copilot Studio にログインし、Contoso の IT
+サポート操作用にカスタマイズされた Copilot
+エージェントを作成することに重点を置いています。参加者は、Copilot
+Studioの操作、環境の設定、ITワークフローを効率化するためのAI搭載エージェントの構築を実際に体験することができます。
+
+### 
+
+### タスク 1: Contoso IT サポート エージェントの作成と構成
+
+1.  宿泊資格情報を使用して+++https://copilotstudio.microsoft.com+++にログインします。
+
+2.  Copilot Studio のホーム
+    セクション右上で、**環境**を選択し、**DevOne** 環境を選択します。
+
+![](./media/image30.png)
+3.  welcome copilot studioタブで、**Skip**をクリックして先に進みます。
+
+![](./media/image31.png)
+4.  左側のナビゲーション バーから \[**Create**\] を選択し、\[**New
+    agent**\] を選択して新しいエージェントの作成を開始します。
+
+![](./media/image32.png)
+5.  右上隅の\[**Skip to configure\]**ボタンをクリックします。
+
+![](./media/image33.png)
+
+6.  エージェントの名前、説明、指示**を以下のように入力**
+    し、\[**Create\]**ボタンをクリックします。
+
+> **名前:** +++Contoso IT Support Agent+++
+>
+> **説明:** +++Create a Contoso IT Support Agent which transforms IT
+> support at Contoso Solutions by providing instant troubleshooting for
+> common issues, automating ticket creation for unresolved problems, and
+> storing all interactions in Dataverse. This solution enhances response
+> times, reduces manual workloads, and boosts employee productivity. +++
+>
+> **手順:** +++Copilot Agent を作成し、IT
+> サポート操作を処理するように構成します。ハードウェアのトラブルシューティング、接続性、ソフトウェアの不具合など、一般的な
+> IT 問題の解決策を含むナレッジ
+> ソースを追加します。未解決の問題を説明する OneDrive
+> ファイルの更新を検出するトリガーを設定します。これらの技術的な問題を
+> Dataverse
+> テーブルに保存するアクションを作成し、すべての詳細が追跡とレポートのために保存されるようにします。デプロイ前にエージェントをテストして、トラブルシューティングの精度とチケット自動化ワークフローを検証します。
+
+![](./media/image34.png)
+
+7.  Contoso IT サポート
+    エージェントの概要ページで、**エージェントのオーケストレーター**を有効にします。
+
+![](./media/image35.png)
+
+8.  エージェントの右上隅から、\[**Settings\]**ボタンをクリックします。
+
+![](./media/image36.png)
+9.  次に、\[**Generative
+    AI\]**セクションに移動し、\[**Generative\]**を選択し、コンテンツモデレーションを**\[Medium\]に設定し、\[Save\]**をクリックして
+    設定を保存します。
+
+![](./media/image37.png)
+
+10. 保存**したら** 、設定ペインを閉じます。
+
+11. エージェントの概要ページで、\[**Allow the AI to use its own general
+    knowledge\] オプション**を無効にします。
+
+![](./media/image38.png)
+
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します。
+
+- Microsoft Copilot Studio にアクセスして設定する方法。
+
+- カスタム Copilot エージェントを作成して構成する手順。
+
+- エージェントのジェネレーティブ AI
+  とオーケストレーターの設定を有効にする実践的なスキル。
+
+- チケット作成を自動化し、トラブルシューティングにAIを活用することで、IT運用を強化する方法。
+
+## 演習 3: Bot 機能の強化
+
+この演習では、ナレッジ ベースを追加し、ボット
+トピックをカスタマイズして対話を改善することで、Contoso IT サポート
+エージェントの機能を強化することに焦点を当てています。参加者は、ボットの応答を洗練し、トラブルシューティングとエスカレーションでユーザーを効果的に支援できるようにします。
+
+### タスク 1: ナレッジ ベースを追加する
+
+1.  Contoso エージェントの概要ページで、下にスクロールして \[**+ Add
+    Knowledge\]** ボタンをクリックします。
+
+![](./media/image39.png)
+
+2.  \[**Upload file\]** を選択して、**C:\LabFile**フォルダー から ラボ
+    ファイル **Contoso Common IT Issue.docx**を追加し、\[**Add**\]
+    をクリックしてファイルを保存します。
+
+![](./media/image40.png)
+
+>  ![](./media/image41.png)
+3.  再度、エージェントの概要ページに移動し、下にスクロールして\[**+ Add
+    knowledge**\]**をクリックします。**
+
+![](./media/image42.png)
+
+4.  **データ ソースとしてDataverse (preview)**オプションを選択します。
+
+![](./media/image43.png)
+
+5.  右上隅の検索バーで、**+++Employee+++**と入力して検索し、\[**Employee
+    Technical Support
+    Record**\]を選択します。次に、\[**Next\]、\[Next**\]、\[**Add**\]ボタンをクリックして、ナレッジソースを追加します。
+
+**注:** テーブル名は **Copilot**
+で生成されたものであるため、**この場合は異なる場合があります。**
+
+> ![](./media/image44.png)
+![](./media/image45.png)
+\[!アラート\]**重要:**ナレッジページで、追加されたナレッジソースが正常にアップロードされたことを確認します。通常、完了するまでに
+10 分から 15 分かかります。
+
+### タスク 2: 会話開始トピックのカスタマイズ
+
+1.  トップバーオプションから\[**Topics**\]をクリックし、**\[System\]**を選択してから、\[**Conversation
+    Start**\]をクリックして開きます。
+
+![](./media/image46.png)
+
+2.  下にスクロールして、メッセージノードに移動します。ボット名の後のメッセージを次のように更新します。
+
+こんにちは。私はボット名、バーチャルアシスタントです。+++How can I help
+you?+++
+
+![](./media/image47.png)
+
+3.  上部から「**Save**」をクリックして トピックを保存します。
+
+![](./media/image48.png)
+
+### タスク 3: フォールバック トピックの更新
+
+1.  トップバーオプションから\[**Topics**\]をクリックし
+    、\[**Fallback**\]トピックを開きます。
+
+![](./media/image49.png)
+
+2.  下にスクロールして、メッセージノードに移動します。メッセージを次のように更新します。
+
+> +++I’m sorry. This information is not available in my system. You can
+> raise the support ticket via mail for this issue.+++
+
+![](./media/image50.png)
+
+3.  右上の「**Save**」ボタンをクリックして、トピックを保存します。
+
+![](./media/image51.png)
+
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します。
+
+- ナレッジ ベースをアップロードして統合し、ボットの機能を強化する方法。
+
+- 会話開始メッセージをカスタマイズして、より魅力的なユーザー
+  エクスペリエンスを実現する手順。
+
+- サポートされていないクエリの処理を改善するためにフォールバック応答を更新する手法。
+
+## **演習 4: エージェントのテスト**
+
+この演習では、Contoso IT サポート
+エージェントをテストしてその機能を検証する方法を参加者に説明します。参加者は、ナレッジ
+ベースとフォールバック
+トピックを使用してボットがプロンプトを処理する方法を確認し、シームレスな対話とエスカレーションを確保します。
+
+1.  右上隅の「**Test**」ボタンをクリックします。次に、テストセクションで\[Map\]をクリックし、\[ON**\]**にして、\[Refresh**\]**をクリックします。
+
+![](./media/image52.png)
+
+2.  プロンプトを入力します +++**My printer is not working how to fix
+    it**+++ .それは知識源に従って解決策を提供します。
+
+![](./media/image53.png)
+
+3.  再度、プロンプトを +++**Two factor Authentication (2FA)
+    issue**+++と表示します。
+
+![](./media/image54.png)
+
+4.  2FA の問題と解決策はナレッジ
+    ソースでは利用できないため、フォールバック
+    トピックに移動し、チケットの発行に関連するプロンプトを返します。
+
+![](./media/image55.png)
+
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します。
+
+- トラブルシューティングのためにAIエージェントをテストしてアクティブ化する方法。
+
+- ナレッジ ベースを使用して応答するボットの能力の検証。
+
+- フォールバック
+  トピックがサポートされていないクエリを処理し、ユーザーを効果的にリダイレクトする方法。
+
+## 演習 5: Power Automate を使用したサポート チケット作成の自動化
+
+この演習では、AgentFlow を使用してサポート
+チケットの作成を自動化し、Contoso IT サポート
+エージェントと統合する方法を示します。参加者は、問題の報告を効率化し、Dataverse
+にデータを記録するためのフローを作成します。
+
+1.  エージェントの左側のメニュー バーから **Flows**を選択します。
+
+![](./media/image56.png)
+
+2.  **Start in designer**を選択します。
+
+![](./media/image57.png)
+
+3.  **Add a trigger**を選択し、**When an agent calls the
+    flowトリガー**を選択します。
+
+![](./media/image58.png)
+
+![](./media/image59.png)
+
+4.  追加されたトリガー \[**When an agent calls the flow\]**
+    を選択し、**\[Add an Input\]** を選択します。
+
+![](./media/image60.png)
+
+5.  入力のデータ型として \[**Text\]**を選択し 、入力の名前を
+    **+++Name+++**に変更します。
+
+![](./media/image61.png)
+
+![](./media/image62.png)
+
+6.  同じ手順で、以下の詳細に従ってさらに入力を作成します。
+
+| **Input Name**    | **Data Type** |
+|-------------------|---------------|
+| **+++ID+++**      | **Text**      |
+| **+++Email+++**   | **Text**      |
+| **+++Details+++** | **Text**      |
+
+> ![](./media/image63.png)
+7.  \[**When an agent calls the flow**\] で、**(+)**
+    記号をクリックし、\[**Add an action\] を選択します**。
+
+![](./media/image64.png)
+8.  アクション検索バーの追加に「+++**Add a new
+    row**+++」と入力します。次に、**Microsoft Dataverse
+    セクションからAdd a new row**を選択します。
+
+![](./media/image65.png)
+
+**注**: Dataverse
+接続が自動的に作成されない場合があります。資格情報の**OAuth**認証で**再度サインインする**必要がある場合があります。
+
+![](./media/image66.png)
+
+9.  **\[Table Name**\] セクションで、**+++Employee Technical Support
+    Record+++** (または作成した対応するテーブル名)
+    を検索して選択します。
+
+![](./media/image67.png)
+
+10. テーブル名の下で\[**Show
+    all**\]を選択し、特定のフィールドをクリックして、次の表のように**動的コンテンツ**ボタン(サンダーボルト)を使用して**入力を追加します。**
+
+> \[**Current Status\]** フィールドを **\[Unresolved\]** に設定します。
+
+| **Section**                 | **Input Variable**      |
+|-----------------------------|-------------------------|
+| Employee Name               | Name (Dynamic Input)    |
+| Email Address               | Email (Dynamic Input)   |
+| Employee ID                 | ID (Dynamic Input)      |
+| Technical Issue Description | Details (Dynamic Input) |
+
+> ![](./media/image68.png)>
+> ![](./media/image69.png)
+11. 上部のバーから \[**Save draft**\] をクリックし、\[**Publish\]
+    をクリックします**。 **Power automate** タブを**閉じます**。
+
+![](./media/image70.png)
+
+12. 左側のメニュー バーから **フロー** を選択し、**無題の**フロー
+    (作成したばかりのフロー) を選択します。
+
+![](./media/image71.png)
+
+![](./media/image72.png)
+
+13. フローで **Edit** を選択します。
+
+![](./media/image73.png)
+
+14. フローに+++**Create an Employee Support
+    Ticket**+++という名前を付け、**Save**を選択します。
+
+![](./media/image74.png)
+
+![](./media/image75.png)
+
+15. **Contoso IT Support Agent** **Overviewページで、 \[+ Add action\]**
+    を選択します。
+
+> ![](./media/image76.png)
+16. 「**Create an Employee Support Ticket」フロー** を選択します。
+
+![](./media/image77.png)
+
+17. \[**Add action**\] ボタンをクリックして、フローを追加します。
+
+![](./media/image78.png)
+
+18. エージェントの \[**Overview**\] ページの \[**Action**\]
+    セクションで、\[**Edit**\]
+    を選択してアクションのパラメータを編集します。\[**Inputs\]**
+    セクションを選択します。
+
+![](./media/image79.png)
+
+![](./media/image80.png)
+
+19. 指定された説明を指定された入力フィールドに入力し、説明を入力した後、\[**Save\]**ボタンをクリックします。
+
+| **Section** | **Details** |
+|----|----|
+| Name -- Description | +++Enter the name of the employee.+++ |
+| ID -- Description | +++Enter the employee ID in the field.+++ |
+| Email -- Description | +++Enter the email address of the employee from whom the email is received.+++ |
+| Details -- Description | +++Enter the email details of the employee.+++ |
+
+> ![](./media/image81.png)
+>
+> ![](./media/image82.png)
+>
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します。
+
+- エージェント フローを Copilot
+  エージェントと統合してチケットを作成する方法。
+
+- ユーザーの操作から入力データを動的に収集してマップする手順。
+
+- 技術的な問題のエスカレーションのための電子メール通知を自動化する手法。
+
+- 効率的なサポートチケット管理のためのワークフローを設定する機能。
+
+## 演習 6: 自動アクションのトリガーの設定
+
+このサポート チケット作成の自動化の続きは、自動化された Power Automate
+フローを使用して OneDrive でファイルを作成するために、Contoso IT
+サポート
+エージェントでトリガーを設定することに焦点を当てています。参加者はトリガーを構成し、デプロイのためにエージェントを完成させます。
+
+1.  エージェントの概要ページに移動し、下にスクロールして **\[+Add
+    trigger\] をクリックします**。
+
+![](./media/imagesrc="./media/image83.png" style="width:6.26806in;height:3.64306in".png)
+
+2.  \[**When a file is created**\] トリガーを選択し、\[**Next**\]
+    をクリックします。
+
+![](./media/image84.png)
+
+3.  接続の確立が成功したら、**Next**を選択します。
+
+![](./media/image85.png)
+
+4.  \[**Folder\]** で \[**Root\]** を選択し**、\[Include Subfolders\]
+    で** \[**Yes\]** を選択し、**\[Create trigger\]** をクリックします。
+
+![](./media/image86.png)
+
+5.  \[トリガーをテストする時間\] ダイアログを**閉じます。**
+
+![](./media/image87.png)
+
+6.  エージェントの 概要 ページで、追加されたトリガーの横にある 3
+    つのドット –**When a file is created**を選択し、**Edit in Power
+    Automateを選択します**。
+
+![](./media/image88.png)
+
+7.  ファイルが作成されたときノードの下にある \[+\]
+    記号を選択して、アクションを追加します。アクション
+    ウィンドウで、**+++Get a row+++** を検索し、**Excel Online
+    (Business)** の下の **Get a row**を選択します。
+
+![](./media/image89.png)
+
+8.  アクションが追加されたら、以下の詳細を追加します。
+
+- 場所 – OneDrive for Business を選択します
+
+- ドキュメント ライブラリ – OneDrive
+
+- ファイル – ITSupport.xlsx
+
+- テーブル – Table1
+
+- キー列 – ID
+
+- キー値 – +++ID1234+++
+
+![](./media/image90.png)
+
+9.  \[**Sends a prompt to the specified copilot for
+    processing**\]ノードを選択します。
+
+\[本文/メッセージ\] に「+++Run the flow Create an Employee Support
+Ticket+++」と入力し、動的な値、名前、ID、メール
+ID、説明、ステータスを追加します。次に、「+++along with a message "New
+record added to the Employee Support table"+++」を追加します。
+
+下のスクリーンショットのようになります。
+
+![](./media/image91.png)
+
+10. 次に、\[**Save Draft**\]をクリックしてフローを保存し
+    、\[**Publish**\] をクリックしてフローを公開します。
+
+![](./media/image92.png)
+
+11. Copilot Studio に戻り、 **エージェントをPublishします。**
+
+![](./media/image93.png)
+
+![](./media/image94.png)
+
+## 演習 7: エージェントのテスト
+
+1.  Power Automate
+    フローから、**ファイルが作成されたら**、**Test**を選択します。
+
+![](./media/image95.png)
+
+2.  **\[Manually\]** オプションを選択し、\[**Test**\] を選択します。
+
+> ![](./media/image96.png)
+
+3.  **OneDrive** ページを開きます。**My files で** \[**+ Add new**\]
+    を選択し、\[**Word Document**\] を選択します。
+
+![](./media/image97.png)
+
+4.  Power Automate
+    ページに戻ると、フローが実行を開始し、通過したことを確認できます。
+
+> ![](./media/image98.png)
+
+5.  エージェントの概要ページで、\[ **Test
+    Trigger\]**アイコンを選択します。
+
+![](./media/image99.png)
+
+6.  最新のトリガーを選択し、\[**Start testing\]**を選択します。
+
+![](./media/image100.png)
+
+7.  フローを実行し、サポート トラッカーからデータをフェッチし、Dataverse
+    テーブルで更新します。
+
+![](./media/image101.png)
+
+8.  この場合、トラッカーには 1 つのサポート チケットの詳細があり、それが
+    Dataverse テーブルに追加されるため、ユーザーのサポート
+    チケットが作成されます。
+
+9.  ユーザーから問題に関するメールを受信したときのメール生成の方が適切です。メールの設定部分は、テナントの権限制限のため、ここでは実行できませんでした。次のタスクを検討してください
+    (アクセス許可を持つテナントがある場合)。
+
+## 本番環境で実行するタスク
+
+本番環境では、サポート チケットの生成は主にメールベースになります。
+
+このタスクは 、テナントがメール
+アカウントの使用に制限を設けているため、このテスト環境で実行することを意図していません。これらの手順は、メールを送受信できるテナントがある場合は、**演習
+5: Power Automate を使用したサポート チケット作成の自動化 のステップ
+10** の後にフローに追加できます。
+
+この実行では、このタスクを無視してください。これは、メール生成部分の学習と理解、およびITサポート操作の主要な役割を果たすトリガーとして受信メールを設定し、エージェントをテストするためだけに追加されました
+
+1.  \[新しい行アクションの追加\] で (+) をクリックし、\[**Add an
+    action\]**を選択します。
+
+![](./media/image102.png)
+
+2.  アクションの追加セクションで、検索バーに「+++**Send an
+    email**+++」と入力し、**Office 365 Outlook セクションから「send an
+    email (V2)**」を選択します。
+
+![](./media/image103.png)
+
+![](./media/image104.png)
+
+3.  「メールの送信」セクションで、該当するセクションに以下の詳細を入力します。
+
+> 動的コンテンツを使用して、**名前**、**ID**、**詳細**のプレースホルダを変数に置き換えます
+>
+> **宛先**
+>
+> サポートエンジニアのメールアドレスを入力します(**任意のメールIDを使用します**-このIDになります、メールはサポートチケットが発行されたときにエージェントから送信されます)
+>
+> **件名**
+>
+> 新しいテクニカル サポート チケットが発行されました
+>
+> **体**
+>
+> 新しいテクニカル サポート
+> チケットが発行され、注意が必要です。詳細は以下をご覧ください。
+>
+> 従業員名: \<名 \>
+>
+> 従業員ID:\<ID\>
+>
+> 技術的な問題:\<詳細\>
+>
+> この件について迅速に対応していただき、ありがとうございます。」
+>
+> よろしくお願いいたします
+
+![](./media/image105.png)
+
+4.  左上隅から、フローの名前を +++**Create an Employee Support
+    Ticket**+++に変更します。
+
+![](./media/image106.png)
+
+5.  フローを保存して公開する
+
+6.  エージェントの概要ページに移動し、下にスクロールして **\[+Add
+    trigger\]** をクリックします。
+
+![](./media/image83.png)
+
+7.  次に、\[トリガーの追加\] ウィンドウから、\[**When a new email
+    arrives (V3)\]** トリガーを選択します。
+
+![](./media/image107.png)
+
+8.  コパイロットとOutlookの接続が成功したら、緑色のチェックマークが表示され、\[**Next\]**ボタンをクリックします。
+
+![](./media/image108.png)
+
+9.  フォルダー フィールドで、フォルダー アイコンを選択し、**Inbox**
+    フォルダーを選択してから、**Create trigger**を選択します。
+
+![](./media/image109.png)
+
+![](./media/image110.png)
+
+10. \[**Time to test your trigger\]** プロンプトを閉じます
+    。Supportエージェントの概要ページで、下にスクロールし、トリガーセクションで3つのドット(...)
+    をクリックし、**Edit in Power Automate**を選択します。
+
+![](./media/image111.png)
+
+11. 　新しいメールが届いたときトリガーを右クリックし、「Delete」を選択します。
+
+![](./media/image112.png)
+
+12. 次に、トリガーの追加をクリックし、\[+++**When new email
+    arrives**+++\]を検索して、\[**Office 365のOutlook**から**When a new
+    email arrives**トリガーを選択します。
+
+![](./media/image113.png)
+
+13. \[**Send a prompt to the specified copilot for processing**,**\]
+    をクリックし**、\[Body/message\] セクションに「+++**Run Create an
+    Employee Support Ticket flow and use content from Body
+    From.**+++を入力します**。**+++
+    **Body**と**From**を動的コンテンツ変数として置き換えます。
+
+![](./media/image114.png)
+
+14. **フローをSaveし**て**Publishし**、Power Automate
+    ウィンドウを閉じて、copilot ウィンドウに戻ります。
+
+![](./media/image115.png)
+
+15. 概要セクションに移動し、右上隅から\[**Publish**\]をクリックし
+    、もう一度\[**Publish**\]をクリックして コパイロットを公開します。
+
+![](./media/image116.png)
+
+![](./media/image117.png)
+
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します。
+
+- 技術的な問題のエスカレーションのための電子メール通知を自動化する手法。
+
+<!-- -->
+
+- Copilot
+  でトリガーを設定して、メール入力に基づいてワークフローを自動化する方法。
+
+- 電子メール コンテンツを Power Automate フローに動的にマップする手順。
+
+- 運用用に AI エージェントを公開して完成させるプロセス。
+
+- Outlookなどのコミュニケーションツールを自動化されたワークフローとリンクする実践的なスキル。
+
+**エージェントをテストする**
+
+この演習では、Contoso IT サポート エージェントと Power Automate および
+Outlook
+の統合のテストに焦点を当てています。参加者は、エージェントがメールを処理し、サポートチケットを作成し、自動化されたワークフローを効果的にトリガーする能力を確認します。
+
+1.  エージェントの概要ページに移動し、下にスクロールして、(**...)**
+    をトリガーでクリックし、**Edit in power automate**を選択します。
+
+![](./media/image118.png)
+
+2.  Power Automate フローに移動し、上部のバーから **\[Test**\]
+    ボタンをクリックしてから **\[Manually\]**を選択し、もう一度
+    **\[Test\] をクリックします**。
+
+![](./media/image119.png)
+
+![](./media/image120.png)
+
+3.  **アクションをトリガー**するために、他のメールボックスから365管理者テナントのメール**IDにメールを送信します。**メールには問題が説明されており、以下のスクリーンショットのように、従業員IDなどの詳細が含まれている必要があります。コンテンツの例を以下に示します。
+
+> Hi Support Team,
+>
+> I hope this message finds you well.
+>
+> Iam Mark Brown, working as a Software Engineer at Contoso. My employee
+> ID is CONTOSO099
+>
+> Issue: Monitor is completely balank and not functioning.
+>
+> Kindly raise a support ticket and assist in resolving this issue at
+> the earlierst.
+>
+> Thank you for your support.
+>
+> Best Regards,
+>
+> Mark Brown
+
+![](./media/image121.png)
+
+![](./media/image122.png)
+
+4.  copilot エージェントの概要ページに移動し、下にスクロールして
+    \[**Test trigger\]** を選択します。
+
+![](./media/image123.png)
+
+5.  \[**Start testing\]をクリックすると**、テストが開始されます。
+
+![](./media/image124.png)
+
+6.  テストセクションで\[**Connect**\]をクリックすると、接続ウィンドウが開きます。
+
+![](./media/image125.png)
+
+7.  \[**Connect\]** をもう一度クリックし、\[**Submit\]** を選択します。
+
+![](./media/image126.png)
+
+![](./media/image127.png)
+
+8.  copilot Studio ウィンドウに移動し、**Test**を再実行します。
+
+![](./media/image123.png)
+
+9.  サポートリクエストは自動的に生成されます。
+
+![](./media/image128.png)
+
+10. Power Apps に移動し、従業員サポート チケット レコード
+    テーブルに移動して、詳細を確認します。
+
+![](./media/image129.png)
+
+11. メールを送信するために Power Automate フローで構成したサポート
+    メールを確認します。メールはサポートチームに自動的に送信されます。
+
+![](./media/image130.png)
+
+12. テストウィンドウに移動し、ユーザー+++**Mark Brown Ticket Current
+    Status**+++としてクエリを書きます。問題のステータスが未解決として表示されます。
+
+![](./media/image131.png)
+
+13. サポートエンジニアとして、テストセクションにプロンプトを記述します。+++**I
+    want to know about all Unresolved ticket**+++ 。
+
+![](./media/image132.png)
+
+> **結論**
+>
+> この演習を完了すると、参加者は次のことを習得します。
+
+- 実際のシナリオをシミュレートしてエージェントの機能をテストする方法。
+
+- Power Automate
+  でメールによってトリガーされるワークフローとチケット生成を検証する手順。
+
+- Dataverse で生成されたレコードを確認し、通知がサポート
+  チームに送信されるようにする方法。
+
+- 自動化ワークフローのデバッグとファイナライズに関する実践的な洞察。
+
+**ラボガイドの最終結論**
+
+このラボ ガイドでは、参加者に Contoso Solutions の IT サポート サービス
+デスクの Autonomous Copilot Agent
+のデプロイに関する実践的な体験を提供しました。ステップバイステップの演習に従うことで、参加者は次のことができるようになりました。
+
+1.  **Copilot Studioのセットアップ**:参加者は、Copilot
+    Studioへのログイン方法、ITサポートエージェントの作成と設定方法、効果的なトラブルシューティングとチケット自動化のためのジェネレーティブAIやオーケストレーターなどの基本的な設定を有効にする方法を学びました。
+
+2.  **Power Apps の操作**: 参加者は、Power Apps へのログイン、Dataverse
+    テーブルの設定、Excel
+    からのデータのインポートに関する実践的な知識を得て、サポート
+    チケットを効率的に追跡および管理しました。
+
+3.  **ボット機能の強化**: この演習では、ボットにナレッジ
+    ベースを追加し、会話の開始トピックとフォールバック
+    トピックをカスタマイズしてユーザー操作を改善し、ボットが幅広い IT
+    サポート シナリオを処理できるようにすることに重点を置いています。
+
+4.  **IT サポート タスクの自動化**: 参加者は、Power Automate
+    を使用してサポート
+    チケットの作成を自動化する方法も学び、未解決の問題を管理し、IT
+    チームのワークフローを改善するボットの機能を強化しました。
+
+これらの演習を完了することで、参加者は、応答時間を改善し、手作業の負荷を減らし、ITサポート業務の全体的な生産性を向上させる堅牢な自律型サポートシステムを実装することができました。Copilot
+Studio、Power Apps、Dataverse
+の統合により、シームレスな情報の流れが確保され、日常的なタスクが自動化され、サポート
+ワークフローが最適化され、従業員に即時のトラブルシューティング
+ソリューションが提供され、未解決の問題に対するチケット管理が自動化されます。
