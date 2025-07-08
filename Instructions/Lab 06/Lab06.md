@@ -1,248 +1,258 @@
-# 实验室 6 - 使用使用 Microsoft Copilot Studio 构建的 HR 代理扩展 Microsoft 365 Copilot 聊天
+# ラボ 6 - Microsoft Copilot Studio を使用して構築された HR エージェントを使用して Microsoft 365 Copilot チャットを拡張する
 
 **目的**
 
-在本实验中，您将学习如何使用使用 Microsoft Copilot Studio
-制作的声明性代理扩展 Microsoft 365 Copilot Chat。
-您还将学习如何将自定义作添加到您所做的代理。
+このラボでは、Microsoft Copilot Studio
+を使用して作成された宣言型エージェントを使用して Microsoft 365 Copilot
+チャットを拡張する方法を学習します。 また、作成したエージェントにカスタムアクションを追加する方法についても学習します。
 
-预计持续时间 – 45 分钟
+所要時間 – 45分
 
-## 练习 1：创建 Power Platform 环境
+## 演習 1: Power Platform 環境の作成
 
-使用 Power
-Platform，您可以创建不同的环境，并根据您的需要轻松地在它们之间切换。环境存储应用程序、流、数据、代理等，每个环境都与任何其他环境完全隔离。在本练习中，您将创建一个新的专用环境，您将在其中执行其余的练习和任务。
+Power Platform
+を使用すると、さまざまな環境を作成し、必要に応じて簡単に切り替えることができます。環境には、アプリ、フロー、データ、エージェントなどが格納され、各環境は他の環境から完全に分離されています。この演習では、残りの演習とタスクを実行する新しい専用環境を作成します。
 
-1.  打开浏览器，然后使用 **Resources** （资源）
-    选项卡中的登录凭证转到[https://admin.powerplatform.com](https://admin.powerplatform.com/)。
+1.  ブラウザを開き、「**Resources**」タブのログイン資格情報を使用して
+    、「[https://admin.powerplatform.com](https://admin.powerplatform.com/)」に移動します。
 
 ![](./media/image1.png)
 
-2.  选择 **Manage** ，然后在 **Environments** 下选择 + **New**。
+2.  **Manage**を選択し 、**Environment**で **+ Newを選択します**。
 
 ![](./media/image2.png)
 
-3.  将 名称 提供为 +++**Dev env**+++，选择 **Type** 作为 **Developer**
-    ，然后单击 **Next**。在 **Add Dataverse** 屏幕中选择 **Save** 。
+3.  「Name」に「+++Dev
+    env+++」と入力し、「**Type**」に**「Developer」を選択して、「Next」をクリックします**。
+    **Add Dataverse** の追加 **画面で**保存 を選択します。
 
 ![](./media/image3.png)
 
 ![](./media/image4.png)
 
-4.  新环境将创建，并在准备就绪后从 **Preparing** （正在准备） 更改为
-    **Ready** （就绪） 状态。
+4.  新しい環境が作成され、
+    **PreparingがReadyと**準備完了状態**から**準備完了状態に変わります。
 
 ![](./media/image5.png)
 
 ![](./media/image6.png)
 
-## 练习 2：为 Microsoft 365 Copilot Chat 创建代理
+## 演習 2 : Microsoft 365 Copilot Chat のエージェントの作成
 
-在本练习中，你将使用 Microsoft Copilot Studio
-创建声明性代理，并将其托管在 Microsoft 365 Copilot Chat 中。
+この演習では、Microsoft Copilot Studio
+を使用して宣言型エージェントを作成し、Microsoft 365 Copilot Chat
+でホストします。
 
-1.  使用 **Resources** （资源）
-    选项卡中的登录凭证登录到<https://copilotstudio.microsoft.com/>。
+1.  「Resources[**」タブのログイン資格情報を使用して**
+    https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/)**にログインし**ます。
 
 ![](./media/image7.png)
 
-2.  选择我们在上一个练习中创建的 **Dev env** 环境。
+2.  前の演習で作成した **Dev env** 環境を選択します。
 
 ![](./media/image8.png)
 
-3.  要为 Microsoft 365 Copilot Chat 创建声明性代理，您需要先浏览 Copilot
-    Studio 中的代理列表，然后选择名为 **Microsoft 365 Copilot** 的代理。
+3.  Microsoft 365 Copilot
+    チャットの宣言型エージェントを作成するには、まず Copilot Studio
+    でエージェントの一覧を参照し、次に **Microsoft 365 Copilot
+    という名前のエージェントを選択する必要があります**。
 
-4.  从左侧导航栏中选择 **Agents** ，然后从列表中选择 **Copilot for
-    Microsoft 365**。
+4.  左側のナビゲーション バーから **\[Agents\]** を選択し **、一覧から**
+    \[**Copilot for Microsoft 365**\] を選択します。
 
 ![](./media/image9.png)
 
-5.  将打开 Microsoft Copilot Studio 的新部分。从那里，选择 **+ Add**
-    命令为 Microsoft 365 Copilot Chat 创建新代理。
+5.  Microsoft Copilot Studio の新しいセクションが開きます。そこから、
+    **\[+ Add**\] コマンドを選択して、Microsoft 365 Copilot Chat
+    の新しいエージェントを作成します。
 
 ![](./media/image10.png)
 
-6.  Copilot Studio
-    要求您用自然语言描述代理的目的是什么。您可以定义代理程序要求。粘贴下面的提示以执行此作
+6.  Copilot
+    Studioは、エージェントの目的を自然言語で説明するように求めます。エージェントの要件を定義できます。これを行うには、以下のプロンプトを貼り付けます
 
-> **+++You are an agent helping employees to find information about HR
+> +++You are an agent helping employees to find information about HR
 > policies and procedures, about how to improve their career, and about
-> how to define learning pathways.+++**
+> how to define learning pathways.+++
 
 ![](./media/image11.png)
 
-7.  当 Copilot Studio 请求时，为您的自定义代理指定名称 “Agentic
-    HR”。使用以下提示。
+7.  Copilot Studio から要求された場合は、カスタム エージェントに
+    "Agentic HR" という名前を付けます。次のプロンプトを使用します。
 
 +++Name it as Agentic HR+++
 
 ![](./media/image12.png)
 
-8.  然后，按照以下说明指示 Copilot Studio 执行特定任务或目标：
+8.  次に、次の指示を使用して、Copilot Studio
+    に特定のタスクまたは目標を設定するように指示します。
 
 **+++Emphasize everything that helps team building, inclusion, and the
 growth mindset+++**
 
 ![](./media/image13.png)
 
-9.  然后，为您的座席定义专业语气，提供以下输入：
+9.  次に、エージェントのプロフェッショナルなトーンを定義し、次の入力を提供します。
 
-**+++It should have a professional tone+++**
+> **+++It should have a professional tone+++**
 
 ![](./media/image14.png)
 
-10. 描述完代理后，选择 **Create** 命令以创建实际代理。 
+10. エージェントの説明が完了したら、\[**Create**\]
+    コマンドを選択して実際のエージェントを作成します。
 
 ![](./media/image15.png)
 
 ![](./media/image16.png)
 
-## 练习 3：在 Microsoft 365 Copilot Chat 中发布代理
+## 演習 3: Microsoft 365 Copilot チャットでエージェントを公開する
 
-1.  从代理概述页面中选择 **Publish**。
+1.  エージェントの概要ページから **\[Publish**\] を選択します。
 
 ![](./media/image17.png)
 
-2.  在 **Publish agent** 屏幕中选择 **Publish**。
+2.  \[**Publish agent\] 画面で** \[**Publish**\] **を選択します** 。
 
 ![](./media/image18.png)
 
 > ![](./media/image19.png)
 
-3.  选择 **Share link** （共享链接） 下的 **Copy** （复制）
-    以复制链接，然后选择 **Done** （完成）。
+3.  **\[Share link**\] で **\[Copy**\]
+    を選択してリンクをコピーし、\[**Done\] を選択します**。
 
 ![](./media/image20.png)
 
-4.  打开一个新选项卡并粘贴复制的 URL。选择 **Add** 将 **Agentic HR**
-    添加到您的列表代理。
+4.  新しいタブを開き、コピーしたURLを貼り付けます。**Add**を選択して
+    、**Agentic HR** をリスト エージェントに追加します。
 
 ![](./media/image21.png)
 
 ![](./media/image22.png)
 
-5.  在简介屏幕中选择 **Skip**。
+5.  概要画面で **\[Skip**\] を選択します。
 
 ![](./media/image23.png)
 
-6.  现已添加 **Agentic HR** 代理。
+6.  **Agentic HR** エージェントが追加されました。
 
 ![](./media/image24.png)
 
-## 练习 4：创建 SharePoint 站点
+## 演習 4: SharePoint サイトを作成する
 
-1.  在新浏览器中，导航到 +++https://m365.cloud.microsoft/chat/+++
-    从左侧窗格中选择 **Apps** ，然后在加载应用程序后选择
-    **SharePoint**。
+1.  新しいブラウザーで、左側のウィンドウから
+    +++https://m365.cloud.microsoft/chat/+++
+    \[**Apps**\]の選択に移動し、アプリが読み込まれたら
+    **\[SharePoint**\] を選択します。
 
 > ![](./media/image25.png)
 
-2.  从 SharePoint 页面中选择 **+ Create** 站点。
+2.  SharePoint ページから **\[+ Create** site\] を選択します。
 
 ![](./media/image26.png)
 
-3.  从 **Select the site type** （选择站点类型） 页中选择
-    **Communication site** （通信站点）。
+3.  \[**Select the site type\] ページから \[Communication** site**\]
+    を選択します** 。
 
 ![](./media/image27.png)
 
-4.  选择要使用的**模板**。
+4.  使用する**template**を選択します 。
 
 ![](./media/image28.png)
 
-5.  选择 **Use template**（使用模板）。
+5.  \[**Use template\] を選択します**。
 
 ![](./media/image29.png)
 
-6.  输入 +++**Contoso site**+++ 作为 **Site name**
-    （站点名称），然后选择 **Next** （下一步）。
+6.  \[サイト名**\] に「+++Contoso site+++**」と入力し、\[**Next**\]
+    を選択します**。**
 
 ![](./media/image30.png)
 
-7.  在下一个屏幕中，选择 **Create site** （创建站点）。
+7.  次の画面で、**Create siteを選択します**。
 
 ![](./media/image31.png)
 
-8.  创建后，记下此站点的 **url**。
+8.  作成したら、このサイトのURLをメモします 。
 
 ![](./media/image32.png)
 
-9.  从菜单栏中选择 **Documents**。选择 **Upload -\> Files**
+9.  メニューバーから「**Documents」を選択します** 。\[**Upload -\>
+    Files\] を選択します**
 
 ![](./media/image33.png)
 
-10. 从 **C：\LabFiles** 中选择要上传
-    **Sample-list-of-candidates.xlsx**文件。
+10. C:\LabFiles**からアップロードするSample-list-of-candidates.xlsx**ファイル**を選択します**
+    。
 
 ![](./media/image34.png)
 
-## 练习 5：向代理添加作
+## 演習 5: エージェントにアクションを追加する
 
-在本练习中，您将向您创建的代理添加自定义作。在 Microsoft Copilot Studio
-中，为 Microsoft 365 Copilot Chat
-创建代理时，您可以添加四种不同类型的作：
+この演習では、作成したエージェントにカスタムアクションを追加します。Microsoft
+Copilot Studio では、Microsoft 365 Copilot Chat
+のエージェントを作成するときに、次の 4 種類のアクションを追加できます:
 
-- 新建提示：允许使用通过自然语言编写的提示构建的 AI 作。
+- 新しいプロンプト: 自然言語で記述されたプロンプトを使用して構築された
+  AI アクションを消費できます。
 
-- 新的 Power Automate 流：允许使用 Power Automate 流。
+- 新しい Power Automate フロー: Power Automate フローを使用できます。
 
-- 新建自定义连接器：允许使用 Power Platform 自定义连接器。
+- 新しいカスタム コネクタ: Power Platform カスタム
+  コネクタを使用できます。
 
-- 新的 REST API：允许使用外部 REST API...
+- 新しい REST API: 外部 REST API の使用を許可します。
 
-1.  要添加新作，请在代理配置面板的 **Actions** （作） 部分中选择 **+ Add
-    action** （添加作）。
+1.  新しいアクションを追加するには、 エージェントの構成パネルの
+    \[**Actions\] セクションで \[+ Add action**\] を選択します。
 
 ![](./media/image35.png)
 
-2.  选择 **List rows present in a table**（Excel online） 选项，然后选择
-    **Next**。
+2.  \[ **List rows present in a table**(Excel
+    online)\]オプションを選択し、\[**Next**\]を選択します **。**
 
 ![](./media/image36.png)
 
 ![](./media/image37.png)
 
-3.  在 **List rows in a table** （列出表中存在的行）
-    屏幕中，提供以下详细信息，然后选择 **Add action** （添加作）。
+3.  \[**List rows present in a table\] 画面で**
+    、以下の詳細を入力し、\[**Add action\] を選択します**。
 
-姓名- +++List HR candidates+++
+名前 - +++List HR candidates+++
 
-描述 – +++List candidates for HR role+++
+説明 – +++List candidates for HR role+++
 
 ![](./media/image38.png)
 
 ![](./media/image39.png)
 
-4.  添加作后，单击它以打开并编辑它。
+4.  アクションが追加されたら、それをクリックして開いて編集します。
 
 ![](./media/image40.png)
 
-5.  选择 **Inputs** 部分。
+5.  \[**Input**\] **セクション**を選択します。
 
 ![](./media/image41.png)
 
-6.  在 **How will the agent for each of the input
-    argument**（代理将如何为每个输入参数填充此输入）下选择 **Set as a
-    value**（设置为值）。
+6.  各入力引数の **\[How will the agent fill this input**\] で **\[Set
+    as a value**\] を選択します。
 
 ![](./media/image42.png)
 
-7.  在更改输入设置对话框中选择 **Confirm**。
+7.  入力設定ダイアログの変更で**\[Confirm**\]を選択します。
 
 ![](./media/image43.png)
 
 ![](./media/image44.png)
 
-8.  为每个输入提供以下值。
+8.  各入力に以下の値を指定します。
 
-**Location （位置） –** 您在前面的练习中保存的 Contoso 站点 URL。
+**Location** – 前の演習で保存した Contoso サイトの URL。
 
-文档库 – +++**Documents**+++
+Document Library – +++**Documents**+++
 
-文件 – +++**Sample-list-of-candidates.xlsx**+++
+File – +++**Sample-list-of-candidates.xlsx**+++
 
-牌桌 – +++**Candidates_Table**+++
+Table – +++**Candidates_Table**+++
 
 ![](./media/image45.png)
 
@@ -250,70 +260,72 @@ growth mindset+++**
 
 ![](./media/image47.png)
 
-9.  完成所有更新后，选择 **Save** （保存）。
+9.  すべての更新が完了したら、\[**Save**\] を選択します。
 
 ![](./media/image48.png)
 
 ![](./media/image49.png)
 
-10. 选择 **Publish** （发布） 以发布代理。
+10. \[ **Publish\]** を選択して、エージェントを発行します。
 
 ![](./media/image50.png)
 
-11. 再次选择 **Publish** （发布）。
+11. もう一度 \[**Publish**\] **を選択します** 。
 
 ![](./media/image51.png)
 
-12. **复制** URL 并从浏览器中**打开**它。
+12. URLを**コピ**ーして**、**ブラウザから**開きます。**
 
 ![](./media/image52.png)
 
-13. 这一次，它将提供一个选项 **Update now** 因为它已经添加。选择它。
+13. 今回は、すでに追加されているため、**Update
+    nowオプションが表示されます** 。それを選択します。
 
 ![](./media/image53.png)
 
-14. 选择 **Open** 更新后。
+14. 更新したら**、\[Open**\] を選択します。
 
 ![](./media/image54.png)
 
-15. 在 Agentic HR 代理屏幕中，发送以下消息。
+15. エージェントHRエージェント画面で、以下のメッセージを送信します。
 
-+++Show me a list of candidates for HR with role “HR Director” or ”HR
-Manager”+++
+> +++Show me a list of candidates for HR with role “HR Director” or ”HR
+> Manager”+++
 
 ![](./media/image55.png)
 
-16. 在 Data to be shared with Agentic HR 消息中，选择 **Allow once**
-    选项。
+16. 「Agent HR と共有されるデータ」メッセージで、「 **Allow once」**
+    オプションを選択します。
 
 ![](./media/image56.png)
 
-17. 如果系统要求您登录，请选择 “**Sign in to Agentic HR**”
-    选项，然后在下一个屏幕中选择 “**Connect**” 。
+17. サインインを求められた場合は、 **\[Sign in to Agentic HR**\]
+    オプションを選択し、次の画面で **\[Connect**\] を選択します。
 
 ![](./media/image57.png)
 
 ![](./media/image58.png)
 
-18. 连接后选择 **Submit** （提交）。
+18. 接続したら\[**Submit\]** を選択します。
 
 ![](./media/image59.png)
 
 ![](./media/image60.png)
 
-19. 现在，将以下消息重新发送给代理。
+19. 次に、次のメッセージをエージェントに再送信します。
 
-+++Show me a list of candidates for HR with role “HR Director” or ”HR
-Manager”+++
+> +++Show me a list of candidates for HR with role “HR Director” or ”HR
+> Manager”+++
 
 ![](./media/image61.png)
 
-20. 然后，您将收到请求的列表
+20. その後、リクエストされたリストを受け取ります
 
 ![](./media/image62.png)
 
 ![](./media/image63.png)
 
-## 总结
+## 概要
 
-在本实验中，您已成功学习了如何在 Copilot Studio 中使用自定义连接器。
+このラボでは、Copilot Studio でカスタム
+コネクタを使用する方法を学びました。
