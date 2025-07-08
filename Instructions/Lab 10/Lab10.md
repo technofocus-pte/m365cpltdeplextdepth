@@ -1,98 +1,105 @@
-# 实验 10：为测验生成代理的主题实施提示作
+# ラボ 10: クイズ生成エージェントのトピックに対する迅速なアクションを実装する
 
 **目的：**
 
-提示作是扩展 Microsoft Copilot
-的方法之一。他们通过创建特定于业务的自然语言作来实现这一点。GPT
-模型会解释这些作，以按照指示执行必要的作。这些作包装在 AI
-插件定义中，当遇到匹配的意图或话语时，Copilot 可以在运行时调用该定义。
+迅速なアクションは、Microsoft Copilots を拡張する方法の 1
+つです。これは、ビジネス固有の自然言語アクションを作成することによって行われます。アクションはGPTモデルによって解釈され、指示どおりに必要なアクションを実行します。これらのアクションはAIプラグイン定義にラップされており、副操縦士は一致するインテントまたは発話が検出されたときに実行時に呼び出すことができます。
 
-在本实验中，您将学习为测验生成主题创建提示作，该作将根据给定主题生成测验问题。
+このラボでは、特定のトピックに基づいてクイズの質問を生成するクイズ生成トピックのプロンプト
+アクションを作成する方法を学習します。
 
-## **练习 1：使用自然语言创建代理**
+## **演習 1: 自然言語を使用してエージェントを作成する**
 
-1.  打开浏览器并登录到
-    +++<https://copilotstudio.microsoft.com/+++>，并使用 Resources
-    （资源） 选项卡中的凭据登录（如果您尚未进入该页面）。
+1.  ブラウザを開いて +++<https://copilotstudio.microsoft.com/+++>
+    にログインし、\[リソース\] タブの資格情報でログインします
+    (まだそのページが表示されていない場合)。
 
 ![](./media/image1.png)
 
-2.  如果您已经在 Copilot Studio 页面上，请单击 **Home** 以转到主页。
+2.  すでにCopilot
+    Studioページを表示している場合は、\[**Home**\]をクリックして
+    ホームページに移動します。
 
 ![](./media/image2.png)
 
-3.  在主页上，在 描述您的代理 创建它的文本区域中，输入 +++ I want you to
-    be a question and answering assistant that can answer common
-    questions from users using the content of a website +++，然后单击
-    **Send**。
+3.  ホームページの「エージェントの説明」の下のテキスト領域に、「+++I
+    want you to be a question and answering assistant that can answer
+    common questions from users using the content of a
+    website+++」と入力し、「**Send**」をクリックします。
 
 ![](./media/image3.png)
 
-4.  它可能会建议代理的名称。要么接受它，要么提供你自己的名字。
+4.  エージェントの名前が提案される場合があります。それを受け入れるか、自分の名前を入力してください。
 
-5.  提供有关代理功能的其他详细信息，如下所示。
+5.  エージェントの機能に関するその他の詳細を以下のように提供してください。+++help
+    answer common product and support questions using the content of a
+    website, and help answer HR questions from an uploaded file+++
 
-> +++help answer common product and support questions using the content
-> of a website, and help answer HR questions from an uploaded file+++
-
-6.  为将用作知识源的网站提供
-    +++[www.microsoft.com+++](http://www.microsoft.com+++/) 。
+6.  ナレッジ ソースとして使用される Web
+    サイトに+++[www.microsoft.com+++](http://www.microsoft.com+++/)を指定します。
 
 ![](./media/image4.png)
 
-7.  完成提供说明后，单击 **Create** 创建您的代理。
+7.  指示の入力が完了したら、\[Create\]をクリックして
+    エージェントを作成します。
 
 ![](./media/image5.png)
 
-8.  代理随即创建并打开详细信息。滚动页面以了解代理已根据您提供的说明创建。
+8.  エージェントが作成され、詳細が表示されます。ページをスクロールして、エージェントが指定した指示で作成されていることを確認します。
 
 ![](./media/image6.png)
 
 ![](./media/image7.png)
 
-9.  单击 **Test** 图标以测试代理。输入 ++What is Copilot
-    Studio+++，然后按 **Enter**。
+9.  \[**Test\]**
+    アイコンをクリックして、エージェントをテストします。「+++Copilot
+    Studioとは+++」と入力し、**Enter**キーを押します。
 
 ![](./media/image8.png)
 
-10. 输入 +++What is the latest Xbox model?+++
+10. +++What is the latest xbox model?+++と入力します。
 
 ![](./media/image9.png)
 
-> 对于上述两个步骤，您将从代理那里获得一个通用的答案，因为代理将使用其常识。
+> 上記の両方の手順で、エージェントが一般的な知識を使用するため、エージェントから一般的な回答が得られます。
 
-## **练习 2：为生成式答案的主题创建提示作**
+## **演習 2: 生成的な回答のためのトピックのプロンプト アクションを作成する**
 
-作可用于扩展代理的功能。您可以在 Microsoft Copilot Studio
-中向代理添加多种类型的作：
+アクションを使用して、エージェントの機能を拡張できます。Microsoft
+Copilot Studio
+では、エージェントに複数の種類のアクションを追加できます。
 
-- **预构建的连接器作，**使用 Power Platform
-  连接器访问来自其他系统的数据，例如 Salesforce、Zendesk、MailChimp 和
-  GitHub 等流行的企业产品。
+- **Power Platform
+  コネクタを使用して、Salesforce、Zendesk、MailChimp、GitHub**
+  などの一般的なエンタープライズ製品などの他のシステムからデータにアクセスする事前構築済みコネクタ
+  アクション。
 
-- **自定义连接器作，**其中可以构建连接器来访问来自公共或私有 API
-  的数据。
+- **カスタム コネクタ アクション**: パブリック API またはプライベート
+  API からデータにアクセスするようにコネクタを構築できます。
 
-- **Power Automate 云端流，**使用 Power Automate
-  云端流来执行作、检索和处理数据。
+- **Power Automate クラウド フロー**: Power Automate クラウド
+  フローを使用して、アクションを実行し、データを取得して操作します。
 
-- **AI Builder 提示，**它使用 AI Builder
-  和自然语言理解来定位您业务中的特定场景和工作流。
+- **AI Builder プロンプト**は、AI Builder
+  と自然言語理解を使用して、ビジネス内の特定のシナリオとワークフローをターゲットにします。
 
-- **Bot Framework
-  技能，**它使用概述技能可以执行的作的技能清单，包括其输入和输出参数、技能的终结点以及技能的调度模型。
+- **Bot Framework スキル**は、スキルが実行できるアクション
+  (入力パラメーターと出力パラメーター、スキルのエンドポイント、スキルのディスパッチ
+  モデルなど) の概要を示すスキル マニフェストを使用します。
 
-在本练习中，您将学习如何向主题节点添加作提示
+この演習では、トピックノードにアクションへのプロンプトを追加する方法を学習します
 
-1.  在您的代理中，选择 **Topics** 选项卡，选择 **+ Add a topic** 并选择
-    **From blank**。
+1.  エージェントで **トピック** タブを選択し、**+ Add a
+    topic**を選択して、**From blank**を選択します。
 
 ![](./media/image10.png)
 
-2.  将主题的名称输入为 +++ Generate questions for a quiz +++。在触发器的
-    Phrases 下选择 **Edit** 超链接。至少需要输入 5 个触发短语
+2.  トピックの名前を+++Generate questions for a
+    quiz+++として入力します。 トリガーのフレーズの下にある \[**Edit**\]
+    ハイパーリンクを選択します。最低5つのトリガーフレーズを入力する必要があります
 
-> 逐个添加以下短语。添加每个短语，然后选择 + 选项以添加触发器。
+> 以下のフレーズを1つずつ追加します。各フレーズを追加し、 \[+\]
+> オプションを選択してトリガーを追加します。
 >
 > +++create a number of questions for a quiz based on a topic and format
 > the quiz based on the instruction provided+++
@@ -108,142 +115,149 @@
 > +++format a quiz by a number of questions based on the topic
 > provided+++
 >
-> 选择右上角的 **Save** 以保存主题。
+> 右上の **Save**を選択して 、トピックを保存します。
 
 ![](./media/image11.png)
 
-3.  单击 Trigger 节点下方的 + 符号。选择 **Add an action**
-    选项，然后选择 **New prompt （default AI model）** 选项。
+3.  トリガーノードの下にある+記号をクリックします。**Add an
+    action**オプションを選択し、その下で **New prompt (default AI
+    model)**オプションを選択します。
 
 ![](./media/image12.png)
 
 ![](./media/image13.png)
 
-4.  此时将显示 Prompt （提示）
-    对话框，并且您可能会看到一个浮出控件，该浮出控件将指导您如何创建提示。选择
-    **Next** 浏览指南。
+4.  \[プロンプト\]
+    ダイアログが表示され、プロンプトの作成方法をガイドするポップアップが表示される場合があります。\[**Next**\]
+    を選択して、ガイドを進めます。
 
-5.  我们将创建提示，该提示将为测验生成问题。将提示的名称输入为 +++Quiz
-    Generator+++。
+5.  クイズの質問を生成するプロンプトを作成します。プロンプトの名前を
+    +++Quiz Generator+++ として入力します。
 
-6.  将以下内容粘贴到 Prompt 字段中。
+6.  以下の内容を\[プロンプト\]フィールドに貼り付けます。
 
 > +++Generate a quiz with \[number\] questions to cover this \[topic\].
 > Decide on the format, such as multiple-choice questions or true/false
 > statements. Use this \[format\]. Designate the correct answer within
-> parentheses.+++
->
-> 展开 **Input** 部分，然后选择 **+ Add input**。
+> parentheses.+++  
+>   
+> **\[Input**\] セクションを展開し、\[**+ Add input\]** を選択します。
 
 ![](./media/image14.png)
 
-7.  选择 **Text** 在下面 **Add input** 选项。
+7.  **\[Add input**\] オプションで **\[Text**\] を選択します。
 
 ![](./media/image15.png)
 
-8.  输入名称 +++number+++，然后输入示例数据，例如 +++5+++。选择 **+ Add
-    input -\> Text** 以添加下一个输入。
+8.  名前を +++number+++ として入力し、+++5+++ などのサンプル
+    データを入力します。\[ **+ Add
+    input** -\> **Text** \]を選択して、次の入力を追加します。
 
 ![](./media/image16.png)
 
-9.  将名称输入为 +++topic+++ 并输入示例数据，例如
-    +++Science+++，然后选择 **+ Add input -\> Text 以添加下一个输入**。
+9.  名前を +++topic+++ として入力し、+++Science+++ などのサンプル
+    データを入力してから、 **\[+ Add input** -\> **Text** \]
+    を選択して次の入力を追加します。
 
-\![\](./media/image16.png)
+> \![\](./media/image16.png)
 
-11. 输入名称 +++format+++ 并输入示例数据，例如 +++bullet points+++
+10. 名前を+++format+++として入力し、+++bullet
+    points+++などのサンプルデータを入力します。
 
 ![](./media/image17.png)
 
-12. 现在，我们已经添加了输入名称和示例数据。接下来，需要将输入插入到提示符中。在提示符中，突出显示
-    **\[number\]** 并选择 **+ Add** ，然后**在提示**符下选择
-    **number**。number 的输入现已作为输入添加到提示符中。
+11. これで、入力名とサンプルデータが追加されました。次に、入力をプロンプトに挿入する必要があります。プロンプトで
+    **\[number\]** を強調表示し、\[**+ Add**\] を選択し、\[**In your
+    prompt**\] で **\[number**\] を選択します。これで、number
+    の入力が入力としてプロンプトに追加されました。
 
 ![](./media/image18.png)
 
 ![](./media/image19.png)
 
-13. 对其余输入重复相同的步骤。
+12. 残りの入力についても同じ手順を繰り返します。
 
-14. 将所有输入添加到提示符后，单击 **Test
-    prompt**（测试提示符）并观察提示符响应。
+13. すべての入力がプロンプトに追加されたら、\[**Test prompt**\]
+    をクリックし、プロンプトの応答を確認します。
 
 ![](./media/image20.png)
 
-15. 选择 **Save** 以保存提示。
+14. \[**Save\] を選択して**プロンプトを保存します。
 
 ![](./media/image21.png)
 
-16. 提示作节点现在将显示在 Topic 的创作画布中。接下来，需要定义 input
-    参数的值，以便代理程序填充它们。选择\>图标
+15. プロンプトアクションノードがトピックのオーサリングキャンバスに表示されます。次に、エージェントが入力するために、入力パラメータの値を定義する必要があります。**\>**アイコンを選択します。
 
 ![](./media/image22.png)
 
-17. 选择 **System** 选项卡，然后选择 **Acivity.Text**
-    作为作的输入值，以使用用户的整个响应并标识格式值。
+16. \[**システム**\] タブを選択し、アクションの入力値として
+    **\[Acivity.Text**\]
+    を選択して、ユーザーの応答全体を使用し、形式値を識別します。
 
 ![](./media/image23.png)
 
-18. 对提示作的其余输入参数重复相同的作。
+17. プロンプト・アクションの残りの入力パラメータについても同じことを繰り返します。
 
 ![](./media/image24.png)
 
-19. 接下来，我们需要定义 prompt作的 output
-    变量。这样，就可以在主题的下游引用响应。选择 **\>** 图标，然后在
-    **Custom** 选项卡中，选择 **Create new** 并将变量命名为
-    +++**VarQuizQuestionsResponse**+++。
+18. 次に、プロンプトアクションの出力変数を定義する必要があります。これは、応答をトピックの下流で参照できるようにするためです。**\>**
+    アイコンを選択し、**カスタム**タブで **Create new**を選択し、変数に
+    「+++**VarQuizQuestionsResponse**+++」という名前を付けます。
 
 ![](./media/image25.png)
 
 ![](./media/image26.png)
 
-20. 在 Prompt作下，选择 + 图标以添加新节点，然后选择 **Send a
-    message**。选择 {**x**} 变量图标。
+19. プロンプト アクションの下にある **+**
+    アイコンを選択して新しいノードを追加し、**Send a
+    message**を選択します。**{x}** 変数アイコンを選択します。
 
 ![](./media/image27.png)
 
-21. 选择变量 **VarQuizQuestionsResponse.text**。这会将提示作响应的
-    文本属性添加到 send a message 节点。选择 **Save** （保存）
-    以保存您的主题。
+20. 変数 **VarQuizQuestionsResponse.text**
+    を選択します。これにより、プロンプト・アクション応答のテキスト・プロパティーがメッセージ送信ノードに追加されます。**\[Save**\]を選択してトピックを保存します。
 
 ![](./media/image28.png)
 
-22. 接下来需要更新 Topic details （主题详细信息）
-    ，当启用生成模式时，您的代理将使用该详细信息将主题与用户的意图相关联。选择
-    **Details** （详细信息） 并输入以下内容。
+21. 次に、ジェネレーティブモードが有効になっているときに、エージェントがトピックをユーザーのインテントに関連付けるために使用するトピックの詳細を更新する必要があります。\[**Details**\]
+    を選択し、次のように入力します。
 
-    - 显示名称 - +++generate questions for a quiz+++
+    - 表示名 - +++generate questions for a quiz+++
 
-    - 描述 - +++This topic creates questions for a quiz based on the
+    - 説明 - +++This topic creates questions for a quiz based on the
       number of questions, the topic and format provided by the user+++
 
-选择 **Save** （保存） 以保存您的主题。
+\[**Save\]** を選択して トピックを保存します。
 
 ![](./media/image29.png)
 
-23. 现在，需要启用 **Generative mode** （生成模式）
-    设置，代理才能使用提示作调用主题。为您的代理选择
-    **Settings**（设置）。
+22. 次に、 エージェントがプロンプト
+    アクションでトピックを呼び出すには、ジェネレーティブ
+    モード設定を有効にする必要があります。エージェントの
+    \[**Settings**\]を選択します。
 
 ![](./media/image30.png)
 
-24. 选择 **Generative AI** （生成式 AI） 设置，然后选择 **Generate
-    （preview）** （生成（预览）），然后选择 **Save** （保存）。
+23. \[ジェネレーティブ AI**\]** 設定を選択し、\[**Generate (preview)\]**
+    を選択してから \[**Save**\] を選択します。
 
 ![](./media/image31.png)
 
-25. 现在我们准备好测试代理。在测试窗格中，选择**刷新**图标。然后输入以下问题并观察输出。
+24. これで、エージェントをテストする準備が整いました。テスト
+    ウィンドウで、**更新**アイコンを選択します。次に、次の質問を入力し、出力を観察します。
 
-+++Create 5 questions for a quiz based on geography and format the quiz
-as multi choice+++
-
+> +++Create 5 questions for a quiz based on geography and format the
+> quiz as multi choice+++
+>
 > ![](./media/image32.png)
 >
 > ![](./media/image33.png)
 
-**总结**
+**概要**
 
-在本实验中，我们学习了如何通过创建自定义提示来为主题创建提示作并对其进行测试。
+このラボでは、カスタム
+プロンプトを作成してテストすることで、トピックのプロンプト
+アクションを作成する方法を学習しました。
 
 m365cpltdeplextdepth/Instructions/Lab 10/Lab10.md at
 m365cpltdeplextdepth-Dec2K24 · technofocus-pte/m365cpltdeplextdepth
