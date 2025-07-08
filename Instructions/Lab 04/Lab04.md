@@ -1,436 +1,484 @@
-# 实验室 04：使用 Microsoft 365 Copilot 为销售人员提供支持
+# ラボ 04: Microsoft 365 Copilot で販売担当者を支援
 
-适用于 Microsoft 365 的 Copilot 用作 AI
-驱动的写作助手。它理解上下文、建议短语并帮助生成内容，所有这些都可以提高您的工作质量。在本实验中，您将
+Copilot for Microsoft 365 は、AI を活用したライティング
+アシスタントとして機能します。コンテキストを理解し、フレーズを提案し、コンテンツの生成を支援し、これらすべてが作業の品質を向上させることができます。このラボでは、次のことを行います
 
-- 使用 Copilot in Loop 创建市场研究报告。
+- Copilot in Loop を使用して、市場調査レポートを作成します。
 
-- 在 PowerPoint 中使用 Copilot 创建和自定义销售演示文稿。
+- PowerPoint の Copilot
+  を使用して、営業プレゼンテーションを作成およびカスタマイズします。
 
-- 在 Word 中使用 Copilot 比较三个供应商协议，确定差异并提供建议的作。
+- Word で Copilot を使用して、3
+  つのサプライヤー契約を比較し、相違点を特定し、推奨されるアクションを提供します。
 
-**练习 \#1：使用 Copilot in Loop 创建市场研究报告**
+**演習 #1: Copilot in Loop を使用して市場調査レポートを作成する**
 
-您是 VanArsdel Ltd 的销售副总裁，这是一家塑料部件
-OEM，其主要市场是农业设备行业。然而，高级领导层对可能进入汽车市场感兴趣。鉴于来自已经垄断该行业的现有塑料制造商的激烈竞争，您需要确定您的公司是否有空间成为可行的参与者。
+あなたは、農業機械業界を主な市場とするプラスチック部品の OEM である
+VanArsdel Ltd
+の営業担当副社長です。しかし、上級管理職は、自動車市場への参入の可能性に関心を持っています。すでにこの分野を独占している既存のプラスチックメーカーとの激しい競争を考えると、自社が有力なプレーヤーになるためのスペースがあるかどうかを判断する必要があります。
 
-在本练习中，您将使用 Copilot in Loop 来
+この演習では、Copilot in Loop を使用して次のことを行います
 
-- 为您公司的产品研究潜在的新销售市场，并创建一份市场研究报告来概述其发现。
+- 自社製品の潜在的な新しい販売市場を調査し、その結果を概説した市場調査レポートを作成します。
 
-- 通过将内容放在表中来更改报告的格式。
+- レポートの形式を変更するには、コンテンツをテーブルに配置します。
 
-- 就您的公司是否应该进入该市场提出最终建议。
+- あなたの会社がその市場に参入すべきかどうかについて、最終的な提案をしてください。
 
-1.  打开 Microsoft Edge 浏览器并输入以下 URL：
-    +++<https://m365.cloud.microsoft>+++ 转到 Microsoft 365 Copilot
-    应用程序（以前称为 Office）主页。在左侧导航窗格中选择 **Apps**。
+1.  Microsoft Edge ブラウザーを開き、次の URL を入力します:
+    +++<https://m365.cloud.microsoft>+++ Microsoft 365 Copilot アプリ
+    (以前のオフィス) ホーム ページに移動します。 **左側のナビゲーション
+    ウィンドウで** \[**Apps**\] を選択します。
 
-**注意：**您需要使用右侧 Resources （资源） 选项卡下提供的 Credentials
-（凭据） 登录（如果出现提示）。
+**注**: サインインを求められた場合は、右側の \[Resource\]
+タブにある資格情報を使用してサインインする必要があります。
 
 ![](./media/image1.png)
 
-2.  在 **Apps** （应用程序） 页面中，向下滚动以找到 **Loop**
-    （循环），然后选择它。
+2.  \[**Apps\]** ページで、下にスクロールして **\[Loop\]**
+    を見つけ、それを選択します。
 
 ![](./media/image2.png)
 
-**注意：**如果您在 Apps 页面中没有看到 **Loop，**请选择 **All apps**。
+**注**: **\[Apps\] ページに** \[ループ\] が表示されない場合は、\[**All
+apps\] を選択します**。
 
-3.  如果您看到 **Sign-in** （登录） 按钮，请使用 **Resources** （资源）
-    选项卡中的 **Microsoft 365 Credentials** （365 凭据）
-    下提供的凭据登录。
+3.  \[**Sign-in\] ボタンが表示されている場合は**、\[**Resource\]
+    タブの** \[**Microsoft 365
+    Credentials\]で提供されている資格情報を使用してサインイン**します。
 
 ![](./media/image3.png)
 
-**注意：**登录后，关闭 Loop 浏览器窗口，然后再次从 Apps 页面打开 Loop。
+**注**:サインイン後、Loopブラウザウィンドウを閉じ、アプリページからもう一度Loopを開きます。
 
-4.  在 **Microsoft Loop** 中，默认情况下会显示 **Workspaces**
-    选项卡。要为此项目创建新工作区，请选择 “**Getting started**”
-    旁边的左上角的 “**+**” ，然后选择 “**+New workspace**” 按钮。
+4.  Microsoft Loop **では**、既定で **\[Workspaces\]**
+    タブが表示されます。このプロジェクトの新しいワークスペースを作成する場合は、
+    \[**Getting started**\] の横にある左上の **\[+\]** を選択し、 **\[+
+    New workspace** \] ボタンを選択します。
 
 ![](./media/image4.png)
 
 ![](./media/image5.png)
 
-5.  在 **Create a new workspace** （创建新工作区） 窗口中，输入
-    +++VanArsdel research+++ 作为工作区名称，然后选择显示的 **Continue**
-    （继续） 或 **Create** （创建） 按钮（具体取决于您的 Loop 版本）。
+5.  \[**Create a new workspace**\]
+    ウィンドウで、ワークスペース名に「+++VanArsdel
+    research+++」と入力し、表示される **\[Continue**\] または
+    **\[Create**\] ボタンを選択します
+    (ループのバージョンによって異なります)。
 
 ![](./media/image6.png)
 
-6.  在 **Add files to your workspace** （将文件添加到工作区）
-    窗口中（根据您的 Loop 版本，此窗口可能会显示 **Workspace
-    Switcher**），选择 **Create** （创建）。
+6.  \[**Add files to your workspace** (Loop
+    のバージョンによっては、このウィンドウに **\[Workspace Switcher\]**
+    と表示される場合があります) で、\[**Create**\] を選択します。
 
 ![](./media/image7.png)
 
-7.  您现在位于新工作区的第一页。页面名称当前为
-    **Untitled**。请注意，页面 （Untitled）
-    也显示在左侧导航窗格中。在页面的主体中，选择 **Untitled**
-    字段，然后将页面名称更改为 **Market
-    research**。请注意页面名称在导航窗格中的自动更新方式。
+7.  これで、新しいワークスペースの最初のページが表示されます。ページの名前は現在
+    **\[Untitled\]** です。ページ (**Untitled**)
+    は、左側のナビゲーション
+    ウィンドウにも表示されます。ページの本文で、**Untitled**
+    フィールドを選択し、ページの名前を **市場調査**
+    に変更します。ナビゲーション
+    ウィンドウでページ名が自動的に更新されることに注意してください。
 
 ![](./media/image8.png)
 
-8.  在 **Just start typing...**字段中，输入正斜杠 **(/)** 。
+8.  \[**Just start typing...**  フィールドにスラッシュ **(/)
+    を入力します**。
 
 ![](./media/image9.png)
 
-9.  在显示的下拉菜单中，在菜单顶部的 **Copilot** 部分下，选择 **Draft
-    page content**。
+9.  表示されるドロップダウンメニューで、メニュー上部の\[**Copilot**\]セクションで、\[**Draft
+    page content\]を選択します**。
 
-10. 在出现的 **Copilot**
-    窗口中，请注意提示字段下方显示的一行按钮。选择每个按钮。执行此作时，请注意它如何使用
-    Copilot 可以协助的任务类型的示例预填充提示字段。
+10. 表示される **Copilot** ウィンドウで、プロンプト
+    フィールドの下に表示されるボタンの列に注意してください。各ボタンを選択します。その際、Copilot
+    が支援できるタスクの種類の例がプロンプト
+    フィールドに事前に入力される方法に注意してください。
 
-11. 您现在要输入自己的提示符。在提示字段中，输入以下提示，然后选择
-    **Submit** 图标：
+11. 次に、独自のプロンプトを入力します。プロンプトフィールドに次のプロンプトを入力し、\[**Submit\]**アイコンを選択します。
 
-+++As the VP for Sales for an OEM in the plastics manufacturing
-industry, please research the market for plastic components in the
-automotive industry. Provide information on target audience, market
-size, competition, trends, regulations, and distribution channels.+++
+> +++As the VP for Sales for an OEM in the plastics manufacturing
+> industry, please research the market for plastic components in the
+> automotive industry. Provide information on target audience, market
+> size, competition, trends, regulations, and distribution channels.+++
 
 ![](./media/image10.png)
 
-12. 如果您收到一条错误消息，指出出现问题，请复制并粘贴之前的提示，然后再次提交。
+12. 問題が発生したというエラーが表示された場合は、前のプロンプトをコピーして貼り付け、再度送信します。
 
 ![](./media/image11.png)
 
-13. 查看生成的报告。与其以段落形式显示所有信息，不如将其汇总到表格中。在显示的
-    **Copilot** 窗格中，在 **Rewrite with Copilot**
-    字段中输入以下提示，然后选择 **Submit** 图标：
+13. 生成されたレポートを確認します。すべての情報を段落形式でまとめるのではなく、表にまとめることを好みます。表示される
+    **Copilot ペインで、**Rewrite with Copilot フィールドに
+    次のプロンプトを入力し、**Submit** アイコンを選択します。
 
-+++Rewrite the report by placing the information in a table.+++
+> +++Rewrite the report by placing the information in a table.+++
 
 ![](./media/image12.png)
 
-14. 请注意 Copilot 如何更改报告的格式。您现在希望 Copilot
-    就进入这个市场是否是 VanArsdel
-    的可行选择提出最终建议。输入以下提示：
+14. Copilot
+    によってレポートの書式設定がどのように変更されたかに注目してください。あなたは今、Copilotに、この市場への参入がVanArsdelにとって実行可能な選択肢であるかどうかについて最終的な推奨を行うことを望んでいます。次のプロンプトを入力します:
 
-+++Add a recommendation to the end of the report as to whether we should
-move into the market.+++
+> +++Add a recommendation to the end of the report as to whether we
+> should move into the market.+++
 
 ![](./media/image13.png)
 
-15. 滚动到报告底部并查看 Copilot 的建议。
+15. レポートの一番下までスクロールし、Copilot の推奨事項を確認します。
 
 ![](./media/image14.png)
 
-**练习 \#2：在 PowerPoint 中使用 Copilot 创建销售演示文稿**
+**演習 \#2: PowerPoint で Copilot
+を使用して営業プレゼンテーションを作成する**
 
-使用 PowerPoint 中的
-Copilot，销售专业人员可以专注于他们的演示文稿内容，而该工具则负责设计和格式设置。它可以
+PowerPoint の Copilot
+を使用すると、営業担当者はプレゼンテーションの内容に集中でき、ツールがデザインと書式設定を行います。それはできる:
 
-- 将现有的书面文档转换为演示文稿，并配有演讲者笔记和来源
+- 既存の文書を、スピーカーノートとソースを備えたプレゼンテーションデッキに変換
 
-- 从简单的提示或大纲开始新的演示文稿。
+- 新しいプレゼンテーションを簡単なプロンプトまたはアウトラインから開始します。
 
-- 帮助总结演示文稿，提供关键点的项目符号摘要，以便快速理解演示文稿的内容或与团队分享主要思想。
+- プレゼンテーションの要約を支援し、重要なポイントの箇条書きの要約を提供して、プレゼンテーションの内容をすばやく理解したり、主要なアイデアをチームと共有したりします。
 
-作为 Contoso， Ltd.
-的销售和营销总监，您需要向您的销售团队介绍该公司最畅销的产品 Contoso
-Protein Plus
-奶昔。该演示文稿应分析您的营销团队为产品创建的市场趋势报告。
+Contoso, Ltd. のセールスおよびマーケティング
+ディレクターは、同社の最も売れ筋製品である Contoso Protein Plus
+シェイクについて、セールス
+チームにプレゼンテーションを行う必要があります。プレゼンテーションでは、マーケティング
+チームが製品に対して作成した市場トレンド
+レポートを分析する必要があります。
 
-在本练习中，您将使用 PowerPoint 中的 Copilot 根据 **Market Trend
-Report - Protein Shake.docx**
-文件中的信息创建幻灯片演示文稿，您可以使用提供的链接下载该文件。
+この演習では、PowerPoint の Copilot
+を使用して、提供されているリンクを使用してダウンロードした **Market
+Trend Report - Protein Shake.docx** ファイルの情報に基づいてスライド
+プレゼンテーションを作成します。
 
-1.  如果您的 Microsoft Edge 浏览器中有 Microsoft 365 Copilot
-    应用程序页面，请立即选择它; 否则，请打开一个新选项卡并输入以下 URL：
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) 
-    以转到 Microsoft 365 Copilot 应用主页。
+1.  Microsoft Edge ブラウザーに Microsoft 365 Copilot アプリ
+    ページがある場合は、ここで選択します。それ以外の場合は、新しいタブを開き、次の
+    URL:
+    :+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) を入力して
+    Microsoft 365 Copilot アプリのホーム ページに移動します。
 
-注意：您需要使用右侧 “**Resources**” 选项卡下提供的 **Microsoft 365
-凭据**登录（如果出现提示）。
+**注**: 右側の **\[リソース\] タブ**にある **Microsoft 365
+資格情報**を使用してサインインする必要があります
+(プロンプトが表示された場合)。
 
-2.  在导航窗格中选择 **Apps**。点击 **OneDrive** 打开它
+2.  navigation ウィンドウで \[**Apps\] を選択します** 。**OneDrive**
+    をクリックして開きます
 
-3.  浏览到 **C：\LabFiles\MS4019** 文件夹以选择 **Market Trend Report -
-    Protein Shake** 的副本并将其上传到 **OneDrive**
+3.  C:\LabFiles\MS4019 **フォルダーを参照して、Market Trend Report -
+    Protein Shake** to **OneDrive**
 
-**注意：**如果您已按照**准备实验室执行**部分**（实验
-0）**中的说明将所有实验室资产上传到 **OneDrive，**则可以跳过此步骤。
+**注**: 「ラボ実行の準備 **(**ラボ
+0)」セクションの説明**に従って**、すべてのラボ アセットを OneDrive
+に既にアップロードしている場合は、この手順をスキップできます。
 
-4.  打开并关闭文件 **Market Trend Report - Protein
-    Shake.docx**（已上传到 OneDrive），将其放入 Most Recently Used
-    （MRU） 文件列表中
+4.  **ファイル Market Trend Report - Protein Shake.docx Update**
+    (OneDrive にアップロードしたもの) を開いて閉じ、最近使用した (MRU)
+    ファイル リストに入れます。
 
-5.  在 **Microsoft 365** 导航窗格中，选择 **PowerPoint**。在 PowerPoint
-    中，打开一个新的空白演示文稿。
+5.  **Microsoft 365** ナビゲーション ウィンドウで、\[PowerPoint\]
+    を選択します。PowerPoint
+    で、新しい空白のプレゼンテーションを開きます。
 
-6.  选择 **Copilot** 图标（以红色突出显示，如屏幕截图所示）。在显示的
-    **Copilot** 窗格中，有几个预定义的提示可供您选择。选择 **Create
-    presentation from file**
-    提示。![](./media/image15.png)
+6.  **Copilot** アイコン (スクリーンショットに示すように赤で強調表示)
+    を選択します。表示される **Copilot**
+    ペインでは、いくつかの事前定義されたプロンプトから選択できます。**\[Create
+    presentation from\]** プロンプトを選択します。  
+    ![](./media/image15.png)
 
 ![](./media/image16.png)
 
 ![](./media/image17.png)
 
-在 **Copilot** 窗格底部的提示字段上方，可能会出现一个 **Suggestions**
-窗口，其中包含最近使用的三个文件。如果 **Market Trend Report - Protein
-Shake.docx** 文件显示在 MRU 列表中，然后选择它。
+Copilot **ペイン**の下部にあるプロンプト
+フィールドの上に**、最近使用した 3 つのファイルを含む \[提案**\]
+ウィンドウが表示される場合があります。**MRUリストにMarket Trend Report -
+Protein Shake.docx**ファイルが表示されている場合は、それを選択します。
 
-7.  否则，您可以使用 Attach cloud files
-    选项附加参考文档，如屏幕截图所示。![](./media/image18.png)
+7.  それ以外の場合は、スクリーンショットに示すように、
+    クラウドファイルを添付する
+    オプション。![](./media/image18.png)
 
 ![](./media/image19.png)
 
-**注：** 您可以使用文档链接附加参考文档。若要获取链接，请在 **Word**
-中打开文件，选择功能区上方的“**Share** ”按钮，从下拉菜单中选择“**Copy
-Link**”选项，然后在 **PowerPoint** 的 **Copilot**
-窗格的此提示字段中，粘贴正斜杠后面的链接（**Create presentation from
-file /**）。选择 **Send** 图标。
+**注**:ドキュメントへのリンクを使用して、参照ドキュメントを添付できます。リンクを取得するには、Word
+でファイルを開き、 **リボンの上にある** \[**Share**\]
+ボタンを選択し、ドロップダウン メニューから \[**Copy Link\]
+オプションを選択し、**PowerPoint の **Copilot** パネルの
+**このプロンプト フィールドに**、スラッシュに続くリンクを貼り付けます
+(**Create presentation from file /**)。\[**Send\]**
+アイコンを選択します。
 
 ![](./media/image20.png)
 
-8.  此提示触发 Copilot
-    根据文档创建幻灯片演示文稿。在此过程中，它首先显示演示文稿的大纲。然后，它显示一个单独的窗口，其中显示了它根据文档对演示文稿所做的一些更改的项目符号列表。
+8.  このプロンプトにより、Copilot はドキュメントに基づいてスライド
+    プレゼンテーションを作成しました。その際、最初にプレゼンテーションのアウトラインが表示されました。次に、ドキュメントに基づいてプレゼンテーションに加えた一部の変更の箇条書きリストを示す別のウィンドウが表示されました。
 
 ![](./media/image21.png)
 
-9.  Copilot 完成创建演示文稿后查看幻灯片。要查看演讲者备注，请选择
-    **View** （查看） 选项卡，然后选择 **Notes** （备注）
-    按钮（如果尚未选择）。如果已选中该窗口，但您看不到注释，则向上拖动幻灯片窗口的底部以显示注释。验证演讲者注释是否包含您希望在演示期间提出的关键点。
+9.  Copilot
+    でプレゼンテーションの作成が完了したら、スライドを確認します。スピーカーのノートを確認するには、\[**View**\]
+    タブを選択し、\[**Notes**\]
+    ボタンがまだ選択されていない場合は選択します。すでに選択されていてノートが表示されない場合は、スライドウインドウの下部を上にドラッグしてノートを表示します。スピーカーノートに、プレゼンテーション中に強調したいポイントが含まれていることを確認します。
 
 ![](./media/image22.png)
 
-10. 选择 “**Home**” 选项卡，然后选择 “**Designer**” 按钮，该按钮显示在
-    Copilot 按钮的左侧。**Designer** （设计器）
-    窗格为当前显示的幻灯片提供不同设计的示例。在演示文稿中更改为其他幻灯片，并注意
-    **Designer** 窗格如何为该幻灯片生成不同的设计选项。
+10. \[**Home\]** タブを選択し、\[**Copilot**\] ボタンの左側に表示される
+    **\[Designer**\] ボタンを選択します。デザイナー
+    ペインには、表示されている現在のスライドのさまざまなデザインのサンプルが表示されます。プレゼンテーション内の別のスライドに変更し、**デザイナー**
+    ペインでそのスライドに対して異なるデザイン
+    オプションがどのように生成されるかを確認します。
 
 ![](./media/image23.png)
 
-11. 选择其中一个设计选项，让 PowerPoint
-    将当前幻灯片替换为新设计。此功能与 Copilot 无关。当您拥有 Microsoft
-    365 订阅时，它会在 PowerPoint 中可用。
+11. デザイン オプションの 1 つを選択して、PowerPoint
+    で現在のスライドを新しいデザインに置き換えます。この機能は Copilot
+    とは関係ありません。Microsoft 365
+    サブスクリプションをお持ちの場合は、PowerPoint で利用できます。
 
 ![](./media/image24.png)
 
-12. 现在让我们看看 **Copilot** 还可以做什么。选择 **Copilot** 按钮以打开
-    **Copilot** 窗格。在 **Copilot** 窗格中，请注意 **Here are some
-    things you can try** 的部分。Copilot
-    提供预构建的提示，您可以使用这些提示在演示文稿上执行多项任务。选择
-    **View Prompts** 图标，然后选择 **Organize your thoughts** （in red
-    highlight） 。**请注意**：
-    您需要慢慢向下滚动才能找到提示（如屏幕截图所示）
+12. では、Copilot で他に何ができるかを見てみましょう。\[**Copilot**\]
+    ボタンを選択して \[**Copilot**\]
+    ウィンドウを開きます。\[**Copilot**\] ウィンドウで、\[**Here are
+    some things you can try**\] というセクションを確認します。Copilot
+    には、プレゼンテーションでいくつかのタスクを実行するために使用できる事前作成済みのプロンプトが用意されています。\[**View
+    Prompts** **\]** アイコンを選択し、\[**Organize your thoughts**\]
+    (赤色の強調表示) を選択します。
+    **注:**プロンプトを見つけるには、ゆっくりと下にスクロールする必要があります(スクリーンショットを参照)
 
 ![](./media/image25.png)
 
 ![](./media/image26.png)
 
-13. 回顾一下 Copilot
-    在组织演示时所做的工作。例如，它可能已将幻灯片分组为多个部分，然后添加了一些新的部分标题幻灯片。如果是这样，请找到它创建的新幻灯片并查看它们。
+13. プレゼンテーションの整理に Copilot
+    が何を行ったかを確認します。たとえば、スライドをセクションにグループ化し、新しいセクション
+    タイトル
+    スライドを追加したとします。その場合は、作成した新しいスライドを見つけて確認します。
 
 ![](./media/image27.png)
 
-14. 在提示字段上方，Copilot
-    显示与演示文稿相关的问题。这些问题的目的有两个。您可以
+14. プロンプト
+    フィールドの上には、プレゼンテーションに関連する質問が表示されます。これらの質問の目的は2つあります。できることは：
 
-    - 选择一个问题并让 Copilot
-      生成答案，然后您可以将其复制并粘贴到适用幻灯片的演讲者备注中。
+    - 質問を選択すると、Copilot
+      で回答が生成され、それをコピーして該当するスライドのスピーカーノートに貼り付けることができます。
 
-    - 创建问题与答案 （Q&A）
-      幻灯片，并在演讲者备注中复制并粘贴所有这些问题的答案。
+    - 質問と回答(Q&A)スライドを作成し、これらすべての質問に対する回答をコピーしてスピーカーノートに貼り付けます。
 
-在此过程中，您可以使用这些问题和答案来准备演示文稿的 Q&A
-部分。例如，它可能有一个按钮，询问如下内容：**What caused the rise in
-demand for Contoso Protein Plus?** 或者它可能会问这样的事情：**What are
-the key factors behind the hype of Contoso Protein Plus?**
-查看您看到的问题，然后选择其中一个问题以查看会发生什么。
+その際、これらの質問と回答を使用して、プレゼンテーションの Q&A
+部分の準備をすることができます。たとえば、次のような質問をするボタンがある場合があります:
+**What caused the rise in demand for Contoso Protein
+Plus**?または、**What are the key factors behind the hype of Contoso
+Protein
+Plus**?と尋ねるかもしれません。表示された質問を確認し、そのうちの 1
+つを選択して何が起こるかを確認します。
 
 ![](./media/image28.png)
 
-15. 当您选择这些问题中的任何一个时，Copilot
-    会生成问题的答案，并在答案窗口底部提供 **Copy**
-    选项。为此，您可以选择 **Copy** （复制）
-    选项，然后将此答案粘贴到任何幻灯片的演讲者备注中，此文本将在其中作为适当的备注。现在就试试吧。选择一个问题，复制答案，然后转到相应的幻灯片，然后在演讲者备注中输入
-    **Ctrl+V** 以粘贴到备注中。
+15. これらの質問のいずれかを選択すると、Copilot
+    は質問に対する回答を生成し、 回答ウィンドウの下部に \[**Copy**\]
+    オプションを提供します。その際、\[**Copy**\]
+    オプションを選択し、このテキストが適切なノートを作成するスライドのスピーカー
+    ノートにこの回答を貼り付けることができます。今すぐお試しください。質問を選択し、回答をコピーしてから、適切なスライドに移動し、スピーカーノートで
+    **Ctrl + V** キーを押してノートを貼り付けます。
 
 ![](./media/image29.png)
 
 ![](./media/image30.png)
 
-16. 请注意显示在建议问题和提示字段之间的 **Refresh** （刷新）
-    按钮。选择此 **Refresh** （刷新） 按钮。
+16. 提案された質問とプロンプトフィールドの間に表示される\[**Refresh**\]ボタンに注意してください。この
+    **\[Refresh\]** ボタンを選択します。
 
 ![](./media/image31.png)
 
-在此过程中，请注意 Copilot 如何生成一组新问题。您可以通过选择
-**Refresh** （刷新）
-按钮继续刷新问题，直到您在演示文稿中看到要解决的问题。然后，您可以选择问题，复制
-Copilot 生成的答案，并将其粘贴到您选择的幻灯片的演讲者备注中。一旦
-Copilot 想不出任何新问题可以提供，它就会从头开始重复问题列表。
+その際、Copilot
+が新しい一連の質問をどのように生成したかに注目してください。
+プレゼンテーションで対処したい質問が表示されるまで、\[更新\]
+ボタンを選択して、質問を更新し続けることができます。その後、質問を選択し、Copilot
+で生成された回答をコピーして、選択したスライドのスピーカーノートに貼り付けることができます。Copilot
+は、新しい質問が思いつかなくなると、質問のリストを最初から繰り返し始めます。
 
-17. 您现在希望 Copilot
-    在演示文稿结束时为问答环节创建一张幻灯片。输入以下提示，然后选择
-    **Send** 图标：
+17. ここで、Copilot でプレゼンテーションの最後に Q&A
+    セッションのスライドを作成します。次のプロンプトを入力し、\[**Send\]**
+    アイコンを選択します。
 
-+++Add a slide at the end of the presentation for Q&A.+++
+> +++Add a slide at the end of the presentation for Q&A.+++
 
 ![](./media/image32.png)
 
-**注意：**Copilot 可能会显示一些异常，如下所示。
+**注**: Copilot では、以下のような例外が表示される場合があります。
 
 ![](./media/image33.png)
 
-请尝试改写提示或使用建议的提示，如下所示：
+プロンプトを言い換えるか、次のような提案されたプロンプトを使用してください。
 
 ![](./media/image34.png)
 
-18. 选择命令 **Add a slide about** 并在演示文稿的最后附加以下
-    Q&A（如屏幕截图所示）。
+18. \[**Add a slide**\]**コマンドを選択し**
+    、プレゼンテーションの最後に次のQ&Aを追加します(スクリーンショットを参照)。
 
 ![](./media/image35.png)
 
-19. 单击 **Send** 以检查会发生什么。
+19. \[Send**\] をクリックして** 、何が起こるかを確認します。
 
 ![](./media/image36.png)
 
-Copilot 已按照说明添加了 Q&A 幻灯片。查看 Copilot 创建的问答幻灯片。
+Copilotは指示通りにQ&Aスライドを追加しました。Copilot が作成した Q&A
+スライドを確認します。
 
-20. 查看 Copilot
-    创建的问答幻灯片。现在尝试最后一件事。您决定编制一份潜在问题列表，以便在
-    Q&A 会话期间准备这些问题。输入以下提示，查看 Copilot
-    是否可以将其所有建议的问题添加到问答幻灯片上的演讲者备注中：
+20. Copilot が作成した Q&A
+    スライドを確認します。では、最後にもう1つ試してみてください。Q&A
+    セッション中に準備できる可能性のある質問のリストを作成することにしました。次のプロンプトを入力して、Copilot
+    が提案したすべての質問を Q&A スライドのスピーカー
+    ノートに追加できるかどうかを確認します：
 
-+++In the speaker notes of the Q&A slide that you just created, add a
-list of possible questions that may be asked regarding this
-presentation.+++
+> +++In the speaker notes of the Q&A slide that you just created, add a
+> list of possible questions that may be asked regarding this
+> presentation.+++
 
-21. 如果 Copilot
-    返回一条消息，指示它无法生成幻灯片，请尝试再次输入提示。有时，当
-    Copilot 无法完成任务时，一个好的做法是重复请求。
+21. Copilot
+    がスライドを生成できなかったことを示すメッセージを返した場合は、プロンプトをもう一度入力してみてください。Copilot
+    がタスクを完了できない場合は、リクエストを繰り返すことをお勧めします。
 
 ![](./media/image37.png)
 
 ![](./media/image38.png)
 
-如果 Copilot
-无法完成此任务，则它只是表明它此时可能无法完成您想要的所有任务。此方案是您需要注意的最佳实践的另一个示例：了解
-Copilot 的限制。
+Copilot
+がこのタスクを完了できない場合は、この時点で必要なすべてのタスクを完了できない可能性があることを示しています。このシナリオは、Copilot
+の制限事項を理解するという、注意すべきベスト プラクティスの別の例です。
 
-22. 现在尝试此解决方法。输入以下提示，要求它生成问题列表：
+22. 次に、この回避策を試してください。次のプロンプトを入力して、質問のリストを生成するように求めます。  
+    +++What kind of questions do you think participants may ask during
+    the Q&A session?+++  
+      
+    ![](./media/image39.png)
 
-+++What kind of questions do you think participants may ask during the
-Q&A session?+++
-
-![](./media/image39.png)
-
-23. 查看 Copilot 创建的问题。选择窗口底部的 **Copy**
-    按钮，然后将它们粘贴 （**Ctrl+V**） 到 Q&A 幻灯片的演讲者备注中。
+23. Copilot が作成した問題を確認します。 **ウィンドウの下部にある**
+    \[**Copy** \] ボタンを選択し、**Q&A スライドのスピーカー
+    ノートに**貼り付けます (Ctrl + V)。
 
 ![](./media/image40.png)
 
-**注意：**Copilot 可能会显示一些异常。请尝试使用**步骤 \#16**
-中建议的提示
+**注**: Copilot
+では、一部の例外が表示される場合があります。**ステップ#16**のように、提案されたプロンプトを使用してみてください
 
-虽然本模块中的其余训练练习不使用此演示文稿，但您可以放弃它或保存它（如果您保留副本以备将来参考）。
+このモジュールの残りのトレーニング演習ではこのプレゼンテーションは使用しませんが、後で参照できるようにコピーを保持する場合は、このプレゼンテーションを破棄するか、保存することができます。
 
-**练习 \#3：在 Word 中使用 Copilot 比较供应商协议**
+**演習 \#3: Word で Copilot を使用してサプライヤー契約を比較する**
 
-销售人员需要在正确的时间获得正确的信息，以便与客户建立牢固的关系，根据洞察采取行动，并更快地达成交易。Word
-中的 Copilot
-可以帮助他们将其他文档中的特定信息引入其内容、生成摘要、询问有关其文档的问题、提供有关特定主题的想法以及将文本转换为表格，或提供重写内容的方法建议。
+営業担当者は、顧客との強固な関係を築き、インサイトに基づいて行動を起こし、より迅速に取引を成立させるために、適切な情報を適切なタイミングで必要としています。Word
+の Copilot
+は、他のドキュメントから特定の情報をコンテンツに取り込んだり、概要を生成したり、ドキュメントについて質問したり、特定のトピックに関するアイデアを提供したり、テキストを表に変換したり、コンテンツを書き換える方法を提案したりするのに役立ちます。
 
-您是 Northwind Traders 的新销售经理，Northwind Traders
-是各种杂货和饮料产品的供应商。您担心目前与 Northwind
-的几个顶级客户签订的供应商协议。您的前任协商了这些协议，因此您不熟悉之前与这些客户商定的条款和条件。
+あなたは、さまざまな食料品や飲料製品のサプライヤーである Northwind
+Traders の新しいセールス マネージャーです。あなたは、Northwind
+の上位顧客数社と現在締結されているサプライヤー契約について懸念しています。これらの契約は前任者が交渉したため、以前にこれらの顧客と合意した契約条件に精通していません。
 
-在本练习中，您将
+この演習では、次のことを行います
 
-- 在 Word 中向 Copilot 提供三份供应商协议文档。
+- Word の Copilot に 3 つのサプライヤー契約ドキュメントを提供します。
 
-- 请 IT 部门创建一份报告，以比较与每位客户协商的条款和条件。
+- 各顧客と交渉した契約条件を比較するレポートを作成するように依頼します。
 
-- 要求 Copilot 为重新协商每个协议提供建议。
+- Copilot
+  に依頼して、各契約の再交渉に関する推奨事項を提供してもらいます。
 
-1.  如果您的 Microsoft Edge 浏览器中有 Microsoft 365 Copilot
-    应用程序页面，请立即选择它; 否则，请打开一个新选项卡并输入以下
-    URL：+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) 以转到
-    Microsoft 365 Copilot 应用主页。
+1.  Microsoft Edge ブラウザーに Microsoft 365 Copilot アプリ
+    ページがある場合は、ここで選択します。それ以外の場合は、新しいタブを開き、次の
+    URL:
+    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) を入力して
+    Microsoft 365 Copilot アプリのホーム ページに移動します。
 
-**注意：**您需要使用右侧 “**Resources**” 选项卡下提供的 **Microsoft 365
-凭据**登录（如果出现提示）。
+**注**: 右側の **\[リソース\] タブ**にある **Microsoft 365
+資格情報**を使用してサインインする必要があります
+(プロンプトが表示された場合)。
 
-2.  浏览到 **C：\LabFiles\MS4019**
-    文件夹，选择以下文档的副本并将其上传到 OneDrive。
+2.  **C:\LabFiles\MS4019**
+    フォルダーを参照して、次のドキュメントのコピーを選択して OneDrive
+    にアップロードします。
 
-    - **Contoso 供应商协议**
+    - **Contoso サプライヤー契約**
 
-    - **Tailwind Traders 供应商协议**
+    - **Tailwind Tradersサプライヤー契約**
 
-    - **Wide World Importers 供应商协议**
+    - **ワイドワールドインポーターズサプライヤー契約**
 
-**注意：**如果您已经上传了所有文档的副本（您将按照**实验室 0**
-中的说明从 **C：\LabFiles** 进行此动手实验会话），则可以跳过此步骤。
+**注**:
+すべてのドキュメントのコピーをすでにアップロードしている場合は、この手順をスキップできます
+(**ラボ 0** の指示に従って、このハンズオン ラボ セッションで
+**C:\LabFiles** から使用します)。
 
-3.  在本练习中，您将从 Most Recently Used file （最近使用的文件）
-    列表中访问文档。若要使文件显示在 MRU
-    列表中，请打开每个文档，然后将其关闭。打开和关闭 OneDrive
-    帐户中的三个文件。
+3.  この実習では、最近使用したファイルリストからドキュメントにアクセスします。ファイルを
+    MRU
+    リストに表示するには、各ドキュメントを開いてから閉じます。OneDrive
+    アカウント内の 3 つのファイルをそれぞれ開いて閉じます。
 
 ![](./media/image41.png)
 
-4.  在 **Microsoft 365** 中，打开 **Microsoft
-    Word**，然后打开一个新的空白文档。
+4.  Microsoft 365 **で** Microsoft Word
+    **を開き、**新しい空白のドキュメントを開きます。
 
-5.  在空白文档顶部显示的 **Draft with Copilot** （使用 Copilot 起草）
-    窗口中，输入以下提示：
+5.  空白のドキュメントの上部に表示される「**Draft with
+    Copilot**」ウィンドウで、次のプロンプトを入力します。
 
-+++I'm the Sales Manager for Northwind Traders, a supplier of various
-grocery and beverage products. Please create a report that compares the
-supplier agreements for three of our customers. Provide a recommendation
-on contract renewals that can provide Northwind Traders with more
-favorable terms. The supplier agreements for these three customers are
-attached. Thank you!+++
+> +++I'm the Sales Manager for Northwind Traders, a supplier of various
+> grocery and beverage products. Please create a report that compares
+> the supplier agreements for three of our customers. Provide a
+> recommendation on contract renewals that can provide Northwind Traders
+> with more favorable terms. The supplier agreements for these three
+> customers are attached. Thank you!+++
 
 ![](./media/image42.png)
 
-现在，您必须将 3 个供应商协议附加到提示符中。在 **Draft with
-Copilot**窗口中，选择 **Reference your content**
-按钮。在显示的下拉菜单中，如果 **Contoso Supplier Agreement** （Contoso
-供应商协议） 显示在文件列表中，请选择它。否则，请选择“**Browse files
-from cloud**”，从“**Recent** 使用的文件”列表中选择“**Contoso Supplier
-Agreement**
-”，然后选择“**Attach**”按钮。请注意文件在提示符中的显示方式。
+ここで、3
+つのサプライヤー契約をプロンプトに添付する必要があります。「**Copilot
+によるドラフト**」ウィンドウで、「**Reference your
+content**」ボタンを選択します。表示されるドロップダウン
+メニューで、ファイルの一覧に **Contoso
+サプライヤー契約**が表示されている場合は、それを選択します。それ以外の場合は、
+**\[Browse files from cloud\] を選択し、** \[最近使用した**ファイル\]
+の一覧** から **Contoso Supplier Agreement**を選択し、 **\[Attach**\]
+ボタンを選択します。プロンプトでファイルがどのように表示されるかに注意してください。
 
-对 **Tailwind Traders 供应商协议**和 **Wide World Importers
-供应商协议**重复上一步。此时，提示符中应包含指向所有三个文件的链接。
+Tailwind Traders Supplier Agreement**と**Wide World Importers Supplier
+Agreement**の両方について、前の手順を繰り返します**。この時点で、3
+つのファイルすべてへのリンクがプロンプトに含まれている必要があります。
 
-6.  选择 **Generate** （生成）。此时，Copilot
-    从三个供应商协议中提取相关信息，起草一份报告进行比较。
+6.  \[Generate\] **を選択します**。この時点で、Copilot は 3
+    つのサプライヤー契約から関連情報を抽出し、それらを比較するレポートを作成します。
 
 ![](./media/image43.png)
 
-7.  查看比较文档后，您对结果不满意。您希望看到 Copilot
-    重试并生成新版本。在文档末尾显示的 Copilot
-    窗口中，选择“**Regenerate** ”按钮，该按钮显示在“**Keep
-    it**”按钮旁边。您可以根据需要多次重复此步骤，直到 Copilot
-    创建您批准的此报告版本。对于本练习，请多次重复此步骤以查看 Copilot
-    提供的各种格式。另请注意，某些信息可能包含在一个版本的报表中，而其他版本中没有。
+7.  比較ドキュメントを確認した後、結果に満足していません。Copilot
+    が再試行して新しいバージョンを生成することを望んでいます。ドキュメントの最後に表示される
+    Copilot ウィンドウで、\[**Keep it\] ボタンの横に表示される**
+    \[**Regenerate\] ボタン**を選択します。この手順は、Copilot
+    が承認するこのレポートのバージョンを作成するまで、必要な回数だけ繰り返すことができます。この演習では、この手順を数回繰り返して、Copilot
+    が提供するさまざまな形式を確認します。また、レポートの 1
+    つのバージョンには含まれていて、他のバージョンには含まれていない情報がある場合にも注意してください。
 
-对报表的某个版本感到满意后，请选择 **Keep it** （保留） 按钮。
+> レポートのバージョンに問題がなければ、 **\[Keep it\]**
+> ボタンを選択しま  
+> す。
 
-8.  完成此文档后，将其保存到 **OneDrive**，以便您可以在 Microsoft Edge
-    浏览器中关闭此选项卡。
+8.  このドキュメントを読み終えたら、**OneDrive**に保存して、MicrosoftEdgeブラウザーでこのタブを閉じることができるようにします。
 
-**总结：**
+**概要：**
 
-在本实验中，您探索了 Copilot for Microsoft 365 作为 AI
-驱动的写作助手的功能，以及
+このラボでは、AI を活用したライティング アシスタントとして Copilot for
+Microsoft 365 の機能について説明しました。
 
-- 利用 Copilot in Loop
-  起草了一份详细的市场研究报告，其中包括组织数据、生成见解以及创建有凝聚力且信息丰富的报告。
+- Copilot in
+  Loopを使用して、データの整理、洞察の生成、まとまりのある有益なレポートの作成を含む詳細な市場調査レポートを作成しました。
 
-- 利用 PowerPoint 中的 Copilot
-  设计引人注目的销售演示文稿，以生成幻灯片、自定义内容并确保演示文稿有效地传达关键销售信息。
+- PowerPoint の Copilot
+  を活用して、スライドの生成、コンテンツのカスタマイズ、主要なセールス
+  メッセージを効果的に伝えるプレゼンテーションのための説得力のあるセールス
+  プレゼンテーションをデザインしました。
 
-- 在 Word 中使用 Copilot
-  分析和比较三个供应商协议，以确定协议之间的差异，并根据比较提供建议的作。
+- Word の Copilot を使用して 3
+  つのサプライヤー契約を分析および比較し、契約間の違いを特定し、比較に基づいて推奨されるアクションを提供しました。
