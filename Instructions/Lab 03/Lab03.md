@@ -1,120 +1,130 @@
-# 实验室 03 - 使用预构建的代理提高员工工作效率
+# ラボ03 - 事前構築済みのエージェントで従業員の生産性を向上**
 
 **目的**
 
-您是与消费品分销领域的全球领导者 Contoso Shoppee
-合作的通信战略分析师。该公司正在筹备一个内部创新准备研讨会，旨在使团队在数字化转型目标上保持一致，提高生产力工具的采用率，并为客户参与计划提出新的想法。系统会要求您向研讨会参与者展示
-Microsoft 365 Copilot Chat （提示教练、写作教练和创意教练）
-中的预构建代理，以提高写作、构思和提示开发任务的工作效率。
+あなたは、消費財流通のグローバル リーダーである Contoso Shoppee
+で働くコミュニケーション ストラテジストです。同社は、デジタル
+トランスフォーメーションの目標に対するチームの足並みを揃え、生産性ツールの採用を改善し、顧客エンゲージメント
+イニシアチブの新しいアイデアを生み出すことを目的とした、社内のイノベーション準備ワークショップを準備しています。Microsoft
+365 Copilot チャットで事前構築済みのエージェント (Prompt Coach、Writing
+Coach、Idea Coach)
+をワークショップの参加者に紹介して、ライティング、アイデア出し、プロンプト開発タスクの生産性を向上させるよう求められます。
 
-在本实验中，您将使用 Microsoft 365 Copilot Chat 执行以下作：
+このラボでは、Microsoft 365 Copilot Chat を使用して次のことを行います:
 
-- 使用Prompt coach作和优化高质量的提示
+- Prompt Coach を使用して高品質のプロンプトを作成および改良する
 
-- 从Writing Coach接收详细的写作反馈和增强技巧
+- ライティングコーチから詳細なライティングフィードバックと強化のヒントを受け取る
 
-- 使用Idea Coach生成生成和组织创意
+- Idea Coachで創造的なアイデアを生み出し、整理
 
-- 提高各种业务使用案例的及时有效性
+- さまざまなビジネスユースケースの迅速な有効性を向上
 
-- 与 Copilot 聊天协作，制作精美的草稿和结构化内容
+- Copilot
+  Chatと連携して、洗練されたドラフトと構造化されたコンテンツを作成します
 
-**练习 1：通过 Copilot Chat 探索预构建的代理并与之交互**
+**演習 1: Copilot Chat を使用した事前構築済みエージェントの探索と対話**
 
-在本练习中，您将展示如何使用 Microsoft 365 Copilot 聊天访问预构建的
-Copilot
-代理（提示教练、写作教练和创意教练）并与之交互，并了解他们提高工作效率的独特功能。
+この演習では、Microsoft 365 Copilot チャットを使用して事前構築済みの
+Copilot エージェント (Prompt Coach、Writing Coach、Idea Coach)
+にアクセスして対話する方法を示し、生産性を向上させるための独自の機能を理解します。
 
-1.  打开 Microsoft Edge 浏览器并输入以下
-    URL：+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) 转到
-    **Microsoft 365 Copilot 应用程序**（以前称为 Office）主页。
+1.  Microsoft Edge ブラウザーを開き、次の URL を入力します:
+    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/)
+    Microsoft **365 Copilot App** (以前のオフィス) ホーム
+    ページに移動します。
 
-**注意：**您需要使用右侧 **Resources** （资源） 选项卡下提供的
-**Credentials （**凭据） 登录（如果出现提示）。
+**注**: サインインを求められた場合は、右側の \[リソース**\]
+タブにある**資格情報**を使用してサインインする必要があります** 。
 
-2.  **Copilot 聊天**页面将打开。
+2.  **Copilot のチャット** ページが開きます。
 
-3.  如果由于某种原因出现 “**Something went wrong**” 消息，请单击 **Try
-    again**（两次）以打开 Copilot 聊天。
+3.  何らかの理由で「**Something went
+    wrong」という**メッセージが表示された場合は、\[**Try
+    again**\](2回)をクリックしてCopilot Chatを開きます。
 
 ![](./media/image1.png)
 
-**注意：**当您执行此实验室时，Copilot Chat
-用户界面可能会有所不同（如步骤 \#4 所示）（因为 Microsoft 已作为
-Microsoft Build-2025 活动的一部分推出了新功能和更新功能以及 UI 更改）。
+**注**: このラボを実行している場合、Copilot Chat のユーザー
+インターフェイスは (手順 \#4 のように) 異なって表示される場合があります
+(Microsoft は Microsoft Build-2025
+イベントの一部として新機能と更新された機能、UI
+の変更を公開しているため)。
 
-4.  单击导航窗格中的 **Create Agent**
-    （创建代理），具体取决于您案例中的登录页面。
+4.  ケースのランディングページに応じて、ナビゲーションペインで**\[Create
+    Agent**\]をクリックします。
 
 ![](./media/image2.png)
 
 ![](./media/image3.png)
 
 5.  Copilot Studio Agent Builder
-    将打开。请等待一段时间，以便加载预构建的代理列表。单击 **View all
-    templates**（查看所有模板）。
+    が開きます。事前構築済みのエージェントリストが読み込まれるまでしばらく待ちます。\[**View
+    all templates\] をクリックします**。
 
 ![](./media/image4.png)
 
 ![](./media/image5.png)
 
-6.  滚动列表以找到您将用于提高提示质量和优化写作的声明式代理（Prompt
-    Coach 和 Writing Coach）。
+6.  リストをスクロールして、プロンプト品質の向上とライティングの改良に使用する宣言型エージェント(プロンプトコーチとライティングコーチ)を見つけます。
 
-7.  选择 Prompt Coach
+7.  「Prompt Coach」を選択します。
 
 ![](./media/image6.png)
 
-**注意：**您可以将这些声明性代理用作模板，并根据您的需要对其进行自定义。
+**注**:
+これらの宣言型エージェントは、テンプレートとして使用し、ニーズに合わせてカスタマイズできます。
 
-8.  在本实验中，您将按原样使用 Prompt
-    coach，而无需进行任何自定义。单击右上角的 **Create** 以创建 Prompt
-    Coach Agent。
+8.  このラボでは、Prompt Coach
+    をそのまま使用し、カスタマイズは行いません。
+    右上の「Create」をクリックして、Prompt Coach
+    エージェントを作成します。
 
 ![](./media/image7.png)
 
 ![](./media/image8.png)
 
-您现在已完成 **Prompt Coach** 的创建。单击 **Go to agent** （转到代理）
-以打开 Prompt Coach 代理。
+これで、Prompt Coach **の作成が完了しました**。「**Go to
+agent」**をクリックして、「Prompt Coach エージェント」を開きます。
 
 ![](./media/image9.png)
 
-接下来，您将使用 Prompt coach 来提高您的提示质量。
+次に、プロンプトコーチを使用して、プロンプトの品質を向上させます。
 
-**练习 2：在 Copilot Chat 中使用 Prompt Coach 提高提示质量**
+**演習 2: Copilot Chat の Prompt Coach を使用したプロンプト品質の向上**
 
-在本练习中，您将为市场研究报告生成更具针对性的 Copilot 提示。
+この演習では、市場調査レポートに対して、よりターゲットを絞った Copilot
+プロンプトを生成します。
 
-1.  现在，您将输入草稿提示：  
+1.  次に、ドラフト プロンプトを入力します:  
     ++@Prompt Coach, review this prompt: “Give me insights on European
     retail industry.”++
 
 ![](./media/image10.png)
 
-2.  首先，Copilot 需要您提供以下详细信息：
+2.  開始するために、Copilot では次の詳細を提供する必要があります。
 
-- **目标：**您希望使用 Copilot 实现的预期结果是什么？
+- **目標**: Copilot で達成したい望ましい結果は何ですか?
 
-- **Context（上下文）：**与提示相关的任何背景信息或特定详细信息。
+- **コンテキスト**: プロンプトに関連する背景情報または特定の詳細。
 
-- **来源：**你有什么具体的来源或例子想包括吗？
+- **出典**: 含めたい具体的な情報源や例はありますか?
 
-- **期望：**您对提示的格式或结构有什么偏好吗？
+- **期待**事項: プロンプトの形式や構造について、何か好みはありますか?
 
 ![](./media/image11.png)
 
-3.  您可以询问 Copilot：如何使此提示更加具体和可作？
+3.  Copilotに質問できます:このプロンプトをより具体的で実用的なものにするにはどうすればよいですか?
 
 ![](./media/image12.png)
 
-4.  Copilot 以如何使提示更加具体和可作的示例进行响应。
+4.  Copilot
+    は、プロンプトをより具体的で実行可能なものにする方法のサンプルで応答します。
 
 ![](./media/image13.png)
 
-5.  如果您忽略并尝试使用另一个生硬的提示，Copilot
-    会坚持要求您澄清更多细节。使用以下提示检查 Copilot 输出，然后单击
-    **Submit**。
+5.  無視して別の単刀直入なプロンプトで試してみると、Copilotは詳細を明確にするように主張します。次のプロンプトで
+    Copilot の出力を確認し、\[**Submit\] をクリックします**。
 
 ++I am trying to generate a more targeted Copilot prompt for a market
 research report.++
@@ -123,44 +133,44 @@ research report.++
 
 ![](./media/image15.png)
 
-6.  现在，您将使用这些建议来修改您的提示并询问
+6.  次に、提案を使用してプロンプトを修正し、
 
-@Prompt Coach, evaluate this revised prompt. Is it strong enough for
-Copilot to return insightful output?
+@Promptコーチ、この改訂されたプロンプトを評価してください。Copilot
+が洞察に満ちた出力を返すのに十分な強度がありますか?
 
 ++“Summarize Q1 2024 retail trends in Germany and France, including
-consumer behavior shifts and top-performing product categories.” @Prompt
-Coach, evaluate this revised prompt. Is it strong enough for Copilot to
-return insightful output?++
+consumer behavior shifts and top-performing product categories.”
+@Promptコーチ、この改訂されたプロンプトを評価してください。Copilotが洞察に満ちた出力を返すのに十分な強度がありますか?++
 
 ![](./media/image16.png)
 
 7.  Copilot
-    会回复评估评论，并为您提供建议。响应可能与你在以下屏幕截图中看到的略有不同。
+    は評価コメントで応答し、提案を提供します。応答は、次のスクリーンショットに表示されるものとは少し異なる場合があります。
 
 ![](./media/image17.png)
 
 ![](./media/image18.png)
 
-8.  现在尝试使用以下提示并单击 Submit。
+8.  次に、次のプロンプトで試して、\[Submit\]をクリックします。
 
-++What other data sources can I use for this analysis?++
+++この分析には他にどのようなデータソースを使用できますか?++
 
 ![](./media/image19.png)
 
-9.  Copilot 会响应有关常见数据源的详细信息。
+9.  Copilot は、一般的なデータソースに関する詳細で応答します。
 
 ![](./media/image20.png)
 
-10. 您可以尝试使用以下提示，然后单击 Submit。
+10. 次のプロンプトで試し、「Submit」をクリックします。
 
-++How can I access these reports?++
- 
+++これらのレポートにアクセスするにはどうすればよいですか?++
+
 ![](./media/image21.png)
 
-11. 根据评估备注和数据源建议，改写提示。
+11. 評価のコメントとデータ
+    ソースの提案に基づいて、プロンプトを言い換えます。
 
-尝试使用以下提示并检查输出：
+次のプロンプトで試し、出力を確認してください:
 
 ++Provide a detailed analysis of Q1 2024 retail trends in Germany and
 France, including consumer behavior shifts and top-performing product
@@ -169,55 +179,59 @@ French Federation of Retailers (FCD).++
 
 ![](./media/image22.png)
 
-12. 检查 Copilot 生成的响应。
+12. Copilot で生成された応答を確認します。
 
-现在尝试使用以下提示并检查输出：
+次に、次のプロンプトで試して、出力を確認します。
 
 ++Provide a detailed analysis of Q1 2024 retail trends in Germany and
 France, including consumer behavior shifts and top-performing product
-categories, using data from [https://www.nielson.com++](https://www.nielson.com++/)
+categories, using data
+from [https://www.nielson.com++](https://www.nielson.com++/)
 
 ![](./media/image23.png)
 
 ![](./media/image24.png)
 
-在 Prompt Coach
-的帮助下\>您现在已经通过制作和完善提示完成了市场趋势报告的生成。
+これで、Prompt Coach の \>
+の助けを借りて、プロンプトを作成および改良し、市場動向に関するレポートの生成が完了しました。
 
-**试一试：**
+**試してみてください:**
 
-**练习 2：使用 Copilot Chat 中的 Writing Coach 优化写作**
+**演習 2: Copilot Chat で Writing Coach
+を使用してライティングを洗練する**
 
-在本练习中，您将使用 Microsoft 365 Copilot Chat 执行以下作：
+この演習では、Microsoft 365 Copilot
+チャットを使用して次のことを行います。
 
-- 使用 Wring Coach 作为模板创建代理。
+- Wring Coachをテンプレートとして使用してエージェントを作成します。
 
-- 优化内部沟通的语气、清晰度和影响
+- 社内コミュニケーションのトーン、明瞭さ、インパクトを洗練させる
 
-- 针对特定受众（例如，行政领导、一线员工）改写关键信息
+- 特定のオーディエンス(例:経営幹部、現場の従業員)向けの主要なメッセージを言い換える
 
-- 应用 Writing Coach 建议，使内容更鼓舞人心、更专业或更简洁
+- ライティングコーチの提案を適用して、コンテンツをよりインスピレーションを与え、プロフェッショナルで、簡潔にします
 
-**任务 \#1：使用 Writing coach 作为模板创建代理。**
+**タスク \#1: Writing coach
+をテンプレートとして使用してエージェントを作成します。**
 
-**任务 \#2：为代理提供下面给出的示例句子，并要求它改写标语**
+**タスク#2:エージェントに以下のサンプル文を提供し、キャッチフレーズを言い換えるように依頼します**
 
-- 示例： “The new employee wellness program starts next week. It’s
-  really cool and we hope everyone enjoys it.”
+- サンプル: 「The new employee wellness program starts next week. It’s
+  really cool and we hope everyone enjoys it.”」
 
-- 问：  
-  @Writing Coach，改进此消息的语气、清晰度和执行受众。
+- Ask:@Writing
+  Coach、このメッセージをトーン、明瞭さ、エグゼクティブオーディエンスに改善してください。
 
-- 然后尝试：  
-  @Writing Coach，请将其改写为鼓舞人心且简洁明了。  
-  @Writing Coach，请解释一下您是如何改进句子的。
+- 次に、以下を試して:
 
-**任务 \#3：提供您自己的草稿（电子邮件或 LinkedIn
-帖子），并使用代理来微调文章。**
+- @Writing Coachをインスピレーションを与えるように言い換え、concise.  
+  @Writing Coach で、文をどのように改善したかを説明してください。
 
-- 问：
+**タスク#3:自分の下書き(メールまたはLinkedInの投稿)を提供し、エージェントを使用して記事を微調整します。**
 
-@Writing Coach，我怎样才能让这听起来更自信、更专业呢？
+- 頼む：
 
-- 要求 Writing Coach
-  代理将您的修订版本转换为格式化的消息（例如，添加标题、摘要、号召性用语）。
+@Writingコーチ、どうすればこの音をより自信を持ってプロフェッショナルにすることができますか?
+
+- Writing
+  Coachのエージェントに、改訂版をフォーマットされたメッセージに変換するように依頼します(例:ヘッダー、要約、召喚状の追加)。
