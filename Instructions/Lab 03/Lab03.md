@@ -1,130 +1,149 @@
-# ラボ03 - 事前構築済みのエージェントで従業員の生産性を向上**
+**Laboratorio 03 – Mejore la productividad del empleado con los agentes
+preconstruidos**
 
-**目的**
+**Objetivo**
 
-あなたは、消費財流通のグローバル リーダーである Contoso Shoppee
-で働くコミュニケーション ストラテジストです。同社は、デジタル
-トランスフォーメーションの目標に対するチームの足並みを揃え、生産性ツールの採用を改善し、顧客エンゲージメント
-イニシアチブの新しいアイデアを生み出すことを目的とした、社内のイノベーション準備ワークショップを準備しています。Microsoft
-365 Copilot チャットで事前構築済みのエージェント (Prompt Coach、Writing
-Coach、Idea Coach)
-をワークショップの参加者に紹介して、ライティング、アイデア出し、プロンプト開発タスクの生産性を向上させるよう求められます。
+Usted es son estratega de comunicaciones que trabajan con Contoso
+Shoppee, líder mundial en distribución de bienes de consumo. La compañía
+está preparando un taller interno de preparación para la innovación
+destinado a alinear a los equipos con los objetivos de transformación
+digital, mejorar la adopción de herramientas de productividad y generar
+nuevas ideas para iniciativas de participación del cliente. Se le pide
+que muestre agentes precompilados en Microsoft 365 Copilot Chat (Prompt
+Coach, Writing Coach y Idea Coach) a los participantes del taller para
+mejorar la productividad en las tareas de escritura, ideación y
+desarrollo de prompts.
 
-このラボでは、Microsoft 365 Copilot Chat を使用して次のことを行います:
+En este laboratorio, usted usará Microsoft 365 Copilot Chat para:
 
-- Prompt Coach を使用して高品質のプロンプトを作成および改良する
+- Elaborar y perfeccionar prompts de alta calidad utilizando Prompt
+  Coach
 
-- ライティングコーチから詳細なライティングフィードバックと強化のヒントを受け取る
+- Recibir comentarios detallados sobre la escritura y consejos de mejora
+  de Writing Coach
 
-- Idea Coachで創造的なアイデアを生み出し、整理
+- Generar y organizar ideas creativas con Idea Coach
 
-- さまざまなビジネスユースケースの迅速な有効性を向上
+- Mejorar la eficacia de las prontas para diversos casos de uso
+  empresarial
 
-- Copilot
-  Chatと連携して、洗練されたドラフトと構造化されたコンテンツを作成します
+- Colaborar con Copilot Chat para producir borradores pulidos y
+  contenido estructurado
 
-**演習 1: Copilot Chat を使用した事前構築済みエージェントの探索と対話**
+**Ejercicio 1: Explore e interactúe con agentes preconstruidos a través
+de Copilot Chat**
 
-この演習では、Microsoft 365 Copilot チャットを使用して事前構築済みの
-Copilot エージェント (Prompt Coach、Writing Coach、Idea Coach)
-にアクセスして対話する方法を示し、生産性を向上させるための独自の機能を理解します。
+En este ejercicio, mostrará cómo acceder e interactuar con agentes de
+Copilot predefinidos (Prompt Coach, Writing Coach, and Idea Coach)
+mediante Microsoft 365 Copilot Chat, y comprender sus capacidades únicas
+para mejorar la productividad.
 
-1.  Microsoft Edge ブラウザーを開き、次の URL を入力します:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/)
-    Microsoft **365 Copilot App** (以前のオフィス) ホーム
-    ページに移動します。
+1.  Abra un navegador Microsoft Edge y escriba la siguiente dirección
+    URL:
+    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
+    ir a la página de inicio de **Microsoft 365 Copilot
+    app** (anteriormente conocido como office).
 
-**注**: サインインを求められた場合は、右側の \[リソース**\]
-タブにある**資格情報**を使用してサインインする必要があります** 。
+**Ojo**: Debe iniciar sesión (si se le pide) con las
+**Credenciales** proporcionadas en la pestaña **Resources** en la parte
+derecha.
 
-2.  **Copilot のチャット** ページが開きます。
+2.  Se abrirá la página **Copilot chat**.
 
-3.  何らかの理由で「**Something went
-    wrong」という**メッセージが表示された場合は、\[**Try
-    again**\](2回)をクリックしてCopilot Chatを開きます。
+3.  Si, por razón alguna, aparece el mensaje “**Something went wrong”**,
+    haga clic en **Try again** (dos veces) para abrir Copilot Chat.
 
 ![](./media/image1.png)
 
-**注**: このラボを実行している場合、Copilot Chat のユーザー
-インターフェイスは (手順 \#4 のように) 異なって表示される場合があります
-(Microsoft は Microsoft Build-2025
-イベントの一部として新機能と更新された機能、UI
-の変更を公開しているため)。
+**Ojo**: El interfaz del usuario Copilot Chat puede parecer diferente
+(como en el paso \#4) cuando está ejecutando este laboratorio (ya que
+Microsoft ha implementado características nuevas y actualizadas junto
+con cambios en la interfaz de usuario como parte del evento Microsoft
+Build-2025).
 
-4.  ケースのランディングページに応じて、ナビゲーションペインで**\[Create
-    Agent**\]をクリックします。
+4.  Haga clic en **Create Agent** en el panel de navegación en función
+    de la página de destino en su caso.
 
 ![](./media/image2.png)
 
 ![](./media/image3.png)
 
-5.  Copilot Studio Agent Builder
-    が開きます。事前構築済みのエージェントリストが読み込まれるまでしばらく待ちます。\[**View
-    all templates\] をクリックします**。
+5.  Se abrirá Copilot Studio Agent Builder. Espere un tiempo para que se
+    cargue la lista de agentes prediseñados. Haga clic en **View all
+    templates**.
 
 ![](./media/image4.png)
 
 ![](./media/image5.png)
 
-6.  リストをスクロールして、プロンプト品質の向上とライティングの改良に使用する宣言型エージェント(プロンプトコーチとライティングコーチ)を見つけます。
+6.  Desplácese por la lista para localizar los agentes declarativos
+    (Prompt Coach y Writing Coach) que utilizará para mejorar la calidad
+    de las indicaciones y refinar la escritura.
 
-7.  「Prompt Coach」を選択します。
+7.  Seleccione Prompt Coach
 
 ![](./media/image6.png)
 
-**注**:
-これらの宣言型エージェントは、テンプレートとして使用し、ニーズに合わせてカスタマイズできます。
+**Ojo**: Puede utilizar estos agentes declarativos como plantillas y
+personalizarlos según sus necesidades.
 
-8.  このラボでは、Prompt Coach
-    をそのまま使用し、カスタマイズは行いません。
-    右上の「Create」をクリックして、Prompt Coach
-    エージェントを作成します。
+8.  En este laboratorio, utilizará el Prompt coach tal cual sin
+    personalizarlo. Haga clic en **Create** en la parte superior derecha
+    para crear el agente Prompt Coach.
 
 ![](./media/image7.png)
 
 ![](./media/image8.png)
 
-これで、Prompt Coach **の作成が完了しました**。「**Go to
-agent」**をクリックして、「Prompt Coach エージェント」を開きます。
+Ahora ha completado la creación del **Prompt Coach**. Haga clic en **Go
+to agent** para abrir el agente de Prompt Coach.
 
 ![](./media/image9.png)
 
-次に、プロンプトコーチを使用して、プロンプトの品質を向上させます。
+A continuación, utilizará el Prompt coach para mejorar la calidad de sus
+avisos.
 
-**演習 2: Copilot Chat の Prompt Coach を使用したプロンプト品質の向上**
+**Ejercicio 2: Mejore la calidad de prompt en Copilot Chat**
 
-この演習では、市場調査レポートに対して、よりターゲットを絞った Copilot
-プロンプトを生成します。
+En este ejercicio, generará un prompt de Copilot más específica para un
+informe de investigación de mercado.
 
-1.  次に、ドラフト プロンプトを入力します:  
+1.  A continuación, introducirá un draft prompt:  
     ++@Prompt Coach, review this prompt: “Give me insights on European
     retail industry.”++
 
 ![](./media/image10.png)
 
-2.  開始するために、Copilot では次の詳細を提供する必要があります。
+2.  Para empezar, Copilot necesita que proporcione los siguientes
+    detalles:
 
-- **目標**: Copilot で達成したい望ましい結果は何ですか?
+- **Objetivo**: ¿Cuál es el resultado deseado que desea lograr con
+  Copilot?
 
-- **コンテキスト**: プロンプトに関連する背景情報または特定の詳細。
+- **Contexto**: Cualquier información de fondo o detalles específicos
+  que sean relevantes para el prompt.
 
-- **出典**: 含めたい具体的な情報源や例はありますか?
+- **Fuente**: ¿Hay alguna fuente o ejemplo específico que quiera
+  incluir?
 
-- **期待**事項: プロンプトの形式や構造について、何か好みはありますか?
+- **Expectativas**: ¿Tiene alguna preferencia en cuanto al formato o la
+  estructura del prompt?
 
 ![](./media/image11.png)
 
-3.  Copilotに質問できます:このプロンプトをより具体的で実用的なものにするにはどうすればよいですか?
+3.  Puede preguntar a Copilot: How can I make this prompt more specific
+    and actionable?
 
 ![](./media/image12.png)
 
-4.  Copilot
-    は、プロンプトをより具体的で実行可能なものにする方法のサンプルで応答します。
+4.  Copilot responde con la muestra de cómo se podría hacer que el
+    prompt sea más específico y accionable.
 
 ![](./media/image13.png)
 
-5.  無視して別の単刀直入なプロンプトで試してみると、Copilotは詳細を明確にするように主張します。次のプロンプトで
-    Copilot の出力を確認し、\[**Submit\] をクリックします**。
+5.  Si ignora e intenta con otro prompt contundente, Copilot le
+    insistirá en que aclare con más detalles. Compruebe la salida de
+    Copilot con el siguiente prompt y haga clic en **Submit**.
 
 ++I am trying to generate a more targeted Copilot prompt for a market
 research report.++
@@ -133,44 +152,46 @@ research report.++
 
 ![](./media/image15.png)
 
-6.  次に、提案を使用してプロンプトを修正し、
+6.  Ahora utilizará las sugerencias para revisar su propmt y preguntar
 
-@Promptコーチ、この改訂されたプロンプトを評価してください。Copilot
-が洞察に満ちた出力を返すのに十分な強度がありますか?
+@Prompt Coach, evaluate this revised prompt. Is it strong enough for
+Copilot to return insightful output?
 
 ++“Summarize Q1 2024 retail trends in Germany and France, including
-consumer behavior shifts and top-performing product categories.”
-@Promptコーチ、この改訂されたプロンプトを評価してください。Copilotが洞察に満ちた出力を返すのに十分な強度がありますか?++
+consumer behavior shifts and top-performing product categories.” @Prompt
+Coach, evaluate this revised prompt. Is it strong enough for Copilot to
+return insightful output?++
 
 ![](./media/image16.png)
 
-7.  Copilot
-    は評価コメントで応答し、提案を提供します。応答は、次のスクリーンショットに表示されるものとは少し異なる場合があります。
+7.  Copilot responde con los comentarios de evaluación y le proporciona
+    sugerencias. La respuesta puede ser un poco diferente de lo que se
+    ve en las siguientes capturas de pantalla.
 
 ![](./media/image17.png)
 
 ![](./media/image18.png)
 
-8.  次に、次のプロンプトで試して、\[Submit\]をクリックします。
+8.  Ahora intente con el siguiente prompt y haga clic en Submit.
 
-++この分析には他にどのようなデータソースを使用できますか?++
+++What other data sources can I use for this analysis?++
 
 ![](./media/image19.png)
 
-9.  Copilot は、一般的なデータソースに関する詳細で応答します。
+9.  Copilot responde con detalles sobre las fuentes de datos comunes.
 
 ![](./media/image20.png)
 
-10. 次のプロンプトで試し、「Submit」をクリックします。
+10. Puede intentarlo con el siguiente prompt y hacer clic en Submit.
 
-++これらのレポートにアクセスするにはどうすればよいですか?++
+++How can I access these reports?++
 
 ![](./media/image21.png)
 
-11. 評価のコメントとデータ
-    ソースの提案に基づいて、プロンプトを言い換えます。
+11. En función de las reseñas de evaluación y sugerencias de fuentes de
+    datos, cambie el prompt.
 
-次のプロンプトで試し、出力を確認してください:
+Puede intentarlo con siguiente prompt y averigüe la salida:
 
 ++Provide a detailed analysis of Q1 2024 retail trends in Germany and
 France, including consumer behavior shifts and top-performing product
@@ -179,9 +200,9 @@ French Federation of Retailers (FCD).++
 
 ![](./media/image22.png)
 
-12. Copilot で生成された応答を確認します。
+12. Revise la respuesta generada por Copilot.
 
-次に、次のプロンプトで試して、出力を確認します。
+Ahora pruebe el siguiente prompt y revise el resultado:
 
 ++Provide a detailed analysis of Q1 2024 retail trends in Germany and
 France, including consumer behavior shifts and top-performing product
@@ -192,46 +213,50 @@ from [https://www.nielson.com++](https://www.nielson.com++/)
 
 ![](./media/image24.png)
 
-これで、Prompt Coach の \>
-の助けを借りて、プロンプトを作成および改良し、市場動向に関するレポートの生成が完了しました。
+Acaba de completar la generación del informe sobre las tendencias del
+mercado con la ayuda de Prompt Coach al crear y refinar los prompts.
 
-**試してみてください:**
+**Pruébelo usted mismo:**
 
-**演習 2: Copilot Chat で Writing Coach
-を使用してライティングを洗練する**
+**Ejercicio 2: Refine la escritura con Writing Coach en Copilot Chat**
 
-この演習では、Microsoft 365 Copilot
-チャットを使用して次のことを行います。
+En este ejercicio, usará Microsoft 365 Copilot Chat para:
 
-- Wring Coachをテンプレートとして使用してエージェントを作成します。
+- Crear un agente con la ayuda de Writing Coach como una plantilla.
 
-- 社内コミュニケーションのトーン、明瞭さ、インパクトを洗練させる
+- Refinar el tono, la claridad y el impacto de comunicación interna
 
-- 特定のオーディエンス(例:経営幹部、現場の従業員)向けの主要なメッセージを言い換える
+- Reformular mensajes clave según el público objetivo (por ejemplo,
+  liderazgo ejecutivo, empleados de primera línea)
 
-- ライティングコーチの提案を適用して、コンテンツをよりインスピレーションを与え、プロフェッショナルで、簡潔にします
+- Aplicar las sugerencias de Writing Coach para hacer que el contenido
+  sea más inspirador, profesional o conciso
 
-**タスク \#1: Writing coach
-をテンプレートとして使用してエージェントを作成します。**
+**Tarea núm. 1: Cree un agente con la ayuda de Writing coach como una
+plantilla.**
 
-**タスク#2:エージェントに以下のサンプル文を提供し、キャッチフレーズを言い換えるように依頼します**
+**Tarea núm. 2: Proporcione una frase de ejemplo al ajente como se ve a
+continuación y pídale que lo reformule el tagline**
 
-- サンプル: 「The new employee wellness program starts next week. It’s
-  really cool and we hope everyone enjoys it.”」
+- Ejemplo: “The new employee wellness program starts next week. It’s
+  really cool and we hope everyone enjoys it.”
 
-- Ask:@Writing
-  Coach、このメッセージをトーン、明瞭さ、エグゼクティブオーディエンスに改善してください。
+- Pregunte:  
+  @Writing Coach, improve this message for tone, clarity, and executive
+  audience.
 
-- 次に、以下を試して:
+- Y pruebe:  
+  @Writing Coach, rephrase this to be inspirational and concise.  
+  @Writing Coach, explain how you improved the sentence.
 
-- @Writing Coachをインスピレーションを与えるように言い換え、concise.  
-  @Writing Coach で、文をどのように改善したかを説明してください。
+**Tarea núm. 3: Proporcione su propio borrador (email o post de
+LinkedIn), y use el agente para refinar la redacción.**
 
-**タスク#3:自分の下書き(メールまたはLinkedInの投稿)を提供し、エージェントを使用して記事を微調整します。**
+- Pregunte:
 
-- 頼む：
+@Writing Coach, how can I make this sound more confident and
+professional?
 
-@Writingコーチ、どうすればこの音をより自信を持ってプロフェッショナルにすることができますか?
-
-- Writing
-  Coachのエージェントに、改訂版をフォーマットされたメッセージに変換するように依頼します(例:ヘッダー、要約、召喚状の追加)。
+- Pregúntele al agente de Writing Coach que convierta su versión
+  revisada en un mensaje formateado (por ejemplo, agregar encabezado,
+  resumen, llamada a la acción).
