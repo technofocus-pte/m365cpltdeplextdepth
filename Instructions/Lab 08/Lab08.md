@@ -1,140 +1,146 @@
-# ラボ 8 - キャリア ガイダンス SharePoint エージェントを作成する
+# Laboratorio 8 - Cree un agente de SharePoint de guía de carreras
 
-**紹介：**
+**Introducción:**
 
-Microsoft 365 には、毎日約 20
-億のドキュメントが追加されています。ワークプレイスコンテンツの量が急増する中、それをふるいにかけ、必要な情報をすばやく正確に取得する方法が必要です。Microsoft
-SharePoint
-は、組織のコンテンツを保存、整理、および共有するためのセキュリティと効率を強化します。しかし、それ以上のものを提供します。AI
-を活用した SharePoint
-エージェントを使用して、ワークフローを合理化し、チームや組織に適したコラボレーションを促進できます。SharePoint
-エージェントは、質問者がアクセス許可を持つ任意の SharePoint
-サイトまたはドキュメント
-ライブラリのコンテンツに関する質問に答えることができます。SharePoint
-サイトに対する編集権限がある場合は、特定のタスクのエージェントを作成してチームと共有することもできます。
+Cada día, se agregan alrededor de 2 mil millones de documentos a
+Microsoft 365. Con el rápido crecimiento del volumen de contenido del
+lugar de trabajo, necesita una forma rápida y precisa de examinarlo y
+obtener la información que necesita. Microsoft SharePoint mejora la
+seguridad y la eficiencia en el almacenamiento, la organización y el uso
+compartido del contenido de su organización. Pero ofrece más allá de
+eso. Puede usar agentes de SharePoint con tecnología de IA para
+optimizar los flujos de trabajo y fomentar la colaboración que se adapte
+a su equipo u organización. Los agentes de SharePoint pueden responder
+preguntas sobre el contenido de cualquier sitio o biblioteca de
+documentos de SharePoint con los que el solicitante tenga permisos. Si
+tiene permisos de edición en un sitio de SharePoint, incluso puede crear
+agentes para tareas específicas y compartirlos con su equipo.
 
-SharePoint エージェント
+Agentes de SharePoint
 
-**既製のエージェント**
+**Agente listo para usar**
 
-すべての SharePoint
-サイトには、そのサイトのコンテンツに自動的にスコープが設定された
-"既製のエージェント"
-が付属しています。これらのエージェントは、SharePoint
-サイトを対象範囲としており、サイト管理者やサイト所有者からの構築は必要ありません。既製のエージェントはデフォルトで表示されます。
+Cada sitio de SharePoint viene con un "ready-made agent", que se limita
+automáticamente al contenido de ese sitio. Estos agentes, cuyo ámbito se
+encuentra en el sitio de SharePoint, no requieren ninguna creación por
+parte de los administradores o propietarios del sitio. El agente listo
+para usar aparece de forma predeterminada. 
 
-**カスタムビルドのエージェント**
+**Agente personalizado**
 
-既製のエージェントの結果に満足していませんか?サイト編集権限があれば、コンテンツの範囲、ID、動作を変更してエージェントを簡単に作成できます。
+¿No está satisfecho con el resultado del agente listo para usar? Con los
+permisos de edición del sitio, puede crear agentes fácilmente cambiando
+el alcance, la identidad y el comportamiento del contenido.
 
-**目的：**
+**Objetivo:**
 
-このラボでは、SharePoint
-サイトにアップロードされたドキュメントを使用するキャリア ガイダンス
-SharePoint エージェントを作成します。
+En este laboratorio, creará un agente de SharePoint de orientación
+profesional que use los documentos cargados en el sitio de SharePoint.
 
-## **演習 1: SharePoint ホームからエージェントを作成する**
+## Ejercicio 1: Cree un agente desde SharePoint Home
 
-SharePoint
-サイトは、前のラボで作成しました。この演習では、そこからエージェントを作成します。
+Creó un sitio de SharePoint en el laboratorio anterior. En este
+ejercicio, creará un agente a partir de él.
 
-アラート: これは、ラボ 6
-から継続的にラボで作業している場合に機能します。それ以外の場合は、**ラボ
-6 の「演習 4 - SharePoint サイトを作成する**」をやり直し、以下のこのラボ
-ガイドの手順を続行してください。
+Alerta: Esto funcionará como tal si está trabajando en los laboratorios
+de forma continua desde el Laboratorio 6. De lo contrario, rehaga
+el **Ejercicio 4 - Cree un sitio SharePoint del Laboratorio 6** y
+continúe con los pasos de esta guía de laboratorio a continuación.
 
-1.  SharePoint サイトを開きます (前のラボでメモした URL を使用します)。
+1.  Abra el sitio de SharePoint (use la dirección URL que anotó en el
+    laboratorio anterior).
 
-2.  \[Home**\] を選択します**。
+2.  Seleccione **Home**.
 
 ![](./media/image1.png)
 
-3.  \[**New-\> Agent\] を選択して** 、新しいエージェントを作成します。
+3.  Seleccione **New** -\> **Agent** para crear un nuevo agente.
 
 ![](./media/image2.png)
 
-4.  新しいエージェントが作成され、 \[**Open agent\] を選択します**。
+4.  Se crea un nuevo agente y ahora seleccione: **Open agent**.
 
 ![](./media/image3.png)
 
-5.  作成されたエージェントがサイトに表示されます。
+5.  El agente creado aparece en el sitio.
 
 ![](./media/image4.png)
 
-## **演習 2: ドキュメントからエージェントを作成する**
+## Ejercicio 2: Cree un agente a partir de los documentos
 
-この演習では、ドキュメントを SharePoint
-サイトにアップロードし、そこからエージェントを作成します。
+En este ejercicio, cargará los documentos en el sitio de SharePoint y
+creará un agente a partir de él.
 
-1.  \[Documents\] を選択します。
+1.  Seleccione **Documents**.
 
 ![](./media/image5.png)
 
-2.  \[Upload**\]** の横にあるドロップダウンを選択し、\[**Files\]**
-    を選択します。
+2.  Seleccione el menú desplegable junto a **Upload** y seleccione
+    **Files**.
 
 ![](./media/image6.png)
 
-3.  **C:\LabFiles**の**Career Path Options in the USA.pdf**と**Career
-    Path Options.docx\]** を選択し、\[**Open**\] を選択します。
+3.  Seleccione el **Career Path Options in the USA.pdf** y **Career Path
+    Options.docx** desde **C:\LabFiles** y seleccione **Open**.
 
 ![](./media/image7.png)
 
 ![](./media/image8.png)
 
-4.  アップロードした両方のドキュメントを選択して右クリックし、\[**Create
-    an agent\]**を選択します。
+4.  Seleccione los documentos cargados y haga clic derecho sobre ellos y
+    seleccione **Create an agent**.
 
 ![](./media/image9.png)
 
-5.  \[新しいエージェント\] ウィンドウで \[**編集**\]
-    を選択して、エージェントの名前を編集します。
+5.  Seleccione **Edit** en la ventana New agent para editar el nombre
+    del agente.
 
 ![](./media/image10.png)
 
-6.  エージェントに +++Career Guidance Agent+++
-    という名前を付けます。\[**Save and close\] を選択します**。
+6.  Asigne un nombre al agente como +++Career Guidance Agent+++.
+    Seleccione **Save and close**.
 
-**注:** エージェントは、左下の \[Copilot Studio
-から高度なカスタマイズを追加\] オプションを選択することで、Copilot
-Studio からカスタマイズできます。
+**Ojo:** El agente se puede personalizar desde Copilot Studio
+seleccionando la opción Agregar personalización avanzada desde Copilot
+Studio en la parte inferior izquierda.
 
 ![](./media/image11.png)
 
-7.  作成されたエージェントは**、\[ドキュメント\]**
-    の下に表示されます。それを選択して開きます。
+7.  El agente creado aparece en la lista **Documents**. Selecciónelo
+    para abrirlo.
 
 ![](./media/image12.png)
 
-8.  +++What are the Management career path available in the
-    US?+++と入力してテストしてください。
+8.  Pruébelo ingresando +++What are the Management career path available
+    in the US?+++
 
 ![](./media/image13.png)
 
-9.  出力と参照を観察します。
+9.  Observe el resultado y las referencias.
 
 ![](./media/image14.png)
 
 > ![](./media/image15.png)
 
-10. **\[ Share -\> Copy link\]** を選択します。
+10. Seleccione **Share -\> Copy link**
 
 ![](./media/image16.png)
 
-11. ポップアップで \[Allow\] を選択します。
+11. Seleccione Allow en el pop up.
 
 ![](./media/image17.png)
 
 ![](./media/image18.png)
 
-12. \[コピー\] ペインの \[設定\]
-    で、エージェントを共有できる相手を選択できます。
+12. En Settings en el panel Copy, puede seleccionar con quién se puede
+    compartir el agente.
 
 ![](./media/image19.png)
 
-13. コピーしたリンクを使用して、ブラウザからエージェントにアクセスします。
+13. Acceda al agente desde un navegador mediante el enlace copiado.
 
-## **概要**
+## Resumen
 
-このラボでは、サイトのホームと、サイトにアップロードされたドキュメントから
-SharePoint エージェントを作成する方法を学習しました。
+En este laboratorio, ha aprendido a crear un agente de SharePoint desde
+la página principal del sitio y desde los documentos cargados en el
+sitio.
