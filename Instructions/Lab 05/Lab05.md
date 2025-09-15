@@ -1,265 +1,297 @@
-# ラボ05: Copilot Pagesでチームのコラボレーションとコンテンツ制作を強化
+**Laboratorio 05: Empodere la colaboración de equipos y creación del
+contenido con Copilot Pages**
 
-**目標：**
+**Objetivos:**
 
-このラボでは、Microsoft 365 Apps 内で Microsoft 365 Copilot を使用して
-、次の操作を行います
+En este laboratorio, usará Microsoft 365 Copilot dentro de **Microsoft
+365 Apps** para
 
-- コンテンツの生成と編集。
+- Generar y editar contenido.
 
-- Microsoft 365 Copilot Pages
-  **機能を使用して**、生成されたコンテンツを絞り込み、強化します。
+- Refinar y mejroar el contenido generado utilizando las
+  características **Microsoft 365 Copilot Pages**.
 
-- Microsoft 365 Copilot Pages
-  **でチームと共有し、共同作業**を行うことで、シームレスな生産性を実現します。
+- Compartir y colaborar en **Microsoft 365 Copilot Pages** con un equipo
+  para una productividad sin problemas.
 
-- Microsoft 365 Copilot **の Pages**
-  モジュールからページに再アクセスして管理します。
+- Volver a acceder y administrar páginas desde el módulo Pages
+  en **Microsoft 365 Copilot**.
 
-**シナリオ**: あなたは Fabrikam の IT コンサルティング
-チームの一員です。急成長中の製薬研究会社であるTrey
-Researchは、従業員とパートナーの安全なリモートアクセスを改善するために、仮想プライベートネットワーク(VPN)の実装に関するガイダンスを求めています。Trey
-Researchはグローバルに事業を展開しており、業界の規制に準拠しながら機密性の高い研究データを保護するスケーラブルなソリューションを必要としています。
+**Escenario**: Forma parte del equipo de consultoría de TI de Fabrikam.
+Trey Research, una empresa de investigación farmacéutica de rápido
+crecimiento, se ha puesto en contacto con nosotros para obtener
+orientación sobre la implementación de una red privada virtual (VPN)
+para mejorar el acceso remoto seguro para sus empleados y socios. Trey
+Research opera a nivel mundial y requiere soluciones escalables que
+protejan los datos confidenciales de investigación y, al mismo tiempo,
+garanticen el cumplimiento de las regulaciones de la industria.
 
-あなたの仕事は、Trey Research の VPN 要件、潜在的な解決策、および
-Contoso が推奨する VPN
-アーキテクチャを採用する主な利点をまとめたエグゼクティブ概要ドキュメントを提供することです。
+Su tarea consiste en entregar un documento de información general
+ejecutiva que resuma los requisitos de VPN de Trey Research, las
+posibles soluciones y las principales ventajas de adoptar la
+arquitectura de VPN recomendada de Contoso.
 
-**ラボで探索する主な機能:**
+**Características clave para explorar durante el laboratorio:**
 
-- **永続コンテンツ**: Copilot Pages を使用して、AI
-  が生成した応答の耐久性と編集性を高める方法を理解します。
+- **Persistent Content**: Comprenda cómo las páginas de Copilot le
+  permiten hacer que las respuestas generadas por IA sean más duraderas
+  y editables.
 
-- **共同編集**: チーム
-  メンバーがコンテンツを操作する際のリアルタイムの変更を観察し、マルチプレイヤー機能を実演します。
+- **Collaborative Editing**: Observe los cambios en tiempo real a medida
+  que los miembros del equipo interactúan con el contenido, demostrando
+  las capacidades multijugador.
 
-- **「/」メニューによるコンテンツ構造化**:**「/」メニュー**を使用して、見出し、表、画像などのさまざまなコンテンツタイプを追加し、ドキュメントを効果的に構造化します。
+- **Content Structuring with "/" Menu**: Use el **"/" menu** para
+  agregar diferentes tipos de contenido como encabezados, tablas e
+  imágenes, lo que ayuda a estructurar el documento de manera efectiva.
 
-**注**: **Trey Research**が共有するリファレンスドキュメントとして、Trey
-Research - VPN技術概要ドキュメントを使用します。
+**Ojo**: Usará el documento **Trey Research - VPN Technical
+Overview** como referencia, compartido por Trey Research.
 
-**演習 \#1: Copilot ページを作成する**
+**Ejercicio núm. 1: Cree un Copilot Page**
 
-Trey Researchが共有するリファレンスドキュメントには、Trey
-Researchの運用、既存のITインフラストラクチャ、およびVPNのニーズに関する重要な情報が含まれています。インフラストラクチャ
-ソリューション
-コンサルタントは、このドキュメントを参照して提案書を作成します。
+El documento de referencia compartido por Trey Research contiene
+información clave sobre las operaciones de Trey Research, la
+infraestructura de TI existente y las necesidades de VPN. Como consultor
+de soluciones de infraestructura, hará referencia a este documento para
+redactar la propuesta.
 
-**タスク 1: 最近使用した (MRU)
-ファイルの一覧に記載されている参照ドキュメントを取得します。**
+**Tarea 1: Obtenga el documento de referencia enlistado en la lista de
+archivos Most Recently Used (MRU).**
 
-1.  Microsoft Edge ブラウザーに Microsoft 365 Copilot アプリ
-    ページがある場合は、ここで選択します。そうでない場合は、新しいタブを開き、URL
-    +++<https://m365.cloud.microsoft>+++ を入力して Microsoft 365
-    Copilot アプリのホーム ページに移動します。
+1.  Si tiene una página Microsoft 365 Copilot App en su navegador
+    Microsoft Edge, selecciónelo ahora; por lo contrario, abra una nueva
+    pestaña e introduzca el siguiente URL:
+    +++<https://m365.cloud.microsoft>+++ para ir a la página de inicio
+    de Microsoft 365 Copilot App.
 
-**注**: 右側の **\[リソース\] タブ**の下にある **Microsoft 365
-資格情報**を使用してサインインする必要があります
-(プロンプトが表示された場合)。
+**Ojo**: Necesita iniciar sesión (si se le solicita) con las **Microsoft
+365 Credentials** proporcionadas en la pestaña **Resources** en la parte
+derecha.
 
-2.  \[**Apps\] を選択し** 、\[**OneDrive\]** をクリックして開きます。
+2.  Seleccione **Apps** y haga clic en **OneDrive** para abrirlo.
 
 ![](./media/image1.png)
 
-3.  C:\LabFiles\MS4019 **フォルダーを参照して、Trey Research - VPN
-    Technical Overviewドキュメント** のコピーを選択して **OneDrive
-    にアップロードします**。
+3.  Navegue a la carpeta **C:\LabFiles\MS4019** para seleccionar y subir
+    una copia del documento **Trey Research - VPN Technical
+    Overview** a **OneDrive**.
 
-**注**:
-ラボ実行の準備セクションで**提案されているように**、すべてのラボ資産を既に
-OneDrive にアップロードしている場合は 、この手順をスキップできます。
+**Ojo**: Si ya ha cargado todos los recursos de laboratorio en
+**OneDrive,** como se sugiere en **Preparing for the lab
+execution** puede saltar este paso.
 
-4.  **Trey Research - VPN Technical Overview.docx** ファイル (OneDrive
-    にアップロードした) を開いて閉じ、最近使用した (MRU) ファイル
-    リストに入れます。
+4.  Abra y cierre el archivo **Trey Research - VPN Technical
+    Overview.docx** (que cargó en OneDrive) para tenerlo en su lista de
+    archivos Most Recently Used (MRU).
 
-**タスク 2: Copilot にアクセスして会話を開始する**
+**Tarea 2: Acceda Copilot y inicie una conversación**
 
-1.  Microsoft Edge ブラウザーに Microsoft 365 Copilot アプリ
-    ページがある場合は、ここで選択します。それ以外の場合は、新しいタブを開き、次の
-    URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) を入力して
-    Microsoft 365 Copilot アプリのホーム ページに移動します。
+1.  Si tiene una página Microsoft 365 Copilot App en su navegador
+    Microsoft Edge, selecciónelo ahora; por lo contrario, abra una nueva
+    pestaña e introduzca el siguiente
+    URL:+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
+    ir a la página de inicio de Microsoft 365 Copilot App.
 
-2.  \[**Apps\] を選択し** 、\[**Teams\]** をクリックして開きます。
+2.  Seleccione **Apps** y haga clic en **Teams** para abrirlo.
 
 ![](./media/image2.png)
 
-セットアッププロセスが完了するまでお待ちください。
+Espere mientras se completa el proceso de configuración.
 
-3.  \[Chat**\] を選択して** Copilot **を開きます**
+3.  Seleccione **Chat** y abra **Copilot**
 
 ![](./media/image3.png)
 
-4.  Copilot **とのチャットを開始するには**
-    、次のプロンプトを入力します。
+4.  Comience un chat con **Copilot** ingresando el siguiente prompt.
 
-++Trey
-Researchの主要なVPNニーズをまとめ、安全なリモートアクセスと業界標準への準拠に焦点を当てます。
+++Create a summary of the key VPN needs for Trey Research, focusing on
+secure remote access and compliance with industry standards.++
 
-注: **Copilot** ページでは、ページ上部の **Work/Web** トグル
-スイッチで、**デフォルトで Work** が選択されます。
+Ojo: en la página **Copilot**, en el botón de
+alternancia **Work/Web** en la parte superior de la página, se
+selecciona **Work** de forma predeterminada.
 
 ![](./media/image4.png)
 
-5.  次に、Trey
-    Researchが共有する参照ドキュメントを添付して、エグゼクティブサマリーのコンテンツの作成を開始します。**\[Attach**\]
-    (ペーパー クリップ) アイコンを選択して、ドキュメントを参照します。
+5.  Ahora adjuntará el documento de referencia compartido por Trey
+    Research para comenzar a redactar el contenido del Resumen
+    ejecutivo. Seleccione el icono **Attach** (Sujetapapeles) para
+    referenciar el documento.
 
 ![](./media/image5.png)
 
-6.  ドキュメント「**Trey Research – VPN Technical
-    Overview」**を選択します。
+6.  Seleccione el documento **Trey Research – VPN Technical Overview.**
 
 ![](./media/image6.png)
 
-**注**:ファイルがポップアップリストにリストされていない場合は、\[**Attach**\]アイコンを選択して再試行してください
+**Ojo**: Si el archivo no aparece en la lista emergente, inténtelo de
+nuevo seleccionando el icono **Attach**
 
-7.  選択したドキュメントが\[**Prompt**\]**ボックスに添付されているのがわかります**
-    。\[**Send**\] アイコンをクリックすると、Copilot
-    がコンテンツの生成を開始します。
+7.  Verá el documento seleccionado adjunto en el cuadro **Prompts**.
+    Haga clic en el icono **Send** para activar el inicio de Copilot
+    para generar el contenido.
 
 ![](./media/image7.png)
 
-8.  Copilot
-    は参照ドキュメントをくまなく調べ、コンテンツの生成を開始します。
+8.  Copilot revisará el documento de referencia y comenzará a generar el
+    contenido.
 
 ![](./media/image8.png)
 
 ![](./media/image9.png)
 
-9.  Copilot がドラフト コンテンツの生成を完了すると、
-    **生成されたコンテンツの最後に** \[**Edit in Pages**\]
-    ボタンが表示されます。
+9.  Una vez que Copilot termine de generar el borrador del contenido,
+    verá el botón **Edit in Pages** al final del contenido generado.
 
 ![](./media/image10.png)
 
-10. この新しい**Copilot
-    Page**への参照は、簡単にアクセスできるようにチャットに自動的に追加されます。
+10. Se añade automáticamente una referencia a esta nueva **página de
+    Copilot** en el chat para facilitar el acceso.
 
 ![](./media/image11.png)
 
-**タスク 3: ページ機能の確認**
+**Tarea 3: Explore las características de Page**
 
-1.  必要に応じてチャットの名前を変更できます。
+1.  Puede cambiar el nombre del chat según sus requisitos.
 
 ![](./media/image12.png)
 
-**注**: Copilot のチャット名は 30 文字以内にする必要があります。
+**Ojo**: El nombre del chat de Copilot no puede tener más de 30
+caracteres.
 
 ![](./media/image13.png)
 
-2.  **Panel** (折りたたみ/展開) アイコンをクリックすると、Copilot
-    チャット
-    ウィンドウが展開され、別のセクションでコンテンツを表示するスペースを確保できます。ページが右側に開き、チャット
-    ウィンドウと並んで開くことを確認します。応答は自動的にコピーされ、リンクのプレビューやコードブロックなど、フォーマットされます。
+2.  Puede hacer clic en el icono **Panel** (Collapse/Expand) para
+    expandir el panel de chat de Copilot para hacer espacio para ver el
+    contenido en una sección separada. Compruebe que la página se abre a
+    la derecha, en paralelo con el panel de chat. La respuesta se copia
+    y formatea automáticamente, incluidas las vistas previas de enlaces
+    o bloques de código.
 
 ![](./media/image14.png)
 
-3.  「**Edit in
-    Pages**」ボタンをクリックすると、生成されたコンテンツが右側の別のセクションに表示されます。
+3.  Haga clic en el botón **Edit in Pages** para ver el contenido
+    generado en una sección separada a la derecha.
 
 ![](./media/image15.png)
 
 ![](./media/image16.png)
 
-**演習 #2: ページ上のコンテンツの追加と調整**
+**Ejercicio núm. 2: Agregue y refina el contenido en Page**
 
-この演習では、チャットで Copilot
-と対話し続けます。新しいインサイトが生成されたら、\[**Edit in Pages**\]
-をクリックして現在のページに追加します。これらの更新は、ページの下部
-(チャット ウィンドウの右側に表示) に追加されます
+En este ejercicio, seguirá interactuando con Copilot en el chat. Cuando
+se generen nuevas estadísticas, haga clic en **Edit in Pages** para
+agregarlas a la página actual. Estas actualizaciones se anexarán en la
+parte inferior de la página (que está viendo en el lado derecho del
+panel de chat)
 
-**タスク 1: チャットで会話を続ける**
+**Tarea 1: Continúe la conversación en el chat**
 
-1.  チャットウィンドウで、コンテンツを絞り込むための詳細な手順を提供します。次に、Copilotに3つのVPNテクノロジーを比較してもらい、Trey
-    Researchのニーズに関連する長所と短所に焦点を当てます。次のプロンプトを入力し、\[**Send**\]
-    をクリックします**。**
+1.  En la ventana de chat, proporcione más instrucciones para refinar el
+    contenido. Ahora le pedirá a Copilot que compare tres tecnologías
+    VPN, centrándose en sus pros y contras en relación con las
+    necesidades de Trey Research. Introduzca el siguiente mensaje y haga
+    clic en **Send.**
 
-> ++Compare three VPN technologies based on scalability, security, and
-> cost-effectiveness.++
+++Compare three VPN technologies based on scalability, security, and
+cost-effectiveness.++
 
-![](./media/image17.png) **注**:次のプロンプトで試すこともできます。
+![](./media/image17.png) **Ojo**:
+También puede probar con el siguiente prompt.
 
 ++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
 VPN, IPsec VPN) based on scalability, security features, ease of
 deployment, and cost.++
 
-2.  Copilot
-    は、比較の詳細を使用して新しい分析情報を生成します。
-    
+2.  Copilot generará nuevos conocimientos con los detalles de la
+    comparación.   
     ![](./media/image18.png)
 
 ![](./media/image19.png)
 
-3.  「**Edit in Pages」をクリックして**
-    、この比較の詳細を既存のページに追加します。
+3.  Haga clic en **Edit in Pages** para anexar estos detalles de
+    comparación a la página existente.  
     ![](./media/image20.png)
 
-**タスク 2: ページ上で直接編集する**
+**Tarea 2: Edite directamente en Page**
 
-1.  ページ上の任意の場所をクリックして、コンテンツの入力と絞り込みを開始します。**「/」**と入力すると、見出し、箇条書き、表、画像などのコンテンツオプションのメニューが開き、より構造化された魅力的なレイアウトになります。
-    ![](./media/image21.png)
+1.  Haga clic en cualquier parte de la página para comenzar a escribir y
+    refinar el contenido. Escriba **"/"** para abrir un menú de opciones
+    de contenido, como encabezados, viñetas, tablas o imágenes, para una
+    forma más estructurada y atractiva.
+    layout. ![](./media/image21.png)
 
-2.  コンテンツブロックの上にマウスを置き、ケバブメニュー(平行に並んだ3つの垂直ドット–串刺しのアイテムに似ています)を選択すると、ページリンクのコピー、ブロックの移動、および削除のオプションが表示されます。  
-    ![](./media/image22.png)
+2.  Pase el mouse sobre un bloque de contenido y seleccione el menú
+    Kebab (3 puntos verticales en una matriz paralela, que se asemeja a
+    un elemento ensartado) para ver las opciones para Copiar enlace de
+    página, Mover bloque y
+    Delete. ![](./media/image22.png)
 
-**タスク 3: チーム メンバーとの共同作業**
+**Tarea 3: Colabore con los miembros del equipo**
 
-1.  ページがチーム入力の準備ができたら、
-    右上隅にある共有アイコンをクリックし**、\[Copy
-    component\]**を選択します。
+1.  Cuando la página esté lista para la entrada del equipo, haga clic en
+    el **icono Compartir** en la esquina superior derecha y
+    seleccione **‘Copy component’**.
 
 ![](./media/image23.png)
 
-2.  このリンクを **Teams Channel**または **Outlook**
-    メールに貼り付けると、チーム
-    メンバーがページにアクセスして共同作業できるようになります。
+2.  Pegue este vínculo en un canal de **Teams** o en un email de
+    **Outlook**, lo que permite que los miembros del equipo accedan a la
+    página y colaboren con usted.
 
-**注**:
-このラボ環境は、機能が制限された状態でデプロイされています。そのため、企業ネットワークで行うような共同作業でTeamsとOutlookを使用することはできません。
+**Ojo**: Este entorno de laboratorio se implementa con funcionalidad
+restringida. Por lo tanto, no podrá usar Teams y Outlook de forma
+colaborativa como lo haría en una red corporativa.
 
-**演習 \#3: 保存したページを再訪してアクセスする**
+**Ejercicio núm. 3: Vuelva a visitar y acceda Saved Pages**
 
-いつでも、Copilot Page リンクが最初に作成された元のチャット
-メッセージに戻ることができます。
+En cualquier momento, puede volver al mensaje de chat original en el que
+se creó por primera vez el enlace de la Copilot Page.
 
-**タスク 1: Microsoft365.com でページを見つける**
+**Tarea 1: Localice su página en Microsoft365.com**
 
-1.  Microsoft365.com **の\[Pages\]**タブに移動します。
+1.  Vaya a la pestaña **Pages** en **Microsoft365.com**.
 
 ![](./media/image24.png)
 
-2.  ここには、作成したすべての**Copilotページ**が、簡単にアクセスできるように整理されて表示されます。
-    ![](./media/image25.png)
+2.  Aquí verá todas las páginas de **Copilot** que ha creado,
+    organizadas para facilitar el
+    acceso. ![](./media/image25.png)
 
-**タスク 2: 追加の編集または更新の共有**
+**Tarea 2: Realice ediciones adicionales o compartir actualizaciones**
 
-保存したページを開いて、さらに編集を行ったり、更新を追加したり、ページリンクを再共有したりして、新規または既存のチームメンバーとの継続的なコラボレーションを行います。
+Abra la página guardada para realizar más ediciones, agregar
+actualizaciones o volver a compartir el enlace de la página para
+continuar la colaboración con miembros del equipo nuevos o existentes.
 
-1.  テキストコンテンツにカーソルを合わせると、**ケバブ**メニューと**チャット**アイコンが表示されます。
+1.  Cuando pase el cursor sobre el contenido textual, verá el
+    menú **Kebab** y el icono **Chat**.
 
 ![](./media/image26.png)
 
-2.  次に、ページを直接編集します。ページをクリックし、コンテンツを追加または変更するために入力します。次に、次のプロンプトを入力し(VPNの採用率を示すグラフを挿入します)、\[Send\]をクリックします。
+2.  Ahora edita la página directamente. Haga clic en la página y escriba
+    para agregar o cambiar el contenido. Ahora introducirá el siguiente
+    prompt (para insertar un gráfico que muestre las tasas de adopción
+    de VPN) y haga clic en **Send**.
 
-> ++Insert a chart showing VPN adoption rates in pharmaceutical
-> industries.++
+++Insert a chart showing VPN adoption rates in pharmaceutical
+industries.++
 
 ![](./media/image27.png)
 
-3.  Copilot は、コード スニペットを使用してグラフを生成して表示します。
+3.  Copilot generará y mostrará el gráfico con el fragmento de código.
 
 ![](./media/image28.png)
 
-4.  Copilot チャット **ウィンドウを閉じ** 、\[**Preview**\]
-    を選択して先に進みます。
+4.  Cierre la ventana de **Copilot chat** y seleccione **Preview** para
+    seguir adelante.   
     ![](./media/image29.png)
 
-5.  次に、ドラフトを完成させて、Trey Research のリーダーシップ
-    チームの準備を整えます。
+5.  Ahora finalizará el borrador para que esté listo para el equipo de
+    liderazgo de Trey Research.
 
-次のプロンプトを使用して、ドキュメントを確定します。
+Utilizará el siguiente prompt para finalizar el documento.
 
 ++Format the executive summary to highlight the top three benefits of
 Contoso’s VPN recommendation.++
@@ -268,15 +300,20 @@ Contoso’s VPN recommendation.++
 
 ![](./media/image31.png)
 
-6.  すべての編集が完了していることを確認し、プレゼンテーションや共有の準備が整った適切な名前でページを保存します。
+6.  Se asegurará de que todas las ediciones estén completas y guardará
+    la página con un nombre adecuado, lista para presentarla o
+    compartirla.
 
-**概要：**
+**Resumen:**
 
-このラボでは、次のスキルを適用しました：
+En este laboratorio, aplicó las siguientes aptitudes:
 
-- Copilot を使用して、コンテンツを効果的に作成、調整、共有します。
+- Usar Copilot para crear, refinar y compartir contenido de forma
+  eficaz.
 
-- M365ページのインタラクティブでコラボレーション機能を活用して、チームワークを強化します。
+- Utilizar las funciones interactivas y colaborativas de M365 Pages para
+  mejorar el trabajo en equipo.
 
-Microsoft 365 Copilot
-を日常のワークフローに統合して生産性とコラボレーションを実現することで、実際のシナリオに活用できます。
+a escenarios del mundo real mediante la integración de Microsoft 365
+Copilot en los flujos de trabajo diarios para la productividad y la
+colaboración.
