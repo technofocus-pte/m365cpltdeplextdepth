@@ -1,4 +1,4 @@
-**Laboratorio 04: Empodere a sus vendedores con Microsoft 365 Copilot**
+# Laboratorio 04: Empodere a sus vendedores con Microsoft 365 Copilot
 
 Copilot for Microsoft 365 sirve como un asistente de escritura impulsada
 por la IA. Comprende el contexto, frases sugeridos, y ayuda a generar
