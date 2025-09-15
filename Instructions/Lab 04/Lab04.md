@@ -1,484 +1,542 @@
-# ラボ 04: Microsoft 365 Copilot で販売担当者を支援
+**Laboratorio 04: Empodere a sus vendedores con Microsoft 365 Copilot**
 
-Copilot for Microsoft 365 は、AI を活用したライティング
-アシスタントとして機能します。コンテキストを理解し、フレーズを提案し、コンテンツの生成を支援し、これらすべてが作業の品質を向上させることができます。このラボでは、次のことを行います
+Copilot for Microsoft 365 sirve como un asistente de escritura impulsada
+por la IA. Comprende el contexto, frases sugeridos, y ayuda a generar
+contenido, todo lo que puede mejorar la calidad de su trabajo. En este
+laboratorio, usted usará:
 
-- Copilot in Loop を使用して、市場調査レポートを作成します。
+- Copilot en Loop para crear un informe de investigación del mercado.
 
-- PowerPoint の Copilot
-  を使用して、営業プレゼンテーションを作成およびカスタマイズします。
+- Copilot en PowerPoint para crear y personalizar una presentación de
+  ventas.
 
-- Word で Copilot を使用して、3
-  つのサプライヤー契約を比較し、相違点を特定し、推奨されるアクションを提供します。
+- Copilot en Word para comparar tres acuerdos de proveedores,
+  identificar las diferencias y proporcionar acciones recomendadas.
 
-**演習 #1: Copilot in Loop を使用して市場調査レポートを作成する**
+**Ejercicio núm. 1: Cree un informe de investigación del mercado con la
+ayuda de Copilot en Loop**
 
-あなたは、農業機械業界を主な市場とするプラスチック部品の OEM である
-VanArsdel Ltd
-の営業担当副社長です。しかし、上級管理職は、自動車市場への参入の可能性に関心を持っています。すでにこの分野を独占している既存のプラスチックメーカーとの激しい競争を考えると、自社が有力なプレーヤーになるためのスペースがあるかどうかを判断する必要があります。
+Usted es el VP de ventas para VanArsdel Ltd, un OEM de componentes
+plásticos, cuyo mercado principal es la industria de herramientas
+agriculturales. Sin embargo, el senior leadership está interesado en la
+posibilidad de expandir en el mercado de automóviles. Dada la fuerte
+competencia de los fabricantes de plástico existentes que ya monopolizan
+este sector, debe determinar si hay un espacio disponible para que su
+empresa se convierta en un jugador viable.
 
-この演習では、Copilot in Loop を使用して次のことを行います
+En este ejercicio, utilizará Copilot en Loop para
 
-- 自社製品の潜在的な新しい販売市場を調査し、その結果を概説した市場調査レポートを作成します。
+- Investigar un nuevo mercado potencial de ventas para los productos de
+  su empresa y crear un informe de investigación de mercado que describa
+  sus hallazgos.
 
-- レポートの形式を変更するには、コンテンツをテーブルに配置します。
+- Cambiar el formato del informe colocando el contenido en una tabla.
 
-- あなたの会社がその市場に参入すべきかどうかについて、最終的な提案をしてください。
+- Hacer una recomendación final sobre si su empresa debe ingresar a ese
+  mercado.
 
-1.  Microsoft Edge ブラウザーを開き、次の URL を入力します:
-    +++<https://m365.cloud.microsoft>+++ Microsoft 365 Copilot アプリ
-    (以前のオフィス) ホーム ページに移動します。 **左側のナビゲーション
-    ウィンドウで** \[**Apps**\] を選択します。
+1.  Abra un navegador Microsoft Edge e introduzca la siguiente URL:
+    +++<https://m365.cloud.microsoft>+++ para ir a la página de inicio
+    de aplicación de Microsoft 365 Copilot (anteriormente conocido como
+    office). Seleccione **Apps** en el panel de navegación izquierda.
 
-**注**: サインインを求められた場合は、右側の \[Resource\]
-タブにある資格情報を使用してサインインする必要があります。
+**Ojo**: Debe iniciar sesión (si se le solicita) con las credenciales
+proporcionadas en la pestaña Resources de la derecha.
 
 ![](./media/image1.png)
 
-2.  \[**Apps\]** ページで、下にスクロールして **\[Loop\]**
-    を見つけ、それを選択します。
+2.  En la página **Apps**, baje hasta **Loop** y selecciónelo.
 
 ![](./media/image2.png)
 
-**注**: **\[Apps\] ページに** \[ループ\] が表示されない場合は、\[**All
-apps\] を選択します**。
+**Ojo**: si no ve **Loop** enlistado en la página de App,
+seleccione **All apps**.
 
-3.  \[**Sign-in\] ボタンが表示されている場合は**、\[**Resource\]
-    タブの** \[**Microsoft 365
-    Credentials\]で提供されている資格情報を使用してサインイン**します。
+3.  Si ve un botón **Sign-in**, inicie sesión con las credenciales
+    proporcionadas en **Microsoft 365 Credentials** en la
+    pestaña **Resources**.
 
 ![](./media/image3.png)
 
-**注**:サインイン後、Loopブラウザウィンドウを閉じ、アプリページからもう一度Loopを開きます。
+**Ojo**: Después de iniciar sesión, cierre la ventana del navegador de
+Loop y de nuevo abra Loop desde la página Apps.
 
-4.  Microsoft Loop **では**、既定で **\[Workspaces\]**
-    タブが表示されます。このプロジェクトの新しいワークスペースを作成する場合は、
-    \[**Getting started**\] の横にある左上の **\[+\]** を選択し、 **\[+
-    New workspace** \] ボタンを選択します。
+4.  En **Microsoft Loop**, se ve la pestaña **Workspaces** de forma
+    predeterminada. Si quiere crear un nuevo workspace para este
+    proyecto, seleccione **+** en la parte superior izquierda junto
+    a **Getting started**, y seleccione el botón **+New workspace**.
 
 ![](./media/image4.png)
 
 ![](./media/image5.png)
 
-5.  \[**Create a new workspace**\]
-    ウィンドウで、ワークスペース名に「+++VanArsdel
-    research+++」と入力し、表示される **\[Continue**\] または
-    **\[Create**\] ボタンを選択します
-    (ループのバージョンによって異なります)。
+5.  En la ventana **Create a new workspace**, introduzca +++VanArsdel
+    research+++ como el nombre de su workspace, y luego seleccione
+    o **Continue** o **Create** que aparece (en función de su versión de
+    Loop).
 
 ![](./media/image6.png)
 
-6.  \[**Add files to your workspace** (Loop
-    のバージョンによっては、このウィンドウに **\[Workspace Switcher\]**
-    と表示される場合があります) で、\[**Create**\] を選択します。
+6.  En la ventana **Add files to your workspace** (en función del
+    versión de su Loop, puede quw esta ventana sea de **Workspace
+    Switcher**), seleccione **Create**.
 
 ![](./media/image7.png)
 
-7.  これで、新しいワークスペースの最初のページが表示されます。ページの名前は現在
-    **\[Untitled\]** です。ページ (**Untitled**)
-    は、左側のナビゲーション
-    ウィンドウにも表示されます。ページの本文で、**Untitled**
-    フィールドを選択し、ページの名前を **市場調査**
-    に変更します。ナビゲーション
-    ウィンドウでページ名が自動的に更新されることに注意してください。
+7.  Ahora está en la primera página de su nuevo workspace. El nombre de
+    esta página de momento es **Untitled**. Note que la página
+    (Untitled) también apareec en el panel de navegación izquierdo. En
+    la parte principal de la página, seleccione el campo **Untitled** y
+    cambie el nombre a **Market research**. Note cómo el nombre de la
+    página se actualiza de forma automática en el panel de navegación.
 
 ![](./media/image8.png)
 
-8.  \[**Just start typing...**  フィールドにスラッシュ **(/)
-    を入力します**。
+8.  En el campo **Just start typing...** , introduzca esta barra
+    inclinada **(/)**.
 
 ![](./media/image9.png)
 
-9.  表示されるドロップダウンメニューで、メニュー上部の\[**Copilot**\]セクションで、\[**Draft
-    page content\]を選択します**。
+9.  En el menú desplegable que aparece, en la sección de **Copilot** en
+    la parte superior del menú, seleccione **Draft page content**.
 
-10. 表示される **Copilot** ウィンドウで、プロンプト
-    フィールドの下に表示されるボタンの列に注意してください。各ボタンを選択します。その際、Copilot
-    が支援できるタスクの種類の例がプロンプト
-    フィールドに事前に入力される方法に注意してください。
+10. En la ventana de **Copilot** que aparece, note que la fila de
+    botones que aparece debajo del campo prompt. Seleccione cada botón.
+    A la hora de hacerlo, note cómo éste rellena el campo de prompt con
+    un ejemplo del tipo de la tarea con la que puede asistir Copilot.
 
-11. 次に、独自のプロンプトを入力します。プロンプトフィールドに次のプロンプトを入力し、\[**Submit\]**アイコンを選択します。
+11. Ahora va a introducir su propio mensaje. En el campo de prompt,
+    escriba el siguiente propmt y seleccione el icono **Submit**:
 
-> +++As the VP for Sales for an OEM in the plastics manufacturing
-> industry, please research the market for plastic components in the
-> automotive industry. Provide information on target audience, market
-> size, competition, trends, regulations, and distribution channels.+++
++++As the VP for Sales for an OEM in the plastics manufacturing
+industry, please research the market for plastic components in the
+automotive industry. Provide information on target audience, market
+size, competition, trends, regulations, and distribution channels.+++
 
 ![](./media/image10.png)
 
-12. 問題が発生したというエラーが表示された場合は、前のプロンプトをコピーして貼り付け、再度送信します。
+12. If you receive an error saying that something went wrong, copy and
+    paste in the prior prompt and submit it again.
 
 ![](./media/image11.png)
 
-13. 生成されたレポートを確認します。すべての情報を段落形式でまとめるのではなく、表にまとめることを好みます。表示される
-    **Copilot ペインで、**Rewrite with Copilot フィールドに
-    次のプロンプトを入力し、**Submit** アイコンを選択します。
+13. Revise el informe generado. En vez de tener toda la información en
+    forma de párrafo, prefiere resumirla en una tabla. En el panel de
+    **Copilot** que aparece, introduzca el siguiente prompt en el
+    campo **Rewrite with Copilot** y seleccione el icono **Submit**:
 
-> +++Rewrite the report by placing the information in a table.+++
++++Rewrite the report by placing the information in a table.+++
 
 ![](./media/image12.png)
 
-14. Copilot
-    によってレポートの書式設定がどのように変更されたかに注目してください。あなたは今、Copilotに、この市場への参入がVanArsdelにとって実行可能な選択肢であるかどうかについて最終的な推奨を行うことを望んでいます。次のプロンプトを入力します:
+14. Note cómo Copilot cambió el formato del informe. Ahora quiere que
+    Copilot haga una recomendación final sobre si entrar en este mercado
+    es una opción viable para VanArsdel. Introduzca el siguiente prompt:
 
-> +++Add a recommendation to the end of the report as to whether we
-> should move into the market.+++
++++Add a recommendation to the end of the report as to whether we should
+move into the market.+++
 
 ![](./media/image13.png)
 
-15. レポートの一番下までスクロールし、Copilot の推奨事項を確認します。
+15. Bájese hasta la parte inferior del informe y revise la recomendación
+    de Copilot.
 
 ![](./media/image14.png)
 
-**演習 \#2: PowerPoint で Copilot
-を使用して営業プレゼンテーションを作成する**
+**Ejercicio \#2: Cree una presentación de ventas con la ayuda de Copilot
+en PowerPoint**
 
-PowerPoint の Copilot
-を使用すると、営業担当者はプレゼンテーションの内容に集中でき、ツールがデザインと書式設定を行います。それはできる:
+Con Copilot en PowerPoint, los profesionales de ventasse pueden enfocar
+en el contenido de sus presentaciones, mientras la herramienta se
+encarga del diseño y el formato. Puede:
 
-- 既存の文書を、スピーカーノートとソースを備えたプレゼンテーションデッキに変換
+- Transformar los documentos escritos existentes en presentaciones
+  completas con notas del orador y fuentes
 
-- 新しいプレゼンテーションを簡単なプロンプトまたはアウトラインから開始します。
+- Comenzar una nueva presentación desde un simple prompt o esquema.
 
-- プレゼンテーションの要約を支援し、重要なポイントの箇条書きの要約を提供して、プレゼンテーションの内容をすばやく理解したり、主要なアイデアをチームと共有したりします。
+- Ayudar a resumir las presentaciones, proporcionando un resumen con
+  viñetas de los puntos clave para comprender rápidamente el contenido
+  de una presentación o compartir las ideas principales con el equipo.
 
-Contoso, Ltd. のセールスおよびマーケティング
-ディレクターは、同社の最も売れ筋製品である Contoso Protein Plus
-シェイクについて、セールス
-チームにプレゼンテーションを行う必要があります。プレゼンテーションでは、マーケティング
-チームが製品に対して作成した市場トレンド
-レポートを分析する必要があります。
+Como director de ventas y marketing de Contoso, Ltd., debe hacer una
+presentación a su equipo de ventas sobre el producto más vendido de la
+empresa, el batido Contoso Protein Plus. La presentación debe analizar
+el informe de tendencias del mercado que su equipo de marketing creó
+para el producto.
 
-この演習では、PowerPoint の Copilot
-を使用して、提供されているリンクを使用してダウンロードした **Market
-Trend Report - Protein Shake.docx** ファイルの情報に基づいてスライド
-プレゼンテーションを作成します。
+En este ejercicio, utilizará Copilot en PowerPoint para crear su
+presentación de diapositivas basada en la información del
+archivo **Market Trend Report - Protein Shake.docx**, lo que puede
+descargar con el enlace proporcionado.
 
-1.  Microsoft Edge ブラウザーに Microsoft 365 Copilot アプリ
-    ページがある場合は、ここで選択します。それ以外の場合は、新しいタブを開き、次の
-    URL:
-    :+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) を入力して
-    Microsoft 365 Copilot アプリのホーム ページに移動します。
+1.  Si tiene una página de Microsoft 365 Copilot App en su navegador de
+    Microsoft Edge, debe seleccionarla ahora; de lo contrario, abra una
+    nueva pestaña e ingrese la siguiente
+    URL:+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
+    ir a la página de inicio de Microsoft 365 Copilot App.
 
-**注**: 右側の **\[リソース\] タブ**にある **Microsoft 365
-資格情報**を使用してサインインする必要があります
-(プロンプトが表示された場合)。
+**Ojo**: Necesita iniciar sesión (si se le pide) con las **Microsoft 365
+Credentials** proporcionadas en la pestaña **Resources** en la parte
+derecha.
 
-2.  navigation ウィンドウで \[**Apps\] を選択します** 。**OneDrive**
-    をクリックして開きます
+2.  Seleccione **Apps** en el panel de navegación. Haga clic
+    en **OneDrive** para abrirlo
 
-3.  C:\LabFiles\MS4019 **フォルダーを参照して、Market Trend Report -
-    Protein Shake** to **OneDrive**
+3.  Navegue a la carpeta **C:\LabFiles\MS4019** para seleccionar y subir
+    una copia de **Market Trend Report - Protein Shake** a **OneDrive**
 
-**注**: 「ラボ実行の準備 **(**ラボ
-0)」セクションの説明**に従って**、すべてのラボ アセットを OneDrive
-に既にアップロードしている場合は、この手順をスキップできます。
+**Ojo**: si ya ha suido todos los activos del laboratorio
+a **OneDrive** como se indica en la sección **Preparing for the lab
+execution** (**Lab 0**), puede saltar este paso.
 
-4.  **ファイル Market Trend Report - Protein Shake.docx Update**
-    (OneDrive にアップロードしたもの) を開いて閉じ、最近使用した (MRU)
-    ファイル リストに入れます。
+4.  Abra y cierre el archivo **Market Trend Report - Protein
+    Shake.docx** (que cargó en OneDrive) para entrar en la lista de
+    archivos Most Recently Used (MRU)
 
-5.  **Microsoft 365** ナビゲーション ウィンドウで、\[PowerPoint\]
-    を選択します。PowerPoint
-    で、新しい空白のプレゼンテーションを開きます。
+5.  En el panel de navegación **Microsoft 365**,
+    seleccione **PowerPoint**. En PowerPoint, abra una nueva
+    presentación en blanco.
 
-6.  **Copilot** アイコン (スクリーンショットに示すように赤で強調表示)
-    を選択します。表示される **Copilot**
-    ペインでは、いくつかの事前定義されたプロンプトから選択できます。**\[Create
-    presentation from\]** プロンプトを選択します。  
-    ![](./media/image15.png)
+6.  Seleccione el icono **Copilot** (resaltado en rojo como se muestra
+    en la captura de pantalla). En el panel **Copilot** que aparece,
+    varios prompts predefinidos están diponible para usted.
+    Seleccione **Create presentation from
+    file** prompt. ![](./media/image15.png)
 
 ![](./media/image16.png)
 
 ![](./media/image17.png)
 
-Copilot **ペイン**の下部にあるプロンプト
-フィールドの上に**、最近使用した 3 つのファイルを含む \[提案**\]
-ウィンドウが表示される場合があります。**MRUリストにMarket Trend Report -
-Protein Shake.docx**ファイルが表示されている場合は、それを選択します。
+Encima del campo de prompt en la parte superior del panel
+de **Copilot**, puede que aparezca una ventana **Suggestions** que
+contiene los tres archivos utiiados más recientemente. Si aparece el
+archivo **Market Trend Report - Protein Shake.docx** en la lista MRU,
+selecciónelo.
 
-7.  それ以外の場合は、スクリーンショットに示すように、
-    クラウドファイルを添付する
-    オプション。![](./media/image18.png)
+7.  De lo contrario, puede adjuntar el documento de referencia mediante
+    la opción Attach cloud files, como se muestra en la captura de
+    pantalla.   
+    ![](./media/image18.png)
 
 ![](./media/image19.png)
 
-**注**:ドキュメントへのリンクを使用して、参照ドキュメントを添付できます。リンクを取得するには、Word
-でファイルを開き、 **リボンの上にある** \[**Share**\]
-ボタンを選択し、ドロップダウン メニューから \[**Copy Link\]
-オプションを選択し、**PowerPoint の **Copilot** パネルの
-**このプロンプト フィールドに**、スラッシュに続くリンクを貼り付けます
-(**Create presentation from file /**)。\[**Send\]**
-アイコンを選択します。
+**Ojo**: Puede adjuntar el documento de referencia utilizando el enlace
+al documento. Para obtener el enlace, abra el archivo en **Word**,
+seleccione el botón **Share** encima de el menú horizontal, seleccione
+la opción **Copy Link** desde el menú despegable, y luego en el campo de
+prompt en el panel de **Copilot** en **PowerPoint**, pegue el enlace
+seguido por esta barra diagonal (**Create presentation from file /**).
+Seleccione el icono **Send**.
 
 ![](./media/image20.png)
 
-8.  このプロンプトにより、Copilot はドキュメントに基づいてスライド
-    プレゼンテーションを作成しました。その際、最初にプレゼンテーションのアウトラインが表示されました。次に、ドキュメントに基づいてプレゼンテーションに加えた一部の変更の箇条書きリストを示す別のウィンドウが表示されました。
+8.  Este prompt hizo que Copilot cree una presentación de diapositivas
+    en función del documento. Al hacerlo, primero mostró el esquema de
+    la presentación. Luego, mostró una ventana distinta con una lista
+    con viñetas de algunos de los cambios que realizó en la presentación
+    basada en el documento.
 
 ![](./media/image21.png)
 
-9.  Copilot
-    でプレゼンテーションの作成が完了したら、スライドを確認します。スピーカーのノートを確認するには、\[**View**\]
-    タブを選択し、\[**Notes**\]
-    ボタンがまだ選択されていない場合は選択します。すでに選択されていてノートが表示されない場合は、スライドウインドウの下部を上にドラッグしてノートを表示します。スピーカーノートに、プレゼンテーション中に強調したいポイントが含まれていることを確認します。
+9.  Revise las diapositivas una vez que Copilot haya terminado de crear
+    la presentación. Para revisar las notas del orador, seleccione la
+    pestaña **View** y seleccione el botón **Notes** si todavía no está
+    seleccionada. Si ya está seleccionado y no puede ver las notas,
+    arrastre la parte inferior de la ventana de diapositiva hacia arriba
+    para mostrar las notas. Verifique las notas el orador que incluye
+    puntos clave que quiere destacar durante la presentación.
 
 ![](./media/image22.png)
 
-10. \[**Home\]** タブを選択し、\[**Copilot**\] ボタンの左側に表示される
-    **\[Designer**\] ボタンを選択します。デザイナー
-    ペインには、表示されている現在のスライドのさまざまなデザインのサンプルが表示されます。プレゼンテーション内の別のスライドに変更し、**デザイナー**
-    ペインでそのスライドに対して異なるデザイン
-    オプションがどのように生成されるかを確認します。
+10. Seleccione la pestaña **Home** y luego seleccione el
+    botón **Designer**, que aparece en la parte izquierda
+    de **Copilot**. El panel de **Designer** ofrece ejemplos de
+    diferentes diseños para la diapositiva actual que se ve. Vambie a
+    otra diapositiva en la presentación y note cómo el panel
+    **Designer** genera diferentes opciones para aquella diapositiva.
 
 ![](./media/image23.png)
 
-11. デザイン オプションの 1 つを選択して、PowerPoint
-    で現在のスライドを新しいデザインに置き換えます。この機能は Copilot
-    とは関係ありません。Microsoft 365
-    サブスクリプションをお持ちの場合は、PowerPoint で利用できます。
+11. Seleccione una de las opciones de diseño para hacer que PowerPoint
+    reemplace la diapositiva actual con un nuevo diseño. Esta
+    característica no está relacionada con Copilot. Está disponible en
+    PowerPoint cuando tiene una suscripción Microsoft 365.
 
 ![](./media/image24.png)
 
-12. では、Copilot で他に何ができるかを見てみましょう。\[**Copilot**\]
-    ボタンを選択して \[**Copilot**\]
-    ウィンドウを開きます。\[**Copilot**\] ウィンドウで、\[**Here are
-    some things you can try**\] というセクションを確認します。Copilot
-    には、プレゼンテーションでいくつかのタスクを実行するために使用できる事前作成済みのプロンプトが用意されています。\[**View
-    Prompts** **\]** アイコンを選択し、\[**Organize your thoughts**\]
-    (赤色の強調表示) を選択します。
-    **注:**プロンプトを見つけるには、ゆっくりと下にスクロールする必要があります(スクリーンショットを参照)
+12. Ahora veamos qué más puede hacer Copilot. Seleccione el
+    botón **Copilot** para abrir el panel de **Copilot**. En el panel
+    de **Copilot**, note la sección que dice **Here are some things you
+    can try**. Copilot proporciona prompts preconstruidos que puede usar
+    para realizar varias tareas en la presentación. Seleccione el
+    icono **View Prompts** y seleccione **Organize your thoughts** (en
+    rojo resaltado). **Ojo**: tiene que bajar con cuidado para ubicar el
+    prompt (como se ve en la captura de pantalla)
 
 ![](./media/image25.png)
 
 ![](./media/image26.png)
 
-13. プレゼンテーションの整理に Copilot
-    が何を行ったかを確認します。たとえば、スライドをセクションにグループ化し、新しいセクション
-    タイトル
-    スライドを追加したとします。その場合は、作成した新しいスライドを見つけて確認します。
+1.  Revise lo que hizo Copilot en la organización de la presentación.
+    Por ejemplo, es posible que haya agrupado las diapositivas en
+    secciones y luego haya agregado algunas diapositivas de título de
+    sección nuevas. Si es así, localice las nuevas diapositivas que ha
+    creado y revíselas.
 
 ![](./media/image27.png)
 
-14. プロンプト
-    フィールドの上には、プレゼンテーションに関連する質問が表示されます。これらの質問の目的は2つあります。できることは：
+13. Encima del campo de prompt, Copilot muestra preguntas relcionadas a
+    la presentación. El propósito de estas preguntas está en capas.
+    Puede:
 
-    - 質問を選択すると、Copilot
-      で回答が生成され、それをコピーして該当するスライドのスピーカーノートに貼り付けることができます。
+    - Seleccionar una pregunta y hacer que Copilot genere una respuesta,
+      la que puede copiar y pegar en las notas del orador para una
+      diapositiva correspondiente.
 
-    - 質問と回答(Q&A)スライドを作成し、これらすべての質問に対する回答をコピーしてスピーカーノートに貼り付けます。
+    - Crear una diapositiva de Question and Answer (Q&A) y copiar y
+      pegar todas las repuestas a estas preguntas en las notas del
+      orador.
 
-その際、これらの質問と回答を使用して、プレゼンテーションの Q&A
-部分の準備をすることができます。たとえば、次のような質問をするボタンがある場合があります:
-**What caused the rise in demand for Contoso Protein
-Plus**?または、**What are the key factors behind the hype of Contoso
-Protein
-Plus**?と尋ねるかもしれません。表示された質問を確認し、そのうちの 1
-つを選択して何が起こるかを確認します。
+Al hacerlo, puede usar estas preguntas y respuestas para prepararse para
+la parte de preguntas y respuestas de la presentación. Por ejemplo,
+puede tener un botón que pregunte algo como: **What caused the rise in
+demand for Contoso Protein Plus**? O puede preguntar algo como: **What
+are the key factors behind the hype of Contoso Protein Plus**? Revise
+las preguntas que ve y seleccione una de ellas para ver qué sucede.
 
 ![](./media/image28.png)
 
-15. これらの質問のいずれかを選択すると、Copilot
-    は質問に対する回答を生成し、 回答ウィンドウの下部に \[**Copy**\]
-    オプションを提供します。その際、\[**Copy**\]
-    オプションを選択し、このテキストが適切なノートを作成するスライドのスピーカー
-    ノートにこの回答を貼り付けることができます。今すぐお試しください。質問を選択し、回答をコピーしてから、適切なスライドに移動し、スピーカーノートで
-    **Ctrl + V** キーを押してノートを貼り付けます。
+14. Al seleccionar cualquiera de estas preguntas, Copilot genera una
+    respuesta a la pregunta y proporciona una opción **Copy** en la
+    parte inferior de la ventana de respuesta. Al hacerlo, puede
+    seleccionar la opción **Copy** y luego pegar esta respuesta en las
+    notas del orador para cualquier diapositiva en la que este texto sea
+    una nota adecuada. Pruébalo ahora. Seleccione una pregunta, copie la
+    respuesta, luego vaya a una diapositiva apropiada y, en las notas
+    del orador, ingrese **Ctrl+V** para pegar en la nota.
 
 ![](./media/image29.png)
 
 ![](./media/image30.png)
 
-16. 提案された質問とプロンプトフィールドの間に表示される\[**Refresh**\]ボタンに注意してください。この
-    **\[Refresh\]** ボタンを選択します。
+15. Note el botón **Refresh** que aparece en las preguntas sugeridas y
+    el campo de prompt. Seleccione el botón **Refresh**.
 
 ![](./media/image31.png)
 
-その際、Copilot
-が新しい一連の質問をどのように生成したかに注目してください。
-プレゼンテーションで対処したい質問が表示されるまで、\[更新\]
-ボタンを選択して、質問を更新し続けることができます。その後、質問を選択し、Copilot
-で生成された回答をコピーして、選択したスライドのスピーカーノートに貼り付けることができます。Copilot
-は、新しい質問が思いつかなくなると、質問のリストを最初から繰り返し始めます。
+Al hacerlo, observe cómo Copilot generó un nuevo conjunto de preguntas.
+Puede continuar actualizando las preguntas seleccionando el botón
+**Refresh** hasta que vea una pregunta que desee abordar en la
+presentación. A continuación, puede seleccionar la pregunta, copiar la
+respuesta generada por el Copilot y pegarla en las notas del orador de
+la diapositiva que elija. Una vez que Copilot no puede pensar en ninguna
+pregunta nueva para ofrecer, comienza a repetir la lista de preguntas
+desde el principio.
 
-17. ここで、Copilot でプレゼンテーションの最後に Q&A
-    セッションのスライドを作成します。次のプロンプトを入力し、\[**Send\]**
-    アイコンを選択します。
+16. Ahora desea que Copilot cree una diapositiva al final de la
+    presentación para una sesión de preguntas y respuestas. Introduzca
+    el siguiente prompt y seleccione el icono **Send**:
 
-> +++Add a slide at the end of the presentation for Q&A.+++
++++Add a slide at the end of the presentation for Q&A.+++
 
 ![](./media/image32.png)
 
-**注**: Copilot では、以下のような例外が表示される場合があります。
+**Ojo**: El Copilot puede mostrar alguna excepción como la que se
+muestra a continuación.
 
 ![](./media/image33.png)
 
-プロンプトを言い換えるか、次のような提案されたプロンプトを使用してください。
+Intente reformular el prompt o use los prompt sugeridos como el que se
+muestra a continuación:
 
 ![](./media/image34.png)
 
-18. \[**Add a slide**\]**コマンドを選択し**
-    、プレゼンテーションの最後に次のQ&Aを追加します(スクリーンショットを参照)。
+17. Seleccione el command **Add a slide about** y agregue las siguientes
+    preguntas y respuestas al final de la presentación (como se muestra
+    en la captura de pantalla).
 
 ![](./media/image35.png)
 
-19. \[Send**\] をクリックして** 、何が起こるかを確認します。
+18. Haga clic en **Send** para comprobar lo que sucede.
 
 ![](./media/image36.png)
 
-Copilotは指示通りにQ&Aスライドを追加しました。Copilot が作成した Q&A
-スライドを確認します。
+Copilot ha agregado una diapositiva de Q&A según las instrucciones.
+Revise la diapositiva de preguntas y respuestas que creó Copilot.
 
-20. Copilot が作成した Q&A
-    スライドを確認します。では、最後にもう1つ試してみてください。Q&A
-    セッション中に準備できる可能性のある質問のリストを作成することにしました。次のプロンプトを入力して、Copilot
-    が提案したすべての質問を Q&A スライドのスピーカー
-    ノートに追加できるかどうかを確認します：
+1.  Revise la diapositiva de Q&A que creó Copilot. Ahora intenta una
+    última cosa. Decide compilar una lista de posibles preguntas para
+    las que puede prepararse durante la sesión de preguntas y
+    respuestas. Introduzca el siguiente prompt para ver si Copilot puede
+    agregar todas las preguntas sugeridas a las notas del orador en la
+    diapositiva de Q&A:
 
-> +++In the speaker notes of the Q&A slide that you just created, add a
-> list of possible questions that may be asked regarding this
-> presentation.+++
++++In the speaker notes of the Q&A slide that you just created, add a
+list of possible questions that may be asked regarding this
+presentation.+++
 
-21. Copilot
-    がスライドを生成できなかったことを示すメッセージを返した場合は、プロンプトをもう一度入力してみてください。Copilot
-    がタスクを完了できない場合は、リクエストを繰り返すことをお勧めします。
+19. Si Copilot devuelve un mensaje que indica que no ha podido generar
+    la diapositiva, intente introducir de nuevo el prompt. A veces,
+    cuando Copilot no puede completar una tarea, se recomienda repetir
+    el prompt.
 
 ![](./media/image37.png)
 
 ![](./media/image38.png)
 
-Copilot
-がこのタスクを完了できない場合は、この時点で必要なすべてのタスクを完了できない可能性があることを示しています。このシナリオは、Copilot
-の制限事項を理解するという、注意すべきベスト プラクティスの別の例です。
+Si Copilot no puede completar esta tarea, simplemente muestra que es
+posible que no pueda completar todo lo que desea en este momento. Este
+escenario es otro ejemplo de las prácticas recomendadas que debe tener
+en cuenta: Comprender las limitaciones de Copilot.
 
-22. 次に、この回避策を試してください。次のプロンプトを入力して、質問のリストを生成するように求めます。  
-    +++What kind of questions do you think participants may ask during
-    the Q&A session?+++  
-      
-    ![](./media/image39.png)
+20. Ahora pruebe esta solución alternativa. Introduzca el siguiente
+    mensaje que le pide que genere una lista de preguntas:
 
-23. Copilot が作成した問題を確認します。 **ウィンドウの下部にある**
-    \[**Copy** \] ボタンを選択し、**Q&A スライドのスピーカー
-    ノートに**貼り付けます (Ctrl + V)。
++++What kind of questions do you think participants may ask during the
+Q&A session?+++
+
+![](./media/image39.png)
+
+21. Revise las preguntas creadas por Copilot. Seleccione el botón
+    **Copy** en la parte inferior de la ventana y, a continuación,
+    péguelos (**Ctrl+V**) en las notas del altavoz de la Q&A slide.
 
 ![](./media/image40.png)
 
-**注**: Copilot
-では、一部の例外が表示される場合があります。**ステップ#16**のように、提案されたプロンプトを使用してみてください
+**Ojo**: Copilot puede mostrar alguna excepción. Por favor, intente
+utilizar los prompts sugeridas como en **paso \#16**
 
-このモジュールの残りのトレーニング演習ではこのプレゼンテーションは使用しませんが、後で参照できるようにコピーを保持する場合は、このプレゼンテーションを破棄するか、保存することができます。
+Si bien los ejercicios de capacitación restantes de este módulo no
+utilizan esta presentación, puede descartarla o guardarla si desea
+conservar una copia para referencia futura.
 
-**演習 \#3: Word で Copilot を使用してサプライヤー契約を比較する**
+**Ejercicio núm. 3: Compare acuerdos con proveedores utilizando Copilot
+en Word**
 
-営業担当者は、顧客との強固な関係を築き、インサイトに基づいて行動を起こし、より迅速に取引を成立させるために、適切な情報を適切なタイミングで必要としています。Word
-の Copilot
-は、他のドキュメントから特定の情報をコンテンツに取り込んだり、概要を生成したり、ドキュメントについて質問したり、特定のトピックに関するアイデアを提供したり、テキストを表に変換したり、コンテンツを書き換える方法を提案したりするのに役立ちます。
+Los vendedores necesitan la información correcta en el momento adecuado
+para construir relaciones sólidas con sus clientes, tomar medidas
+basadas en información y cerrar acuerdos más rápido. Copilot en Word
+puede ayudarles a incorporar información específica de otros documentos
+a su contenido, generar resúmenes, hacer preguntas sobre su documento,
+proporcionar ideas sobre temas específicos y transformar el texto en
+tablas, o proporcionar sugerencias sobre formas de reescribir el
+contenido.
 
-あなたは、さまざまな食料品や飲料製品のサプライヤーである Northwind
-Traders の新しいセールス マネージャーです。あなたは、Northwind
-の上位顧客数社と現在締結されているサプライヤー契約について懸念しています。これらの契約は前任者が交渉したため、以前にこれらの顧客と合意した契約条件に精通していません。
+Eres el nuevo director de ventas de Northwind Traders, un proveedor de
+diversos productos de comestibles y bebidas. Le preocupan los acuerdos
+con los proveedores que están actualmente en vigor con varios de los
+principales clientes de Northwind. Su predecesor negoció estos acuerdos,
+por lo que no está familiarizado con los términos y condiciones que se
+acordaron anteriormente con estos clientes.
 
-この演習では、次のことを行います
+En este ejercicio, usted podrá:
 
-- Word の Copilot に 3 つのサプライヤー契約ドキュメントを提供します。
+- Proporcionar Copilot en Word con tres documentos de acuerdo con el
+  proveedor.
 
-- 各顧客と交渉した契約条件を比較するレポートを作成するように依頼します。
+- Pedirle que cree un informe que compare los términos y condiciones
+  negociados con cada cliente.
 
-- Copilot
-  に依頼して、各契約の再交渉に関する推奨事項を提供してもらいます。
+- Pedir a Copilot que le proporcione recomendaciones para renegociar
+  cada acuerdo.
 
-1.  Microsoft Edge ブラウザーに Microsoft 365 Copilot アプリ
-    ページがある場合は、ここで選択します。それ以外の場合は、新しいタブを開き、次の
-    URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) を入力して
-    Microsoft 365 Copilot アプリのホーム ページに移動します。
+1.  Si tiene una página de Microsoft 365 Copilot App en su navegador de
+    Microsoft Edge, selecciónelo ahora; de lo contrario, abra una nueva
+    pestaña e ingrese la siguiente
+    URL:+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
+    ir a la página de inicio de Microsoft 365 Copilot App.
 
-**注**: 右側の **\[リソース\] タブ**にある **Microsoft 365
-資格情報**を使用してサインインする必要があります
-(プロンプトが表示された場合)。
+**Ojo**: tiene que iniciar sesión (si se le pide) con las **Microsoft
+365 Credentials** proporcionadas en la pestaña **Resources** en la parte
+derecha.
 
-2.  **C:\LabFiles\MS4019**
-    フォルダーを参照して、次のドキュメントのコピーを選択して OneDrive
-    にアップロードします。
+2.  Navegue a la carpeta **C:\LabFiles\MS4019** para seleccionar y subir
+    copias de los siguientes documentos en OneDrive.
 
-    - **Contoso サプライヤー契約**
+    - **Contoso Supplier Agreement**
 
-    - **Tailwind Tradersサプライヤー契約**
+    - **Tailwind Traders Supplier Agreement**
 
-    - **ワイドワールドインポーターズサプライヤー契約**
+    - **Wide World Importers Supplier Agreement**
 
-**注**:
-すべてのドキュメントのコピーをすでにアップロードしている場合は、この手順をスキップできます
-(**ラボ 0** の指示に従って、このハンズオン ラボ セッションで
-**C:\LabFiles** から使用します)。
+**Ojo**: Puede omitir este paso, si ya ha cargado una copia de todos los
+documentos (que utilizará en esta sesión práctica de laboratorio
+de **C:\LabFiles** como se indica en **Lab 0**).
 
-3.  この実習では、最近使用したファイルリストからドキュメントにアクセスします。ファイルを
-    MRU
-    リストに表示するには、各ドキュメントを開いてから閉じます。OneDrive
-    アカウント内の 3 つのファイルをそれぞれ開いて閉じます。
+3.  En este ejercicio, se accede a los documentos desde la lista de
+    archivos Most Recently Used. Para que los archivos aparezcan en la
+    lista de MRU, abra cada documento y, a continuación, ciérrelo. Abra
+    y cierre cada uno de los tres archivos de su cuenta de OneDrive.
 
 ![](./media/image41.png)
 
-4.  Microsoft 365 **で** Microsoft Word
-    **を開き、**新しい空白のドキュメントを開きます。
+4.  En **Microsoft 365**, abra **Microsoft Word** y, a continuación,
+    abra un nuevo documento en blanco.
 
-5.  空白のドキュメントの上部に表示される「**Draft with
-    Copilot**」ウィンドウで、次のプロンプトを入力します。
+5.  En la ventana **Draft with Copilot** que aparece en la parte
+    superior del documento en blanco, introduzca el siguiente prompt:
 
-> +++I'm the Sales Manager for Northwind Traders, a supplier of various
-> grocery and beverage products. Please create a report that compares
-> the supplier agreements for three of our customers. Provide a
-> recommendation on contract renewals that can provide Northwind Traders
-> with more favorable terms. The supplier agreements for these three
-> customers are attached. Thank you!+++
++++I'm the Sales Manager for Northwind Traders, a supplier of various
+grocery and beverage products. Please create a report that compares the
+supplier agreements for three of our customers. Provide a recommendation
+on contract renewals that can provide Northwind Traders with more
+favorable terms. The supplier agreements for these three customers are
+attached. Thank you!+++
 
 ![](./media/image42.png)
 
-ここで、3
-つのサプライヤー契約をプロンプトに添付する必要があります。「**Copilot
-によるドラフト**」ウィンドウで、「**Reference your
-content**」ボタンを選択します。表示されるドロップダウン
-メニューで、ファイルの一覧に **Contoso
-サプライヤー契約**が表示されている場合は、それを選択します。それ以外の場合は、
-**\[Browse files from cloud\] を選択し、** \[最近使用した**ファイル\]
-の一覧** から **Contoso Supplier Agreement**を選択し、 **\[Attach**\]
-ボタンを選択します。プロンプトでファイルがどのように表示されるかに注意してください。
+Ahora debe adjuntar los tres acuerdos de proveedor al prompt. En la
+ventana **Draft with Copilot**, seleccione el botón **Reference your
+content**. En el menú despegable que aparece, si aparece **Contoso
+Supplier Agreement** en la lista de archivos, selecciónelo. De lo
+contrario, seleccione **Browse files from cloud**, seleccione
+el **Contoso Supplier Agreement** desde la lista de archivos **Recent**,
+and y seleccione el botón **Attach**. Note cómo se muestra el archivo en
+el prompt.
 
-Tailwind Traders Supplier Agreement**と**Wide World Importers Supplier
-Agreement**の両方について、前の手順を繰り返します**。この時点で、3
-つのファイルすべてへのリンクがプロンプトに含まれている必要があります。
+Repita el paso anterior para el **Tailwind Traders Supplier
+Agreement** y el **Wide World Importers Supplier Agreement**. En este
+punto, los enlaces a los tres archivos deben incluirse en el prompt.
 
-6.  \[Generate\] **を選択します**。この時点で、Copilot は 3
-    つのサプライヤー契約から関連情報を抽出し、それらを比較するレポートを作成します。
+6.  Seleccione **Generate**. En este punto, Copilot extrae la
+    información pertinente de los tres acuerdos con los proveedores y
+    elabora un informe comparativo de los mismos.
 
 ![](./media/image43.png)
 
-7.  比較ドキュメントを確認した後、結果に満足していません。Copilot
-    が再試行して新しいバージョンを生成することを望んでいます。ドキュメントの最後に表示される
-    Copilot ウィンドウで、\[**Keep it\] ボタンの横に表示される**
-    \[**Regenerate\] ボタン**を選択します。この手順は、Copilot
-    が承認するこのレポートのバージョンを作成するまで、必要な回数だけ繰り返すことができます。この演習では、この手順を数回繰り返して、Copilot
-    が提供するさまざまな形式を確認します。また、レポートの 1
-    つのバージョンには含まれていて、他のバージョンには含まれていない情報がある場合にも注意してください。
+7.  Después de revisar el documento de comparación, no está satisfecho
+    con los resultados. Le gustaría que Copilot volviera a intentarlo y
+    generara una nueva versión. En la ventana de Copilot que aparece al
+    final del documento, seleccione la opción **Regenerate**, que
+    aparece junto al botón **Keep it**. Puede repetir este paso tantas
+    veces como sea necesario hasta que Copilot cree una versión de este
+    informe que usted apruebe. Para este ejercicio, repita este paso
+    varias veces para ver los distintos formatos que ofrece Copilot.
+    Tenga en cuenta también que es posible que en una versión del
+    informe se incluya cierta información que no se incluye en otras.
 
-> レポートのバージョンに問題がなければ、 **\[Keep it\]**
-> ボタンを選択しま  
-> す。
+Una vez que esté satisfecho con una versión del informe, seleccione la
+opción **Keep it**.
 
-8.  このドキュメントを読み終えたら、**OneDrive**に保存して、MicrosoftEdgeブラウザーでこのタブを閉じることができるようにします。
+8.  Una vez que haya terminado con este documento, guárdelo en su
+    **OneDrive**, para que pueda cerrar esta pestaña en su navegador
+    Microsoft Edge.
 
-**概要：**
+**Resumen:**
 
-このラボでは、AI を活用したライティング アシスタントとして Copilot for
-Microsoft 365 の機能について説明しました。
+En este laboratorio, exploró las capacidades de Copilot para Microsoft
+365 como asistente de escritura con tecnología de IA y
 
-- Copilot in
-  Loopを使用して、データの整理、洞察の生成、まとまりのある有益なレポートの作成を含む詳細な市場調査レポートを作成しました。
+- Utilizó Copilot in Loop para redactar un informe de investigación de
+  mercado detallado que implicó la organización de datos, la generación
+  de información y la creación de un informe cohesivo e informativo.
 
-- PowerPoint の Copilot
-  を活用して、スライドの生成、コンテンツのカスタマイズ、主要なセールス
-  メッセージを効果的に伝えるプレゼンテーションのための説得力のあるセールス
-  プレゼンテーションをデザインしました。
+- Aprovechó Copilot en PowerPoint para diseñar una presentación de
+  ventas atractiva para generar diapositivas, personalizar el contenido
+  y garantizar que la presentación comunique de manera efectiva los
+  mensajes clave de ventas.
 
-- Word の Copilot を使用して 3
-  つのサプライヤー契約を分析および比較し、契約間の違いを特定し、比較に基づいて推奨されるアクションを提供しました。
+- Usó Copilot en Word para analizar y comparar tres acuerdos de
+  proveedores para identificar diferencias entre los acuerdos y
+  proporcionar acciones recomendadas basadas en la comparación.
