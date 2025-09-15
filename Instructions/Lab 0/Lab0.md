@@ -1,140 +1,145 @@
-# ラボ 0: ラボ実行の準備**
+# Laboratorio 0: Prepárese para la ejecución del laboratorio
 
-**1. ラボ仮想マシンにログインします**
+**1. Inicie sesión en su Lab Virtual Machine**
 
-\[ログイン\] 画面で、画面の左下隅にある \[**Admin**アカウント\]
-を選択し、右側の \[**リソース\] タブの** **Win 11 Base23B-22H2**
-で提供されている資格情報を使用してラボ仮想**マシンにサインインし**ます
-(スクリーンショットを参照)。
+En la pantalla de Log-in, seleccione la cuenta **Admin** en la esquina
+superior izquierda de la pantalla para iniciar sesión en el lab virtual
+machine con las credenciales proporcionadas en **Win 11
+Base23B-22H2** en la pestaña **Resources** en la parte derecha (vea la
+captura de pantalla).
 
-**注**: 学生の**ログイン**は使用しないでください。
+**Ojo**: No use el login de **Student**.
 
 ![](./media/image1.png)
 
-**注**: 実習で使用される参照ドキュメントは **C:\LabFiles**
-にあります。ラボ環境を起動すると、スクリーンショットに示すように、次のメッセージが表示される場合があります。\[ファイルのダウンロード\]ボタンをクリックして、参照ドキュメントのダウンロードを終了します。
+**Ojo**: los documentos de referencia que se usa en los ejercicios del
+laboratorio están en **C:\LabFiles**. A la hora de iniciar el entorno
+del laboratorio, puede que vea el siguiente mensaje como se muestra a
+continuación. Haga clic en el botón Download Files para descargar los
+documentos de referencia.
 
 ![](./media/image2.png)
 
-**2. Microsoft 365 サブスクリプションの設定を完了し、Microsoft 365
-Copilot にアクセスする**
+**2. Complete la configuración de la suscripción Microsoft 365 y acceda
+a Microsoft 365 Copilot**
 
-1.  Microsoft
-    Edgeブラウザを開き、次のURLを入力します:+++<https://m365.cloud.microsoft>+++
+1.  Abra el navegador Microsoft Edge e introduzca la siguiente
+    URL: +++<https://m365.cloud.microsoft>+++
 
-2.  右側の \[**リソース\] タブ** (スクリーンショットを参照) の \[Azure
-    ポータル\]
-    セクションで提供される**資格情報**を使用してサインインします。
+2.  Use los **Credenciales** proporcionados en la sección Azure Portal
+    en la pestaña **Resources** en la parte derecha (vea la captura)
+    para iniciar sesión.
 
 ![](./media/image3.png)
 
 ![](./media/image4.png)
 
-これで、すべての Microsoft 365
-アプリケーションにアクセスできるようになり、Microsoft 365 Copilot
-アプリと Copilot チャットにアクセスできるようになります。
+Ahora podrá acceder todas las aplicaciones de Microsoft 365 y tendrá
+acceso a la aplicación de Microsoft 365 Copilot y Copilot chat.
 
-**3. Microsoft 365 アプリケーションにアクセスして起動する**
+**3. Acceda a e inicie las aplicaciones Microsoft 365**
 
-生産性向上アプリケーションには、アプリアイコン(左側のナビゲーションペイン内)からアクセスして起動できます
+Puede acceder e iniciar las aplicaciones de productividad desde el
+**icono** **Apps** (en el panel de navegación en el izquierdo)
 
-1.  **Apps**アイコンからアプリケーションを起動するには:
+1.  Para iniciar una aplicación desde el icono **Apps**:
 
-左下のナビゲーション ウィンドウで、\[**Apps**\]
-アイコンを選択し、操作する必要があるオフィス
-アプリケーションを選択して開きます。
+En el panel de navegación en la parte superior izquierda, seleccione el
+icono **Apps** para seleccionar y abrir las aplicaciones office con las
+que quiere trabajar.
 
 ![](./media/image5.png)
 
-2.  アプリケーションが見つからない場合は、\[**Install apps\]** または
-    **\[All apps\]** をクリックして同じアプリケーションを選択します。
+2.  Si no encuentra una aplicación, haga clic en **Install
+    apps** o **All apps** para seleccionarla:
 
 ![](./media/image6.png)
 
-**4. ラボのアセットを OneDrive にアップロードする**
+**4. Suba los activos del laboratorio a OneDrive**
 
-このハンズオン ラボ セッションで使用するラボ資産 (参照ドキュメント)
-は、**C:\LabFiles** で入手できます。
+Los activos del laboratorio (los documentos de referencia), que va a
+utilizar en esta sesión del laboratorio práctico, están disponible
+en **C:\LabFiles.**
 
-**注**: ファイル (Word ドキュメント、Excel ファイルなど) を Copilot
-プロンプトで参照する必要がある場合は、ファイルを OneDrive
-アカウントに保存する必要があります。PC
-上のローカルに保存されたファイルにリンクすることはできません。
+**Ojo**: Cuando necesita referirse a un archivo (un documento Word, u
+archivo Excel, etc) en un prompt de Copilot, TIENE que guardar el
+archivo en una cuenta de OneDrive. No puede vincularse a un archivo
+guardado localmente en su PC.
 
-1.  \[**Apps**\] ページで、\[**OneDrive**\] を選択して開きます。
+1.  En la página **Apps**, seleccione **OneDrive** para abrirlo.
 
-2.  \[**My files\]**を選択します。 ![](./media/image7.png)
+2.  Seleccione **My files**   
+    ![](./media/image7.png)
 
-3.  **C:\LabFiles\MS4019** フォルダーを参照して、ドキュメントのコピーを選択し、**OneDrive**
-    にアップロードします。
+3.  Navegue a la carpeta **C:\LabFiles\MS4019** para seleccionar y subir
+    una copia de los documentos a **OneDrive**.  
     ![](./media/image8.png)
 
-**注**:
-すべてのドキュメントのコピーをアップロードするか、特定のラボに関連するドキュメントをアップロードするかを選択できます。
+**Ojo**: O puede optar por subir copias de todos los documentos o de los
+que están relacionados con este laboratorio particular.
 
 ![](./media/image9.png)
 
-これで、**Microsoft 365 Copilot** ラボ**を操作するためのドキュメントが**
-OneDrive に作成されます。
+Ahora tendrá los documentos en **OneDrive** para trabajar en los
+laboratorios de **Microsoft 365 Copilot**.
 
-**5. ドキュメント ライブラリ (Teams チャネル) を作成し、ナレッジ
-ソースをアップロードする**
+**5. Cree un document library (canal de Teams) y suba las fuentes de
+conocimiento**
 
-Teams チャネルのドキュメント ライブラリを使用して、ハンズオン ラボ
-セッションの参照ドキュメントとして使用するナレッジ
-リソースをアップロードします。
+Va a usar las bibliotecas de documentos en los canales de Teams para
+subirlas en fuentes de conocimiento para que se las use como documentos
+de referencia en la sesión del laboratorio práctico.
 
-1.  \[**Apps**ージ**\]**で、\[**Teams** の選択\] を選択します
+1.  En la página **Apps**, seleccione **Teams**
 
 ![](./media/image10.png)
 
-2.  \[**Get Started**\] をクリックします
+2.  Haga clic en **Get Started**
 
 ![](./media/image11.png)
 
-3.  左側のナビゲーション ウィンドウから **\[Teams**\] を選択します。
+3.  Seleccione **Teams** desde el panel de navegación izquierdo.
 
 ![](./media/image12.png)
 
-4.  \[**Contoso Public\]** の下の \[**Join Team**\]
-    **をクリックします**。
+4.  Haga clic en **Join Team** en **Contoso Public**.
 
 ![](./media/image13.png)
 
 ![](./media/image14.png)
 
-5.  **Teams** セクションに戻り、\[**General\]**
-    を選択します。これは、参照ドキュメントがアップロードされるドキュメント
-    ライブラリです。
+5.  Vuelva a la sección **Teams** y seleccione **General**. Esta es la
+    bibioteca de documentos donde se sube los documentos de referencia.
 
 ![](./media/image15.png)
 
-**注**:ファイルが自動的にアップロードされるまでしばらくお待ちください。ファイルが表示されている場合は、**ラボ01**に進んでください。
+**Ojo**: Espere a que se suban los archivos automáticamente. Si se ve
+los archivos, por favor continúe con el **Lab 01**.
 
-ファイルが表示されない場合は、**手順 \#6** に進みます
+Si no ve ningún archivo, vaya al paso **núm. 6**
 
-6.  \[**Files\]** を選択します。
+6.  Seleccione **Files**.
 
 ![](./media/image16.png)
- style="width:6.26806in;height:3.11319in" />
 
-7.  \[**Upload\]** をクリックし、\[**Files\]** を選択します。
+![](./media/image17.png)
+
+7.  Haga clic en **Upload** y seleccione **Files**.
 
 ![](./media/image18.png)
 
 ![](./media/image19.png)
 
-8.  **C:\LabFiles\MS4019** を参照します。
+8.  Navegue a **C:\LabFiles\MS4019**
 
 ![](./media/image20.png)
 
-9.  \[**Contoso CipherGuard** **Product Specification\] と** \[**Trey
-    Research - VPN Technical Overview\]** を選択し 、ドキュメント
-    ライブラリにアップロードします。
+9.  Seleccione **Contoso CipherGuard Product Specification** y **Trey
+    Research - VPN Technical Overview** y súbalos al document library.
 
 ![](./media/image21.png)
 
 ![](./media/image22.png)
 
-これで、ドキュメント ライブラリが作成され、ナレッジ
-ソースとして使用する参照ドキュメントがアップロードされました。
+Ahora ha creado el document library y subido los documentos de
+referencia para que se los use como una knowledge source.
