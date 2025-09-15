@@ -1,88 +1,104 @@
-# ラボ 01 - Microsoft 365 Copilot Chat でイベント計画を推進
+# Laboratorio 01 – Impulse la planificación de eventos con Microsoft 365 Copilot Chat
 
-**目的：**
+**Objetivo:**
 
-あなたは、世界的な消費財販売業者である Contoso Shoppee
-のイベント計画コンサルタントです。彼らは、今後のデジタルソリューションを紹介し、顧客ロイヤルティを促進し、主要なクライアントから戦略的な意見を集めるために、影響力の大きいクライアントイノベーションサミットを開催することを計画しています。
+Usted es consultor de planificación de eventos para Contoso Shoppee — un
+distrubuidor global de bienes de consumo. Planean organizar una Cumbre
+de Innovación del Cliente de alto impacto para mostrar las próximas
+soluciones digitales, fomentar la lealtad de los clientes y recopilar
+aportes estratégicos de los clientes clave.
 
-このラボでは、Microsoft 365 Copilot チャットを Web
-モードで使用して、次のことを行います。
+En este laboratorio, usará Microsoft 365 Copilot Chat en el modo web
+para:
 
-- 市場動向の調査
+- Investigar las tendencias del mercado
 
-- サミットセッションのブレインストーミング
+- Generar ideas de sesiones de la cumbre
 
-- ビジュアルとドキュメントを作成する
+- Crear presentaciones visuales y documentación
 
-- 計画概要の草案作成
+- Redactar un informe de planificación
 
-- 共同でドキュメントをアップロードして調整する
+- Subir y refinar los documentos de forma colaborativa
 
-**演習1:2025年の市場動向の調査\*\***
+**Ejercicio 1: Investigue las tendencias del mercado del año 2025\*\***
 
-この演習では、2025 年のイノベーション トレンドに関連するサミット
-コンテンツを基礎付けます。Microsoft 365 Copilot Chat を Web
-モードで使用できます。
+En este ejercicio, basará el contenido de la cumbre relevante para las
+tendencias de innovación de 2025. Usará Microsoft 365 Copilot Chat en el
+modo web.
 
-1.  Microsoft Edge ブラウザーを開き、次の URL を入力します:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/)
-    Microsoft **365 Copilot アプリ** (以前のオフィス) ホーム
-    ページに移動します。
+1.  Abra un navegador Microsoft Edge e introduzca la siguiente URL:
+    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
+    ir a la página de inicio de **Microsoft 365 Copilot
+    app** (anteriormente conocido como office).
 
-**注**: サインインを求められた場合は、右側の \[リソース**\]**
-タブにある資格情報を使用してサインインする必要があります 。
+**Ojo**: Tiene que iniciar sesión (si le pide) con
+las **Credenciales** proporcionadas en la pestaña **Resources** en la
+parte derecha.
 
-2.  **Copilot チャット** ページが開きます。
+2.  Se abrirá la página de **Copilot Chat**.
 
-3.  何らかの理由で「**Something went
-    wrong」という**メッセージが表示された場合は、\[**再試行**\]を2回クリックしてCopilot
-    Chatを開きます。
+3.  Si, por razón alguna, aparece el mensaje “**Something went wrong”**,
+    haga clic en **Try again** (dos veces) para abrir Copilot Chat.
 
 ![](./media/image1.png)
 
-**注**: このラボを実行している場合、Copilot Chat のユーザー
-インターフェイスは異なる場合があります (Microsoft は Microsoft
-Build-2025 イベントの一部として新機能と更新された機能、UI
-の変更を公開しているため)。
+**Ojo**: el interfaz del usuario de Copilot Chat puede diferir a la hora
+de ejecutar este laboratorio (debido a que Microsoft ha implementado
+características nuevas y actualizadas, junto con los cambios en el UI
+como parte del evento Microsoft Build-2025 event).
 
 ![](./media/image2.png)
 
 ![](./media/image3.png)
 
-4.  この課題では、次のプロンプトを入力して **\[Submit\]**
-    矢印をクリックします。
+4.  En este ejercicio, va a introducir un prompt y hacer clic en la
+    flecha **Submit**.
 
-++2025年の消費財業界におけるイノベーショントレンドのトップ3と、これらがクライアントイノベーションサミットのアジェンダをどのように形成できるか？++
+++What are the top three innovation trends in the consumer goods
+industry for 2025, and how can these shape the agenda for a client
+innovation summit?++
 
 ![](./media/image4.png)
 
-5.  Copilotの出力には、「サプライチェーンにおけるAI」、「持続可能なパッケージング」、「ハイパーパーソナライズされた顧客体験」などの3つのトレンドの短く洞察に満ちた要約が表示されます。
+5.  Verá el resultado de Copilot, con un resumen breve pero informador,
+    de tres tendencias, por ejemplo, “AI in Supply Chain,” “Sustainable
+    Packaging,” y “Hyper-personalized Customer Experience.”
 
 ![](./media/image5.png)
 
 ![](./media/image6.png)
 
-これで、2025年の市場動向の調査が完了しました。次に、これらのトレンドを、経営幹部とクライアントのイノベーションチームの両方に共鳴する魅力的なイベントアジェンダに変えます。
+Ahora ha completado la investigación de las tendencias del mercado de
+2025. A continuación, va a convertir estas tendencias en una agenda de
+eventos atractiva que resuene tanto con el C-suite como los equipos de
+innovación de los clientes.
 
-**演習 2: ブレインストーミングとセッションのアイデアの草案作成**
+**Ejercicio 2: Tenga una lluvia de ideas y redacte ideas para la
+sesión**
 
-この演習では、前の演習で生成された傾向に基づいて、説得力のあるイベントの議題を作成します。
+En este ejercicio creará una agenda de eventos atractiva basada en las
+tendencias generadas en el ejercicio anterior.
 
-1.  まず、トレンドに基づいてセッションのタイトルと説明を作成します。次のプロンプトを使用して、\[送信\]
-    をクリックします。
+1.  Para empezar, creará títulos y descripciones de las sesiones en
+    función de las tendencias. Utilice el siguiente prompt y haga clic
+    en Submit.
 
-++これらのトレンドを踏まえて、1日のイノベーションサミットにふさわしい5つのセッションタイトルと短くてエネルギッシュな説明を提案します++
+++Based on these trends, suggest 5 session titles and short, energizing
+descriptions for a 1-day innovation summit++
 
 ![](./media/image7.png)
 
-2.  Copilot は、以下に示すようにセッションのタイトルと説明を生成します。
+2.  Copilot generará los títulos y descripciones como se ve a
+    continuación.
 
 ![](./media/image8.png)
 
-3.  これで、説明がより魅力的になります。次のプロンプトを使用して、\[Submit\]
-    をクリックします。
+3.  You will now make the descriptions more engaging. Use the following
+    prompt and click Submit.
 
-++エネルギッシュでプロフェッショナルなトーンを使用して、これらの説明をより魅力的にします。
+++Make these descriptions more engaging using an energetic, professional
+tone.++
 
 ![](./media/image9.png)
 
@@ -90,81 +106,85 @@ Build-2025 イベントの一部として新機能と更新された機能、UI
 
 ![](./media/image11.png)
 
-次に、Copilot
-Chatを使用して、タイムラインとロゴ付きのアジェンダを作成します。
+A continuación, usará Copilot Chat para crear la agenda con línea de
+tiempo y logotipo.
 
-**演習 3: アジェンダのタイムラインとロゴを作成する**
+**Ejercicio 3: Cree una línea de tiempo y logotipo para la agenda**
 
-この演習では、アジェンダを充実させ、イベントの日とタイムスロットを追加し、サミットの配布資料のシンプルなビジュアル
-アイデンティティを作成します。
+En este ejercicio, enriquecerá la agenda agregando el día del evento con
+franjas horarias y creará una identidad visual simple para los folletos
+de la cumbre.
 
-1.  まず、時間制限のあるアジェンダを作成します。次のプロンプトを使用して、\[Submit\]
-    をクリックします。
+1.  Para empezar, creará una agenda cronometrada. Use el siguiente
+    prompt y haga clic en Submit.
 
-++9:00 AM、11:00 AM、1:30 PM、3:00
-PMのセッションで1日のイベントアジェンダを作成し、ウェルカム、正午のランチ、休憩を含めます。
+++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30
+PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.++
 
 ![](./media/image12.png)
 
-2.  以下に示すように、専門的に構成された1日間のイノベーションサミットアジェンダを取得します。
+2.  Obtendrá una agenda de la cumbre de innovación de 1 día estructurada
+    profesionalmente como se muestra a continuación.
 
 ![](./media/image13.png)
 
 ![](./media/image14.png)
 
-3.  次に、関連するロゴを追加します。次のプロンプトを使用して、\[Submit\]
-    をクリックします。
+3.  Ahora agregará un logotipo relevante. Utilice el siguiente prompt y
+    haga clic en Submit.
 
-++Contoso Client Innovation Summit 2025 のモダンなロゴ
-コンセプトをデザインします。
+++Design a modern logo concept for the Contoso Client Innovation Summit
+2025.++
 
 ![](./media/image15.png)
 
-4.  Copilot は Microsoft Designer でロゴの生成を開始します。
+4.  Copilot empieza a generar el logo con Microsoft Designer.
 
 ![](./media/image16.png)
 
 ![](./media/image17.png)
 
-生成されたロゴのバリエーションを作成してみることもできます。
+También puede intentar crear una variación del logo generado.
 
-次に、これまでのすべての演習の結果をまとめた計画概要を作成します。
+A continuación, compilará un resumen de planificación que combine los
+resultados de todos los ejercicios anteriores.
 
-**演習 4: 計画ドキュメントの作成**
+**Ejercicio 4: Redacte el documento de planificación**
 
-この演習では、前の演習で生成されたすべての出力を結合します。
+En este ejercicio combinará todas los resultados generados de los
+ejercicios anteriores.
 
-1.  次に、前の演習で生成された出力を組み合わせた 1
-    ページの計画概要の作成を開始します。次のプロンプトを使用して、\[Submit\]
-    をクリックします。
+1.  Ahora comenzará a compilar un resumen de planificación de 1 página
+    que combine los resultados generados de los ejercicios anteriores.
+    Utilice el siguiente prompt y haga clic Submit.
 
-++Contoso Client Innovation Summit の 1
-ページの計画概要を作成します。これには、目標、対象ユーザー、セッションのテーマ、計画のマイルストーンが含まれます。++
+++Create a 1-page planning brief for the Contoso Client Innovation
+Summit including: objectives, audience, session themes, and planning
+milestones.++
 
 ![](./media/image18.png)
 
-2.  これで、Copilot
-    によって生成されたコンパイル済み出力が表示されます。
-    
-![](./media/image19.png)
+2.  Verá el resultado compilado generado por Copilot.   
+    ![](./media/image19.png)
 
 ![](./media/image20.png)
 
-3.  これで、コンパイルされた出力をダウンロードして表示できます。
+3.  Ahora puede descargar y visualizar el resultado compilado.
 
 ![](./media/image21.png)
 
 ![](./media/image22.png)
 
-4.  次に、成功指標と期待される結果を計画概要のドラフト
-    ドキュメントに追加します。次のプロンプトを使用して、\[Submit\]
-    をクリックします。
+4.  A continuación, agregamos las métricas de éxito y resultados
+    esperados para redactar el documento de resumen de planificación.
+    Use el siguiente prompt y haga clic en Submit.
 
-++成功指標と期待される結果を追加。
+++Add success metrics and expected outcomes.++
 
 ![](./media/image23.png)
 
-5.  更新された計画概要が生成されたら、更新されたドキュメントをダウンロードして表示できます。
+5.  Una vez que se genrea el resumen de planificación, puede descargar y
+    visualizar el documento actualizado.
 
 ![](./media/image24.png)
 
@@ -172,46 +192,50 @@ PMのセッションで1日のイベントアジェンダを作成し、ウェ�
 
 ![](./media/image26.png)
 
-6.  これで、プロフェッショナルなプランニングドキュメントをレビューする準備が整いました。これは、次の演習で参照ドキュメントとして使用します。
+6.  Ahora tiene el documento de planificación listo para su revisión. Lo
+    utilizará como documento de referencia en el próximo ejercicio.
 
-**演習 5: プランのアップロードと改善**
+**Ejercicio 5: Suba y mejore el plan**
 
-計画をリーダーシップに提示する前に、ドラフトに基づいて追加の推奨事項を提供する必要があります。
+Antes de presentar el plan a los líderes, ha de proporcionar
+recomendaciones adicionales basadas en el borrador.
 
-1.  次に、計画概要ドキュメントを OneDrive
-    にアップロードして、参照ドキュメントとして使用します。
+1.  Ahora cargará el documento de resumen de planificación en OneDrive
+    para usarlo como documento de referencia.
 
-2.  フォルダ アイコンをクリックして、Planning の簡単なドキュメントが
-    **\[Downloads\]** フォルダにあるかどうかを確認します。
+2.  Haga clic en el icono de carpeta para comprobar si el documento de
+    resumen de planificación está en la carpeta **Downloads**.
 
 ![](./media/image27.png)
 
-3.  Microsoft 365 Copilot ナビゲーション ウィンドウから **OneDrive**
-    を開きます。
+3.  Abra **OneDrive** desde el panel de navegación de Microsoft 365
+    Copilot.
 
 ![](./media/image28.png)
 
-4.  \[**My
-    files**\]メニューを選択し、\[**Create\]または\[Upload**\]ボタンをクリックします。
+4.  Seleccione el menú **My files** y haga clic en el botón **Create or
+    Upload**.
 
 ![](./media/image29.png)
 
-5.  \[**Files upload**\] メニューを選択し、最新の Planning
-    簡単なドキュメントを見つけて OneDrive にアップロードします。
+5.  Seleccione el menú **Files upload** y ubique el documento de resumen
+    de planeación más reciente y cárguelo en OneDrive.
 
 ![](./media/image30.png)
 
 ![](./media/image31.png)
 
-6.  これで、最新の Planning 概要ドキュメントが OneDrive
-    にアップロードされました。
+6.  Ahora ha cargado el último documento de resumen de planificación en
+    OneDrive.
 
 ![](./media/image32.png)
 
-7.  次に、Copilotを使用して計画概要ドキュメントを分析します。次のプロンプトを使用して、参照ドキュメント
-    (OneDrive から) を添付し、\[Submit\] をクリックします。
+7.  A continuación, analizará el documento de resumen de planificación
+    utilizando Copilot. Use el siguiente prompt, adjunte el documento de
+    referencia (de OneDrive) y haga clic en Submit.
 
-++このプランニングブリーフを分析し、イベントをよりインパクトのあるものにするための改善点や不足している要素を提案します。
+++Analyze this planning brief and suggest improvements or missing
+elements that could make the event more impactful.++
 
 ![](./media/image33.png)
 
@@ -221,19 +245,22 @@ PMのセッションで1日のイベントアジェンダを作成し、ウェ�
 
 ![](./media/image36.png)
 
-8.  これで、Copilotによって生成された実行可能な推奨事項(基調講演者の詳細の追加、お客様の声の機会、持続可能性への取り組みなど)が表示されます。
+8.  Ahora verá las recomendaciones prácticas (por ejemplo, agregar
+    detalles del orador principal, oportunidades de testimonios de
+    clientes o esfuerzos de sostenibilidad) generadas por Copilot.
 
 ![](./media/image37.png)
 
-9.  Copilot
-    に依頼して、計画概要ドキュメントを実行可能な推奨事項で更新します。
+9.  Le pedirá a Copilot que actualice el documento de resumen de
+    planificación con las recomendaciones prácticas.
 
 ![](./media/image38.png)
 
 ![](./media/image39.png)
 
-10. Copilot
-    が実行可能な推奨事項を含む計画概要ドキュメントの更新を完了すると、拡張計画概要ドキュメントをダウンロードして表示できます。
+10. Una vez que Copilot termine de actualizar el documento de resumen de
+    planificación con las recomendaciones prácticas, puede descargar y
+    ver el documento de resumen de planificación mejorado.
 
 ![](./media/image40.png)
 
@@ -241,30 +268,30 @@ PMのセッションで1日のイベントアジェンダを作成し、ウェ�
 
 ![](./media/image42.png)
 
-自分で試してみてください:
+Pruébelo usted mismo:
 
-事前に作成されたプロンプトと推奨されるプロンプトを試してみてください
+Juegue con los prompts prediseñados y los sugeridos
 
-- 主な変更点の概要を教えてください。
+- Can you provide a summary of the key changes made?
 
-- このイベントのスポンサー候補にはどのようなものがありますか?
+- What are some potential sponsors for this event?
 
-- 次は、ロゴとビジュアルデザインのブランドバージョンが欲しいですか?
+- Would you like a branded version with your logo and visual design
+  next?
 
 ![](./media/image43.png)
 
 ![](./media/image44.png)
 
-**概要**
+**Resumen**
 
-これで、Microsoft 365 Copilot Chat を Web
-モードで使用して、インパクトのあるクライアント
-サミットを計画し、次の内容を紹介することが完了しました。
+Ahora ha completado el uso de Microsoft 365 Copilot Chat en modo web
+para planear una cumbre de clientes de alto impacto, que muestra:
 
-- リアルタイムの市場調査
+- Investigación de mercado en tiempo real
 
-- 創造的なブレーンストーミング
+- Lluvia de ideas creativas
 
-- 共同ドキュメント作成
+- Creación colaborativa de documentos
 
-- AI支援のプランニングとフィードバック
+- Planificación y retroalimentación asistidas por IA
