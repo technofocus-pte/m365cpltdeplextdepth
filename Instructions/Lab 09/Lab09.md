@@ -1,90 +1,102 @@
-# ラボ 9 - Copilot Studio を使用した Autonomous Copilot Agent による IT サポート業務の効率化
+# Laboratorio 9 – Agilizar las operaciones de soporte de TI con agente de Copilot autónomo mediante Copilot Studio
 
-**所要時間: 60 分**
+**Duración estimada: 60 minutos**
 
-**目的**
+**Objetivo**
 
-このラボの目的は、参加者が自律的な Copilot
-エージェントを作成することで、Contoso Solutions での IT
-サポート業務を効率化できるようにすることです。参加者は、Microsoft
-Copilot Studio の設定、IT サポート エージェントの構成、Power Apps と
-Dataverse の統合、ナレッジ ベースによるボットの機能の強化、Power
-Automate
-を使用したチケット作成の自動化について学習します。このハンズオンラボでは、ITワークフローを改善し、手作業を減らし、サポート効率を向上させるスキルをユーザーに身に付けさせます。
+El objetivo de este laboratorio es permitir a los participantes
+simplificar las operaciones de soporte técnico de TI en Contoso
+Solutions mediante la creación de un agente Copilot autónomo. Los
+participantes aprenderán a configurar Microsoft Copilot Studio,
+configurar el agente de soporte de TI, integrar Power Apps y Dataverse,
+mejorar las capacidades del bot con una base de conocimientos y
+automatizar la creación de tickets con Power Automate. Este laboratorio
+práctico equipará a los usuarios con las habilidades para mejorar los
+workflows de TI, reducir el esfuerzo manual y mejorar la eficiencia del
+soporte.
 
-**解決**
+**Solución**
 
-参加者は、Microsoft Copilot Studio を使用してカスタマイズされた Contoso
-IT サポート エージェントを作成し、一般的な IT
-問題を処理するように構成し、サポート データを格納するために Dataverse
-と統合します。開発環境を設定し、ナレッジ
-ソースを追加し、ボットの会話フローを洗練して、ユーザーとの対話を改善します。Power
-Apps を活用することで、参加者は IT サポート レコードを管理するための
-Dataverse テーブルを作成します。Power Automate
-を使用すると、チケットの作成と未解決の問題のメール通知が自動化されます。最後に、参加者はエージェントをテストして、トラブルシューティングの精度とワークフローの自動化を検証し、シームレスなITサポート運用を確保します。
+Los participantes crearán un agente de soporte técnico de TI de Contoso
+personalizado mediante Microsoft Copilot Studio, lo configurarán para
+manejar problemas de TI comunes y lo integrarán con Dataverse para
+almacenar datos de soporte técnico. Establecerán un entorno de
+desarrollo, agregarán fuentes de conocimiento y refinarán los flujos de
+conversación del bot para una mejor interacción con el usuario. Al
+aprovechar Power Apps, los participantes crearán una tabla de Dataverse
+para administrar los registros de soporte de TI. Con Power Automate,
+automatizarán la creación de tickets y las notificaciones por correo
+electrónico para problemas no resueltos. Por último, los participantes
+pondrán a prueba el agente para validar su precisión en la resolución de
+problemas y la automatización del workflow, lo que garantiza que las
+operaciones de soporte de TI sean fluidas.
 
-## 演習 1: Power Apps の使用を開始する
+## Ejercicio 1: Introducción a Power Apps
 
-この演習では、参加者に Power Apps と Dataverse
-を紹介します。目標は、Power Apps にログインし、作業環境を設定し、Excel
-ファイルからデータをインポートして Dataverse
-テーブルを作成することです。参加者は、データ駆動型アプリケーションを操作するための基本的なスキルを習得します。
+Este ejercicio presenta Power Apps y Dataverse a los participantes. El
+objetivo es iniciar sesión en Power Apps, configurar un entorno de
+trabajo y crear una tabla de Dataverse importando datos de un archivo de
+Excel. Los participantes aprenderán habilidades esenciales para trabajar
+con aplicaciones basadas en datos.
 
-### **タスク 1: Power Apps へのログイン**
+### Tarea 1: Inicie sesión en Power Apps
 
-1.  Power Apps の Web サイト
-    +++<https://www.microsoft.com/en-us/power-platform/products/power-apps+++>
-    に移動し、\[**Try for Free**\] ボタンをクリックします。
+1.  Navegue al sitio web de power apps
+    +++<https://www.microsoft.com/en-us/power-platform/products/power-apps+++> y
+    haga clic en el botón **Try for Free**.
 
 ![](./media/image1.png)
 
-2.  「**リソース**」タブの**「Office 365 Tenant**」セクション
-    から「**管理ユーザー名**」を
-    メールフィールドに入力し、チェックボックスを選択して「**Start
-    free**」ボタンをクリックします 。
+2.  Introudzca el **Administrative Username** desde la sección **Office
+    365 Tenant** de la pestaña **Resources** en el campo de
+    email, **seleccione** la **casilla** y haga clic en el botón **Start
+    Free.**
 
 ![](./media/image2.png)
 
-3.  **管理パスワード** を入力する と、Power Apps ホーム
-    ページに移動します。
+3.  Enter the **Administrative Password** and you will be taken to the
+    Power Apps Home page.
 
-4.  \[サインインしたままにする\]ダイアログで\[Yes\]を選択し
-    、\[パスワードの保存\]プロンプトで\[了解しました\]を選択し、\[MicrosoftEdgeにサインイン\]ポップアップで\[**No,
-    Thanks** \]を選択します。
+4.  Select **Yes** in the Stay Signed in dialog and **Got it** for the
+    Save password prompt and select **No, Thanks** in the Sign in to
+    Microsoft Edge pop up.
 
-\[!注意\]**注:**ユーザー名、パスワード、またはログインするための情報を再度入力する場合は、同じ情報を入力してログインしてください。
+\[!Note\] **Note:** If it again prompts for the user name, password or
+any information to login, please provide the same and login.
 
-### **タスク 2: 開発者環境設定の更新**
+### Task 2: Update the Developer environment settings
 
-1.  ログイン資格情報を使用して、+++https://admin.powerplatform.microsoft.com/home+++
-    で Power Platform 管理センターにログインします。
+1.  Login to the Power Platform admin center at
+    +++https://admin.powerplatform.microsoft.com/home+++ using your
+    login credentials.
 
 ![](./media/image3.png)
 
-2.  左側のウィンドウから **Manage**を選択し、環境
-    で**+New**を選択します。
+2.  Seleccione **Manage** en el panel izquierdo y seleccione **+ New**
+    en **Environments**.
 
 ![](./media/image4.png)
 
-3.  環境名を **+++Dev One+++** として指定し、種類 **を Developer**
-    として選択し、**Next**を選択します。
+3.  Proporcione el environment name como +++**Dev One**+++ y seleccione
+    el Type como **Developer** y seleccione **Next**.
 
 ![](./media/image5.png)
 
-4.  Dataverse の追加 ダイアログで **Save**を選択します。
+4.  Seleccione **Save** en el diálogo **Add Dataverse**.
 
 ![](./media/image6.png)
 
-5.  環境が Ready になったら、作成した **Dev One** 環境を選択します。
+5.  Una vez que el entorno esté **listo**, seleccione el **Dev One**
+    environment creado.
 
 ![](./media/image7.png)
 
-6.  \[**Edit\]をクリックして**設定を編集します。
+6.  Haga clic en **Edit** para editar las configuraciones.
 
 ![](./media/image8.png)
 
-7.  編集ウィンドウで、管理モードを \[**ON**\]
-    に切り替え、**Save**を選択します。
+7.  En el panel Edit, active el **Administration mode** a **ON** y
+    seleccione **Save**.
 
 ![](./media/image9.png)
 
@@ -92,384 +104,433 @@ Dataverse テーブルを作成します。Power Automate
 
 ![](./media/image11.png)
 
-8.  編集した変更を保存したら、\[**Settings**\] を選択します。
+8.  Una vez guardados los cambios editados, seleccione **Settings**.
 
 ![](./media/image12.png)
 
-9.  \[**Product -\> Features\] を選択します**。
+9.  Seleccione **Product -\> Features**.
 
 ![](./media/image13.png)
 
-10. 機能 **で、Dataverse searchと Single table searchオプションを オン
-    に**切り替え、**Saveを選択します**。
+10. En **Features**, active las opciones **Dataverse search** y **Single
+    table search** a On y seelccione **Save**.
 
-![](./media/imagesrc="./media/image14.png" style="width:6.26806in;height:4.07222in".png)
+![](./media/image14.png)
 
-### タスク 3: Dataverse テーブルの設定
+### Tarea 3: Configuración de un Dataverse Table
 
-1.  右上の **Dev One** 環境を選択します。
+1.  Seleccione el entorno **Dev One** desde la parte superior derecha.
 
 ![](./media/image15.png)
 
-2.  左側のナビゲーションバーから、「**Tables」を選択します。** テーブル
-    セクションのトップ バーで、 **\[+ New table**\] をクリックし、
-    \[**Create new tables\]** を選択します。
+2.  En la barra de navegación izquierda, seleccione **Tables.** En la
+    barra superior de la sección de Table, haga clic en **+ New
+    table** y seleccione **Create new tables**.
 
 ![](./media/image16.png)
 
-3.  \[**Import an Excel file or CSV**\]
-    オプションを選択して、新しいテーブルを作成します。
+3.  Seleccione la opción **Import an Excel file or CSV** para crear una
+    nueva tabla.
 
 ![](./media/image17.png)
-4.  \[**Select from
-    device\]**オプションをクリックし、**C:\LabFiles**フォルダから**Support
-    Ticket**のExcelファイルを選択します。
+
+4.  Haga clic en la opción **Select form device** y seleccione el
+    archivo excel **Support Ticket** desde la carpeta **C:\LabFiles**.
 
 ![](./media/image18.png)
-5.  次の画面で **\[Import**\] を選択します。
+
+5.  Seleccione **Import** en la siguiente pantalla.
 
 ![](./media/image19.png)
 
-6.  テーブルを選択し、\[**View
-    data\]**をクリックしてテーブルを表示します。
+6.  Seleccione la tabla y haga clic en **View data** para visualizar la
+    tabla.
 
-\[!注**\]注:**この場合、テーブルの名前は*Employee Technical Support
-Record*です。名前は実行のたびに異なる場合があります。後で参照できるように、テーブル名を保存してください。列名も実行によって異なる場合があります。
+\[Ojo\] **Ojo:** en este caso, la tabla se llama *Employee Technical
+Support Record*. El nombre puede variar con cada ejecución. Guarde el
+nombre de la tabla para futuras referencias. El nombre de la columna
+también puede variar en la ejecución.
 
 ![](./media/image20.png)
 
-7.  テーブルデータに移動し、\[**Technical Issue
-    Description\]**フィールドの横にあるドロップダウンを選択し**、\[**Edit
-    coulmn**\]**を選択し、データタイプを**\[Text** 🡪 **Multiple
-    line** 🡪 **Plain
-    Text**に設定し、\[**update\]**をクリックします。列名は、それぞれ異なる場合があります。
+7.  Vaya a datos de la tabla, seleccione el menú desplegable junto a
+    la **Technical Issue Description**, seleccione **Edit column**,
+    Establezca el tipo de datos como **Text** 🡪 **Multiple
+    line** 🡪 **Plain Text** y haga clic en **Update**. El nombre de la
+    columna puede ser diferente en cada caso.
 
-\[!注\] **注:** **列名は若干異なる場合があります**が、Copilot
-で生成されるため、問題の説明に似た名前になります。
+\[Ojo\] **Ojo:** El nombre de **la columna puede ser ligeramente
+diferente**, pero será algo similar a la descripción del problema, ya
+que se genera en Copilot.
 
 > ![](./media/image21.png)
 
 ![](./media/image22.png)
-8.  \[**Current Status\]**
-    フィールドの横にあるドロップダウンを選択し、\[**Edit column\]**
-    を選択し、選択肢を+++**Unresolved**+++, +++**Resolved**+++,
-    +++**Processing**+++に設定します。デフォルトの選択肢を**未解決に設定し、\[Update\]をクリックします**。
+
+8.  Seleccione el menú desplegable junto a **Current Status**,
+    seleccione **Edit column**, establezca Choices como
+    +++**Unresolved**+++, +++**Resolved**+++, +++**Processing**+++.
+    Establezca Default choice como **Unresolved** y haga clic
+    en **Update**.
 
 ![](./media/image23.png)
 
-9.  右上の「**Save and exit」をクリックして**、テーブルを保存します。
+9.  Desde la parte superior derecha, haga clic en **Save and Exit** para
+    guardar la tabla.
 
 ![](./media/image24.png)
 
-### タスク 4: OneDrive にファイルを追加する
+### Tarea 4: Agregue un archivo al OneDrive
 
-1.  Power Apps ページの左上から、メニューを選択し、OneDrive
-    を選択します。
+1.  Desde la parte superior izquierda de la página Power Apps,
+    seleccione el menú y seleccione OneDrive.
 
 ![](./media/image25.png)
 
-2.  \[**My files** -\> **+ Add new**\] を選択します。
+2.  Seleccione **My files** -\> **+ Add new**.
 
 > ![](./media/image26.png)
-3.  \[**Files upload\]** を選択します。
+
+3.  Seleccione **Files upload**.
 
 ![](./media/image27.png)
 
-4.  C:\LabFiles**からIT Support.xlsxを選択します**。
+4.  Elija **IT Support.xlsx** desde **C:\LabFiles**.
 
 ![](./media/image28.png)
 
-5.  このファイルは、後の演習で使用します。
+5.  Este archivo se utilizará en un ejercicio posterior.
 
 ![](./media/image29.png)
-> **結論**
+
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します：
+> Al completar este ejercicio, los participantes aprenderán a:
 
-- Office 365 管理者テナントの資格情報を使用して Power Apps
-  にアクセスし、ナビゲートする方法。
+- Acceder y navegar por Power Apps mediante las credenciales de office
+  365 admin tenant.
 
-- データをインポートして Dataverse テーブルを作成および構成する手順。
+- Dar pasos para crear y configurar un Dataverse table al importar
+  datos.
 
-- アプリ開発ワークフローをサポートするための環境設定に関する実践的な知識。
+- Obtener conocimiento práctic3o de configurar un entorno para admitir
+  workflows de desarrollo de aplicaciones.
 
-## 演習 2: Contoso IT サポート エージェントの作成
+## Ejercicio 2: Cree el Contoso IT Support Agent
 
-この演習では、Microsoft Copilot Studio にログインし、Contoso の IT
-サポート操作用にカスタマイズされた Copilot
-エージェントを作成することに重点を置いています。参加者は、Copilot
-Studioの操作、環境の設定、ITワークフローを効率化するためのAI搭載エージェントの構築を実際に体験することができます。
+Este ejercicio se centra en iniciar sesión en Microsoft Copilot Studio y
+crear un agente de Copilot personalizado y adaptado a las operaciones de
+soporte técnico de TI en Contoso. Los participantes adquirirán
+experiencia práctica en la navegación de Copilot Studio, la
+configuración de entornos y la creación de un agente impulsado por IA
+para optimizar los workflows de TI.
 
-### 
+### Tarea 1: Cree y configure el Contoso IT Support Agent
 
-### タスク 1: Contoso IT サポート エージェントの作成と構成
+1.  Inicie sesión en +++https://copilotstudio.microsoft.com+++ con sus
+    credenciales de inicio de sesión.
 
-1.  宿泊資格情報を使用して+++https://copilotstudio.microsoft.com+++にログインします。
-
-2.  Copilot Studio のホーム
-    セクション右上で、**環境**を選択し、**DevOne** 環境を選択します。
+2.  En la sección Copilot Studio home de la parte superior derecha,
+    seleccione el **environment** y elija el entorno **DevOne**.
 
 ![](./media/image30.png)
-3.  welcome copilot studioタブで、**Skip**をクリックして先に進みます。
+
+3.  En la pestaña welcome copilot studio, haga clic en **Skip** para
+    seguir adelante.
 
 ![](./media/image31.png)
-4.  左側のナビゲーション バーから \[**Create**\] を選択し、\[**New
-    agent**\] を選択して新しいエージェントの作成を開始します。
+
+4.  Desde la barra de navegación izquierda seleccione **Create** y
+    seleccione **New agent** para empezar a crear un nuevo agente.
 
 ![](./media/image32.png)
-5.  右上隅の\[**Skip to configure\]**ボタンをクリックします。
+
+5.  Desde la esquina superior derecha, haga clic en **Skip to
+    configure**.
 
 ![](./media/image33.png)
 
-6.  エージェントの名前、説明、指示**を以下のように入力**
-    し、\[**Create\]**ボタンをクリックします。
+6.  Introduzca **Name, Description and Instruction** del agente como se
+    indica a continuación y haga clic en **Create**.
 
-> **名前:** +++Contoso IT Support Agent+++
+> **Name:** +++Contoso IT Support Agent+++
 >
-> **説明:** +++Create a Contoso IT Support Agent which transforms IT
-> support at Contoso Solutions by providing instant troubleshooting for
-> common issues, automating ticket creation for unresolved problems, and
-> storing all interactions in Dataverse. This solution enhances response
-> times, reduces manual workloads, and boosts employee productivity. +++
+> **Description:** +++Create a Contoso IT Support Agent which transforms
+> IT support at Contoso Solutions by providing instant troubleshooting
+> for common issues, automating ticket creation for unresolved problems,
+> and storing all interactions in Dataverse. This solution enhances
+> response times, reduces manual workloads, and boosts employee
+> productivity.+++
 >
-> **手順:** +++Copilot Agent を作成し、IT
-> サポート操作を処理するように構成します。ハードウェアのトラブルシューティング、接続性、ソフトウェアの不具合など、一般的な
-> IT 問題の解決策を含むナレッジ
-> ソースを追加します。未解決の問題を説明する OneDrive
-> ファイルの更新を検出するトリガーを設定します。これらの技術的な問題を
-> Dataverse
-> テーブルに保存するアクションを作成し、すべての詳細が追跡とレポートのために保存されるようにします。デプロイ前にエージェントをテストして、トラブルシューティングの精度とチケット自動化ワークフローを検証します。
+> **Instruction:** +++Create the Copilot Agent and configure it to
+> handle IT support operations. Add a knowledge source containing
+> solutions for common IT issues like hardware troubleshooting,
+> connectivity, and software glitches. Set up a trigger to detect
+> updates to a OneDrive file describing unresolved issues. Create an
+> action to save these technical issues into a Dataverse table, ensuring
+> all details are stored for tracking and reporting. Test the agent to
+> validate its troubleshooting accuracy and ticket automation workflow
+> before deployment.+++
 
 ![](./media/image34.png)
 
-7.  Contoso IT サポート
-    エージェントの概要ページで、**エージェントのオーケストレーター**を有効にします。
+7.  En la página de overview del agente de soporte técnico de TI de
+    Contoso, **habilite** el orquestador para el agente.
 
 ![](./media/image35.png)
 
-8.  エージェントの右上隅から、\[**Settings\]**ボタンをクリックします。
+8.  Desde la esquina superior derecha del agente, haga clic en el botón
+    **Settings**.
 
 ![](./media/image36.png)
-9.  次に、\[**Generative
-    AI\]**セクションに移動し、\[**Generative\]**を選択し、コンテンツモデレーションを**\[Medium\]に設定し、\[Save\]**をクリックして
-    設定を保存します。
+
+9.  A continuación, vaya a la sección **Generative AI**,
+    seleccione **Generative**, establezca content moderation
+    como **Medium** y haga clic en **Save** para guardar las
+    configuraciones.
 
 ![](./media/image37.png)
 
-10. 保存**したら** 、設定ペインを閉じます。
+10. Una vez **guardado**, **cierre** el panel Settings.
 
-11. エージェントの概要ページで、\[**Allow the AI to use its own general
-    knowledge\] オプション**を無効にします。
+11. En la página overview del agente, **Desabilite** la opción “**Allow
+    the AI to use its own general knowledge**”.
 
 ![](./media/image38.png)
 
-> **結論**
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します。
+> Al completar este ejercicio, los participantes aprenderán:
 
-- Microsoft Copilot Studio にアクセスして設定する方法。
+- Cómo acceder y configurar Microsoft Copilot Studio.
 
-- カスタム Copilot エージェントを作成して構成する手順。
+- Los pasos de crear y configurar un agente Copilot personalizado.
 
-- エージェントのジェネレーティブ AI
-  とオーケストレーターの設定を有効にする実践的なスキル。
+- Las habilidades prácticas para habilitar las configuraciones de
+  generative AI y orchestrator para el agente.
 
-- チケット作成を自動化し、トラブルシューティングにAIを活用することで、IT運用を強化する方法。
+- Las formas de mejorar las operaciones de TI mediante la automatización
+  de la creación de tickets y el aprovechamiento de la IA para la
+  resolución de problemas.
 
-## 演習 3: Bot 機能の強化
+## Ejercicio 3: Mejore las capacidades del bot
 
-この演習では、ナレッジ ベースを追加し、ボット
-トピックをカスタマイズして対話を改善することで、Contoso IT サポート
-エージェントの機能を強化することに焦点を当てています。参加者は、ボットの応答を洗練し、トラブルシューティングとエスカレーションでユーザーを効果的に支援できるようにします。
+Este ejercicio se centra en mejorar las capacidades del agente de
+soporte técnico de TI de Contoso mediante la adición de una base de
+conocimiento y la personalización de los temas de bots para mejorar la
+interacción. Los participantes refinarán las respuestas del bot y se
+asegurarán de que ayude eficazmente a los usuarios en la resolución de
+problemas y la escalada.
 
-### タスク 1: ナレッジ ベースを追加する
+### Tarea 1: Agregue una base de conocimiento
 
-1.  Contoso エージェントの概要ページで、下にスクロールして \[**+ Add
-    Knowledge\]** ボタンをクリックします。
+1.  En la página Contoso agent overview, baje y haga clic en el
+    botón **+ Add Knowledge**.
 
 ![](./media/image39.png)
 
-2.  \[**Upload file\]** を選択して、**C:\LabFile**フォルダー から ラボ
-    ファイル **Contoso Common IT Issue.docx**を追加し、\[**Add**\]
-    をクリックしてファイルを保存します。
+2.  Seleccione **Upload file** Para agregar el archivo de
+    laboratorio **Contoso Common IT Issue.docx** desde la
+    carpeta **C:\LabFiles** y haga clic en **Add** para guardar el
+    archivo.
 
 ![](./media/image40.png)
 
 >  ![](./media/image41.png)
-3.  再度、エージェントの概要ページに移動し、下にスクロールして\[**+ Add
-    knowledge**\]**をクリックします。**
+
+3.  De nuevo, vaya a agent overview, baje y haga clic en **+ Add
+    knowledge.**
 
 ![](./media/image42.png)
 
-4.  **データ ソースとしてDataverse (preview)**オプションを選択します。
+4.  Seleccione la opción **Dataverse (preview)** como data source.
 
 ![](./media/image43.png)
 
-5.  右上隅の検索バーで、**+++Employee+++**と入力して検索し、\[**Employee
-    Technical Support
-    Record**\]を選択します。次に、\[**Next\]、\[Next**\]、\[**Add**\]ボタンをクリックして、ナレッジソースを追加します。
+5.  En la barra de búsqueda de la esquina superior derecha, ingrese y
+    busque +++**Employee**+++ y seleccione la tabla **Employee Technical
+    Support Record**. Luego haga clic en **Next, Next** y **Add** para
+    agregar el knowledge source.
 
-**注:** テーブル名は **Copilot**
-で生成されたものであるため、**この場合は異なる場合があります。**
+**Ojo:** El nombre de **la tabla puede ser diferente** en su caso, ya
+que es una generada por Copilot.
 
 > ![](./media/image44.png)
+
 ![](./media/image45.png)
-\[!アラート\]**重要:**ナレッジページで、追加されたナレッジソースが正常にアップロードされたことを確認します。通常、完了するまでに
-10 分から 15 分かかります。
 
-### タスク 2: 会話開始トピックのカスタマイズ
+\[!Alerta\] **Importante:** desde el panel Knowledge, asegure que se ha
+subido un knowledge source de forma exitosa. Por lo general, esto
+tardará de 10 a 15 minutos en completarse.
 
-1.  トップバーオプションから\[**Topics**\]をクリックし、**\[System\]**を選択してから、\[**Conversation
-    Start**\]をクリックして開きます。
+### Tarea 2: Personalice un Conversation Start Topic
+
+1.  Desde la opción de la barra superior, haga clic en **Topics**,
+    seleccione **System** y luego haga clic y abra **Conversation
+    Start** topic.
 
 ![](./media/image46.png)
 
-2.  下にスクロールして、メッセージノードに移動します。ボット名の後のメッセージを次のように更新します。
+2.  Baje y vaya al nodo de mensajes. Actualice el mensaje después del
+    nombre del bot como se indica a continuación:
 
-こんにちは。私はボット名、バーチャルアシスタントです。+++How can I help
-you?+++
+Hello. I’m Bot Name, a virtual assistant. +++How can I help you?+++
 
 ![](./media/image47.png)
 
-3.  上部から「**Save**」をクリックして トピックを保存します。
+3.  Desde la parte superior, haga clic en **Save** para guardar el tema.
 
 ![](./media/image48.png)
 
-### タスク 3: フォールバック トピックの更新
+### Tarea 3: Actualice el Fallback Topic
 
-1.  トップバーオプションから\[**Topics**\]をクリックし
-    、\[**Fallback**\]トピックを開きます。
+1.  Desde la opción de la barra superior, haga clic en **Topics** y, a
+    continuación, abra el **Fallback** topic.
 
 ![](./media/image49.png)
 
-2.  下にスクロールして、メッセージノードに移動します。メッセージを次のように更新します。
+2.  Baje y vaya al nodo de mensajes. Actualice el mensaje como se indica
+    a continuación:
 
-> +++I’m sorry. This information is not available in my system. You can
-> raise the support ticket via mail for this issue.+++
++++I’m sorry. This information is not available in my system. You can
+raise the support ticket via mail for this issue.+++
 
 ![](./media/image50.png)
 
-3.  右上の「**Save**」ボタンをクリックして、トピックを保存します。
+3.  Desde la parte superior derecha, haga clic en el **botón Save** para
+    guardar el tema.
 
 ![](./media/image51.png)
 
-> **結論**
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します。
+> Al completar este ejercicio, los participantes aprenderán:
 
-- ナレッジ ベースをアップロードして統合し、ボットの機能を強化する方法。
+- Cómo cargar e integrar una base de conocimientos para mejorar la
+  funcionalidad del bot.
 
-- 会話開始メッセージをカスタマイズして、より魅力的なユーザー
-  エクスペリエンスを実現する手順。
+- Los pasos para personalizar los mensajes de inicio de conversación
+  para una experiencia de usuario más atractiva.
 
-- サポートされていないクエリの処理を改善するためにフォールバック応答を更新する手法。
+- Las técnicas para actualizar las respuestas de reserva para un mejor
+  control de las consultas no admitidas.
 
-## **演習 4: エージェントのテスト**
+## Ejercicio 4: Pruebe el agente
 
-この演習では、Contoso IT サポート
-エージェントをテストしてその機能を検証する方法を参加者に説明します。参加者は、ナレッジ
-ベースとフォールバック
-トピックを使用してボットがプロンプトを処理する方法を確認し、シームレスな対話とエスカレーションを確保します。
+Este ejercicio guía a los participantes a través de las pruebas del
+agente de soporte técnico de TI de Contoso para validar su
+funcionalidad. Los participantes comprobarán cómo el bot maneja las
+indicaciones utilizando la base de conocimientos y los temas de reserva
+para garantizar una interacción y una escalada fluidas.
 
-1.  右上隅の「**Test**」ボタンをクリックします。次に、テストセクションで\[Map\]をクリックし、\[ON**\]**にして、\[Refresh**\]**をクリックします。
+1.  Desde la esquina superior derecha, haga clic en el botón **Test**.
+    Luego, en la sección de prueba, haga clic en **Map**, **actívelo** y
+    luego haga clic en **Refresh**.
 
 ![](./media/image52.png)
 
-2.  プロンプトを入力します +++**My printer is not working how to fix
-    it**+++ .それは知識源に従って解決策を提供します。
+2.  Introduzca el prompt +++**My printer is not working how to fix
+    it**+++ . Da la solución según la fuente de conocimiento.
 
 ![](./media/image53.png)
 
-3.  再度、プロンプトを +++**Two factor Authentication (2FA)
-    issue**+++と表示します。
+3.  De nuevo, dé el prompt +++**Two factor Authentication (2FA)
+    issue**+++ .
 
 ![](./media/image54.png)
 
-4.  2FA の問題と解決策はナレッジ
-    ソースでは利用できないため、フォールバック
-    トピックに移動し、チケットの発行に関連するプロンプトを返します。
+4.  El problema y la solución de 2FA no están disponibles en la fuente
+    de conocimiento, por lo que irá al tema de reserva y devolverá un
+    prompt relacionado con Raise Ticket.
 
 ![](./media/image55.png)
 
-> **結論**
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します。
+> Al completar este ejercicio, los participantes aprenderán:
 
-- トラブルシューティングのためにAIエージェントをテストしてアクティブ化する方法。
+- Cómo probar y activar un agente de IA para solucionar problemas.
 
-- ナレッジ ベースを使用して応答するボットの能力の検証。
+- La validación de la capacidad de respuesta del bot utilizando su base
+  de conocimientos.
 
-- フォールバック
-  トピックがサポートされていないクエリを処理し、ユーザーを効果的にリダイレクトする方法。
+- Cómo los temas de reserva controlan las consultas no admitidas y
+  redirigen a los usuarios de forma eficaz.
 
-## 演習 5: Power Automate を使用したサポート チケット作成の自動化
+## Ejercicio 5: Automatización de la creación de Support Ticket con Power Automate
 
-この演習では、AgentFlow を使用してサポート
-チケットの作成を自動化し、Contoso IT サポート
-エージェントと統合する方法を示します。参加者は、問題の報告を効率化し、Dataverse
-にデータを記録するためのフローを作成します。
+En este ejercicio se muestra cómo automatizar la creación de vales de
+soporte técnico mediante AgentFlow e integrarla con el agente de soporte
+técnico de TI de Contoso. Los participantes crearán un flujo para
+agilizar los informes de problemas y registrar datos en Dataverse.
 
-1.  エージェントの左側のメニュー バーから **Flows**を選択します。
+1.  Seleccione **Flows** desde la barra de menú izquierda del agente.
 
 ![](./media/image56.png)
 
-2.  **Start in designer**を選択します。
+2.  Seleccione **Start in designer**.
 
 ![](./media/image57.png)
 
-3.  **Add a trigger**を選択し、**When an agent calls the
-    flowトリガー**を選択します。
+3.  Seleccione **Add a trigger** y luego seleccione el trigger **When an
+    agent calls the flow**.
 
 ![](./media/image58.png)
 
 ![](./media/image59.png)
 
-4.  追加されたトリガー \[**When an agent calls the flow\]**
-    を選択し、**\[Add an Input\]** を選択します。
+4.  Seleccione el trigger agregado, **When an agent calls the flow** y
+    seleccione **Add an Input**.
 
 ![](./media/image60.png)
 
-5.  入力のデータ型として \[**Text\]**を選択し 、入力の名前を
-    **+++Name+++**に変更します。
+5.  Seleccione **Text** como data type del input y cambie el nombre de
+    input como +++**Name**+++.
 
 ![](./media/image61.png)
 
 ![](./media/image62.png)
 
-6.  同じ手順で、以下の詳細に従ってさらに入力を作成します。
+6.  Con el mismo procedimiento, cree más entradas según los detalles que
+    se indican a continuación.
 
-| **Input Name**    | **Data Type** |
-|-------------------|---------------|
-| **+++ID+++**      | **Text**      |
-| **+++Email+++**   | **Text**      |
-| **+++Details+++** | **Text**      |
+| **Input Name** | **Data Type** |
+|----------------|---------------|
+| +++ID+++       | Texto         |
+| +++Email+++    | Texto         |
+| +++Details+++  | Texto         |
 
 > ![](./media/image63.png)
-7.  \[**When an agent calls the flow**\] で、**(+)**
-    記号をクリックし、\[**Add an action\] を選択します**。
+
+7.  Debajo de **When an agent calls the flow**, haga clic en el
+    signo **(+)** y seleccione **Add an action**.
 
 ![](./media/image64.png)
-8.  アクション検索バーの追加に「+++**Add a new
-    row**+++」と入力します。次に、**Microsoft Dataverse
-    セクションからAdd a new row**を選択します。
+
+8.  En la barra de búsqueda Add an action, introduzca +++**Add a new
+    row**+++ . luego seleccione **Add a new row** desde la sección
+    Microsoft Dataverse.
 
 ![](./media/image65.png)
 
-**注**: Dataverse
-接続が自動的に作成されない場合があります。資格情報の**OAuth**認証で**再度サインインする**必要がある場合があります。
+Ojo: SA veces, una conexión de Dataverse no se crea automáticamente. Es
+posible que tenga que **volver a iniciar sesión** con la autenticación
+de OAuth **de sus credenciales**.
 
 ![](./media/image66.png)
 
-9.  **\[Table Name**\] セクションで、**+++Employee Technical Support
-    Record+++** (または作成した対応するテーブル名)
-    を検索して選択します。
+9.  En la sección **Table Name** busque y seleccione +++**Employee
+    Technical Support Record**+++ (o el nombre de la tabla
+    correspondiente creado).
 
 ![](./media/image67.png)
 
-10. テーブル名の下で\[**Show
-    all**\]を選択し、特定のフィールドをクリックして、次の表のように**動的コンテンツ**ボタン(サンダーボルト)を使用して**入力を追加します。**
+10. Debajo del nombre de la tabla, seleccione **Show all**, A
+    continuación, haga clic en el campo en particular y añada **una
+    entrada** con la ayuda del botón de **dynamic content**
+    (**Relámpago**) según la siguiente tabla.
 
-> \[**Current Status\]** フィールドを **\[Unresolved\]** に設定します。
+> Establezca el campo **Current Status** a **Unresolved**.
 
 | **Section**                 | **Input Variable**      |
 |-----------------------------|-------------------------|
@@ -478,53 +539,57 @@ you?+++
 | Employee ID                 | ID (Dynamic Input)      |
 | Technical Issue Description | Details (Dynamic Input) |
 
-> ![](./media/image68.png)>
+> ![](./media/image68.png)
+>
 > ![](./media/image69.png)
-11. 上部のバーから \[**Save draft**\] をクリックし、\[**Publish\]
-    をクリックします**。 **Power automate** タブを**閉じます**。
+
+11. Desde la barra superior, haga clic en **Save draft** y, a
+    continuación, haga clic en **Publish**. **Cierre** la pestaña Power
+    automate.
 
 ![](./media/image70.png)
 
-12. 左側のメニュー バーから **フロー** を選択し、**無題の**フロー
-    (作成したばかりのフロー) を選択します。
+12. Seleccione **Flows** en la barra de menú de la izquierda y luego
+    seleccione el **flujo Untitled** (el que acabamos de crear).
 
 ![](./media/image71.png)
 
 ![](./media/image72.png)
 
-13. フローで **Edit** を選択します。
+13. Seleccione **Edit** en el flow.
 
 ![](./media/image73.png)
 
-14. フローに+++**Create an Employee Support
-    Ticket**+++という名前を付け、**Save**を選択します。
+14. Nombre el flow como +++**Create an Employee Support Ticket**+++ y
+    seleccione **Save**.
 
 ![](./media/image74.png)
 
 ![](./media/image75.png)
 
-15. **Contoso IT Support Agent** **Overviewページで、 \[+ Add action\]**
-    を選択します。
+15. Desde la página **Contoso IT Support Agent** **Overview**,
+    seleccione **+ Add action**.
 
 > ![](./media/image76.png)
-16. 「**Create an Employee Support Ticket」フロー** を選択します。
+
+16. Seleccione el **Create an Employee Support Ticket** Agent flow.
 
 ![](./media/image77.png)
 
-17. \[**Add action**\] ボタンをクリックして、フローを追加します。
+17. Haga clic en el botón **Add action** para agregar un flow.
 
 ![](./media/image78.png)
 
-18. エージェントの \[**Overview**\] ページの \[**Action**\]
-    セクションで、\[**Edit**\]
-    を選択してアクションのパラメータを編集します。\[**Inputs\]**
-    セクションを選択します。
+18. En la página **Overview** del agente, en la sección **Action**,
+    seleccione **Edit** para Editar los parámetros de la acción.
+    Seleccione la sección **Inputs**.
 
 ![](./media/image79.png)
 
 ![](./media/image80.png)
 
-19. 指定された説明を指定された入力フィールドに入力し、説明を入力した後、\[**Save\]**ボタンをクリックします。
+19. Ingrese la descripción dada en el campo de entrada respectivo,
+    después de ingresar la descripción, haga clic en el botón **Save**.
 
 | **Section** | **Details** |
 |----|----|
@@ -537,297 +602,332 @@ you?+++
 >
 > ![](./media/image82.png)
 >
-> **結論**
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します。
+> Al completar este ejercicio, los participantes aprenderán:
 
-- エージェント フローを Copilot
-  エージェントと統合してチケットを作成する方法。
+- Cómo integrar los flujos de agentes con un agente de Copilot para la
+  creación de tickets.
 
-- ユーザーの操作から入力データを動的に収集してマップする手順。
+- Los pasos para recopilar y mapear datos de entrada dinámicamente a
+  partir de las interacciones del usuario.
 
-- 技術的な問題のエスカレーションのための電子メール通知を自動化する手法。
+- Las técnicas para automatizar las notificaciones por correo
+  electrónico para el escalamiento de problemas técnicos.
 
-- 効率的なサポートチケット管理のためのワークフローを設定する機能。
+- La capacidad de configurar workflows para una gestión eficiente de los
+  tickets de soporte.
 
-## 演習 6: 自動アクションのトリガーの設定
+## Ejercicio 6: Configure un trigger para Automated Actions
 
-このサポート チケット作成の自動化の続きは、自動化された Power Automate
-フローを使用して OneDrive でファイルを作成するために、Contoso IT
-サポート
-エージェントでトリガーを設定することに焦点を当てています。参加者はトリガーを構成し、デプロイのためにエージェントを完成させます。
+Esta continuación de la automatización de la creación de vales de
+soporte técnico se centra en la configuración de un trigger en el agente
+de soporte técnico de TI de Contoso para la creación de un archivo en
+OneDrive con el flujo automatizado de Power Automate. Los participantes
+configurarán los triggers y finalizarán el agente para la
+implementación.
 
-1.  エージェントの概要ページに移動し、下にスクロールして **\[+Add
-    trigger\] をクリックします**。
+1.  Vaya a la página overview del agente, baje y haga clic en **+ Add
+    trigger**.
 
-![](./media/imagesrc="./media/image83.png" style="width:6.26806in;height:3.64306in".png)
+![](./media/image83.png)
 
-2.  \[**When a file is created**\] トリガーを選択し、\[**Next**\]
-    をクリックします。
+2.  Seleccione el trigger **When a file is created** y haga clic en
+    **Next**.
 
 ![](./media/image84.png)
 
-3.  接続の確立が成功したら、**Next**を選択します。
+3.  Una vez que el establecimiento de la conexión se haya realizado
+    correctamente, seleccione **Next**.
 
 ![](./media/image85.png)
 
-4.  \[**Folder\]** で \[**Root\]** を選択し**、\[Include Subfolders\]
-    で** \[**Yes\]** を選択し、**\[Create trigger\]** をクリックします。
+4.  Seleccione **Root** para **Folder**, **Yes** para **Include
+    Subfolders** y haga clic en **Create trigger**.
 
 ![](./media/image86.png)
 
-5.  \[トリガーをテストする時間\] ダイアログを**閉じます。**
+5.  **Cierre** el diálogo Time to test your trigger.
 
 ![](./media/image87.png)
 
-6.  エージェントの 概要 ページで、追加されたトリガーの横にある 3
-    つのドット –**When a file is created**を選択し、**Edit in Power
-    Automateを選択します**。
+6.  Desde la página overview del agente, Seleccione los tres puntos
+    junto al trigger agregado – **When a file is created** y seleccione
+    **Edit in Power Automate**.
 
 ![](./media/image88.png)
 
-7.  ファイルが作成されたときノードの下にある \[+\]
-    記号を選択して、アクションを追加します。アクション
-    ウィンドウで、**+++Get a row+++** を検索し、**Excel Online
-    (Business)** の下の **Get a row**を選択します。
+7.  Seleccione el símbolo + debajo de When a file is created node Para
+    agregar una acción. En el panel Action, busque +++Get a row+++ y
+    seleccione **Get a row** en **Excel Online (Business)**.
 
 ![](./media/image89.png)
 
-8.  アクションが追加されたら、以下の詳細を追加します。
+8.  Una vez que se agrega la acción, agregue los detalles a continuación
+    en ella.
 
-- 場所 – OneDrive for Business を選択します
+- Location – Select OneDrive for Business
 
-- ドキュメント ライブラリ – OneDrive
+- Document Library – OneDrive
 
-- ファイル – ITSupport.xlsx
+- File – ITSupport.xlsx
 
-- テーブル – Table1
+- Table – Table1
 
-- キー列 – ID
+- Key Column – ID
 
-- キー値 – +++ID1234+++
+- Key Value – +++ID1234+++
 
 ![](./media/image90.png)
 
-9.  \[**Sends a prompt to the specified copilot for
-    processing**\]ノードを選択します。
+9.  Seleccione el **Sends a prompt to the specified copilot for
+    processing** node.
 
-\[本文/メッセージ\] に「+++Run the flow Create an Employee Support
-Ticket+++」と入力し、動的な値、名前、ID、メール
-ID、説明、ステータスを追加します。次に、「+++along with a message "New
-record added to the Employee Support table"+++」を追加します。
+En Body/message, introduzca +++Run the flow Create an Employee Support
+Ticket+++ y agregue dynamic values, Name, ID, Email ID, Description and
+Status. Luego agregue +++along with a message "New record added to the
+Employee Support table"+++
 
-下のスクリーンショットのようになります。
+Debería tener un aspecto similar al de la captura de pantalla siguiente.
 
 ![](./media/image91.png)
 
-10. 次に、\[**Save Draft**\]をクリックしてフローを保存し
-    、\[**Publish**\] をクリックしてフローを公開します。
+10. Ahora, guarde el flujo haciendo clic en **Save Draft** y haga clic
+    en **Publish** para publicar el flow.
 
 ![](./media/image92.png)
 
-11. Copilot Studio に戻り、 **エージェントをPublishします。**
+11. Volviendo al Copilot Studio, haga **Publish**.
 
 ![](./media/image93.png)
 
 ![](./media/image94.png)
 
-## 演習 7: エージェントのテスト
+## Ejercicio 7: Pruebe el agente
 
-1.  Power Automate
-    フローから、**ファイルが作成されたら**、**Test**を選択します。
+1.  Desde Power Automate flow, **When a file is created**, seleccione
+    **Test**.
 
 ![](./media/image95.png)
 
-2.  **\[Manually\]** オプションを選択し、\[**Test**\] を選択します。
+2.  Seleccione la opción **Manually** y seleccione **Test**.
 
 > ![](./media/image96.png)
 
-3.  **OneDrive** ページを開きます。**My files で** \[**+ Add new**\]
-    を選択し、\[**Word Document**\] を選択します。
+3.  Abra su página **OneDrive**. En **My files**, seleccione **+ Add
+    new** y seleccione **Word document**.
 
 ![](./media/image97.png)
 
-4.  Power Automate
-    ページに戻ると、フローが実行を開始し、通過したことを確認できます。
+4.  Volviendo a la página Power Automate, puede ver que se ha empezado
+    la ejecución del flow y se ha aprobado.
 
 > ![](./media/image98.png)
 
-5.  エージェントの概要ページで、\[ **Test
-    Trigger\]**アイコンを選択します。
+5.  Desde la página de agent Overview, seleccione el icono **Test
+    Trigger**.
 
 ![](./media/image99.png)
 
-6.  最新のトリガーを選択し、\[**Start testing\]**を選択します。
+6.  Seleccione el trigger más reciente y seleccione **Start testing**.
 
 ![](./media/image100.png)
 
-7.  フローを実行し、サポート トラッカーからデータをフェッチし、Dataverse
-    テーブルで更新します。
+7.  Ejecuta el flujo, recupera los datos del support tracker y los
+    actualiza en la tabla de Dataverse.
 
 ![](./media/image101.png)
 
-8.  この場合、トラッカーには 1 つのサポート チケットの詳細があり、それが
-    Dataverse テーブルに追加されるため、ユーザーのサポート
-    チケットが作成されます。
+1.  En este caso, hay un detalle de ticket de soporte en el rastreador,
+    que se agrega a la tabla de Dataverse, creando así un ticket de
+    soporte para el usuario.
 
-9.  ユーザーから問題に関するメールを受信したときのメール生成の方が適切です。メールの設定部分は、テナントの権限制限のため、ここでは実行できませんでした。次のタスクを検討してください
-    (アクセス許可を持つテナントがある場合)。
+<!-- -->
 
-## 本番環境で実行するタスク
+8.  Una generación de correo electrónico al recibir un correo
+    electrónico de un usuario con respecto a cualquier problema será más
+    apropiada. La parte de configuración de correo electrónico no se
+    pudo realizar aquí debido a las restricciones de permisos del
+    tenant. Considere la siguiente tarea, si tiene un tenant con los
+    permisos.
 
-本番環境では、サポート チケットの生成は主にメールベースになります。
+## Tareas a realizar en el entorno de producción
 
-このタスクは 、テナントがメール
-アカウントの使用に制限を設けているため、このテスト環境で実行することを意図していません。これらの手順は、メールを送受信できるテナントがある場合は、**演習
-5: Power Automate を使用したサポート チケット作成の自動化 のステップ
-10** の後にフローに追加できます。
+En un entorno de producción, la generación de tickets de soporte se
+basará principalmente en correo.
 
-この実行では、このタスクを無視してください。これは、メール生成部分の学習と理解、およびITサポート操作の主要な役割を果たすトリガーとして受信メールを設定し、エージェントをテストするためだけに追加されました
+Esta tarea **no está** pensada para realizarse en este entorno de
+prueba, ya que el tenent tiene restricciones sobre el uso de la cuenta
+de correo. Estos pasos se pueden agregar al flujo después del paso 10 de
+**Ejercicio 5: Automatización de la creación de Support Ticket con Power
+Automate**, si tiene un tenent que puede enviar y recibir correo.
 
-1.  \[新しい行アクションの追加\] で (+) をクリックし、\[**Add an
-    action\]**を選択します。
+Omita esta tarea en esta ejecución. Esto se ha agregado puramente para
+aprender y comprender la parte de generación de correo y configurar el
+correo entrante como un disparador que desempeñará un papel principal en
+las operaciones de soporte de TI y luego probar el agente
+
+1.  Debajo de Add a new row action haga clic en (+) y seleccione **Add
+    an action**.
 
 ![](./media/image102.png)
 
-2.  アクションの追加セクションで、検索バーに「+++**Send an
-    email**+++」と入力し、**Office 365 Outlook セクションから「send an
-    email (V2)**」を選択します。
+2.  En la sección add an action, introduzca +++**Send an email**+++ en
+    la barra de búsqueda y seleccione **send an email (V2)** desde la
+    sección office 365 outlook.
 
 ![](./media/image103.png)
 
 ![](./media/image104.png)
 
-3.  「メールの送信」セクションで、該当するセクションに以下の詳細を入力します。
+3.  En la sección send an email, Ingrese el detalle que se da a
+    continuación en la sección respectiva:
 
-> 動的コンテンツを使用して、**名前**、**ID**、**詳細**のプレースホルダを変数に置き換えます
+> Reemplace los marcadores de posición
+> de **Name**, **ID**, **Details** con las variables con dynamic content
 >
-> **宛先**
+> **To**
 >
-> サポートエンジニアのメールアドレスを入力します(**任意のメールIDを使用します**-このIDになります、メールはサポートチケットが発行されたときにエージェントから送信されます)
+> Enter support engineer email (**Use any email ID** - It will be to
+> this id, the mail will be sent by the agent to when Support Ticket is
+> raised)
 >
-> **件名**
+> **Subject**
 >
-> 新しいテクニカル サポート チケットが発行されました
+> New Technical Support Ticket Raised
 >
-> **体**
+> **Body**
 >
-> 新しいテクニカル サポート
-> チケットが発行され、注意が必要です。詳細は以下をご覧ください。
+> A new technical support ticket has been raised and requires your
+> attention. Please find details below:
 >
-> 従業員名: \<名 \>
+> Employee Name: \< Name \>
 >
-> 従業員ID:\<ID\>
+> Employee ID: \< ID \>
 >
-> 技術的な問題:\<詳細\>
+> Technical Issue: \< Details \>
 >
-> この件について迅速に対応していただき、ありがとうございます。」
+> Thank you for your prompt attention to this matter.'
 >
-> よろしくお願いいたします
+> Best Regards
 
 ![](./media/image105.png)
 
-4.  左上隅から、フローの名前を +++**Create an Employee Support
-    Ticket**+++に変更します。
+4.  Desde la esquina superior izquierda, cambie el nombre del flujo como
+    +++**Create an Employee Support Ticket**+++.
 
 ![](./media/image106.png)
 
-5.  フローを保存して公開する
+5.  Guarde y publique el flujo
 
-6.  エージェントの概要ページに移動し、下にスクロールして **\[+Add
-    trigger\]** をクリックします。
+6.  Vaya a la página de overview del agente, desplácese hacia abajo y
+    haga clic en **+ Add trigger**.
 
 ![](./media/image83.png)
 
-7.  次に、\[トリガーの追加\] ウィンドウから、\[**When a new email
-    arrives (V3)\]** トリガーを選択します。
+7.  Luego, desde Add trigger, seleccione el trigger **When a new email
+    arrives (V3)**.
 
 ![](./media/image107.png)
 
-8.  コパイロットとOutlookの接続が成功したら、緑色のチェックマークが表示され、\[**Next\]**ボタンをクリックします。
+8.  Después de la conexión exitosa de copilot y outlook y aparece la
+    marca verde, haga clic en el botón **Next**.
 
 ![](./media/image108.png)
 
-9.  フォルダー フィールドで、フォルダー アイコンを選択し、**Inbox**
-    フォルダーを選択してから、**Create trigger**を選択します。
+9.  En el campo de carpeta, seleccione el icono de carpeta y seleccione
+    **inbox** y, a continuación, seleccione **Create trigger**.
 
 ![](./media/image109.png)
 
 ![](./media/image110.png)
 
-10. \[**Time to test your trigger\]** プロンプトを閉じます
-    。Supportエージェントの概要ページで、下にスクロールし、トリガーセクションで3つのドット(...)
-    をクリックし、**Edit in Power Automate**を選択します。
+10. Cierre el prompt **Time to test your trigger**. En la página Support
+    agent overview baje, en la sección trigger haga clic en tres
+    puntos **(…)** y seleccione **Edit in Power Automate.**
 
 ![](./media/image111.png)
 
-11. 　新しいメールが届いたときトリガーを右クリックし、「Delete」を選択します。
+11. Haga clic derecho en When a new email arrives trigger y
+    seleccione **Delete**.
 
 ![](./media/image112.png)
 
-12. 次に、トリガーの追加をクリックし、\[+++**When new email
-    arrives**+++\]を検索して、\[**Office 365のOutlook**から**When a new
-    email arrives**トリガーを選択します。
+12. Luego haga clic en Add a trigger, busque +++**When new email
+    arrives**+++ y seleccione **When a new email arrives** trigger desde
+    la sección **Office 365 outlook**.
 
 ![](./media/image113.png)
 
-13. \[**Send a prompt to the specified copilot for processing**,**\]
-    をクリックし**、\[Body/message\] セクションに「+++**Run Create an
-    Employee Support Ticket flow and use content from Body
-    From.**+++を入力します**。**+++
-    **Body**と**From**を動的コンテンツ変数として置き換えます。
+13. Haga clic en **Send a prompt to the specified copilot for
+    processing**, en la sección Cuerpo/Mensaje, introduzca el prompt,
+    +++**Run Create an Employee Support Ticket flow and use content from
+    Body From.**+++ Reemplace **Body** y **From** como dynamic content
+    variable.
 
 ![](./media/image114.png)
 
-14. **フローをSaveし**て**Publishし**、Power Automate
-    ウィンドウを閉じて、copilot ウィンドウに戻ります。
+14. **Guarde** y **publique** el flujo, cierre la ventana de Power
+    Automate y vuelva a la ventana de Copilot.
 
 ![](./media/image115.png)
 
-15. 概要セクションに移動し、右上隅から\[**Publish**\]をクリックし
-    、もう一度\[**Publish**\]をクリックして コパイロットを公開します。
+15. Vaya a la sección overview y desde la esquina superior derecha haga
+    clic en **Publish** y de nuevo haga clic en **Publish** para
+    publicar el copilot.
 
 ![](./media/image116.png)
 
 ![](./media/image117.png)
 
-> **結論**
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します。
+> Al completar este ejercicio, los participantes aprenderán:
 
-- 技術的な問題のエスカレーションのための電子メール通知を自動化する手法。
+- Las técnicas para automatizar las notificaciones por correo
+  electrónico para el escalado de problemas técnicos.
 
 <!-- -->
 
-- Copilot
-  でトリガーを設定して、メール入力に基づいてワークフローを自動化する方法。
+- Cómo configurar triggers en Copilot para automatizar workflows basados
+  en entradas de correo electrónico.
 
-- 電子メール コンテンツを Power Automate フローに動的にマップする手順。
+- Los pasos para asignar dinámicamente el contenido del correo
+  electrónico a los flujos de Power Automate.
 
-- 運用用に AI エージェントを公開して完成させるプロセス。
+- El proceso de publicación y finalización del agente de IA para su uso
+  operativo.
 
-- Outlookなどのコミュニケーションツールを自動化されたワークフローとリンクする実践的なスキル。
+- Las habilidades prácticas para vincular herramientas de comunicación
+  como Outlook con workflows automatizados.
 
-**エージェントをテストする**
+**Pruebe el agente**
 
-この演習では、Contoso IT サポート エージェントと Power Automate および
-Outlook
-の統合のテストに焦点を当てています。参加者は、エージェントがメールを処理し、サポートチケットを作成し、自動化されたワークフローを効果的にトリガーする能力を確認します。
+Este ejercicio se centra en probar la integración del agente de soporte
+técnico de TI de Contoso con Power Automate y Outlook. Los participantes
+verificarán la capacidad del agente para procesar correos electrónicos,
+crear tickets de soporte y activar workflows automatizados de manera
+efectiva.
 
-1.  エージェントの概要ページに移動し、下にスクロールして、(**...)**
-    をトリガーでクリックし、**Edit in power automate**を選択します。
+1.  Vaya a la página overview del agente, baje y haga clic en **(…)** en
+    trigger y seleccione **Edit in power automate**.
 
 ![](./media/image118.png)
 
-2.  Power Automate フローに移動し、上部のバーから **\[Test**\]
-    ボタンをクリックしてから **\[Manually\]**を選択し、もう一度
-    **\[Test\] をクリックします**。
+2.  Navegará hasta el flujo de Power Automate, desde la barra superior
+    haga clic en el **botón Test** y luego seleccione **Manually** y
+    nuevamente haga clic en **Test**.
 
 ![](./media/image119.png)
 
 ![](./media/image120.png)
 
-3.  **アクションをトリガー**するために、他のメールボックスから365管理者テナントのメール**IDにメールを送信します。**メールには問題が説明されており、以下のスクリーンショットのように、従業員IDなどの詳細が含まれている必要があります。コンテンツの例を以下に示します。
+3.  **Envíe un correo electrónico** al identificador de correo del
+    tenent de administración de 365 desde cualquier otro buzón para
+    activar **la acción**. El correo debe describir un problema y debe
+    tener sus detalles, como la identificación del empleado, similar a
+    la de la captura de pantalla a continuación. El contenido de ejemplo
+    es el siguiente
 
 > Hi Support Team,
 >
@@ -851,93 +951,108 @@ Outlook
 
 ![](./media/image122.png)
 
-4.  copilot エージェントの概要ページに移動し、下にスクロールして
-    \[**Test trigger\]** を選択します。
+4.  Navigue a la página copilot agent overview, baje y seleccione **Test
+    trigger**.
 
 ![](./media/image123.png)
 
-5.  \[**Start testing\]をクリックすると**、テストが開始されます。
+5.  Haga clic en **Start testing**, Se iniciará la prueba.
 
 ![](./media/image124.png)
 
-6.  テストセクションで\[**Connect**\]をクリックすると、接続ウィンドウが開きます。
+6.  En la sección de test, haga clic en **Connect**, se abrirá la
+    ventana de conexión.
 
 ![](./media/image125.png)
 
-7.  \[**Connect\]** をもう一度クリックし、\[**Submit\]** を選択します。
+7.  Haga clic en **Connect** nuevamente y luego seleccione **Submit.**
 
 ![](./media/image126.png)
 
 ![](./media/image127.png)
 
-8.  copilot Studio ウィンドウに移動し、**Test**を再実行します。
+8.  Navigue a la ventana copilot studio y vuelva a ejecutar el **Test**.
 
 ![](./media/image123.png)
 
-9.  サポートリクエストは自動的に生成されます。
+9.  La solicitud de soporte se genera automáticamente.
 
 ![](./media/image128.png)
 
-10. Power Apps に移動し、従業員サポート チケット レコード
-    テーブルに移動して、詳細を確認します。
+10. Vaya a Power Apps y vaya a la tabla de registros de tickets de
+    soporte técnico para empleados y compruebe los detalles.
 
 ![](./media/image129.png)
 
-11. メールを送信するために Power Automate フローで構成したサポート
-    メールを確認します。メールはサポートチームに自動的に送信されます。
+11. Compruebe el correo de soporte que configuramos en el flujo de Power
+    Automate para enviar un correo electrónico. El correo electrónico se
+    envía automáticamente al equipo de soporte.
 
 ![](./media/image130.png)
 
-12. テストウィンドウに移動し、ユーザー+++**Mark Brown Ticket Current
-    Status**+++としてクエリを書きます。問題のステータスが未解決として表示されます。
+12. Vaya al test window y writer query como user +++**Mark Brown Ticket
+    Current Status**+++ . Da el estado del problema como no resuelto.
 
 ![](./media/image131.png)
 
-13. サポートエンジニアとして、テストセクションにプロンプトを記述します。+++**I
-    want to know about all Unresolved ticket**+++ 。
+13. Como ingeniero de soporte, escriba un prompt en la sección de
+    prueba. +++**I want to know about all Unresolved ticket**+++ .
 
 ![](./media/image132.png)
 
-> **結論**
+> **Conclusión**
 >
-> この演習を完了すると、参加者は次のことを習得します。
+> Al completar este ejercicio, los participantes aprenderán:
 
-- 実際のシナリオをシミュレートしてエージェントの機能をテストする方法。
+- Cómo probar la funcionalidad del agente simulando escenarios del mundo
+  real.
 
-- Power Automate
-  でメールによってトリガーされるワークフローとチケット生成を検証する手順。
+- Los pasos para validar workflows activados por correo electrónico y
+  generación de tickets en Power Automate.
 
-- Dataverse で生成されたレコードを確認し、通知がサポート
-  チームに送信されるようにする方法。
+- Cómo revisar los registros generados en Dataverse y asegurarse de que
+  las notificaciones se envíen al equipo de soporte.
 
-- 自動化ワークフローのデバッグとファイナライズに関する実践的な洞察。
+- La información práctica sobre la depuración y finalización de
+  workflows de automatización.
 
-**ラボガイドの最終結論**
+**Conclusión final de la guía de laboratorio**
 
-このラボ ガイドでは、参加者に Contoso Solutions の IT サポート サービス
-デスクの Autonomous Copilot Agent
-のデプロイに関する実践的な体験を提供しました。ステップバイステップの演習に従うことで、参加者は次のことができるようになりました。
+Esta guía de laboratorio proporcionó a los participantes una experiencia
+práctica en la implementación de un agente de copiloto autónomo para el
+servicio de soporte técnico de TI de Contoso Solutions. Al seguir los
+ejercicios paso a paso, los participantes pudieron:
 
-1.  **Copilot Studioのセットアップ**:参加者は、Copilot
-    Studioへのログイン方法、ITサポートエージェントの作成と設定方法、効果的なトラブルシューティングとチケット自動化のためのジェネレーティブAIやオーケストレーターなどの基本的な設定を有効にする方法を学びました。
+1.  **Configurar Copilot Studio**: Los participantes aprendieron a
+    iniciar sesión en Copilot Studio, crear y configurar el agente de
+    soporte de TI y habilitar configuraciones esenciales como la IA
+    generativa y el orquestador para una solución de problemas eficaz y
+    la automatización de tickets.
 
-2.  **Power Apps の操作**: 参加者は、Power Apps へのログイン、Dataverse
-    テーブルの設定、Excel
-    からのデータのインポートに関する実践的な知識を得て、サポート
-    チケットを効率的に追跡および管理しました。
+2.  **Navigar en Power Apps**: Los participantes adquirieron
+    conocimientos prácticos sobre el inicio de sesión en Power Apps, la
+    configuración de una tabla de Dataverse y la importación de datos de
+    Excel para realizar un seguimiento y administrar los tickets de
+    soporte de manera eficiente.
 
-3.  **ボット機能の強化**: この演習では、ボットにナレッジ
-    ベースを追加し、会話の開始トピックとフォールバック
-    トピックをカスタマイズしてユーザー操作を改善し、ボットが幅広い IT
-    サポート シナリオを処理できるようにすることに重点を置いています。
+3.  **Mejorar las capacidades de Bot**: Los ejercicios se centraron en
+    agregar una base de conocimientos al bot, personalizar los temas de
+    inicio y reserva de la conversación para mejorar la interacción del
+    usuario y garantizar que el bot pudiera manejar una amplia gama de
+    escenarios de soporte de TI.
 
-4.  **IT サポート タスクの自動化**: 参加者は、Power Automate
-    を使用してサポート
-    チケットの作成を自動化する方法も学び、未解決の問題を管理し、IT
-    チームのワークフローを改善するボットの機能を強化しました。
+4.  **Automatizar las tareas de soporte de IT**: Los participantes
+    también aprendieron a automatizar la creación de tickets de soporte
+    mediante Power Automate, lo que mejoró la capacidad del bot para
+    administrar problemas no resueltos y mejorar los flujos de trabajo
+    del equipo de TI.
 
-これらの演習を完了することで、参加者は、応答時間を改善し、手作業の負荷を減らし、ITサポート業務の全体的な生産性を向上させる堅牢な自律型サポートシステムを実装することができました。Copilot
-Studio、Power Apps、Dataverse
-の統合により、シームレスな情報の流れが確保され、日常的なタスクが自動化され、サポート
-ワークフローが最適化され、従業員に即時のトラブルシューティング
-ソリューションが提供され、未解決の問題に対するチケット管理が自動化されます。
+Al completar estos ejercicios, los participantes pudieron implementar un
+sólido sistema de soporte autónomo que mejora los tiempos de respuesta,
+reduce la carga de trabajo manual y mejora la productividad general de
+las operaciones de soporte de TI. La integración de Copilot Studio,
+Power Apps y Dataverse garantiza un flujo de información sin
+interrupciones, automatiza las tareas rutinarias y optimiza los
+workflows de soporte, proporcionando soluciones inmediatas de solución
+de problemas a los empleados y gestión automatizada de tickets para
+problemas no resueltos.
