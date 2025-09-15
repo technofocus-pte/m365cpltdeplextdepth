@@ -1,136 +1,144 @@
-# **Microsoft 365 Agents Toolkit を使用して詩的な宣言型エージェントを構築する**
+# Construya un agente declarativo poético usando Microsoft 365 Agents Toolkit
 
-**目的**
+**Objetivo**
 
-宣言型エージェントは、Microsoft 365 Copilot のカスタマイズ
-バージョンであり、ユーザーは特定の指示、アクション、知識を宣言することでパーソナライズされたエクスペリエンスを作成できます。このガイドでは、Microsoft
-365 Agents Toolkit (Teams Toolkit の進化版)
-を使用して宣言型エージェントを構築する方法について説明します。
+Un agente declarativo es una versión personalizada de Microsoft 365
+Copilot que permite a los usuarios crear experiencias personalizadas
+mediante la declaración de instrucciones, acciones y conocimientos
+específicos. En esta guía se proporciona información sobre cómo crear un
+agente declarativo mediante el kit de herramientas de agentes de
+Microsoft 365 (una evolución del kit de herramientas de Teams).
 
-このラボでは、詩的な宣言型エージェントを作成します。
+En este laboratorio, creará un agente declarativo poético.
 
-## **演習 1: 宣言型エージェントを作成する**
+## Ejercicio 1: Cree un declarative agent
 
-この演習では、まず Visual Studio Code
-から基本的な宣言型エージェントを作成します。
+En este ejercicio, comenzará con la creación de un agente declarativo
+básico a partir de Visual Studio Code.
 
-1.  VM から **Visual Studio Code** を開きます。
+1.  Desde el VM, abra **Visual Studio Code**.
 
-2.  左側のウィンドウから \[**拡張機能**\] を選択し、「+++Microsoft 365
-    Agents Toolkit+++」と入力します
+2.  Seleccione **Extensions** en el panel izquierdo y escriba
+    +++Microsoft 365 Agents Toolkit+++
 
 ![](./media/image1.png)
 
-3.  **Microsoft 365 Agents Toolkit** を選択し、**\[Install\]**
-    を選択して拡張機能をインストールします。
+3.  Seleccione el **Microsoft 365 Agents Toolkit** y seleccione
+    **Install** para instalar la extensión.
 
 ![](./media/image2.png)
 
-4.  「**Declarative Agent」**を選択します。
+4.  Seleccione **Declarative Agent**.
 
 ![](./media/image3.png)
 
-5.  \[**No Action**\]
-    を選択して、基本的な宣言型エージェントを作成します。
+5.  Seleccione **No Action** Para crear un agente declarativo básico.
 
 ![](./media/image4.png)
 
-6.  \[**Default folder**\] を選択して、プロジェクトのルート
-    フォルダーを既定の場所に保存します。
+6.  Seleccione **Default folder** para almacenar la carpeta root del
+    proyecto en la ubicación predeterminada.
 
 ![](./media/image5.png)
 
-7.  \[**Application Name\] に「+++My Agent+++」と入力し** 、**Enter
-    キーを押します**。
+7.  Introduzca +++My Agent+++ como **Application Name** y haga clic
+    en **Enter**.
 
 ![](./media/image6.png)
 
-8.  開いた新しい Visual Studio Code ウィンドウで、\[**Microsoft 365
-    Agents Toolkit\]** を選択します。
+8.  En la nueva ventana Visual Studio Code que abre,
+    seleccione **Microsoft 365 Agents Toolkit**.
 
 ![](./media/image7.png)
 
-9.  **\[Lifecycle\]** ウィンドウで **\[Provision**\]
-    を選択し、表示されるポップアップで \[**Sign in**\]
-    を選択して、Microsoft 365 アカウントにサインインします。
+9.  Seleccione **Provision** en el panel **Lifecycle** y seleccione
+    **Sign in** en el popup que aparece, para iniciar sesión en la
+    cuenta de Microsoft 365.
 
 ![](./media/image8.png)
 
-10. \[リソース\]
-    タブの資格情報を使用して**サインイン**し、完了したらウィンドウを閉じます。
+10. **Inicie sesión** con las credenciales desde la pestaña Resources y
+    cierre la ventana una vez hecho.
 
 ![](./media/image9.png)
 
-11. これで、基本的な宣言型エージェントの作成が完了しました。
+11. Ahora, se realiza la creación básica del agente declarativo.
 
-### **タスク 1: エージェントのテスト**
+### Tarea 1: Pruebe el agente
 
-このタスクでは、作成した宣言型エージェントをテストします。
+En esta tarea, probaremos el agente declarativo que hemos creado.
 
-1.  URL <https://m365.cloud.microsoft/chat>で Copilot
-    アプリケーションに移動します。
+1.  Vaya a la aplicación Copilot con la
+    URL <https://m365.cloud.microsoft/chat>.
 
-2.  左上の **conversation drawer iconを選択します**。
+2.  En la parte superior izquierda, **seleccione el icono**
+    **conversation drawer**.
 
 > ![](./media/image10.png)
 
-3.  宣言型エージェント \[**My Agent\] を選択します**。
+3.  Seleccione el declarative agent **My Agent**.
 
 > ![](./media/image11.png)
 
-4.  質問を入力してください +++Hello! How can you help me?+++、「Thanks
-    for using Microsoft 365 Agents Toolkit to create your declarative
-    agent!」と返信することを確認します。
+4.  Introduzca una pregunta +++Hello! How can you help me?+++ para su
+    agente declarativo y asegúrese de que responda con "Thanks for using
+    Microsoft 365 Agents Toolkit to create your declarative agent!"
 
 > ![](./media/image12.png)
 >
-> この演習では、基本的な宣言型エージェントを作成し、その機能をテストしました。
+> En este ejercicio, hemos creado un agente declarativo básico y hemos
+> probado su funcionalidad.
 
-## **演習 2: 指示を追加する**
+## Ejercicio 2: Agregue instrucciones
 
-この演習では、前の演習で作成した宣言型エージェントに指示を追加し、拡張します
+En este ejercicio, comenzaremos a agregar instrucciones al agente
+declarativo que creamos en el ejercicio anterior y lo mejoraremos
 
-1.  Visual Studio Code から **appPackage/instructions.txt**
-    ファイルを開き、その内容を次のテキストに置き換えます。
+1.  Desde Visual Studio Code, abra el
+    archivo **appPackage/instructions.txt** y sustitúyase su contenido
+    por el texto siguiente.
 
-> <span class="mark">宣言型エージェントであり、Microsoft 365 Agents
-> Toolkit を使用して作成されました。あなたは詩を作る専門家です。</span>
+> <span class="mark">You are a declarative agent and were created with
+> Microsoft 365 Agents Toolkit. You are an expert at creating
+> poems.</span>
 >
-> <span class="mark">ユーザーが質問するたびに、その
-> 答えを詩に変える必要があります。詩は
-> 引用符を使用し、通常のテキストを使用して**はなりません**。</span>
+> <span class="mark">Every time a user asks a question, you **must**
+> turn the answer into a poem. The poem **must** not use the quote
+> markdown and use regular text.</span>
 >
 > ![](./media/image13.png)
 
-このファイルの内容は、プロビジョニング中にエージェントのマニフェストの
-instructions プロパティに挿入されます。
+El contenido de este archivo se inserta en la propiedad instructions del
+manifiesto del agente durante el aprovisionamiento.
 
-2.  Agents Toolkit の **\[Lifecycle**\] ペインで \[**Provision**\]
-    を選択します。
+2.  Seleccione **Provision** en el panel **Lifecycle** del Agents
+    Toolkit.
 
 ![](./media/image14.png)
 
-3.  プロビジョニングが正常に完了したことを確認します。Visual Studio Code
-    の右下にメッセージが表示されます。
+3.  Compruebe que el **aprovisionamiento** se ha completado
+    **correctamente**. Puede ver un mensaje en la parte inferior derecha
+    de la Visual Studio Code.
 
 > ![](./media/image15.png)
 
-4.  宣言型エージェントは、ページを再読み込みした後、更新された指示を使用します。
+4.  El agente declarativo usará las instrucciones actualizadas después
+    de volver a cargar la página.
 
-5.  チャットページを更新し、「**My Agent**」を選択して、「+++Do we have
-    chocolate in our food catalog?+++」と入力します。
+5.  Actualice la página de chat, seleccione **My Agent** y tecle +++Do
+    we have chocolate in our food catalog?+++
 
 ![](./media/image16.png)
 
-6.  エージェントが詩的な答えを出すのを観察します。
+6.  Obsérvese que el agente da una respuesta poética.
 
 ![](./media/image17.png)
 
-7.  次に、エージェントに会話のスターターを追加します。
+7.  Ahora, agregue iniciadores de conversación al agente.
 
-8.  **appPackage/declarativeAgent.json** ファイルを開き、instructions
-    ノードの直後に**コンマ**を追加して Enter
-    キーを押し、コードの下に貼り付けます。
+8.  Abra el archivo **appPackage/declarativeAgent.json** y justo después
+    del nodo de instrucciones, agregue una **coma** , presione Enter y
+    pegue el código debajo.
 
 "conversation_starters": \[
 
@@ -154,23 +162,24 @@ instructions プロパティに挿入されます。
 
 ![](./media/image18.png)
 
-9.  Microsoft 365 Agents Toolkit **の \[ライフサイクル\] ウィンドウで**
-    \[**Provision\] を選択し**
-    、プロビジョニングが正常に完了したことを確認します。
+9.  Seleccione **Provision** en el panel Lifecycle del **Microsoft 365
+    Agents Toolkit** y asegúrese de que el aprovisionamiento se complete
+    correctamente.
 
-10. 更新された会話のスターターは、ページを更新した後、宣言型エージェントで使用できるようになります
-    。
+10. Los iniciadores de conversación actualizados estarán disponibles en
+    el agente declarativo después **de actualizar** la página.
 
-11. チャットページを更新して同じことを確認してください。
+11. **Actualice** la página de chat para comprobar lo mismo.
 
 ![](./media/image19.png)
 
-## **演習 3: Web コンテンツを追加する**
+## Ejercicio 3: Agregue contenido web
 
-この演習では、エージェントが Web コンテンツを検索する機能を追加します。
+En este ejercicio, agregará la capacidad al agente para buscar el
+contenido web.
 
-1.  **appPackage/declarativeAgent.json** ファイルを開き、次の内容を含む
-    capabilities 配列を追加します。
+1.  Abra el archivo **appPackage/declarativeAgent.json** y agregue la
+    matriz capabilities con el siguiente contenido.
 
 > "capabilities": \[
 >
@@ -184,20 +193,22 @@ instructions プロパティに挿入されます。
 >
 > ![](./media/image20.png)
 
-2.  **Microsoft 365 Agents Toolkit の \[ライフサイクル\] ウィンドウで**
-    \[**Provision\]**
-    を選択し、プロビジョニングが正常に完了したことを確認します。
+2.  Seleccione **Provision** en el panel Lifecycle del **Microsoft 365
+    Agents Toolkit** y asegúrese de que el aprovisionamiento se complete
+    correctamente.
 
 > ![](./media/image21.png)
 >
-> 宣言型エージェントは、ページを再読み込みした後、Webコンテンツにアクセスして回答を生成できます。
+> El agente declarativo tendrá acceso al contenido web para generar sus
+> respuestas después de volver a cargar la página.
 
-3.  エージェントに +++How can I build a declarative
-    agent?+++と尋ね、エージェントが Web から応答することを確認します。
+3.  Pregúntele al agente, +++How can I build a declarative agent?+++ y
+    observe que el agente responde desde la web.
 
 > ![](./media/image22.png)
 
-## **概要**
+## Resumen
 
-Microsoft 365 Copilot
-の宣言型エージェントを作成する方法を学習しました。また、作成したエージェントを指示とWebコンテンツで強化し、各ステージでテストする方法も学びました。
+Ha aprendido a crear el agente declarativo para Microsoft 365 Copilot.
+También ha aprendido a mejorar el agente creado con instrucciones y
+contenido web y a probarlo en cada etapa.
