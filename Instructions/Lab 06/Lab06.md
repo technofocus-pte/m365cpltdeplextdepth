@@ -1,252 +1,263 @@
-# ラボ 6 - Microsoft Copilot Studio を使用して構築された HR エージェントを使用して Microsoft 365 Copilot チャットを拡張する
+# Laboratorio 6 - Amplíe Microsoft 365 Copilot Chat con un HR Agent construido mediante Microsoft Copilot Studio
 
-**目的**
+**Objetivo**
 
-このラボでは、Microsoft Copilot Studio
-を使用して作成された宣言型エージェントを使用して Microsoft 365 Copilot
-チャットを拡張する方法を学習します。 また、作成したエージェントにカスタムアクションを追加する方法についても学習します。
+En este laboratorio, aprenderá a ampliar el chat de Microsoft 365
+Copilot con un agente declarativo creado con Microsoft Copilot Studio.
+ También aprenderá a agregar una acción personalizada al agente que
+realizó.
 
-所要時間 – 45分
+Duración estimada – 45 minutos
 
-## 演習 1: Power Platform 環境の作成
+## Ejercicio 1: Cree un Power Platform environment
 
-Power Platform
-を使用すると、さまざまな環境を作成し、必要に応じて簡単に切り替えることができます。環境には、アプリ、フロー、データ、エージェントなどが格納され、各環境は他の環境から完全に分離されています。この演習では、残りの演習とタスクを実行する新しい専用環境を作成します。
+Con Power Platform, puede crear diferentes entornos y cambiar fácilmente
+entre ellos de acuerdo con sus necesidades. Un entorno almacena
+aplicaciones, flujos, datos, agentes, etc. y cada entorno está
+completamente aislado de cualquier otro entorno. En este ejercicio,
+creará un nuevo entorno dedicado en el que realizará los ejercicios y
+tareas restantes.
 
-1.  ブラウザを開き、「**Resources**」タブのログイン資格情報を使用して
-    、「[https://admin.powerplatform.com](https://admin.powerplatform.com/)」に移動します。
+1.  Abra un navegador y, utilizando sus credenciales de inicio de sesión
+    desde la pestaña **Resources**, vaya
+    a [https://admin.powerplatform.com](https://admin.powerplatform.com/).
 
 ![](./media/image1.png)
 
-2.  **Manage**を選択し 、**Environment**で **+ Newを選択します**。
+2.  Seleccione **Manage** y seleccione **+ New** en **Environments**.
 
 ![](./media/image2.png)
 
-3.  「Name」に「+++Dev
-    env+++」と入力し、「**Type**」に**「Developer」を選択して、「Next」をクリックします**。
-    **Add Dataverse** の追加 **画面で**保存 を選択します。
+3.  Proporcione el nombre como +++**Dev env**+++, seleccione el **Type**
+    como **Developer** y haga clic en **Next**. Seleccione **Save** en
+    la pantalla **Add Dataverse**.
 
 ![](./media/image3.png)
 
 ![](./media/image4.png)
 
-4.  新しい環境が作成され、
-    **PreparingがReadyと**準備完了状態**から**準備完了状態に変わります。
+4.  El nuevo entorno se crea y cambia de **Preparing** a **Ready** una
+    vez que esté listo.
 
 ![](./media/image5.png)
 
 ![](./media/image6.png)
 
-## 演習 2 : Microsoft 365 Copilot Chat のエージェントの作成
+## Ejercicio 2: Cree un agente para Microsoft 365 Copilot Chat
 
-この演習では、Microsoft Copilot Studio
-を使用して宣言型エージェントを作成し、Microsoft 365 Copilot Chat
-でホストします。
+En este ejercicio va a crear un agente declarativo con Microsoft Copilot
+Studio y alojarlo en Microsoft 365 Copilot Chat.
 
-1.  「Resources[**」タブのログイン資格情報を使用して**
-    https://copilotstudio.microsoft.com/](https://copilotstudio.microsoft.com/)**にログインし**ます。
+1.  Inicie sesión en <https://copilotstudio.microsoft.com/> con las
+    credenciales en la pestaña **Resources**.
 
 ![](./media/image7.png)
 
-2.  前の演習で作成した **Dev env** 環境を選択します。
+2.  Seleccione el entorno **Dev env** que creamos en el ejercicio
+    anterior.
 
 ![](./media/image8.png)
 
-3.  Microsoft 365 Copilot
-    チャットの宣言型エージェントを作成するには、まず Copilot Studio
-    でエージェントの一覧を参照し、次に **Microsoft 365 Copilot
-    という名前のエージェントを選択する必要があります**。
+3.  Para crear un agente declarativo para Microsoft 365 Copilot Chat,
+    primero debe examinar la lista de agentes en Copilot Studio y, a
+    continuación, seleccionar el agente con nombre **Microsoft 365
+    Copilot**.
 
-4.  左側のナビゲーション バーから **\[Agents\]** を選択し **、一覧から**
-    \[**Copilot for Microsoft 365**\] を選択します。
+4.  Seleccione **Agents** en la barra de navegación izquierda y
+    seleccione **Copilot for Microsoft 365** desde la lista.
 
 ![](./media/image9.png)
 
-5.  Microsoft Copilot Studio の新しいセクションが開きます。そこから、
-    **\[+ Add**\] コマンドを選択して、Microsoft 365 Copilot Chat
-    の新しいエージェントを作成します。
+5.  Se abrirá una nueva sección de Microsoft Copilot Studio. Desde allí,
+    seleccione el comando **+ Add** para crear un nuevo agente para
+    Microsoft 365 Copilot Chat.
 
 ![](./media/image10.png)
 
-6.  Copilot
-    Studioは、エージェントの目的を自然言語で説明するように求めます。エージェントの要件を定義できます。これを行うには、以下のプロンプトを貼り付けます
+6.  Copilot Studio le pide que describa en lenguaje natural cuál es el
+    propósito del agente. Puede definir los requisitos de su agente.
+    Pegue el prompt a continuación para hacerlo
 
-> +++You are an agent helping employees to find information about HR
+> **+++You are an agent helping employees to find information about HR
 > policies and procedures, about how to improve their career, and about
-> how to define learning pathways.+++
+> how to define learning pathways.+++**
 
 ![](./media/image11.png)
 
-7.  Copilot Studio から要求された場合は、カスタム エージェントに
-    "Agentic HR" という名前を付けます。次のプロンプトを使用します。
+7.  Cuando Copilot Studio lo solicite, asigne el nombre "Agentic HR" a
+    su agente personalizado. Utilice el siguiente prompt.
 
 +++Name it as Agentic HR+++
 
 ![](./media/image12.png)
 
-8.  次に、次の指示を使用して、Copilot Studio
-    に特定のタスクまたは目標を設定するように指示します。
+8.  A continuación, indique a Copilot Studio que tenga tareas u
+    objetivos específicos con las siguientes instrucciones:
 
 **+++Emphasize everything that helps team building, inclusion, and the
 growth mindset+++**
 
 ![](./media/image13.png)
 
-9.  次に、エージェントのプロフェッショナルなトーンを定義し、次の入力を提供します。
+9.  A continuación, defina un tono profesional para su agente,
+    proporcionando la siguiente información:
 
-> **+++It should have a professional tone+++**
+**+++It should have a professional tone+++**
 
 ![](./media/image14.png)
 
-10. エージェントの説明が完了したら、\[**Create**\]
-    コマンドを選択して実際のエージェントを作成します。
+10. Una vez que haya terminado de describir su agente, seleccione el
+    comando **Create** para crear el agente real. 
 
 ![](./media/image15.png)
 
 ![](./media/image16.png)
 
-## 演習 3: Microsoft 365 Copilot チャットでエージェントを公開する
+## Ejercicio 3: Publique el agente en Microsoft 365 Copilot Chat
 
-1.  エージェントの概要ページから **\[Publish**\] を選択します。
+1.  Seleccione **Publish** desde la página de agent overview.
 
 ![](./media/image17.png)
 
-2.  \[**Publish agent\] 画面で** \[**Publish**\] **を選択します** 。
+2.  Seleccione **Publish** en la pantalla **Publish agent**.
 
 ![](./media/image18.png)
 
 > ![](./media/image19.png)
 
-3.  **\[Share link**\] で **\[Copy**\]
-    を選択してリンクをコピーし、\[**Done\] を選択します**。
+3.  Seleccione **Copy** en **Share link** para copiar el vínculo y, a
+    continuación, seleccione **Done**.
 
 ![](./media/image20.png)
 
-4.  新しいタブを開き、コピーしたURLを貼り付けます。**Add**を選択して
-    、**Agentic HR** をリスト エージェントに追加します。
+4.  Abra una nueva pestaña y pegue la URL copiada. Seleccione **Add**
+    para añadir el **Agentic HR** a su lista de agentes.
 
 ![](./media/image21.png)
 
 ![](./media/image22.png)
 
-5.  概要画面で **\[Skip**\] を選択します。
+5.  Seleccione **Skip** en la pantalla de introducción.
 
 ![](./media/image23.png)
 
-6.  **Agentic HR** エージェントが追加されました。
+6.  Se ha agregado el agente **Agentic HR**.
 
 ![](./media/image24.png)
 
-## 演習 4: SharePoint サイトを作成する
+## Ejercicio 4: Cree un sitio SharePoint
 
-1.  新しいブラウザーで、左側のウィンドウから
-    +++https://m365.cloud.microsoft/chat/+++
-    \[**Apps**\]の選択に移動し、アプリが読み込まれたら
-    **\[SharePoint**\] を選択します。
+1.  En un nuevo navegador, navegue a
+    +++https://m365.cloud.microsoft/chat/+++ Seleccione **Apps** desde
+    el panel de navegación y seleccione **SharePoint** una vez que se
+    carga las Apps.
 
 > ![](./media/image25.png)
 
-2.  SharePoint ページから **\[+ Create** site\] を選択します。
+2.  Seleccione el sitio **+ Create** desde la página de SharePoint.
 
 ![](./media/image26.png)
 
-3.  \[**Select the site type\] ページから \[Communication** site**\]
-    を選択します** 。
+3.  Seleccione el sitio **Communication** desde la página **Select the
+    site type**.
 
 ![](./media/image27.png)
 
-4.  使用する**template**を選択します 。
+4.  Seleccione una **plantilla** para usar.
 
 ![](./media/image28.png)
 
-5.  \[**Use template\] を選択します**。
+5.  Seleccione **Use template**.
 
 ![](./media/image29.png)
 
-6.  \[サイト名**\] に「+++Contoso site+++**」と入力し、\[**Next**\]
-    を選択します**。**
+6.  Introduzca +++**Contoso site+++** como **Site name** y seleccione
+    **Next.**
 
 ![](./media/image30.png)
 
-7.  次の画面で、**Create siteを選択します**。
+7.  En la siguiente pantalla, seleccione **Create site**.
 
 ![](./media/image31.png)
 
-8.  作成したら、このサイトのURLをメモします 。
+8.  Una vez creado, anote la **URL** de este sitio.
 
 ![](./media/image32.png)
 
-9.  メニューバーから「**Documents」を選択します** 。\[**Upload -\>
-    Files\] を選択します**
+9.  Seleccione **Documents** en la barra de menús. Seleccione **Upload
+    -\> Files**
 
 ![](./media/image33.png)
 
-10. C:\LabFiles**からアップロードするSample-list-of-candidates.xlsx**ファイル**を選択します**
-    。
+10. Seleccione el archivo **Sample-list-of-candidates.xlsx** desde
+    **C:\LabFiles** para subir.
 
 ![](./media/image34.png)
 
-## 演習 5: エージェントにアクションを追加する
+## Ejercicio 5: Adición de una acción al agente
 
-この演習では、作成したエージェントにカスタムアクションを追加します。Microsoft
-Copilot Studio では、Microsoft 365 Copilot Chat
-のエージェントを作成するときに、次の 4 種類のアクションを追加できます:
+En este ejercicio, agregará una acción personalizada al agente que creó.
+En Microsoft Copilot Studio, al crear agentes para Microsoft 365 Copilot
+Chat, puede agregar cuatro tipos diferentes de acciones:
 
-- 新しいプロンプト: 自然言語で記述されたプロンプトを使用して構築された
-  AI アクションを消費できます。
+- New prompt: permite consumir una acción de IA construida a partir de
+  un prompt escrito en lenguaje natural.
 
-- 新しい Power Automate フロー: Power Automate フローを使用できます。
+- New Power Automate flow: permite consumir un Power Automate flow.
 
-- 新しいカスタム コネクタ: Power Platform カスタム
-  コネクタを使用できます。
+- New custom connector: permite consumir un conector personalizado de
+  Power Platform.
 
-- 新しい REST API: 外部 REST API の使用を許可します。
+- New REST API: permite consumir una API REST externa.
 
-1.  新しいアクションを追加するには、 エージェントの構成パネルの
-    \[**Actions\] セクションで \[+ Add action**\] を選択します。
+1.  Para agregar una nueva acción, seleccione **+ Add action** en la
+    sección **Actions** del panel de configuración del agente.
 
 ![](./media/image35.png)
 
-2.  \[ **List rows present in a table**(Excel
-    online)\]オプションを選択し、\[**Next**\]を選択します **。**
+2.  Seleccione la opción **List rows present in a table**(Excel online)
+    y seleccione **Next.**
 
 ![](./media/image36.png)
 
 ![](./media/image37.png)
 
-3.  \[**List rows present in a table\] 画面で**
-    、以下の詳細を入力し、\[**Add action\] を選択します**。
+3.  En la pantalla **List rows present in a table**, proporcione los
+    siguientes detalles y seleccione **Add action**.
 
-名前 - +++List HR candidates+++
+Name - +++List HR candidates+++
 
-説明 – +++List candidates for HR role+++
+Description – +++List candidates for HR role+++
 
 ![](./media/image38.png)
 
 ![](./media/image39.png)
 
-4.  アクションが追加されたら、それをクリックして開いて編集します。
+4.  Una vez agregada la acción, haga clic en ella para abrirla y
+    editarla.
 
 ![](./media/image40.png)
 
-5.  \[**Input**\] **セクション**を選択します。
+5.  Seleccione la sección **Inputs**.
 
 ![](./media/image41.png)
 
-6.  各入力引数の **\[How will the agent fill this input**\] で **\[Set
-    as a value**\] を選択します。
+6.  Seleccione **Set as a value** en **How will the agent fill this
+    input** para cada uno de los argumentos de entrada.
 
 ![](./media/image42.png)
 
-7.  入力設定ダイアログの変更で**\[Confirm**\]を選択します。
+7.  Seleccione **Confirm** en el cuadro de diálogo Change input
+    settings.
 
 ![](./media/image43.png)
 
 ![](./media/image44.png)
 
-8.  各入力に以下の値を指定します。
+8.  Proporcione los siguientes valores para cada entrada.
 
-**Location** – 前の演習で保存した Contoso サイトの URL。
+**Location** – La dirección URL del sitio de Contoso que guardó en el
+ejercicio anterior.
 
 Document Library – +++**Documents**+++
 
@@ -260,72 +271,73 @@ Table – +++**Candidates_Table**+++
 
 ![](./media/image47.png)
 
-9.  すべての更新が完了したら、\[**Save**\] を選択します。
+9.  Una vez que se hayan realizado todas las actualizaciones, seleccione
+    **Save**.
 
 ![](./media/image48.png)
 
 ![](./media/image49.png)
 
-10. \[ **Publish\]** を選択して、エージェントを発行します。
+10. Seleccione **Publish** para publicar el agente.
 
 ![](./media/image50.png)
 
-11. もう一度 \[**Publish**\] **を選択します** 。
+11. Seleccione **Publish** de nuevo.
 
 ![](./media/image51.png)
 
-12. URLを**コピ**ーして**、**ブラウザから**開きます。**
+12. **Copie** el url y **ábralo** desde un navegador.
 
 ![](./media/image52.png)
 
-13. 今回は、すでに追加されているため、**Update
-    nowオプションが表示されます** 。それを選択します。
+13. Esta vez, dará una opción para **Update now** ya que ya está
+    agregado. Selecciónalo.
 
 ![](./media/image53.png)
 
-14. 更新したら**、\[Open**\] を選択します。
+14. Seleccione **Open** una vez que se actualiza.
 
 ![](./media/image54.png)
 
-15. エージェントHRエージェント画面で、以下のメッセージを送信します。
+15. En la pantalla del agente de Agentic HR, envíe el siguiente mensaje.
 
-> +++Show me a list of candidates for HR with role “HR Director” or ”HR
-> Manager”+++
++++Show me a list of candidates for HR with role “HR Director” or ”HR
+Manager”+++
 
 ![](./media/image55.png)
 
-16. 「Agent HR と共有されるデータ」メッセージで、「 **Allow once」**
-    オプションを選択します。
+16. En el mensaje Data to be shared with Agentic HR, seleccione la
+    opción **Allow once**.
 
 ![](./media/image56.png)
 
-17. サインインを求められた場合は、 **\[Sign in to Agentic HR**\]
-    オプションを選択し、次の画面で **\[Connect**\] を選択します。
+17. Si le pide que inicie sesión, seleccione la opción **Sign in to
+    Agentic HR** y seleccione **Connect** en la siguiente pantalla.
 
 ![](./media/image57.png)
 
 ![](./media/image58.png)
 
-18. 接続したら\[**Submit\]** を選択します。
+18. Seleccione **Submit** una vez conectado.
 
 ![](./media/image59.png)
 
 ![](./media/image60.png)
 
-19. 次に、次のメッセージをエージェントに再送信します。
+19. Ahora, vuelva a enviar el siguiente mensaje al agente.
 
-> +++Show me a list of candidates for HR with role “HR Director” or ”HR
-> Manager”+++
++++Show me a list of candidates for HR with role “HR Director” or ”HR
+Manager”+++
 
 ![](./media/image61.png)
 
-20. その後、リクエストされたリストを受け取ります
+20. A continuación, recibirá la lista solicitada
 
 ![](./media/image62.png)
 
 ![](./media/image63.png)
 
-## 概要
+## Resumen
 
-このラボでは、Copilot Studio でカスタム
-コネクタを使用する方法を学びました。
+En este laboratorio, ha aprendido con éxito cómo usar conectores
+personalizados en Copilot Studio.
