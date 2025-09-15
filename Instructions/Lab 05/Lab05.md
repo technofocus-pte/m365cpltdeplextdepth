@@ -1,5 +1,4 @@
-**Laboratorio 05: Empodere la colaboración de equipos y creación del
-contenido con Copilot Pages**
+# Laboratorio 05: Empodere la colaboración de equipos y creación del contenido con Copilot Pages
 
 **Objetivos:**
 
