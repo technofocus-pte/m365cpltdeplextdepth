@@ -1,266 +1,291 @@
-# 실습 05: Copilot Pages를 사용하여 팀 협업 및 콘텐츠 생성 강화함
+# Laboratório 05: Fortaleça a colaboração da equipe e a criação de conteúdo com as páginas do Copilot
 
-**목표:**
+**Objetivos:**
 
-이 실습에서는 **Microsoft 365 앱** 내에서 Microsoft 365 Copilot을
-사용하여 다음을 수행합니다:
+Neste laboratório, você usará o Microsoft 365 Copilot no **Microsoft 365
+Apps** para
 
-- 콘텐츠를 생성하고 편집합니다.
+- Gerar e editar conteúdo.
 
-- **Microsoft 365 Copilot Pages** 기능을 사용하여 생성된 콘텐츠를 다듬고
-  향상시킵니다.
+- Refinar e aprimorar o conteúdo gerado usando os recursos da página
+  **Microsoft 365 Copilot**.
 
-- **Microsoft 365 Copilot Pages**에서 팀과 공유하고 공동 작업하여 원활한
-  생산성을 확보합니다.
+- Compartilhar e colaborar em **páginas do Microsoft 365 Copilot** com
+  uma equipe para uma produtividade contínua.
 
-- **Microsoft 365 Copilot의 Pages** 모듈에서 페이지에 다시 액세스하고
-  관리할 수 있습니다.
+- Reacessar e gerenciar páginas a partir do módulo Pages no **Microsoft
+  365 Copilot.**
 
-**시나리오:** Fabrikam의 IT 컨설팅 팀에 소속되어 있습니다. 빠르게
-성장하는 제약 연구 기업인 Trey Research는 직원과 파트너의 안전한 원격
-액세스를 개선하기 위해 가상 사설망(VPN) 구축에 대한 지침을 요청했습니다.
-Trey Research는 전 세계적으로 사업을 운영하고 있으며, 민감한 연구
-데이터를 보호하는 동시에 업계 규정을 준수하는 확장 가능한 솔루션을
-필요로 합니다.
+**Cenário**: Você faz parte da equipe de consultoria de TI da Fabrikam.
+A Trey Research, uma empresa de pesquisa farmacêutica em rápido
+crescimento, solicitou orientação sobre a implementação de uma Virtual
+Private Network (VPN) para melhorar o acesso remoto seguro para seus
+funcionários e parceiros. A Trey Research opera globalmente e precisa de
+soluções escaláveis que protejam dados de pesquisa confidenciais e, ao
+mesmo tempo, garantam a conformidade com as regulamentações do setor.
 
-여러분의 임무는 Trey Research의 VPN 요구 사항, 잠재적 솔루션, 그리고
-Contoso에서 권장하는 VPN 아키텍처 도입의 주요 이점을 요약한 개요 문서를
-작성하는 것입니다.
+Sua tarefa é entregar um Documento de Visão Geral Executiva resumindo os
+requisitos de VPN da Trey Research, possíveis soluções e principais
+benefícios de adoção da arquitetura de VPN recomendada pela Contoso.
 
-**실습에서 살펴볼 주요 기능:**
+**Principais recursos a serem explorados durante o laboratório:**
 
-- **영구 콘텐츠:** Copilot Pages를 통해 AI가 생성한 응답의 지속성과
-  편집성을 높이는 방법을 알아보기
+- **Conteúdo persistente**: Entenda como as páginas do Copilot tornam
+  respostas geradas por AI mais resistentes e editáveis.
 
-- **공동 편집**: 팀원들이 콘텐츠와 상호 작용할 때 실시간으로 변경되는
-  내용을 확인하여 멀티플레이어 기능을 시연해 보기
+- **Edição colaborativa**: Observe mudanças em tempo real conforme os
+  membros da equipe interagem com o conteúdo, demonstrando as
+  capacidades colaborativas.
 
-- **"/" 메뉴를 사용한 콘텐츠 구조화**: **"/" 메뉴**를 사용하여 제목, 표,
-  이미지 등 다양한 콘텐츠 유형을 추가하여 문서를 효과적으로 구성할 수
-  있습니다.
+- **Estruturação de conteúdo com menu "/"**: use o **menu "/"** para
+  adicionar diferentes tipos de conteúdo, como títulos, tabelas e
+  imagens, ajudando a estruturar o documento de forma eficaz.
 
-**참고**: Trey Research에서 공유한 **Trey Research - VPN 기술 개요**
-문서를 참고 문서로 사용하게 됩니다.
+**Observação**: Você usará o documento **Trey Research - VPN Technical
+Overview** como um documento de referência compartilhado pela Trey
+Research.
 
-**연습 \#1: Copilot 페이지 만들기**
+**Exercício nº 1: Criar uma página do Copilot**
 
-Trey Research에서 공유한 참고 문서에는 Trey Research의 운영, 기존 IT
-인프라 및 VPN 요구 사항에 대한 주요 정보가 포함되어 있습니다. 인프라
-솔루션 컨설턴트로서 제안서 초안 작성 시 이 문서를 참조하게 됩니다.
+O documento de referência compartilhado pela Trey Research contém
+informações importantes sobre as operações da Trey Research, a
+infraestrutura de TI existente e as necessidades de VPN. Como consultor
+de soluções de infraestrutura, você consultará este documento para
+redigir a proposta.
 
-**작업 1: 가장 최근에 사용된(MRU) 파일 목록에 나열된 참조 문서를
-가져오기**
+**Tarefa 1: Obtenha o documento de referência listado na lista de
+arquivos Most Recently Used (MRU).**
 
-1.  Microsoft Edge 브라우저에 Microsoft 365 Copilot 앱 페이지가 있으면
-    지금 선택하세요. 그렇지 않은 경우 새 탭을 열고 다음 URL을 입합니다.
-    +++<https://m365.cloud.microsoft>+++ Microsoft 365 Copilot 앱
-    홈페이지로 이동합니다.
+1.  Se você tiver uma página do aplicativo Microsoft 365 Copilot no seu
+    navegador Microsoft Edge, selecione-a agora; caso contrário, abra
+    uma nova aba e insira a seguinte URL:
+    +++<https://m365.cloud.microsoft>+++ para acessar a página inicial
+    do aplicativo Microsoft 365 Copilot.
 
-**참고**: 오른쪽 **리소스** 탭에 제공된 **Microsoft 365 자격 증명**을
-사용하여 로그인해야 합니다(메시지가 표시되면).
+**Observação**: Você precisa entrar (se solicitado) usando **Microsoft
+365 Credentials** fornecidas na aba **Resources** à direita.
 
-2.  **Apps**을 선택하고 **OneDrive**를 클릭하여 엽니다.
+2.  Selecione **Apps** e clique em **OneDrive** para abri-lo.
 
 ![](./media/image1.png)
 
-3.  **C:\LabFiles\MS4019** 폴더로 이동하여 **Trey Research - VPN 기술
-    개요** 문서 사본을 선택하고 **OneDrive**에 업로드합니다.
+3.  Navegue até a pasta **C:\LabFiles\MS4019** para selecionar e
+    carregar uma cópia do documento **Trey Research - VPN Technical
+    Overview** para o **OneDrive**.
 
-**참고**: **실습 실행 준비 섹션**의 제안대로 모든 실습 자산을 OneDrive에
-이미 업로드한 경우 이 단계를 건너뛸 수 있습니다.
+**Observação**: Se você já tiver carregado todos os ativos do
+laboratório no **OneDrive**, conforme sugerido na seção **Preparing for
+the lab execution,** você pode pular esta etapa.
 
-4.  OneDrive에 업로드한 **Trey Research -** **VPN Technical
-    Overview.docx**  파일을 열었다가 닫아 최근에 사용한 파일(MRU) 목록에
-    추가합니다.
+4.  Abra e feche o arquivo **Trey Research - VPN Technical
+    Overview.docx** (que você carregou no OneDrive) para colocá-lo na
+    lista de arquivos Most Recently Used (MRU).
 
-**작업 2: Copilot에 접속하여 대화 시작하기**
+**Tarefa 2: Acesse o Copilot e inicie uma conversa**
 
-1.  Microsoft Edge 브라우저에 Microsoft 365 Copilot 앱 페이지가 있으면
-    지금 선택하세요. 그렇지 않은 경우 새 탭을 열고 다음 URL을
-    입력합니다.+++
+1.  Se você tiver uma página do aplicativo Microsoft 365 Copilot no seu
+    navegador Microsoft Edge, selecione-a agora; caso contrário, abra
+    uma nova aba e insira a seguinte URL:+++
     [https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/)
-    Microsoft 365 Copilot 앱 홈페이지로 이동합니다.
+    para acessar a página inicial do aplicativo Microsoft 365 Copilot.
 
-2.  **Apps**을 선택하고 **Teams**를 클릭하여 엽니다.
+2.  Selecione **Apps** e clique em **Teams** para abri-lo.
 
 ![](./media/image2.png)
 
-설치 과정이 완료될 때까지 기다려 주세요.
+Aguarde enquanto o processo de configuração é concluído.
 
-3.  **Chat**을 선택하고 **Copilot**을 엽니다.
+3.  Selecione **Chat** e abra o **Copilot**
 
 ![](./media/image3.png)
 
-4.  다음 프롬프트를 입력하여 **Copilot**과 채팅을 시작합니다.
+4.  Inicie um chat com o **Copilot** digitando o seguinte prompt.
 
 ++Create a summary of the key VPN needs for Trey Research, focusing on
 secure remote access and compliance with industry standards.++
 
-참고: **Copilot** 페이지에서 페이지 상단의 **Work/Web**  토글 스위치를
-누르면 기본적으로 **Work** 가 선택됩니다.
+Observação: Na página **Copilot**, no botão de alternância **Work/Web**
+na parte superior da página, **Work** será selecionado por padrão.
 
 ![](./media/image4.png)
 
-5.  이제 Trey Research에서 공유한 참고 문서를 첨부하여 요약문 내용 초안
-    작성을 시작합니다. **Attach** (종이 클립) 아이콘을 선택하여 문서를
-    참조합니다.
+5.  Agora, você anexará o documento de referência compartilhado pela
+    Trey Research para começar a redigir o conteúdo do Resumo Executivo.
+    Selecione o ícone **Attach** (clipe de papel) para referenciar o
+    documento.
 
 ![](./media/image5.png)
 
-6.  **Trey Research – VPN Technical Overview** 문서를 선택합니다.
+6.  Selecione o documento **Trey Research – VPN Technical Overview.**
 
 ![](./media/image6.png)
 
-**참고**: 파일이 팝업 목록에 없으면 **Attach** 아이콘을 선택하여 다시
-시도해 보세요.
+**Observação:** Se o arquivo não estiver listado na lista pop-up, tente
+novamente selecionando o ícone **Attach**
 
-7.  선택한 문서가 **Prompt**상자에 첨부되어 표시됩니다. **Send**아이콘을
-    클릭하면 Copilot이 콘텐츠 생성을 시작합니다.
+7.  Você verá o documento selecionado anexado na caixa **Prompt**.
+    Clique no ícone **Send** para que o Copilot comece a gerar o
+    conteúdo.
 
 ![](./media/image7.png)
 
-8.  Copilot은 참조 문서를 꼼꼼히 살펴보고 콘텐츠 생성을 시작합니다.
+8.  O Copilot analisará o documento de referência e começará a gerar o
+    conteúdo.
 
 ![](./media/image8.png)
 
 ![](./media/image9.png)
 
-9.  Copilot이 초안 콘텐츠 생성을 완료하면 생성된 콘텐츠의 끝에 **Edit in
-    Pages**버튼이 표시됩니다.
+9.  Quando o Copilot terminar de gerar o rascunho do conteúdo, você verá
+    o botão **Edit in Pages** no final do conteúdo gerado.
 
 ![](./media/image10.png)
 
-10. 이 새로운 **Copilot Page** 에 대한 참조가 채팅에 자동으로 추가되어
-    쉽게 접근할 수 있습니다.
+10. Uma referência a esta nova **página do Copilot** é adicionada
+    automaticamente no chat para facilitar o acesso.
 
 ![](./media/image11.png)
 
-**작업 3: 페이지 기능 살펴보기**
+**Tarefa 3: Explorar recursos da página**
 
-1.  필요에 따라 채팅 이름을 변경할 수 있습니다.
+1.  Você pode renomear o chat conforme desejar.
 
 ![](./media/image12.png)
 
-**참고**: copilot 채팅 이름은 30자를 넘을 수 없습니다.
+**Observação**: O nome do chat do copilot não pode ter mais de 30
+caracteres.
 
 ![](./media/image13.png)
 
-2.  **Panel** (축소/확장) 아이콘을 클릭하면 Copilot 채팅 창을 확장하여
-    별도의 섹션에서 콘텐츠를 볼 수 있는 공간을 확보할 수 있습니다.
-    페이지가 오른쪽에 채팅 창과 나란히 열리는지 확인합니다. 링크
-    미리보기나 코드 블록을 포함하여 응답이 자동으로 복사되고 서식이
-    지정됩니다.
+2.  Você pode clicar no ícone **Painel** (Recolher/Expandir) para
+    expandir o painel de chat do Copilot e abrir espaço para visualizar
+    o conteúdo em uma seção separada. Verifique se a página abre à
+    direita, lado a lado com o painel do chat. A resposta é copiada e
+    formatada automaticamente, incluindo quaisquer pré-visualizações de
+    links ou ou bloqueio de código.
 
 ![](./media/image14.png)
 
-3.  **Edit in Pages** 버튼을 클릭하면 오른쪽의 별도 섹션에서 생성된
-    콘텐츠를 볼 수 있습니다.
+3.  Clique no botão **Edit in Pages** para visualizar o conteúdo gerado
+    em uma seção separada à direita.
 
 ![](./media/image15.png)
 
 ![](./media/image16.png)
 
-**연습 \#2: 페이지에 콘텐츠 추가 및 수정하기**
+**Exercício nº 2: Adicionar e refinar o conteúdo da página**
 
-이 연습에서는 채팅에서 Copilot과 계속 소통합니다. 새로운 인사이트가
-생성되면 **Edit in Pages**을 클릭하여 현재 페이지에 추가합니다. 이러한
-업데이트는 페이지 하단(채팅 창 오른쪽에 표시됨)에 추가됩니다.
+Neste exercício, você continuará interagindo com o Copilot no chat.
+Quando novos insights forem gerados, clique em **Edit in Pages** para
+adicioná-los à página atual. Essas atualizações serão anexadas à parte
+inferior da página (que você está visualizando no lado direito do painel
+de chat).
 
-**작업 1: 채팅에서 대화 계속하기**
+**Tarefa 1: Continue a conversa no chat**
 
-1.  채팅 창에서 내용을 다듬기 위한 추가 지침을 제공합니다. 이제
-    Copilot에게 Trey Research의 요구 사항과 관련하여 장단점을 중심으로
-    세 가지 VPN 기술을 비교해 달라고 요청합니다. 다음 프롬프트를
-    입력하고 **Send**를 클릭합니다.
+1.  Na janela do chat, forneça mais instruções para refinar o conteúdo.
+    Agora, você pedirá ao Copilot para comparar três tecnologias de VPN,
+    com foco em seus prós e contras em relação às necessidades da Trey
+    Research. Digite o seguinte prompt e clique em **Send.**
 
 ++Compare three VPN technologies based on scalability, security, and
 cost-effectiveness.++
 
-![](./media/image17.png) **참고:**
-다음 프롬프트를 통해서도 시도할 수 있습니다.
+![](./media/image17.png)
+
+**Observação:**
+Você também pode tentar com o seguinte prompt.
 
 ++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
 VPN, IPsec VPN) based on scalability, security features, ease of
 deployment, and cost.++
 
-2.  Copilot은 비교 세부 정보를 통해 새로운 통찰력을
-    생성합니다.![](./media/image18.png)
+2.  O Copilot gerará novos insights com os detalhes da
+    comparação.![](./media/image18.png)
 
 ![](./media/image19.png)
 
-3.  **Edit in Pages** 을 클릭하여 이 비교 세부 정보를 기존 페이지에
-    추가합니다.![](./media/image20.png)
+3.  Clique em **Edit in Pages** para anexar esses detalhes de comparação
+    à página
+    existente.![](./media/image20.png)
 
-**작업 2: 페이지에서 직접 편집하기**
+**Tarefa 2: Editar diretamente na página**
 
-1.  페이지의 아무 곳이나 클릭하여 콘텐츠를 입력하고 수정하세요. "/"를
-    입력하면 제목, 글머리 기호, 표, 이미지 등 콘텐츠 옵션 메뉴가 열려
-    더욱 체계적이고 매력적인 레이아웃을 만들 수
-    있습니다. ![](./media/image21.png)
+1.  Clique em qualquer lugar da página para começar a digitar e
+    aprimorar o conteúdo. Digite **"/"** para abrir um menu de opções de
+    conteúdo, como títulos, marcadores, tabelas ou imagens, para um
+    layout mais estruturado e
+    envolvente.![](./media/image21.png)
 
-2.  콘텐츠 블록 위에 마우스를 올려놓고 케밥 메뉴(꼬치에 꽂힌 물건과
-    비슷한 모양의 평행한 3개의 수직 점)를 선택하면 opy Page link, Move
-    block, Delete 옵션이
-    표시됩니다.![](./media/image22.png)
+2.  Passe o mouse sobre um bloco de conteúdo e selecione o menu Kebab
+    (menu de três pontos verticais em uma matriz paralela – semelhante a
+    um item espetado) para ver as opções **Copy Page link, Move block,**
+    e
+    **Delete**.![](./media/image22.png)
 
-**작업 3: 팀원과 협업하기**
+**Tarefa 3: Colaborar com os membros da equipe**
 
-1.  팀원들이 페이지를 사용할 준비가 되면 오른쪽 상단의 **Share icon** 을
-    클릭하고 **Copy component**를 선택합니다.
+1.  Quando sua página estiver pronta para a contribuição da equipe,
+    clique no **ícone Share** no canto superior direito e selecione
+    **‘Copy component’**.
 
 ![](./media/image23.png)
 
-2.  이 링크를 **Teams channel** 이나 **Outlook** 이메일에 붙여넣으면 팀
-    구성원이 페이지에 접근하여 협업할 수 있습니다.
+2.  Cole este link em um **Teams channel** ou em um e-mail do
+    **Outlook**, permitindo que os membros da equipe acessem a página e
+    colaborem com você.
 
-**참고:** 이 실습 환경은 기능이 제한되어 배포됩니다. 따라서 회사
-네트워크에서 일반적으로 사용하는 Teams와 Outlook을 공동 작업 방식으로
-사용할 수 없습니다.
+**Observação**: Este ambiente de laboratório é implementado com
+funcionalidades restritas. Portanto, você não poderá usar o Teams e o
+Outlook de forma colaborativa, como faria em uma rede corporativa.
 
-**연습 \#3: 저장된 페이지 다시 보기 및 액세스**
+**Exercício nº 3: Revisitando e acessando páginas salvas**
 
-언제든지 Copilot 페이지 링크가 처음 생성된 원래 채팅 메시지로 돌아갈 수
-있습니다.
+A qualquer momento, você pode voltar para a mensagem de chat original
+onde o link da página do Copilot foi criado pela primeira vez.
 
-**작업 1: Microsoft365.com에서 페이지 찾기**
+**Tarefa 1: Localize sua página no Microsoft365.com**
 
-1.  **Microsoft365.com**의 **Pages** 탭으로 이동합니다.
+1.  Acesse a aba **Páginas** em **Microsoft365.com**.
 
 ![](./media/image24.png)
 
-2.  여기에서는 여러분이 만든 모든 **Copilot Pages** 가 쉽게 접근할 수
-    있도록 정리되어
-    표시됩니다.![](./media/image25.png)
+2.  Aqui, você verá todas as **Páginas do Copilot** que você criou,
+    organizadas para fácil
+    acesso.![](./media/image25.png)
 
-**작업 2: 추가 편집 또는 업데이트 공유하기**
+**Tarefa 2: Faça edições adicionais ou compartilhe atualizações**
 
-저장된 페이지를 열어 추가 편집, 업데이트 추가 또는 페이지 링크를 다시
-공유하여 새 팀원 또는 기존 팀원과 지속적인 협업을 진행할 수 있습니다.
+Abra a página salva para fazer mais edições, adicionar atualizações ou
+compartilhar novamente o link da página para colaboração contínua com
+membros novos ou existentes da equipe.
 
-1.  텍스트 콘텐츠 위에 마우스를 올리면 **Kebab** 메뉴와 **Chat**
-    아이콘이 표시됩니다.
+1.  Ao passar o cursor sobre o conteúdo textual, você verá o menu
+    **Kebab** e o ícone **Chat**.
 
 ![](./media/image26.png)
 
-2.  이제 페이지를 직접 편집하세요. 페이지를 클릭하고 콘텐츠를 추가하거나
-    변경하려면 입력하세요. 이제 다음 프롬프트(VPN 도입률 차트 삽입)를
-    입력하고 **Send**를 클릭합니다.
+2.  Agora edite a página diretamente. Clique na página e digite para
+    adicionar ou alterar o conteúdo. Agora, você deverá inserir o
+    seguinte prompt (para inserir um gráfico representando as taxas de
+    adoção de VPN) e clicar em **Send**.
 
 ++Insert a chart showing VPN adoption rates in pharmaceutical
 industries.++
 
 ![](./media/image27.png)
 
-3.  Copilot은 코드 조각을 사용하여 차트를 생성하고 표시합니다.
+3.  O Copilot irá gerar e exibir o gráfico com o trecho de código.
 
 ![](./media/image28.png)
 
-4.  **Copilot chat**  창을 닫고 **Preview**를 선택하여 계속 진행합니다.
-    ![](./media/image29.png)
+4.  Feche a janela **Copilot chat** e selecione **Preview** para
+    prosseguir.![](./media/image29.png)
 
-5.  이제 Trey Research Leadership 팀에 제출할 초안을 완성합니다.
+5.  Agora você finalizará o rascunho para deixá-lo pronto para a equipe
+    de liderança da Trey Research.
 
-다음 프롬프트를 사용하여 문서를 완성합니다.
+Você usará o seguinte prompt para finalizar o documento.
 
 ++Format the executive summary to highlight the top three benefits of
 Contoso’s VPN recommendation.++
@@ -269,13 +294,19 @@ Contoso’s VPN recommendation.++
 
 ![](./media/image31.png)
 
-6.  모든 편집을 완료하고 프레젠테이션이나 공유를 위해 적절한 이름으로
-    페이지를 저장합니다.
+6.  Você garantirá que todas as edições sejam concluídas e salvará a
+    página com um nome apropriado, pronta para apresentação ou
+    compartilhamento.
 
-**요약:**
+**Resumo:**
 
-이 실습에서는 다음 기술을 적용했습니다:
+Neste laboratório, você aplicou as seguintes habilidades:
 
-- Copilot을 사용하여 콘텐츠를 효과적으로 만들고, 수정하고, 공유합니다.
+- Usou o Copilot para criar, aprimorar e compartilhar conteúdo de forma
+  eficaz.
 
-- M365 Pages의 대화형 및 협업 기능을 활용하여 팀워크를 강화합니다.
+- Utilizou os recursos interativos e colaborativos do M365 Pages para
+  melhorar o trabalho em equipe.
+
+Para cenários do mundo real integrando o Microsoft 365 Copilot aos
+fluxos de trabalho diários para produtividade e colaboração.
