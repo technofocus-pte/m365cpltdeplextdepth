@@ -1,54 +1,59 @@
-# 랩 01 - Microsoft 365 Copilot Chat을 사용하여 이벤트 계획 추진
+# Laboratório 01 - Impulsione o planejamento de eventos com o Microsoft 365 Copilot Chat
 
-**목표:**
+**Objetivo:**
 
-글로벌 소비재 유통업체인 Contoso Shoppee의 이벤트 기획 컨설턴트로 일하고
-계십니다. 그들은 다가오는 디지털 솔루션을 선보이고, 고객 충성도를
-높이고, 주요 고객으로부터 전략적 의견을 수집하기 위해 영향력이 큰
-클라이언트 혁신 서밋을 주최할 계획입니다.
+Você é consultor de planejamento de eventos na Contoso Shoppee — uma
+distribuidora global de bens de consumo. Eles planejam realizar um
+Evento de Inovação com Clientes de alto impacto para apresentar as
+próximas soluções digitais, fidelizar clientes e coletar informações
+estratégicas de clientes importantes.
 
-이 랩에서는 웹 모드에서 Microsoft 365 Copilot 채팅을 사용하여 다음을
-수행합니다:
+Neste laboratório, você usará o Microsoft 365 Copilot Chat no modo web
+para:
 
-- 시장 동향 조사
+- Pesquisar tendências de mercado
 
-- 서밋 세션 브레인스토밍
+- Realizar um brainstorming sobre as sessões do evento
 
-- 시각 자료 및 문서 제작
+- Criar materiais visuais e documentação
 
-- 기획 브리핑 초안 작성
+- Elaborar um resumo de planejamento:
 
-- 공동으로 문서 업로드 및 수정
+- Carregar e aprimorar documentos de forma colaborativa
 
-**연습 1: 2025년 시장 동향 조사하기\*\***
+**Exercício 1: Pesquise tendências de mercado para 2025\*\***
 
-이 연습에서는 2025년 혁신 트렌드와 관련된 서밋 콘텐츠를 기반으로 삼게
-됩니다. Microsoft 365 Copilot Chat을 웹 모드로 사용하게 됩니다.
+Neste exercício, você fundamentará o conteúdo do evento relevante para
+as tendências de inovação de 2025. Você usará o Microsoft 365 Copilot
+Chat no modo web.
 
-1.  Microsoft Edge 브라우저를 열고 다음 URL을 입력하세요:
+1.  Abra um navegador Microsoft Edge e insira a seguinte URL:
     +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/)
-    **Microsoft 365 Copilot 앱**(이전 Office) 홈페이지로 이동합니다.
+    para acessar a página inicial **Microsoft 365 Copilot app** (antigo
+    Office).
 
-**참고**: 오른쪽 **리소스** 탭에 제공된 자격 증명을 사용하여 로그인해야
-합니다(메시지가 표시되면).
+**Observação**: Você precisa fazer login (se solicitado) usando as
+**credentials** fornecidas na aba **Resources** à direita.
 
-2.  **Copilot Chat** 페이지가 열립니다.
+2.  A página **Copilot Chat** será aberta.
 
-3.  어떤 이유로든 **Something went wrong”**라는 메시지가 나타나면 "
-    **Try again**  "를 두 번 클릭하여 Copilot Chat을 엽니다.
+3.  Se, por algum motivo, a mensagem “**Something went wrong”**
+    aparecer, clique em **Try again** (duas vezes) para abrir o Copilot
+    Chat.
 
 ![](./media/image1.png)
 
-**참고**: 이 랩을 실행할 때 Copilot Chat 사용자 인터페이스가 다르게 보일
-수 있습니다(Microsoft에서 Microsoft Build-2025 이벤트의 일환으로 UI
-변경과 함께 새로운 기능 및 업데이트된 기능을 출시했기 때문입니다).
+**Observação**: A interface do usuário do Copilot Chat pode parecer
+diferente quando você estiver executando este laboratório (já que a
+Microsoft lançou recursos novos e atualizados junto com alterações na
+interface do usuário como parte do evento Microsoft Build-2025).
 
 ![](./media/image2.png)
 
 ![](./media/image3.png)
 
-4.  이 연습에서는 다음 프롬프트를 입력하고 **Submit**화살표를
-    클릭합니다.
+4.  Neste exercício, você digitará o seguinte prompt e clicará na seta
+    **Submit**.
 
 ++What are the top three innovation trends in the consumer goods
 industry for 2025, and how can these shape the agenda for a client
@@ -56,37 +61,39 @@ innovation summit?++
 
 ![](./media/image4.png)
 
-5.  “AI in Supply Chain,” “Sustainable Packaging,” and
-    “Hyper-personalized Customer Experience.”등 세 가지 트렌드에 대한
-    짧고 통찰력 있는 요약이 포함된 Copilot 출력이 표시됩니다.
+5.  Você verá a saída do Copilot com um resumo curto e perspicaz de três
+    tendências, por exemplo, “AI in Supply Chain,” “Sustainable
+    Packaging,” e “Hyper-personalized Customer Experience.”
 
 ![](./media/image5.png)
 
 ![](./media/image6.png)
 
-이제 2025년 시장 트렌드 조사를 완료했습니다. 이제 이러한 트렌드를
-C-suite와 고객 혁신 팀 모두에게 공감을 불러일으키는 매력적인 이벤트
-아젠다로 만들어 보겠습니다.
+Você concluiu sua pesquisa sobre as tendências de mercado para 2025. Em
+seguida, você transformará essas tendências em uma agenda de eventos
+atraente que repercutirá tanto na alta gerência quanto nas equipes de
+inovação do cliente.
 
-**연습 2: 세션 아이디어 브레인스토밍 및 초안 작성**
+**Exercício 2: Faça um brainstorming e elabore ideias para a sessão**
 
-이 연습에서는 이전 연습에서 생성된 트렌드를 기반으로 매력적인 이벤트
-아젠다를 작성합니다.
+Neste exercício, você criará uma agenda de evento atrativa com base nas
+tendências geradas no exercício anterior.
 
-1.  먼저 트렌드를 기반으로 세션 제목과 설명을 작성합니다. 다음
-    프롬프트를 사용하여 Submit을 클릭합니다.
+1.  Para começar, você criará títulos e descrições para as sessões com
+    base nas tendências. Use o prompt a seguir e clique em **Submit.**
 
 ++Based on these trends, suggest 5 session titles and short, energizing
 descriptions for a 1-day innovation summit++
 
 ![](./media/image7.png)
 
-2.  Copilot은 아래와 같이 세션 제목과 설명을 생성합니다.
+2.  O Copilot gerará os títulos e descrições das sessões conforme
+    mostrado abaixo.
 
 ![](./media/image8.png)
 
-3.  이제 설명을 더욱 매력적으로 만들 수 있습니다. 다음 프롬프트를
-    사용하고 Submit을 클릭합니다.
+3.  Agora você tornará as descrições mais envolventes. Use o prompt a
+    seguir e clique em **Submit**.
 
 ++Make these descriptions more engaging using an energetic, professional
 tone.++
@@ -97,52 +104,57 @@ tone.++
 
 ![](./media/image11.png)
 
-다음으로 Copilot Chat을 사용하여 타임라인과 로고가 포함된 일정을
-만듭니다.
+Em seguida, você usará o Copilot Chat para criar a agenda com cronograma
+e logotipo.
 
-**연습 3: 일정 타임라인 및 로고 만들기**
+**Exercício 3: Criar cronograma de agenda e logotipo**
 
-이 연습에서는 일정에 시간대를 추가하여 행사일을 더욱 풍성하게 하고, 서밋
-유인물을 위한 간단한 시각적 정체성을 만들어 보겠습니다.
+Neste exercício, você enriquecerá a agenda adicionando o dia do evento
+com intervalos de tempo e criará uma identidade visual simples para os
+folhetos do evento.
 
-1.  먼저 시간별 일정을 만듭니다. 다음 프롬프트를 사용하여 Submit을
-    클릭합니다.
+1.  Para começar, você criará uma agenda cronometrada. Use o prompt a
+    seguir e clique em **Submit**.
 
 ++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30
 PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.++
 
 ![](./media/image12.png)
 
-2.  아래와 같이 전문적으로 구성된 1일 혁신 서밋 일정이 제공됩니다.
+2.  Você receberá uma agenda do evento de inovação de 1 dia estruturada
+    profissionalmente, conforme mostrado abaixo.
 
 ![](./media/image13.png)
 
 ![](./media/image14.png)
 
-3.  이제 관련 로고를 추가합니다. 다음 프롬프트를 사용하고 Submit을
-    클릭합니다.
+3.  Agora você adicionará um logotipo relevante. Use o prompt a seguir e
+    clique em **Submit**.
 
 ++Design a modern logo concept for the Contoso Client Innovation Summit
 2025.++
 
 ![](./media/image15.png)
 
-4.  Copilot이 Microsoft Designer를 사용하여 로고 생성을 시작합니다.
+4.  O Copilot começará a gerar o logotipo com o Microsoft Designer.
 
 ![](./media/image16.png)
 
 ![](./media/image17.png)
 
-생성된 로고를 변형하여 만들어 볼 수도 있습니다.
+Você também pode tentar criar uma variação do logotipo gerado.
 
-다음으로, 이전 연습의 결과를 모두 결합하여 계획 개요를 작성합니다.
+Em seguida, você compilará um resumo de planejamento: combinando os
+resultados de todos os exercícios anteriores.
 
-**연습 4: 계획 문서 초안 작성하기**
+**Exercício 4: Rascunho do Documento de Planejamento**
 
-이 연습에서는 이전 연습에서 생성된 모든 결과를 결합합니다.
+Neste exercício, você combinará todas as saídas geradas nos exercícios
+anteriores.
 
-1.  이제 이전 연습에서 생성된 결과를 결합하여 1페이지 분량의 계획 개요를
-    작성합니다. 다음 프롬프트를 사용하고 Submit을 클릭합니다..
+1.  Agora, você começará a compilar um resumo de planejamento: de uma
+    página, combinando os resultados gerados nos exercícios anteriores.
+    Use o prompt a seguir e clique em **Submit**.
 
 ++Create a 1-page planning brief for the Contoso Client Innovation
 Summit including: objectives, audience, session themes, and planning
@@ -150,26 +162,27 @@ milestones.++
 
 ![](./media/image18.png)
 
-2.  이제 조종사가 생성한 컴파일된 출력을 볼 수 있습니다.
-    Copilot. ![](./media/image19.png)
+2.  Agora você verá a saída compilada gerada pelo
+    Copilot.![](./media/image19.png)
 
 ![](./media/image20.png)
 
-3.  이제 컴파일된 출력을 다운로드하여 볼 수 있습니다.
+3.  Agora você pode baixar e visualizar a saída compilada.
 
 ![](./media/image21.png)
 
 ![](./media/image22.png)
 
-4.  다음으로, 계획 브리핑 문서 초안에 성공 지표와 예상 결과를
-    추가합니다. 다음 프롬프트를 사용하여 Submit을 클릭합니다.
+4.  Em seguida, você adicionará métricas de sucesso e resultados
+    esperados ao rascunho do documento de resumo de planejamento:. Use o
+    prompt a seguir e clique em **Submit**.
 
 ++Add success metrics and expected outcomes.++
 
 ![](./media/image23.png)
 
-5.  업데이트된 계획 간략 설명서가 생성되면 업데이트된 문서를
-    다운로드하여 볼 수 있습니다.
+5.  Depois que o resumo de planejamento: atualizado for gerado, você
+    poderá baixar e visualizar o documento atualizado.
 
 ![](./media/image24.png)
 
@@ -177,44 +190,47 @@ milestones.++
 
 ![](./media/image26.png)
 
-6.  이제 검토할 전문 계획 문서가 준비되었습니다. 다음 연습에서 이 문서를
-    참고 문서로 사용할 것입니다.
+6.  Agora você tem o documento de planejamento profissional pronto para
+    revisão. Você o usará como documento de referência no próximo
+    exercício.
 
-**연습 5: 계획 업로드 및 개선하기**
+**Exercício 5: Carregar e melhorar o plano**
 
-계획을 리더십에 발표하기 전에, 초안을 기반으로 추가 권장 사항을 제시해야
-합니다.
+Antes de apresentar o plano à liderança, você deve fornecer
+recomendações adicionais com base no rascunho.
 
-1.  이제 계획 개요 문서를 OneDrive에 업로드하여 참고 문서로 사용할 수
-    있습니다.
+1.  Agora você carregará o documento de resumo do planejamento no
+    OneDrive para usá-lo como documento de referência.
 
-2.  폴더 아이콘을 클릭하여 계획 개요 문서가 **Downloads** 폴더에 있는지
-    확인합니다.
+2.  Clique no ícone da pasta para verificar se o documento de resumo do
+    planejamento está na pasta **Downloads**.
 
 ![](./media/image27.png)
 
-3.  Microsoft 365 Copilot 탐색 창에서 **OneDrive**를 엽니다.
+3.  Abra o **OneDrive** no painel de navegação do Microsoft 365 Copilot.
 
 ![](./media/image28.png)
 
-4.  **My files**  메뉴를 선택하고 **Create or Upload**  버튼을
-    클릭합니다.
+4.  Selecione o menu **My files** e clique no botão **Create or
+    Upload**.
 
 ![](./media/image29.png)
 
-5.  **Files upload** 메뉴를 선택하고 최신 계획 간략 설명서 문서를 찾아
-    OneDrive에 업로드합니다.
+5.  Selecione o menu **Files upload** e localize o documento de resumo
+    de planejamento mais recente e carregue-o no OneDrive.
 
 ![](./media/image30.png)
 
 ![](./media/image31.png)
 
-6.  이제 최신 계획 간략 문서를 OneDrive에 업로드했습니다.
+6.  Você agora carregou o documento mais recente de planejamento no
+    OneDrive.
 
 ![](./media/image32.png)
 
-7.  이제 Copilot을 사용하여 계획 개요 문서를 분석합니다. 다음 프롬프트에
-    따라 OneDrive에 있는 참조 문서를 첨부하고 Submit을 클릭합니다.
+7.  Agora você analisará o documento de resumo do planejamento usando o
+    Copilot. Use o prompt a seguir, anexe o documento de referência (do
+    OneDrive) e clique em **Submit**.
 
 ++Analyze this planning brief and suggest improvements or missing
 elements that could make the event more impactful.++
@@ -227,21 +243,22 @@ elements that could make the event more impactful.++
 
 ![](./media/image36.png)
 
-8.  이제 Copilot에서 생성된 실행 가능한 권장 사항(e.g., add keynote
-    speaker details, customer testimonial opportunities, or
-    sustainability efforts)을 볼 수 있습니다.
+8.  Agora você verá as recomendações acionáveis (por exemplo, adicionar
+    detalhes do palestrante principal, oportunidades de depoimentos de
+    clientes ou iniciativas de sustentabilidade) geradas pelo Copilot.
 
 ![](./media/image37.png)
 
-9.  Copilot에 실행 가능한 권장 사항을 포함하여 계획 간략 문서를
-    업데이트하도록 요청합니다.
+9.  Você pedirá ao Copilot para atualizar o documento de resumo do
+    planejamento com as recomendações acionáveis.
 
 ![](./media/image38.png)
 
 ![](./media/image39.png)
 
-10. Copilot이 실행 가능한 권장 사항을 포함하여 계획 간략 문서 업데이트를
-    마치면 향상된 계획 간략 문서를 다운로드하여 볼 수 있습니다.
+10. Depois que o Copilot terminar de atualizar o documento de resumo de
+    planejamento com as recomendações acionáveis, você poderá baixar e
+    visualizar o documento de resumo de planejamento aprimorado.
 
 ![](./media/image40.png)
 
@@ -249,30 +266,29 @@ elements that could make the event more impactful.++
 
 ![](./media/image42.png)
 
-시도해 보세요:
+Experimente você mesmo:
 
-미리 작성된 프롬프트와 제안된 프롬프트를 활용해 보세요.
+Explore os prompts pré-criados e os prompts sugeridos
 
-- Can you provide a summary of the key changes made?
+- Você pode fornecer um resumo das principais mudanças feitas?
 
-- What are some potential sponsors for this event?
+- Quais são alguns possíveis patrocinadores para este evento?
 
-- Would you like a branded version with your logo and visual design
-  next?
+- Gostaria de uma versão personalizada com seu logotipo e design visual?
 
 ![](./media/image43.png)
 
 ![](./media/image44.png)
 
-**요약**
+**Resumo**
 
-이제 웹 모드에서 Microsoft 365 Copilot Chat을 사용하여 영향력 있는 고객
-서밋을 계획하고 소개하는 작업을 완료했습니다:
+Agora você concluiu o uso do Microsoft 365 Copilot Chat no modo web para
+planejar um evento de cliente de alto impacto, apresentando:
 
-• 실시간 시장 조사
+- Análise de mercado em tempo real
 
-• 창의적인 브레인스토밍
+- Brainstorm criativo
 
-• 공동 문서 작성
+- Desenvolvimento colaborativo de materiais
 
-• AI 지원 계획 및 피드백
+- Planejamento e feedback assistidos por AI
