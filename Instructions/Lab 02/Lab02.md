@@ -29,7 +29,7 @@ Neste exercício, você usará a aba **Describe** no Copilot Studio para
 criar um agente básico.
 
 1.  Abra um navegador Microsoft Edge e insira a seguinte URL:
-    +++[https://m365.cloud.microsoft]+++(https://m365.cloud.microsoft/)
+    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft/)
     para acessar a página inicial **Microsoft 365 Copilot app** (antigo
     Office).
 
@@ -220,4 +220,5 @@ acessibilidade.
 Agora você concluiu a criação de agentes mapeados com diferentes fontes
 de conhecimento e conjuntos de instruções para obter as respostas
 esperadas dos agentes.
+
 
