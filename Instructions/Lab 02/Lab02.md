@@ -79,7 +79,7 @@ create a basic agent.
     incorrect.](./media/image6.png)
 
 8.  You will be prompted to confirm or suggest a name for the agent.
-    Enter “assign the name as ++LearnAssist Buddy++ and then click on
+    Enter ++assign the name as LearnAssist Buddy++ and then click on
     the **Enter** button.
 
     ![A screenshot of a chat AI-generated content may be
