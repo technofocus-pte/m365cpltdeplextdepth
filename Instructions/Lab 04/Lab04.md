@@ -12,6 +12,8 @@ of which can enhance the quality of your work. In this lab, you will
 - Use Copilot in Word to compare three supplier agreements, identify the
   differences, and provide recommended actions.
 
+> **Note:** Copilot is evolving rapidly, and Microsoft is frequently updating its features and interface. As a result, the user interface (UI) you see while performing the lab may look slightly different from the screenshots or steps provided. The core functionality, however, remains the same. If you notice differences, adapt by following the intent of the step rather than the exact UI layout.
+
 ## Exercise 1: Create a market research report using Copilot in Loop
 
 You're the VP of Sales for VanArsdel Ltd, an OEM of plastic components,
@@ -165,6 +167,8 @@ market trend report that your Marketing team created for the product.
 In this exercise you will use Copilot in PowerPoint to create your slide
 presentation based on the information in the **Market Trend Report -
 Protein Shake.docx** file, which you download using the provided link.
+
+> **Note:** Copilot is evolving rapidly, and Microsoft is frequently updating its features and interface. As a result, the user interface (UI) you see while performing the lab may look slightly different from the screenshots or steps provided. The core functionality, however, remains the same. If you notice differences, adapt by following the intent of the step rather than the exact UI layout.
 
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
@@ -414,6 +418,9 @@ In this exercise, you will
 
 - Ask Copilot to provide recommendations for renegotiating each
   agreement.
+
+> **Note:** Copilot is evolving rapidly, and Microsoft is frequently updating its features and interface. As a result, the user interface (UI) you see while performing the lab may look slightly different from the screenshots or steps provided. The core functionality, however, remains the same. If you notice differences, adapt by following the intent of the step rather than the exact UI layout.
+
 
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
