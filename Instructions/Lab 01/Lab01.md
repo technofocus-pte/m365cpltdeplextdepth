@@ -10,7 +10,7 @@ visuals, and develop a planning brief. The lab demonstrates how
 AI-powered tools can streamline research, enhance creativity, and
 simplify document collaboration for impactful event execution.
 
-## Exercise 1: Research market trends for 2025\*\*
+## Exercise 1: Research market trends for 2025
 
 In this exercise you will ground the summit content relevant to 2025
 innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
