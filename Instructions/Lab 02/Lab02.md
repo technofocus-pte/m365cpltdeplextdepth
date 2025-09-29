@@ -29,7 +29,7 @@ In this exercise you will use the Describe tab in Copilot Studio to
 create a basic agent.
 
 1.  Open a Microsoft Edge browser and enter the following URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) to
+    ++https://m365.cloud.microsoft++ to
     go to the **Microsoft 365 Copilot app** (formerly office) home page.
 
     **Note**: You need to sign-in (if prompted) using
@@ -65,8 +65,8 @@ create a basic agent.
     purpose in natural language description and then press **Enter**
     button
 
-    +++**An agent that assists users in finding popular learning paths and
-    modules from Microsoft**+++.
+    ++**An agent that assists users in finding popular learning paths and
+    modules from Microsoft**++.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image5.png)
@@ -79,7 +79,7 @@ create a basic agent.
     incorrect.](./media/image6.png)
 
 8.  You will be prompted to confirm or suggest a name for the agent.
-    Enter “assign the name as +++LearnAssist Buddy+++ and then click on
+    Enter “assign the name as ++LearnAssist Buddy++ and then click on
     the **Enter** button.
 
     ![A screenshot of a chat AI-generated content may be
@@ -121,7 +121,7 @@ you need to define the agent's name, description, and purpose.
     this exercise you will use a website as knowledge source to ground
     the agent responses.
 
-    Populate +++<https://learn.microsoft.com/en-us/training+++> and hit
+    Populate ++<https://learn.microsoft.com/en-us/training++> and hit
     enter.
 
     ![A screenshot of a computer AI-generated content may be

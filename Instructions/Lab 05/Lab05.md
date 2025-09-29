@@ -54,7 +54,7 @@ document to draft the proposal.
 
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
-    following URL: +++https://m365.cloud.microsoft+++ to go to the
+    following URL: ++https://m365.cloud.microsoft++ to go to the
     Microsoft 365 Copilot App home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -89,7 +89,7 @@ document to draft the proposal.
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
     following
-    URL:+++https://m365.cloud.microsoft+++ to
+    URL:++https://m365.cloud.microsoft++ to
     go to the Microsoft 365 Copilot App home page.
 
 2.  Select **Apps** and click **Teams** to open it.
@@ -192,17 +192,17 @@ page (that you are viewing on the right side of chat pane)
     focusing on their pros and cons in relation to Trey Research’s
     needs. Enter the following prompt and click **Send.**
 
-    +++Compare three VPN technologies based on scalability, security, and
-    cost-effectiveness.+++
+    ++Compare three VPN technologies based on scalability, security, and
+    cost-effectiveness.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image17.png)
 
      **Note**: You can also try with the following prompt.
 
-    +++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
+    ++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
     VPN, IPsec VPN) based on scalability, security features, ease of
-    deployment, and cost.+++
+    deployment, and cost.++
 
 2.  Copilot will generate new insights with the comparison details. ![A
     screenshot of a computer AI-generated content may be
@@ -264,8 +264,8 @@ Copilot Page link was first created. 
     the following prompt (to insert a chart depicting VPN adoption
     rates) and click **Send**. 
 
-    +++Insert a chart showing VPN adoption rates in pharmaceutical
-    industries.+++
+    ++Insert a chart showing VPN adoption rates in pharmaceutical
+    industries.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image25.png)
@@ -285,8 +285,8 @@ Copilot Page link was first created. 
     Leadership team. You will use the following prompt to finalize the
     document. 
 
-    +++Format the executive summary to highlight the top three benefits of
-    Contoso’s VPN recommendation.+++ 
+    ++Format the executive summary to highlight the top three benefits of
+    Contoso’s VPN recommendation.++ 
 
     ![](./media/image28.png)
 

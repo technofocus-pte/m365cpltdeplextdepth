@@ -32,7 +32,7 @@ In this exercise, you will use Copilot in Loop to
   into that market.
 
 1.  Open a Microsoft Edge browser and enter the following URL:
-    +++https://m365.cloud.microsoft+++ to go to the Microsoft 365
+    ++https://m365.cloud.microsoft++ to go to the Microsoft 365
     Copilot app (formerly office) home page. Select **Apps** in the left
     navigation pane.
 
@@ -69,8 +69,8 @@ In this exercise, you will use Copilot in Loop to
 
     ![Workspaces-New Workspace](./media/image5.png)
 
-5.  In the **Create a new workspace** window, enter +++VanArsdel
-    research+++ for your workspace name, and then select
+5.  In the **Create a new workspace** window, enter ++VanArsdel
+    research++ for your workspace name, and then select
     **Create** button.
 
     ![A screenshot of a cloud with ladders AI-generated content may be
@@ -86,7 +86,7 @@ In this exercise, you will use Copilot in Loop to
     ![First page for your new workspace](./media/image7.png)
 
 7.  Click on the **Copilot** button. Under the **Copilot** section enter
-    +++**Draft page content+++** in the field and then **Submit** the
+    ++**Draft page content++** in the field and then **Submit** the
     prompt.
 
     ![A screenshot of a computer AI-generated content may be
@@ -95,10 +95,10 @@ In this exercise, you will use Copilot in Loop to
 8.  In the prompt field, enter the following prompt and select
     the **Submit** icon:
 
-    +++As the VP for Sales for an OEM in the plastics manufacturing
+    ++As the VP for Sales for an OEM in the plastics manufacturing
     industry, please research the market for plastic components in the
     automotive industry. Provide information on target audience, market
-    size, competition, trends, regulations, and distribution channels.+++
+    size, competition, trends, regulations, and distribution channels.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image9.png)
@@ -111,7 +111,7 @@ In this exercise, you will use Copilot in Loop to
     the **Copilot** pane that appears, enter the following prompt in
     the **Rewrite with Copilot** field and select the **Submit** icon:
 
-    +++Rewrite the report by placing the information in a table.+++
+    ++Rewrite the report by placing the information in a table.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image10.png)
@@ -121,8 +121,8 @@ In this exercise, you will use Copilot in Loop to
     this market is a viable option for VanArsdel. Enter the following
     prompt:
 
-    +++Add a recommendation to the end of the report as to whether we
-    should move into the market.+++
+    ++Add a recommendation to the end of the report as to whether we
+    should move into the market.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image11.png)
@@ -169,7 +169,7 @@ Protein Shake.docx** file, which you download using the provided link.
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
     following
-    URL:+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) to
+    URL:++[https://m365.cloud.microsoft++](https://m365.cloud.microsoft++/) to
     go to the Microsoft 365 Copilot App home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -341,7 +341,7 @@ Protein Shake.docx** file, which you download using the provided link.
 22. Enter the following prompt next to the prompt and then select
     the **Send** icon:
 
-    +++question and answers at end of the presentation +++
+    ++question and answers at end of the presentation ++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image37.png)
@@ -358,9 +358,9 @@ Protein Shake.docx** file, which you download using the provided link.
     see if Copilot can add all of its suggested questions to the speaker
     notes on the Q&A slide:
 
-    +++In the speaker notes of the Q&A slide that you just created, add a
+    ++In the speaker notes of the Q&A slide that you just created, add a
     list of possible questions that may be asked regarding this
-    presentation.+++
+    presentation.++
 
     ![](./media/image39.png)
 
@@ -372,8 +372,8 @@ Protein Shake.docx** file, which you download using the provided link.
 25. Now try this workaround. Enter the following prompt that asks it to
     generate a list of questions:
 
-    +++What kind of questions do you think participants may ask during the
-    Q&A session?+++
+    ++What kind of questions do you think participants may ask during the
+    Q&A session?++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image41.png)
@@ -418,7 +418,7 @@ In this exercise, you will
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
     following
-    URL:+++https://m365.cloud.microsoft+++ to
+    URL:++https://m365.cloud.microsoft++ to
     go to the Microsoft 365 Copilot App home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -465,12 +465,12 @@ In this exercise, you will
 6.  In the **Draft with Copilot** window that appears at the top of the
     blank document, enter the following prompt:
 
-    +++I'm the Sales Manager for Northwind Traders, a supplier of various
+    ++I'm the Sales Manager for Northwind Traders, a supplier of various
     grocery and beverage products. Please create a report that compares
     the supplier agreements for three of our customers. Provide a
     recommendation on contract renewals that can provide Northwind Traders
     with more favorable terms. The supplier agreements for these three
-    customers are attached. Thank you!+++
+    customers are attached. Thank you!++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image49.png)

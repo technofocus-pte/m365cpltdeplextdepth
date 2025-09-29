@@ -16,7 +16,7 @@ In this exercise you will ground the summit content relevant to 2025
 innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
 
 1.  Open a Microsoft Edge browser and enter the following URL:
-    +++https://m365.cloud.microsoft+++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
+    ++https://m365.cloud.microsoft++ to go to the **Microsoft 365 Copilot app** (formerly office) home page.
 
     > **Note**: You need to sign-in (if prompted) using
     the **Credentials** provided under the **Resources** tab on the right.
@@ -38,9 +38,9 @@ innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
 4.  Enter the following prompt and click **Submit** arrow.
 
 
-    +++What are the top three innovation trends in the consumer goods
+    ++What are the top three innovation trends in the consumer goods
     industry for 2025, and how can these shape the agenda for a client
-    innovation summit?+++
+    innovation summit?++
 
     ![A screenshot of a chat AI-generated content may be
     incorrect.](./media/image3.png)
@@ -67,8 +67,8 @@ trends generated in the previous exercise.
 1.  To start with you will be creating session titles and descriptions
     based on the trends. Use the following prompt and click **Submit**.
 
-    +++Based on these trends, suggest 5 session titles and short,
-    energizing descriptions for a 1-day innovation summit+++
+    ++Based on these trends, suggest 5 session titles and short,
+    energizing descriptions for a 1-day innovation summit++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image6.png)
@@ -82,8 +82,8 @@ trends generated in the previous exercise.
 3.  You will now make the descriptions more engaging. Use the following
     prompt and click Submit.
 
-    +++Make these descriptions more engaging using an energetic, professional
-    tone.+++
+    ++Make these descriptions more engaging using an energetic, professional
+    tone.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image8.png)
@@ -105,8 +105,8 @@ slots and create a simple visual identity for the summit handouts.
 1.  To start with you will create a timed agenda. Use the following
     prompt and click Submit.
 
-    +++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30
-    PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.+++
+    ++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30
+    PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image11.png)
@@ -123,8 +123,8 @@ slots and create a simple visual identity for the summit handouts.
 3.  Now you will add a relevant logo. Use the following prompt and click
     Submit.
 
-    +++Design a modern logo concept for the Contoso Client Innovation Summit
-    2025.+++
+    ++Design a modern logo concept for the Contoso Client Innovation Summit
+    2025.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image14.png)
@@ -151,9 +151,9 @@ previous exercises.
     outputs generated from the previous exercises. Use the following
     prompt and click Submit.
 
-    +++Create a PDF 1-page planning brief for the Contoso Client Innovation
+    ++Create a PDF 1-page planning brief for the Contoso Client Innovation
     Summit including: objectives, audience, session themes, and planning
-    milestones.+++
+    milestones.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image17.png)
@@ -170,7 +170,7 @@ previous exercises.
 3.  Next you will add success metrics and expected outcomes to the draft
     planning brief document. Use the following prompt and click Submit.
 
-    +++Add success metrics and expected outcomes.+++
+    ++Add success metrics and expected outcomes.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image20.png)
@@ -234,7 +234,7 @@ recommendations based on the draft.
     the following prompt, attach the reference document (from OneDrive)
     and click Submit.
 
-    +++Analyze this planning brief and suggest improvements or missing elements that could make the event more impactful.+++
+    ++Analyze this planning brief and suggest improvements or missing elements that could make the event more impactful.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image30.png)

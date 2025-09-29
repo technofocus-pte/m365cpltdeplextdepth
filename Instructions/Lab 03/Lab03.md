@@ -33,7 +33,7 @@ Microsoft 365 Copilot Chat, and understand their unique capabilities for
 enhancing productivity.
 
 1.  Open a Microsoft Edge browser and enter the following URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) to
+    ++https://m365.cloud.microsoft++ to
     go to the **Microsoft 365 Copilot app** (formerly office) home page.
 
     > **Note**: You need to sign-in (if prompted) using
@@ -107,13 +107,13 @@ market research report.
 1.  You will now enter a draft prompt:  
     +
     ++@Prompt Coach, review this prompt: “Give me insights on European
-    retail industry.”+++
+    retail industry.”++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image10.png)
 
-2.  You can ask Copilot: +++How can I make this prompt more specific and
-    actionable?+++
+2.  You can ask Copilot: ++How can I make this prompt more specific and
+    actionable?++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image11.png)
@@ -128,8 +128,8 @@ market research report.
     you to clarify with more details. Check the Copilot output with the
     following prompt and click **Submit**.
 
-    +++I am trying to generate a more targeted Copilot prompt for a market
-    research report.+++
+    ++I am trying to generate a more targeted Copilot prompt for a market
+    research report.++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image13.png)
@@ -139,10 +139,10 @@ market research report.
     @Prompt Coach, evaluate this revised prompt. Is it strong enough for
     Copilot to return insightful output?
 
-    +++“Summarize Q1 2024 retail trends in Germany and France, including
+    ++“Summarize Q1 2024 retail trends in Germany and France, including
     consumer behavior shifts and top-performing product categories.”
     @Prompt Coach, evaluate this revised prompt. Is it strong enough for
-    Copilot to return insightful output?+++
+    Copilot to return insightful output?++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image14.png)
@@ -156,7 +156,7 @@ market research report.
 
 7.  Now try with the following prompt and click Submit.
 
-    +++What other data sources can I use for this analysis?+++
+    ++What other data sources can I use for this analysis?++
 
     ![A screenshot of a chat AI-generated content may be
     incorrect.](./media/image16.png)
@@ -168,7 +168,7 @@ market research report.
 
 9.  You can try with the following prompt and click Submit.
 
-    +++How can I access these reports?+++
+    ++How can I access these reports?++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image18.png)
@@ -178,10 +178,10 @@ market research report.
 
     Try with the following prompt and check the output:
 
-    +++Provide a detailed analysis of Q1 2024 retail trends in Germany and
+    ++Provide a detailed analysis of Q1 2024 retail trends in Germany and
     France, including consumer behavior shifts and top-performing product
     categories, using data from German Retail Federation (HDE) and the
-    French Federation of Retailers (FCD).+++
+    French Federation of Retailers (FCD).++
 
     ![](./media/image19.png)
 
@@ -189,10 +189,10 @@ market research report.
 
     Now try with the following prompt and check the output:
 
-    +++Provide a detailed analysis of Q1 2024 retail trends in Germany and
+    ++Provide a detailed analysis of Q1 2024 retail trends in Germany and
     France, including consumer behavior shifts and top-performing product
     categories, using data
-    from https://www.nielson.com+++
+    from https://www.nielson.com++
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image20.png)
