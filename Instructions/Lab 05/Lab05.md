@@ -54,7 +54,7 @@ document to draft the proposal.
 
 1.  If you have a Microsoft 365 Copilot App page in your Microsoft Edge
     browser, then select it now; otherwise, open a new tab and enter the
-    following URL: ++https://m365.cloud.microsoft++ to go to the
+    following URL: +++https://m365.cloud.microsoft+++ to go to the
     Microsoft 365 Copilot App home page.
 
     **Note**: You need to sign-in (if prompted) using the **Microsoft 365
@@ -145,7 +145,7 @@ document to draft the proposal.
     the **Edit in Pages** button at the end of the generated content.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image11.png)
+    incorrect.](./media/image11a.png)
 
 10. A reference to this new **Copilot Page** is automatically added in
     the chat for easy access.
@@ -176,7 +176,7 @@ document to draft the proposal.
     a separate section on the right.
 
     ![A screenshot of a chat AI-generated content may be
-    incorrect.](./media/image16.png)
+    incorrect.](./media/image11a.png)
 
 ## Exercise 2: Add and Refine Content on the Page
 
@@ -211,8 +211,11 @@ page (that you are viewing on the right side of chat pane)
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image19.png)
 
-3.  Click **Add to Page** to append this comparison details to the
-    existing page. ![](./media/image20.png)
+3.  Click **Add to recent page** to append this comparison details  to the existing page and then select the page. 
+
+    ![](./media/image20a.png)
+
+    ![](./media/image20b.png)
 
 ### Task 2: Edit Directly on the Page
 
@@ -229,7 +232,7 @@ page (that you are viewing on the right side of chat pane)
     the options to Copy Page link, Move block, and Delete. 
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image22.png)
+    incorrect.](./media/image22a.png)
 
 ### Task 3: Collaborate with Team Members
 
