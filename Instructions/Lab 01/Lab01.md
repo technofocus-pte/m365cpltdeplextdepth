@@ -38,9 +38,9 @@ innovation trends. You will use Microsoft 365 Copilot Chat in web mode.
 4.  Enter the following prompt and click **Submit** arrow.
 
 
-    ++What are the top three innovation trends in the consumer goods
+    +++What are the top three innovation trends in the consumer goods
     industry for 2025, and how can these shape the agenda for a client
-    innovation summit?++
+    innovation summit?+++
 
     ![A screenshot of a chat AI-generated content may be
     incorrect.](./media/image3.png)
