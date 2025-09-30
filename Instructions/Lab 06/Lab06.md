@@ -123,7 +123,7 @@ incorrect.](./media/image14.png)
 
     ![](./media/image16.png)
 
-## Exercise 3: Publishing the agent in Microsoft 365 Copilot Chat
+## Supplementary Exercise 3: Publishing the agent in Microsoft 365 Copilot Chat
 
 1.  Select **Publish** from the agent overview page.
 
@@ -384,4 +384,5 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
