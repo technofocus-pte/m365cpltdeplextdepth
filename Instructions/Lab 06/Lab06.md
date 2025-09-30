@@ -54,34 +54,36 @@ incorrect.](./media/image6.png)
 In this exercise you are going to create a declarative agent with
 Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
 
-1.  Login to +++https://https://copilotstudio.microsoft.com+++ using the
+1.  Login to +++https://copilotstudio.microsoft.com+++ using the
     login credentials from the **Resources** tab.
 
     ![](./media/image7.png)
 
-2.  Select the **Dev env** environment that we created in the previous
+2. Select **Get Started** in the **Welcome to Microsoft Copilot Studio** screen. 
+
+3.  Select the **Dev env** environment that we created in the previous
     exercise.
 
     ![](./media/image8.png)
 
-3.  To create a declarative agent for Microsoft 365 Copilot Chat you
+4.  To create a declarative agent for Microsoft 365 Copilot Chat you
     need to first browse the list of agents in Copilot Studio and then
     select the agent with name **Microsoft 365 Copilot**.
 
-4.  Select **Agents** from the left navigation bar and select **Copilot
+5.  Select **Agents** from the left navigation bar and select **Copilot
     for Microsoft 365** from the list.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
 
-5.  A new section of Microsoft Copilot Studio will open. From there,
+6.  A new section of Microsoft Copilot Studio will open. From there,
     select the **+ Add** command to create a new agent for Microsoft 365
     Copilot Chat.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image10.png)
 
-6.  Copilot Studio asks you to describe in natural language what is the
+7.  Copilot Studio asks you to describe in natural language what is the
     purpose of the agent. You can define your agent requirements. Paste
     the prompt below to do so
 
@@ -90,7 +92,7 @@ incorrect.](./media/image10.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image11.png)
 
-7.  When requested by Copilot Studio, give the name "Agentic HR" to your
+8.  When requested by Copilot Studio, give the name "Agentic HR" to your
     custom agent. Use the following prompt.
 
     +++Name it as Agentic HR+++
@@ -98,7 +100,7 @@ incorrect.](./media/image11.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image12.png)
 
-8.  Then, instruct Copilot Studio to have specific tasks or goals with
+9.  Then, instruct Copilot Studio to have specific tasks or goals with
     the following instruction:
 
     **+++Emphasize everything that helps team building, inclusion, and the growth mindset+++**
@@ -106,7 +108,7 @@ incorrect.](./media/image12.png)
     ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image13.png)
 
-9.  Then, define a professional tone for your agent, providing the
+10.  Then, define a professional tone for your agent, providing the
     following input:
 
     **+++It should have a professional tone+++**
@@ -114,7 +116,7 @@ incorrect.](./media/image13.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
 
-10. Once you are done describing your agent, select
+11. Once you are done describing your agent, select
     the **Create** command to create the actual agent. 
 
     ![](./media/image15.png)
@@ -382,3 +384,4 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
