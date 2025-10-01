@@ -217,12 +217,12 @@ incorrect.](./media/image34.png)
 In this exercise you are going to add knowledge from the Sharepoint site, to the agent that
 you created.
 
-1.   From the **Agent** home page, select **+ Add knowledge** under the Knowledge section.
+1. From the **Agent** home page, select **+ Add knowledge** under the Knowledge section.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img11.png)
 
-2.   Select **SharePoint** and then select **Browse items** to add the document. 
+2. Select **SharePoint** and then select **Browse items** to add the document. 
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img12.png)
@@ -230,17 +230,17 @@ incorrect.](./media/img12.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img13.png)
 
-3.   Select your site that you created earlier.
+3. Select your site that you created earlier.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img14.png)
 
-4.   Select the candidate list tracker and then Confirm selection.
+4. Select the candidate list tracker and then Confirm selection.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img15.png)
 
-5.   Select **Add to agent** in the next screen.
+5. Select **Add to agent** in the next screen.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img16.png)
@@ -321,6 +321,7 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
 
