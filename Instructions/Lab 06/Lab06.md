@@ -73,14 +73,14 @@ Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
 5.  Select **Agents** from the left navigation bar and select **Microsoft 365 Copilot** from the list.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image9.png)
+incorrect.](./media/img0.png)
 
 6.  A new section of Microsoft Copilot Studio will open. From there,
     select the **+ Add** command to create a new agent for Microsoft 365
     Copilot Chat.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image10.png)
+incorrect.](./media/img1.png)
 
 7.  Copilot Studio asks you to describe in natural language what is the
     purpose of the agent. You can define your agent requirements. Paste
@@ -213,118 +213,66 @@ incorrect.](./media/image33.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image34.png)
 
-## Exercise 5: Adding an action to the agent
+## Exercise 5: Adding knowledge to the agent
 
-In this exercise you are going to add a custom action to the agent that
-you made. In Microsoft Copilot Studio, when making agents for Microsoft
-365 Copilot Chat, you can add tools to it.
+In this exercise you are going to add knowledge from the Sharepoint site, to the agent that
+you created.
 
-1.  To add a new action, select **+ Add tool** in
-    the **Tools** section of the agent's configuration panel.
+1.   From the **Agent** home page, select **+ Add knowledge** under the Knowledge section.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image35.png)
+incorrect.](./media/img11.png)
 
-2.  Search for and select **List rows present in a table**(Excel online) option and
-    select **Next.**
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image36.png)
-
-3. Select **Create new connection** in the next screen.
-
-4. Selecr **Create** and login with your credentials from the Resources tab if prompted.
-
-5.  In the **List rows present in a table** screen, provide the below
-    details and select **Add action**.
-
-    Name - +++List HR candidates+++
-   
-    Description – +++List candidates for HR role+++
+2.   Select **SharePoint** and then select **Browse items** to add the document. 
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image38.png)
+incorrect.](./media/img12.png)
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image39.png)
+incorrect.](./media/img13.png)
 
-6.  Once the action is added, click on it to open and edit it.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image40.png)
-
-7.  Select the **Inputs** section.
+3.   Select your site that you created earlier.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image41.png)
+incorrect.](./media/img14.png)
 
-8.  Select **Set as a value** under **How will the agent fill this
-    input** for each of the input argument.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image42.png)
-
-9.  Select **Confirm** in changing the input settings dialog.
+4.   Select the candidate list tracker and then Confirm selection.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image43.png)
+incorrect.](./media/img15.png)
+
+5.   Select **Add to agent** in the next screen.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image44.png)
+incorrect.](./media/img16.png)
 
-10.  Provide the below values for each input.
-
-    **Location** – The Contoso site url that you saved in the earlier exercise.
-   
-    Document Library – +++**Documents**+++
-   
-    File – +++**Sample-list-of-candidates.xlsx**+++
-   
-    Table – +++**Candidates_Table**+++
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image45.png)
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image46.png)
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image47.png)
-
-11.  Once all the updates are done, select **Save**.
-
-    ![═䮴Ȏ AI-generated content may be incorrect.](./media/image48.png)
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image49.png)
-
-11. Select **Publish** to publish the agent.
+6. Select **Publish** to publish the agent.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image50.png)
 
-12. Select **Publish** again.
+7. Select **Publish** again.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
-13. **Copy** the url and **open** it from a browser.
+8. **Copy** the url and **open** it from a browser.
 
     ![A screenshot of a computer program AI-generated content may be
 incorrect.](./media/image52.png)
 
-14. This time, it will give an option to **Update now** since it is
+9. This time, it will give an option to **Update now** since it is
     already added. Select it.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image53.png)
 
-15. Select **Open** once it is updated.
+10. Select **Open** once it is updated.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image54.png)
 
-16. In the Agentic HR agent screen, send the below message.
+11. In the Agentic HR agent screen, send the below message.
 
     +++Show me a list of candidates for HR with role “HR Director” or ”HR
    Manager”+++
@@ -332,13 +280,13 @@ incorrect.](./media/image54.png)
     ![A screenshot of a computer AI-generated content may be
    incorrect.](./media/image55.png)
 
-17. In the Data to be shared with Agentic HR message, select **Allow
-    once** option.
+12. In the Data to be shared with Agentic HR message, select **Allow
+    once** (if prompted) option.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image56.png)
 
-18. If it asks you to sign in, select the **Sign in to Agentic HR**
+13. If it asks you to sign in, select the **Sign in to Agentic HR**
     option and then select **Connect** in the next screen.
 
     ![A screenshot of a computer AI-generated content may be
@@ -347,7 +295,7 @@ incorrect.](./media/image56.png)
     ![A screenshot of a computer AI-generated content may be
    incorrect.](./media/image58.png)
 
-19. Select **Submit** once connected.
+14. Select **Submit** once connected.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image59.png)
@@ -355,7 +303,7 @@ incorrect.](./media/image59.png)
     ![A screenshot of a chat AI-generated content may be
 incorrect.](./media/image60.png)
 
-20. Now, resend the below message to the agent.
+15. Now, resend the below message to the agent.
 
     +++Show me a list of candidates for HR with role “HR Director” or ”HR
    Manager”+++
@@ -374,6 +322,7 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
 
