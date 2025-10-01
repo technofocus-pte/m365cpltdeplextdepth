@@ -111,7 +111,7 @@ incorrect.](./media/image13.png)
 
     **+++It should have a professional tone+++**
 
-    ![A screenshot of a computer AI-generated content may be
+   ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image14.png)
 
 11. Once you are done describing your agent, select
@@ -321,6 +321,7 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
 
