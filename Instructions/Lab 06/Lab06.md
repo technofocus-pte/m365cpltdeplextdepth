@@ -70,8 +70,7 @@ Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
     need to first browse the list of agents in Copilot Studio and then
     select the agent with name **Microsoft 365 Copilot**.
 
-5.  Select **Agents** from the left navigation bar and select **Copilot
-    for Microsoft 365** from the list.
+5.  Select **Agents** from the left navigation bar and select **Microsoft 365 Copilot** from the list.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image9.png)
@@ -123,7 +122,7 @@ incorrect.](./media/image14.png)
 
     ![](./media/image16.png)
 
-## Supplementary Exercise 3: Publishing the agent in Microsoft 365 Copilot Chat
+## Exercise 3: Publishing the agent in Microsoft 365 Copilot Chat
 
 1.  Select **Publish** from the agent overview page.
 
@@ -166,12 +165,12 @@ incorrect.](./media/image24.png)
 
     ![](./media/image25.png)
 
-2.  Select **+ Create** site from the SharePoint page.
+2.  Select **+ Create site** from the SharePoint page.
 
     ![A screenshot of a browser AI-generated content may be
 incorrect.](./media/image26.png)
 
-3.  Select **Communication** site from the **Select the site type**
+3.  Select **Communication site** from the **Select the site type**
     page.
 
     ![A screenshot of a web page AI-generated content may be
@@ -384,5 +383,6 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
