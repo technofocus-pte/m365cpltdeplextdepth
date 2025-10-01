@@ -72,8 +72,7 @@ Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
 
 5.  Select **Agents** from the left navigation bar and select **Microsoft 365 Copilot** from the list.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/img0.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/img0.png)
 
 6.  A new section of Microsoft Copilot Studio will open. From there,
     select the **+ Add** command to create a new agent for Microsoft 365
@@ -322,6 +321,7 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
 
