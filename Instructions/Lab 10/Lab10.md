@@ -25,25 +25,31 @@ Estimated duration - 40 minutes
     create it, enter +++I want you to be a question and answering assistant that can answer common  questions from users using the content of a website+++ and click on **Send**.
 
     ![](./media/image3.png)
-
-4.  It might suggest a name for the agent. Either accept it or provide
+    
+    ![](./media/img18.png)
+    
+5.  It might suggest a name for the agent. Either accept it or provide
     your own name.
-
-5.  Give other details regarding the functions of the agent like below.
+    
+    ![](./media/img19.png)
+    
+7.  Give other details regarding the functions of the agent like below.
 
     +++help answer common product and support questions using the content of a website, and help answer HR questions from an uploaded file+++
 
-6.  Provide +++www.microsoft.com+++ for the website that will be used a
+    ![](./media/img20.png)
+    
+9.  Provide +++www.microsoft.com+++ for the website that will be used a
     sknowledge source.
 
     ![](./media/image4.png)
 
-7.  Once done with giving instructions, click on **Create** to create
-    your agent.
+10. Once done with giving instructions, click on **Create** to create
+     your agent.
 
-    ![](./media/image5.png)
+    ![](./media/img21.png)
 
-8.  The agent gets created and opens up with the details. Scroll through
+11.  The agent gets created and opens up with the details. Scroll through
     the page to understand that the agent has been created with the
     instructions you have provided for it.
 
@@ -51,11 +57,11 @@ Estimated duration - 40 minutes
 
     ![](./media/image7.png)
 
-9.  Click on **Test** icon to Test the agent. Enter +++What is Copilot Studio+++ and hit **Enter**.
+11.  Click on **Test** icon to Test the agent. Enter +++What is Copilot Studio+++ and hit **Enter**.
 
     ![](./media/image8.png)
 
-10. Enter +++What is the latest xbox model?+++
+11. Enter +++What is the latest xbox model?+++
 
     ![](./media/image9.png)
 
