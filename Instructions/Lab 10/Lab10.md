@@ -134,44 +134,24 @@ Decide on the format, such as multiple-choice questions or true/false
 statements. Use this [format]. Designate the correct answer within
 parentheses.+++
 
-    Expand the **Input** section and select **+ Add input**.
+    Select [number], expand **+ Add context** section and select **Text**.
 
-    ![](./media/img25.png)
-
-8.  Select **Text** under the **Add input** option.
-
-    ![](./media/image14.png)
+    ![](./media/img26.png)
 
 9.  Enter the name as +++number+++ and enter sample data such as
-    +++5+++. Select **+ Add input** -\> **Text** to add the next input.
+    +++5+++. Select **Close**.
 
-    ![](./media/image15.png)
+    ![](./media/img27.png)
 
-10.  Enter the name as +++topic+++ and enter sample data such as
-    +++Science+++ and then select **+ Add input** -\> **Text** to add
-    the next input.
+10. Select **[topic]**, expand **+ Add context** section and select **Text**. Enter the name as +++topic+++ and enter sample data such as
+    +++Science+++.
 
-     ![](./media/image16.png)
+    ![](./media/img28.png)
 
-11. Enter the name as +++format+++ and enter sample data such as
-    +++bullet points+++
+11. Select **[format]**, expand **+ Add context** section and select **Text**.Enter the name as +++format+++ and enter sample data such as
+    +++bullet points+++. Select Save in the Prompt window
 
-    ![](./media/image17.png)
-
-12. Now that we have added the input names and example data. Next, the
-    inputs need to be inserted into the prompt. In the Prompt, highlight **[number]** and select **+ Add** and select **number** under **In your prompt**. The input of
-    number has now been added to the prompt as an input.
-
-    ![](./media/image18.png)
-
-    ![](./media/image19a.png)
-
-13. Repeat the same steps for the remaining inputs.
-
-14. Once all the inputs are added to the prompt, click on **Test
-    prompt** and observe the prompt response.
-
-    ![](./media/image20.png)
+    ![](./media/img30.png)
 
 15. Select **Save** to save the prompt.
 
