@@ -282,9 +282,7 @@ incorrect.](./media/image35.png)
 
     ![](./media/image36.png)
 
-9.  Then go to **Generative AI** section, select **Generative**, set
-    content moderation as **Medium** and click on **Save** to save the
-    setting.
+9.  Then go to **Generative AI** section, select **Yes** under **Use generative AI orchestration for your agent's responses?** and click on **Save** to        save the setting.
 
     ![](./media/image37.png)
 
