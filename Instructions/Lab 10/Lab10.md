@@ -149,13 +149,9 @@ parentheses.+++
     ![](./media/img28.png)
 
 11. Select **[format]**, expand **+ Add context** section and select **Text**.Enter the name as +++format+++ and enter sample data such as
-    +++bullet points+++. Select Save in the Prompt window
+    +++bullet points+++. Select **Save** in the Prompt window
 
     ![](./media/img30.png)
-
-15. Select **Save** to save the prompt.
-
-    ![](./media/image21a.png)
 
 16. The prompt action node will now appear in the authoring canvas of
     the Topic. Next, the values of the input parameter need to be
@@ -206,17 +202,6 @@ parentheses.+++
     Select **Save** to save your topic.
 
     ![](./media/image29.png)
-
-23. Now, the **Generative mode** setting needs to be enabled for the
-    agent to call the topic with the prompt action. Select **Settings**
-    for your agent.
-
-    ![](./media/image30.png)
-
-24. Select the **Generative AI** setting and select **Generate
-    (preview)** followed by selecting **Save**.
-
-    ![](./media/image31.png)
 
 25. Now we are ready to test the agent. In the test pane, select
     the **refresh** icon. Then enter the following question and observe
