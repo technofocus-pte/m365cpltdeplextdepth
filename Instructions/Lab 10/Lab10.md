@@ -100,12 +100,7 @@ topic node
 
     ![](./media/image10.png)
 
-2.  Enter the name for the Topic as +++Generate questions for a quiz+++.
-    Select the **Edit** hyperlink under Phrases in the trigger. A
-    minimum of 5 trigger phrases needs to be entered
-
-    Add the below phrases one by one. Add each phrase and select + option to
-    add the trigger.
+2.  Enter the name for the Topic as +++Generate questions for a quiz+++. Enter the below details in the **Description**.
 
     +++create a number of questions for a quiz based on a topic and format the quiz based on the instruction provided+++
 
@@ -119,15 +114,11 @@ topic node
 
     Select **Save** on the top right to save the topic.
 
-    ![](./media/image11.png)
+    ![](./media/img22.png)
 
-3.  Click on the **+** symbol below the Trigger node. Select the **Add an action** option and select **New prompt (default AI model)** option under that.
+3.  Click on the **+** symbol below the Trigger node. Select the **Add a tool** option and select **New prompt** option under that.
 
-    ![image](https://github.com/user-attachments/assets/01e47569-73ec-4246-979d-86d05cac15db)
-
-
-    ![image](https://github.com/user-attachments/assets/7352e083-01d0-401c-9b7b-4f4263ee9632)
-
+    ![](./media/img23.png)
 
 5.  The Prompt dialog will appear, and you may see a flyout appear that
     will guide you on how to create your prompt. Select **Next** to go
@@ -145,7 +136,7 @@ parentheses.+++
 
     Expand the **Input** section and select **+ Add input**.
 
-    ![](./media/image13.png)
+    ![](./media/img25.png)
 
 8.  Select **Text** under the **Add input** option.
 
