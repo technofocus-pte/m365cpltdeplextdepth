@@ -24,32 +24,30 @@ Estimated duration - 40 minutes
 3.  On the Home page, in the text area under Describe your agent to
     create it, enter +++I want you to be a question and answering assistant that can answer common  questions from users using the content of a website+++ and click on **Send**.
 
-    ![](./media/image3.png)
-    
-    ![](./media/img18.png)
+   ![](./media/image3.png)
     
 5.  It might suggest a name for the agent. Either accept it or provide
     your own name.
     
-    ![](./media/img19.png)
+   ![](./media/img19.png)
     
 7.  Give other details regarding the functions of the agent like below.
 
     +++help answer common product and support questions using the content of a website, and help answer HR questions from an uploaded file+++
 
-    ![](./media/img20.png)
+   ![](./media/img20.png)
     
 9.  Provide +++www.microsoft.com+++ for the website that will be used a
     sknowledge source.
 
-    ![](./media/image4.png)
+   ![](./media/image4.png)
 
 10. Once done with giving instructions, click on **Create** to create
      your agent.
+  **Note**: Setting up the agent may take a few minutes. Once the setup is complete, click Skip to continue.
+  ![](./media/img21.png)
 
-    ![](./media/img21.png)
-
-11.  The agent gets created and opens up with the details. Scroll through
+11.  Select the agent gets created to view the agent details. Scroll through
     the page to understand that the agent has been created with the
     instructions you have provided for it.
 
