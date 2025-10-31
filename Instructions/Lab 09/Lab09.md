@@ -246,17 +246,9 @@ agent to streamline IT workflows.
 
     ![](./media/image31.png)
 
-4.  From left navigation bar select **Create** and then select **New
-    agent** to start creating new agent.
+4.  Select the **Configure** tab.
 
-    ![](./media/image32.png)
-
-5.  From top right corner click on **Skip to configure** button.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image33.png)
-
-6.  Enter **Name, Description and Instruction** of the agent as given
+5.  Enter **Name, Description and Instruction** of the agent as given
     below and click on **Create** button.
 
     **Name:** +++Contoso IT Support Agent+++
@@ -279,17 +271,13 @@ incorrect.](./media/image35.png)
 
     ![](./media/image36.png)
 
-9.  Then go to **Generative AI** section, select **Yes** under **Use generative AI orchestration for your agent's responses?** and click on **Save** to        save the setting.
+9.  Then go to **Generative AI** section, ensure that **Yes** is selected under **Use generative AI orchestration for your agent's responses?**. Scroll down and disable the **Use general knowledge** option and then click on **Save**.
 
-    ![](./media/image37.png)
+    ![](./media/im1.png)
 
-10. Once **saved**, **close** the Settings pane.
+    ![](./media/im2.png)
 
-11. On the overview page of the agent, **Disable** the “**Allow the AI
-    to use its own general knowledge**” option.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image38.png)
+11. Once **saved**, **close** the Settings pane.
 
     **Conclusion**
 
