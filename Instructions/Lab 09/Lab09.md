@@ -113,7 +113,7 @@ incorrect.](./media/image14.png)
 
 ### Task 3: Setting Up a Dataverse Table
 
-1.  Select the **Dev One** environment from the top right.
+1.  From the PowerApps page, select the **Dev One** environment from the top right.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image15.png)
