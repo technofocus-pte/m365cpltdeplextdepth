@@ -42,23 +42,10 @@ applications.
 
     ![](./media/image1.png)
 
-2.  Enter the **Administrative Username** from the **Office 365
-    Tenant** section of the **Resources** tab into the email
-    field, **select** the **checkbox** and click on the **Start
-    free** button.
+2.  Enter the **Username** from the **Resources** tab into the email field, **select** the **checkbox** and click on the **Start free** button.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image2.png)
-
-3.  Enter the **Administrative Password** and you will be taken to the
-    Power Apps Home page.
-
-4.  Select **Yes** in the Stay Signed in dialog and **Got it** for the
-    Save password prompt and select **No, Thanks** in the Sign in to
-    Microsoft Edge pop up.
-
-    >[!Note] **Note:** If it again prompts for the user name, password or
-any information to login, please provide the same and login.
 
 ### Task 2: Update the Developer environment settings
 
