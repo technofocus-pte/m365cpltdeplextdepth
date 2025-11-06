@@ -232,33 +232,28 @@ you created.
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img11.png)
 
-2. Select **SharePoint** and then select **Browse items** to add the document. 
+2. Select **SharePoint** and then enter the **url** of the **Documents** folder that we saved earlier.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/img12.png)
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/img13.png)
+incorrect.](./media/im3.png)
 
-3. Select your site that you created earlier.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/img14.png)
-
-4. Select the candidate list tracker and then Confirm selection.
+3.	Name it as +++HR Document+++ and select **Add to agent**.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/img15.png)
+incorrect.](./media/im4.png)
 
-5. Select **Add to agent** in the next screen.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/img16.png)
-
-6. Select **Publish** to publish the agent.
+4.	It is now available in **Ready** state under **Knowledge** section.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image50.png)
+incorrect.](./media/im5.png)
+
+5. Select **Publish** to publish the agent.
+
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/im6.png)
 
 7. Select **Publish** again.
 
@@ -331,6 +326,7 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
 
