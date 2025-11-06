@@ -68,11 +68,11 @@ Microsoft Copilot Studio and host it in Microsoft 365 Copilot Chat.
 
     >[!Alert] **Important:** If the Copilot Studio and does not show up the option to select **Environment** as in the below screenshot, then follow the below steps.
     >
-    >![](./media/im5.png)
+    >![](./media/im7.png)
     >
     >Open +++https://admin.powerplatform.microsoft.com/+++. Select **Manage** -> **Environments** -> **Dev env** and select the value of the **Environment ID**.
     >
-    >![](./media/im6.png)
+    >![](./media/im8.png)
     >
     >Navigate back to the Copilot Studio tab and open +++https://copilotstudio.microsoft.com/environments/< EnvironmentID >+++ (Replacing **< EnvironmentID >** with the value fetched above)
     
@@ -326,6 +326,7 @@ incorrect.](./media/image63.png)
 
 In this lab, you have successfully learnt, how to use custom connectors
 in Copilot Studio.
+
 
 
 
