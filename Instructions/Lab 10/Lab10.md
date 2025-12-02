@@ -51,13 +51,13 @@ Estimated duration - 40 minutes
     the page to understand that the agent has been created with the
     instructions you have provided for it.
 
-    ![](./media/image6.png)
+     ![](./media/image6.png)
 
-    ![](./media/image7.png)
+     ![](./media/image7.png)
 
 11.  Click on **Test** icon to Test the agent. Enter +++What is Copilot Studio+++ and hit **Enter**.
 
-    ![](./media/image8.png)
+     ![](./media/image8.png)
 
 11. Enter +++What is the latest xbox model?+++
 
