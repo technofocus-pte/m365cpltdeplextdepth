@@ -10,6 +10,8 @@ Estimated duration - 40 minutes
 
 ## Exercise 1: Use natural language to create an agent
 
+In this exercise, you will learn how to use natural language to quickly create a new agent in Microsoft Copilot Studio. You will provide high-level instructions, define the agent’s purpose, and configure a website as a knowledge source. By the end of this exercise, you will have a functional agent that can respond to general user queries.
+
 1.  Open a browser and login to +++https://copilotstudio.microsoft.com/+++ and login with the
     credentials from the Resources tab if you are not in that page
     already.
