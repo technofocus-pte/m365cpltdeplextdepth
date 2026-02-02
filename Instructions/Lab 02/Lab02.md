@@ -47,7 +47,7 @@ Antes de comenzar, asegúrese de cumplir con lo siguiente:
 
 1.  Abra Microsoft 365.
 
-> <https://m365copilot.com/>
+> https://m365copilot.com/
 
 2.  Ingrese el nombre de usuario y la contraseña para iniciar sesión;
     navegue a la pestaña **Resources** en el lado derecho de su entorno.
@@ -353,3 +353,4 @@ Ha logrado:
 
 - Crear un reporte o borrador de comunicación a partir de los hallazgos
   de la investigación.
+
