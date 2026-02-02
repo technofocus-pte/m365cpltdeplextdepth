@@ -1,4 +1,6 @@
-Duración estimada*: 10 - 15 minutos*
+# Mejore la narrativa de datos con el agente Analyst de Microsoft 365 Copilot
+
+Duración estimada: *10 - 15 minutos*
 
 ![Get started with Analyst in Microsoft 365 Copilot - Microsoft
 Support](./media/image1.png)
