@@ -1,297 +1,517 @@
-# Laboratorio 01 – Impulse la planificación de eventos con Microsoft 365 Copilot Chat
+Duración estimada*: 10 - 15 minutos*
 
-**Objetivo:**
+![Get started with Analyst in Microsoft 365 Copilot - Microsoft
+Support](./media/image1.png)
 
-Usted es consultor de planificación de eventos para Contoso Shoppee — un
-distrubuidor global de bienes de consumo. Planean organizar una Cumbre
-de Innovación del Cliente de alto impacto para mostrar las próximas
-soluciones digitales, fomentar la lealtad de los clientes y recopilar
-aportes estratégicos de los clientes clave.
+# Objetivo
 
-En este laboratorio, usará Microsoft 365 Copilot Chat en el modo web
-para:
+Este laboratorio utiliza el agente Analyst (Analista) de Microsoft 365
+Copilot para analizar la hoja de cálculo de los **resultados de la
+encuesta del Proyecto Nexus**. Deberá cargar el archivo al agente
+Analyst y ejecutar *prompts* (indicaciones) iniciales para extraer las
+tendencias principales, profundizar en los promedios y crear elementos
+visuales (gráficos, mapas de calor, etc.).
 
-- Investigar las tendencias del mercado
+# Requisitos previos
 
-- Generar ideas de sesiones de la cumbre
+1.  Acceso a una cuenta de Microsoft 365 con Copilot y agentes
+    habilitados (el agente Analyst debe estar disponible).
 
-- Crear presentaciones visuales y documentación
+2.  Navegador: Se recomienda Microsoft Edge (el módulo utiliza Edge para
+    las instrucciones).
 
-- Redactar un informe de planificación
+3.  Archivo CSV / XLSX de los resultados de la encuesta del Proyecto
+    Nexus (la página de Learn incluye los enlaces de descarga desde
+    GitHub).
 
-- Subir y refinar los documentos de forma colaborativa
+# Instrucciones paso a paso
 
-**Ejercicio 1: Investigue las tendencias del mercado del año 2025\*\***
+# Ejercicio 1: Configuración y carga del conjunto de datos
 
-En este ejercicio, basará el contenido de la cumbre relevante para las
-tendencias de innovación de 2025. Usará Microsoft 365 Copilot Chat en el
-modo web.
+1.  Descargue el conjunto de datos: Abra el enlace **"Project Nexus
+    Survey Results.xlsx"** proporcionado en la guía del laboratorio y
+    descargue el archivo.
 
-1.  Abra un navegador Microsoft Edge e introduzca la siguiente URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
-    ir a la página de inicio de **Microsoft 365 Copilot
-    app** (anteriormente conocido como office).
+    ![](./media/image2.png)
 
-**Ojo**: Tiene que iniciar sesión (si le pide) con
-las **Credenciales** proporcionadas en la pestaña **Resources** en la
-parte derecha.
+2.  Navegue a Copilot: Abra una nueva pestaña en Microsoft Edge y vaya a
+    <https://M365copilot.com>. Inicie sesión con las credenciales de
+    nombre de usuario y contraseña proporcionadas en la pestaña de
+    Resources en el panel derecho de su entorno de laboratorio**.**
 
-2.  Se abrirá la página de **Copilot Chat**.
+    ![](./media/image3.png)
 
-3.  Si, por razón alguna, aparece el mensaje “**Something went wrong”**,
-    haga clic en **Try again** (dos veces) para abrir Copilot Chat.
+    ![](./media/image4.png)
 
-![](./media/image1.png)
+    ![](./media/image5.png)
 
-**Ojo**: el interfaz del usuario de Copilot Chat puede diferir a la hora
-de ejecutar este laboratorio (debido a que Microsoft ha implementado
-características nuevas y actualizadas, junto con los cambios en el UI
-como parte del evento Microsoft Build-2025 event).
+3.  En Microsoft 365, abra el agente **Analyst** (Agents → Analyst).
 
-![](./media/image2.png)
+    ![](./media/image6.png)
 
-![](./media/image3.png)
+4.  Si no es visible, haga clic en el icono **Expand navigation**,
+    seleccione **Agents** y seleccione **Analyst Agent** (Built by
+    Microsoft 365 Copilot).
 
-4.  En este ejercicio, va a introducir un prompt y hacer clic en la
-    flecha **Submit**.
+    ![](./media/image7.png)
 
-++What are the top three innovation trends in the consumer goods
-industry for 2025, and how can these shape the agenda for a client
-innovation summit?++
+    ![](./media/image8.png)
 
-![](./media/image4.png)
+5.  Haga clic en el icono **Add content and agents (+)** del campo de
+    prompt → **Upload from this device** → seleccione el archivo
+    **Project Nexus** descargado.
 
-5.  Verá el resultado de Copilot, con un resumen breve pero informador,
-    de tres tendencias, por ejemplo, “AI in Supply Chain,” “Sustainable
-    Packaging,” y “Hyper-personalized Customer Experience.”
+    ![](./media/image9.png)
 
-![](./media/image5.png)
+    ![](./media/image10.png)
 
-![](./media/image6.png)
+**Nota:** Después de que el archivo se carga, está listo para comenzar a
+explorar e interactuar con el **Analyst** **Agent**.
 
-Ahora ha completado la investigación de las tendencias del mercado de
-2025. A continuación, va a convertir estas tendencias en una agenda de
-eventos atractiva que resuene tanto con el C-suite como los equipos de
-innovación de los clientes.
+# Ejercicio 2: Ejecutar prompts iniciales
 
-**Ejercicio 2: Tenga una lluvia de ideas y redacte ideas para la
-sesión**
+1.  En el campo de prompt, escriba: ***Analyse this spreadsheet and tell
+    me the top three trends*.** Espere a que el agente **Analyst**
+    ejecute su análisis y valide la respuesta.
 
-En este ejercicio creará una agenda de eventos atractiva basada en las
-tendencias generadas en el ejercicio anterior.
+    ![](./media/image11.png)
 
-1.  Para empezar, creará títulos y descripciones de las sesiones en
-    función de las tendencias. Utilice el siguiente prompt y haga clic
-    en Submit.
+    ![](./media/image12.png)
 
-++Based on these trends, suggest 5 session titles and short, energizing
-descriptions for a 1-day innovation summit++
+    **Nota**: la página advierte sobre la posible aparición de un espacio en
+    blanco grande en la UI; desplácese hacia arriba para ver los resultados
+    si aparece.
 
-![](./media/image7.png)
+    ![](./media/image13.png)
 
-2.  Copilot generará los títulos y descripciones como se ve a
-    continuación.
+2.  **Prompts de seguimiento:**
 
-![](./media/image8.png)
+    En el campo de prompt, escriba el siguiente prompt y valide la respuesta
+del agente.
 
-3.  You will now make the descriptions more engaging. Use the following
-    prompt and click Submit.
+    ***“ What is the average rating for each survey category?”***
 
-++Make these descriptions more engaging using an energetic, professional
-tone.++
+    ![](./media/image14.png)
 
-![](./media/image9.png)
+    ![](./media/image15.png)
 
-![](./media/image10.png)
+    ![](./media/image16.png)
 
-![](./media/image11.png)
+    ![](./media/image17.png)
 
-A continuación, usará Copilot Chat para crear la agenda con línea de
-tiempo y logotipo.
+# Ejercicio 3 : Pruebe prompts adicionales (cuantitativos, cualitativos y de visualización)
 
-**Ejercicio 3: Cree una línea de tiempo y logotipo para la agenda**
+Para explorar tipos adicionales de prompts de análisis más allá de los
+ejemplos predefinidos y comprender cómo cada categoría (cuantitativa,
+cualitativa y de visualización) puede generar diferentes insights a
+partir del mismo conjunto de datos.
 
-En este ejercicio, enriquecerá la agenda agregando el día del evento con
-franjas horarias y creará una identidad visual simple para los folletos
-de la cumbre.
+Prompts de análisis cuantitativo**:**
 
-1.  Para empezar, creará una agenda cronometrada. Use el siguiente
-    prompt y haga clic en Submit.
+El agente busca obtener información numérica o medible a partir de los
+datos.
 
-++Create a 1-day event agenda with sessions at 9:00 AM, 11:00 AM, 1:30
-PM, and 3:00 PM. Include a welcome, lunch at noon, and breaks.++
+### Prompt: 
 
-![](./media/image12.png)
+- **How many participants rated the project satisfaction as 4 or
+  higher**?
 
-2.  Obtendrá una agenda de la cumbre de innovación de 1 día estructurada
-    profesionalmente como se muestra a continuación.
+    ![](./media/image18.png)
 
-![](./media/image13.png)
+### Resumen de la respuesta:
 
-![](./media/image14.png)
+- A total of **22 participants** rated the project satisfaction as **4
+  (Good)** or **5 (Excellent)** in the *Project Nexus* survey. Un total
+  de **22 participantes** calificaron la satisfacción del proyecto con
+  **4 (Good)** o **5 (Excellent)** en la encuesta de *Project Nexus*.
 
-3.  Ahora agregará un logotipo relevante. Utilice el siguiente prompt y
-    haga clic en Submit.
+- El desglose detallado de las calificaciones es:
 
-++Design a modern logo concept for the Contoso Client Innovation Summit
-2025.++
+  - (Poor): 11 respuestas
 
-![](./media/image15.png)
+  - (Fair): 7 respuestas
 
-4.  Copilot empieza a generar el logo con Microsoft Designer.
+  - (Neutral): 10 respuestas
 
-![](./media/image16.png)
+  - (Good): 14 respuestas
 
-![](./media/image17.png)
+  - (Excellent): 8 respuestas
 
-También puede intentar crear una variación del logo generado.
+    - El cálculo: **14 (Good) + 8 (Excellent) = 22 participantes** que
+    expresaron satisfacción positiva.
 
-A continuación, compilará un resumen de planificación que combine los
-resultados de todos los ejercicios anteriores.
-
-**Ejercicio 4: Redacte el documento de planificación**
-
-En este ejercicio combinará todas los resultados generados de los
-ejercicios anteriores.
-
-1.  Ahora comenzará a compilar un resumen de planificación de 1 página
-    que combine los resultados generados de los ejercicios anteriores.
-    Utilice el siguiente prompt y haga clic Submit.
-
-++Create a 1-page planning brief for the Contoso Client Innovation
-Summit including: objectives, audience, session themes, and planning
-milestones.++
-
-![](./media/image18.png)
-
-2.  Verá el resultado compilado generado por Copilot.   
     ![](./media/image19.png)
+
+### Prompt 2: 
+
+- **“Which category received the highest average rating, and which
+  received the lowest**?”
 
 ![](./media/image20.png)
 
-3.  Ahora puede descargar y visualizar el resultado compilado.
+### Resumen de la respuesta:
+
+    - El **Analyst** analizó los datos del archivo
+    **Project_Nexus_survey_results.xlsx** y proporcionó **calificaciones
+    promedio** en cuatro categorías clave.
+
+    - 📊 Resumen de calificaciones promedio
+
+    | Categoía  |Calificación promedio   |
+    |:------|:------|
+    | Satisfacción del proyecto  | 3.02  |
+    | Efectividad de la comunicación  | 2.92  |
+    |  Cumplimiento del cronograma |  2.98 |
+    | Experiencia general  | 2.98  |
 
 ![](./media/image21.png)
 
+Prompts de análisis cualitativo**:**
+
+El agente busca explorar **opiniones, experiencias, percepciones o
+información descriptiva** a partir de los datos, en lugar de valores
+numéricos.
+
+### Prompt 1: 
+
+- “**Summarize the most common themes in the comments section**.”
+
 ![](./media/image22.png)
 
-4.  A continuación, agregamos las métricas de éxito y resultados
-    esperados para redactar el documento de resumen de planificación.
-    Use el siguiente prompt y haga clic en Submit.
+### Resumen de la respuesta: 
 
-++Add success metrics and expected outcomes.++
+- El **Analyst** identificó **temas clave** a partir de los comentarios
+  de los participantes relacionados con la satisfacción del proyecto.
+
+- Cada tema incluye el **número de menciones** y **comentarios de
+  ejemplo** que representan la retroalimentación de los participantes.
 
 ![](./media/image23.png)
 
-5.  Una vez que se genrea el resumen de planificación, puede descargar y
-    visualizar el documento actualizado.
-
 ![](./media/image24.png)
+
+### Prompt 2: 
+
+- “**Are there any recurring concerns or suggestions mentioned in the
+  comments**?”
 
 ![](./media/image25.png)
 
+### Resumen de la respuesta: 
+
+- El **Analyst** identificó **inquietudes y sugerencias recurrentes** a
+  partir de los comentarios de la encuesta de Project Nexus.
+
 ![](./media/image26.png)
-
-6.  Ahora tiene el documento de planificación listo para su revisión. Lo
-    utilizará como documento de referencia en el próximo ejercicio.
-
-**Ejercicio 5: Suba y mejore el plan**
-
-Antes de presentar el plan a los líderes, ha de proporcionar
-recomendaciones adicionales basadas en el borrador.
-
-1.  Ahora cargará el documento de resumen de planificación en OneDrive
-    para usarlo como documento de referencia.
-
-2.  Haga clic en el icono de carpeta para comprobar si el documento de
-    resumen de planificación está en la carpeta **Downloads**.
 
 ![](./media/image27.png)
 
-3.  Abra **OneDrive** desde el panel de navegación de Microsoft 365
-    Copilot.
+## Prompts de insights y recomendaciones
+
+El Analyst **interpreta los hallazgos de los datos, extrae conclusiones
+significativas** y **sugiere próximos pasos accionables** basados en el
+análisis.
+
+### Prompt 1: 
+
+- “**Based on the survey data, what are the top three strengths of
+  Project Nexus**?”
 
 ![](./media/image28.png)
 
-4.  Seleccione el menú **My files** y haga clic en el botón **Create or
-    Upload**.
+### Resumen de la respuesta:
+
+- El **Analyst** identificó las **principales** **fortalezas** a partir
+  de los datos y comentarios de la encuesta de *Project Nexus*.
 
 ![](./media/image29.png)
 
-5.  Seleccione el menú **Files upload** y ubique el documento de resumen
-    de planeación más reciente y cárguelo en OneDrive.
-
 ![](./media/image30.png)
+
+### Prompt 2: 
+
+- **“What are the key areas for improvement suggested by the
+  participants**?”
 
 ![](./media/image31.png)
 
-6.  Ahora ha cargado el último documento de resumen de planificación en
-    OneDrive.
+### Resumen de la respuesta:
+
+- El **Analyst** destacó **Communication** como el **área**
+  **principal** **de** **mejora**, con base en los comentarios de los
+  participantes de la encuesta de Project Nexus .
 
 ![](./media/image32.png)
 
-7.  A continuación, analizará el documento de resumen de planificación
-    utilizando Copilot. Use el siguiente prompt, adjunte el documento de
-    referencia (de OneDrive) y haga clic en Submit.
+## Prompts de visualización cuantitativa
 
-++Analyze this planning brief and suggest improvements or missing
-elements that could make the event more impactful.++
+**El Analyst presenta datos numéricos de forma visual** — mediante
+gráficos, diagramas o tablas — para facilitar la interpretación y
+comparación de los hallazgos cuantitativos.
+
+### Prompt 1: 
+
+- **“Generate a pie chart of overall ratings distribution**.”
 
 ![](./media/image33.png)
+
+### Resumen de la respuesta:
+
+- El **Analyst** generó un **gráfico circular** para representar
+  visualmente la **distribución de las calificaciones de Overall
+  Experience** de la encuesta *Project Nexus*.
 
 ![](./media/image34.png)
 
 ![](./media/image35.png)
 
-![](./media/image36.png)
+### Prompt 2:
 
-8.  Ahora verá las recomendaciones prácticas (por ejemplo, agregar
-    detalles del orador principal, oportunidades de testimonios de
-    clientes o esfuerzos de sostenibilidad) generadas por Copilot.
+**“ Create a bar chart comparing the average ratings for Project
+Satisfaction, Communication Effectiveness, Timeline Adherence, and
+Overall Experience**.”
+
+![](./media/image36.png)
 
 ![](./media/image37.png)
 
-9.  Le pedirá a Copilot que actualice el documento de resumen de
-    planificación con las recomendaciones prácticas.
+### Resumen de la respuesta:
+
+- El **Analyst** creó un **gráfico de barras** que visualiza las
+  **calificaciones promedio** en cuatro categorías clave de la encuesta
+  Project Nexus y proporcionó un resumen numérico.
 
 ![](./media/image38.png)
 
 ![](./media/image39.png)
 
-10. Una vez que Copilot termine de actualizar el documento de resumen de
-    planificación con las recomendaciones prácticas, puede descargar y
-    ver el documento de resumen de planificación mejorado.
+# Ejercicio 4: Instrucción para un elemento accionable para el usuario final
+
+Realice un análisis de datos integral de los resultados de la encuesta
+*Project Nexus* utilizando diferentes tipos de prompts analíticos. Cada
+tipo de prompt se enfoca en extraer insights específicos o
+visualizaciones a partir del conjunto de datos.
+
+1.  **Prompts de análisis cuantitativo**
+
+Utilice estos prompts para analizar **datos** **numéricos** e
+identificar patrones o relaciones medibles.
+
+- **Prompts:**
+
+  - *“What percentage of participants rated timeline adherence below
+    3?”*  
+    → Esto calculará la proporción de participantes que otorgaron
+    calificaciones bajas al cumplimiento del cronograma.
+
+  - *“Can you identify any correlations between communication
+    effectiveness and overall experience?”*  
+    → El Analyst calculará el coeficiente de correlación e interpretará
+    qué tan fuerte es la relación entre estas dos categorías.
+
+- **Resultado esperado:**  
+  Un resumen numérico que muestre porcentajes, promedios o valores de
+  correlación que revelen patrones en las calificaciones de los
+  participantes.
+
+2.  Prompts de análisis cualitativo
+
+Utilice estos prompts para extraer e interpretar **comentarios textuales
+o descriptivos** de las respuestas abiertas de la encuesta.
+
+- **Prompts:**
+
+  - *“Identify any comments that mention issues with communication or
+    timeline.”*  
+    → Esto filtrará los comentarios que contengan palabras clave
+    específicas o preocupaciones relacionadas.
+
+  - Revise los comentarios extraídos para identificar frases o temas
+    recurrentes.
+
+- **Resultado esperado:**  
+  Una lista categorizada de insights cualitativos que resalten patrones
+  de retroalimentación relacionados con la comunicación y el cronograma
+  del proyecto.
+
+3.  Prompts de insights y recomendaciones
+
+Utilice estos prompts para **resumir** **los** **hallazgos** y
+**generar** **recomendaciones** **accionables** basadas tanto en datos
+cuantitativos como cualitativos.
+
+- **Prompts:**
+
+&nbsp;
+
+- *“Provide a summary report of the survey findings with actionable
+  recommendations.”*  
+  → El Analyst recopilará los puntos clave, destacará fortalezas y
+  debilidades, y sugerirá acciones de mejora.
+
+- **Resultado esperado:**  
+  Un reporte resumido que contenga insights estratégicos y
+  recomendaciones para mejorar el desempeño de proyectos futuros.
+
+4.  Prompts de visualización cuantitativa
+
+Utilice estos prompts para crear **visualizaciones** **de** **datos**
+que hagan los resultados numéricos más fáciles de interpretar y listos
+para presentarse.
+
+- **Prompts:**
+
+- Ejecute cada uno de los siguientes prompts de forma secuencial para
+  generar diferentes tipos de gráficos:
+
+  - *“Plot a histogram of the satisfaction ratings to see the
+    distribution of ratings.”*
+
+  - *“Generate a scatter plot to analyze the relationship between
+    Communication Effectiveness and Overall Experience.”*
+
+  - *“Create a correlation heatmap for all numeric rating categories.”*
+
+  - *“Make a box plot for each rating category to show the range and
+    quartiles.”*
+
+  - *“Plot a line graph showing timeline adherence ratings over
+    participants ordered by Participant ID.”*
+
+- Revise cada visualización para identificar tendencias de datos,
+  relaciones y valores atípicos.
+
+- **Resultado esperado:**  
+  Una serie de gráficos (histograma, gráfico de dispersión, mapa de
+  calor, diagrama de caja y gráfico de líneas) que representen
+  visualmente los datos de la encuesta y faciliten la comparación y
+  extracción de insights.
+
+# Ejercicio 4: Exportar y reutilizar la respuesta del Analyst Agent
+
+## Qué puede hacer con la respuesta
+
+A continuación, se presenta una breve descripción de las tareas
+asociadas a cada icono que se muestra en su captura de pantalla:
 
 ![](./media/image40.png)
 
-![](./media/image41.png)
+1.  **📋 Icono de Clipboard** – Probablemente se utiliza para **copiar o
+    pegar contenido**.
 
-![](./media/image42.png)
+2.  **👍 Icono de Thumbs-Up** – Normalmente indica que se da **“me
+    gusta”** o **se** **aprueba** un elemento o acción.
 
-Pruébelo usted mismo:
+3.  **👎 Icono de Thumbs-Down** – Generalmente se utiliza para
+    **indicar** **que** **no** **gusta** o se **desaprueba** algo.
 
-Juegue con los prompts prediseñados y los sugeridos
+4.  **🔊 Icono de Speaker** – Representa **configuraciones de audio o
+    control de volumen**.
 
-- Can you provide a summary of the key changes made?
+5.  **✏️ Icono de Pencil** – Se utiliza comúnmente para tareas de
+    **edición** **o** **escritura**.
 
-- What are some potential sponsors for this event?
+6.  **🕒 Icono de Clock with Arrow** – El tooltip indica **“Add to
+    recent page”**, lo que significa que agrega el elemento actual a las
+    **páginas accedidas recientemente** para una referencia rápida.
 
-- Would you like a branded version with your logo and visual design
-  next?
+## Botón Copy (icono 📋)
 
-![](./media/image43.png)
+- Permite al usuario **copiar** directamente el **texto del resumen, la
+  explicación o los datos** desde la respuesta del Analyst.
 
-![](./media/image44.png)
+- **Uso:**
 
-**Resumen**
+Cuando se selecciona, copia la **parte de texto** de la respuesta del
+Analyst (no la imagen del gráfico) al portapapeles.
 
-Ahora ha completado el uso de Microsoft 365 Copilot Chat en modo web
-para planear una cumbre de clientes de alto impacto, que muestra:
+Esto es útil si **desea pegar los datos o el resumen** en un reporte,
+documento o presentación.
 
-- Investigación de mercado en tiempo real
+- **Ejemplo de caso de uso:**  
+  Puede copiar “22 participants rated the project satisfaction as 4 or
+  higher” para incluirlo en su archivo de resumen del proyecto.
 
-- Lluvia de ideas creativas
+> ![](./media/image41.png)
+>
+> ![](./media/image42.png)
 
-- Creación colaborativa de documentos
+## Botón Download (⤓ o icono ⬇)
 
-- Planificación y retroalimentación asistidas por IA
+- **Propósito:** Permite al usuario **descargar** **la**
+  **visualización** (como el **gráfico** **circular**) como un archivo
+  de **imagen (por ejemplo, PNG)**.
+
+- **Uso:**
+
+Al hacer clic, se guarda la imagen del gráfico en el sistema local.
+
+Posteriormente, se puede insertar en **diapositivas de PowerPoint,
+documentos de Word o informes** para su representación visual.
+
+- **Ejemplo de uso:**  
+  Puede descargar el gráfico circular **“Distribution of Overall
+  Experience Ratings”** para incluirlo en su presentación de análisis de
+  la encuesta.
+
+# ![](./media/image35.png)
+
+# Sugerencias de solución de problemas y validación
+
+- Si la UI del agente muestra un gran espacio en blanco: desplácese
+  hacia arriba o hacia abajo; el contenido normalmente está presente (el
+  módulo lo indica como un problema conocido).
+
+- Si las columnas numéricas se tratan como texto: abra la hoja de
+  cálculo, asegúrese de que las columnas de calificación sean numéricas
+  y vuelva a cargar el archivo.
+
+- Si los gráficos no aparecen, solicítelo explícitamente al agente:
+  Please generate a bar chart comparing average ratings for \[list
+  categories\].
+
+# Aprendizajes clave
+
+1.  **Conexión y carga de datos:**  
+    Aprendió a abrir el Analyst Agent, cargar el archivo de Excel
+    *Project Nexus Survey Results* e iniciar el proceso de análisis
+    dentro de Microsoft 365 Copilot.
+
+2.  **Ejecución de prompts iniciales:** Practicó el uso de prompts
+    básicos para identificar las **principales** **tendencias** y
+    calcular **promedios**, asegurando que puede obtener rápidamente
+    insights cuantitativos a partir de conjuntos de datos cargados.
+
+3.  **Exploración de diferentes tipos de prompts:**  
+    Realizó una exploración más profunda de los datos utilizando cuatro
+    categorías clave de prompts analíticos:
+
+    - **Prompts cuantitativos** – para calcular métricas, promedios y
+      correlaciones.
+
+    - **Prompts cualitativos** – para interpretar los comentarios de los
+      participantes e identificar temas.
+
+    - **Prompts de insights y recomendaciones** – para resumir hallazgos
+      y sugerir acciones de mejora.
+
+    - **Prompts de visualización cuantitativa** – para crear
+      representaciones visuales claras de resultados numéricos (por
+      ejemplo, gráficos circulares, gráficos de barras y mapas de
+      calor).
+
+4.  **Ejecución de un análisis integral:**  
+    Mediante el ejercicio de elementos accionables, integró todos los
+    tipos de prompts para realizar un **análisis** **de** **extremo**
+    **a** **extremo**, combinando hallazgos numéricos, descriptivos y
+    visuales para una interpretación integral.
+
+5.  **Exportación y reutilización de resultados:**  
+    Aprendió a usar los botones **Copy (📋)** y **Download (⬇)** en el
+    Analyst Agent para extraer resúmenes de texto o guardar
+    visualizaciones de gráficos para informes y presentaciones.
+
+6.  **Solución de problemas:**  
+    También revisó métodos para manejar problemas comunes de la
+    interfaz, como gráficos que no se muestran o columnas numéricas sin
+    el formato adecuado.
