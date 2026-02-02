@@ -1,226 +1,355 @@
-# Laboratorio 02 - Cree y configure un agente en el chat de Microsoft 365 Copilot
+# Laboratorio 02 - Use el Researcher agent para obtener insights, organizar contenido y generar resultados de calidad profesional directamente en Microsoft 365 Copilot.
 
-**Objetivo**
+![Researcher: A reasoning agent in Microsoft 365 Copilot -
+YouTube](./media/image1.jpeg)
 
-En este laboratorio, creará y configurará un agente de Copilot con las
-pestañas Describe y Configure.
+## Descripción general
 
-Usará Copilot Studio Agent Builder:
+- En este laboratorio, aprenderá a usar el **Researcher** **Agent** en
+  Microsoft 365 para recopilar, resumir y analizar información
+  relacionada con la organización.
 
-- Cree un agente con las pestañas Describe y Configure en Copilot Studio
-  Agent Builder
+- El Researcher Agent puede recopilar datos relevantes de sus
+  documentos, correos electrónicos, chats y mensajes de Teams, lo que le
+  ayuda a crear resúmenes, informes y seguimientos sobre un proyecto o
+  tema determinado.
 
-**Ojo**: la disponibilidad de la pestaña **Describe** se basa
-en [**disponibilidad geográfica y soporte
-lingüístico**](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
-Si la pestaña **Describe** no se admite en su región o su idioma
-preferido, puede construir su agente de forma manual a través de la
-pestaña **Configure**.
+# Objetivos de aprendizaje
 
-- Personalice las instrucciones del agente, la fuente de conocimientos y
-  las indicaciones de inicio.
+Después de completar este laboratorio, podrác:
 
-- Pruebe y edite su agente.
+- Localizar y abrir el **Rcsearcher** **Agent** en Microsoft 365.
 
-- Administre y comparta su agente dentro de su organización.
+- Usar prompts para recopilar discusiones, documentos y correos
+  electrónicos recientes.
 
-**Ejercicio 1: Cree un agente de Copilot mediante Describe**
+- Interactuar con preguntas de seguimiento para refinar los resultados.
 
-En este ejercicio, usará Describe en Copilot Studio para crear un agente
-básico.
+- Generar resúmenes, informes o elementos de acción relacionados con un
+  tema.
 
-1.  Abra un navegador Microsoft Edge e introduzca la siguiente URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
-    ir a la página de inicio de **Microsoft 365 Copilot
-    app** (anteriormente conocido como office).
+- Explorar casos de uso avanzados de prompts, como actualizaciones de
+  progreso, preparación de reuniones y descubrimiento de documentos.
 
-**Ojo**: Nececita iniciar sesión (si le pide) mediante las
-credenciales **Credenciales** proporcionadas en la
-pestaña **Resources** en la parte derecha.
+# Requisitos previos
 
-2.  Se abrirá la página **Copilot Chat**.
+Antes de comenzar, asegúrese de cumplir con lo siguiente:
 
-3.  Si, por razón alguna, aparece el mensaje “**Something went wrong”**,
-    haga clic en **Try again** (dos veces) para abrir la aplicación.
+- Tener acceso a **Microsoft** **365** con las funcionalidades de
+  Copilot habilitadas.
 
-![](./media/image1.png)
+- • Que su cuenta incluya permisos para usar el **Researcher**
+  **Agent**.
 
-**Ojo**: el interfaz del usuario de Copilot Chat puede parecer diferente
-al ejecutar este laboratorio (ya que Microsoft ha implementado
-características nuevas y actualizadas junto con cambios en la interfaz
-de usuario como parte del evento Microsoft Build-2025).  
-![](./media/image2.png)
+- • Haber iniciado sesión en su cuenta de Microsoft 365.
 
-![](./media/image3.png)
+# Ejercicio 1: Acceder al Researcher Agent
 
-4.  Haga clic en **Create an agent**.
+1.  Abra Microsoft 365.
 
-![](./media/image4.png)
+> <https://m365copilot.com/>
 
-5.  Se abrirá Copilot Studio Agent Builder.
+2.  Ingrese el nombre de usuario y la contraseña para iniciar sesión;
+    navegue a la pestaña **Resources** en el lado derecho de su entorno.
 
-![](./media/image5.png)
+> ![](./media/image2.png)
+>
+> ![](./media/image3.png)
+>
+> ![](./media/image4.png)
 
-6.  En la pestaña **Describe**, introduzca la descripción del propósito
-    del agente en la descripción en lenguaje natural.
+3.  En el **panel de navegación** izquierdo, busque **Agents**.
 
-En este ejercicio introducirá ++**An agent that assists users in finding
-popular learning paths and modules from Microsoft**++.
+    - Si **Researcher** aparece directamente debajo de la sección
+      **Agents** → seleccione **Researcher**.
 
-![](./media/image6.png)
+    - Si no aparece, seleccione **Agents** – Explore agents en el panel
+      de navegació.
 
-7.  Haga clic en Submit para obtener una vista previa del agente de
-    borrador.
+> ![](./media/image5.png)
 
-8.  Un agente de borrador con configuraciones iniciales establecidas se
-    guardará automáticamente. Revise los campos generados
-    automáticamente y realice los ajustes necesarios. En este ejercicio,
-    utilizará los campos generados automáticamente tal cual.
+4.  En la ventana **Agent Store**, en la sección **Built by Microsoft**,
+    seleccione **Researcher**.
+
+> ![](./media/image6.png)
+
+5.  La La ventana del **Researcher Agent** se abre en un nuevo panelse
+    abre en un nuevo panel.
 
 ![](./media/image7.png)
 
-9.  Se le pedirá confirmar o sugerir un nuevo nombre para este agente.
-    En este ejercicio, asignar a un nombre **LearnAssist Buddy.**
+# Ejercicio 2: Ejecutar su primer Research Prompt
+
+1.  En el **campo** **de** **prompt**, ingrese el siguiente texto:
+
+- “**Help me gather and summarize all recent discussions, documents, and
+  emails related to \[Topic X\] from the past 90 days”.**
+
+> **Nota**: Reemplace **\[Topic X\]** por el proyecto o tema real en el
+> que haya trabajado (por ejemplo, *“Smart Agentic Call Centre
+> Assistant”* o *“Cloud Migration Project”*).
+
+- **Ingrese el prompt:** Help me gather and summarize all recent
+  discussions, documents, and emails related to **Smart Agentic Call
+  Centre Assistant** from the past 90 days.
 
 ![](./media/image8.png)
 
+2.  Espere a que el **Researcher** **Agent** recopile y resuma los
+    datos; revise cuidadosamente la respuesta del Researcher Agent.
+
+- **El Researcher Agent puede hacer preguntas de aclaración.**
+
+> **Por ejemplo:**
+>
+> *Para asegurarme de entender su solicitud:*
+
+- *¿Hay equipos, personas o departamentos específicos involucrados en
+  estas discusiones que deba priorizar?*
+
+- *¿Está buscando solo discusiones internas o también debo incluir
+  comunicaciones externas (por ejemplo, con proveedores o socios)?*
+
+- *¿Desea que incluya recursos de aprendizaje o materiales de
+  capacitación relacionados con agentic AI o smart assistants en call
+  centres?*
+
+> *Si desea que continúe, solo diga “go ahead” y usaré mi mejor
+> criterio.*
+
+**Nota**: “I choose to go with **Go ahead** to analyse what best can
+Researcher agent provide”.
+
 ![](./media/image9.png)
 
-10. Ahora ha creado un agente con detalles básicos. Se le pedirá que
-    perfeccione las instrucciones para el agente y realice los ajustes
-    necesarios. En este ejercicio, utilizará la configuración
-    predeterminada para acelerar el proceso de creación.
+- **Revise la respuesta del Researcher Agent**:
+
+La respuesta del agente cubre el progreso del proyecto, evidencia
+documental, impacto de la capacitación, insights estratégicos y planes
+futuros, proporcionando un análisis situacional completo de la
+iniciativa de IA del call centre, desde la planificación hasta la
+ejecución del piloto.
 
 ![](./media/image10.png)
 
-**Ejercicio 2: Configure los detalles del agente en la pestaña
-Configure**
-
-En este ejercicio, configurará el agente para hacer un ajuste fino de su
-comportamiento.
-
-**Ojo**: si crea un agente directamente desde la pestaña Configure,
-necesitará definir el nombre del agente, descripción y su propósito.
-
-1.  Cambie a la pestaña Configure en el Agent Builder.
-
 ![](./media/image11.png)
 
-2.  Puede configurar los ajustes de comportamiento del agente, incluido
-    el tono de respuesta y el estilo de interacción. En este ejercicio,
-    procederá con las instrucciones predeterminadas.
+# Ejercicio 3: Refinar y explorar solicitudes adicionales
 
-![](./media/image12.png)
+Después de recibir el resumen inicial, puede refinar o ampliar su
+consulta. Pruebe los siguientes prompts para explorar diferentes
+capacidades:
 
-3.  Ahora configurará las fuentes de conocimiento que usará el agente,
-    como sitios específicos de SharePoint, bibliotecas de documentos y
-    sitios web. En este ejercicio, utilizará un sitio web como fuente de
-    conocimiento para fundamentar las respuestas de los agentes.
+## Prompts de acción y resumen
 
-Popule +++<https://learn.microsoft.com/en-us/training+++> y haga clic en
-enter.
+Ayudan al **Researcher** **Agent** a realizar una tarea o ejecutar una
+acción específica con base en los datos, hallazgos o la situación.
 
-![](./media/image13.png)
+- **Prompt**: List any action items for me.
 
-![](./media/image14.png)
+> ![](./media/image12.png)
+>
+> ![](./media/image13.png)
 
-**Ojo**: La URL del sitio web no puede tener más de dos niveles de
-profundidad. Además, el agente buscará en sitios web públicos si no
-agregas una URL y activarás la búsqueda web.
+- **Prompt**: Summarize the key decisions from these communications.
+
+> ![](./media/image14.png)
 
 ![](./media/image15.png)
 
-4.  Los cambios de configuración se guardarán automáticamente.
+- **Prompt**: Draft an email to the team about the project
+  participation.
 
-![](./media/image16.png)
+> ![](./media/image16.png)
+>
+> ![](./media/image17.png)
 
-5.  Ahora ha completado la configuración del agente con ajustes
-    personalizados adaptados a las necesidades de su organización. Ahora
-    se asegurará de que el agente funcione según lo previsto y realizará
-    los ajustes necesarios.
+## Investigación general y recopilación de información
 
-**Ejercicio 3: Probar y editar el agente**
+Estos prompts ayudan a **recopilar, analizar y resumir** información de
+contexto sobre un tema, organización, mercado o tecnología antes de la
+toma de decisiones o documentación.
 
-Ahora probará si el agente responde en función de los ajustes de
-configuración.
+- **Prompt**: Summarize all recent documents, chats, and emails related
+  to Smart Agentic Call Centre Assistant.![](./media/image18.png)
 
-1.  Ahora introducirá el siguiente prompt para evaluar la respuesta del
-    agente.
+> ![](./media/image19.png)
 
-++**List the popular learning paths and modules offered by
-Microsoft**++.
+- **Prompt**: Find and summarize feedback on our updated remote work
+  policy.
 
-![](./media/image17.png)
+> ![](./media/image20.png)
+>
+> ![](./media/image20.png)
+>
+> ![](./media/image21.png)
 
-2.  Puede comprobar la respuesta comparándola con la información
-    disponible en la URL introducida como fuente de conocimiento.
+## Preparación de reuniones 
 
-![](./media/image18.png)
+Los prompts de preparación de reuniones ayudan **a recopilar información
+de contexto, resumir actualizaciones** clave **e identificar elementos
+de acción o puntos de discusión** antes de una reunión  
+Se aseguran de que todos los participantes lleguen informados y listos
+para contribuir de manera efectiva.
 
-3.  También puede probar la respuesta ingresando algún prompt
-    irrelevante.
+- **Prompt**: Help me prepare for an upcoming meeting by summarizing
+  recent communication and shared files about.
 
-++**Help me with instructions for baking cakes**++
+> ![](./media/image22.png)
+>
+> ![](./media/image23.png)
+>
+> ![](./media/image24.png)
 
-![](./media/image19.png)
+- **Prompt**: What topics have been discussed in past weekly team syncs?
 
-El agente evitó dar una respuesta basada en la instrucción “Avoid
-discussing topics unrelated to Microsoft learning paths and modules”.
+> ![](./media/image25.png)
+>
+> ![](./media/image26.png)
 
-**Ojo**: El conjunto de instrucciones predeterminado en su caso puede
-ser diferente. Asegúrese de que las instrucciones estén configuradas
-correctamente para que el agente evite proporcionar la respuesta.
+## Actualizaciones de progreso y estado
 
-4.  Vuelva a la pestaña **Configure** para editar las configuraciones
-    del agente, instrucciones,o fuentes de conocimiento según sea
-    necesario.
+**“Actualizaciones de progreso y estado”** es otra sección ideal para
+los **prompts de acción** y **resumen**; ayuda a los usuarios o agentes
+de IA **a revisar logros, identificar brechas y planear los siguientes
+pasos**.
 
-5.  Una vez que esté satisfecho, haga clic en **Create** en la parte
-    superior derecha para publicar el agente.
+- **Prompt**: “Summarize the current status and blockers for Smart
+  Agentic Call Centre assistant .”
 
-![](./media/image20.png)
+> ![](./media/image27.png)
+>
+> ![](./media/image28.png)
+>
+> ![](./media/image29.png)
 
-![](./media/image21.png)
+- **Prompt**: What progress has been made on **Smart Agentic Call Centre
+  Assistant** based on email and Teams updates?
 
-6.  Su agente LearnAssist Buddy se crea de forma exitosa.
+> ![](./media/image30.png)
+>
+> ![](./media/image31.png)
+>
+> ![](./media/image32.png)
 
-![](./media/image22.png)
+## Preguntas sin responder y brechas
 
-**Ejercicio 4: gestione y comparta el agente**
+Esta sección ayuda a identificar **información faltante, puntos poco
+claros o áreas que requieren mayor investigación** a partir de
+actividades de investigación, reuniones o proyectos en curso.
 
-Ahora implementará el agente dentro de su organización y administrará su
-accesibilidad.
+Los **prompts de resumen** ayudan a articular qué no está claro,
+mientras que los **prompts** **de** **acción** guían para resolver o
+explorar estas brechas.
 
-1.  Comparta el agente con usuarios o grupos específicos mediante la
-    configuración de los permisos adecuados.
+- **Prompt**: “What open questions remain about Smart agentic call
+  centre assistant”
 
-![](./media/image23.png)
+> ![](./media/image33.png)
+>
+> ![](./media/image34.png)
 
-![](./media/image24.png)
+- **Prompt**: “Which action items from the last review meeting are still
+  incomplete?”
 
-2.  Realice mejoras iterativas basadas en los comentarios de los
-    usuarios y las métricas de rendimiento.
+> ![](./media/image35.png)
+>
+> ![](./media/image36.png)
 
-**Pruébelo usted mismo:**
+## Descubrimiento de documentos e insights-
 
-- Cree un agente “Product Buddy” para obtener los detalles del producto.
+Esta sección ayuda a los usuarios o a las herramientas de IA a
+**explorar, analizar y extraer información** valiosa de documentos,
+reportes o repositorios compartidos existentes.  
+Se enfoca en identificar insights clave, patrones o referencias que
+puedan guiar la investigación, la planeación o la documentación del
+proyecto.
 
-- Asigne el origen de conocimiento a la biblioteca de documentos que
-  creó en “Lab 0 - Preparing for lab execution”
+- **Prompt**: Find the latest version of **Smart Agentic Call Centre
+  Assistant** and summarize key updates.
 
-![](./media/image25.png)
+![](./media/image37.png)
 
-![](./media/image26.png)
+![](./media/image38.png)
 
-![](./media/image27.png)
+![](./media/image39.png)
 
-![](./media/image28.png)
+- **Prompt**: Summarize contents of shared documents related to \[Topic
+  X\].
 
-- Pruebe el agente preguntando prompts relevantes relacionadas con el
-  producto para verificar su funcionamiento.
+![](./media/image40.png)
 
-**Resumen:**
+![](./media/image41.png)
 
-Ahora ha completado la creación de agentes asignados con diferentes
-fuentes de conocimiento y conjuntos de instrucciones para obtener las
-respuestas esperadas de los agentes.
+![](./media/image42.png)
+
+## Generar un borrador de comunicación
+
+Use el Researcher Agent para ayudar a comunicar los hallazgos a su
+equipo.
+
+**Prompt**: Draft an email to summarize project updates on \[Topic X\]
+for the leadership team.
+
+![](./media/image43.png)
+
+![](./media/image44.png)
+
+![](./media/image45.png)
+
+![](./media/image46.png)
+
+# Revisar y validar el resultado
+
+1.  Evalúe si el resumen del Researcher Agent cumple con sus
+    expectativas.
+
+2.  Si los resultados son demasiado amplios o carecen de detalles clave,
+    refine el prompt.  
+    **Ejemplo**: “Narrow this summary to focus only on deliverables and
+    project blockers.”
+
+3.  Exporte o copie el resumen para documentación, reportes o notas de
+    reuniones.
+
+## Qué puede hacer con la respuesta
+
+A continuación, se presenta un breve resumen de las tareas asociadas a
+cada icono que se muestra en su captura de pantalla:
+
+![](./media/image47.png)
+
+1.  **📋 Icono de Clipboard** – Probablemente se utiliza para **copiar**
+    **o** **pegar** contenido.
+
+2.  **👍 Icono de Thumbs-Up** – Normalmente indica que se **aprueba** o
+    se da **“me gusta”** a un elemento o acción.
+
+3.  **👎 Icono de Thumbs-Down** – Generalmente se utiliza para indicar
+    que **nos gusta o no se aprueba** algo.
+
+4.  **🔊 Icono de Speaker** – Representa **configuraciones de audio o
+    control de volumen**.
+
+5.  **✏️ Icono de Pencil** – Comúnmente se utiliza para tareas de
+    **edición o escritura**.
+
+6.  **🕒 Icono de Clock con Arrow** – El tooltip indica **“Add to recent
+    page”**, lo que significa que agrega el elemento actual a las
+    **páginas recientes** para un acceso rápido.
+
+# Aprendizajes clave
+
+Ha logrado:
+
+- Ubicar y abrir el Researcher Agent en Microsoft 365.
+
+- Utilizarlo para recopilar y resumir información relacionada con un
+  tema específico.
+
+- Responder a preguntas de aclaración para refinar los resultados.
+
+- Solicitar insights adicionales, elementos de acción y resúmenes.
+
+- Crear un reporte o borrador de comunicación a partir de los hallazgos
+  de la investigación.
