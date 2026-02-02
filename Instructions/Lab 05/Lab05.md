@@ -50,7 +50,7 @@ acceso.
 - Seleccione el enlace proporcionado y abra la página de inicio de
   sesión de Microsoft SharePoint
 
-> <https://www.microsoft.com/en/microsoft-365/sharepoint/collaboration?market=af>
+> https://www.microsoft.com/en/microsoft-365/sharepoint/collaboration?market=af
 
 ![](./media/image1.png)
 
