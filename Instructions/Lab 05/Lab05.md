@@ -1,318 +1,278 @@
-# Laboratorio 05: Empodere la colaboración de equipos y creación del contenido con Copilot Pages
+# Laboratorio 05: Crear un Copilot Agent en SharePoint
 
-**Objetivos:**
+Duración del laboratorio: 10-15 minutos
 
-En este laboratorio, usará Microsoft 365 Copilot dentro de **Microsoft
-365 Apps** para
+## Introducción
 
-- Generar y editar contenido.
+A medida que las organizaciones dependen cada vez más de SharePoint para
+administrar el conocimiento, los proyectos y los recursos de los
+equipos, la capacidad de crear agentes inteligentes que interactúen con
+este contenido se convierte en un potente impulsor de productividad.
+Microsoft 365 Copilot permite crear un Copilot agent basado en
+SharePoint que puede mostrar información rápidamente, responder
+preguntas y ayudar a los usuarios a navegar por contenido complejo del
+sitio.
 
-- Refinar y mejroar el contenido generado utilizando las
-  características **Microsoft 365 Copilot Pages**.
+## Objetivo
 
-- Compartir y colaborar en **Microsoft 365 Copilot Pages** con un equipo
-  para una productividad sin problemas.
+En este laboratorio, aprenderá a:
 
-- Volver a acceder y administrar páginas desde el módulo Pages
-  en **Microsoft 365 Copilot**.
+1.  Crear un Copilot Agent en SharePoint.
 
-**Escenario**: Forma parte del equipo de consultoría de TI de Fabrikam.
-Trey Research, una empresa de investigación farmacéutica de rápido
-crecimiento, se ha puesto en contacto con nosotros para obtener
-orientación sobre la implementación de una red privada virtual (VPN)
-para mejorar el acceso remoto seguro para sus empleados y socios. Trey
-Research opera a nivel mundial y requiere soluciones escalables que
-protejan los datos confidenciales de investigación y, al mismo tiempo,
-garanticen el cumplimiento de las regulaciones de la industria.
+2.  Personalizar **el** **nombre, el icono y el propósito del agente**.
 
-Su tarea consiste en entregar un documento de información general
-ejecutiva que resuma los requisitos de VPN de Trey Research, las
-posibles soluciones y las principales ventajas de adoptar la
-arquitectura de VPN recomendada de Contoso.
+3.  Agregar **orígenes** **de** **conocimiento** como sitios de
+    SharePoint, bibliotecas o archivos.
 
-**Características clave para explorar durante el laboratorio:**
+4.  Configurar el comportamiento del agente, incluido el **mensaje de
+    bienvenida,** los **starter prompts** y las **instrucciones**.
 
-- **Persistent Content**: Comprenda cómo las páginas de Copilot le
-  permiten hacer que las respuestas generadas por IA sean más duraderas
-  y editables.
+5.  **Publicar y probar** su agente.
 
-- **Collaborative Editing**: Observe los cambios en tiempo real a medida
-  que los miembros del equipo interactúan con el contenido, demostrando
-  las capacidades multijugador.
+## Requisitos previos
 
-- **Content Structuring with "/" Menu**: Use el **"/" menu** para
-  agregar diferentes tipos de contenido como encabezados, tablas e
-  imágenes, lo que ayuda a estructurar el documento de manera efectiva.
+1.  Debe tener acceso a un sitio de SharePoint con **permisos de Edit o
+    superiores**.
 
-**Ojo**: Usará el documento **Trey Research - VPN Technical
-Overview** como referencia, compartido por Trey Research.
+2.  Asegúrese de que **Microsoft Copilot for Microsoft 365** esté
+    habilitado en su tenant.
 
-**Ejercicio núm. 1: Cree un Copilot Page**
+3.  Y Debe haber iniciado sesión en su sitio de **SharePoint Online** a
+    través de **Microsoft** **365**.
 
-El documento de referencia compartido por Trey Research contiene
-información clave sobre las operaciones de Trey Research, la
-infraestructura de TI existente y las necesidades de VPN. Como consultor
-de soluciones de infraestructura, hará referencia a este documento para
-redactar la propuesta.
+## Ejercicio 1: Acceder a la herramienta de creación de Copilot Agent
 
-**Tarea 1: Obtenga el documento de referencia enlistado en la lista de
-archivos Most Recently Used (MRU).**
+Debe comenzar identificando un sitio de SharePoint al que ya tenga
+acceso.
 
-1.  Si tiene una página Microsoft 365 Copilot App en su navegador
-    Microsoft Edge, selecciónelo ahora; por lo contrario, abra una nueva
-    pestaña e introduzca el siguiente URL:
-    +++<https://m365.cloud.microsoft>+++ para ir a la página de inicio
-    de Microsoft 365 Copilot App.
+1.  Inicie sesión en el **sitio** **de** **SharePoint**.
 
-**Ojo**: Necesita iniciar sesión (si se le solicita) con las **Microsoft
-365 Credentials** proporcionadas en la pestaña **Resources** en la parte
-derecha.
+- Seleccione el enlace proporcionado y abra la página de inicio de
+  sesión de Microsoft SharePoint
 
-2.  Seleccione **Apps** y haga clic en **OneDrive** para abrirlo.
+> <https://www.microsoft.com/en/microsoft-365/sharepoint/collaboration?market=af>
 
 ![](./media/image1.png)
 
-3.  Navegue a la carpeta **C:\LabFiles\MS4019** para seleccionar y subir
-    una copia del documento **Trey Research - VPN Technical
-    Overview** a **OneDrive**.
+2.  Seleccione **Sign** **in** y proporcione las credenciales de usuario
+    indicadas en su entorno, en la pestaña **Resources**, para iniciar
+    sesión en el sitio de SharePoint
 
-**Ojo**: Si ya ha cargado todos los recursos de laboratorio en
-**OneDrive,** como se sugiere en **Preparing for the lab
-execution** puede saltar este paso.
+> ![](./media/image2.png)
+>
+> ![](./media/image3.png)
 
-4.  Abra y cierre el archivo **Trey Research - VPN Technical
-    Overview.docx** (que cargó en OneDrive) para tenerlo en su lista de
-    archivos Most Recently Used (MRU).
+- Haga clic en **Yes** para permanecer con la sesión iniciada.
 
-**Tarea 2: Acceda Copilot y inicie una conversación**
+> ![](./media/image4.png)
+>
+> ![](./media/image5.png)
 
-1.  Si tiene una página Microsoft 365 Copilot App en su navegador
-    Microsoft Edge, selecciónelo ahora; por lo contrario, abra una nueva
-    pestaña e introduzca el siguiente
-    URL:+++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
-    ir a la página de inicio de Microsoft 365 Copilot App.
+3.  En el sitio de SharePoint, abra un sitio existente. Si no tiene un
+    sitio existente, cree uno nuevo.
 
-2.  Seleccione **Apps** y haga clic en **Teams** para abrirlo.
+4.  Seleccione **Create** **site** en la esquina superior izquierda de
+    la página principal del sitio de SharePoint para crear un nuevo
+    sitio.
 
-![](./media/image2.png)
+> ![](./media/image6.png)
 
-Espere mientras se completa el proceso de configuración.
-
-3.  Seleccione **Chat** y abra **Copilot**
-
-![](./media/image3.png)
-
-4.  Comience un chat con **Copilot** ingresando el siguiente prompt.
-
-++Create a summary of the key VPN needs for Trey Research, focusing on
-secure remote access and compliance with industry standards.++
-
-Ojo: en la página **Copilot**, en el botón de
-alternancia **Work/Web** en la parte superior de la página, se
-selecciona **Work** de forma predeterminada.
-
-![](./media/image4.png)
-
-5.  Ahora adjuntará el documento de referencia compartido por Trey
-    Research para comenzar a redactar el contenido del Resumen
-    ejecutivo. Seleccione el icono **Attach** (Sujetapapeles) para
-    referenciar el documento.
-
-![](./media/image5.png)
-
-6.  Seleccione el documento **Trey Research – VPN Technical Overview.**
-
-![](./media/image6.png)
-
-**Ojo**: Si el archivo no aparece en la lista emergente, inténtelo de
-nuevo seleccionando el icono **Attach**
-
-7.  Verá el documento seleccionado adjunto en el cuadro **Prompts**.
-    Haga clic en el icono **Send** para activar el inicio de Copilot
-    para generar el contenido.
+5.  En este caso, se selecciona el sitio de comunicación existente de
+    SharePoint llamado **ContosoSite**.
 
 ![](./media/image7.png)
 
-8.  Copilot revisará el documento de referencia y comenzará a generar el
-    contenido.
+## Ejercicio 2: Crear su nuevo agente
+
+1.  Crear un nuevo agente para **ContosoSite**
+
+- En la **página** **principal** de ContosoSite, seleccione + **New**
+  **→** **Agent**.
 
 ![](./media/image8.png)
 
+2.  **Abrir la página de creación del agente**  
+    Verá tres pestañas principales en la parte superior: **Overview**,
+    **Sources** y **Behavior**. Estas pestañas le ayudan a definir la
+    configuración y la funcionalidad del agente.
+
+### Ejercicio 2.1: Configurar la pestaña Overview del agente
+
+1.  En la pestaña **Overview**:
+
+    - Ingrese el **Agent Name** : Project Knowledge Assistant
+
 ![](./media/image9.png)
 
-9.  Una vez que Copilot termine de generar el borrador del contenido,
-    verá el botón **Edit in Pages** al final del contenido generado.
+- Proporcione una **Description**: Helps users find project documents
+  and summaries
 
 ![](./media/image10.png)
 
-10. Se añade automáticamente una referencia a esta nueva **página de
-    Copilot** en el chat para facilitar el acceso.
+- (Opcional) Seleccione **Change** **icon** y cargue un archivo .png
+  (tamaño máximo: 1 MB).
 
 ![](./media/image11.png)
 
-**Tarea 3: Explore las características de Page**
+### Ejercicio 2.2: Agregar orígenes de conocimiento
 
-1.  Puede cambiar el nombre del chat según sus requisitos.
+1.  Navegue a la pestaña **Source** en la ventana Create new agent.
 
-![](./media/image12.png)
+> ![](./media/image12.png)
 
-**Ojo**: El nombre del chat de Copilot no puede tener más de 30
-caracteres.
+2.  Elija una de las siguientes opciones:
+
+    - **Source from entire site** (predeterminado)
+
+    - **Sourced from document libraries, folders, or files**
+
+**Nota:** En este ejercicio se utiliza el origen predeterminado.
+
+3.  Si selecciona Sourced from document libraries, folders, or files:
+
+    - Haga clic en + Add document libraries, folders, or files.
+
+    - En la ventana Pick items, elija:
+
+    - La biblioteca Documents completa, o
+
+    - Carpetas/archivos específicos (seleccione las casillas
+      correspondientes).
+
+    - Seleccione Select.
 
 ![](./media/image13.png)
 
-2.  Puede hacer clic en el icono **Panel** (Collapse/Expand) para
-    expandir el panel de chat de Copilot para hacer espacio para ver el
-    contenido en una sección separada. Compruebe que la página se abre a
-    la derecha, en paralelo con el panel de chat. La respuesta se copia
-    y formatea automáticamente, incluidas las vistas previas de enlaces
-    o bloques de código.
+**Nota**: Puede agregar hasta 20 orígenes para un solo agente.
 
-![](./media/image14.png)
+### Ejercicio 2.3: Definir el comportamiento del agente
 
-3.  Haga clic en el botón **Edit in Pages** para ver el contenido
-    generado en una sección separada a la derecha.
+1.  Navegue a la pestaña **Behavior** en la ventana Create new agent.
 
-![](./media/image15.png)
+> ![](./media/image14.png)
+
+2.  Configure lo siguiente:
+
+- Welcome Message:  
+  *+++*Hi! I can help you locate project documents and summarize
+  updates*+++*
+
+- Starter Prompts (máx. 3):
+
+  1.  +++Summarize the latest project updates.+++
+
+  2.  +++Find budget-related documents.+++
+
+  3.  +++Who authored the project plan?+++
+
+> ![](./media/image15.png)
+
+- **Instructions:**  
+  +++Provide concise answers using only verified information from
+  included SharePoint sources.+++
 
 ![](./media/image16.png)
 
-**Ejercicio núm. 2: Agregue y refina el contenido en Page**
+3.  Seleccione **Save** **and** **close** para guardar todas las
+    configuraciones.
 
-En este ejercicio, seguirá interactuando con Copilot en el chat. Cuando
-se generen nuevas estadísticas, haga clic en **Edit in Pages** para
-agregarlas a la página actual. Estas actualizaciones se anexarán en la
-parte inferior de la página (que está viendo en el lado derecho del
-panel de chat)
+## Ejercicio 3: Probar su agente
 
-**Tarea 1: Continúe la conversación en el chat**
+1.  Después de guardar, abra el **panel de chat de Copilot**.
 
-1.  En la ventana de chat, proporcione más instrucciones para refinar el
-    contenido. Ahora le pedirá a Copilot que compare tres tecnologías
-    VPN, centrándose en sus pros y contras en relación con las
-    necesidades de Trey Research. Introduzca el siguiente mensaje y haga
-    clic en **Send.**
+- Seleccione **Chat** **with** **agent** para abrir la ventana de chat
+  del agente en **ContosoSite**.
 
-++Compare three VPN technologies based on scalability, security, and
-cost-effectiveness.++
+> ![](./media/image17.png)
 
-![](./media/image17.png) **Ojo**:
-También puede probar con el siguiente prompt.
+- Ahora verá el panel del agente **Project** **Knowledge** **Assistant**
+  en el lado derecho de **ContosoSite**.
 
-++Create a table comparing three VPN technologies (e.g., MPLS VPN, SSL
-VPN, IPsec VPN) based on scalability, security features, ease of
-deployment, and cost.++
+- También puede cambiar entre agentes desde el menú desplegable de
+  agentes.
 
-2.  Copilot generará nuevos conocimientos con los detalles de la
-    comparación.   
-    ![](./media/image18.png)
+> ![](./media/image18.png)
+>
+> ![](./media/image19.png)
 
-![](./media/image19.png)
+2.  Ingrese uno de los starter prompts en el campo de chat del agente:
 
-3.  Haga clic en **Edit in Pages** para anexar estos detalles de
-    comparación a la página existente.  
-    ![](./media/image20.png)
+> **Prompt**: +++Summarize the project plan+++
+>
+> ![](./media/image20.png)
 
-**Tarea 2: Edite directamente en Page**
+3.  Observe la respuesta.
 
-1.  Haga clic en cualquier parte de la página para comenzar a escribir y
-    refinar el contenido. Escriba **"/"** para abrir un menú de opciones
-    de contenido, como encabezados, viñetas, tablas o imágenes, para una
-    forma más estructurada y atractiva.
-    layout. ![](./media/image21.png)
+- Como se muestra en la imagen, el agente **Project Knowledge
+  Assistant** no devuelve detalles específicos de informes del proyecto.
 
-2.  Pase el mouse sobre un bloque de contenido y seleccione el menú
-    Kebab (3 puntos verticales en una matriz paralela, que se asemeja a
-    un elemento ensartado) para ver las opciones para Copiar enlace de
-    página, Mover bloque y
-    Delete. ![](./media/image22.png)
+- Esto ocurre porque el origen de **ContosoSite** actualmente **no
+  contiene archivos de informes del proyecto ni datos relacionados**.
 
-**Tarea 3: Colabore con los miembros del equipo**
+> ![](./media/image21.png)
+>
+> **Nota**: Puede cargar un documento o un informe de proyecto en la
+> biblioteca de ContosoSite.
 
-1.  Cuando la página esté lista para la entrada del equipo, haga clic en
-    el **icono Compartir** en la esquina superior derecha y
-    seleccione **‘Copy component’**.
+4.  Cargue un documento en la biblioteca de **ContosoSite**.
 
-![](./media/image23.png)
+- Vaya a la página principal de ContosoSite y seleccione **Toggle**
+  **navigation** **pane.**
 
-2.  Pegue este vínculo en un canal de **Teams** o en un email de
-    **Outlook**, lo que permite que los miembros del equipo accedan a la
-    página y colaboren con usted.
+- Seleccione la opción Seleccione la opción **Documents** en el menú
+  desplegable en el menú desplegable.
 
-**Ojo**: Este entorno de laboratorio se implementa con funcionalidad
-restringida. Por lo tanto, no podrá usar Teams y Outlook de forma
-colaborativa como lo haría en una red corporativa.
+![](./media/image22.png)
 
-**Ejercicio núm. 3: Vuelva a visitar y acceda Saved Pages**
+- Verá la biblioteca documents vacía de ContosoSite.
 
-En cualquier momento, puede volver al mensaje de chat original en el que
-se creó por primera vez el enlace de la Copilot Page.
+- Haga clic en **Upload** y seleccione el **archivo**, **carpeta** o
+  **plantilla** que desea cargar en la biblioteca del sitio.
 
-**Tarea 1: Localice su página en Microsoft365.com**
+> ![](./media/image23.png)
+>
+> ![](./media/image24.png)
 
-1.  Vaya a la pestaña **Pages** en **Microsoft365.com**.
+- Seleccione el archivo desde su **OneDrive** y seleccione **Open** para
+  cargarlo.
 
-![](./media/image24.png)
+> ![](./media/image25.png)
+>
+> ![](./media/image26.png)
 
-2.  Aquí verá todas las páginas de **Copilot** que ha creado,
-    organizadas para facilitar el
-    acceso. ![](./media/image25.png)
+- Su archivo de **resultados** **de la** **encuesta** **Project Nexus**
+  se carga correctamente en la biblioteca documents de **ContosoSite**.
 
-**Tarea 2: Realice ediciones adicionales o compartir actualizaciones**
+> ![](./media/image27.png)
 
-Abra la página guardada para realizar más ediciones, agregar
-actualizaciones o volver a compartir el enlace de la página para
-continuar la colaboración con miembros del equipo nuevos o existentes.
+5.  Pruebe su agente con el nuevo origen predeterminado Project Nexus
+    Survey results.
 
-1.  Cuando pase el cursor sobre el contenido textual, verá el
-    menú **Kebab** y el icono **Chat**.
+- ngrese el prompt en el panel de chat del agente y valide la respuesta.
 
-![](./media/image26.png)
+Prompt: +++**Summarise the latest project updates**+++ .
 
-2.  Ahora edita la página directamente. Haga clic en la página y escriba
-    para agregar o cambiar el contenido. Ahora introducirá el siguiente
-    prompt (para insertar un gráfico que muestre las tasas de adopción
-    de VPN) y haga clic en **Send**.
+- El agente responde con información precisa basada únicamente en el
+  contenido de SharePoint incluido como origen.
 
-++Insert a chart showing VPN adoption rates in pharmaceutical
-industries.++
+> ![](./media/image28.png)
+>
+> ![](./media/image29.png)
 
-![](./media/image27.png)
+## Resumen
 
-3.  Copilot generará y mostrará el gráfico con el fragmento de código.
+En este laboratorio, usted:
 
-![](./media/image28.png)
+- Creó un nuevo **Copilot Agent** en SharePoint.
 
-4.  Cierre la ventana de **Copilot chat** y seleccione **Preview** para
-    seguir adelante.   
-    ![](./media/image29.png)
+- Personalizó **su nombre, descripción e icono**.
 
-5.  Ahora finalizará el borrador para que esté listo para el equipo de
-    liderazgo de Trey Research.
+- Definió los **orígenes de conocimiento** y la **configuración de
+  comportamiento**.
 
-Utilizará el siguiente prompt para finalizar el documento.
+- Publicó y probó su agente.
 
-++Format the executive summary to highlight the top three benefits of
-Contoso’s VPN recommendation.++
-
-![](./media/image30.png)
-
-![](./media/image31.png)
-
-6.  Se asegurará de que todas las ediciones estén completas y guardará
-    la página con un nombre adecuado, lista para presentarla o
-    compartirla.
-
-**Resumen:**
-
-En este laboratorio, aplicó las siguientes aptitudes:
-
-- Usar Copilot para crear, refinar y compartir contenido de forma
-  eficaz.
-
-- Utilizar las funciones interactivas y colaborativas de M365 Pages para
-  mejorar el trabajo en equipo.
-
-a escenarios del mundo real mediante la integración de Microsoft 365
-Copilot en los flujos de trabajo diarios para la productividad y la
-colaboración.
+Ahora comprende cómo los SharePoint Copilot Agents ayudan a optimizar la
+**recuperación de información, la colaboración y la automatización de
+flujos de trabajo** utilizando los datos que ya están disponibles en su
+entorno de SharePoint.
