@@ -55,7 +55,7 @@ incorrect.](./media/image1.png)
 incorrect.](./media/image2.png)
 
 3.  Ingrese el Temporary Access
-    Pass+++@lab.CloudPortalCredential(User1).TAP+++
+    Pass +++@lab.CloudPortalCredential(User1).TAP+++
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image3.png)
