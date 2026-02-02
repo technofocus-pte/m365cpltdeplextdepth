@@ -57,7 +57,7 @@ agentes, y cada entorno está completamente aislado de los demás. En este
 ejercicio, creará un nuevo entorno dedicado en el que realizará los
 ejercicios restantes.
 
-1.  Abra un navegador y vaya a +++<https://admin.powerplatform.com+++> e
+1.  Abra un navegador y vaya a +++https://admin.powerplatform.com+++ e
     inicie sesión con las siguientes credenciales.
 
 - Username - <+++@lab.CloudPortalCredential(User1).Username>+++
@@ -102,7 +102,7 @@ entorno creado en el Admin Center.
 En este ejercicio, creará un agente declarativo con Microsoft Copilot
 Studio y lo hospedará en Microsoft 365 Copilot Chat.
 
-1.  Inicie sesión en +++<https://copilotstudio.microsoft.com+++> con las
+1.  Inicie sesión en +++https://copilotstudio.microsoft.com+++ con las
     siguientes credenciales (también disponibles en la pestaña
     **Resources**).
 
@@ -438,3 +438,4 @@ de forma segura el conocimiento empresarial y mejoran la productividad
 mediante IA conversacional dentro de Microsoft 365
 
 .
+
