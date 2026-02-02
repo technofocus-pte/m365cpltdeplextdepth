@@ -1,6 +1,6 @@
 # Laboratorio 04: Explorar el agente Document Analyzer para hacer preguntas, analizar contenido y transformar documentos con Microsoft 365 Copilot en Word
 
-Tiempo estimado: 10–15 minutos
+Duración estimada: *15 - 20 minutos*
 
 ## Objetivo
 
