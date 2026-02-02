@@ -24,7 +24,7 @@ Duración estimada - 40 minutos
 
 - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-- TAP - <+++@lab.CloudPortalCredential(User1).TAP>+++
+- TAP - +++@lab.CloudPortalCredential(User1).TAP+++
 
 2.  Desde la **página** **de** **inicio**, en el área de texto Start
     building by describing what your agent needs to do, ingrese +++I
