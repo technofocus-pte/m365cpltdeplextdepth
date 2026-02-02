@@ -1,262 +1,338 @@
-**Laboratorio 03 – Mejore la productividad del empleado con los agentes
-preconstruidos**
+# Laboratorio 03 – Automatización de asistencia de conocimiento mediante Microsoft 365 Copilot Agents
 
-**Objetivo**
+# Objetivo: 
 
-Usted es son estratega de comunicaciones que trabajan con Contoso
-Shoppee, líder mundial en distribución de bienes de consumo. La compañía
-está preparando un taller interno de preparación para la innovación
-destinado a alinear a los equipos con los objetivos de transformación
-digital, mejorar la adopción de herramientas de productividad y generar
-nuevas ideas para iniciativas de participación del cliente. Se le pide
-que muestre agentes precompilados en Microsoft 365 Copilot Chat (Prompt
-Coach, Writing Coach y Idea Coach) a los participantes del taller para
-mejorar la productividad en las tareas de escritura, ideación y
-desarrollo de prompts.
+En este laboratorio, creará y configurará un agente de Copilot mediante
+las pestañas Describe y Configure.
 
-En este laboratorio, usted usará Microsoft 365 Copilot Chat para:
+Usará Copilot Studio Agent Builder para:
 
-- Elaborar y perfeccionar prompts de alta calidad utilizando Prompt
-  Coach
+- Crear un agente mediante las pestañas Describe y Configure en Copilot
+  Studio Agent Builder.
 
-- Recibir comentarios detallados sobre la escritura y consejos de mejora
-  de Writing Coach
+**Nota**: La disponibilidad de la pestaña **Describe** depende de la
+[**disponibilidad geográfica y del soporte de
+idioma**](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-agent-builder-build).
+Si la pestaña **Describe** no es compatible en su región o idioma
+preferido, puede crear el agente manualmente mediante la pestaña
+**Configure**.
 
-- Generar y organizar ideas creativas con Idea Coach
+- Personalizar las instrucciones del agente, la fuente de conocimiento y
+  los starter prompts.
 
-- Mejorar la eficacia de las prontas para diversos casos de uso
-  empresarial
+- Probar y editar su agente.
 
-- Colaborar con Copilot Chat para producir borradores pulidos y
-  contenido estructurado
+- Administrar y compartir su agente dentro de su organización.
 
-**Ejercicio 1: Explore e interactúe con agentes preconstruidos a través
-de Copilot Chat**
+# Ejercicio 1: Crear un Copilot Agent mediante la pestaña Describe 
 
-En este ejercicio, mostrará cómo acceder e interactuar con agentes de
-Copilot predefinidos (Prompt Coach, Writing Coach, and Idea Coach)
-mediante Microsoft 365 Copilot Chat, y comprender sus capacidades únicas
-para mejorar la productividad.
+En este ejercicio, usará la pestaña Describe en Copilot Studio para
+crear un agente básico.
 
-1.  Abra un navegador Microsoft Edge y escriba la siguiente dirección
-    URL:
-    +++[https://m365.cloud.microsoft+++](https://m365.cloud.microsoft+++/) para
-    ir a la página de inicio de **Microsoft 365 Copilot
-    app** (anteriormente conocido como office).
+1.  Abra un navegador Microsoft Edge e ingrese la siguiente URL:
+    +++<https://www.office.com>+++ para ir a la página principal de la
+    **aplicación Microsoft 365 Copilot** (anteriormente Office).
 
-**Ojo**: Debe iniciar sesión (si se le pide) con las
-**Credenciales** proporcionadas en la pestaña **Resources** en la parte
-derecha.
+> **Nota**: Debe iniciar sesión (si se le solicita) usando las
+> **credenciales** proporcionadas en la pestaña **Resources** del lado
+> derecho.
+>
+> ![](./media/image1.png)
+>
+> ![](./media/image2.png)
 
-2.  Se abrirá la página **Copilot chat**.
+2.  Seleccione **Copilot** **Chat** en el panel de navegación izquierdo.
 
-3.  Si, por razón alguna, aparece el mensaje “**Something went wrong”**,
-    haga clic en **Try again** (dos veces) para abrir Copilot Chat.
+> ota: En ocasiones, la página de **Copilot** **Chat** se abre de forma
+> predeterminada. En ese caso, vaya al paso \#4.
+>
+> ![A screenshot of a chat AI-generated content may be
+> incorrect.](./media/image3.png)
+>
+> ![](./media/image4.png)
 
-![](./media/image1.png)
+3.  Si por alguna razón aparece el mensaje **“Something went wrong”**,
+    seleccione **Refresh** para abrir la aplicación Copilot.
 
-**Ojo**: El interfaz del usuario Copilot Chat puede parecer diferente
-(como en el paso \#4) cuando está ejecutando este laboratorio (ya que
-Microsoft ha implementado características nuevas y actualizadas junto
-con cambios en la interfaz de usuario como parte del evento Microsoft
-Build-2025).
+> ![A screenshot of a computer AI-generated content may be
+> incorrect.](./media/image5.png)
+>
+> ![](./media/image6.png)
 
-4.  Haga clic en **Create Agent** en el panel de navegación en función
-    de la página de destino en su caso.
+4.  Seleccione **Create an agent** en el panel de navegación izquierdo
+    de la página principal de Copilot.
 
-![](./media/image2.png)
+> ![](./media/image7.png)
 
-![](./media/image3.png)
+5.  Se abrirá Copilot Studio Agent Builder.
 
-5.  Se abrirá Copilot Studio Agent Builder. Espere un tiempo para que se
-    cargue la lista de agentes prediseñados. Haga clic en **View all
-    templates**.
+> ![](./media/image8.png)
 
-![](./media/image4.png)
+6.  En la **pestaña** **Describe**, ingrese la descripción del propósito
+    del agente usando lenguaje natural.
 
-![](./media/image5.png)
+> En este ejercicio, ingrese+++ **An agent that assists users in finding
+> popular learning paths and modules from Microsoft** +++.
+>
+> ![](./media/image9.png)
+>
+> ![](./media/image10.png)
+>
+> **Nota:** En este paso no se especifica un nombre para el agente. Por
+> lo tanto, Agent Builder asignará automáticamente un nombre
+> predeterminado. También puede proporcionar cualquier nombre de su
+> preferencia.
 
-6.  Desplácese por la lista para localizar los agentes declarativos
-    (Prompt Coach y Writing Coach) que utilizará para mejorar la calidad
-    de las indicaciones y refinar la escritura.
+7.  Haga clic en el botón **Create** en la parte superior derecha de la
+    ventana de Agent Builder para enviar el agente.
 
-7.  Seleccione Prompt Coach
+> ![](./media/image11.png)
 
-![](./media/image6.png)
+8.  Una vez que el agente se haya creado correctamente, seleccione Go to
+    agent para comenzar la interacción con el agente.
 
-**Ojo**: Puede utilizar estos agentes declarativos como plantillas y
-personalizarlos según sus necesidades.
+**Nota**: En este ejercicio, usará la configuración predeterminada para
+agilizar el proceso de creación.
 
-8.  En este laboratorio, utilizará el Prompt coach tal cual sin
-    personalizarlo. Haga clic en **Create** en la parte superior derecha
-    para crear el agente Prompt Coach.
+> ![](./media/image12.png)
 
-![](./media/image7.png)
+9.  De forma predeterminada, el agente se llama **Custom Insights
+    Assistant agent.**
 
-![](./media/image8.png)
+> ![](./media/image13.png)
+>
+> ![](./media/image14.png)
 
-Ahora ha completado la creación del **Prompt Coach**. Haga clic en **Go
-to agent** para abrir el agente de Prompt Coach.
+**Nota**: Si no ve el nombre del agente en la ventana de chat del
+agente, puede actualizar la página o seleccionar el agente desde el
+panel de navegación izquierdo de la ventana de chat del agente.
 
-![](./media/image9.png)
+10. Ahora ha creado un agente con detalles básicos. Se le pedirá que
+    refine las instrucciones del agente y realice los ajustes
+    necesarios. En este ejercicio, usará la configuración predeterminada
+    para agilizar el proceso de creación.
 
-A continuación, utilizará el Prompt coach para mejorar la calidad de sus
-avisos.
+> ![](./media/image15.png)
+>
+> ![](./media/image16.png)
 
-**Ejercicio 2: Mejore la calidad de prompt en Copilot Chat**
+## Probar su agente
 
-En este ejercicio, generará un prompt de Copilot más específica para un
-informe de investigación de mercado.
+Ahora probará si el agente responde según la configuración establecida.
 
-1.  A continuación, introducirá un draft prompt:  
-    ++@Prompt Coach, review this prompt: “Give me insights on European
-    retail industry.”++
+1.  Ingrese el siguiente prompt para evaluar la respuesta del agente.
 
-![](./media/image10.png)
+> +++**List the popular learning paths and modules offered by
+> Microsoft**+++
+>
+> ![](./media/image17.png)
+>
+> ![](./media/image18.png)
+>
+> ![](./media/image19.png)
 
-2.  Para empezar, Copilot necesita que proporcione los siguientes
-    detalles:
+2.  Puede verificar la respuesta comparándola con la información
+    disponible en la URL proporcionada como fuente de conocimiento.
 
-- **Objetivo**: ¿Cuál es el resultado deseado que desea lograr con
-  Copilot?
+> ![](./media/image20.png)
+>
+> ![](./media/image21.png)
 
-- **Contexto**: Cualquier información de fondo o detalles específicos
-  que sean relevantes para el prompt.
+3.  También puede probar la respuesta ingresando un prompt irrelevante.
 
-- **Fuente**: ¿Hay alguna fuente o ejemplo específico que quiera
-  incluir?
+> +++**Help me with instructions for baking cakes**+++
+>
+> ![](./media/image22.png)
 
-- **Expectativas**: ¿Tiene alguna preferencia en cuanto al formato o la
-  estructura del prompt?
+4.  De forma predeterminada, el agente evita proporcionar respuestas
+    basadas en información no relacionada con los learning paths, lo que
+    demuestra su precisión y confiabilidad al basarse en la experiencia
+    predeterminada. ![](./media/image23.png)
 
-![](./media/image11.png)
-
-3.  Puede preguntar a Copilot: How can I make this prompt more specific
-    and actionable?
-
-![](./media/image12.png)
-
-4.  Copilot responde con la muestra de cómo se podría hacer que el
-    prompt sea más específico y accionable.
-
-![](./media/image13.png)
-
-5.  Si ignora e intenta con otro prompt contundente, Copilot le
-    insistirá en que aclare con más detalles. Compruebe la salida de
-    Copilot con el siguiente prompt y haga clic en **Submit**.
-
-++I am trying to generate a more targeted Copilot prompt for a market
-research report.++
-
-![](./media/image14.png)
-
-![](./media/image15.png)
-
-6.  Ahora utilizará las sugerencias para revisar su propmt y preguntar
-
-@Prompt Coach, evaluate this revised prompt. Is it strong enough for
-Copilot to return insightful output?
-
-++“Summarize Q1 2024 retail trends in Germany and France, including
-consumer behavior shifts and top-performing product categories.” @Prompt
-Coach, evaluate this revised prompt. Is it strong enough for Copilot to
-return insightful output?++
-
-![](./media/image16.png)
-
-7.  Copilot responde con los comentarios de evaluación y le proporciona
-    sugerencias. La respuesta puede ser un poco diferente de lo que se
-    ve en las siguientes capturas de pantalla.
-
-![](./media/image17.png)
-
-![](./media/image18.png)
-
-8.  Ahora intente con el siguiente prompt y haga clic en Submit.
-
-++What other data sources can I use for this analysis?++
-
-![](./media/image19.png)
-
-9.  Copilot responde con detalles sobre las fuentes de datos comunes.
-
-![](./media/image20.png)
-
-10. Puede intentarlo con el siguiente prompt y hacer clic en Submit.
-
-++How can I access these reports?++
-
-![](./media/image21.png)
-
-11. En función de las reseñas de evaluación y sugerencias de fuentes de
-    datos, cambie el prompt.
-
-Puede intentarlo con siguiente prompt y averigüe la salida:
-
-++Provide a detailed analysis of Q1 2024 retail trends in Germany and
-France, including consumer behavior shifts and top-performing product
-categories, using data from German Retail Federation (HDE) and the
-French Federation of Retailers (FCD).++
-
-![](./media/image22.png)
-
-12. Revise la respuesta generada por Copilot.
-
-Ahora pruebe el siguiente prompt y revise el resultado:
-
-++Provide a detailed analysis of Q1 2024 retail trends in Germany and
-France, including consumer behavior shifts and top-performing product
-categories, using data
-from [https://www.nielson.com++](https://www.nielson.com++/)
-
-![](./media/image23.png)
+**Tip:** Puede explorar más sobre Microsoft learning paths seleccionando
+el icono **View** Prompts ubicado en la parte inferior derecha de la
+ventana de chat de Copilot.
 
 ![](./media/image24.png)
 
-Acaba de completar la generación del informe sobre las tendencias del
-mercado con la ayuda de Prompt Coach al crear y refinar los prompts.
+![](./media/image25.png)
 
-**Pruébelo usted mismo:**
+# Ejercicio 2: Configurar los detalles del agente mediante la pestaña Configure
 
-**Ejercicio 2: Refine la escritura con Writing Coach en Copilot Chat**
+En este ejercicio, configurará los ajustes del agente para ajustar su
+comportamiento.
 
-En este ejercicio, usará Microsoft 365 Copilot Chat para:
+**Nots**: Si crea un agente directamente desde la pestaña Configure,
+debe definir el nombre, la descripción y el propósito del agente.
 
-- Crear un agente con la ayuda de Writing Coach como una plantilla.
+1.  En el panel de navegación izquierdo, seleccione el agente **Custom
+    Insights Assistant** que se creó con la configuración
+    predeterminada. Seleccione el **icono de tres puntos (⋯)** junto a
+    él y luego **Edit**.![](./media/image26.png)
 
-- Refinar el tono, la claridad y el impacto de comunicación interna
+2.  En la vista de edición, puede modificar el **nombre del agente, la
+    descripción,** definir **instrucciones para el comportamiento del
+    agente** y agregar **fuentes de conocimiento personalizadas**.
 
-- Reformular mensajes clave según el público objetivo (por ejemplo,
-  liderazgo ejecutivo, empleados de primera línea)
+- **New Agent Name:** *LearnAssistantBussy*
 
-- Aplicar las sugerencias de Writing Coach para hacer que el contenido
-  sea más inspirador, profesional o conciso
+- **Instruction:** Updated
 
-**Tarea núm. 1: Cree un agente con la ayuda de Writing coach como una
-plantilla.**
+- **Knowledge Source:** Added
 
-**Tarea núm. 2: Proporcione una frase de ejemplo al ajente como se ve a
-continuación y pídale que lo reformule el tagline**
+> ![](./media/image27.png)
 
-- Ejemplo: “The new employee wellness program starts next week. It’s
-  really cool and we hope everyone enjoys it.”
+3.  Puede configurar los ajustes de comportamiento del agente, incluido
+    el tono de respuesta y el estilo de interacción. En este ejercicio,
+    procederá con las instrucciones predeterminadas.
 
-- Pregunte:  
-  @Writing Coach, improve this message for tone, clarity, and executive
-  audience.
+> ![](./media/image28.png)
 
-- Y pruebe:  
-  @Writing Coach, rephrase this to be inspirational and concise.  
-  @Writing Coach, explain how you improved the sentence.
+4.  Cargue los archivos, carpetas o sitios recomendados de su
+    organización en la **Knowledge** **Source** del agente.  
+    Seleccione el icono **Upload** (**☁️⬆️)** para agregar archivos
+    directamente desde **OneDrive**.
 
-**Tarea núm. 3: Proporcione su propio borrador (email o post de
-LinkedIn), y use el agente para refinar la redacción.**
+![](./media/image29.png)
 
-- Pregunte:
+5.  Configurar ahora las fuentes de conocimiento que usará el agente,
+    como sitios específicos de SharePoint, bibliotecas de documentos y
+    sitios web. En este ejercicio, usará un sitio web como fuente de
+    conocimiento para fundamentar las respuestas del agente.
 
-@Writing Coach, how can I make this sound more confident and
-professional?
+> Ingrese +++**https://learn.microsoft.com/en-us/training/**+++ y
+> presione enter.
+>
+> ![](./media/image30.png)
+>
+> **Nota**: La URL del sitio web no puede tener más de dos niveles de
+> profundidad. Además, el agente buscará en sitios web públicos si no
+> agrega una URL y tiene activada la búsqueda web.
+>
+> ![A screenshot of a computer AI-generated content may be
+> incorrect.](./media/image31.png)
 
-- Pregúntele al agente de Writing Coach que convierta su versión
-  revisada en un mensaje formateado (por ejemplo, agregar encabezado,
-  resumen, llamada a la acción).
+6.  Los cambios de configuración se guardan automáticamente a medida que
+    edita. Para finalizar y aplicar todas las actualizaciones,
+    seleccione el botón **Update** ubicado en la parte superior derecha.
+
+> ![](./media/image32.png)
+
+7.  Ha completado la configuración del agente con ajustes personalizados
+    adaptados a las necesidades de su organización.
+
+8.  Seleccione **Go to agent** para ver las actualizaciones en la
+    ventana de chat de Copilot, verificar que el agente funcione según
+    lo esperado y realizar los ajustes necesarios.
+
+> ![](./media/image33.png)
+
+## Probar su agente personalizado
+
+Pruebe su agente personalizado para verificar que las configuraciones
+aplicadas, las fuentes de conocimiento y los ajustes de comportamiento
+funcionen según lo esperado.
+
+1.  Ingrese el siguiente prompt para evaluar la respuesta del agente. 
+
+> +++**List the popular learning paths and modules offered by
+> Microsoft**+++ 
+>
+> ![](./media/image34.png)
+>
+> ![](./media/image35.png)
+
+2.  Puede verificar la respuesta comparándola con la información
+    disponible en la URL ingresada como fuente de conocimiento. 
+
+>  
+>
+> ![](./media/image36.png) 
+
+3.  También puede probar la respuesta ingresando un prompt irrelevante. 
+
+> Prompt: +++**Find out the top 10 tourist places in India** +++ 
+>
+> **Nota**: El agente evitó proporcionar una respuesta según la
+> instrucción “Avoid discussing topics unrelated to Microsoft learning
+> paths and modules”. 
+
+![](./media/image37.png)
+
+> **Nota**: El conjunto de instrucciones predeterminado en su caso puede
+> ser diferente. Asegúrese de que las instrucciones estén configuradas
+> correctamente para que el agente evite proporcionar respuestas no
+> relacionadas. 
+
+# Ejercicio 4: Administración y uso compartido del agente
+
+Ahora implementará el agente dentro de su organización y administrará su
+accesibilidad.
+
+1.  Comparta el agente con usuarios o grupos específicos estableciendo
+    los permisos adecuados.
+
+2.  En el panel de navegación izquierdo, vaya al agente **Custom
+    Insights Assistant**. Seleccione el **menú de tres puntos (⋯)**
+    junto a él y luego **Share**.
+
+> ![](./media/image38.png)
+
+3.  En el cuadro de diálogo **Share “Customer Insights Assistant”**,
+    seleccione cómo desea compartir el agente.
+
+- Seleccione **Anyone in your organization** para que el agente esté
+  disponible para todos los usuarios.
+
+- Como alternativa, seleccione **Specific users in your organization** o
+  **Only you** según su preferencia de uso compartido.
+
+- Seleccione **Save** para confirmar su selección.
+
+> ![A screenshot of a computer AI-generated content may be
+> incorrect.](./media/image39.png)
+
+4.  En este caso, se seleccionó la primera opción **Anyone in my
+    organisation** para que el agente esté disponible para todos y tenga
+    acceso rápido.
+
+> ![](./media/image40.png)
+
+5.  Después de seleccionar **Save**, copie el enlace generado y
+    compártalo con los miembros de su equipo para que puedan acceder al
+    agente **Custom** **Insights** **Assistant**.
+
+![](./media/image41.png)
+
+**  
+**
+
+# Inténtelo usted mismo: 
+
+- Cree un agente llamado “Product Buddy” para obtener detalles de
+  productos.
+
+- Asigne la fuente de conocimiento a la biblioteca de documentos que
+  creó en “Lab 0 - Preparing for lab execution”.
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image42.png)
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image43.png)
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image44.png)
+
+![A screenshot of a computer AI-generated content may be
+incorrect.](./media/image45.png)
+
+- Pruebe el agente realizando prompts relacionados con productos para
+  validar su funcionamiento.
+
+# Resumen
+
+Al completar este laboratorio, adquirió experiencia práctica en el
+diseño, la personalización y la implementación de Copilot agents que
+proporcionan asistencia contextual alineada con el conocimiento y los
+objetivos de la organización.
