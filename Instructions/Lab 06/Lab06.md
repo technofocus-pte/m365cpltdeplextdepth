@@ -60,10 +60,10 @@ ejercicios restantes.
 1.  Abra un navegador y vaya a +++https://admin.powerplatform.com+++ e
     inicie sesión con las siguientes credenciales.
 
-- Username - <+++@lab.CloudPortalCredential(User1).Username>+++
+- Username - +++@lab.CloudPortalCredential(User1).Username+++
 
 - Temporary Access Password
-  - <+++@lab.CloudPortalCredential>(User1).TAP+++
+  - +++@lab.CloudPortalCredential(User1).TAP+++
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
@@ -106,10 +106,10 @@ Studio y lo hospedará en Microsoft 365 Copilot Chat.
     siguientes credenciales (también disponibles en la pestaña
     **Resources**).
 
-- Username - <+++@lab.CloudPortalCredential(User1).Username>+++
+- Username - +++@lab.CloudPortalCredential(User1).Username+++
 
 - Temporary Access Password
-  - <+++@lab.CloudPortalCredential>(User1).TAP+++
+  - +++@lab.CloudPortalCredential(User1).TAP+++
 
 2.  Seleccione **Get Started** en la pantalla **Welcome to Microsoft
     Copilot Studio**.
@@ -438,4 +438,5 @@ de forma segura el conocimiento empresarial y mejoran la productividad
 mediante IA conversacional dentro de Microsoft 365
 
 .
+
 
