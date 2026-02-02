@@ -44,25 +44,25 @@ trabajar con aplicaciones basadas en datos.
     +++https://www.microsoft.com/en-us/power-platform/products/power-apps+++
     y seleccione el botón **Try for Free**.
 
-        ![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
 
 2.  Ingrese +++@lab.CloudPortalCredential(User1).Username+++. Seleccione
     la **casilla** y seleccione **Start free**. Seleccione el país de
     origen.
 
-        ![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image2.png)
 
 3.  Ingrese el Temporary Access
     Pass+++@lab.CloudPortalCredential(User1).TAP+++
 
-        ![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image3.png)
 
 4.  Seleccione **Get Started**.
 
-        ![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image4.png)
 
 ### Tarea 2: Actualizar la configuración del entorno Developer
