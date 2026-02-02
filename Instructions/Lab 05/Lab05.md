@@ -1,6 +1,6 @@
 # Laboratorio 05: Crear un Copilot Agent en SharePoint
 
-Duración del laboratorio: 10-15 minutos
+Duración estimada: *15 - 20 minutos*
 
 ## Introducción
 
