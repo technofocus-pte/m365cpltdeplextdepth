@@ -41,7 +41,7 @@ trabajar con aplicaciones basadas en datos.
 ### Tarea 1: Iniciar sesión en Power Apps
 
 1.  Navegue al sitio web de Power Apps
-    +++<https://www.microsoft.com/en-us/power-platform/products/power-apps+++>
+    +++https://www.microsoft.com/en-us/power-platform/products/power-apps+++
     y seleccione el botón **Try for Free**.
 
 ![A screenshot of a computer AI-generated content may be
@@ -68,7 +68,7 @@ incorrect.](./media/image4.png)
 ### Tarea 2: Actualizar la configuración del entorno Developer
 
 1.  Desde una nueva pestaña del navegador, abra el Power Platform admin
-    center - +++<https://admin.powerplatform.microsoft.com/home+++> e
+    center - +++https://admin.powerplatform.microsoft.com/home+++ e
     inicie sesión con sus credenciales si se le solicita.
 
 - +++@lab.CloudPortalCredential(User1).Username+++
@@ -261,7 +261,7 @@ con IA para optimizar los flujos de trabajo de IT.
 ### Tarea 1: Crear y configurar el Contoso IT Support Agent
 
 1.  Desde una nueva pestaña, inicie sesión en
-    +++<https://copilotstudio.microsoft.com+++> con sus credenciales.
+    +++https://copilotstudio.microsoft.com+++ con sus credenciales.
     Seleccione **Get Started**.
 
 ![A screenshot of a computer AI-generated content may be
@@ -668,7 +668,7 @@ Cuando se publique un mensaje en el canal de soporte, el disparador debe
 activarse. Los participantes configurarán disparadores y finalizarán el
 agente para su implementación.
 
-1.  Abra un navegador y abra Teams +++<https://teams.microsoft.com/+++>.
+1.  Abra un navegador y abra Teams +++https://teams.microsoft.com/+++.
     Inicie sesión si se le solicita.
 
 2.  Seleccione el icono **New items** y seleccione **New Team**.
