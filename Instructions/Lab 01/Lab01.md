@@ -1,4 +1,4 @@
-# Mejore la narrativa de datos con el agente Analyst de Microsoft 365 Copilot
+# Laboratorio 01 - Mejore la narrativa de datos con el agente Analyst de Microsoft 365 Copilot
 
 Duración estimada: *10 - 15 minutos*
 
@@ -37,7 +37,7 @@ visuales (gráficos, mapas de calor, etc.).
     ![](./media/image2.png)
 
 2.  Navegue a Copilot: Abra una nueva pestaña en Microsoft Edge y vaya a
-    <https://M365copilot.com>. Inicie sesión con las credenciales de
+    https://M365copilot.com. Inicie sesión con las credenciales de
     nombre de usuario y contraseña proporcionadas en la pestaña de
     Resources en el panel derecho de su entorno de laboratorio**.**
 
