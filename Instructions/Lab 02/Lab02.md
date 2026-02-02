@@ -1,5 +1,7 @@
 # Laboratorio 02 - Use el Researcher agent para obtener insights, organizar contenido y generar resultados de calidad profesional directamente en Microsoft 365 Copilot.
 
+Duración estimada: *15 - 20 minutos*
+
 ## Descripción general
 
 - En este laboratorio, aprenderá a usar el **Researcher** **Agent** en
@@ -350,5 +352,6 @@ Ha logrado:
 
 - Crear un reporte o borrador de comunicación a partir de los hallazgos
   de la investigación.
+
 
 
