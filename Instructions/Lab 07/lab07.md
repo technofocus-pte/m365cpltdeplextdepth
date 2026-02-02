@@ -115,7 +115,7 @@ completarse después de seleccionar resolver.
 
 - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-- TAP - <+++@lab.CloudPortalCredential(User1).TAP>+++
+- TAP - +++@lab.CloudPortalCredential(User1).TAP+++
 
 ![A black background with white text AI-generated content may be
 incorrect.](./media/image11.png)
