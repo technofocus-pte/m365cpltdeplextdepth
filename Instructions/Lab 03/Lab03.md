@@ -1,5 +1,7 @@
 # Laboratorio 03 – Automatización de asistencia de conocimiento mediante Microsoft 365 Copilot Agents
 
+Duración estimada: *15 - 20 minutos*
+
 # Objetivo: 
 
 En este laboratorio, creará y configurará un agente de Copilot mediante
