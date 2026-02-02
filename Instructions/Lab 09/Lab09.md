@@ -19,7 +19,7 @@ Duración estimada - 40 minutos
 ## Exercise 1: Use natural language to create an agent
 
 1.  Abra un navegador e inicie sesión en
-    +++<https://copilotstudio.microsoft.com/+++> e inicie sesión con las
+    +++https://copilotstudio.microsoft.com/+++ e inicie sesión con las
     siguientes credenciales.
 
 - Username - +++@lab.CloudPortalCredential(User1).Username+++
