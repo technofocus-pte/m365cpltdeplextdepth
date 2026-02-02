@@ -30,7 +30,7 @@ En este ejercicio, usará la pestaña Describe en Copilot Studio para
 crear un agente básico.
 
 1.  Abra un navegador Microsoft Edge e ingrese la siguiente URL:
-    +++<https://www.office.com>+++ para ir a la página principal de la
+    +++https://www.office.com+++ para ir a la página principal de la
     **aplicación Microsoft 365 Copilot** (anteriormente Office).
 
 > **Nota**: Debe iniciar sesión (si se le solicita) usando las
