@@ -547,7 +547,7 @@ incorrect.](./media/image64.png)
     ![A screenshot of a computer program AI-generated content may be
 incorrect.](./media/image65.png)
 
-**Nota:** En algunos casos, la conexión de Dataverse no se crea
+    **Nota:** En algunos casos, la conexión de Dataverse no se crea
 automáticamente. Es posible que deba **iniciar** **sesión** nuevamente
 con sus credenciales mediante autenticación **OAuth**. Si se requiere un
 nombre de conexión, asígnele +++connect1+++. El navegador también puede
