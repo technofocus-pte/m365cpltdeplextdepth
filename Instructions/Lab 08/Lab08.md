@@ -81,7 +81,7 @@ incorrect.](./media/image5.png)
 2.  Seleccione **Manage** en el panel izquierdo y seleccione **+ New**
     debajo de **Environments**.
 
-   ![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
 
 3.  Proporcione el nombre del entorno como +++Dev One+++, seleccione el
