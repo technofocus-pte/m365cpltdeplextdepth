@@ -382,7 +382,7 @@ eficazmente a los usuarios en la solución de problemas y la escalación.
 1.  En la página de información general del agente de Contoso,
     desplácese hacia abajo y seleccione el botón **+ Add Knowledge**.
     
-![A screenshot of a computer AI-generated content may be
+    ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image46.png)
 
 2.  Seleccione **Upload file** para agregar el archivo del laboratorio
